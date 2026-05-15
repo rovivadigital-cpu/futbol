@@ -293,12 +293,18 @@ def append_to_csv(partidos, archivo):
     logging.info(f"🚀 CSV MAESTRO ACTUALIZADO: {archivo}")
 
 if __name__ == "__main__":
-    logging.info(f"Actualizando partidos de los últimos 2 días en {ARCHIVO_PARTIDOS}")
+    logging.info(f"Descargando partidos históricos en {ARCHIVO_PARTIDOS}")
 
+    fecha_inicio = datetime(2026, 1, 1).date()
     hoy = datetime.now().date()
-    fechas = [(hoy - timedelta(days=i)).strftime("%Y-%m-%d") for i in range(1, -1, -1)]
+    
+    fechas = []
+    actual = fecha_inicio
+    while actual <= hoy:
+        fechas.append(actual.strftime("%Y-%m-%d"))
+        actual += timedelta(days=1)
 
-    logging.info(f"Fechas a procesar: {fechas}")
+    logging.info(f"Fechas a procesar: {len(fechas)} días ({fechas[0]} a {fechas[-1]})")
 
     total_partidos = 0
     for fecha in fechas:
@@ -309,7 +315,7 @@ if __name__ == "__main__":
             total_partidos += len(partidos)
         time.sleep(1)
 
-    logging.info(f"\n✓ Scraper completado! Total partidos nuevos procesados: {total_partidos}")
+    logging.info(f"\n✓ Completado! Total partidos procesados: {total_partidos}")
 
 
 
