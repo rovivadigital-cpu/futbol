@@ -67,7 +67,6 @@ def es_partido_sencillos(evento: dict) -> bool:
     round_name = evento.get("roundInfo", {}).get("name", "").lower()
 
     palabras_dobles = ["doubles", "dobles", "mixed", "mixtos", "double", "doble"]
-
     for palabra in palabras_dobles:
         if palabra in tourney_name or palabra in cat_name or palabra in round_name:
             return False
@@ -133,6 +132,38 @@ def parsear_estadisticas(stats_data: dict) -> dict:
                 nombre = item.get("name", "").replace(" ", "_").lower()
                 resultado[f"{periodo_nombre}_{nombre}_home"] = formatear_valor(item.get("home"))
                 resultado[f"{periodo_nombre}_{nombre}_away"] = formatear_valor(item.get("away"))
+    return resultado
+
+def get_marcador_detallado(event_id: int, home_wins: bool) -> dict:
+    url = f"https://api.sofascore.com/api/v1/event/{event_id}"
+    data = api_get(url)
+    evento = data.get("event", {})
+
+    resultado = {}
+
+    home_score = evento.get("homeScore", {})
+    away_score = evento.get("awayScore", {})
+
+    sets_jugados = []
+    for i in range(1, 6):  # máximo 5 sets
+        key = f"period{i}"
+        home_games = home_score.get(key)
+        away_games = away_score.get(key)
+        if home_games is None or away_games is None:
+            break
+        if home_wins:
+            sets_jugados.append(f"{home_games}-{away_games}")
+        else:
+            sets_jugados.append(f"{away_games}-{home_games}")
+
+    resultado["score_detallado"] = " ".join(sets_jugados)  # ej: "6-3 6-4"
+    resultado["num_sets"] = len(sets_jugados)
+
+    for i, set_score in enumerate(sets_jugados, 1):
+        partes = set_score.split("-")
+        resultado[f"set{i}_winner"] = int(partes[0])
+        resultado[f"set{i}_loser"] = int(partes[1])
+
     return resultado
 
 def procesar_dia(fecha):
@@ -214,6 +245,14 @@ def procesar_dia(fecha):
                 "scrape_date": datetime.now().strftime("%Y%m%d"),
             }
 
+            # Marcador detallado por set
+            try:
+                marcador = get_marcador_detallado(event_id, home_wins)
+                partido.update(marcador)
+            except Exception as e:
+                logging.debug(f"No se pudo obtener marcador detallado para evento {event_id}: {e}")
+
+            # Estadísticas detalladas
             try:
                 stats_raw = api_get(f"https://api.sofascore.com/api/v1/event/{event_id}/statistics")
                 if stats_raw:
@@ -222,7 +261,7 @@ def procesar_dia(fecha):
                 logging.debug(f"No se pudieron obtener estadísticas para evento {event_id}: {e}")
 
             partidos.append(partido)
-            logging.info(f"  [{i}/{len(candidatos)}] {winner_name} vs {loser_name} ({circuito_nombre})")
+            logging.info(f"  [{i}/{len(candidatos)}] {winner_name} vs {loser_name} ({circuito_nombre}) | {partido.get('score_detallado', 'N/A')}")
 
         except Exception as e:
             logging.warning(f"Error procesando evento {evento.get('id')}: {e}")
