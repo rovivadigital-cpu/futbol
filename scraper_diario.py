@@ -83,7 +83,7 @@ def api_get(url: str, intentos: int = 4) -> dict:
 
     for i in range(1, intentos + 1):
         try:
-            time.sleep(PAUSA_ENTRE_REQUESTS + random.uniform(1.0, 3.0))
+            time.sleep(PAUSA_ENTRE_REQUESTS + random.uniform(0.3, 0.9))
             r = SESSION.get(url, timeout=30)
             if r.status_code == 200:
                 _403_consecutivos = 0
