@@ -288,6 +288,18 @@ def procesar_dia_futbol(fecha: str) -> int:
     candidatos = [e for e in eventos if es_partido_finalizado(e) and es_liga_objetivo(e)]
 
     if not candidatos:
+        if eventos:
+            muestra = eventos[:3]
+            for e in muestra:
+                s = e.get("status", {})
+                t = e.get("tournament", {})
+                t_id = t.get("uniqueTournament", {}).get("id") or t.get("id")
+                logging.info(
+                    f"  [DEBUG] status_type={s.get("type")!r} status_desc={s.get("description")!r} "
+                    f"t_id={t_id!r} t_name={t.get("name")!r} in_set={t_id in LIGAS_IDS_SET}"
+                )
+        else:
+            logging.info(f"  [DEBUG] API devolvio 0 eventos para {fecha}")
         logging.info(f"  → Sin partidos finalizados en ligas objetivo para {fecha}")
         return 0
 
@@ -361,21 +373,3 @@ def procesar_dia_futbol(fecha: str) -> int:
     return len(candidatos)
 
 # ===================== MAIN =====================
-
-if __name__ == "__main__":
-    logging.info("🚀 Iniciando Scraper Fútbol — MODO TEST (ayer + hoy)...")
-
-    hoy  = datetime.now().date()
-    ayer = hoy - timedelta(days=1)
-    fechas = [ayer.strftime("%Y-%m-%d"), hoy.strftime("%Y-%m-%d")]
-
-    logging.info(f"📅 Fechas: {fechas[0]} y {fechas[1]}")
-
-    total = 0
-    for idx, fecha in enumerate(fechas, 1):
-        logging.info(f"══════ Día {idx}/2: {fecha} ══════")
-        total += procesar_dia_futbol(fecha)
-        if idx < len(fechas):
-            time.sleep(random.uniform(5, 10))
-
-    logging.info(f"✅ ¡Completado! Total partidos: {total}")
