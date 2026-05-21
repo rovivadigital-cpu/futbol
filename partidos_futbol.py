@@ -12,38 +12,150 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 # ===================== CONFIG GENERAL =====================
 CARPETA_SALIDA = "datos"
 ARCHIVO_COOKIES = os.path.join(CARPETA_SALIDA, "cookies.txt")
-GUARDAR_CADA_N_PARTIDOS = 10
-PAUSA_ENTRE_REQUESTS = 0.6
+GUARDAR_CADA_N_PARTIDOS = 5
+PAUSA_ENTRE_REQUESTS = 2.0
 CHROME_VERSIONS = ["chrome136", "chrome131", "chrome124"]
 
 # ===================== CONFIG FÚTBOL =====================
 ARCHIVO_FUTBOL = os.path.join(CARPETA_SALIDA, "futbol_historico.csv")
 
-# TODAS LAS LIGAS
-LIGAS_DESEADAS = [
-    "libertadores", "sudamericana",
-    "champions league", "europa league", "europa conference league",
-    "premier league", "championship",
-    "laliga", "laliga 2",
-    "bundesliga", "2. bundesliga",
-    "serie a", "serie b",
-    "ligue 1", "ligue 2",
-    "mls", "nwsl",
-    "saudi pro league",
-    "liga profesional", "primera nacional",
-    "pro league", "brasileirao serie a", "brasileirao serie b",
-    "primera a apertura", "primera a clausura",
-    "k league 1", "hnl", "superliga",
-    "premiership", "veikkausliiga",
-    "j1 league", "j2 league", "virsliga",
-    "liga mx apertura", "liga mx clausura",
-    "eliteserien", "eredivisie", "ekstraklasa", "allsvenskan",
-]
+# LIGAS CON SU PAÍS (nombre de liga -> país)
+LIGAS_CON_PAIS = {
+    # CONMEBOL
+    "libertadores": "Sudamérica",
+    "sudamericana": "Sudamérica",
+    # UEFA
+    "champions league": "Europa",
+    "europa league": "Europa",
+    "europa conference league": "Europa",
+    "club world championship": "Mundial",
+    # Inglaterra
+    "premier league": "Inglaterra",
+    "championship": "Inglaterra",
+    "league one": "Inglaterra",
+    # España
+    "laliga": "España",
+    "laliga 2": "España",
+    # Alemania
+    "bundesliga": "Alemania",
+    "2. bundesliga": "Alemania",
+    # Italia
+    "serie a": "Italia",
+    "serie b": "Italia",
+    # Francia
+    "ligue 1": "Francia",
+    "ligue 2": "Francia",
+    # USA
+    "mls": "Estados Unidos",
+    "nwsl": "Estados Unidos",
+    "mls next pro": "Estados Unidos",
+    "usl championship": "Estados Unidos",
+    # Arabia Saudita
+    "saudi pro league": "Arabia Saudita",
+    # Argentina
+    "liga profesional": "Argentina",
+    "primera nacional": "Argentina",
+    # Australia
+    "a-league": "Australia",
+    "npl capital football": "Australia",
+    # Austria
+    "bundesliga": "Austria",
+    # Bélgica
+    "pro league": "Bélgica",
+    # Bolivia
+    "division profesional": "Bolivia",
+    # Brasil
+    "brasileirao serie a": "Brasil",
+    "brasileirao serie b": "Brasil",
+    # Bulgaria
+    "parva liga": "Bulgaria",
+    # República Checa
+    "1. liga": "República Checa",
+    "czech first league": "República Checa",
+    # Chile
+    "primera division": "Chile",
+    # China
+    "cfa super league": "China",
+    # Colombia
+    "primera a apertura": "Colombia",
+    "primera a clausura": "Colombia",
+    "primera b": "Colombia",
+    # Corea del Sur
+    "k league 1": "Corea del Sur",
+    # Croacia
+    "hnl": "Croacia",
+    # Dinamarca
+    "superliga": "Dinamarca",
+    # Egipto
+    "premier league": "Egipto",
+    "egyptian premier league": "Egipto",
+    # Escocia
+    "premiership": "Escocia",
+    "championship": "Escocia",
+    "scottish premiership": "Escocia",
+    # Eslovenia
+    "prvaliga": "Eslovenia",
+    # Estonia
+    "premium liiga": "Estonia",
+    # Finlandia
+    "veikkausliiga": "Finlandia",
+    # Grecia
+    "super league": "Grecia",
+    "stoiximan super league": "Grecia",
+    # Indonesia
+    "liga 1": "Indonesia",
+    # Japón
+    "j1 league": "Japón",
+    "j2 league": "Japón",
+    # Letonia
+    "virsliga": "Letonia",
+    # México
+    "liga mx apertura": "México",
+    "liga mx clausura": "México",
+    # Noruega
+    "eliteserien": "Noruega",
+    # Países Bajos
+    "eredivisie": "Países Bajos",
+    "eerste divisie": "Países Bajos",
+    # Polonia
+    "ekstraklasa": "Polonia",
+    # Rumania
+    "superliga": "Rumania",
+    # Sudáfrica
+    "premiership": "Sudáfrica",
+    # Suecia
+    "allsvenskan": "Suecia",
+    "superettan": "Suecia",
+    "damallsvenskan": "Suecia",
+    # Turquía
+    "super lig": "Turquía",
+    # Ucrania
+    "premier league": "Ucrania",
+    # Suiza
+    "super league": "Suiza",
+    # Otros
+    "austrian bundesliga": "Austria",
+    "swiss super league": "Suiza",
+    "chinese super league": "China",
+    "canadian premier league": "Canadá",
+    "philippines football league": "Filipinas",
+    "kazakhstan premier league": "Kazajistán",
+    "bahrain premier league": "Baréin",
+    "ghana premier league": "Ghana",
+    "cyprus league": "Chipre",
+    "serie a femminile": "Italia",
+    "frauen-bundesliga": "Alemania",
+    "prva liga": "Eslovenia",
+    "niké liga": "Eslovaquia",
+    "super liga": "Moldavia",
+    "liga pro serie a": "Ecuador",
+    "primera division": "Uruguay",
+}
 
 PALABRAS_EXCLUIR = [
     "women", "femenino", "femenina", "u19", "u20", "u21", "u23",
     "junior", "youth", "academy", "reserve", "sub", "femení",
-    "womens", "futsal", "beach", "amateur", "cup"
+    "womens", "futsal", "beach", "amateur", "cup", "u21", "u19"
 ]
 
 HEADERS_BASE = {
@@ -96,7 +208,7 @@ def api_get(url: str, sport: str = "football", intentos: int = 3) -> dict:
     
     for i in range(1, intentos + 1):
         try:
-            time.sleep(PAUSA_ENTRE_REQUESTS + random.uniform(0.3, 0.9))
+            time.sleep(PAUSA_ENTRE_REQUESTS + random.uniform(0.5, 1.5))
             r = SESSION.get(url, timeout=30)
             
             if r.status_code == 200:
@@ -121,115 +233,103 @@ def api_get(url: str, sport: str = "football", intentos: int = 3) -> dict:
             time.sleep(10 * i)
     return {}
 
-# ===================== CÁLCULO DE XG ESTIMADO =====================
+# ===================== ESTADÍSTICAS =====================
 
-def calcular_xG_estimado(stats: dict) -> dict:
-    """
-    Calcula xG cuando no está disponible en los datos originales
-    Basado en big chances y tiros a puerta
-    """
-    # Si ya tiene xG, no calcular
-    if stats.get("expected_goals_home") is not None and stats.get("expected_goals_away") is not None:
-        return {
-            "expected_goals_home": stats.get("expected_goals_home"),
-            "expected_goals_away": stats.get("expected_goals_away")
-        }
+def obtener_pais_liga(nombre_liga: str) -> str:
+    """Devuelve el país de la liga según el nombre"""
+    if not nombre_liga:
+        return "Desconocido"
     
-    # Obtener estadísticas disponibles
-    tiros_puerta_home = stats.get("shots_on_target_home", 0)
-    tiros_puerta_away = stats.get("shots_on_target_away", 0)
-    big_chances_home = stats.get("big_chances_home", 0)
-    big_chances_away = stats.get("big_chances_away", 0)
-    tiros_totales_home = stats.get("total_shots_home", 0)
-    tiros_totales_away = stats.get("total_shots_away", 0)
+    nombre_liga_lower = nombre_liga.lower()
     
-    # Si tiene big chances (más preciso)
-    if big_chances_home > 0 or big_chances_away > 0:
-        xG_home = (tiros_puerta_home * 0.28) + (big_chances_home * 0.35)
-        xG_away = (tiros_puerta_away * 0.28) + (big_chances_away * 0.35)
-    else:
-        # Solo con tiros a puerta
-        xG_home = tiros_puerta_home * 0.30
-        xG_away = tiros_puerta_away * 0.30
+    for clave, pais in LIGAS_CON_PAIS.items():
+        if clave in nombre_liga_lower:
+            return pais
     
-    # Limitar valores razonables
-    xG_home = min(max(xG_home, 0.0), 5.0)
-    xG_away = min(max(xG_away, 0.0), 5.0)
-    
-    return {
-        "expected_goals_home": round(xG_home, 2),
-        "expected_goals_away": round(xG_away, 2)
-    }
+    return "Desconocido"
 
-# ===================== ESTADÍSTICAS CLAVE (SOLO LO NECESARIO) =====================
-
-def parsear_estadisticas_clave(event_id: int) -> dict:
-    """
-    Extrae SOLO las estadísticas más importantes para predicción
-    Features: xG, tiros, big chances, posesión, pases precisos
-    """
+def parsear_estadisticas_completas(stats_data: dict) -> dict:
     resultado = {}
-    
-    # Solo un endpoint - el de estadísticas normales
-    url_stats = f"https://api.sofascore.com/api/v1/event/{event_id}/statistics"
-    stats_data = api_get(url_stats, sport="football")
     
     if not stats_data:
         return resultado
     
-    # Estadísticas clave para el modelo (las que pediste + algunas útiles)
-    estadisticas_deseadas = [
-        "expected_goals",      # xG - LA MÁS IMPORTANTE
-        "total_shots",
-        "shots_on_target",
-        "big_chances",
-        "ball_possession",
-        "accurate_passes",
-        "passes",              # Para calcular precisión si es necesario
-        "goalkeeper_saves",    # Calidad defensiva
-        "fouls",               # Disciplina
-        "yellow_cards",        # Disciplina
-        "corner_kicks",        # Dominio
-        "offsides",            # Tipo de ataque
-    ]
-    
     for periodo in stats_data.get("statistics", []):
         periodo_nombre = periodo.get("period", "ALL").upper()
-        
-        # Solo nos interesa el período completo (ALL)
-        if periodo_nombre != "ALL":
-            continue
         
         for grupo in periodo.get("groups", []):
             for item in grupo.get("statisticsItems", []):
                 nombre_raw = item.get("name", "")
                 nombre = nombre_raw.lower().replace(" ", "_").replace(".", "").replace("-", "_")
                 
-                # Solo guardar las estadísticas que nos interesan
-                if nombre not in estadisticas_deseadas:
-                    continue
-                
                 home_val = item.get("home", {})
                 away_val = item.get("away", {})
                 
-                # Valor home
                 if isinstance(home_val, dict):
-                    resultado[f"{nombre}_home"] = home_val.get("value", home_val.get("total", 0))
+                    home_final = home_val.get("value", home_val.get("total", 0))
+                    home_total = home_val.get("total", home_val.get("value", 0))
+                    if home_total and home_total != home_final:
+                        resultado[f"{periodo_nombre}_{nombre}_home"] = f"{home_final}/{home_total}"
+                    else:
+                        resultado[f"{periodo_nombre}_{nombre}_home"] = home_final
                 else:
-                    resultado[f"{nombre}_home"] = home_val
+                    resultado[f"{periodo_nombre}_{nombre}_home"] = home_val
                 
-                # Valor away
                 if isinstance(away_val, dict):
-                    resultado[f"{nombre}_away"] = away_val.get("value", away_val.get("total", 0))
+                    away_final = away_val.get("value", away_val.get("total", 0))
+                    away_total = away_val.get("total", away_val.get("value", 0))
+                    if away_total and away_total != away_final:
+                        resultado[f"{periodo_nombre}_{nombre}_away"] = f"{away_final}/{away_total}"
+                    else:
+                        resultado[f"{periodo_nombre}_{nombre}_away"] = away_final
                 else:
-                    resultado[f"{nombre}_away"] = away_val
+                    resultado[f"{periodo_nombre}_{nombre}_away"] = away_val
     
-    # Calcular xG si no está presente
-    xg_calculado = calcular_xG_estimado(resultado)
-    if "expected_goals_home" not in resultado:
-        resultado["expected_goals_home"] = xg_calculado["expected_goals_home"]
-    if "expected_goals_away" not in resultado:
-        resultado["expected_goals_away"] = xg_calculado["expected_goals_away"]
+    return resultado
+
+def parsear_xg_detallado(shotmap_data: dict) -> dict:
+    resultado = {
+        "home_xg_total": 0,
+        "away_xg_total": 0,
+        "home_shots": 0,
+        "away_shots": 0,
+        "home_shots_on_target": 0,
+        "away_shots_on_target": 0,
+        "home_big_chances": 0,
+        "away_big_chances": 0,
+        "home_big_chances_missed": 0,
+        "away_big_chances_missed": 0,
+        "home_xg_1st_half": 0,
+        "away_xg_1st_half": 0,
+        "home_xg_2nd_half": 0,
+        "away_xg_2nd_half": 0,
+    }
+    
+    if not shotmap_data:
+        return resultado
+    
+    summary = shotmap_data.get("summary", {})
+    if summary:
+        resultado["home_xg_total"] = summary.get("home", {}).get("xg", 0)
+        resultado["away_xg_total"] = summary.get("away", {}).get("xg", 0)
+        resultado["home_shots"] = summary.get("home", {}).get("shots", 0)
+        resultado["away_shots"] = summary.get("away", {}).get("shots", 0)
+        resultado["home_shots_on_target"] = summary.get("home", {}).get("onTarget", 0)
+        resultado["away_shots_on_target"] = summary.get("away", {}).get("onTarget", 0)
+        resultado["home_big_chances"] = summary.get("home", {}).get("bigChances", 0)
+        resultado["away_big_chances"] = summary.get("away", {}).get("bigChances", 0)
+        resultado["home_big_chances_missed"] = summary.get("home", {}).get("bigChancesMissed", 0)
+        resultado["away_big_chances_missed"] = summary.get("away", {}).get("bigChancesMissed", 0)
+    
+    periods = shotmap_data.get("periods", {})
+    if periods:
+        for period, data in periods.items():
+            if "1" in period or "FIRST" in period.upper():
+                resultado["home_xg_1st_half"] = data.get("home", {}).get("xg", 0)
+                resultado["away_xg_1st_half"] = data.get("away", {}).get("xg", 0)
+            elif "2" in period or "SECOND" in period.upper():
+                resultado["home_xg_2nd_half"] = data.get("home", {}).get("xg", 0)
+                resultado["away_xg_2nd_half"] = data.get("away", {}).get("xg", 0)
     
     return resultado
 
@@ -245,8 +345,8 @@ def es_liga_deseada(nombre_liga: str) -> bool:
         if excluir in nombre_liga_lower:
             return False
     
-    for deseada in LIGAS_DESEADAS:
-        if deseada in nombre_liga_lower:
+    for clave in LIGAS_CON_PAIS.keys():
+        if clave in nombre_liga_lower:
             return True
     
     return False
@@ -266,7 +366,6 @@ def es_partido_finalizado(evento: dict) -> bool:
 # ===================== PROCESAMIENTO =====================
 
 def procesar_dia_futbol(fecha: str) -> int:
-    """Procesa todos los partidos de fútbol de una fecha con estadísticas clave"""
     url = f"https://api.sofascore.com/api/v1/sport/football/scheduled-events/{fecha}"
     data = api_get(url, sport="football")
     
@@ -292,13 +391,6 @@ def procesar_dia_futbol(fecha: str) -> int:
             candidatos.append(e)
     
     if not candidatos:
-        ligas_vistas = set()
-        for e in eventos[:15]:
-            if es_partido_finalizado(e):
-                t = e.get("tournament", {})
-                ligas_vistas.add(t.get("name", "Unknown"))
-        if ligas_vistas:
-            logging.info(f"  ℹ️ Ligas disponibles: {', '.join(list(ligas_vistas)[:8])}")
         return 0
 
     logging.info(f"✅ {len(candidatos)} partidos encontrados")
@@ -322,10 +414,12 @@ def procesar_dia_futbol(fecha: str) -> int:
             
             tournament = evento.get("tournament", {})
             nombre_liga = tournament.get("name", "Unknown")
+            pais_liga = obtener_pais_liga(nombre_liga)
             
-            # DATOS BÁSICOS DEL PARTIDO (incluyendo resultado para target)
+            # DATOS BÁSICOS (incluyendo país)
             partido = {
                 "event_id": event_id,
+                "pais": pais_liga,
                 "liga": nombre_liga,
                 "tourney_id": tournament.get("id"),
                 "tourney_name": tournament.get("name"),
@@ -341,25 +435,31 @@ def procesar_dia_futbol(fecha: str) -> int:
                 "away_goals": int(away_goals) if away_goals else 0,
                 "home_ht_goals": h_score.get("period1", 0),
                 "away_ht_goals": a_score.get("period1", 0),
+                "home_et_goals": h_score.get("overtime"),
+                "away_et_goals": a_score.get("overtime"),
+                "home_pen_goals": h_score.get("penalties"),
+                "away_pen_goals": a_score.get("penalties"),
                 "result": "H" if int(home_goals) > int(away_goals) else ("A" if int(away_goals) > int(home_goals) else "D"),
                 "scrape_date": datetime.now().strftime("%Y-%m-%d"),
             }
             
-            # ESTADÍSTICAS CLAVE PARA EL MODELO
-            logging.info(f"  [{i:3d}/{len(candidatos)}] 📊 {home.get('name')} vs {away.get('name')}")
+            logging.info(f"  [{i:3d}/{len(candidatos)}] 📊 {home.get('name')} vs {away.get('name')} ({pais_liga})")
             
-            stats = parsear_estadisticas_clave(event_id)
-            if stats:
-                partido.update(stats)
+            # ESTADÍSTICAS
+            stats_raw = api_get(f"https://api.sofascore.com/api/v1/event/{event_id}/statistics", sport="football")
+            if stats_raw:
+                partido.update(parsear_estadisticas_completas(stats_raw))
+            
+            # xG DETALLADO
+            shotmap_raw = api_get(f"https://api.sofascore.com/api/v1/event/{event_id}/shotmap", sport="football")
+            if shotmap_raw:
+                partido.update(parsear_xg_detallado(shotmap_raw))
             
             buffer.append(partido)
             
-            # Mostrar resumen de features importantes
-            xg_h = partido.get('expected_goals_home', 'N/A')
-            xg_a = partido.get('expected_goals_away', 'N/A')
-            shots_h = partido.get('total_shots_home', 'N/A')
-            shots_a = partido.get('total_shots_away', 'N/A')
-            logging.info(f"      ✅ {home.get('name')} {home_goals}-{away_goals} {away.get('name')} | xG: {xg_h}-{xg_a} | Tiros: {shots_h}-{shots_a}")
+            home_xg = partido.get("home_xg_total", 0)
+            away_xg = partido.get("away_xg_total", 0)
+            logging.info(f"      ✅ {home.get('name')} {home_goals}-{away_goals} {away.get('name')} | xG: {home_xg} - {away_xg} | {pais_liga}")
 
             if len(buffer) >= GUARDAR_CADA_N_PARTIDOS:
                 append_to_csv(buffer, ARCHIVO_FUTBOL)
@@ -398,52 +498,62 @@ def append_to_csv(partidos: list, archivo: str):
         df_nuevo.to_csv(archivo, index=False)
         logging.info(f"💾 CSV creado con {len(df_nuevo)} registros")
 
+def cargar_fechas_procesadas(archivo: str) -> set:
+    if not os.path.exists(archivo) or os.path.getsize(archivo) == 0:
+        return set()
+    try:
+        df = pd.read_csv(archivo)
+        if 'tourney_date' in df.columns:
+            return set(df['tourney_date'].dropna().unique())
+    except Exception:
+        pass
+    return set()
+
 # ===================== MAIN =====================
 
 if __name__ == "__main__":
     logging.info("="*60)
-    logging.info("🚀 INICIANDO SCRAPER DE FÚTBOL (VERSIÓN PREDICCIÓN ML)")
+    logging.info("🚀 INICIANDO SCRAPER DE FÚTBOL (CON PAÍS Y xG)")
     logging.info("="*60)
-    logging.info(f"🎯 Ligas configuradas: {len(LIGAS_DESEADAS)}")
-    logging.info("📊 Features a recolectar:")
-    logging.info("   • expected_goals_home/away (xG)")
-    logging.info("   • total_shots_home/away")
-    logging.info("   • shots_on_target_home/away")
-    logging.info("   • big_chances_home/away")
-    logging.info("   • ball_possession_home")
-    logging.info("   • accurate_passes_home/away")
-    logging.info("   • goalkeeper_saves_home/away (opcional)")
-    logging.info("   • fouls, yellow_cards, corner_kicks, offsides")
+    logging.info(f"🎯 Ligas configuradas: {len(LIGAS_CON_PAIS)}")
     
     os.makedirs(CARPETA_SALIDA, exist_ok=True)
     
-    # ========== CONFIGURAR DÍAS A DESCARGAR ==========
-    # Cambia el número 5 por la cantidad de días que quieras
-    DIAS_A_DESCARGAR = 5  # <--- MODIFICA ESTE NÚMERO
-    
+    fecha_inicio = datetime(2026, 1, 10).date()
     hoy = datetime.now().date()
-    fechas_a_procesar = []
     
-    for i in range(DIAS_A_DESCARGAR):
-        fecha = hoy - timedelta(days=i)
-        fechas_a_procesar.append(fecha.strftime("%Y-%m-%d"))
+    fechas_procesadas = cargar_fechas_procesadas(ARCHIVO_FUTBOL)
     
-    logging.info(f"📅 Rango de fechas: {fechas_a_procesar[-1]} → {fechas_a_procesar[0]}")
-    logging.info(f"📅 Procesando {len(fechas_a_procesar)} días")
+    todas_fechas = []
+    fecha_actual = fecha_inicio
+    while fecha_actual <= hoy:
+        todas_fechas.append(fecha_actual)
+        fecha_actual += timedelta(days=1)
+    
+    fechas_a_procesar = [f for f in todas_fechas if f.strftime("%Y-%m-%d") not in fechas_procesadas]
+    
+    logging.info(f"📅 Fecha inicio: {fecha_inicio}")
+    logging.info(f"📅 Fecha actual: {hoy}")
+    logging.info(f"📅 Días a procesar: {len(fechas_a_procesar)}")
+    
+    if not fechas_a_procesar:
+        logging.info("✅ No hay fechas nuevas para procesar")
+        exit(0)
     
     total_partidos = 0
     
     for idx, fecha in enumerate(fechas_a_procesar, 1):
+        fecha_str = fecha.strftime("%Y-%m-%d")
         logging.info(f"\n{'='*50}")
-        logging.info(f"📆 [{idx}/{len(fechas_a_procesar)}] Procesando fecha: {fecha}")
+        logging.info(f"📆 [{idx}/{len(fechas_a_procesar)}] Procesando fecha: {fecha_str}")
         logging.info(f"{'='*50}")
         
-        partidos = procesar_dia_futbol(fecha)
+        partidos = procesar_dia_futbol(fecha_str)
         total_partidos += partidos
-        logging.info(f"📈 Partidos guardados hoy: {partidos}")
+        logging.info(f"📈 Partidos guardados para {fecha_str}: {partidos}")
         
         if idx < len(fechas_a_procesar):
-            pausa = random.uniform(3, 6)
+            pausa = random.uniform(3, 7)
             logging.info(f"⏱️  Esperando {pausa:.1f} segundos...")
             time.sleep(pausa)
     
@@ -456,46 +566,21 @@ if __name__ == "__main__":
         try:
             df = pd.read_csv(ARCHIVO_FUTBOL)
             logging.info(f"📊 Total en CSV: {len(df)} partidos")
-            logging.info(f"📊 Columnas totales: {len(df.columns)}")
             
             print("\n" + "="*80)
-            print("📋 FEATURES DISPONIBLES PARA TU MODELO ML:")
+            print("🏆 PARTIDOS POR PAÍS:")
             print("="*80)
+            if 'pais' in df.columns:
+                paises_count = df['pais'].value_counts()
+                for pais, count in paises_count.items():
+                    print(f"  {pais}: {count} partidos")
             
-            # Mostrar las features clave
-            features_clave = [
-                'expected_goals_home', 'expected_goals_away',
-                'total_shots_home', 'total_shots_away',
-                'shots_on_target_home', 'shots_on_target_away',
-                'big_chances_home', 'big_chances_away',
-                'ball_possession_home',
-                'accurate_passes_home', 'accurate_passes_away',
-                'home_goals', 'away_goals', 'result'
-            ]
-            
-            print("\n✅ Features disponibles para entrenamiento:")
-            for f in features_clave:
-                if f in df.columns:
-                    print(f"  ✓ {f}")
-                else:
-                    print(f"  ✗ {f} (no disponible)")
-            
-            # Mostrar un ejemplo
+            print("\n" + "="*80)
+            print("📋 EJEMPLO DE DATOS (últimos 5):")
+            print("="*80)
             if len(df) > 0:
-                print("\n" + "="*80)
-                print("🏆 EJEMPLO DE DATOS PARA ML:")
-                print("="*80)
-                ultimo = df.iloc[-1]
-                print(f"  Liga: {ultimo.get('liga', 'N/A')}")
-                print(f"  Partido: {ultimo.get('home_team_name', 'N/A')} vs {ultimo.get('away_team_name', 'N/A')}")
-                print(f"  Resultado: {int(ultimo.get('home_goals', 0))} - {int(ultimo.get('away_goals', 0))} ({ultimo.get('result', 'N/A')})")
-                print(f"\n  Features:")
-                print(f"    xG: {ultimo.get('expected_goals_home', 'N/A')} - {ultimo.get('expected_goals_away', 'N/A')}")
-                print(f"    Tiros totales: {ultimo.get('total_shots_home', 'N/A')} - {ultimo.get('total_shots_away', 'N/A')}")
-                print(f"    Tiros a puerta: {ultimo.get('shots_on_target_home', 'N/A')} - {ultimo.get('shots_on_target_away', 'N/A')}")
-                print(f"    Big chances: {ultimo.get('big_chances_home', 'N/A')} - {ultimo.get('big_chances_away', 'N/A')}")
-                print(f"    Posesión: {ultimo.get('ball_possession_home', 'N/A')}%")
-                print(f"    Pases precisos: {ultimo.get('accurate_passes_home', 'N/A')} - {ultimo.get('accurate_passes_away', 'N/A')}")
+                for _, row in df.tail(5).iterrows():
+                    print(f"  {row.get('tourney_date', 'N/A')} | {row.get('pais', 'N/A'):15} | {row.get('liga', 'N/A')[:30]:30} | {row.get('home_team_name', 'N/A')} {int(row.get('home_goals', 0))}-{int(row.get('away_goals', 0))} {row.get('away_team_name', 'N/A')}")
                 
         except Exception as e:
             logging.warning(f"No se pudo leer el CSV: {e}")
