@@ -19,20 +19,120 @@ CHROME_VERSIONS = ["chrome136", "chrome131", "chrome124"]
 # ===================== CONFIG FÚTBOL =====================
 ARCHIVO_FUTBOL = os.path.join(CARPETA_SALIDA, "futbol_historico.csv")
 
-# Nombres de las ligas que queremos (coincidencia parcial)
+# TODAS LAS LIGAS (usando nombres para coincidencia parcial)
 LIGAS_DESEADAS = [
-    "premier league",
-    "laliga",
-    "bundesliga",
-    "serie a",
-    "ligue 1",
-    "champions league",
+    # CONMEBOL
     "libertadores",
+    "sudamericana",
+    # UEFA
+    "champions league",
+    "europa league",
+    "europa conference league",
+    "club world championship",
+    # Inglaterra
+    "premier league",
+    "championship",
+    "league one",
+    # España
+    "laliga",
+    "laliga 2",
+    # Alemania
+    "bundesliga",
+    "2. bundesliga",
+    # Italia
+    "serie a",
+    "serie b",
+    # Francia
+    "ligue 1",
+    "ligue 2",
+    # USA
     "mls",
-    "eredivisie",
-    "brasileirao",
+    "nwsl",
+    # Arabia Saudita
+    "saudi pro league",
+    # Argentina
+    "liga profesional",
+    "primera nacional",
+    # Australia
+    "a-league",
+    "npl capital football",
+    # Austria
+    "bundesliga",
+    # Bélgica
+    "pro league",
+    # Bolivia
+    "division profesional",
+    # Brasil
+    "brasileirao serie a",
+    "brasileirao serie b",
+    # Bulgaria
+    "parva liga",
+    # República Checa
+    "1. liga",
+    # Chile
     "primera division",
-    "ligapro",
+    # China
+    "cfa super league",
+    # Colombia
+    "primera a apertura",
+    "primera a clausura",
+    "primera b",
+    # Corea del Sur
+    "k league 1",
+    # Croacia
+    "hnl",
+    # Dinamarca
+    "superliga",
+    # Egipto
+    "premier league",
+    # Escocia
+    "premiership",
+    "championship",
+    # Eslovenia
+    "prvaliga",
+    # Estonia
+    "premium liiga",
+    # Finlandia
+    "veikkausliiga",
+    # Grecia
+    "super league",
+    # Indonesia
+    "liga 1",
+    # Japón
+    "j1 league",
+    "j2 league",
+    # Letonia
+    "virsliga",
+    # México
+    "liga mx apertura",
+    "liga mx clausura",
+    # Noruega
+    "eliteserien",
+    # Países Bajos
+    "eredivisie",
+    "eerste divisie",
+    # Polonia
+    "ekstraklasa",
+    # Rumania
+    "superliga",
+    # Sudáfrica
+    "premiership",
+    # Suecia
+    "allsvenskan",
+    "superettan",
+    # Turquía
+    "super lig",
+    # Ucrania
+    "premier league",
+    # Suiza
+    "super league",
+]
+
+# Palabras a EXCLUIR (para evitar ligas no deseadas como femenino, juvenil, etc.)
+PALABRAS_EXCLUIR = [
+    "women", "femenino", "femenina", "u19", "u20", "u21", "u23",
+    "junior", "youth", "academy", "reserve", "sub", "femení",
+    "womens", "futsal", "beach", "amateur", "cup", "copa"
 ]
 
 HEADERS_BASE = {
@@ -114,10 +214,19 @@ def es_liga_deseada(nombre_liga: str) -> bool:
     """Verifica si el nombre de la liga coincide con alguna deseada"""
     if not nombre_liga:
         return False
+    
     nombre_liga_lower = nombre_liga.lower()
+    
+    # Excluir ligas no deseadas
+    for excluir in PALABRAS_EXCLUIR:
+        if excluir in nombre_liga_lower:
+            return False
+    
+    # Verificar si coincide con alguna liga deseada
     for deseada in LIGAS_DESEADAS:
         if deseada in nombre_liga_lower:
             return True
+    
     return False
 
 def es_partido_finalizado(evento: dict) -> bool:
@@ -241,9 +350,13 @@ def append_to_csv(partidos: list, archivo: str):
     if os.path.exists(archivo) and os.path.getsize(archivo) > 0:
         try:
             df_viejo = pd.read_csv(archivo)
-            df_final = pd.concat([df_viejo, df_nuevo]).drop_duplicates(subset=["event_id"], keep="last")
-            df_final.to_csv(archivo, index=False)
-            logging.info(f"💾 CSV actualizado: {len(df_final)} registros")
+            if len(df_viejo) > 0:
+                df_final = pd.concat([df_viejo, df_nuevo]).drop_duplicates(subset=["event_id"], keep="last")
+                df_final.to_csv(archivo, index=False)
+                logging.info(f"💾 CSV actualizado: {len(df_final)} registros")
+            else:
+                df_nuevo.to_csv(archivo, index=False)
+                logging.info(f"💾 CSV creado con {len(df_nuevo)} registros")
         except Exception as e:
             logging.error(f"Error al leer CSV: {e}")
             df_nuevo.to_csv(archivo, index=False)
@@ -257,6 +370,7 @@ if __name__ == "__main__":
     logging.info("="*60)
     logging.info("🚀 INICIANDO SCRAPER DE FÚTBOL")
     logging.info("="*60)
+    logging.info(f"🎯 Ligas configuradas: {len(LIGAS_DESEADAS)}")
     
     os.makedirs(CARPETA_SALIDA, exist_ok=True)
     
@@ -297,10 +411,10 @@ if __name__ == "__main__":
             
             if len(df) > 0:
                 print("\n" + "="*80)
-                print("🏆 PARTIDOS GUARDADOS:")
+                print("🏆 PARTIDOS GUARDADOS (últimos 20):")
                 print("="*80)
-                for _, row in df.iterrows():
-                    print(f"  {row['tourney_date']} | {row['liga'][:35]:35} | {row['home_team_name']} {int(row['home_goals'])}-{int(row['away_goals'])} {row['away_team_name']}")
+                for _, row in df.tail(20).iterrows():
+                    print(f"  {row['tourney_date']} | {row['liga'][:40]:40} | {row['home_team_name']} {int(row['home_goals'])}-{int(row['away_goals'])} {row['away_team_name']}")
                 print("="*80)
         except Exception as e:
             logging.warning(f"No se pudo leer el CSV: {e}")
