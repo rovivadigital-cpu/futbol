@@ -519,7 +519,7 @@ if __name__ == "__main__":
     
     os.makedirs(CARPETA_SALIDA, exist_ok=True)
     
-    fecha_inicio = datetime(2026, 1, 10).date()
+    fecha_inicio = datetime(2026, 1, 1).date()
     hoy = datetime.now().date()
     
     fechas_procesadas = cargar_fechas_procesadas(ARCHIVO_FUTBOL)
