@@ -37,6 +37,17 @@ jobs:
           echo "IP actual:"
           curl -4 ifconfig.me
 
+          - name: Verificar archivo
+             run: |
+                   echo "=== Contenido del directorio ==="
+                   ls -la
+                   echo "=== Primeras 10 líneas del script ==="
+                   head -10 partidos_futbol.py
+                   echo "=== Python version ==="
+                   python --version
+
+
+
       - name: Ejecutar scraper diario de partidos
         run: python partidos_futbol.py
 
