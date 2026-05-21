@@ -294,9 +294,12 @@ def procesar_dia_futbol(fecha: str) -> int:
                 s = e.get("status", {})
                 t = e.get("tournament", {})
                 t_id = t.get("uniqueTournament", {}).get("id") or t.get("id")
+                st = s.get("type")
+                sd = s.get("description")
+                tn = t.get("name")
                 logging.info(
-                    f"  [DEBUG] status_type={s.get("type")!r} status_desc={s.get("description")!r} "
-                    f"t_id={t_id!r} t_name={t.get("name")!r} in_set={t_id in LIGAS_IDS_SET}"
+                    f"  [DEBUG] status_type={st!r} status_desc={sd!r} "
+                    f"t_id={t_id!r} t_name={tn!r} in_set={t_id in LIGAS_IDS_SET}"
                 )
         else:
             logging.info(f"  [DEBUG] API devolvio 0 eventos para {fecha}")
