@@ -44,7 +44,7 @@ jobs:
           python --version
 
       - name: Ejecutar scraper
-        run: python partidos_futbol.py
+        run: python -u partidos_futbol.py 2>&1
 
       - name: Guardar datos en repositorio
         if: always()
