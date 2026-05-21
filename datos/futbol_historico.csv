@@ -1,1 +1,36 @@
-
+event_id,liga,tourney_id,tourney_name,tourney_date,round,home_team_name,away_team_name,home_team_id,away_team_id,home_goals,away_goals,result,scrape_date
+14023936,Premier League,1,Premier League,2026-05-20,Unknown,Bournemouth,Manchester City,60,17,1,1,D,2026-05-21
+16087727,Premier League,1,Premier League,2026-05-20,Unknown,Chelsea,Tottenham Hotspur,38,33,2,1,H,2026-05-21
+15832784,"CONMEBOL Libertadores, Group B",2929,"CONMEBOL Libertadores, Group B",2026-05-20,Unknown,Coquimbo Unido,Deportes Tolima,3165,6111,3,0,H,2026-05-21
+15832811,"CONMEBOL Libertadores, Group C",2930,"CONMEBOL Libertadores, Group C",2026-05-20,Unknown,Fluminense,Bolívar,1961,7059,2,1,H,2026-05-21
+15832841,"CONMEBOL Libertadores, Group D",2931,"CONMEBOL Libertadores, Group D",2026-05-20,Unknown,Boca Juniors,Cruzeiro,3202,1954,1,1,D,2026-05-21
+15832826,"CONMEBOL Libertadores, Group E",2932,"CONMEBOL Libertadores, Group E",2026-05-20,Unknown,Independiente Santa Fe,Club Atlético Platense,6116,36837,2,1,H,2026-05-21
+15832833,"CONMEBOL Libertadores, Group G",2934,"CONMEBOL Libertadores, Group G",2026-05-20,Unknown,Club Always Ready,Mirassol,268083,21982,1,2,A,2026-05-21
+15832838,"CONMEBOL Libertadores, Group H",2935,"CONMEBOL Libertadores, Group H",2026-05-20,Unknown,Rosario Central,Universidad Central,3217,249952,4,0,H,2026-05-21
+15832837,"CONMEBOL Libertadores, Group H",2935,"CONMEBOL Libertadores, Group H",2026-05-20,Unknown,Independiente del Valle,Libertad,39723,5996,4,1,H,2026-05-21
+16194352,"Austrian Bundesliga, Europa League Playoffs",72932,"Austrian Bundesliga, Europa League Playoffs",2026-05-20,Semifinals,SV Ried,Wolfsberger AC,2049,2076,2,1,H,2026-05-21
+16139515,Ligue 1,3657,Ligue 1,2026-05-20,Unknown,ES Ben Aknoun,ES Mostaganem,133444,186100,3,0,H,2026-05-21
+16142096,Ligue 1,3657,Ligue 1,2026-05-20,Unknown,MB Rouissat,Paradou AC,238383,212197,2,1,H,2026-05-21
+16139516,Ligue 1,3657,Ligue 1,2026-05-20,Unknown,CS Constantine,USM Khenchela,55393,238384,2,2,D,2026-05-21
+16139512,Ligue 1,3657,Ligue 1,2026-05-20,Unknown,USM Alger,Olympique Akbou,42206,306567,1,0,H,2026-05-21
+15466484,"AFC Champions League, Women, Knockout Stage",144048,"AFC Champions League, Women, Knockout Stage",2026-05-20,Semifinals,Melbourne City,Nippon TV Tokyo Verdy Beleza,207680,216778,1,3,A,2026-05-21
+16005517,"Premier League, Championship Round",10812,"Premier League, Championship Round",2026-05-20,Unknown,Hapoel Be'er Sheva,Maccabi Tel Aviv,5202,5198,4,2,H,2026-05-21
+16005519,"Premier League, Championship Round",10812,"Premier League, Championship Round",2026-05-20,Unknown,Hapoel Petach Tikva,Beitar Jerusalem,5199,5204,0,0,D,2026-05-21
+16005511,"Premier League, Championship Round",10812,"Premier League, Championship Round",2026-05-20,Unknown,Maccabi Haifa,Hapoel Tel Aviv,5197,5396,4,1,H,2026-05-21
+15832764,"CONMEBOL Libertadores, Group A",2928,"CONMEBOL Libertadores, Group A",2026-05-21,Unknown,Flamengo,Estudiantes de La Plata,5981,3206,1,0,H,2026-05-21
+15832765,"CONMEBOL Libertadores, Group A",2928,"CONMEBOL Libertadores, Group A",2026-05-21,Unknown,Cusco FC,Independiente Medellín,63760,6115,0,1,A,2026-05-21
+15832783,"CONMEBOL Libertadores, Group B",2929,"CONMEBOL Libertadores, Group B",2026-05-21,Unknown,Nacional,Universitario de Deportes,3230,2305,0,0,D,2026-05-21
+15832827,"CONMEBOL Libertadores, Group F",2933,"CONMEBOL Libertadores, Group F",2026-05-21,Unknown,Palmeiras,Cerro Porteño,1963,5991,0,1,A,2026-05-21
+15832828,"CONMEBOL Libertadores, Group F",2933,"CONMEBOL Libertadores, Group F",2026-05-21,Unknown,Junior Barranquilla,Club Sporting Cristal,6105,2302,3,1,H,2026-05-21
+15832832,"CONMEBOL Libertadores, Group G",2934,"CONMEBOL Libertadores, Group G",2026-05-21,Unknown,LDU,CA Lanús,5257,3218,2,0,H,2026-05-21
+16138371,"Egyptian Premier League, Championship Round",36552,"Egyptian Premier League, Championship Round",2026-05-21,Unknown,Al-Masry,Al Ahly FC,43560,6910,0,2,A,2026-05-21
+16150283,"Egyptian Premier League, Championship Round",36552,"Egyptian Premier League, Championship Round",2026-05-21,Unknown,Pyramids FC,Smouha,175002,43563,2,1,H,2026-05-21
+16146140,"Egyptian Premier League, Championship Round",36552,"Egyptian Premier League, Championship Round",2026-05-21,Unknown,Zamalek SC,Cleopatra FC,42368,371622,1,0,H,2026-05-21
+15420981,MLS Next Pro,99616,MLS Next Pro,2026-05-21,Unknown,Real Monarchs SLC,Colorado Rapids 2,197064,411369,2,0,H,2026-05-21
+16197323,"Premier League, Relegation/Promotion",20646,"Premier League, Relegation/Promotion",2026-05-21,Final,Ural Yekaterinburg,Dinamo Makhachkala,7529,362016,0,1,A,2026-05-21
+16197324,"Premier League, Relegation/Promotion",20646,"Premier League, Relegation/Promotion",2026-05-21,Final,Rotor Volgograd,Akron Togliatti,2318,285689,0,2,A,2026-05-21
+16139513,Ligue 1,3657,Ligue 1,2026-05-21,Unknown,ASO Chlef,JS Kabylie,42201,42202,1,2,A,2026-05-21
+16139514,Ligue 1,3657,Ligue 1,2026-05-21,Unknown,ES Sétif,MC Alger,41756,42204,1,0,H,2026-05-21
+16139517,Ligue 1,3657,Ligue 1,2026-05-21,Unknown,MC El Bayadh,JS Saoura,133466,79565,0,0,D,2026-05-21
+16139518,Ligue 1,3657,Ligue 1,2026-05-21,Unknown,CR Belouizdad,MC Oran,42207,45001,3,1,H,2026-05-21
+15466485,"AFC Champions League, Women, Knockout Stage",144048,"AFC Champions League, Women, Knockout Stage",2026-05-21,Semifinals,Naegohyang FC,Suwon WFC,1103748,191917,2,1,H,2026-05-21
