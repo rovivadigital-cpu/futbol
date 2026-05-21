@@ -13,8 +13,7 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 CARPETA_SALIDA = "datos"
 ARCHIVO_COOKIES = os.path.join(CARPETA_SALIDA, "cookies.txt")
 GUARDAR_CADA_N_PARTIDOS = 10
-PAUSA_ENTRE_REQUESTS = 1.5  # Aumentado para evitar bloqueos
-ESTADOS_FINALIZADOS = {"finished", "completed", "ended", "closed", "final", "done", "ft", "fulltime"}
+PAUSA_ENTRE_REQUESTS = 1.5
 CHROME_VERSIONS = ["chrome136", "chrome131", "chrome124"]
 
 # ===================== CONFIG FÚTBOL =====================
@@ -24,67 +23,14 @@ ARCHIVO_FUTBOL = os.path.join(CARPETA_SALIDA, "futbol_historico.csv")
 LIGAS_FUTBOL = {
     "CONMEBOL Libertadores":        87760,
     "UEFA Champions League":        76953,
-    "Club World Championship":      69619,
-    "UEFA Europa League":           76984,
-    "UEFA Conference League":       76960,
     "Premier League":               76986,
-    "Championship":                 77347,
-    "League One":                   77352,
     "La Liga":                      77559,
-    "LaLiga 2":                     77558,
     "Bundesliga":                   77333,
-    "2. Bundesliga":                77354,
     "Serie A":                      76457,
-    "Serie B":                      79502,
     "Ligue 1":                      77356,
-    "Ligue 2":                      77357,
     "MLS":                          86668,
-    "NWSL":                         88711,
-    "CONMEBOL Sudamericana":        87770,
-    "Saudi Pro League":             80443,
-    "Liga Profesional Argentina":   87913,
-    "Primera Nacional Argentina":   87940,
-    "A-League Men":                 82603,
-    "NPL Capital Football":         90775,
-    "Austrian Bundesliga":          77382,
-    "Belgian Pro League":           77040,
-    "Bolivian División Profesional":92509,
-    "Brasileirao Serie A":          87678,
-    "Brasileirao Serie B":          89840,
-    "Bulgarian Parva Liga":         76882,
-    "Czech 1. Liga":                77019,
-    "Chilean Primera División":     88493,
-    "Chinese Super League":         90049,
-    "Colombia Primera A Apertura":  88503,
-    "Colombia Primera A Clausura":  77825,
-    "Colombia Primera B":           89001,
-    "K League 1":                   88606,
-    "HNL Croatia":                  76980,
-    "Danish Superliga":             76491,
-    "Egyptian Premier League":      79317,
-    "Scottish Premiership":         77128,
-    "Scottish Championship":        77037,
-    "Slovenian PrvaLiga":           77283,
-    "Estonian Premium Liiga":       89137,
-    "Finnish Veikkausliiga":        87930,
-    "Greek Super League":           78175,
-    "Indonesian Liga 1":            78590,
-    "J1 League":                    87931,
-    "J2 League":                    87932,
-    "Latvian Virsliga":             89428,
-    "Liga MX Apertura":             76500,
-    "Liga MX Clausura":             87699,
-    "Norwegian Eliteserien":        87809,
     "Eredivisie":                   77012,
-    "Eerste Divisie":               77156,
-    "Ekstraklasa":                  76477,
-    "Romanian Superliga":           77312,
-    "South African Premiership":    79701,
-    "Allsvenskan":                  87925,
-    "Superettan":                   87924,
-    "Turkish Süper Lig":            77805,
-    "Ukrainian Premier League":     77625,
-    "Swiss Super League":           77152,
+    "Brasileirao Serie A":          87678,
 }
 
 # Set de IDs para filtrado rápido
@@ -93,7 +39,7 @@ LIGAS_IDS_SET = set(LIGAS_FUTBOL.values())
 HEADERS_BASE = {
     "Accept": "application/json, text/plain, */*",
     "Accept-Language": "en-US,en;q=0.9,es;q=0.8",
-    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Accept-Encoding": "gzip, deflate, br",
     "Cache-Control": "no-cache",
     "Pragma": "no-cache",
     "Origin": "https://www.sofascore.com",
@@ -104,8 +50,7 @@ HEADERS_BASE = {
     "sec-ch-ua-platform": '"Windows"',
     "Sec-Fetch-Dest": "empty",
     "Sec-Fetch-Mode": "cors",
-    "Sec-Fetch-Site": "same-origin",
-    "priority": "u=1, i",
+    "Sec-Fetch-Site": "same-site",
     "Connection": "keep-alive",
 }
 
@@ -203,37 +148,62 @@ def parsear_estadisticas(stats_data: dict) -> dict:
     return resultado
 
 def es_partido_finalizado(evento: dict) -> bool:
+    """Verifica si un partido ha finalizado"""
     status = evento.get("status", {})
-    status_code = status.get("code")
     
-    # Código 100 = finalizado en SofaScore
-    if status_code == 100:
+    # Verificar por código de estado
+    status_code = status.get("code")
+    if status_code == 100:  # 100 = finalizado en SofaScore
         return True
     
-    status_text = str(status.get("description", "")).lower()
-    return any(s in status_text for s in ["finished", "ended", "ft", "fulltime"])
+    # Verificar por descripción
+    status_desc = str(status.get("description", "")).lower()
+    finished_keywords = ["finished", "ended", "ft", "full time", "after et", "after penalties"]
+    
+    if any(keyword in status_desc for keyword in finished_keywords):
+        return True
+    
+    # Verificar por tipo
+    status_type = str(status.get("type", "")).lower()
+    if status_type in ["finished", "completed", "ended"]:
+        return True
+    
+    # DEBUG: Mostrar estado de los primeros partidos
+    return False
 
 def es_liga_objetivo(evento: dict) -> bool:
-    t = evento.get("tournament", {})
-    t_id = t.get("uniqueTournament", {}).get("id") or t.get("id")
+    """Verifica si el partido pertenece a una liga objetivo"""
+    tournament = evento.get("tournament", {})
+    
+    # Intentar obtener el ID del torneo de diferentes formas
+    t_id = tournament.get("uniqueTournament", {}).get("id")
+    if not t_id:
+        t_id = tournament.get("id")
+    if not t_id:
+        t_id = tournament.get("tournamentId")
+    
     return t_id in LIGAS_IDS_SET
 
 def obtener_nombre_liga(evento: dict) -> str:
-    t_id = evento.get("tournament", {}).get("uniqueTournament", {}).get("id") \
-        or evento.get("tournament", {}).get("id")
+    """Devuelve el nombre legible de la liga"""
+    tournament = evento.get("tournament", {})
+    t_id = tournament.get("uniqueTournament", {}).get("id") or tournament.get("id")
+    
     for nombre, lid in LIGAS_FUTBOL.items():
         if lid == t_id:
             return nombre
-    return evento.get("tournament", {}).get("name", "Unknown")
+    
+    return tournament.get("name", "Unknown")
 
 def parsear_goles_detallados(incidents_data: dict) -> dict:
+    """Extrae goleadores y tarjetas rojas"""
     resultado = {
         "home_scorers": "",
         "away_scorers": "",
         "home_own_goals": "",
         "away_own_goals": "",
-        "home_red_cards_players": "",
-        "away_red_cards_players": "",
+        "home_red_cards": "",
+        "away_red_cards": "",
     }
     if not incidents_data:
         return resultado
@@ -274,13 +244,15 @@ def parsear_goles_detallados(incidents_data: dict) -> dict:
     resultado["away_scorers"] = "; ".join(away_scorers)
     resultado["home_own_goals"] = "; ".join(home_og)
     resultado["away_own_goals"] = "; ".join(away_og)
-    resultado["home_red_cards_players"] = "; ".join(home_red)
-    resultado["away_red_cards_players"] = "; ".join(away_red)
+    resultado["home_red_cards"] = "; ".join(home_red)
+    resultado["away_red_cards"] = "; ".join(away_red)
     return resultado
 
 def append_to_csv(partidos: list, archivo: str):
+    """Guarda partidos en CSV evitando duplicados"""
     if not partidos:
         return
+    
     os.makedirs(os.path.dirname(archivo), exist_ok=True)
     df_nuevo = pd.DataFrame(partidos)
     
@@ -288,13 +260,15 @@ def append_to_csv(partidos: list, archivo: str):
         try:
             df_viejo = pd.read_csv(archivo)
             df_final = pd.concat([df_viejo, df_nuevo]).drop_duplicates(subset=["event_id"], keep="last")
-        except:
-            df_final = df_nuevo
+            df_final.to_csv(archivo, index=False)
+            logging.info(f"💾 CSV actualizado: {len(df_final)} registros totales")
+        except Exception as e:
+            logging.error(f"Error al leer CSV: {e}")
+            df_nuevo.to_csv(archivo, index=False)
+            logging.info(f"💾 CSV creado con {len(df_nuevo)} registros")
     else:
-        df_final = df_nuevo
-    
-    df_final.to_csv(archivo, index=False)
-    logging.info(f"💾 CSV actualizado: {len(df_final)} registros totales")
+        df_nuevo.to_csv(archivo, index=False)
+        logging.info(f"💾 CSV creado con {len(df_nuevo)} registros")
 
 def procesar_dia_futbol(fecha: str) -> int:
     """Procesa todos los partidos de fútbol de una fecha específica"""
@@ -308,23 +282,32 @@ def procesar_dia_futbol(fecha: str) -> int:
     eventos = data.get("events", [])
     logging.info(f"📊 Total eventos en API para {fecha}: {len(eventos)}")
     
+    if not eventos:
+        logging.warning(f"No hay eventos para {fecha}")
+        return 0
+    
     # Filtrar partidos finalizados de ligas objetivo
     candidatos = []
+    
+    # DEBUG: Mostrar primeros 3 eventos para ver estructura
+    for idx, e in enumerate(eventos[:3]):
+        status = e.get("status", {})
+        tourney = e.get("tournament", {})
+        t_id = tourney.get("uniqueTournament", {}).get("id") or tourney.get("id")
+        status_desc = status.get("description", "unknown")
+        status_code = status.get("code", "?")
+        logging.info(f"  [DEBUG] Evento {idx+1}: {e.get('homeTeam', {}).get('name')} vs {e.get('awayTeam', {}).get('name')} | Status: {status_desc} (code:{status_code}) | Liga ID: {t_id}")
+    
+    # Filtrar
     for e in eventos:
         if es_partido_finalizado(e) and es_liga_objetivo(e):
             candidatos.append(e)
     
     if not candidatos:
-        logging.warning(f"⚠️ No hay partidos finalizados en ligas objetivo para {fecha}")
-        # Mostrar sample de ligas disponibles para debug
-        ligas_sample = set()
-        for e in eventos[:10]:
-            t = e.get("tournament", {})
-            t_name = t.get("name")
-            if t_name:
-                ligas_sample.add(t_name)
-        if ligas_sample:
-            logging.info(f"   Ligas disponibles (sample): {', '.join(list(ligas_sample)[:5])}")
+        # Mostrar cuántos partidos finalizados hay (aunque no sean de ligas objetivo)
+        finalizados = [e for e in eventos if es_partido_finalizado(e)]
+        logging.info(f"  ℹ️ Partidos finalizados totales: {len(finalizados)}")
+        logging.info(f"  ℹ️ Partidos de ligas objetivo: {len([e for e in eventos if es_liga_objetivo(e)])}")
         return 0
 
     logging.info(f"✅ {len(candidatos)} partidos encontrados para {fecha}")
@@ -340,48 +323,44 @@ def procesar_dia_futbol(fecha: str) -> int:
 
             home_goals = h_score.get("current", h_score.get("normaltime", 0)) or 0
             away_goals = a_score.get("current", a_score.get("normaltime", 0)) or 0
-            home_ht = h_score.get("period1", "?")
-            away_ht = a_score.get("period1", "?")
-            home_et = h_score.get("overtime")
-            away_et = a_score.get("overtime")
-            home_pen = h_score.get("penalties")
-            away_pen = a_score.get("penalties")
+            
+            # Si no hay goles en current, intentar con display
+            if home_goals == 0:
+                home_goals = h_score.get("display", 0)
+            if away_goals == 0:
+                away_goals = a_score.get("display", 0)
 
             liga_nombre = obtener_nombre_liga(evento)
-
-            # Obtener estadísticas e incidentes
-            stats_raw = api_get(f"https://api.sofascore.com/api/v1/event/{event_id}/statistics", sport="football")
-            incidents_raw = api_get(f"https://api.sofascore.com/api/v1/event/{event_id}/incidents", sport="football")
 
             partido = {
                 "event_id": event_id,
                 "liga": liga_nombre,
-                "tourney_id": evento.get("tournament", {}).get("uniqueTournament", {}).get("id")
-                              or evento.get("tournament", {}).get("id"),
                 "tourney_name": evento.get("tournament", {}).get("name"),
                 "tourney_date": fecha,
                 "round": evento.get("roundInfo", {}).get("name", "Unknown"),
-                "season": evento.get("season", {}).get("name", "Unknown"),
-                "home_team_id": home.get("id"),
                 "home_team_name": home.get("name"),
-                "away_team_id": away.get("id"),
                 "away_team_name": away.get("name"),
                 "home_goals": int(home_goals),
                 "away_goals": int(away_goals),
-                "home_ht": home_ht,
-                "away_ht": away_ht,
-                "home_et": home_et,
-                "away_et": away_et,
-                "home_pen": home_pen,
-                "away_pen": away_pen,
                 "result": "H" if int(home_goals) > int(away_goals) else ("A" if int(away_goals) > int(home_goals) else "D"),
                 "scrape_date": datetime.now().strftime("%Y-%m-%d"),
             }
 
-            if stats_raw:
-                partido.update(parsear_estadisticas(stats_raw))
+            # Intentar obtener estadísticas (opcional)
+            try:
+                stats_raw = api_get(f"https://api.sofascore.com/api/v1/event/{event_id}/statistics", sport="football")
+                if stats_raw:
+                    partido.update(parsear_estadisticas(stats_raw))
+            except:
+                pass
 
-            partido.update(parsear_goles_detallados(incidents_raw))
+            # Intentar obtener incidentes (opcional)
+            try:
+                incidents_raw = api_get(f"https://api.sofascore.com/api/v1/event/{event_id}/incidents", sport="football")
+                if incidents_raw:
+                    partido.update(parsear_goles_detallados(incidents_raw))
+            except:
+                pass
 
             buffer.append(partido)
             logging.info(f"  [{i:3d}/{len(candidatos)}] ✅ {home.get('name')} {home_goals}-{away_goals} {away.get('name')} | {liga_nombre}")
@@ -426,10 +405,10 @@ if __name__ == "__main__":
         total_partidos += partidos
         logging.info(f"📈 Partidos guardados para {fecha}: {partidos}")
         
-        # Pausa entre días (excepto después del último)
+        # Pausa entre días
         if idx < len(fechas_a_procesar):
             pausa = random.uniform(3, 7)
-            logging.info(f"⏱️  Esperando {pausa:.1f} segundos antes del siguiente día...")
+            logging.info(f"⏱️  Esperando {pausa:.1f} segundos...")
             time.sleep(pausa)
     
     # Resumen final
@@ -439,18 +418,22 @@ if __name__ == "__main__":
     logging.info(f"⚽ Total partidos descargados: {total_partidos}")
     logging.info(f"📁 Datos guardados en: {ARCHIVO_FUTBOL}")
     
-    # Mostrar resumen de datos
+    # Mostrar resumen de datos (solo si el archivo existe y tiene datos)
     if os.path.exists(ARCHIVO_FUTBOL) and os.path.getsize(ARCHIVO_FUTBOL) > 0:
-        df = pd.read_csv(ARCHIVO_FUTBOL)
-        logging.info(f"📊 Total en CSV: {len(df)} partidos")
-        
-        # Mostrar últimos 5 partidos
-        print("\n" + "="*80)
-        print("🏆 ÚLTIMOS PARTIDOS GUARDADOS:")
-        print("="*80)
-        ultimos = df.tail(10)
-        for _, row in ultimos.iterrows():
-            print(f"  {row['tourney_date']} | {row['liga']:30} | {row['home_team_name']} {int(row['home_goals'])}-{int(row['away_goals'])} {row['away_team_name']}")
-        print("="*80)
+        try:
+            df = pd.read_csv(ARCHIVO_FUTBOL)
+            logging.info(f"📊 Total en CSV: {len(df)} partidos")
+            
+            # Mostrar últimos 5 partidos
+            if len(df) > 0:
+                print("\n" + "="*80)
+                print("🏆 ÚLTIMOS PARTIDOS GUARDADOS:")
+                print("="*80)
+                ultimos = df.tail(min(10, len(df)))
+                for _, row in ultimos.iterrows():
+                    print(f"  {row['tourney_date']} | {row['liga']:30} | {row['home_team_name']} {int(row['home_goals'])}-{int(row['away_goals'])} {row['away_team_name']}")
+                print("="*80)
+        except Exception as e:
+            logging.warning(f"No se pudo leer el CSV: {e}")
     else:
-        logging.warning("⚠️ No se generó el archivo CSV")
+        logging.info("ℹ️ No se generó el archivo CSV (no hay partidos para descargar)")
