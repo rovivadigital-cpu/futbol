@@ -19,18 +19,20 @@ CHROME_VERSIONS = ["chrome136", "chrome131", "chrome124"]
 # ===================== CONFIG FÚTBOL =====================
 ARCHIVO_FUTBOL = os.path.join(CARPETA_SALIDA, "futbol_historico.csv")
 
-# Nombres de las ligas que queremos (sin IDs hardcodeados)
+# Nombres de las ligas que queremos (coincidencia parcial)
 LIGAS_DESEADAS = [
-    "Premier League",
-    "LaLiga",
-    "Bundesliga",
-    "Serie A",
-    "Ligue 1",
-    "UEFA Champions League",
-    "CONMEBOL Libertadores",
-    "MLS",
-    "Eredivisie",
-    "Brasileirao Serie A",
+    "premier league",
+    "laliga",
+    "bundesliga",
+    "serie a",
+    "ligue 1",
+    "champions league",
+    "libertadores",
+    "mls",
+    "eredivisie",
+    "brasileirao",
+    "primera division",
+    "ligapro",
 ]
 
 HEADERS_BASE = {
@@ -51,10 +53,6 @@ HEADERS_BASE = {
     "Connection": "keep-alive",
 }
 
-# Diccionario que se llenará dinámicamente con los IDs correctos
-LIGAS_OBJETIVO = {}  # nombre -> id
-LIGAS_IDS_SET = set()
-
 # ===================== SESIÓN Y API =====================
 
 def _cargar_cookies() -> dict:
@@ -66,16 +64,9 @@ def _cargar_cookies() -> dict:
         if cont.startswith("["):
             data = json.loads(cont)
             return {item.get("name"): item.get("value") for item in data if item.get("name")}
-        else:
-            cookies = {}
-            for par in cont.split(";"):
-                if "=" in par:
-                    k, v = par.strip().split("=", 1)
-                    cookies[k] = v
-            return cookies
     except Exception as e:
         logging.error(f"Error cookies: {e}")
-        return {}
+    return {}
 
 def _nueva_sesion() -> cffi_requests.Session:
     impersonate = random.choice(CHROME_VERSIONS)
@@ -92,12 +83,6 @@ _403_consecutivos = 0
 def api_get(url: str, sport: str = "football", intentos: int = 4) -> dict:
     global SESSION, _403_consecutivos
     
-    if "/event/" in url:
-        event_part = url.split("/event/")[1].split("/")[0]
-        SESSION.headers.update({"Referer": f"https://www.sofascore.com/{sport}/match/{event_part}"})
-    else:
-        SESSION.headers.update({"Referer": f"https://www.sofascore.com/{sport}"})
-
     for i in range(1, intentos + 1):
         try:
             time.sleep(PAUSA_ENTRE_REQUESTS + random.uniform(0.3, 0.9))
@@ -108,7 +93,6 @@ def api_get(url: str, sport: str = "football", intentos: int = 4) -> dict:
                 return r.json()
             elif r.status_code == 403:
                 _403_consecutivos += 1
-                logging.warning(f"⚠️ 403 en {url} (intento {i})")
                 if _403_consecutivos >= 3:
                     time.sleep(120 * i)
                     SESSION = _nueva_sesion()
@@ -116,68 +100,25 @@ def api_get(url: str, sport: str = "football", intentos: int = 4) -> dict:
                 else:
                     time.sleep(20 * i)
             elif r.status_code == 429:
-                logging.warning(f"⚠️ 429 Too Many Requests en {url}")
                 time.sleep(90 * i)
             elif r.status_code == 404:
                 return {}
             else:
-                logging.warning(f"⚠️ Status {r.status_code} en {url}")
                 time.sleep(10 * i)
         except Exception as e:
             logging.error(f"Error en {url}: {e}")
             time.sleep(10 * i)
     return {}
 
-def obtener_ids_ligas():
-    """Obtiene los IDs correctos de las ligas desde la API"""
-    global LIGAS_OBJETIVO, LIGAS_IDS_SET
-    
-    logging.info("🔍 Obteniendo IDs de ligas desde la API...")
-    
-    # Obtener torneos de fútbol
-    url = "https://api.sofascore.com/api/v1/config/tournaments/football"
-    data = api_get(url, sport="football")
-    
-    if not data:
-        logging.error("❌ No se pudieron obtener los torneos")
+def es_liga_deseada(nombre_liga: str) -> bool:
+    """Verifica si el nombre de la liga coincide con alguna deseada"""
+    if not nombre_liga:
         return False
-    
-    tournaments = data.get("tournaments", [])
-    logging.info(f"📊 Total torneos encontrados: {len(tournaments)}")
-    
-    # Buscar las ligas que nos interesan
-    encontradas = 0
-    for tourney in tournaments:
-        nombre = tourney.get("name", "")
-        tourney_id = tourney.get("id")
-        
-        # Verificar si es una liga que nos interesa
-        for liga_deseada in LIGAS_DESEADAS:
-            if liga_deseada.lower() in nombre.lower():
-                LIGAS_OBJETIVO[nombre] = tourney_id
-                LIGAS_IDS_SET.add(tourney_id)
-                encontradas += 1
-                logging.info(f"  ✅ {nombre}: {tourney_id}")
-                break
-    
-    logging.info(f"🎯 Ligas objetivo encontradas: {encontradas}")
-    return encontradas > 0
-
-def es_liga_objetivo(evento: dict) -> bool:
-    """Verifica si el partido pertenece a una liga objetivo"""
-    tournament = evento.get("tournament", {})
-    
-    # Intentar obtener el ID del torneo
-    t_id = tournament.get("uniqueTournament", {}).get("id")
-    if not t_id:
-        t_id = tournament.get("id")
-    
-    return t_id in LIGAS_IDS_SET
-
-def obtener_nombre_liga(evento: dict) -> str:
-    """Devuelve el nombre de la liga"""
-    tournament = evento.get("tournament", {})
-    return tournament.get("name", "Unknown")
+    nombre_liga_lower = nombre_liga.lower()
+    for deseada in LIGAS_DESEADAS:
+        if deseada in nombre_liga_lower:
+            return True
+    return False
 
 def es_partido_finalizado(evento: dict) -> bool:
     """Verifica si un partido ha finalizado"""
@@ -190,7 +131,7 @@ def es_partido_finalizado(evento: dict) -> bool:
     
     # Verificar por descripción
     status_desc = str(status.get("description", "")).lower()
-    finished_keywords = ["finished", "ended", "ft", "full time", "after et", "after penalties"]
+    finished_keywords = ["finished", "ended", "ft", "full time"]
     
     return any(keyword in status_desc for keyword in finished_keywords)
 
@@ -204,29 +145,37 @@ def procesar_dia_futbol(fecha: str) -> int:
         return 0
 
     eventos = data.get("events", [])
-    logging.info(f"📊 Total eventos en API para {fecha}: {len(eventos)}")
+    logging.info(f"📊 Total eventos: {len(eventos)}")
     
     if not eventos:
         return 0
     
-    # Filtrar partidos finalizados de ligas objetivo
+    # Filtrar partidos finalizados de ligas deseadas
     candidatos = []
     for e in eventos:
-        if es_partido_finalizado(e) and es_liga_objetivo(e):
+        if not es_partido_finalizado(e):
+            continue
+        
+        # Obtener nombre de la liga
+        tournament = e.get("tournament", {})
+        nombre_liga = tournament.get("name", "")
+        
+        if es_liga_deseada(nombre_liga):
             candidatos.append(e)
     
     if not candidatos:
-        finalizados = [e for e in eventos if es_partido_finalizado(e)]
-        ligas_encontradas = set()
-        for e in eventos[:20]:
-            t = e.get("tournament", {})
-            ligas_encontradas.add(t.get("name", "Unknown"))
+        # Mostrar sample de ligas disponibles
+        ligas_vistas = set()
+        for e in eventos[:15]:
+            if es_partido_finalizado(e):
+                t = e.get("tournament", {})
+                ligas_vistas.add(t.get("name", "Unknown"))
         
-        logging.info(f"  ℹ️ Partidos finalizados: {len(finalizados)}")
-        logging.info(f"  ℹ️ Ligas disponibles: {', '.join(list(ligas_encontradas)[:5])}")
+        if ligas_vistas:
+            logging.info(f"  ℹ️ Ligas disponibles (finalizados): {', '.join(list(ligas_vistas)[:8])}")
         return 0
 
-    logging.info(f"✅ {len(candidatos)} partidos encontrados para {fecha}")
+    logging.info(f"✅ {len(candidatos)} partidos encontrados")
 
     buffer = []
     for i, evento in enumerate(candidatos, 1):
@@ -237,32 +186,37 @@ def procesar_dia_futbol(fecha: str) -> int:
             h_score = evento.get("homeScore", {}) or {}
             a_score = evento.get("awayScore", {}) or {}
 
-            home_goals = h_score.get("current", h_score.get("normaltime", 0)) or 0
-            away_goals = a_score.get("current", a_score.get("normaltime", 0)) or 0
+            home_goals = h_score.get("current", 0)
+            away_goals = a_score.get("current", 0)
             
+            # Si no hay current, intentar con normaltime
             if home_goals == 0:
-                home_goals = h_score.get("display", 0)
+                home_goals = h_score.get("normaltime", 0)
             if away_goals == 0:
-                away_goals = a_score.get("display", 0)
-
+                away_goals = a_score.get("normaltime", 0)
+            
+            tournament = evento.get("tournament", {})
+            nombre_liga = tournament.get("name", "Unknown")
+            
             partido = {
                 "event_id": event_id,
-                "liga": obtener_nombre_liga(evento),
-                "tourney_id": evento.get("tournament", {}).get("id"),
+                "liga": nombre_liga,
+                "tourney_id": tournament.get("id"),
+                "tourney_name": tournament.get("name"),
                 "tourney_date": fecha,
                 "round": evento.get("roundInfo", {}).get("name", "Unknown"),
                 "home_team_name": home.get("name"),
                 "away_team_name": away.get("name"),
                 "home_team_id": home.get("id"),
                 "away_team_id": away.get("id"),
-                "home_goals": int(home_goals),
-                "away_goals": int(away_goals),
+                "home_goals": int(home_goals) if home_goals else 0,
+                "away_goals": int(away_goals) if away_goals else 0,
                 "result": "H" if int(home_goals) > int(away_goals) else ("A" if int(away_goals) > int(home_goals) else "D"),
                 "scrape_date": datetime.now().strftime("%Y-%m-%d"),
             }
 
             buffer.append(partido)
-            logging.info(f"  [{i:3d}/{len(candidatos)}] ✅ {home.get('name')} {home_goals}-{away_goals} {away.get('name')} | {partido['liga']}")
+            logging.info(f"  [{i:3d}/{len(candidatos)}] ✅ {home.get('name')} {home_goals}-{away_goals} {away.get('name')} | {nombre_liga}")
 
             if len(buffer) >= GUARDAR_CADA_N_PARTIDOS:
                 append_to_csv(buffer, ARCHIVO_FUTBOL)
@@ -306,11 +260,6 @@ if __name__ == "__main__":
     
     os.makedirs(CARPETA_SALIDA, exist_ok=True)
     
-    # Obtener IDs de ligas primero
-    if not obtener_ids_ligas():
-        logging.error("❌ No se pudieron obtener las ligas objetivo. Saliendo...")
-        exit(1)
-    
     # Usar la fecha actual del servidor
     hoy = datetime.now().date()
     ayer = hoy - timedelta(days=1)
@@ -328,7 +277,7 @@ if __name__ == "__main__":
         
         partidos = procesar_dia_futbol(fecha)
         total_partidos += partidos
-        logging.info(f"📈 Partidos guardados para {fecha}: {partidos}")
+        logging.info(f"📈 Partidos guardados: {partidos}")
         
         if idx < len(fechas_a_procesar):
             pausa = random.uniform(3, 7)
@@ -351,9 +300,9 @@ if __name__ == "__main__":
                 print("🏆 PARTIDOS GUARDADOS:")
                 print("="*80)
                 for _, row in df.iterrows():
-                    print(f"  {row['tourney_date']} | {row['liga']:35} | {row['home_team_name']} {int(row['home_goals'])}-{int(row['away_goals'])} {row['away_team_name']}")
+                    print(f"  {row['tourney_date']} | {row['liga'][:35]:35} | {row['home_team_name']} {int(row['home_goals'])}-{int(row['away_goals'])} {row['away_team_name']}")
                 print("="*80)
         except Exception as e:
             logging.warning(f"No se pudo leer el CSV: {e}")
     else:
-        logging.info("ℹ️ No hay partidos para mostrar")
+        logging.info("ℹ️ No hay partidos guardados")
