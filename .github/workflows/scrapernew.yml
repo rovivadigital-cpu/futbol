@@ -1,5 +1,4 @@
-
-name: Tennis Scraper Diario PROnew
+name: Scraper Diario Fútbol
 on:
   workflow_dispatch:
 jobs:
@@ -7,7 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
     steps:
       - name: Checkout repositorio
         uses: actions/checkout@v4
@@ -29,44 +27,35 @@ jobs:
           echo "deb [signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/cloudflare-client.list
           sudo apt-get update
           sudo apt-get install -y cloudflare-warp
-
           warp-cli --accept-tos registration new
           warp-cli --accept-tos connect
           sleep 8
-
           echo "IP actual:"
-          curl -4 ifconfig.me
+          curl -s -4 ifconfig.me || true
+          echo ""
 
-          - name: Verificar archivo
-             run: |
-                   echo "=== Contenido del directorio ==="
-                   ls -la
-                   echo "=== Primeras 10 líneas del script ==="
-                   head -10 partidos_futbol.py
-                   echo "=== Python version ==="
-                   python --version
+      - name: Verificar archivo
+        run: |
+          echo "=== Contenido del directorio ==="
+          ls -la
+          echo "=== Primeras 10 líneas del script ==="
+          head -10 partidos_futbol.py
+          echo "=== Python version ==="
+          python --version
 
-
-
-      - name: Ejecutar scraper diario de partidos
+      - name: Ejecutar scraper
         run: python partidos_futbol.py
-
-     
 
       - name: Guardar datos en repositorio
         if: always()
         run: |
           git config --global user.email "scraperbot@github.com"
           git config --global user.name "TennisScraperBot"
-
           git add datos/*.csv || true
-
           if git diff --staged --quiet; then
             echo "Sin cambios."
             exit 0
           fi
-
           git commit -m "Update datos: $(date +'%Y-%m-%d %H:%M')"
-
           git pull --rebase origin main
           git push
