@@ -19,22 +19,19 @@ CHROME_VERSIONS = ["chrome136", "chrome131", "chrome124"]
 # ===================== CONFIG FÚTBOL =====================
 ARCHIVO_FUTBOL = os.path.join(CARPETA_SALIDA, "futbol_historico.csv")
 
-# Ligas con sus tournament IDs de Sofascore
-LIGAS_FUTBOL = {
-    "CONMEBOL Libertadores":        87760,
-    "UEFA Champions League":        76953,
-    "Premier League":               76986,
-    "La Liga":                      77559,
-    "Bundesliga":                   77333,
-    "Serie A":                      76457,
-    "Ligue 1":                      77356,
-    "MLS":                          86668,
-    "Eredivisie":                   77012,
-    "Brasileirao Serie A":          87678,
-}
-
-# Set de IDs para filtrado rápido
-LIGAS_IDS_SET = set(LIGAS_FUTBOL.values())
+# Nombres de las ligas que queremos (sin IDs hardcodeados)
+LIGAS_DESEADAS = [
+    "Premier League",
+    "LaLiga",
+    "Bundesliga",
+    "Serie A",
+    "Ligue 1",
+    "UEFA Champions League",
+    "CONMEBOL Libertadores",
+    "MLS",
+    "Eredivisie",
+    "Brasileirao Serie A",
+]
 
 HEADERS_BASE = {
     "Accept": "application/json, text/plain, */*",
@@ -53,6 +50,10 @@ HEADERS_BASE = {
     "Sec-Fetch-Site": "same-site",
     "Connection": "keep-alive",
 }
+
+# Diccionario que se llenará dinámicamente con los IDs correctos
+LIGAS_OBJETIVO = {}  # nombre -> id
+LIGAS_IDS_SET = set()
 
 # ===================== SESIÓN Y API =====================
 
@@ -127,148 +128,71 @@ def api_get(url: str, sport: str = "football", intentos: int = 4) -> dict:
             time.sleep(10 * i)
     return {}
 
-# ===================== UTILIDADES =====================
+def obtener_ids_ligas():
+    """Obtiene los IDs correctos de las ligas desde la API"""
+    global LIGAS_OBJETIVO, LIGAS_IDS_SET
+    
+    logging.info("🔍 Obteniendo IDs de ligas desde la API...")
+    
+    # Obtener torneos de fútbol
+    url = "https://api.sofascore.com/api/v1/config/tournaments/football"
+    data = api_get(url, sport="football")
+    
+    if not data:
+        logging.error("❌ No se pudieron obtener los torneos")
+        return False
+    
+    tournaments = data.get("tournaments", [])
+    logging.info(f"📊 Total torneos encontrados: {len(tournaments)}")
+    
+    # Buscar las ligas que nos interesan
+    encontradas = 0
+    for tourney in tournaments:
+        nombre = tourney.get("name", "")
+        tourney_id = tourney.get("id")
+        
+        # Verificar si es una liga que nos interesa
+        for liga_deseada in LIGAS_DESEADAS:
+            if liga_deseada.lower() in nombre.lower():
+                LIGAS_OBJETIVO[nombre] = tourney_id
+                LIGAS_IDS_SET.add(tourney_id)
+                encontradas += 1
+                logging.info(f"  ✅ {nombre}: {tourney_id}")
+                break
+    
+    logging.info(f"🎯 Ligas objetivo encontradas: {encontradas}")
+    return encontradas > 0
 
-def formatear_valor(val):
-    if isinstance(val, dict):
-        v = val.get("value", 0)
-        t = val.get("total", 0)
-        return f"{v}/{t} ({(v/t)*100:.0f}%)" if t > 0 else f"{v}/{t}"
-    return val
+def es_liga_objetivo(evento: dict) -> bool:
+    """Verifica si el partido pertenece a una liga objetivo"""
+    tournament = evento.get("tournament", {})
+    
+    # Intentar obtener el ID del torneo
+    t_id = tournament.get("uniqueTournament", {}).get("id")
+    if not t_id:
+        t_id = tournament.get("id")
+    
+    return t_id in LIGAS_IDS_SET
 
-def parsear_estadisticas(stats_data: dict) -> dict:
-    resultado = {}
-    for periodo in stats_data.get("statistics", []):
-        p_name = periodo.get("period", "ALL").upper()
-        for grupo in periodo.get("groups", []):
-            for item in grupo.get("statisticsItems", []):
-                nombre = item.get("name", "").replace(" ", "_").replace(".", "").lower()
-                resultado[f"{p_name}_{nombre}_home"] = formatear_valor(item.get("home"))
-                resultado[f"{p_name}_{nombre}_away"] = formatear_valor(item.get("away"))
-    return resultado
+def obtener_nombre_liga(evento: dict) -> str:
+    """Devuelve el nombre de la liga"""
+    tournament = evento.get("tournament", {})
+    return tournament.get("name", "Unknown")
 
 def es_partido_finalizado(evento: dict) -> bool:
     """Verifica si un partido ha finalizado"""
     status = evento.get("status", {})
-    
-    # Verificar por código de estado
     status_code = status.get("code")
-    if status_code == 100:  # 100 = finalizado en SofaScore
+    
+    # Código 100 = finalizado en SofaScore
+    if status_code == 100:
         return True
     
     # Verificar por descripción
     status_desc = str(status.get("description", "")).lower()
     finished_keywords = ["finished", "ended", "ft", "full time", "after et", "after penalties"]
     
-    if any(keyword in status_desc for keyword in finished_keywords):
-        return True
-    
-    # Verificar por tipo
-    status_type = str(status.get("type", "")).lower()
-    if status_type in ["finished", "completed", "ended"]:
-        return True
-    
-    # DEBUG: Mostrar estado de los primeros partidos
-    return False
-
-def es_liga_objetivo(evento: dict) -> bool:
-    """Verifica si el partido pertenece a una liga objetivo"""
-    tournament = evento.get("tournament", {})
-    
-    # Intentar obtener el ID del torneo de diferentes formas
-    t_id = tournament.get("uniqueTournament", {}).get("id")
-    if not t_id:
-        t_id = tournament.get("id")
-    if not t_id:
-        t_id = tournament.get("tournamentId")
-    
-    return t_id in LIGAS_IDS_SET
-
-def obtener_nombre_liga(evento: dict) -> str:
-    """Devuelve el nombre legible de la liga"""
-    tournament = evento.get("tournament", {})
-    t_id = tournament.get("uniqueTournament", {}).get("id") or tournament.get("id")
-    
-    for nombre, lid in LIGAS_FUTBOL.items():
-        if lid == t_id:
-            return nombre
-    
-    return tournament.get("name", "Unknown")
-
-def parsear_goles_detallados(incidents_data: dict) -> dict:
-    """Extrae goleadores y tarjetas rojas"""
-    resultado = {
-        "home_scorers": "",
-        "away_scorers": "",
-        "home_own_goals": "",
-        "away_own_goals": "",
-        "home_red_cards": "",
-        "away_red_cards": "",
-    }
-    if not incidents_data:
-        return resultado
-
-    home_scorers, away_scorers = [], []
-    home_og, away_og = [], []
-    home_red, away_red = [], []
-
-    for inc in incidents_data.get("incidents", []):
-        inc_type = inc.get("incidentType", "").lower()
-        team = inc.get("isHome")
-        player = inc.get("player", {})
-        player_name = player.get("name", "?") if player else "?"
-        minute = inc.get("time", "?")
-        tag = f"{player_name}({minute}')"
-
-        if inc_type == "goal":
-            is_own = inc.get("incidentClass", "").lower() == "owngoal"
-            if is_own:
-                if team:
-                    away_og.append(tag)
-                else:
-                    home_og.append(tag)
-            else:
-                if team:
-                    home_scorers.append(tag)
-                else:
-                    away_scorers.append(tag)
-        elif inc_type == "card":
-            card_class = inc.get("incidentClass", "").lower()
-            if card_class in ("red", "yellowred"):
-                if team:
-                    home_red.append(tag)
-                else:
-                    away_red.append(tag)
-
-    resultado["home_scorers"] = "; ".join(home_scorers)
-    resultado["away_scorers"] = "; ".join(away_scorers)
-    resultado["home_own_goals"] = "; ".join(home_og)
-    resultado["away_own_goals"] = "; ".join(away_og)
-    resultado["home_red_cards"] = "; ".join(home_red)
-    resultado["away_red_cards"] = "; ".join(away_red)
-    return resultado
-
-def append_to_csv(partidos: list, archivo: str):
-    """Guarda partidos en CSV evitando duplicados"""
-    if not partidos:
-        return
-    
-    os.makedirs(os.path.dirname(archivo), exist_ok=True)
-    df_nuevo = pd.DataFrame(partidos)
-    
-    if os.path.exists(archivo) and os.path.getsize(archivo) > 0:
-        try:
-            df_viejo = pd.read_csv(archivo)
-            df_final = pd.concat([df_viejo, df_nuevo]).drop_duplicates(subset=["event_id"], keep="last")
-            df_final.to_csv(archivo, index=False)
-            logging.info(f"💾 CSV actualizado: {len(df_final)} registros totales")
-        except Exception as e:
-            logging.error(f"Error al leer CSV: {e}")
-            df_nuevo.to_csv(archivo, index=False)
-            logging.info(f"💾 CSV creado con {len(df_nuevo)} registros")
-    else:
-        df_nuevo.to_csv(archivo, index=False)
-        logging.info(f"💾 CSV creado con {len(df_nuevo)} registros")
+    return any(keyword in status_desc for keyword in finished_keywords)
 
 def procesar_dia_futbol(fecha: str) -> int:
     """Procesa todos los partidos de fútbol de una fecha específica"""
@@ -283,31 +207,23 @@ def procesar_dia_futbol(fecha: str) -> int:
     logging.info(f"📊 Total eventos en API para {fecha}: {len(eventos)}")
     
     if not eventos:
-        logging.warning(f"No hay eventos para {fecha}")
         return 0
     
     # Filtrar partidos finalizados de ligas objetivo
     candidatos = []
-    
-    # DEBUG: Mostrar primeros 3 eventos para ver estructura
-    for idx, e in enumerate(eventos[:3]):
-        status = e.get("status", {})
-        tourney = e.get("tournament", {})
-        t_id = tourney.get("uniqueTournament", {}).get("id") or tourney.get("id")
-        status_desc = status.get("description", "unknown")
-        status_code = status.get("code", "?")
-        logging.info(f"  [DEBUG] Evento {idx+1}: {e.get('homeTeam', {}).get('name')} vs {e.get('awayTeam', {}).get('name')} | Status: {status_desc} (code:{status_code}) | Liga ID: {t_id}")
-    
-    # Filtrar
     for e in eventos:
         if es_partido_finalizado(e) and es_liga_objetivo(e):
             candidatos.append(e)
     
     if not candidatos:
-        # Mostrar cuántos partidos finalizados hay (aunque no sean de ligas objetivo)
         finalizados = [e for e in eventos if es_partido_finalizado(e)]
-        logging.info(f"  ℹ️ Partidos finalizados totales: {len(finalizados)}")
-        logging.info(f"  ℹ️ Partidos de ligas objetivo: {len([e for e in eventos if es_liga_objetivo(e)])}")
+        ligas_encontradas = set()
+        for e in eventos[:20]:
+            t = e.get("tournament", {})
+            ligas_encontradas.add(t.get("name", "Unknown"))
+        
+        logging.info(f"  ℹ️ Partidos finalizados: {len(finalizados)}")
+        logging.info(f"  ℹ️ Ligas disponibles: {', '.join(list(ligas_encontradas)[:5])}")
         return 0
 
     logging.info(f"✅ {len(candidatos)} partidos encontrados para {fecha}")
@@ -324,46 +240,29 @@ def procesar_dia_futbol(fecha: str) -> int:
             home_goals = h_score.get("current", h_score.get("normaltime", 0)) or 0
             away_goals = a_score.get("current", a_score.get("normaltime", 0)) or 0
             
-            # Si no hay goles en current, intentar con display
             if home_goals == 0:
                 home_goals = h_score.get("display", 0)
             if away_goals == 0:
                 away_goals = a_score.get("display", 0)
 
-            liga_nombre = obtener_nombre_liga(evento)
-
             partido = {
                 "event_id": event_id,
-                "liga": liga_nombre,
-                "tourney_name": evento.get("tournament", {}).get("name"),
+                "liga": obtener_nombre_liga(evento),
+                "tourney_id": evento.get("tournament", {}).get("id"),
                 "tourney_date": fecha,
                 "round": evento.get("roundInfo", {}).get("name", "Unknown"),
                 "home_team_name": home.get("name"),
                 "away_team_name": away.get("name"),
+                "home_team_id": home.get("id"),
+                "away_team_id": away.get("id"),
                 "home_goals": int(home_goals),
                 "away_goals": int(away_goals),
                 "result": "H" if int(home_goals) > int(away_goals) else ("A" if int(away_goals) > int(home_goals) else "D"),
                 "scrape_date": datetime.now().strftime("%Y-%m-%d"),
             }
 
-            # Intentar obtener estadísticas (opcional)
-            try:
-                stats_raw = api_get(f"https://api.sofascore.com/api/v1/event/{event_id}/statistics", sport="football")
-                if stats_raw:
-                    partido.update(parsear_estadisticas(stats_raw))
-            except:
-                pass
-
-            # Intentar obtener incidentes (opcional)
-            try:
-                incidents_raw = api_get(f"https://api.sofascore.com/api/v1/event/{event_id}/incidents", sport="football")
-                if incidents_raw:
-                    partido.update(parsear_goles_detallados(incidents_raw))
-            except:
-                pass
-
             buffer.append(partido)
-            logging.info(f"  [{i:3d}/{len(candidatos)}] ✅ {home.get('name')} {home_goals}-{away_goals} {away.get('name')} | {liga_nombre}")
+            logging.info(f"  [{i:3d}/{len(candidatos)}] ✅ {home.get('name')} {home_goals}-{away_goals} {away.get('name')} | {partido['liga']}")
 
             if len(buffer) >= GUARDAR_CADA_N_PARTIDOS:
                 append_to_csv(buffer, ARCHIVO_FUTBOL)
@@ -377,6 +276,27 @@ def procesar_dia_futbol(fecha: str) -> int:
     
     return len(candidatos)
 
+def append_to_csv(partidos: list, archivo: str):
+    """Guarda partidos en CSV evitando duplicados"""
+    if not partidos:
+        return
+    
+    os.makedirs(os.path.dirname(archivo), exist_ok=True)
+    df_nuevo = pd.DataFrame(partidos)
+    
+    if os.path.exists(archivo) and os.path.getsize(archivo) > 0:
+        try:
+            df_viejo = pd.read_csv(archivo)
+            df_final = pd.concat([df_viejo, df_nuevo]).drop_duplicates(subset=["event_id"], keep="last")
+            df_final.to_csv(archivo, index=False)
+            logging.info(f"💾 CSV actualizado: {len(df_final)} registros")
+        except Exception as e:
+            logging.error(f"Error al leer CSV: {e}")
+            df_nuevo.to_csv(archivo, index=False)
+    else:
+        df_nuevo.to_csv(archivo, index=False)
+        logging.info(f"💾 CSV creado con {len(df_nuevo)} registros")
+
 # ===================== MAIN =====================
 
 if __name__ == "__main__":
@@ -385,6 +305,11 @@ if __name__ == "__main__":
     logging.info("="*60)
     
     os.makedirs(CARPETA_SALIDA, exist_ok=True)
+    
+    # Obtener IDs de ligas primero
+    if not obtener_ids_ligas():
+        logging.error("❌ No se pudieron obtener las ligas objetivo. Saliendo...")
+        exit(1)
     
     # Usar la fecha actual del servidor
     hoy = datetime.now().date()
@@ -405,7 +330,6 @@ if __name__ == "__main__":
         total_partidos += partidos
         logging.info(f"📈 Partidos guardados para {fecha}: {partidos}")
         
-        # Pausa entre días
         if idx < len(fechas_a_procesar):
             pausa = random.uniform(3, 7)
             logging.info(f"⏱️  Esperando {pausa:.1f} segundos...")
@@ -416,24 +340,20 @@ if __name__ == "__main__":
     logging.info(f"✅ ¡SCRAPING COMPLETADO!")
     logging.info(f"{'='*60}")
     logging.info(f"⚽ Total partidos descargados: {total_partidos}")
-    logging.info(f"📁 Datos guardados en: {ARCHIVO_FUTBOL}")
     
-    # Mostrar resumen de datos (solo si el archivo existe y tiene datos)
     if os.path.exists(ARCHIVO_FUTBOL) and os.path.getsize(ARCHIVO_FUTBOL) > 0:
         try:
             df = pd.read_csv(ARCHIVO_FUTBOL)
             logging.info(f"📊 Total en CSV: {len(df)} partidos")
             
-            # Mostrar últimos 5 partidos
             if len(df) > 0:
                 print("\n" + "="*80)
-                print("🏆 ÚLTIMOS PARTIDOS GUARDADOS:")
+                print("🏆 PARTIDOS GUARDADOS:")
                 print("="*80)
-                ultimos = df.tail(min(10, len(df)))
-                for _, row in ultimos.iterrows():
-                    print(f"  {row['tourney_date']} | {row['liga']:30} | {row['home_team_name']} {int(row['home_goals'])}-{int(row['away_goals'])} {row['away_team_name']}")
+                for _, row in df.iterrows():
+                    print(f"  {row['tourney_date']} | {row['liga']:35} | {row['home_team_name']} {int(row['home_goals'])}-{int(row['away_goals'])} {row['away_team_name']}")
                 print("="*80)
         except Exception as e:
             logging.warning(f"No se pudo leer el CSV: {e}")
     else:
-        logging.info("ℹ️ No se generó el archivo CSV (no hay partidos para descargar)")
+        logging.info("ℹ️ No hay partidos para mostrar")
