@@ -38,7 +38,7 @@ jobs:
           curl -4 ifconfig.me
 
       - name: Ejecutar scraper diario de partidos
-        run: python scraper_diario.py
+        run: python partidos_futbol.py
 
      
 
