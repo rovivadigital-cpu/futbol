@@ -13,7 +13,7 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 CARPETA_SALIDA = "datos"
 ARCHIVO_COOKIES = os.path.join(CARPETA_SALIDA, "cookies.txt")
 GUARDAR_CADA_N_PARTIDOS = 10
-PAUSA_ENTRE_REQUESTS = 1.5
+PAUSA_ENTRE_REQUESTS = 0.6
 CHROME_VERSIONS = ["chrome136", "chrome131", "chrome124"]
 
 # ===================== CONFIG FÚTBOL =====================
