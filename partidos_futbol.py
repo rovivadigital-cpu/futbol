@@ -13,7 +13,7 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 CARPETA_SALIDA = "datos"
 ARCHIVO_COOKIES = os.path.join(CARPETA_SALIDA, "cookies.txt")
 GUARDAR_CADA_N_PARTIDOS = 10
-PAUSA_ENTRE_REQUESTS = 0.6
+PAUSA_ENTRE_REQUESTS = 1.5
 CHROME_VERSIONS = ["chrome136", "chrome131", "chrome124"]
 
 # ===================== CONFIG FÚTBOL =====================
@@ -22,8 +22,8 @@ ARCHIVO_FUTBOL = os.path.join(CARPETA_SALIDA, "futbol_historico.csv")
 # TODAS LAS LIGAS
 LIGAS_DESEADAS = [
     "libertadores", "sudamericana",
-    "champions league", "europa league", "europa conference league", "club world championship",
-    "premier league", "championship", "league one",
+    "champions league", "europa league", "europa conference league",
+    "premier league", "championship",
     "laliga", "laliga 2",
     "bundesliga", "2. bundesliga",
     "serie a", "serie b",
@@ -31,18 +31,13 @@ LIGAS_DESEADAS = [
     "mls", "nwsl",
     "saudi pro league",
     "liga profesional", "primera nacional",
-    "a-league", "npl capital football",
-    "pro league", "division profesional",
-    "brasileirao serie a", "brasileirao serie b",
-    "parva liga", "1. liga", "primera division", "cfa super league",
-    "primera a apertura", "primera a clausura", "primera b",
+    "pro league", "brasileirao serie a", "brasileirao serie b",
+    "primera a apertura", "primera a clausura",
     "k league 1", "hnl", "superliga",
-    "premiership", "championship", "prvaliga", "premium liiga",
-    "veikkausliiga", "super league", "liga 1",
+    "premiership", "veikkausliiga",
     "j1 league", "j2 league", "virsliga",
     "liga mx apertura", "liga mx clausura",
-    "eliteserien", "eredivisie", "eerste divisie",
-    "ekstraklasa", "allsvenskan", "superettan", "super lig", "super league",
+    "eliteserien", "eredivisie", "ekstraklasa", "allsvenskan",
 ]
 
 PALABRAS_EXCLUIR = [
@@ -101,7 +96,7 @@ def api_get(url: str, sport: str = "football", intentos: int = 3) -> dict:
     
     for i in range(1, intentos + 1):
         try:
-            time.sleep(PAUSA_ENTRE_REQUESTS + random.uniform(0.1, 0.5))
+            time.sleep(PAUSA_ENTRE_REQUESTS + random.uniform(0.3, 0.9))
             r = SESSION.get(url, timeout=30)
             
             if r.status_code == 200:
@@ -126,141 +121,115 @@ def api_get(url: str, sport: str = "football", intentos: int = 3) -> dict:
             time.sleep(10 * i)
     return {}
 
-# ===================== ESTADÍSTICAS MEJORADAS =====================
+# ===================== CÁLCULO DE XG ESTIMADO =====================
 
-def parsear_estadisticas_completas(event_id: int) -> dict:
+def calcular_xG_estimado(stats: dict) -> dict:
     """
-    Extrae TODAS las estadísticas de equipo del partido
-    Usa múltiples endpoints de SofaScore para obtener datos completos
-    SIN estadísticas de jugadores y SIN xG
+    Calcula xG cuando no está disponible en los datos originales
+    Basado en big chances y tiros a puerta
+    """
+    # Si ya tiene xG, no calcular
+    if stats.get("expected_goals_home") is not None and stats.get("expected_goals_away") is not None:
+        return {
+            "expected_goals_home": stats.get("expected_goals_home"),
+            "expected_goals_away": stats.get("expected_goals_away")
+        }
+    
+    # Obtener estadísticas disponibles
+    tiros_puerta_home = stats.get("shots_on_target_home", 0)
+    tiros_puerta_away = stats.get("shots_on_target_away", 0)
+    big_chances_home = stats.get("big_chances_home", 0)
+    big_chances_away = stats.get("big_chances_away", 0)
+    tiros_totales_home = stats.get("total_shots_home", 0)
+    tiros_totales_away = stats.get("total_shots_away", 0)
+    
+    # Si tiene big chances (más preciso)
+    if big_chances_home > 0 or big_chances_away > 0:
+        xG_home = (tiros_puerta_home * 0.28) + (big_chances_home * 0.35)
+        xG_away = (tiros_puerta_away * 0.28) + (big_chances_away * 0.35)
+    else:
+        # Solo con tiros a puerta
+        xG_home = tiros_puerta_home * 0.30
+        xG_away = tiros_puerta_away * 0.30
+    
+    # Limitar valores razonables
+    xG_home = min(max(xG_home, 0.0), 5.0)
+    xG_away = min(max(xG_away, 0.0), 5.0)
+    
+    return {
+        "expected_goals_home": round(xG_home, 2),
+        "expected_goals_away": round(xG_away, 2)
+    }
+
+# ===================== ESTADÍSTICAS CLAVE (SOLO LO NECESARIO) =====================
+
+def parsear_estadisticas_clave(event_id: int) -> dict:
+    """
+    Extrae SOLO las estadísticas más importantes para predicción
+    Features: xG, tiros, big chances, posesión, pases precisos
     """
     resultado = {}
     
-    # ========== ENDPOINT 1: Estadísticas principales ==========
+    # Solo un endpoint - el de estadísticas normales
     url_stats = f"https://api.sofascore.com/api/v1/event/{event_id}/statistics"
     stats_data = api_get(url_stats, sport="football")
     
-    if stats_data:
-        for periodo in stats_data.get("statistics", []):
-            periodo_nombre = periodo.get("period", "ALL").upper()
-            
-            for grupo in periodo.get("groups", []):
-                for item in grupo.get("statisticsItems", []):
-                    nombre_raw = item.get("name", "")
-                    nombre = nombre_raw.lower().replace(" ", "_").replace(".", "").replace("-", "_").replace("'", "").replace("’", "")
-                    
-                    home_val = item.get("home", {})
-                    away_val = item.get("away", {})
-                    
-                    # Valor home
-                    if isinstance(home_val, dict):
-                        if "value" in home_val and "total" in home_val:
-                            resultado[f"{periodo_nombre}_{nombre}_home"] = f"{home_val.get('value', 0)}/{home_val.get('total', 0)}"
-                        else:
-                            resultado[f"{periodo_nombre}_{nombre}_home"] = home_val.get("value", home_val.get("total", 0))
-                    else:
-                        resultado[f"{periodo_nombre}_{nombre}_home"] = home_val
-                    
-                    # Valor away
-                    if isinstance(away_val, dict):
-                        if "value" in away_val and "total" in away_val:
-                            resultado[f"{periodo_nombre}_{nombre}_away"] = f"{away_val.get('value', 0)}/{away_val.get('total', 0)}"
-                        else:
-                            resultado[f"{periodo_nombre}_{nombre}_away"] = away_val.get("value", away_val.get("total", 0))
-                    else:
-                        resultado[f"{periodo_nombre}_{nombre}_away"] = away_val
+    if not stats_data:
+        return resultado
     
-    # ========== ENDPOINT 2: Estadísticas detalladas (duelos, regates, pases avanzados) ==========
-    url_detailed = f"https://api.sofascore.com/api/v1/event/{event_id}/detailed-statistics"
-    detailed_data = api_get(url_detailed, sport="football")
+    # Estadísticas clave para el modelo (las que pediste + algunas útiles)
+    estadisticas_deseadas = [
+        "expected_goals",      # xG - LA MÁS IMPORTANTE
+        "total_shots",
+        "shots_on_target",
+        "big_chances",
+        "ball_possession",
+        "accurate_passes",
+        "passes",              # Para calcular precisión si es necesario
+        "goalkeeper_saves",    # Calidad defensiva
+        "fouls",               # Disciplina
+        "yellow_cards",        # Disciplina
+        "corner_kicks",        # Dominio
+        "offsides",            # Tipo de ataque
+    ]
     
-    if detailed_data:
-        for periodo in detailed_data.get("statistics", []):
-            periodo_nombre = periodo.get("period", "ALL").upper()
-            
-            for grupo in periodo.get("groups", []):
-                for item in grupo.get("statisticsItems", []):
-                    nombre_raw = item.get("name", "")
-                    nombre = nombre_raw.lower().replace(" ", "_").replace(".", "").replace("-", "_").replace("'", "").replace("’", "")
-                    
-                    # Evitar duplicados con el endpoint anterior y evitar xG
-                    if nombre in ["ball_possession", "expected_goals", "big_chances", "expected_goals", "xG"]:
-                        continue
-                    
-                    home_val = item.get("home", {})
-                    away_val = item.get("away", {})
-                    
-                    # Valor home
-                    if isinstance(home_val, dict):
-                        if "value" in home_val and "total" in home_val:
-                            resultado[f"{periodo_nombre}_{nombre}_home"] = f"{home_val.get('value', 0)}/{home_val.get('total', 0)}"
-                        else:
-                            resultado[f"{periodo_nombre}_{nombre}_home"] = home_val.get("value", home_val.get("total", 0))
-                    else:
-                        resultado[f"{periodo_nombre}_{nombre}_home"] = home_val
-                    
-                    # Valor away
-                    if isinstance(away_val, dict):
-                        if "value" in away_val and "total" in away_val:
-                            resultado[f"{periodo_nombre}_{nombre}_away"] = f"{away_val.get('value', 0)}/{away_val.get('total', 0)}"
-                        else:
-                            resultado[f"{periodo_nombre}_{nombre}_away"] = away_val.get("value", away_val.get("total", 0))
-                    else:
-                        resultado[f"{periodo_nombre}_{nombre}_away"] = away_val
-    
-    # ========== ENDPOINT 3: Mapa de tiros (estadísticas detalladas de tiros) ==========
-    url_shotmap = f"https://api.sofascore.com/api/v1/event/{event_id}/shotmap"
-    shotmap_data = api_get(url_shotmap, sport="football")
-    
-    if shotmap_data:
-        for equipo in ["home", "away"]:
-            sufijo = "home" if equipo == "home" else "away"
-            tiros = shotmap_data.get(equipo, [])
-            
-            if isinstance(tiros, list):
-                resultado[f"ALL_total_shots_{sufijo}"] = len(tiros)
+    for periodo in stats_data.get("statistics", []):
+        periodo_nombre = periodo.get("period", "ALL").upper()
+        
+        # Solo nos interesa el período completo (ALL)
+        if periodo_nombre != "ALL":
+            continue
+        
+        for grupo in periodo.get("groups", []):
+            for item in grupo.get("statisticsItems", []):
+                nombre_raw = item.get("name", "")
+                nombre = nombre_raw.lower().replace(" ", "_").replace(".", "").replace("-", "_")
                 
-                tiros_a_puerta = 0
-                tiros_fuera = 0
-                tiros_bloqueados = 0
-                tiros_al_palo = 0
-                tiros_dentro_area = 0
-                tiros_fuera_area = 0
+                # Solo guardar las estadísticas que nos interesan
+                if nombre not in estadisticas_deseadas:
+                    continue
                 
-                for tiro in tiros:
-                    tiro_tipo = tiro.get("type", "")
-                    if tiro_tipo == "On target":
-                        tiros_a_puerta += 1
-                    elif tiro_tipo == "Off target":
-                        tiros_fuera += 1
-                    elif tiro_tipo == "Blocked":
-                        tiros_bloqueados += 1
-                    
-                    if tiro.get("hitWoodwork", False):
-                        tiros_al_palo += 1
-                    
-                    zona = tiro.get("zone", "")
-                    if zona == "Penalty area":
-                        tiros_dentro_area += 1
-                    else:
-                        tiros_fuera_area += 1
+                home_val = item.get("home", {})
+                away_val = item.get("away", {})
                 
-                resultado[f"ALL_shots_on_target_{sufijo}"] = tiros_a_puerta
-                resultado[f"ALL_shots_off_target_{sufijo}"] = tiros_fuera
-                resultado[f"ALL_blocked_shots_{sufijo}"] = tiros_bloqueados
-                resultado[f"ALL_hit_woodwork_{sufijo}"] = tiros_al_palo
-                resultado[f"ALL_shots_inside_box_{sufijo}"] = tiros_dentro_area
-                resultado[f"ALL_shots_outside_box_{sufijo}"] = tiros_fuera_area
+                # Valor home
+                if isinstance(home_val, dict):
+                    resultado[f"{nombre}_home"] = home_val.get("value", home_val.get("total", 0))
+                else:
+                    resultado[f"{nombre}_home"] = home_val
+                
+                # Valor away
+                if isinstance(away_val, dict):
+                    resultado[f"{nombre}_away"] = away_val.get("value", away_val.get("total", 0))
+                else:
+                    resultado[f"{nombre}_away"] = away_val
     
-    # ========== ENDPOINT 4: Posesión por tiempo ==========
-    url_possession = f"https://api.sofascore.com/api/v1/event/{event_id}/possession"
-    possession_data = api_get(url_possession, sport="football")
-    
-    if possession_data:
-        for periodo in possession_data.get("periods", []):
-            periodo_nombre = periodo.get("period", "ALL").upper()
-            resultado[f"{periodo_nombre}_ball_possession_home"] = periodo.get("home", 0)
-            resultado[f"{periodo_nombre}_ball_possession_away"] = periodo.get("away", 0)
+    # Calcular xG si no está presente
+    xg_calculado = calcular_xG_estimado(resultado)
+    if "expected_goals_home" not in resultado:
+        resultado["expected_goals_home"] = xg_calculado["expected_goals_home"]
+    if "expected_goals_away" not in resultado:
+        resultado["expected_goals_away"] = xg_calculado["expected_goals_away"]
     
     return resultado
 
@@ -297,7 +266,7 @@ def es_partido_finalizado(evento: dict) -> bool:
 # ===================== PROCESAMIENTO =====================
 
 def procesar_dia_futbol(fecha: str) -> int:
-    """Procesa todos los partidos de fútbol de una fecha con estadísticas completas"""
+    """Procesa todos los partidos de fútbol de una fecha con estadísticas clave"""
     url = f"https://api.sofascore.com/api/v1/sport/football/scheduled-events/{fecha}"
     data = api_get(url, sport="football")
     
@@ -354,7 +323,7 @@ def procesar_dia_futbol(fecha: str) -> int:
             tournament = evento.get("tournament", {})
             nombre_liga = tournament.get("name", "Unknown")
             
-            # DATOS BÁSICOS DEL PARTIDO
+            # DATOS BÁSICOS DEL PARTIDO (incluyendo resultado para target)
             partido = {
                 "event_id": event_id,
                 "liga": nombre_liga,
@@ -372,24 +341,25 @@ def procesar_dia_futbol(fecha: str) -> int:
                 "away_goals": int(away_goals) if away_goals else 0,
                 "home_ht_goals": h_score.get("period1", 0),
                 "away_ht_goals": a_score.get("period1", 0),
-                "home_et_goals": h_score.get("overtime"),
-                "away_et_goals": a_score.get("overtime"),
-                "home_pen_goals": h_score.get("penalties"),
-                "away_pen_goals": a_score.get("penalties"),
                 "result": "H" if int(home_goals) > int(away_goals) else ("A" if int(away_goals) > int(home_goals) else "D"),
                 "scrape_date": datetime.now().strftime("%Y-%m-%d"),
             }
             
-            # ESTADÍSTICAS COMPLETAS DEL PARTIDO
+            # ESTADÍSTICAS CLAVE PARA EL MODELO
             logging.info(f"  [{i:3d}/{len(candidatos)}] 📊 {home.get('name')} vs {away.get('name')}")
             
-            # Usar la nueva función mejorada
-            stats = parsear_estadisticas_completas(event_id)
+            stats = parsear_estadisticas_clave(event_id)
             if stats:
                 partido.update(stats)
             
             buffer.append(partido)
-            logging.info(f"      ✅ {home.get('name')} {home_goals}-{away_goals} {away.get('name')} | {len(partido)} campos")
+            
+            # Mostrar resumen de features importantes
+            xg_h = partido.get('expected_goals_home', 'N/A')
+            xg_a = partido.get('expected_goals_away', 'N/A')
+            shots_h = partido.get('total_shots_home', 'N/A')
+            shots_a = partido.get('total_shots_away', 'N/A')
+            logging.info(f"      ✅ {home.get('name')} {home_goals}-{away_goals} {away.get('name')} | xG: {xg_h}-{xg_a} | Tiros: {shots_h}-{shots_a}")
 
             if len(buffer) >= GUARDAR_CADA_N_PARTIDOS:
                 append_to_csv(buffer, ARCHIVO_FUTBOL)
@@ -432,17 +402,29 @@ def append_to_csv(partidos: list, archivo: str):
 
 if __name__ == "__main__":
     logging.info("="*60)
-    logging.info("🚀 INICIANDO SCRAPER DE FÚTBOL (ESTADÍSTICAS COMPLETAS)")
+    logging.info("🚀 INICIANDO SCRAPER DE FÚTBOL (VERSIÓN PREDICCIÓN ML)")
     logging.info("="*60)
     logging.info(f"🎯 Ligas configuradas: {len(LIGAS_DESEADAS)}")
+    logging.info("📊 Features a recolectar:")
+    logging.info("   • expected_goals_home/away (xG)")
+    logging.info("   • total_shots_home/away")
+    logging.info("   • shots_on_target_home/away")
+    logging.info("   • big_chances_home/away")
+    logging.info("   • ball_possession_home")
+    logging.info("   • accurate_passes_home/away")
+    logging.info("   • goalkeeper_saves_home/away (opcional)")
+    logging.info("   • fouls, yellow_cards, corner_kicks, offsides")
     
     os.makedirs(CARPETA_SALIDA, exist_ok=True)
+    
+    # ========== CONFIGURAR DÍAS A DESCARGAR ==========
+    # Cambia el número 5 por la cantidad de días que quieras
+    DIAS_A_DESCARGAR = 5  # <--- MODIFICA ESTE NÚMERO
     
     hoy = datetime.now().date()
     fechas_a_procesar = []
     
-    # Últimos 5 días (incluyendo hoy)
-    for i in range(2):
+    for i in range(DIAS_A_DESCARGAR):
         fecha = hoy - timedelta(days=i)
         fechas_a_procesar.append(fecha.strftime("%Y-%m-%d"))
     
@@ -477,46 +459,43 @@ if __name__ == "__main__":
             logging.info(f"📊 Columnas totales: {len(df.columns)}")
             
             print("\n" + "="*80)
-            print("📋 EJEMPLO DE ESTADÍSTICAS DISPONIBLES:")
+            print("📋 FEATURES DISPONIBLES PARA TU MODELO ML:")
             print("="*80)
             
-            # Mostrar columnas de estadísticas
-            stats_cols = [c for c in df.columns if any(x in c.lower() for x in 
-                         ['possession', 'shots', 'passes', 'fouls', 'corners', 'offsides',
-                          'duels', 'dribbles', 'tackles', 'saves', 'crosses', 'long_balls',
-                          'clearances', 'interceptions', 'recoveries'])]
+            # Mostrar las features clave
+            features_clave = [
+                'expected_goals_home', 'expected_goals_away',
+                'total_shots_home', 'total_shots_away',
+                'shots_on_target_home', 'shots_on_target_away',
+                'big_chances_home', 'big_chances_away',
+                'ball_possession_home',
+                'accurate_passes_home', 'accurate_passes_away',
+                'home_goals', 'away_goals', 'result'
+            ]
             
-            if stats_cols:
-                print("\nEstadísticas disponibles en el CSV:")
-                for col in stats_cols[:25]:
-                    print(f"  • {col}")
-                if len(stats_cols) > 25:
-                    print(f"  ... y {len(stats_cols)-25} columnas más")
+            print("\n✅ Features disponibles para entrenamiento:")
+            for f in features_clave:
+                if f in df.columns:
+                    print(f"  ✓ {f}")
+                else:
+                    print(f"  ✗ {f} (no disponible)")
             
             # Mostrar un ejemplo
             if len(df) > 0:
                 print("\n" + "="*80)
-                print("🏆 EJEMPLO DE PARTIDO:")
+                print("🏆 EJEMPLO DE DATOS PARA ML:")
                 print("="*80)
                 ultimo = df.iloc[-1]
                 print(f"  Liga: {ultimo.get('liga', 'N/A')}")
-                print(f"  Partido: {ultimo.get('home_team_name', 'N/A')} {int(ultimo.get('home_goals', 0))} - {int(ultimo.get('away_goals', 0))} {ultimo.get('away_team_name', 'N/A')}")
-                
-                # Mostrar algunas estadísticas
-                if 'ALL_ball_possession_home' in df.columns:
-                    print(f"  Posesión: {ultimo.get('ALL_ball_possession_home', 'N/A')}% - {ultimo.get('ALL_ball_possession_away', 'N/A')}%")
-                if 'ALL_total_shots_home' in df.columns:
-                    print(f"  Tiros totales: {ultimo.get('ALL_total_shots_home', 'N/A')} - {ultimo.get('ALL_total_shots_away', 'N/A')}")
-                if 'ALL_shots_on_target_home' in df.columns:
-                    print(f"  Tiros a puerta: {ultimo.get('ALL_shots_on_target_home', 'N/A')} - {ultimo.get('ALL_shots_on_target_away', 'N/A')}")
-                if 'ALL_accurate_passes_home' in df.columns:
-                    print(f"  Pases precisos: {ultimo.get('ALL_accurate_passes_home', 'N/A')} - {ultimo.get('ALL_accurate_passes_away', 'N/A')}")
-                if 'ALL_duels_home' in df.columns:
-                    print(f"  Duelos ganados: {ultimo.get('ALL_duels_home', 'N/A')}% - {ultimo.get('ALL_duels_away', 'N/A')}%")
-                if 'ALL_tackles_won_home' in df.columns:
-                    print(f"  Entradas ganadas: {ultimo.get('ALL_tackles_won_home', 'N/A')} - {ultimo.get('ALL_tackles_won_away', 'N/A')}")
-                if 'ALL_goalkeeper_saves_home' in df.columns:
-                    print(f"  Paradas: {ultimo.get('ALL_goalkeeper_saves_home', 'N/A')} - {ultimo.get('ALL_goalkeeper_saves_away', 'N/A')}")
+                print(f"  Partido: {ultimo.get('home_team_name', 'N/A')} vs {ultimo.get('away_team_name', 'N/A')}")
+                print(f"  Resultado: {int(ultimo.get('home_goals', 0))} - {int(ultimo.get('away_goals', 0))} ({ultimo.get('result', 'N/A')})")
+                print(f"\n  Features:")
+                print(f"    xG: {ultimo.get('expected_goals_home', 'N/A')} - {ultimo.get('expected_goals_away', 'N/A')}")
+                print(f"    Tiros totales: {ultimo.get('total_shots_home', 'N/A')} - {ultimo.get('total_shots_away', 'N/A')}")
+                print(f"    Tiros a puerta: {ultimo.get('shots_on_target_home', 'N/A')} - {ultimo.get('shots_on_target_away', 'N/A')}")
+                print(f"    Big chances: {ultimo.get('big_chances_home', 'N/A')} - {ultimo.get('big_chances_away', 'N/A')}")
+                print(f"    Posesión: {ultimo.get('ball_possession_home', 'N/A')}%")
+                print(f"    Pases precisos: {ultimo.get('accurate_passes_home', 'N/A')} - {ultimo.get('accurate_passes_away', 'N/A')}")
                 
         except Exception as e:
             logging.warning(f"No se pudo leer el CSV: {e}")
