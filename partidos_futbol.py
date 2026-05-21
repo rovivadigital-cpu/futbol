@@ -12,102 +12,39 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 # ===================== CONFIG GENERAL =====================
 CARPETA_SALIDA = "datos"
 ARCHIVO_COOKIES = os.path.join(CARPETA_SALIDA, "cookies.txt")
-GUARDAR_CADA_N_PARTIDOS = 5  # Guardar cada 5 partidos (por las estadísticas)
-PAUSA_ENTRE_REQUESTS = 2.0  # Mayor pausa para evitar bloqueos
+GUARDAR_CADA_N_PARTIDOS = 10
+PAUSA_ENTRE_REQUESTS = 1.5
 CHROME_VERSIONS = ["chrome136", "chrome131", "chrome124"]
 
 # ===================== CONFIG FÚTBOL =====================
 ARCHIVO_FUTBOL = os.path.join(CARPETA_SALIDA, "futbol_historico.csv")
 
-# TODAS LAS LIGAS (usando nombres para coincidencia parcial)
+# TODAS LAS LIGAS
 LIGAS_DESEADAS = [
-    # CONMEBOL
     "libertadores", "sudamericana",
-    # UEFA
     "champions league", "europa league", "europa conference league", "club world championship",
-    # Inglaterra
     "premier league", "championship", "league one",
-    # España
     "laliga", "laliga 2",
-    # Alemania
     "bundesliga", "2. bundesliga",
-    # Italia
     "serie a", "serie b",
-    # Francia
     "ligue 1", "ligue 2",
-    # USA
     "mls", "nwsl",
-    # Arabia Saudita
     "saudi pro league",
-    # Argentina
     "liga profesional", "primera nacional",
-    # Australia
     "a-league", "npl capital football",
-    # Austria
-    "bundesliga",
-    # Bélgica
-    "pro league",
-    # Bolivia
-    "division profesional",
-    # Brasil
+    "pro league", "division profesional",
     "brasileirao serie a", "brasileirao serie b",
-    # Bulgaria
-    "parva liga",
-    # República Checa
-    "1. liga",
-    # Chile
-    "primera division",
-    # China
-    "cfa super league",
-    # Colombia
+    "parva liga", "1. liga", "primera division", "cfa super league",
     "primera a apertura", "primera a clausura", "primera b",
-    # Corea del Sur
-    "k league 1",
-    # Croacia
-    "hnl",
-    # Dinamarca
-    "superliga",
-    # Egipto
-    "premier league",
-    # Escocia
-    "premiership", "championship",
-    # Eslovenia
-    "prvaliga",
-    # Estonia
-    "premium liiga",
-    # Finlandia
-    "veikkausliiga",
-    # Grecia
-    "super league",
-    # Indonesia
-    "liga 1",
-    # Japón
-    "j1 league", "j2 league",
-    # Letonia
-    "virsliga",
-    # México
+    "k league 1", "hnl", "superliga",
+    "premiership", "championship", "prvaliga", "premium liiga",
+    "veikkausliiga", "super league", "liga 1",
+    "j1 league", "j2 league", "virsliga",
     "liga mx apertura", "liga mx clausura",
-    # Noruega
-    "eliteserien",
-    # Países Bajos
-    "eredivisie", "eerste divisie",
-    # Polonia
-    "ekstraklasa",
-    # Rumania
-    "superliga",
-    # Sudáfrica
-    "premiership",
-    # Suecia
-    "allsvenskan", "superettan",
-    # Turquía
-    "super lig",
-    # Ucrania
-    "premier league",
-    # Suiza
-    "super league",
+    "eliteserien", "eredivisie", "eerste divisie",
+    "ekstraklasa", "allsvenskan", "superettan", "super lig", "super league",
 ]
 
-# Palabras a EXCLUIR
 PALABRAS_EXCLUIR = [
     "women", "femenino", "femenina", "u19", "u20", "u21", "u23",
     "junior", "youth", "academy", "reserve", "sub", "femení",
@@ -143,8 +80,8 @@ def _cargar_cookies() -> dict:
         if cont.startswith("["):
             data = json.loads(cont)
             return {item.get("name"): item.get("value") for item in data if item.get("name")}
-    except Exception as e:
-        logging.error(f"Error cookies: {e}")
+    except Exception:
+        return {}
     return {}
 
 def _nueva_sesion() -> cffi_requests.Session:
@@ -164,7 +101,7 @@ def api_get(url: str, sport: str = "football", intentos: int = 3) -> dict:
     
     for i in range(1, intentos + 1):
         try:
-            time.sleep(PAUSA_ENTRE_REQUESTS + random.uniform(0.5, 1.5))
+            time.sleep(PAUSA_ENTRE_REQUESTS + random.uniform(0.3, 0.9))
             r = SESSION.get(url, timeout=30)
             
             if r.status_code == 200:
@@ -189,22 +126,11 @@ def api_get(url: str, sport: str = "football", intentos: int = 3) -> dict:
             time.sleep(10 * i)
     return {}
 
-# ===================== ESTADÍSTICAS DETALLADAS =====================
-
-def formatear_estadistica(val):
-    """Formatea valores de estadísticas"""
-    if isinstance(val, dict):
-        v = val.get("value", 0)
-        t = val.get("total", 0)
-        if t > 0:
-            return f"{v}/{t} ({round((v/t)*100)}%)"
-        return f"{v}/{t}"
-    return val if val is not None else 0
+# ===================== ESTADÍSTICAS =====================
 
 def parsear_estadisticas_completas(stats_data: dict) -> dict:
     """
     Extrae TODAS las estadísticas del partido
-    Incluye: posesión, tiros, pases, faltas, tarjetas, etc.
     """
     resultado = {}
     
@@ -217,7 +143,6 @@ def parsear_estadisticas_completas(stats_data: dict) -> dict:
         for grupo in periodo.get("groups", []):
             for item in grupo.get("statisticsItems", []):
                 nombre_raw = item.get("name", "")
-                # Limpiar nombre para usarlo como columna
                 nombre = nombre_raw.lower().replace(" ", "_").replace(".", "").replace("-", "_")
                 
                 home_val = item.get("home", {})
@@ -244,159 +169,6 @@ def parsear_estadisticas_completas(stats_data: dict) -> dict:
                         resultado[f"{periodo_nombre}_{nombre}_away"] = away_final
                 else:
                     resultado[f"{periodo_nombre}_{nombre}_away"] = away_val
-    
-    return resultado
-
-def parsear_goleadores(incidents_data: dict) -> dict:
-    """Extrae goleadores, asistencias, tarjetas rojas y amarillas"""
-    resultado = {
-        "home_goal_scorers": "",
-        "away_goal_scorers": "",
-        "home_goal_minutes": "",
-        "away_goal_minutes": "",
-        "home_assists": "",
-        "away_assists": "",
-        "home_yellow_cards": "",
-        "away_yellow_cards": "",
-        "home_red_cards": "",
-        "away_red_cards": "",
-        "home_own_goals": "",
-        "away_own_goals": "",
-        "total_goals": 0,
-        "total_cards": 0,
-    }
-    
-    if not incidents_data:
-        return resultado
-
-    home_scorers = []
-    away_scorers = []
-    home_minutes = []
-    away_minutes = []
-    home_assists_list = []
-    away_assists_list = []
-    home_yellow = []
-    away_yellow = []
-    home_red = []
-    away_red = []
-    home_og = []
-    away_og = []
-    
-    for inc in incidents_data.get("incidents", []):
-        inc_type = inc.get("incidentType", "").lower()
-        is_home = inc.get("isHome", False)
-        player = inc.get("player", {})
-        player_name = player.get("name", "Unknown") if player else "Unknown"
-        minute = inc.get("time", 0)
-        added_time = inc.get("addedTime", 0)
-        
-        # Minuto con tiempo añadido
-        minute_str = f"{minute}'"
-        if added_time:
-            minute_str = f"{minute}+{added_time}'"
-        
-        if inc_type == "goal":
-            is_own = inc.get("incidentClass", "").lower() == "owngoal"
-            
-            if is_own:
-                if is_home:
-                    away_og.append(f"{player_name} ({minute_str})")
-                else:
-                    home_og.append(f"{player_name} ({minute_str})")
-            else:
-                if is_home:
-                    home_scorers.append(player_name)
-                    home_minutes.append(minute_str)
-                else:
-                    away_scorers.append(player_name)
-                    away_minutes.append(minute_str)
-                
-                # Asistencia
-                assist = inc.get("assist", {})
-                assist_name = assist.get("name", "") if assist else ""
-                if assist_name:
-                    if is_home:
-                        home_assists_list.append(f"{assist_name} ({minute_str})")
-                    else:
-                        away_assists_list.append(f"{assist_name} ({minute_str})")
-        
-        elif inc_type == "card":
-            card_class = inc.get("incidentClass", "").lower()
-            if card_class == "yellow":
-                if is_home:
-                    home_yellow.append(f"{player_name} ({minute_str})")
-                else:
-                    away_yellow.append(f"{player_name} ({minute_str})")
-            elif card_class in ["red", "yellowred"]:
-                if is_home:
-                    home_red.append(f"{player_name} ({minute_str})")
-                else:
-                    away_red.append(f"{player_name} ({minute_str})")
-    
-    resultado["home_goal_scorers"] = "; ".join(home_scorers)
-    resultado["away_goal_scorers"] = "; ".join(away_scorers)
-    resultado["home_goal_minutes"] = "; ".join(home_minutes)
-    resultado["away_goal_minutes"] = "; ".join(away_minutes)
-    resultado["home_assists"] = "; ".join(home_assists_list)
-    resultado["away_assists"] = "; ".join(away_assists_list)
-    resultado["home_yellow_cards"] = "; ".join(home_yellow)
-    resultado["away_yellow_cards"] = "; ".join(away_yellow)
-    resultado["home_red_cards"] = "; ".join(home_red)
-    resultado["away_red_cards"] = "; ".join(away_red)
-    resultado["home_own_goals"] = "; ".join(home_og)
-    resultado["away_own_goals"] = "; ".join(away_og)
-    resultado["total_goals"] = len(home_scorers) + len(away_scorers) + len(home_og) + len(away_og)
-    resultado["total_cards"] = len(home_yellow) + len(away_yellow) + len(home_red) + len(away_red)
-    
-    return resultado
-
-def parsear_alineaciones(lineup_data: dict) -> dict:
-    """Extrae formaciones y titulares"""
-    resultado = {
-        "home_formation": "",
-        "away_formation": "",
-        "home_starting_xi": "",
-        "away_starting_xi": "",
-        "home_subs": "",
-        "away_subs": "",
-    }
-    
-    if not lineup_data:
-        return resultado
-    
-    # Formaciones
-    resultado["home_formation"] = lineup_data.get("home", {}).get("formation", "")
-    resultado["away_formation"] = lineup_data.get("away", {}).get("formation", "")
-    
-    # Titulares
-    home_xi = []
-    for player in lineup_data.get("home", {}).get("startingXI", []):
-        name = player.get("player", {}).get("name", "")
-        if name:
-            home_xi.append(name)
-    resultado["home_starting_xi"] = "; ".join(home_xi[:11])
-    
-    away_xi = []
-    for player in lineup_data.get("away", {}).get("startingXI", []):
-        name = player.get("player", {}).get("name", "")
-        if name:
-            away_xi.append(name)
-    resultado["away_starting_xi"] = "; ".join(away_xi[:11])
-    
-    # Suplentes
-    home_subs = []
-    for player in lineup_data.get("home", {}).get("substitutes", []):
-        name = player.get("player", {}).get("name", "")
-        if name:
-            home_subs.append(name)
-    resultado["home_subs"] = "; ".join(home_subs[:7])
-    
-    away_subs = []
-    for player in lineup_data.get("away", {}).get("substitutes", []):
-        name = player.get("player", {}).get("name", "")
-        if name:
-            away_subs.append(name)
-    resultado["away_subs"] = "; ".join(away_subs[:7])
     
     return resultado
 
@@ -433,7 +205,7 @@ def es_partido_finalizado(evento: dict) -> bool:
 # ===================== PROCESAMIENTO =====================
 
 def procesar_dia_futbol(fecha: str) -> int:
-    """Procesa todos los partidos de fútbol de una fecha con estadísticas completas"""
+    """Procesa todos los partidos de fútbol de una fecha con estadísticas"""
     url = f"https://api.sofascore.com/api/v1/sport/football/scheduled-events/{fecha}"
     data = api_get(url, sport="football")
     
@@ -447,7 +219,6 @@ def procesar_dia_futbol(fecha: str) -> int:
     if not eventos:
         return 0
     
-    # Filtrar partidos
     candidatos = []
     for e in eventos:
         if not es_partido_finalizado(e):
@@ -460,9 +231,16 @@ def procesar_dia_futbol(fecha: str) -> int:
             candidatos.append(e)
     
     if not candidatos:
+        ligas_vistas = set()
+        for e in eventos[:15]:
+            if es_partido_finalizado(e):
+                t = e.get("tournament", {})
+                ligas_vistas.add(t.get("name", "Unknown"))
+        if ligas_vistas:
+            logging.info(f"  ℹ️ Ligas disponibles: {', '.join(list(ligas_vistas)[:8])}")
         return 0
 
-    logging.info(f"✅ {len(candidatos)} partidos encontrados (descargando estadísticas...)")
+    logging.info(f"✅ {len(candidatos)} partidos encontrados")
 
     buffer = []
     for i, evento in enumerate(candidatos, 1):
@@ -510,25 +288,15 @@ def procesar_dia_futbol(fecha: str) -> int:
                 "scrape_date": datetime.now().strftime("%Y-%m-%d"),
             }
             
-            # ESTADÍSTICAS DETALLADAS
-            logging.info(f"  [{i:3d}/{len(candidatos)}] 📊 Descargando estadísticas: {home.get('name')} vs {away.get('name')}")
+            # SOLO ESTADÍSTICAS (sin incidents ni lineups)
+            logging.info(f"  [{i:3d}/{len(candidatos)}] 📊 {home.get('name')} vs {away.get('name')}")
             
             stats_raw = api_get(f"https://api.sofascore.com/api/v1/event/{event_id}/statistics", sport="football")
             if stats_raw:
                 partido.update(parsear_estadisticas_completas(stats_raw))
             
-            # GOLEADORES Y TARJETAS
-            incidents_raw = api_get(f"https://api.sofascore.com/api/v1/event/{event_id}/incidents", sport="football")
-            if incidents_raw:
-                partido.update(parsear_goleadores(incidents_raw))
-            
-            # ALINEACIONES
-            lineup_raw = api_get(f"https://api.sofascore.com/api/v1/event/{event_id}/lineups", sport="football")
-            if lineup_raw:
-                partido.update(parsear_alineaciones(lineup_raw))
-            
             buffer.append(partido)
-            logging.info(f"      ✅ {home.get('name')} {home_goals}-{away_goals} {away.get('name')} | {len(partido)} campos guardados")
+            logging.info(f"      ✅ {home.get('name')} {home_goals}-{away_goals} {away.get('name')} | {len(partido)} campos")
 
             if len(buffer) >= GUARDAR_CADA_N_PARTIDOS:
                 append_to_csv(buffer, ARCHIVO_FUTBOL)
@@ -543,7 +311,6 @@ def procesar_dia_futbol(fecha: str) -> int:
     return len(candidatos)
 
 def append_to_csv(partidos: list, archivo: str):
-    """Guarda partidos en CSV con todas las columnas"""
     if not partidos:
         return
     
@@ -554,7 +321,6 @@ def append_to_csv(partidos: list, archivo: str):
         try:
             df_viejo = pd.read_csv(archivo)
             if len(df_viejo) > 0:
-                # Combinar y eliminar duplicados
                 df_final = pd.concat([df_viejo, df_nuevo], ignore_index=True)
                 df_final = df_final.drop_duplicates(subset=["event_id"], keep="last")
                 df_final.to_csv(archivo, index=False)
@@ -573,13 +339,12 @@ def append_to_csv(partidos: list, archivo: str):
 
 if __name__ == "__main__":
     logging.info("="*60)
-    logging.info("🚀 INICIANDO SCRAPER DE FÚTBOL (ESTADÍSTICAS COMPLETAS)")
+    logging.info("🚀 INICIANDO SCRAPER DE FÚTBOL (SOLO ESTADÍSTICAS)")
     logging.info("="*60)
     logging.info(f"🎯 Ligas configuradas: {len(LIGAS_DESEADAS)}")
     
     os.makedirs(CARPETA_SALIDA, exist_ok=True)
     
-    # Usar la fecha actual del servidor
     hoy = datetime.now().date()
     ayer = hoy - timedelta(days=1)
     
@@ -596,14 +361,13 @@ if __name__ == "__main__":
         
         partidos = procesar_dia_futbol(fecha)
         total_partidos += partidos
-        logging.info(f"📈 Partidos guardados para {fecha}: {partidos}")
+        logging.info(f"📈 Partidos guardados: {partidos}")
         
         if idx < len(fechas_a_procesar):
-            pausa = random.uniform(5, 10)
+            pausa = random.uniform(3, 6)
             logging.info(f"⏱️  Esperando {pausa:.1f} segundos...")
             time.sleep(pausa)
     
-    # Resumen final
     logging.info(f"\n{'='*60}")
     logging.info(f"✅ ¡SCRAPING COMPLETADO!")
     logging.info(f"{'='*60}")
@@ -615,31 +379,37 @@ if __name__ == "__main__":
             logging.info(f"📊 Total en CSV: {len(df)} partidos")
             logging.info(f"📊 Columnas totales: {len(df.columns)}")
             
-            # Mostrar columnas disponibles
             print("\n" + "="*80)
-            print("📋 COLUMNAS DISPONIBLES EN EL CSV:")
+            print("📋 EJEMPLO DE ESTADÍSTICAS DISPONIBLES:")
             print("="*80)
-            cols = list(df.columns)
-            for i, col in enumerate(sorted(cols)):
-                print(f"  {i+1:3d}. {col}")
             
-            print("\n" + "="*80)
-            print("🏆 EJEMPLO DE PARTIDO (último):")
-            print("="*80)
-            ultimo = df.iloc[-1]
-            print(f"  Liga: {ultimo.get('liga', 'N/A')}")
-            print(f"  Partido: {ultimo.get('home_team_name', 'N/A')} {int(ultimo.get('home_goals', 0))} - {int(ultimo.get('away_goals', 0))} {ultimo.get('away_team_name', 'N/A')}")
-            print(f"  Goleadores local: {ultimo.get('home_goal_scorers', 'N/A')}")
-            print(f"  Goleadores visita: {ultimo.get('away_goal_scorers', 'N/A')}")
-            print(f"  Tarjetas amarillas local: {ultimo.get('home_yellow_cards', 'N/A')}")
-            print(f"  Tarjetas rojas: {ultimo.get('home_red_cards', 'N/A')} / {ultimo.get('away_red_cards', 'N/A')}")
+            # Mostrar columnas de estadísticas
+            stats_cols = [c for c in df.columns if any(x in c.lower() for x in 
+                         ['possession', 'shots', 'passes', 'fouls', 'corners', 'offsides'])]
             
-            # Mostrar estadísticas si existen
-            stats_cols = [c for c in cols if 'possession' in c.lower() or 'shots' in c.lower() or 'pass' in c.lower()]
             if stats_cols:
-                print(f"\n  Estadísticas disponibles: {', '.join(stats_cols[:5])}...")
+                print("\nEstadísticas disponibles en el CSV:")
+                for col in stats_cols[:15]:
+                    print(f"  • {col}")
+                if len(stats_cols) > 15:
+                    print(f"  ... y {len(stats_cols)-15} columnas más")
+            
+            # Mostrar un ejemplo
+            if len(df) > 0:
+                print("\n" + "="*80)
+                print("🏆 EJEMPLO DE PARTIDO:")
+                print("="*80)
+                ultimo = df.iloc[-1]
+                print(f"  Liga: {ultimo.get('liga', 'N/A')}")
+                print(f"  Partido: {ultimo.get('home_team_name', 'N/A')} {int(ultimo.get('home_goals', 0))} - {int(ultimo.get('away_goals', 0))} {ultimo.get('away_team_name', 'N/A')}")
+                
+                # Mostrar algunas estadísticas
+                if 'ALL_possession_home' in df.columns:
+                    print(f"  Posesión: {ultimo.get('ALL_possession_home', 'N/A')}% - {ultimo.get('ALL_possession_away', 'N/A')}%")
+                if 'ALL_total_shots_home' in df.columns:
+                    print(f"  Tiros: {ultimo.get('ALL_total_shots_home', 'N/A')} - {ultimo.get('ALL_total_shots_away', 'N/A')}")
+                if 'ALL_accurate_passes_home' in df.columns:
+                    print(f"  Pases completados: {ultimo.get('ALL_accurate_passes_home', 'N/A')} - {ultimo.get('ALL_accurate_passes_away', 'N/A')}")
                 
         except Exception as e:
             logging.warning(f"No se pudo leer el CSV: {e}")
-    else:
-        logging.info("ℹ️ No hay partidos guardados")
