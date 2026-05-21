@@ -346,22 +346,26 @@ if __name__ == "__main__":
     os.makedirs(CARPETA_SALIDA, exist_ok=True)
     
     hoy = datetime.now().date()
-    ayer = hoy - timedelta(days=1)
+    fechas_a_procesar = []
     
-    logging.info(f"📅 Fecha del servidor: {hoy}")
-    logging.info(f"📅 Procesando partidos de: {ayer} y {hoy}")
+    # Últimos 5 días (incluyendo hoy)
+    for i in range(5):
+        fecha = hoy - timedelta(days=i)
+        fechas_a_procesar.append(fecha.strftime("%Y-%m-%d"))
     
-    fechas_a_procesar = [ayer.strftime("%Y-%m-%d"), hoy.strftime("%Y-%m-%d")]
+    logging.info(f"📅 Rango de fechas: {fechas_a_procesar[-1]} → {fechas_a_procesar[0]}")
+    logging.info(f"📅 Procesando {len(fechas_a_procesar)} días")
+    
     total_partidos = 0
     
     for idx, fecha in enumerate(fechas_a_procesar, 1):
         logging.info(f"\n{'='*50}")
-        logging.info(f"📆 [{idx}/2] Procesando fecha: {fecha}")
+        logging.info(f"📆 [{idx}/{len(fechas_a_procesar)}] Procesando fecha: {fecha}")
         logging.info(f"{'='*50}")
         
         partidos = procesar_dia_futbol(fecha)
         total_partidos += partidos
-        logging.info(f"📈 Partidos guardados: {partidos}")
+        logging.info(f"📈 Partidos guardados hoy: {partidos}")
         
         if idx < len(fechas_a_procesar):
             pausa = random.uniform(3, 6)
