@@ -208,7 +208,7 @@ def api_get(url: str, sport: str = "football", intentos: int = 3) -> dict:
     
     for i in range(1, intentos + 1):
         try:
-            time.sleep(PAUSA_ENTRE_REQUESTS + random.uniform(0.5, 1.5))
+            time.sleep(PAUSA_ENTRE_REQUESTS + random.uniform(0.2, 0.9))
             r = SESSION.get(url, timeout=30)
             
             if r.status_code == 200:
