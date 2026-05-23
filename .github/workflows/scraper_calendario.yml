@@ -44,7 +44,7 @@ jobs:
       
 
       - name: Ejecutar scraper calendario
-        run: python scraper_calendario.py
+        run: python futbol_calendario.py
 
       - name: Guardar datos en repositorio
         if: always()
