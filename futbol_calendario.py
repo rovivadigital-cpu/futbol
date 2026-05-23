@@ -177,7 +177,7 @@ def obtener_calendario_futbol():
     ]
 
     os.makedirs("datos", exist_ok=True)
-    archivo = os.path.join("datos", "calendario_futbol.csv")
+    archivo = os.path.join("datos", "calendar_futbol.csv")
 
     if todos:
         df = pd.DataFrame(todos, columns=columnas)
