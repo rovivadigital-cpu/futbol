@@ -1,8 +1,7 @@
 name: Scraper Diario Fútbol
 
 on:
-  schedule:
-    - cron: '10 5 * * *'   # 12:10 AM hora Colombia (UTC-5)
+  
   workflow_dispatch:        
 
 jobs:
