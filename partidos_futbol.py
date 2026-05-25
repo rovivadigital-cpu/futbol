@@ -7,210 +7,213 @@ import json
 import random
 from curl_cffi import requests as cffi_requests
 
+# Configuración de logs detallada
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 
 # ===================== CONFIG GENERAL =====================
-CARPETA_SALIDA = "datos"
-ARCHIVO_COOKIES = os.path.join(CARPETA_SALIDA, "cookies.txt")
-GUARDAR_CADA_N_PARTIDOS = 5
-PAUSA_ENTRE_REQUESTS = 0.6
-CHROME_VERSIONS = ["chrome136", "chrome131", "chrome124"]
+CARPETA_SALIDA        = "datos"
+ARCHIVO_COOKIES       = os.path.join(CARPETA_SALIDA, "cookies.txt")
+ARCHIVO_FUTBOL        = os.path.join(CARPETA_SALIDA, "futbol_historico.csv")
+GUARDAR_CADA_N        = 5
+ARCHIVO_CHECKPOINT    = os.path.join(CARPETA_SALIDA, "checkpoint.json")
+PAUSA_BASE            = 0.8
+CHROME_VERSIONS       = ["chrome136", "chrome131", "chrome124"]
 
-# ===================== CONFIG FÚTBOL =====================
-ARCHIVO_FUTBOL = os.path.join(CARPETA_SALIDA, "futbol_historico.csv")
-
-# LIGAS CON SU PAÍS (nombre de liga -> país)
-LIGAS_CON_PAIS = {
-    # CONMEBOL
-    "libertadores": "Sudamérica",
-    "sudamericana": "Sudamérica",
-    # UEFA
-    "champions league": "Europa",
-    "europa league": "Europa",
-    "europa conference league": "Europa",
-    "club world championship": "Mundial",
-    # Inglaterra
-    "premier league": "Inglaterra",
-    "championship": "Inglaterra",
-    "league one": "Inglaterra",
-    # España
-    "laliga": "España",
-    "laliga 2": "España",
-    # Alemania
-    "bundesliga": "Alemania",
-    "2. bundesliga": "Alemania",
-    # Italia
-    "serie a": "Italia",
-    "serie b": "Italia",
-    # Francia
-    "ligue 1": "Francia",
-    "ligue 2": "Francia",
-    # USA
-    "mls": "Estados Unidos",
-    "nwsl": "Estados Unidos",
-    "mls next pro": "Estados Unidos",
-    "usl championship": "Estados Unidos",
-    # Arabia Saudita
-    "saudi pro league": "Arabia Saudita",
-    # Argentina
-    "liga profesional": "Argentina",
-    "primera nacional": "Argentina",
-    # Australia
-    "a-league": "Australia",
-    "npl capital football": "Australia",
-    # Austria
-    "bundesliga": "Austria",
-    # Bélgica
-    "pro league": "Bélgica",
-    # Bolivia
-    "division profesional": "Bolivia",
-    # Brasil
-    "brasileirao serie a": "Brasil",
-    "brasileirao serie b": "Brasil",
-    # Bulgaria
-    "parva liga": "Bulgaria",
-    # República Checa
-    "1. liga": "República Checa",
-    "czech first league": "República Checa",
-    # Chile
-    "primera division": "Chile",
-    # China
-    "cfa super league": "China",
-    # Colombia
-    "primera a apertura": "Colombia",
-    "primera a clausura": "Colombia",
-    "primera b": "Colombia",
-    # Corea del Sur
-    "k league 1": "Corea del Sur",
-    # Croacia
-    "hnl": "Croacia",
-    # Dinamarca
-    "superliga": "Dinamarca",
-    # Egipto
-    "premier league": "Egipto",
-    "egyptian premier league": "Egipto",
-    # Escocia
-    "premiership": "Escocia",
-    "championship": "Escocia",
-    "scottish premiership": "Escocia",
-    # Eslovenia
-    "prvaliga": "Eslovenia",
-    # Estonia
-    "premium liiga": "Estonia",
-    # Finlandia
-    "veikkausliiga": "Finlandia",
-    # Grecia
-    "super league": "Grecia",
-    "stoiximan super league": "Grecia",
-    # Indonesia
-    "liga 1": "Indonesia",
-    # Japón
-    "j1 league": "Japón",
-    "j2 league": "Japón",
-    # Letonia
-    "virsliga": "Letonia",
-    # México
-    "liga mx apertura": "México",
-    "liga mx clausura": "México",
-    # Noruega
-    "eliteserien": "Noruega",
-    # Países Bajos
-    "eredivisie": "Países Bajos",
-    "eerste divisie": "Países Bajos",
-    # Polonia
-    "ekstraklasa": "Polonia",
-    # Rumania
-    "superliga": "Rumania",
-    # Sudáfrica
-    "premiership": "Sudáfrica",
-    # Suecia
-    "allsvenskan": "Suecia",
-    "superettan": "Suecia",
-    "damallsvenskan": "Suecia",
-    # Turquía
-    "super lig": "Turquía",
-    # Ucrania
-    "premier league": "Ucrania",
-    # Suiza
-    "super league": "Suiza",
-    # Otros
-    "austrian bundesliga": "Austria",
-    "swiss super league": "Suiza",
-    "chinese super league": "China",
-    "canadian premier league": "Canadá",
-    "philippines football league": "Filipinas",
-    "kazakhstan premier league": "Kazajistán",
-    "bahrain premier league": "Baréin",
-    "ghana premier league": "Ghana",
-    "cyprus league": "Chipre",
-    "serie a femminile": "Italia",
-    "frauen-bundesliga": "Alemania",
-    "prva liga": "Eslovenia",
-    "niké liga": "Eslovaquia",
-    "super liga": "Moldavia",
-    "liga pro serie a": "Ecuador",
-    "primera division": "Uruguay",
-}
-
-PALABRAS_EXCLUIR = [
-    "women", "femenino", "femenina", "u19", "u20", "u21", "u23",
-    "junior", "youth", "academy", "reserve", "sub", "femení",
-    "womens", "futsal", "beach", "amateur", "cup", "u21", "u19"
+USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
 ]
 
-HEADERS_BASE = {
-    "Accept": "application/json, text/plain, */*",
-    "Accept-Language": "en-US,en;q=0.9,es;q=0.8",
-    "Accept-Encoding": "gzip, deflate, br",
-    "Cache-Control": "no-cache",
-    "Pragma": "no-cache",
-    "Origin": "https://www.sofascore.com",
-    "Referer": "https://www.sofascore.com/football",
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-    "sec-ch-ua": '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"',
-    "sec-ch-ua-mobile": "?0",
-    "sec-ch-ua-platform": '"Windows"',
-    "Sec-Fetch-Dest": "empty",
-    "Sec-Fetch-Mode": "cors",
-    "Sec-Fetch-Site": "same-site",
-    "Connection": "keep-alive",
+COLUMNAS_BBDD = [
+    "event_id", "pais", "liga", "tourney_id", "tourney_name", "tourney_season", "tourney_date", 
+    "round", "round_number", "home_team_id", "home_team_name", "away_team_id", "away_team_name", 
+    "home_goals", "away_goals", "home_ht_goals", "away_ht_goals", "home_et_goals", "away_et_goals", 
+    "home_pen_goals", "away_pen_goals", "result", "scrape_date",
+    "ALL_ball_possession_home", "ALL_ball_possession_away", 
+    "ALL_expected_goals_home", "ALL_expected_goals_away",
+    "ALL_big_chances_home", "ALL_big_chances_away", 
+    "ALL_total_shots_home", "ALL_total_shots_away",
+    "ALL_goalkeeper_saves_home", "ALL_goalkeeper_saves_away", 
+    "ALL_corner_kicks_home", "ALL_corner_kicks_away",
+    "ALL_fouls_home", "ALL_fouls_away", 
+    "ALL_passes_home", "ALL_passes_away", 
+    "ALL_yellow_cards_home", "ALL_yellow_cards_away", 
+    "ALL_shots_on_target_home", "ALL_shots_on_target_away", 
+    "ALL_offsides_home", "ALL_offsides_away", 
+    "ALL_accurate_passes_home", "ALL_accurate_passes_away",
+    "ALL_red_cards_home", "ALL_red_cards_away"
+]
+
+MAPEO_ESTADISTICAS = {
+    "ball possession": "ball_possession", "expected goals": "expected_goals",
+    "big chances": "big_chances", "total shots": "total_shots",
+    "goalkeeper saves": "goalkeeper_saves", "corner kicks": "corner_kicks",
+    "fouls": "fouls", "passes": "passes", "yellow cards": "yellow_cards",
+    "shots on target": "shots_on_target", "offsides": "offsides",
+    "accurate passes": "accurate_passes", "red cards": "red_cards",
 }
 
-# ===================== SESIÓN Y API =====================
+TORNEOS_IDS = { 
+    17: {"nombre": "Premier League", "pais": "England"},
+18: {"nombre": "Championship", "pais": "England"},
+24: {"nombre": "League One", "pais": "England"},
+25: {"nombre": "League Two", "pais": "England"},
+19: {"nombre": "FA Cup", "pais": "England"},
+841: {"nombre": "Algerian Ligue 1", "pais": "Algeria"},
+155: {"nombre": "Liga Profesional de Fútbol", "pais": "Argentina"},
+703: {"nombre": "Primera Nacional", "pais": "Argentina"},
+1347: {"nombre": "Primera B Metropolitana", "pais": "Argentina"},
+136: {"nombre": "A-League Men", "pais": "Australia"},
+1894: {"nombre": "A-League Women", "pais": "Australia"},
+1260: {"nombre": "NPL Capital Football", "pais": "Australia"},
+1268: {"nombre": "NPL Queensland", "pais": "Australia"},
+709: {"nombre": "Misli Premier League", "pais": "Azerbaijan"},
+846: {"nombre": "Bahraini Premier League", "pais": "Bahrain"},
+13331: {"nombre": "Bangladesh Football League", "pais": "Bangladesh"},
+16736: {"nombre": "División Profesional", "pais": "Bolivia"},
+325: {"nombre": "Brasileirão Betano", "pais": "Brazil"},
+390: {"nombre": "Brasileirão Série B", "pais": "Brazil"},
+1281: {"nombre": "Brasileirão Série C", "pais": "Brazil"},
+22106: {"nombre": "Première Division de N’Djaména", "pais": "Chad"},
+11653: {"nombre": "Liga de Primera", "pais": "Chile"},
+649: {"nombre": "Chinese Super League", "pais": "China"},
+782: {"nombre": "Chinese League 1", "pais": "China"},
+11539: {"nombre": "Primera A, Apertura", "pais": "Colombia"},
+11536: {"nombre": "Primera A, Finalización", "pais": "EColombia"},
+1238: {"nombre": "Categoría Primera B", "pais": "Colombia"},
+240: {"nombre": "LigaPro Serie A", "pais": "Ecuador"},
+808: {"nombre": "Egyptian Premier League", "pais": "Egypt"},
+309: {"nombre": "World Cup Qual. OFC", "pais": "Oceania"},
+1222: {"nombre": "OFC Champions League", "pais": "Oceania"},
+704: {"nombre": "Erovnuli Liga", "pais": "Georgia"},
+1054: {"nombre": "CAF Champions League", "pais": "Africa"},
+463: {"nombre": "AFC Champions League Elite", "pais": "Asia"},
+7: {"nombre": "UEFA Champions League", "pais": "Europe"},
+679: {"nombre": "UEFA Europa League", "pais": "Europe"},
+17015: {"nombre": "UEFA Conference League", "pais": "Europe"},
+696: {"nombre": "UEFA Women's Champions League", "pais": "Europe"},
+140: {"nombre": "CONCACAF Gold Cup", "pais": "North & Central America"},
+11454: {"nombre": "Campeones Cup", "pais": "North & Central America"},
+498: {"nombre": "CONCACAF Champions Cup", "pais": "North & Central America"},
+13783: {"nombre": "Leagues Cup", "pais": "North & Central America"},
+384: {"nombre": "CONMEBOL Libertadores", "pais": "South America"},
+480: {"nombre": "CONMEBOL Sudamericana", "pais": "South America"},
+133: {"nombre": "Copa América", "pais": "South America"},
+10602: {"nombre": "Copa Libertadores Femenina", "pais": "South America"},
+1015: {"nombre": "Indonesia Super League", "pais": "Indonesia"},
+20708: {"nombre": "UEFA-CONMEBOL Club Challenge", "pais": "World"},
+16: {"nombre": "FIFA World Cup", "pais": "World"},
+23674: {"nombre": "FIFA Intercontinental Cup", "pais": "World"},
+851: {"nombre": "International Friendly Games", "pais": "World"},
+290: {"nombre": "FIFA Women's World Cup", "pais": "World"},
+915: {"nombre": "Persian Gulf Pro League", "pais": "Iran"},
+206: {"nombre": "Israeli Premier League", "pais": "Israel"},
+196: {"nombre": "J1 League", "pais": "Japan"},
+402: {"nombre": "J2 League", "pais": "Japan"},
+682: {"nombre": "Kazakhstan Premier League", "pais": "Kazakhstan"},
+1002: {"nombre": "Zain Premier League", "pais": "Kuwait"},
+594: {"nombre": "New Zealand National League", "pais": "New Zealand"},
+200: {"nombre": "NIFL Premiership", "pais": "Northern Ireland"},
+11540: {"nombre": "Primera División, Apertura", "pais": "Paraguay"},
+11541: {"nombre": "Primera División, Clausura", "pais": "Paraguay"},
+406: {"nombre": "Liga 1", "pais": "Peru"},
+825: {"nombre": "Stars League", "pais": "Qatar"},
+955: {"nombre": "Saudi Pro League", "pais": "Saudi Arabia"},
+36: {"nombre": "Scottish Premiership", "pais": "Scotland"},
+206: {"nombre": "Scottish Championship", "pais": "Scotland"},
+358: {"nombre": "South African Premier Division", "pais": "South Africa"},
+52: {"nombre": "Trendyol Süper Lig", "pais": "Turkey"},
+971: {"nombre": "UAE Pro League", "pais": "United Arab Emirates"},
+278: {"nombre": "Liga AUF Uruguaya", "pais": "Uruguay"},
+13470: {"nombre": "Canadian Premier League", "pais": "Canada"},
+11621: {"nombre": "Liga MX, Apertura", "pais": "Mexico"},
+11620: {"nombre": "Liga MX, Clausura", "pais": "Mexico"},
+11611: {"nombre": "Liga de Expansión MX, Apertura", "pais": "Mexico"},
+11612: {"nombre": "Liga de Expansión MX, Clausura", "pais": "Mexico"},
+242: {"nombre": "MLS", "pais": "USA"},
+13363: {"nombre": "USL Championship", "pais": "USA"},
+18641: {"nombre": "MLS Next Pro", "pais": "USA"},
+1690: {"nombre": "NWSL", "pais": "USA"},
+197: {"nombre": "Virsliga", "pais": "Latvia"},
+198: {"nombre": "TOPLYGA", "pais": "Lithuania"},
+211: {"nombre": "Niké Liga", "pais": "Slovakia"},
+8: {"nombre": "LaLiga", "pais": "Spain"},
+54: {"nombre": "LaLiga 2", "pais": "Spain"},
+20: {"nombre": "Eliteserien", "pais": "Norway"},
+22: {"nombre": "Norwegian 1st Division", "pais": "Norway"},
+202: {"nombre": "Ekstraklasa", "pais": "Poland"},
+238: {"nombre": "Liga Portugal Betclic", "pais": "Portugal"},
+152: {"nombre": "SuperLiga României", "pais": "Romania"},
+40: {"nombre": "Allsvenskan", "pais": "Sweden"},
+46: {"nombre": "Superettan", "pais": "Sweden"},
+67: {"nombre": "Ettan, Norra", "pais": "Sweden"},
+68: {"nombre": "Ettan, Södra", "pais": "Sweden"},
+214: {"nombre": "Damallsvenskan", "pais": "Sweden"},
+218: {"nombre": "Ukrainian Premier League", "pais": "Ukraine"},
+37: {"nombre": "VriendenLoterij Eredivisie", "pais": "Netherlands"},
+131: {"nombre": "Eerste Divisiee", "pais": "Netherlands"},
+215: {"nombre": "Swiss Super League", "pais": "Switzerland"},
+185: {"nombre": "Stoiximan Super League", "pais": "Greece"},
+38: {"nombre": "Pro League", "pais": "Belgium"},
+9: {"nombre": "Challenger Pro League", "pais": "Belgium"},
+178: {"nombre": "Premium Liiga", "pais": "Estonia"},
+678: {"nombre": "Esiliiga", "pais": "Estonia"},
+41: {"nombre": "Veikkausliiga", "pais": "Finland"},
+55: {"nombre": "Ykkösliiga", "pais": "Finland"},
+34: {"nombre": "Ligue 1", "pais": "France"},
+182: {"nombre": "Ligue 2", "pais": "France"},
+35: {"nombre": "Bundesliga", "pais": "Germany"},
+44: {"nombre": "2. Bundesliga", "pais": "Germany"},
+192: {"nombre": "Premier Division", "pais": "Ireland"},
+23: {"nombre": "Serie A", "pais": "Italy"},
+53: {"nombre": "Serie B", "pais": "Italy"},
+45: {"nombre": "Austrian Bundesliga", "pais": "Austria"},
+247: {"nombre": "Parva Liga", "pais": "Bulgaria"},
+1135: {"nombre": "Vtora Liga", "pais": "Bulgaria"},
+205: {"nombre": "FNL", "pais": "Czech Republic"},
+39: {"nombre": "Danish Superliga", "pais": "Denmark"},
+170: {"nombre": "HNL", "pais": "Croatia"},
+}
+IDS_DESEADOS = set(TORNEOS_IDS.keys())
 
 def _cargar_cookies() -> dict:
-    if not os.path.exists(ARCHIVO_COOKIES):
-        return {}
+    if not os.path.exists(ARCHIVO_COOKIES): return {}
     try:
         with open(ARCHIVO_COOKIES, "r", encoding="utf-8") as f:
             cont = f.read().strip()
         if cont.startswith("["):
             data = json.loads(cont)
             return {item.get("name"): item.get("value") for item in data if item.get("name")}
-    except Exception:
-        return {}
+    except Exception: pass
     return {}
 
 def _nueva_sesion() -> cffi_requests.Session:
     impersonate = random.choice(CHROME_VERSIONS)
+    ua = random.choice(USER_AGENTS)
     s = cffi_requests.Session(impersonate=impersonate)
+    s.headers.update({
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "en-US,en;q=0.9,es;q=0.8",
+        "User-Agent": ua,
+        "Origin": "https://www.sofascore.com",
+        "Referer": "https://www.sofascore.com/football",
+    })
     cookies = _cargar_cookies()
-    if cookies:
-        s.cookies.update(cookies)
-    s.headers.update(HEADERS_BASE)
+    if cookies: s.cookies.update(cookies)
     return s
 
 SESSION = _nueva_sesion()
 _403_consecutivos = 0
 
-def api_get(url: str, sport: str = "football", intentos: int = 3) -> dict:
+def api_get(url: str, intentos: int = 3) -> dict:
     global SESSION, _403_consecutivos
-    
     for i in range(1, intentos + 1):
         try:
-            time.sleep(PAUSA_ENTRE_REQUESTS + random.uniform(0.2, 0.9))
+            time.sleep(PAUSA_BASE + random.uniform(0.2, 0.9))
             r = SESSION.get(url, timeout=30)
-            
             if r.status_code == 200:
                 _403_consecutivos = 0
                 return r.json()
@@ -224,363 +227,188 @@ def api_get(url: str, sport: str = "football", intentos: int = 3) -> dict:
                     time.sleep(20 * i)
             elif r.status_code == 429:
                 time.sleep(90 * i)
-            elif r.status_code == 404:
-                return {}
-            else:
-                time.sleep(10 * i)
         except Exception as e:
             logging.error(f"Error en {url}: {e}")
-            time.sleep(10 * i)
     return {}
-
-# ===================== ESTADÍSTICAS =====================
-
-def obtener_pais_liga(nombre_liga: str) -> str:
-    """Devuelve el país de la liga según el nombre"""
-    if not nombre_liga:
-        return "Desconocido"
-    
-    nombre_liga_lower = nombre_liga.lower()
-    
-    for clave, pais in LIGAS_CON_PAIS.items():
-        if clave in nombre_liga_lower:
-            return pais
-    
-    return "Desconocido"
-
-def parsear_estadisticas_completas(stats_data: dict) -> dict:
-    resultado = {}
-    
-    if not stats_data:
-        return resultado
-    
-    for periodo in stats_data.get("statistics", []):
-        periodo_nombre = periodo.get("period", "ALL").upper()
-        
-        for grupo in periodo.get("groups", []):
-            for item in grupo.get("statisticsItems", []):
-                nombre_raw = item.get("name", "")
-                nombre = nombre_raw.lower().replace(" ", "_").replace(".", "").replace("-", "_")
-                
-                home_val = item.get("home", {})
-                away_val = item.get("away", {})
-                
-                if isinstance(home_val, dict):
-                    home_final = home_val.get("value", home_val.get("total", 0))
-                    home_total = home_val.get("total", home_val.get("value", 0))
-                    if home_total and home_total != home_final:
-                        resultado[f"{periodo_nombre}_{nombre}_home"] = f"{home_final}/{home_total}"
-                    else:
-                        resultado[f"{periodo_nombre}_{nombre}_home"] = home_final
-                else:
-                    resultado[f"{periodo_nombre}_{nombre}_home"] = home_val
-                
-                if isinstance(away_val, dict):
-                    away_final = away_val.get("value", away_val.get("total", 0))
-                    away_total = away_val.get("total", away_val.get("value", 0))
-                    if away_total and away_total != away_final:
-                        resultado[f"{periodo_nombre}_{nombre}_away"] = f"{away_final}/{away_total}"
-                    else:
-                        resultado[f"{periodo_nombre}_{nombre}_away"] = away_final
-                else:
-                    resultado[f"{periodo_nombre}_{nombre}_away"] = away_val
-    
-    return resultado
-
-def parsear_xg_detallado(shotmap_data: dict) -> dict:
-    resultado = {
-        "home_xg_total": 0,
-        "away_xg_total": 0,
-        "home_shots": 0,
-        "away_shots": 0,
-        "home_shots_on_target": 0,
-        "away_shots_on_target": 0,
-        "home_big_chances": 0,
-        "away_big_chances": 0,
-        "home_big_chances_missed": 0,
-        "away_big_chances_missed": 0,
-        "home_xg_1st_half": 0,
-        "away_xg_1st_half": 0,
-        "home_xg_2nd_half": 0,
-        "away_xg_2nd_half": 0,
-    }
-    
-    if not shotmap_data:
-        return resultado
-    
-    summary = shotmap_data.get("summary", {})
-    if summary:
-        resultado["home_xg_total"] = summary.get("home", {}).get("xg", 0)
-        resultado["away_xg_total"] = summary.get("away", {}).get("xg", 0)
-        resultado["home_shots"] = summary.get("home", {}).get("shots", 0)
-        resultado["away_shots"] = summary.get("away", {}).get("shots", 0)
-        resultado["home_shots_on_target"] = summary.get("home", {}).get("onTarget", 0)
-        resultado["away_shots_on_target"] = summary.get("away", {}).get("onTarget", 0)
-        resultado["home_big_chances"] = summary.get("home", {}).get("bigChances", 0)
-        resultado["away_big_chances"] = summary.get("away", {}).get("bigChances", 0)
-        resultado["home_big_chances_missed"] = summary.get("home", {}).get("bigChancesMissed", 0)
-        resultado["away_big_chances_missed"] = summary.get("away", {}).get("bigChancesMissed", 0)
-    
-    periods = shotmap_data.get("periods", {})
-    if periods:
-        for period, data in periods.items():
-            if "1" in period or "FIRST" in period.upper():
-                resultado["home_xg_1st_half"] = data.get("home", {}).get("xg", 0)
-                resultado["away_xg_1st_half"] = data.get("away", {}).get("xg", 0)
-            elif "2" in period or "SECOND" in period.upper():
-                resultado["home_xg_2nd_half"] = data.get("home", {}).get("xg", 0)
-                resultado["away_xg_2nd_half"] = data.get("away", {}).get("xg", 0)
-    
-    return resultado
-
-# ===================== FILTROS =====================
-
-def es_liga_deseada(nombre_liga: str) -> bool:
-    if not nombre_liga:
-        return False
-    
-    nombre_liga_lower = nombre_liga.lower()
-    
-    for excluir in PALABRAS_EXCLUIR:
-        if excluir in nombre_liga_lower:
-            return False
-    
-    for clave in LIGAS_CON_PAIS.keys():
-        if clave in nombre_liga_lower:
-            return True
-    
-    return False
 
 def es_partido_finalizado(evento: dict) -> bool:
     status = evento.get("status", {})
-    status_code = status.get("code")
-    
-    if status_code == 100:
-        return True
-    
-    status_desc = str(status.get("description", "")).lower()
-    finished_keywords = ["finished", "ended", "ft", "full time"]
-    
-    return any(keyword in status_desc for keyword in finished_keywords)
+    if status.get("code") == 100: return True
+    desc = str(status.get("description", "")).lower()
+    return any(k in desc for k in ["finished", "ended", "ft", "full time"])
 
-# ===================== PROCESAMIENTO =====================
+def parsear_estadisticas_compactas(stats_data: dict) -> dict:
+    resultado = {}
+    if not stats_data or "statistics" not in stats_data: return resultado
+    
+    # Buscamos el periodo que represente el TOTAL
+    periodos = stats_data.get("statistics", [])
+    periodo_total = None
+    
+    for p in periodos:
+        p_name = str(p.get("period", "")).lower()
+        if p_name == "total" or p_name == "all" or p_name == "overall":
+            periodo_total = p
+            break
+    
+    # Si no encontramos un periodo marcado como total, tomamos el primero disponible
+    if not periodo_total and periodos:
+        periodo_total = periodos[0]
+    
+    if not periodo_total: return resultado
 
-def procesar_dia_futbol(fecha: str) -> int:
+    for grupo in periodo_total.get("groups", []):
+        for item in grupo.get("statisticsItems", []):
+            nombre_api = item.get("name", "").lower()
+            if nombre_api in MAPEO_ESTADISTICAS:
+                col_name = MAPEO_ESTADISTICAS[nombre_api]
+                for lado in ("home", "away"):
+                    val = item.get(lado, {})
+                    resultado[f"ALL_{col_name}_{lado}"] = val.get("value", 0) if isinstance(val, dict) else val
+    return resultado
+
+def parsear_xg_compacto(shotmap_data: dict) -> dict:
+    resultado = {}
+    if not shotmap_data: return resultado
+    summary = shotmap_data.get("summary", {})
+    if summary:
+        for lado in ("home", "away"):
+            s = summary.get(lado, {})
+            resultado[f"ALL_expected_goals_{lado}"] = s.get("xg", 0)
+    return resultado
+
+def procesar_dia(fecha: str) -> int:
+    logging.info(f"📅 Consultando fecha: {fecha}...")
     url = f"https://api.sofascore.com/api/v1/sport/football/scheduled-events/{fecha}"
-    data = api_get(url, sport="football")
+    data = api_get(url)
+    if not data: return 0
     
-    if not data:
-        logging.error(f"❌ No se pudo obtener datos para {fecha}")
+    eventos_brutos = data.get("events", [])
+    eventos = [e for e in eventos_brutos if e.get("tournament", {}).get("uniqueTournament", {}).get("id") in IDS_DESEADOS and es_partido_finalizado(e)]
+    
+    if not eventos: 
+        logging.info(f"   ∅ Sin partidos finalizados.")
         return 0
 
-    eventos = data.get("events", [])
-    logging.info(f"📊 Total eventos: {len(eventos)}")
-    
-    if not eventos:
-        return 0
-    
-    candidatos = []
-    for e in eventos:
-        if not es_partido_finalizado(e):
-            continue
-        
-        tournament = e.get("tournament", {})
-        nombre_liga = tournament.get("name", "")
-        
-        if es_liga_deseada(nombre_liga):
-            candidatos.append(e)
-    
-    if not candidatos:
-        return 0
-
-    logging.info(f"✅ {len(candidatos)} partidos encontrados")
-
+    logging.info(f"   🎯 {len(eventos)} partidos para descargar.")
     buffer = []
-    for i, evento in enumerate(candidatos, 1):
+    for i, evento in enumerate(eventos, 1):
         event_id = evento.get("id")
         try:
-            home = evento.get("homeTeam", {})
-            away = evento.get("awayTeam", {})
-            h_score = evento.get("homeScore", {}) or {}
-            a_score = evento.get("awayScore", {}) or {}
+            home, away = evento.get("homeTeam", {}), evento.get("awayTeam", {})
+            h_sc, a_sc = evento.get("homeScore", {}) or {}, evento.get("awayScore", {}) or {}
+            hg = h_sc.get("current", h_sc.get("normaltime", 0)) or 0
+            ag = a_sc.get("current", a_sc.get("normaltime", 0)) or 0
+            ut = evento.get("tournament", {}).get("uniqueTournament", {})
+            info = TORNEOS_IDS[ut.get("id")]
 
-            home_goals = h_score.get("current", h_score.get("normaltime", 0)) or 0
-            away_goals = a_score.get("current", a_score.get("normaltime", 0)) or 0
-            
-            if home_goals == 0:
-                home_goals = h_score.get("display", 0)
-            if away_goals == 0:
-                away_goals = a_score.get("display", 0)
-            
-            tournament = evento.get("tournament", {})
-            nombre_liga = tournament.get("name", "Unknown")
-            pais_liga = obtener_pais_liga(nombre_liga)
-            
-            # DATOS BÁSICOS (incluyendo país)
             partido = {
-                "event_id": event_id,
-                "pais": pais_liga,
-                "liga": nombre_liga,
-                "tourney_id": tournament.get("id"),
-                "tourney_name": tournament.get("name"),
-                "tourney_season": evento.get("season", {}).get("name", ""),
-                "tourney_date": fecha,
+                "event_id": event_id, "pais": info["pais"], "liga": info["nombre"],
+                "tourney_id": ut.get("id"), "tourney_name": ut.get("name"),
+                "tourney_season": evento.get("season", {}).get("name", ""), "tourney_date": fecha,
                 "round": evento.get("roundInfo", {}).get("name", "Unknown"),
                 "round_number": evento.get("roundInfo", {}).get("round", 0),
-                "home_team_id": home.get("id"),
-                "home_team_name": home.get("name"),
-                "away_team_id": away.get("id"),
-                "away_team_name": away.get("name"),
-                "home_goals": int(home_goals) if home_goals else 0,
-                "away_goals": int(away_goals) if away_goals else 0,
-                "home_ht_goals": h_score.get("period1", 0),
-                "away_ht_goals": a_score.get("period1", 0),
-                "home_et_goals": h_score.get("overtime"),
-                "away_et_goals": a_score.get("overtime"),
-                "home_pen_goals": h_score.get("penalties"),
-                "away_pen_goals": a_score.get("penalties"),
-                "result": "H" if int(home_goals) > int(away_goals) else ("A" if int(away_goals) > int(home_goals) else "D"),
+                "home_team_id": home.get("id"), "home_team_name": home.get("name"),
+                "away_team_id": away.get("id"), "away_team_name": away.get("name"),
+                "home_goals": int(hg), "away_goals": int(ag),
+                "home_ht_goals": h_sc.get("period1", 0), "away_ht_goals": a_sc.get("period1", 0),
+                "home_et_goals": h_sc.get("overtime"), "away_et_goals": a_sc.get("overtime"),
+                "home_pen_goals": h_sc.get("penalties"), "away_pen_goals": a_sc.get("penalties"),
+                "result": "H" if int(hg) > int(ag) else ("A" if int(ag) > int(hg) else "D"),
                 "scrape_date": datetime.now().strftime("%Y-%m-%d"),
             }
-            
-            logging.info(f"  [{i:3d}/{len(candidatos)}] 📊 {home.get('name')} vs {away.get('name')} ({pais_liga})")
-            
-            # ESTADÍSTICAS
-            stats_raw = api_get(f"https://api.sofascore.com/api/v1/event/{event_id}/statistics", sport="football")
-            if stats_raw:
-                partido.update(parsear_estadisticas_completas(stats_raw))
-            
-            # xG DETALLADO
-            shotmap_raw = api_get(f"https://api.sofascore.com/api/v1/event/{event_id}/shotmap", sport="football")
-            if shotmap_raw:
-                partido.update(parsear_xg_detallado(shotmap_raw))
-            
-            buffer.append(partido)
-            
-            home_xg = partido.get("home_xg_total", 0)
-            away_xg = partido.get("away_xg_total", 0)
-            logging.info(f"      ✅ {home.get('name')} {home_goals}-{away_goals} {away.get('name')} | xG: {home_xg} - {away_xg} | {pais_liga}")
 
-            if len(buffer) >= GUARDAR_CADA_N_PARTIDOS:
-                append_to_csv(buffer, ARCHIVO_FUTBOL)
+            stats = parsear_estadisticas_compactas(api_get(f"https://api.sofascore.com/api/v1/event/{event_id}/statistics"))
+            xg = parsear_xg_compacto(api_get(f"https://api.sofascore.com/api/v1/event/{event_id}/shotmap"))
+            partido.update(stats)
+            partido.update(xg)
+
+            fila_ordenada = {col: partido.get(col, 0) for col in COLUMNAS_BBDD}
+            buffer.append(fila_ordenada)
+            logging.info(f"      ✅ {i}/{len(eventos)}: {home.get('name')} vs {away.get('name')} OK")
+
+            if len(buffer) >= GUARDAR_CADA_N:
+                _append_csv(buffer)
                 buffer.clear()
-                
-        except Exception as e:
+        except Exception as e: 
             logging.error(f"💥 Error evento {event_id}: {e}")
-
-    if buffer:
-        append_to_csv(buffer, ARCHIVO_FUTBOL)
     
-    return len(candidatos)
+    if buffer: _append_csv(buffer)
+    return len(eventos)
 
-def append_to_csv(partidos: list, archivo: str):
-    if not partidos:
-        return
-    
-    os.makedirs(os.path.dirname(archivo), exist_ok=True)
-    df_nuevo = pd.DataFrame(partidos)
-    
-    if os.path.exists(archivo) and os.path.getsize(archivo) > 0:
-        try:
-            df_viejo = pd.read_csv(archivo)
-            if len(df_viejo) > 0:
-                df_final = pd.concat([df_viejo, df_nuevo], ignore_index=True)
-                df_final = df_final.drop_duplicates(subset=["event_id"], keep="last")
-                df_final.to_csv(archivo, index=False)
-                logging.info(f"💾 CSV actualizado: {len(df_final)} registros | +{len(df_nuevo)} nuevos")
-            else:
-                df_nuevo.to_csv(archivo, index=False)
-                logging.info(f"💾 CSV creado con {len(df_nuevo)} registros")
-        except Exception as e:
-            logging.error(f"Error al leer CSV: {e}")
-            df_nuevo.to_csv(archivo, index=False)
-    else:
-        df_nuevo.to_csv(archivo, index=False)
-        logging.info(f"💾 CSV creado con {len(df_nuevo)} registros")
-
-def cargar_fechas_procesadas(archivo: str) -> set:
-    if not os.path.exists(archivo) or os.path.getsize(archivo) == 0:
-        return set()
+def _cargar_checkpoint() -> set:
+    if not os.path.exists(ARCHIVO_CHECKPOINT): return set()
     try:
-        df = pd.read_csv(archivo)
-        if 'tourney_date' in df.columns:
-            return set(df['tourney_date'].dropna().unique())
+        with open(ARCHIVO_CHECKPOINT, "r", encoding="utf-8") as f:
+            return set(json.load(f))
     except Exception:
-        pass
-    return set()
+        return set()
 
-# ===================== MAIN =====================
+def _guardar_checkpoint(fechas_listas: set):
+    with open(ARCHIVO_CHECKPOINT, "w", encoding="utf-8") as f:
+        json.dump(sorted(fechas_listas), f)
 
-if __name__ == "__main__":
-    logging.info("="*60)
-    logging.info("🚀 INICIANDO SCRAPER DE FÚTBOL (CON PAÍS Y xG)")
-    logging.info("="*60)
-    logging.info(f"🎯 Ligas configuradas: {len(LIGAS_CON_PAIS)}")
-    
+def _append_csv(partidos: list):
     os.makedirs(CARPETA_SALIDA, exist_ok=True)
-    
-    fecha_inicio = datetime(2026, 1, 1).date()
-    hoy = datetime.now().date()
-    
-    fechas_procesadas = cargar_fechas_procesadas(ARCHIVO_FUTBOL)
-    
-    todas_fechas = []
-    fecha_actual = fecha_inicio
-    while fecha_actual <= hoy:
-        todas_fechas.append(fecha_actual)
-        fecha_actual += timedelta(days=1)
-    
-    fechas_a_procesar = [f for f in todas_fechas if f.strftime("%Y-%m-%d") not in fechas_procesadas]
-    
-    logging.info(f"📅 Fecha inicio: {fecha_inicio}")
-    logging.info(f"📅 Fecha actual: {hoy}")
-    logging.info(f"📅 Días a procesar: {len(fechas_a_procesar)}")
-    
-    if not fechas_a_procesar:
-        logging.info("✅ No hay fechas nuevas para procesar")
-        exit(0)
-    
-    total_partidos = 0
-    
-    for idx, fecha in enumerate(fechas_a_procesar, 1):
-        fecha_str = fecha.strftime("%Y-%m-%d")
-        logging.info(f"\n{'='*50}")
-        logging.info(f"📆 [{idx}/{len(fechas_a_procesar)}] Procesando fecha: {fecha_str}")
-        logging.info(f"{'='*50}")
-        
-        partidos = procesar_dia_futbol(fecha_str)
-        total_partidos += partidos
-        logging.info(f"📈 Partidos guardados para {fecha_str}: {partidos}")
-        
-        if idx < len(fechas_a_procesar):
-            pausa = random.uniform(3, 7)
-            logging.info(f"⏱️  Esperando {pausa:.1f} segundos...")
-            time.sleep(pausa)
-    
-    logging.info(f"\n{'='*60}")
-    logging.info(f"✅ ¡SCRAPING COMPLETADO!")
-    logging.info(f"{'='*60}")
-    logging.info(f"⚽ Total partidos descargados: {total_partidos}")
-    
+    df_new = pd.DataFrame(partidos, columns=COLUMNAS_BBDD)
     if os.path.exists(ARCHIVO_FUTBOL) and os.path.getsize(ARCHIVO_FUTBOL) > 0:
         try:
-            df = pd.read_csv(ARCHIVO_FUTBOL)
-            logging.info(f"📊 Total en CSV: {len(df)} partidos")
-            
-            print("\n" + "="*80)
-            print("🏆 PARTIDOS POR PAÍS:")
-            print("="*80)
-            if 'pais' in df.columns:
-                paises_count = df['pais'].value_counts()
-                for pais, count in paises_count.items():
-                    print(f"  {pais}: {count} partidos")
-            
-            print("\n" + "="*80)
-            print("📋 EJEMPLO DE DATOS (últimos 5):")
-            print("="*80)
-            if len(df) > 0:
-                for _, row in df.tail(5).iterrows():
-                    print(f"  {row.get('tourney_date', 'N/A')} | {row.get('pais', 'N/A'):15} | {row.get('liga', 'N/A')[:30]:30} | {row.get('home_team_name', 'N/A')} {int(row.get('home_goals', 0))}-{int(row.get('away_goals', 0))} {row.get('away_team_name', 'N/A')}")
-                
+            df_old = pd.read_csv(ARCHIVO_FUTBOL)
+            if set(df_old.columns) != set(COLUMNAS_BBDD):
+                df_old = pd.DataFrame(columns=COLUMNAS_BBDD)
+            df_all = pd.concat([df_old, df_new], ignore_index=True).drop_duplicates(subset=["event_id"], keep="last")
+            df_all.to_csv(ARCHIVO_FUTBOL, index=False, columns=COLUMNAS_BBDD)
         except Exception as e:
-            logging.warning(f"No se pudo leer el CSV: {e}")
+            logging.error(f"Error al unir CSV: {e}")
+            df_new.to_csv(ARCHIVO_FUTBOL, index=False, columns=COLUMNAS_BBDD)
+    else:
+        df_new.to_csv(ARCHIVO_FUTBOL, index=False, columns=COLUMNAS_BBDD)
+
+if __name__ == "__main__":
+    logging.info("🚀 SCRAPER FÚTBOL ANTI-BOT v2.9 — FIXED STATS + CHECKPOINT")
+    os.makedirs(CARPETA_SALIDA, exist_ok=True)
+
+    fecha_inicio = datetime(2026, 1, 1).date()
+    hoy = datetime.now().date()
+
+    todas_fechas = []
+    f = fecha_inicio
+    while f <= hoy:
+        todas_fechas.append(f.strftime("%Y-%m-%d"))
+        f += timedelta(days=1)
+
+    # ── CHECKPOINT: cargar fechas ya completadas ──
+    completadas = _cargar_checkpoint()
+
+    # Si no hay checkpoint, leer el CSV existente para no repetir días ya descargados
+    if not completadas and os.path.exists(ARCHIVO_FUTBOL) and os.path.getsize(ARCHIVO_FUTBOL) > 0:
+        try:
+            df_existente = pd.read_csv(ARCHIVO_FUTBOL, usecols=["tourney_date"])
+            fechas_en_csv = set(df_existente["tourney_date"].dropna().astype(str).unique())
+            completadas = fechas_en_csv
+            _guardar_checkpoint(completadas)
+            logging.info(f"📂 CSV existente detectado: {len(completadas)} días ya descargados, generando checkpoint...")
+        except Exception as e:
+            logging.warning(f"No se pudo leer el CSV para checkpoint: {e}")
+
+    pendientes = [d for d in todas_fechas if d not in completadas]
+
+    if completadas:
+        logging.info(f"♻️  Retomando: {len(completadas)} días listos, {len(pendientes)} pendientes.")
+    else:
+        logging.info("🆕 Sin datos previos, comenzando desde cero.")
+
+    random.shuffle(pendientes)
+    logging.info(f"📅 Procesando {len(pendientes)} días pendientes de {len(todas_fechas)} totales...")
+
+    total_descargados = 0
+    for idx, fecha_str in enumerate(pendientes, 1):
+        logging.info(f"[Día {idx}/{len(pendientes)}]")
+        n = procesar_dia(fecha_str)
+        total_descargados += n
+        # Marcar fecha como completada y guardar checkpoint
+        completadas.add(fecha_str)
+        _guardar_checkpoint(completadas)
+        time.sleep(random.uniform(2, 5))
+
+    logging.info(f"✅ Proceso Completado. Total partidos esta sesión: {total_descargados}")
