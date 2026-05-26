@@ -1,8 +1,8 @@
-name: Scraper Diario Fútbol
-
+name: Futbol Diario Pro
 on:
-  
-  workflow_dispatch:        
+  schedule:
+    - cron: '10 6 * * *'
+  workflow_dispatch:
 
 jobs:
   scrape:
