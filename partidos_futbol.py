@@ -16,7 +16,7 @@ ARCHIVO_COOKIES       = os.path.join(CARPETA_SALIDA, "cookies.txt")
 ARCHIVO_FUTBOL        = os.path.join(CARPETA_SALIDA, "futbol_historico.csv")
 GUARDAR_CADA_N        = 5
 ARCHIVO_CHECKPOINT    = os.path.join(CARPETA_SALIDA, "checkpoint.json")
-PAUSA_BASE            = 0.8
+PAUSA_BASE            = 0.6
 CHROME_VERSIONS       = ["chrome136", "chrome131", "chrome124"]
 
 USER_AGENTS = [
@@ -212,7 +212,7 @@ def api_get(url: str, intentos: int = 3) -> dict:
     global SESSION, _403_consecutivos
     for i in range(1, intentos + 1):
         try:
-            time.sleep(PAUSA_BASE + random.uniform(0.2, 0.9))
+            time.sleep(PAUSA_BASE + random.uniform(0.2, 0.7))
             r = SESSION.get(url, timeout=30)
             if r.status_code == 200:
                 _403_consecutivos = 0
