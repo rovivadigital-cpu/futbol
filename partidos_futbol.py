@@ -368,7 +368,7 @@ if __name__ == "__main__":
     logging.info("🚀 SCRAPER FÚTBOL ANTI-BOT v2.9 — FIXED STATS + CHECKPOINT")
     os.makedirs(CARPETA_SALIDA, exist_ok=True)
 
-    fecha_inicio = datetime(2026, 1, 1).date()
+    fecha_inicio = datetime(2026, 5, 25).date()
     hoy = datetime.now().date()
 
     todas_fechas = []
