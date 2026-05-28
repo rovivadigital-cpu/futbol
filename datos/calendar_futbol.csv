@@ -1,117 +1,40 @@
 ﻿Fecha,Hora_Local,Pais,Competicion,Competicion_ID_Sofascore,Torneo,Torneo_ID_Sofascore,Ronda,Equipo_Local,Equipo_Local_ID_Sofascore,Pais_Local,Equipo_Visitante,Equipo_Visitante_ID_Sofascore,Pais_Visitante,Marcador,Estado
-2026-05-26,11:30,Europe,U17 European Championship,429,"U17 European Championship, Group B",7953,Jornada 1,Italy U17,22616,Italy,France U17,22474,France,1-0,Finalizado
-2026-05-26,13:00,South Africa,South African Premier Division,358,"Premier League, Relegation/Promotion Playoffs",8562,,Cape Town City FC,229679,South Africa,Milford FC,215399,South Africa,0-1,Finalizado
-2026-05-26,15:00,Latvia,Virsliga,197,Virsliga,1279,Jornada 15,FS Jelgava,36081,Latvia,FK Liepaja,146336,Latvia,1-1,Finalizado
-2026-05-26,16:00,Czechia,Czech First League,172,"Czech First League, Relegation/Promotion",73051,Final,Baník Ostrava,2204,Czechia,FC Silon Táborsko,24782,Czechia,3-0,Finalizado
-2026-05-26,16:00,Bosnia & Herzegovina,WWIN Liga BiH,222,WWIN Liga BiH,2557,Jornada 36,FK Borac Banja Luka,5235,Bosnia & Herzegovina,HŠK Posušje,6147,Bosnia & Herzegovina,2-0,Finalizado
-2026-05-26,16:00,Bosnia & Herzegovina,WWIN Liga BiH,222,WWIN Liga BiH,2557,Jornada 36,FK Sloga Doboj,37064,Bosnia & Herzegovina,FK Rudar Prijedor,36537,Bosnia & Herzegovina,1-0,Finalizado
-2026-05-26,16:00,Europe,U17 European Championship,429,"U17 European Championship, Group B",7953,Jornada 1,Montenegro U17,22631,Montenegro,Denmark U17,22597,Denmark,1-2,Finalizado
-2026-05-26,16:00,Latvia,Virsliga,197,Virsliga,1279,Jornada 15,BFC Daugavpils,41498,Latvia,FK Auda,5346,Latvia,0-1,Finalizado
-2026-05-26,16:00,Norway,"Toppserien, Women",201,"Toppserien, Women",78,Jornada 8,LSK Kvinner FK,733,Norway,Hønefoss BK,283907,Norway,3-2,Finalizado
-2026-05-26,16:00,Norway,"Toppserien, Women",201,"Toppserien, Women",78,Jornada 8,Molde,218092,Norway,Rosenborg Kvinner,731,Norway,2-3,Finalizado
-2026-05-26,16:00,Norway,"Toppserien, Women",201,"Toppserien, Women",78,Jornada 8,Røa,745,Norway,Aalesunds Fotballklubb,7312,Norway,2-3,Finalizado
-2026-05-26,16:00,Norway,"Toppserien, Women",201,"Toppserien, Women",78,Jornada 8,SK Brann Kvinner,743,Norway,Lyn,99229,Norway,4-0,Finalizado
-2026-05-26,16:00,Norway,"Toppserien, Women",201,"Toppserien, Women",78,Jornada 8,Stabæk Fotball,732,Norway,Haugesund,412370,Norway,3-0,Finalizado
-2026-05-26,16:00,Norway,"Toppserien, Women",201,"Toppserien, Women",78,Jornada 8,Vålerenga,62202,Norway,Bodø/Glimt,503814,Norway,7-1,Finalizado
-2026-05-26,17:00,Spain,Liga F Moeve,1127,Liga F Moeve,3739,Jornada 29,Alhama Club de Fútbol,325475,Spain,Levante UD,38322,Spain,2-2,Finalizado
-2026-05-26,17:00,Spain,Liga F Moeve,1127,Liga F Moeve,3739,Jornada 29,DUX Logroño,861598,Spain,Athletic Club,77877,Spain,0-2,Finalizado
-2026-05-26,17:00,Spain,Liga F Moeve,1127,Liga F Moeve,3739,Jornada 29,FC Badalona,77893,Spain,Real Madrid,305051,Spain,0-4,Finalizado
-2026-05-26,17:00,Spain,Liga F Moeve,1127,Liga F Moeve,3739,Jornada 29,Granada Club de Fútbol,114819,Spain,Madrid CFF,253896,Spain,3-4,Finalizado
-2026-05-26,17:00,Spain,Liga F Moeve,1127,Liga F Moeve,3739,Jornada 29,Sevilla FC,77903,Spain,SD Eibar,362904,Spain,0-0,Finalizado
-2026-05-26,17:00,Bosnia & Herzegovina,WWIN Liga BiH,222,WWIN Liga BiH,2557,Jornada 36,HŠK Zrinjski Mostar,5178,Bosnia & Herzegovina,FK Velež Mostar,6151,Bosnia & Herzegovina,3-0,Finalizado
-2026-05-26,17:00,Sweden,Superettan,46,Superettan,27,Jornada 9,Örebro SK,1768,Sweden,Helsingborgs IF,1890,Sweden,1-2,Finalizado
-2026-05-26,18:30,Germany,2. Bundesliga,44,"2. Bundesliga, Relegation/Promotion Playoffs",10772,Final,SpVgg Greuther Fürth,2551,Germany,Rot-Weiss Essen,2562,Germany,2-0,Finalizado
-2026-05-26,18:30,World,International Friendly Games,851,Int. Friendly Games,66,,Nigeria,4785,Nigeria,Zimbabwe,4719,Zimbabwe,2-0,Finalizado
-2026-05-26,18:45,France,Ligue 1,34,"Ligue 1, Relegation/Promotion Playoffs",59582,Final,Saint-Étienne,1678,France,Nice,1661,France,0-0,Finalizado
-2026-05-26,19:00,Spain,Liga F Moeve,1127,Liga F Moeve,3739,Jornada 29,Club Atlético de Madrid,77879,Spain,Costa Adeje Tenerife,202971,Spain,2-2,Finalizado
-2026-05-26,19:00,Brazil,Brasileirão Série D,10326,"Brasileirão Série D, Group A7",59484,Jornada 8,Atlético Cearense,212493,Brazil,Tirol/CEFAT,398170,Brazil,0-3,Finalizado
-2026-05-26,19:15,Iceland,Besta deild karla,188,Efsta deild,102,Jornada 16,KR Reykjavík,1902,Iceland,Valur Reykjavík,1899,Iceland,3-1,Finalizado
-2026-05-26,19:15,Iceland,Besta deild karla,188,Efsta deild,102,Jornada 14,Stjarnan Garðabær,1912,Iceland,Víkingur Reykjavík,1908,Iceland,1-3,Finalizado
-2026-05-26,22:00,South America,CONMEBOL Libertadores,384,"CONMEBOL Libertadores, Group G",2934,Jornada 6,CA Lanús,3218,Argentina,Mirassol,21982,Brazil,1-0,Finalizado
-2026-05-26,22:00,South America,CONMEBOL Libertadores,384,"CONMEBOL Libertadores, Group G",2934,Jornada 6,LDU,5257,Ecuador,Club Always Ready,268083,Bolivia,3-2,Finalizado
-2026-05-26,22:00,South America,CONMEBOL Sudamericana,480,"CONMEBOL Sudamericana, Group C",91438,Jornada 6,Millonarios,6117,Colombia,O'Higgins,3163,Chile,1-2,Finalizado
-2026-05-26,22:00,South America,CONMEBOL Sudamericana,480,"CONMEBOL Sudamericana, Group C",91438,Jornada 6,São Paulo,1981,Brazil,Boston River,174970,Uruguay,2-0,Finalizado
-2026-05-26,22:00,South America,CONMEBOL Sudamericana,480,"CONMEBOL Sudamericana, Group F",91441,Jornada 6,Grêmio,5926,Brazil,Montevideo City Torque,174972,Uruguay,2-2,Finalizado
-2026-05-26,22:00,South America,CONMEBOL Sudamericana,480,"CONMEBOL Sudamericana, Group F",91441,Jornada 6,Palestino,3157,Chile,Deportivo Riestra,189723,Argentina,1-1,Finalizado
-2026-05-27,00:30,South America,CONMEBOL Libertadores,384,"CONMEBOL Libertadores, Group A",2928,Jornada 6,Estudiantes de La Plata,3206,Argentina,Independiente Medellín,6115,Colombia,1-0,Finalizado
-2026-05-27,00:30,South America,CONMEBOL Libertadores,384,"CONMEBOL Libertadores, Group A",2928,Jornada 6,Flamengo,5981,Brazil,Cusco FC,63760,Peru,3-0,Finalizado
-2026-05-27,00:30,South America,CONMEBOL Libertadores,384,"CONMEBOL Libertadores, Group B",2929,Jornada 6,Nacional,3230,Uruguay,Coquimbo Unido,3165,Chile,1-0,Finalizado
-2026-05-27,00:30,South America,CONMEBOL Libertadores,384,"CONMEBOL Libertadores, Group B",2929,Jornada 6,Universitario de Deportes,2305,Peru,Deportes Tolima,6111,Colombia,0-0,Finalizado
-2026-05-27,00:30,South America,CONMEBOL Sudamericana,480,"CONMEBOL Sudamericana, Group D",91439,Jornada 6,San Lorenzo,3201,Argentina,Recoleta FC,292595,Paraguay,0-1,Finalizado
-2026-05-27,00:30,South America,CONMEBOL Sudamericana,480,"CONMEBOL Sudamericana, Group D",91439,Jornada 6,Santos,1968,Brazil,Deportivo Cuenca,5251,Ecuador,3-0,Finalizado
-2026-05-27,07:30,Philippines,Philippines Football League,1654,"Philippines Football League, Championship Round",183650,,Stallion Laguna,142204,Philippines,DH Cebu FC,413276,Philippines,1-1,Finalizado
 2026-05-27,10:15,Philippines,Philippines Football League,1654,"Philippines Football League, Championship Round",183650,,Aguilas-UMak FC,253131,Philippines,Taguig FC,512473,Philippines,1-1,Finalizado
-2026-05-27,10:15,Philippines,Philippines Football League,1654,"Philippines Football League, Championship Round",183650,,Aguilas-UMak FC,253131,Philippines,Taguig FC,512473,Philippines,1-1,Finalizado
-2026-05-27,11:00,Kazakhstan,Kazakhstan Premier League,682,Premier League,3103,Jornada 12,Altay Oskemen,466776,Kazakhstan,Astana,36155,Kazakhstan,1-1,Finalizado
 2026-05-27,11:00,Kazakhstan,Kazakhstan Premier League,682,Premier League,3103,Jornada 12,Altay Oskemen,466776,Kazakhstan,Astana,36155,Kazakhstan,1-1,Finalizado
 2026-05-27,13:00,Kazakhstan,Kazakhstan Premier League,682,Premier League,3103,Jornada 12,Irtysh Pavlodar,5365,Kazakhstan,Ulytau FC,464804,Kazakhstan,1-1,Finalizado
 2026-05-27,13:00,Philippines,Philippines Football League,1654,"Philippines Football League, Championship Round",183650,,Manila Digger FC,512469,Philippines,Kaya-Iloilo,142194,Philippines,3-0,Finalizado
-2026-05-27,13:00,Kazakhstan,Kazakhstan Premier League,682,Premier League,3103,Jornada 12,Irtysh Pavlodar,5365,Kazakhstan,Ulytau FC,464804,Kazakhstan,1-1,Finalizado
-2026-05-27,13:00,Philippines,Philippines Football League,1654,"Philippines Football League, Championship Round",183650,,Manila Digger FC,512469,Philippines,Kaya-Iloilo,142194,Philippines,3-0,Finalizado
-2026-05-27,16:00,Czechia,Czech First League,172,"Czech First League, Relegation/Promotion",73051,Final,SK Artis Brno,35264,Czechia,1. FC Slovácko,4871,Czechia,1-4,Finalizado
-2026-05-27,16:00,Finland,Ykkösliiga,55,Ykkosliiga,527,Jornada 9,HJK Klubi 04,5918,Finland,PK-35,50525,Finland,0-1,Finalizado
-2026-05-27,16:00,Slovenia,PrvaLiga,212,"PrvaLiga, Relegation/Promotion Playoffs",4485,Final,ND Primorje,2414,Slovenia,NK Nafta Lendava 1903,2430,Slovenia,0-0,Finalizado
 2026-05-27,16:00,Czechia,Czech First League,172,"Czech First League, Relegation/Promotion",73051,Final,SK Artis Brno,35264,Czechia,1. FC Slovácko,4871,Czechia,1-4,Finalizado
 2026-05-27,16:00,Finland,Ykkösliiga,55,Ykkosliiga,527,Jornada 9,HJK Klubi 04,5918,Finland,PK-35,50525,Finland,0-1,Finalizado
 2026-05-27,16:00,Slovenia,PrvaLiga,212,"PrvaLiga, Relegation/Promotion Playoffs",4485,Final,ND Primorje,2414,Slovenia,NK Nafta Lendava 1903,2430,Slovenia,0-0,Finalizado
 2026-05-27,17:00,Spain,Liga F Moeve,1127,Liga F Moeve,3739,Jornada 29,Fútbol Club Barcelona,77889,Spain,Real Sociedad,77897,Spain,2-1,Finalizado
 2026-05-27,17:00,Sweden,Damallsvenskan,214,Damallsvenskan,426,Jornada 3,AIK,7388,Sweden,BK Häcken FF,1889,Sweden,2-1,Finalizado
 2026-05-27,17:00,Sweden,Damallsvenskan,214,Damallsvenskan,426,Jornada 3,Eskilstuna Utd DFF,112689,Sweden,Hammarby IF,1884,Sweden,0-1,Finalizado
-2026-05-27,17:00,Spain,Liga F Moeve,1127,Liga F Moeve,3739,Jornada 29,Fútbol Club Barcelona,77889,Spain,Real Sociedad,77897,Spain,2-1,Finalizado
-2026-05-27,17:00,Sweden,Damallsvenskan,214,Damallsvenskan,426,Jornada 3,AIK,7388,Sweden,BK Häcken FF,1889,Sweden,2-1,Finalizado
-2026-05-27,17:00,Sweden,Damallsvenskan,214,Damallsvenskan,426,Jornada 3,Eskilstuna Utd DFF,112689,Sweden,Hammarby IF,1884,Sweden,0-1,Finalizado
-2026-05-27,18:00,Italy,"Serie C, Playoffs",11452,"Serie C, Playoffs, Promotion Playoffs",43856,Semifinals,Union Brescia,1110141,Italy,Salernitana,2710,Italy,2-0,Finalizado
 2026-05-27,18:00,Italy,"Serie C, Playoffs",11452,"Serie C, Playoffs, Promotion Playoffs",43856,Semifinals,Union Brescia,1110141,Italy,Salernitana,2710,Italy,2-0,Finalizado
 2026-05-27,18:30,World,International Friendly Games,851,Int. Friendly Games,66,,Jamaica,4769,Jamaica,India,4828,India,2-0,Finalizado
-2026-05-27,18:30,World,International Friendly Games,851,Int. Friendly Games,66,,Jamaica,4769,Jamaica,India,4828,India,2-0,Finalizado
-2026-05-27,19:00,Europe,UEFA Conference League,17015,"UEFA Conference League, Knockout stage",93705,Final,Crystal Palace,7,England,Rayo Vallecano,2818,Spain,1-0,En curso
-2026-05-27,19:00,Spain,Liga F Moeve,1127,Liga F Moeve,3739,Jornada 29,Real Club Deportivo de la Coruña,262253,Spain,RCD Espanyol de Barcelona,38323,Spain,1-2,En curso
-2026-05-27,19:00,Italy,"Serie C, Playoffs",11452,"Serie C, Playoffs, Promotion Playoffs",43856,Semifinals,Catania,2725,Italy,Ascoli,2707,Italy,2-0,En curso
-2026-05-27,19:00,Europe,UEFA Conference League,17015,"UEFA Conference League, Knockout stage",93705,Final,Crystal Palace,7,England,Rayo Vallecano,2818,Spain,1-0,En curso
-2026-05-27,19:00,Spain,Liga F Moeve,1127,Liga F Moeve,3739,Jornada 29,Real Club Deportivo de la Coruña,262253,Spain,RCD Espanyol de Barcelona,38323,Spain,1-1,En curso
-2026-05-27,19:00,Italy,"Serie C, Playoffs",11452,"Serie C, Playoffs, Promotion Playoffs",43856,Semifinals,Catania,2725,Italy,Ascoli,2707,Italy,2-0,En curso
-2026-05-27,22:00,South America,CONMEBOL Libertadores,384,"CONMEBOL Libertadores, Group H",2935,Jornada 6,Independiente del Valle,39723,Ecuador,Rosario Central,3217,Argentina,-,Por jugar
-2026-05-27,22:00,South America,CONMEBOL Libertadores,384,"CONMEBOL Libertadores, Group H",2935,Jornada 6,Libertad,5996,Paraguay,Universidad Central,249952,Venezuela,-,Por jugar
-2026-05-27,22:00,South America,CONMEBOL Sudamericana,480,"CONMEBOL Sudamericana, Group B",91437,Jornada 6,Atlético Mineiro,1977,Brazil,Academia Puerto Cabello,230725,Venezuela,-,Por jugar
-2026-05-27,22:00,South America,CONMEBOL Sudamericana,480,"CONMEBOL Sudamericana, Group B",91437,Jornada 6,Cienciano,2301,Peru,Juventud de Las Piedras,3224,Uruguay,-,Por jugar
-2026-05-27,22:00,South America,CONMEBOL Sudamericana,480,"CONMEBOL Sudamericana, Group E",91440,Jornada 6,Caracas F.C.,6230,Venezuela,Botafogo,1958,Brazil,-,Por jugar
-2026-05-27,22:00,South America,CONMEBOL Sudamericana,480,"CONMEBOL Sudamericana, Group E",91440,Jornada 6,Racing Club,3215,Argentina,Club Independiente,372975,Bolivia,-,Por jugar
-2026-05-27,22:00,South America,CONMEBOL Sudamericana,480,"CONMEBOL Sudamericana, Group G",91442,Jornada 6,Olimpia,5997,Paraguay,Audax Italiano,3162,Chile,-,Por jugar
-2026-05-27,22:00,South America,CONMEBOL Sudamericana,480,"CONMEBOL Sudamericana, Group G",91442,Jornada 6,Vasco da Gama,1974,Brazil,Barracas Central,65668,Argentina,-,Por jugar
-2026-05-27,22:00,South America,CONMEBOL Libertadores,384,"CONMEBOL Libertadores, Group H",2935,Jornada 6,Independiente del Valle,39723,Ecuador,Rosario Central,3217,Argentina,-,Por jugar
-2026-05-27,22:00,South America,CONMEBOL Libertadores,384,"CONMEBOL Libertadores, Group H",2935,Jornada 6,Libertad,5996,Paraguay,Universidad Central,249952,Venezuela,-,Por jugar
-2026-05-27,22:00,South America,CONMEBOL Sudamericana,480,"CONMEBOL Sudamericana, Group B",91437,Jornada 6,Atlético Mineiro,1977,Brazil,Academia Puerto Cabello,230725,Venezuela,-,Por jugar
-2026-05-27,22:00,South America,CONMEBOL Sudamericana,480,"CONMEBOL Sudamericana, Group B",91437,Jornada 6,Cienciano,2301,Peru,Juventud de Las Piedras,3224,Uruguay,-,Por jugar
-2026-05-27,22:00,South America,CONMEBOL Sudamericana,480,"CONMEBOL Sudamericana, Group E",91440,Jornada 6,Caracas F.C.,6230,Venezuela,Botafogo,1958,Brazil,-,Por jugar
-2026-05-27,22:00,South America,CONMEBOL Sudamericana,480,"CONMEBOL Sudamericana, Group E",91440,Jornada 6,Racing Club,3215,Argentina,Club Independiente,372975,Bolivia,-,Por jugar
-2026-05-27,22:00,South America,CONMEBOL Sudamericana,480,"CONMEBOL Sudamericana, Group G",91442,Jornada 6,Olimpia,5997,Paraguay,Audax Italiano,3162,Chile,-,Por jugar
-2026-05-27,22:00,South America,CONMEBOL Sudamericana,480,"CONMEBOL Sudamericana, Group G",91442,Jornada 6,Vasco da Gama,1974,Brazil,Barracas Central,65668,Argentina,-,Por jugar
-2026-05-27,23:00,USA,USL League One,13362,"USL, League One",71366,,Chattanooga Red Wolves SC,312631,USA,Richmond Kickers,23841,USA,-,Por jugar
-2026-05-27,23:00,USA,USL League One,13362,"USL, League One",71366,,New York Cosmos,53903,USA,Union Omaha SC,338006,USA,-,Por jugar
-2026-05-27,23:00,USA,USL League One,13362,"USL, League One",71366,,Chattanooga Red Wolves SC,312631,USA,Richmond Kickers,23841,USA,-,Por jugar
-2026-05-27,23:00,USA,USL League One,13362,"USL, League One",71366,,New York Cosmos,53903,USA,Union Omaha SC,338006,USA,-,Por jugar
-2026-05-27,23:30,USA,USL Championship,13363,USL Championship,71367,Jornada 1,SC Jacksonville,1077312,USA,San Antonio FC,217134,USA,-,Por jugar
-2026-05-27,23:30,USA,USL Championship,13363,USL Championship,71367,Jornada 1,SC Jacksonville,1077312,USA,San Antonio FC,217134,USA,-,Por jugar
-2026-05-28,00:30,South America,CONMEBOL Libertadores,384,"CONMEBOL Libertadores, Group C",2930,Jornada 6,Bolívar,7059,Bolivia,Independiente Rivadavia,36842,Argentina,-,Por jugar
-2026-05-28,00:30,South America,CONMEBOL Libertadores,384,"CONMEBOL Libertadores, Group C",2930,Jornada 6,Fluminense,1961,Brazil,Deportivo La Guaira,36437,Venezuela,-,Por jugar
-2026-05-28,00:30,South America,CONMEBOL Libertadores,384,"CONMEBOL Libertadores, Group E",2932,Jornada 6,Corinthians,1957,Brazil,Club Atlético Platense,36837,Argentina,-,Por jugar
-2026-05-28,00:30,South America,CONMEBOL Libertadores,384,"CONMEBOL Libertadores, Group E",2932,Jornada 6,Peñarol,3227,Uruguay,Independiente Santa Fe,6116,Colombia,-,Por jugar
-2026-05-28,00:30,South America,CONMEBOL Sudamericana,480,"CONMEBOL Sudamericana, Group H",91443,Jornada 6,Red Bull Bragantino,1999,Brazil,Carabobo FC,6229,Venezuela,-,Por jugar
-2026-05-28,00:30,South America,CONMEBOL Sudamericana,480,"CONMEBOL Sudamericana, Group H",91443,Jornada 6,River Plate,3211,Argentina,Blooming,6968,Bolivia,-,Por jugar
-2026-05-28,00:30,Brazil,Copa do Nordeste,1596,"Copa do Nordeste, Knockout stage",31972,Semifinals,ABC,21838,Brazil,Vitória,1962,Brazil,-,Por jugar
-2026-05-28,00:30,Brazil,Copa do Nordeste,1596,"Copa do Nordeste, Knockout stage",31972,Semifinals,Sport Recife,1959,Brazil,Fortaleza,2020,Brazil,-,Por jugar
-2026-05-28,00:30,South America,CONMEBOL Libertadores,384,"CONMEBOL Libertadores, Group C",2930,Jornada 6,Bolívar,7059,Bolivia,Independiente Rivadavia,36842,Argentina,-,Por jugar
-2026-05-28,00:30,South America,CONMEBOL Libertadores,384,"CONMEBOL Libertadores, Group C",2930,Jornada 6,Fluminense,1961,Brazil,Deportivo La Guaira,36437,Venezuela,-,Por jugar
-2026-05-28,00:30,South America,CONMEBOL Libertadores,384,"CONMEBOL Libertadores, Group E",2932,Jornada 6,Corinthians,1957,Brazil,Club Atlético Platense,36837,Argentina,-,Por jugar
-2026-05-28,00:30,South America,CONMEBOL Libertadores,384,"CONMEBOL Libertadores, Group E",2932,Jornada 6,Peñarol,3227,Uruguay,Independiente Santa Fe,6116,Colombia,-,Por jugar
-2026-05-28,00:30,South America,CONMEBOL Sudamericana,480,"CONMEBOL Sudamericana, Group H",91443,Jornada 6,Red Bull Bragantino,1999,Brazil,Carabobo FC,6229,Venezuela,-,Por jugar
-2026-05-28,00:30,South America,CONMEBOL Sudamericana,480,"CONMEBOL Sudamericana, Group H",91443,Jornada 6,River Plate,3211,Argentina,Blooming,6968,Bolivia,-,Por jugar
-2026-05-28,00:30,Brazil,Copa do Nordeste,1596,"Copa do Nordeste, Knockout stage",31972,Semifinals,ABC,21838,Brazil,Vitória,1962,Brazil,-,Por jugar
-2026-05-28,00:30,Brazil,Copa do Nordeste,1596,"Copa do Nordeste, Knockout stage",31972,Semifinals,Sport Recife,1959,Brazil,Fortaleza,2020,Brazil,-,Por jugar
-2026-05-28,01:00,USA,USL League One,13362,"USL, League One",71366,,AC Boise,1158834,USA,Sarasota Paradise,465623,USA,-,Por jugar
-2026-05-28,01:00,USA,USL Prinx Tires Cup,22382,"USL Cup, Group 2 ",173377,Jornada 1,El Paso Locomotive FC,310532,USA,AV Alta FC,1044343,USA,-,Por jugar
-2026-05-28,01:00,USA,USL League One,13362,"USL, League One",71366,,AC Boise,1158834,USA,Sarasota Paradise,465623,USA,-,Por jugar
-2026-05-28,01:00,USA,USL Prinx Tires Cup,22382,"USL Cup, Group 2 ",173377,Jornada 1,El Paso Locomotive FC,310532,USA,AV Alta FC,1044343,USA,-,Por jugar
+2026-05-27,19:00,Europe,UEFA Conference League,17015,"UEFA Conference League, Knockout stage",93705,Final,Crystal Palace,7,England,Rayo Vallecano,2818,Spain,1-0,Finalizado
+2026-05-27,19:00,Spain,Liga F Moeve,1127,Liga F Moeve,3739,Jornada 29,Real Club Deportivo de la Coruña,262253,Spain,RCD Espanyol de Barcelona,38323,Spain,2-2,Finalizado
+2026-05-27,19:00,Italy,"Serie C, Playoffs",11452,"Serie C, Playoffs, Promotion Playoffs",43856,Semifinals,Catania,2725,Italy,Ascoli,2707,Italy,2-1,Finalizado
+2026-05-27,22:00,South America,CONMEBOL Libertadores,384,"CONMEBOL Libertadores, Group H",2935,Jornada 6,Independiente del Valle,39723,Ecuador,Rosario Central,3217,Argentina,1-0,Finalizado
+2026-05-27,22:00,South America,CONMEBOL Libertadores,384,"CONMEBOL Libertadores, Group H",2935,Jornada 6,Libertad,5996,Paraguay,Universidad Central,249952,Venezuela,0-1,Finalizado
+2026-05-27,22:00,South America,CONMEBOL Sudamericana,480,"CONMEBOL Sudamericana, Group B",91437,Jornada 6,Atlético Mineiro,1977,Brazil,Academia Puerto Cabello,230725,Venezuela,1-0,Finalizado
+2026-05-27,22:00,South America,CONMEBOL Sudamericana,480,"CONMEBOL Sudamericana, Group B",91437,Jornada 6,Cienciano,2301,Peru,Juventud de Las Piedras,3224,Uruguay,1-1,Finalizado
+2026-05-27,22:00,South America,CONMEBOL Sudamericana,480,"CONMEBOL Sudamericana, Group E",91440,Jornada 6,Caracas F.C.,6230,Venezuela,Botafogo,1958,Brazil,1-3,Finalizado
+2026-05-27,22:00,South America,CONMEBOL Sudamericana,480,"CONMEBOL Sudamericana, Group E",91440,Jornada 6,Racing Club,3215,Argentina,Club Independiente,372975,Bolivia,2-0,Finalizado
+2026-05-27,22:00,South America,CONMEBOL Sudamericana,480,"CONMEBOL Sudamericana, Group G",91442,Jornada 6,Olimpia,5997,Paraguay,Audax Italiano,3162,Chile,3-1,Finalizado
+2026-05-27,22:00,South America,CONMEBOL Sudamericana,480,"CONMEBOL Sudamericana, Group G",91442,Jornada 6,Vasco da Gama,1974,Brazil,Barracas Central,65668,Argentina,3-0,Finalizado
+2026-05-27,23:00,USA,USL League One,13362,"USL, League One",71366,,Chattanooga Red Wolves SC,312631,USA,Richmond Kickers,23841,USA,5-0,Finalizado
+2026-05-27,23:00,USA,USL League One,13362,"USL, League One",71366,,New York Cosmos,53903,USA,Union Omaha SC,338006,USA,1-2,Finalizado
+2026-05-27,23:30,USA,USL Championship,13363,USL Championship,71367,Jornada 1,SC Jacksonville,1077312,USA,San Antonio FC,217134,USA,4-4,Finalizado
+2026-05-28,00:30,South America,CONMEBOL Libertadores,384,"CONMEBOL Libertadores, Group C",2930,Jornada 6,Bolívar,7059,Bolivia,Independiente Rivadavia,36842,Argentina,1-3,Finalizado
+2026-05-28,00:30,South America,CONMEBOL Libertadores,384,"CONMEBOL Libertadores, Group C",2930,Jornada 6,Fluminense,1961,Brazil,Deportivo La Guaira,36437,Venezuela,3-1,Finalizado
+2026-05-28,00:30,South America,CONMEBOL Libertadores,384,"CONMEBOL Libertadores, Group E",2932,Jornada 6,Corinthians,1957,Brazil,Club Atlético Platense,36837,Argentina,0-2,Finalizado
+2026-05-28,00:30,South America,CONMEBOL Libertadores,384,"CONMEBOL Libertadores, Group E",2932,Jornada 6,Peñarol,3227,Uruguay,Independiente Santa Fe,6116,Colombia,0-1,Finalizado
+2026-05-28,00:30,South America,CONMEBOL Sudamericana,480,"CONMEBOL Sudamericana, Group H",91443,Jornada 6,Red Bull Bragantino,1999,Brazil,Carabobo FC,6229,Venezuela,2-0,Finalizado
+2026-05-28,00:30,South America,CONMEBOL Sudamericana,480,"CONMEBOL Sudamericana, Group H",91443,Jornada 6,River Plate,3211,Argentina,Blooming,6968,Bolivia,3-0,Finalizado
+2026-05-28,00:30,Brazil,Copa do Nordeste,1596,"Copa do Nordeste, Knockout stage",31972,Semifinals,ABC,21838,Brazil,Vitória,1962,Brazil,3-4,Finalizado
+2026-05-28,00:30,Brazil,Copa do Nordeste,1596,"Copa do Nordeste, Knockout stage",31972,Semifinals,Sport Recife,1959,Brazil,Fortaleza,2020,Brazil,0-2,Finalizado
+2026-05-28,01:00,USA,USL League One,13362,"USL, League One",71366,,AC Boise,1158834,USA,Sarasota Paradise,465623,USA,0-2,Finalizado
+2026-05-28,01:00,USA,USL Prinx Tires Cup,22382,"USL Cup, Group 2 ",173377,Jornada 1,El Paso Locomotive FC,310532,USA,AV Alta FC,1044343,USA,2-0,Finalizado
 2026-05-28,10:00,Kazakhstan,Kazakhstan Premier League,682,Premier League,3103,Jornada 12,FC Okzhetpes,5359,Kazakhstan,FK Aktobe,5355,Kazakhstan,-,Por jugar
 2026-05-28,10:00,Kazakhstan,Kazakhstan Premier League,682,Premier League,3103,Jornada 12,FC Okzhetpes,5359,Kazakhstan,FK Aktobe,5355,Kazakhstan,-,Por jugar
 2026-05-28,11:00,Kazakhstan,Kazakhstan Premier League,682,Premier League,3103,Jornada 12,FC Kyzylzhar,5367,Kazakhstan,Zhetysu Taldykorgan,5364,Kazakhstan,-,Por jugar
@@ -119,6 +42,13 @@
 2026-05-28,11:30,Europe,U17 European Championship,429,"U17 European Championship, Group A",7952,Jornada 2,Belgium U17,22583,Belgium,Spain U17,22479,Spain,-,Por jugar
 2026-05-28,11:30,Europe,U17 European Championship,429,"U17 European Championship, Group A",7952,Jornada 2,Belgium U17,22583,Belgium,Spain U17,22479,Spain,-,Por jugar
 2026-05-28,13:00,Kazakhstan,Kazakhstan Premier League,682,Premier League,3103,Jornada 12,Atyrau,5356,Kazakhstan,FC Tobol,5362,Kazakhstan,-,Por jugar
+2026-05-28,13:00,Kazakhstan,Kazakhstan Premier League,682,Premier League,3103,Jornada 12,Atyrau,5356,Kazakhstan,FC Tobol,5362,Kazakhstan,-,Por jugar
+2026-05-28,14:00,Egypt,Egyptian Premier League,808,"Egyptian Premier League, Relegation Round",25441,Jornada 13,Ismaily,42366,Egypt,Pharco FC,241703,Egypt,-,Por jugar
+2026-05-28,14:00,Egypt,Egyptian Premier League,808,"Egyptian Premier League, Relegation Round",25441,Jornada 13,Petrojet,43567,Egypt,El Gouna FC,43565,Egypt,-,Por jugar
+2026-05-28,14:00,Egypt,Egyptian Premier League,808,"Egyptian Premier League, Relegation Round",25441,Jornada 13,Tala'ea El-Gaish,43561,Egypt,Wadi Degla,43568,Egypt,-,Por jugar
+2026-05-28,14:00,Bulgaria,Parva Liga,247,"Parva Liga, Relegation/Promotion Playoff",6211,Final,FK Septemvri Sofia,201203,Bulgaria,FK Yantra Gabrovo,282589,Bulgaria,-,Por jugar
+2026-05-28,14:00,Kazakhstan,Kazakhstan Premier League,682,Premier League,3103,Jornada 12,FC Kaysar,36142,Kazakhstan,Yelimay Semey,464803,Kazakhstan,-,Por jugar
+2026-05-28,14:00,Kazakhstan,Kazakhstan Premier League,682,Premier League,3103,Jornada 12,FK Zhenys,5363,Kazakhstan,Caspiy Aktau,36688,Kazakhstan,-,Por jugar
 2026-05-28,14:00,Egypt,Egyptian Premier League,808,"Egyptian Premier League, Relegation Round",25441,Jornada 13,Ismaily,42366,Egypt,Pharco FC,241703,Egypt,-,Por jugar
 2026-05-28,14:00,Egypt,Egyptian Premier League,808,"Egyptian Premier League, Relegation Round",25441,Jornada 13,Petrojet,43567,Egypt,El Gouna FC,43565,Egypt,-,Por jugar
 2026-05-28,14:00,Egypt,Egyptian Premier League,808,"Egyptian Premier League, Relegation Round",25441,Jornada 13,Tala'ea El-Gaish,43561,Egypt,Wadi Degla,43568,Egypt,-,Por jugar
@@ -126,24 +56,164 @@
 2026-05-28,14:00,Kazakhstan,Kazakhstan Premier League,682,Premier League,3103,Jornada 12,FC Kaysar,36142,Kazakhstan,Yelimay Semey,464803,Kazakhstan,-,Por jugar
 2026-05-28,14:00,Kazakhstan,Kazakhstan Premier League,682,Premier League,3103,Jornada 12,FK Zhenys,5363,Kazakhstan,Caspiy Aktau,36688,Kazakhstan,-,Por jugar
 2026-05-28,15:00,Kazakhstan,Kazakhstan Premier League,682,Premier League,3103,Jornada 12,FC Ordabasy,5366,Kazakhstan,Kairat Almaty,5172,Kazakhstan,-,Por jugar
+2026-05-28,15:00,Kazakhstan,Kazakhstan Premier League,682,Premier League,3103,Jornada 12,FC Ordabasy,5366,Kazakhstan,Kairat Almaty,5172,Kazakhstan,-,Por jugar
+2026-05-28,15:30,Poland,Betclic 1. Liga,229,"1. Liga, Promotion Playoffs",80635,Semifinals,Chrobry Głogów,53296,Poland,ŁKS Łódź,3123,Poland,-,Por jugar
 2026-05-28,15:30,Poland,Betclic 1. Liga,229,"1. Liga, Promotion Playoffs",80635,Semifinals,Chrobry Głogów,53296,Poland,ŁKS Łódź,3123,Poland,-,Por jugar
 2026-05-28,16:00,Europe,U17 European Championship,429,"U17 European Championship, Group A",7952,Jornada 2,Estonia U17,22600,Estonia,Croatia U17,22594,Croatia,-,Por jugar
 2026-05-28,16:00,Georgia,Erovnuli Liga,704,Erovnuli Liga,3012,Jornada 16,FC Torpedo Kutaisi,5419,Georgia,FC Gagra,36865,Georgia,-,Por jugar
+2026-05-28,16:00,Europe,U17 European Championship,429,"U17 European Championship, Group A",7952,Jornada 2,Estonia U17,22600,Estonia,Croatia U17,22594,Croatia,-,Por jugar
+2026-05-28,16:00,Georgia,Erovnuli Liga,704,Erovnuli Liga,3012,Jornada 16,FC Torpedo Kutaisi,5419,Georgia,FC Gagra,36865,Georgia,-,Por jugar
+2026-05-28,16:30,Germany,Regionalliga Bayern,1085,"Regionalliga Bayern, Relegation/Promotion Playoffs",27815,Final,ASV Cham,317548,Germany,SpVgg Greuther Fürth II,5883,Germany,-,Por jugar
 2026-05-28,16:30,Germany,Regionalliga Bayern,1085,"Regionalliga Bayern, Relegation/Promotion Playoffs",27815,Final,ASV Cham,317548,Germany,SpVgg Greuther Fürth II,5883,Germany,-,Por jugar
 2026-05-28,17:00,Germany,Regionalliga Playoffs,11096,"Regionalliga, Promotion Playoffs",27221,Final,1. FC Lokomotive Leipzig,24093,Germany,FC Würzburger Kickers,23947,Germany,-,Por jugar
+2026-05-28,17:00,Germany,Regionalliga Playoffs,11096,"Regionalliga, Promotion Playoffs",27221,Final,1. FC Lokomotive Leipzig,24093,Germany,FC Würzburger Kickers,23947,Germany,-,Por jugar
+2026-05-28,18:00,World,International Friendly Games,851,Int. Friendly Games,66,,Egypt,4758,Egypt,Russia,4694,Russia,-,Por jugar
 2026-05-28,18:00,World,International Friendly Games,851,Int. Friendly Games,66,,Egypt,4758,Egypt,Russia,4694,Russia,-,Por jugar
 2026-05-28,18:30,Poland,Betclic 1. Liga,229,"1. Liga, Promotion Playoffs",80635,Semifinals,Wieczysta Kraków,334956,Poland,Polonia Warszawa,3119,Poland,-,Por jugar
+2026-05-28,18:30,Poland,Betclic 1. Liga,229,"1. Liga, Promotion Playoffs",80635,Semifinals,Wieczysta Kraków,334956,Poland,Polonia Warszawa,3119,Poland,-,Por jugar
+2026-05-28,18:45,World,International Friendly Games,851,Int. Friendly Games,66,,Ireland,4693,Ireland,Qatar,4792,Qatar,-,Por jugar
 2026-05-28,18:45,World,International Friendly Games,851,Int. Friendly Games,66,,Ireland,4693,Ireland,Qatar,4792,Qatar,-,Por jugar
 2026-05-28,19:00,Portugal,Liga Portugal Betclic,238,"Liga Portugal Betclic, Relegation/Promotion",35489,Final,Casa Pia,36365,Portugal,Torreense,25787,Portugal,-,Por jugar
+2026-05-28,19:00,Portugal,Liga Portugal Betclic,238,"Liga Portugal Betclic, Relegation/Promotion",35489,Final,Casa Pia,36365,Portugal,Torreense,25787,Portugal,-,Por jugar
+2026-05-28,22:00,South America,CONMEBOL Libertadores,384,"CONMEBOL Libertadores, Group F",2933,Jornada 6,Cerro Porteño,5991,Paraguay,Club Sporting Cristal,2302,Peru,-,Por jugar
+2026-05-28,22:00,South America,CONMEBOL Libertadores,384,"CONMEBOL Libertadores, Group F",2933,Jornada 6,Palmeiras,1963,Brazil,Junior Barranquilla,6105,Colombia,-,Por jugar
 2026-05-28,22:00,South America,CONMEBOL Libertadores,384,"CONMEBOL Libertadores, Group F",2933,Jornada 6,Cerro Porteño,5991,Paraguay,Club Sporting Cristal,2302,Peru,-,Por jugar
 2026-05-28,22:00,South America,CONMEBOL Libertadores,384,"CONMEBOL Libertadores, Group F",2933,Jornada 6,Palmeiras,1963,Brazil,Junior Barranquilla,6105,Colombia,-,Por jugar
 2026-05-29,00:30,South America,CONMEBOL Libertadores,384,"CONMEBOL Libertadores, Group D",2931,Jornada 6,Boca Juniors,3202,Argentina,Universidad Católica,3151,Chile,-,Por jugar
 2026-05-29,00:30,South America,CONMEBOL Libertadores,384,"CONMEBOL Libertadores, Group D",2931,Jornada 6,Cruzeiro,1954,Brazil,Barcelona SC Guayaquil,5250,Ecuador,-,Por jugar
 2026-05-29,00:30,South America,CONMEBOL Sudamericana,480,"CONMEBOL Sudamericana, Group A",91436,Jornada 6,América de Cali,6102,Colombia,Macará,6001,Ecuador,-,Por jugar
 2026-05-29,00:30,South America,CONMEBOL Sudamericana,480,"CONMEBOL Sudamericana, Group A",91436,Jornada 6,Tigre,7628,Argentina,Alianza Atlético de Sullana,2307,Peru,-,Por jugar
+2026-05-29,00:30,South America,CONMEBOL Libertadores,384,"CONMEBOL Libertadores, Group D",2931,Jornada 6,Boca Juniors,3202,Argentina,Universidad Católica,3151,Chile,-,Por jugar
+2026-05-29,00:30,South America,CONMEBOL Libertadores,384,"CONMEBOL Libertadores, Group D",2931,Jornada 6,Cruzeiro,1954,Brazil,Barcelona SC Guayaquil,5250,Ecuador,-,Por jugar
+2026-05-29,00:30,South America,CONMEBOL Sudamericana,480,"CONMEBOL Sudamericana, Group A",91436,Jornada 6,América de Cali,6102,Colombia,Macará,6001,Ecuador,-,Por jugar
+2026-05-29,00:30,South America,CONMEBOL Sudamericana,480,"CONMEBOL Sudamericana, Group A",91436,Jornada 6,Tigre,7628,Argentina,Alianza Atlético de Sullana,2307,Peru,-,Por jugar
+2026-05-29,07:00,China,Chinese League 1,782,Chinese League 1,3583,Jornada 10,Shaanxi Union FC,510602,China,Nanjing City,369494,China,-,Por jugar
 2026-05-29,07:00,China,Chinese League 1,782,Chinese League 1,3583,Jornada 10,Shaanxi Union FC,510602,China,Nanjing City,369494,China,-,Por jugar
 2026-05-29,10:15,Australia,Queensland Premier League 1,21996,Queensland Premier League 1,73757,Jornada 13,North Star FC,91142,Australia,Brisbane Strikers,2936,Australia,-,Por jugar
+2026-05-29,10:15,Australia,Queensland Premier League 1,21996,Queensland Premier League 1,73757,Jornada 13,North Star FC,91142,Australia,Brisbane Strikers,2936,Australia,-,Por jugar
+2026-05-29,11:00,China,Chinese League 1,782,Chinese League 1,3583,Jornada 10,Ningbo FC,221238,China,Nantong Zhiyun,251278,China,-,Por jugar
 2026-05-29,11:00,China,Chinese League 1,782,Chinese League 1,3583,Jornada 10,Ningbo FC,221238,China,Nantong Zhiyun,251278,China,-,Por jugar
 2026-05-29,11:30,China,Chinese League 1,782,Chinese League 1,3583,Jornada 10,Guangdong GZ-Power,510606,China,Shenzhen Juniors FC,510603,China,-,Por jugar
 2026-05-29,11:30,Europe,U17 European Championship,429,"U17 European Championship, Group B",7953,Jornada 2,Montenegro U17,22631,Montenegro,Italy U17,22616,Italy,-,Por jugar
+2026-05-29,11:30,China,Chinese League 1,782,Chinese League 1,3583,Jornada 10,Guangdong GZ-Power,510606,China,Shenzhen Juniors FC,510603,China,-,Por jugar
+2026-05-29,11:30,Europe,U17 European Championship,429,"U17 European Championship, Group B",7953,Jornada 2,Montenegro U17,22631,Montenegro,Italy U17,22616,Italy,-,Por jugar
 2026-05-29,11:35,China,Chinese Super League,649,Chinese Super League,652,Jornada 15,Liaoning Tieren FC,221240,China,Shanghai Port,41537,China,-,Por jugar
+2026-05-29,11:35,China,Chinese Super League,649,Chinese Super League,652,Jornada 15,Liaoning Tieren FC,221240,China,Shanghai Port,41537,China,-,Por jugar
+2026-05-29,14:00,Egypt,Egyptian Premier League,808,"Egyptian Premier League, Relegation Round",25441,Jornada 13,Arab Contractors FC,42365,Egypt,Modern Sport FC,265830,Egypt,-,Por jugar
+2026-05-29,14:00,Egypt,Egyptian Premier League,808,"Egyptian Premier League, Relegation Round",25441,Jornada 13,ZED FC,373168,Egypt,Ismailia Electricity Club,241702,Egypt,-,Por jugar
+2026-05-29,15:00,Belarus,Vysshaya Liga,169,Vysshaya League,616,Jornada 10,Naftan Novopolotsk,5234,Belarus,Torpedo-BelAZ Zhodino,3359,Belarus,-,Por jugar
+2026-05-29,15:00,Georgia,Erovnuli Liga,704,Erovnuli Liga,3012,Jornada 16,FC Dila Gori,33819,Georgia,FC Samgurali Tskhaltubo,44217,Georgia,-,Por jugar
+2026-05-29,15:00,Latvia,Virsliga,197,Virsliga,1279,Jornada 16,Riga FC,162368,Latvia,FK Grobiņa,52220,Latvia,-,Por jugar
+2026-05-29,15:30,Finland,Ykkösliiga,55,Ykkosliiga,527,Jornada 9,FC Haka,2240,Finland,Jippo Joensuu,2263,Finland,-,Por jugar
+2026-05-29,15:30,Finland,Ykkösliiga,55,Ykkosliiga,527,Jornada 9,KTP,2255,Finland,SJK Akatemia,89908,Finland,-,Por jugar
+2026-05-29,16:00,World,International Friendly Games,851,Int. Friendly Games,66,,South Africa,4736,South Africa,Nicaragua,21817,Nicaragua,-,Por jugar
+2026-05-29,16:00,Bulgaria,Parva Liga,247,"First Professional League, Conf. League Playoffs",93173,Final,Ludogorets,43840,Bulgaria,Lokomotiv Plovdiv,3272,Bulgaria,-,Por jugar
+2026-05-29,16:00,Cyprus,Cyprus Cup,315,Cyprus Cup,838,Final,Apollon Limassol,3402,Cyprus,Pafos FC,171626,Cyprus,-,Por jugar
+2026-05-29,16:00,Denmark,CampoBet 2 Division,65,"CampoBet 2 Division, Promotion Group",93781,Jornada 31,Thisted,1403,Denmark,FC Roskilde,4873,Denmark,-,Por jugar
+2026-05-29,16:00,Estonia,Premium Liiga,178,Premium Liiga,618,Jornada 14,FC Nõmme United,37572,Estonia,Flora Tallinn,3346,Estonia,-,Por jugar
+2026-05-29,16:00,Europe,U17 European Championship,429,"U17 European Championship, Group B",7953,Jornada 2,France U17,22474,France,Denmark U17,22597,Denmark,-,Por jugar
+2026-05-29,16:00,Finland,Ykkösliiga,55,Ykkosliiga,527,Jornada 9,KäPa,2273,Finland,JäPS,23422,Finland,-,Por jugar
+2026-05-29,16:00,Lithuania,TOPLYGA,198,TOPLYGA,1260,Jornada 16,FK Transinvest,411452,Lithuania,FC Hegelmann,171484,Lithuania,-,Por jugar
+2026-05-29,16:00,Norway,"Toppserien, Women",201,"Toppserien, Women",78,Jornada 9,Hønefoss BK,283907,Norway,Stabæk Fotball,732,Norway,-,Por jugar
+2026-05-29,17:00,Egypt,Egyptian Premier League,808,"Egyptian Premier League, Relegation Round",25441,Jornada 13,Ghazl El Mahalla FC,58319,Egypt,Haras El Hodoud,43566,Egypt,-,Por jugar
+2026-05-29,17:00,Egypt,Egyptian Premier League,808,"Egyptian Premier League, Relegation Round",25441,Jornada 13,National Bank of Egypt,266626,Egypt,Al-Ittihad Alexandria,35187,Egypt,-,Por jugar
+2026-05-29,17:00,Norway,Eliteserien,20,Eliteserien,5,Jornada 11,Aalesunds FK,677,Norway,HamKam,666,Norway,-,Por jugar
+2026-05-29,17:00,Norway,Eliteserien,20,Eliteserien,5,Jornada 11,Fredrikstad FK,687,Norway,IK Start,667,Norway,-,Por jugar
+2026-05-29,17:00,Norway,Eliteserien,20,Eliteserien,5,Jornada 11,KFUM Oslo,786,Norway,Tromsø IL,660,Norway,-,Por jugar
+2026-05-29,17:00,Norway,Eliteserien,20,Eliteserien,5,Jornada 11,Rosenborg BK,1161,Norway,Bodø/Glimt,656,Norway,-,Por jugar
+2026-05-29,17:00,Norway,Eliteserien,20,Eliteserien,5,Jornada 11,SK Brann,1159,Norway,Sarpsborg 08,822,Norway,-,Por jugar
+2026-05-29,17:00,Norway,Eliteserien,20,Eliteserien,5,Jornada 11,Vålerenga IF,1165,Norway,Kristiansund BK,957,Norway,-,Por jugar
+2026-05-29,17:00,Sweden,Allsvenskan,40,Allsvenskan,24,Jornada 10,Örgryte IS,1766,Sweden,IF Elfsborg,1762,Sweden,-,Por jugar
+2026-05-29,17:00,Denmark,CampoBet 2 Division,65,"CampoBet 2 Division, Promotion Group",93781,Jornada 31,Næstved Boldklub,1320,Denmark,AB,203406,Denmark,-,Por jugar
+2026-05-29,17:00,Denmark,CampoBet 2 Division,65,"CampoBet 2 Division, Relegation",10881,Jornada 31,Fremad Amager,35412,Denmark,Skive,1304,Denmark,-,Por jugar
+2026-05-29,17:00,Georgia,Erovnuli Liga,704,Erovnuli Liga,3012,Jornada 16,FC Iberia 1999,116312,Georgia,Dinamo Batumi,37297,Georgia,-,Por jugar
+2026-05-29,17:00,Georgia,Erovnuli Liga,704,Erovnuli Liga,3012,Jornada 16,FC Rustavi,7703,Georgia,FC Spaeri,307794,Georgia,-,Por jugar
+2026-05-29,17:00,Latvia,Virsliga,197,Virsliga,1279,Jornada 16,SK Super Nova,282126,Latvia,RFS,68718,Latvia,-,Por jugar
+2026-05-29,17:00,Lithuania,TOPLYGA,198,TOPLYGA,1260,Jornada 16,FK Riteriai,310557,Lithuania,FK Sūduva Marijampolė,5343,Lithuania,-,Por jugar
+2026-05-29,17:30,Romania,SuperLiga României,152,"Super Liga, Europe Playoffs",93172,Final,FC Dinamo București,3292,Romania,FCSB,3301,Romania,-,Por jugar
+2026-05-29,17:30,Belarus,Vysshaya Liga,169,Vysshaya League,616,Jornada 10,FC Minsk,7304,Belarus,FC Isloch Minsk Region,42965,Belarus,-,Por jugar
+2026-05-29,18:00,Italy,Serie B,53,"Serie B, Promotion Playoffs",4453,Final,Monza,2729,Italy,Catanzaro,2796,Italy,-,Por jugar
+2026-05-29,18:30,World,International Friendly Games,851,Int. Friendly Games,66,,Bosnia & Herzegovina,4479,Bosnia & Herzegovina,North Macedonia,4777,North Macedonia,-,Por jugar
+2026-05-29,18:45,France,Ligue 1,34,"Ligue 1, Relegation/Promotion Playoffs",59582,Final,Nice,1661,France,Saint-Étienne,1678,France,-,Por jugar
+2026-05-29,18:45,Ireland, Premier Division,192,Premier Division,79,Jornada 19,Drogheda United,3180,Ireland,Waterford FC,3194,Ireland,-,Por jugar
+2026-05-29,18:45,Ireland, Premier Division,192,Premier Division,79,Jornada 19,Dundalk FC,3179,Ireland,Derry City,3170,Ireland,-,Por jugar
+2026-05-29,18:45,Ireland, Premier Division,192,Premier Division,79,Jornada 19,Shelbourne,3174,Ireland,Galway United,137382,Ireland,-,Por jugar
+2026-05-29,18:45,Ireland, Premier Division,192,Premier Division,79,Jornada 19,Sligo Rovers,3190,Ireland,Bohemian FC,3173,Ireland,-,Por jugar
+2026-05-29,18:45,Ireland,First Division,193,First Division,718,Jornada 18,Bray Wanderers,3171,Ireland,Wexford FC,7128,Ireland,-,Por jugar
+2026-05-29,18:45,Ireland,First Division,193,First Division,718,Jornada 18,Cobh Ramblers FC,3185,Ireland,Kerry FC,459718,Ireland,-,Por jugar
+2026-05-29,18:45,Ireland,First Division,193,First Division,718,Jornada 18,Cork City,40896,Ireland,Finn Harps,3181,Ireland,-,Por jugar
+2026-05-29,18:45,Ireland,First Division,193,First Division,718,Jornada 18,Longford Town,3175,Ireland,Treaty United FC,377765,Ireland,-,Por jugar
+2026-05-29,18:45,Ireland,First Division,193,First Division,718,Jornada 18,University College Dublin,3168,Ireland,Athlone Town AFC,3198,Ireland,-,Por jugar
+2026-05-29,19:00,Bolivia,División Profesional,16736,División Profesional,4330,Jornada 10,CD San Antonio,396625,Bolivia,Guabirá,47701,Bolivia,-,Por jugar
+2026-05-29,19:00,Ireland, Premier Division,192,Premier Division,79,Jornada 19,Shamrock Rovers,3177,Ireland,St. Patrick's Athletic,3169,Ireland,-,Por jugar
+2026-05-29,19:00,France,"Première Ligue, Féminine",1139,"Première Ligue, Féminine, Playoffs",129642,Final,OL Lyonnes,26245,France,Paris FC,264964,France,-,Por jugar
+2026-05-29,19:15,Iceland,Besta deild karla,188,Efsta deild,102,Jornada 9,FH Hafnarfjörður,1894,Iceland,ÍA Akranes,1898,Iceland,-,Por jugar
+2026-05-29,19:15,Iceland,Besta deild karla,188,Efsta deild,102,Jornada 9,Fram Reykjavík,1893,Iceland,Breidablik Kópavogur,1901,Iceland,-,Por jugar
+2026-05-29,20:00,Peru,Liga 1,406,"Liga 1, Apertura",34467,Jornada 17,Club Atlético Grau,282538,Peru,CD Moquegua,492848,Peru,-,Por jugar
+2026-05-29,20:00,Colombia,Categoría Primera B,1238,"Torneo DIMAYOR, Apertura, Final",59570,Final,Envigado FC,6114,Colombia,Real Cartagena,6119,Colombia,-,Por jugar
+2026-05-29,22:00,Chile,Liga de Primera,11653,Liga de Primera,64475,Jornada 14,Cobresal,3167,Chile,Ñublense,7029,Chile,-,Por jugar
+2026-05-29,22:30,USA,USL League One,13362,"USL, League One",71366,,One Knoxville SC,407748,USA,Greenville Triumph SC,312633,USA,-,Por jugar
+2026-05-29,22:30,Brazil,Brasileirão Série D,10326,"Brasileirão Série D, Group A8",59485,Jornada 9,América-RN,2023,Brazil,Central SC,21844,Brazil,-,Por jugar
+2026-05-29,22:30,Uruguay,Liga AUF Uruguaya,278,"Liga AUF Uruguaya, Intermedio, Serie A",59574,Jornada 3,Cerro Largo,25009,Uruguay,CA Cerro,22011,Uruguay,-,Por jugar
+2026-05-29,23:00,Canada,Canadian Premier League,13470,Canadian Premier League,72112,Jornada 1,FC Supra Du Quebec,1165894,Canada,Inter Toronto,309890,Canada,-,Por jugar
+2026-05-29,23:00,USA,MLS Next Pro,18641,MLS Next Pro,99616,Jornada 1,Toronto FC II,217784,USA,Philadelphia Union II,221835,USA,-,Por jugar
+2026-05-29,23:00,USA,USL League One,13362,"USL, League One",71366,,Forward Madison FC,312632,USA,Corpus Christi FC,284113,USA,-,Por jugar
+2026-05-29,23:00,USA,NWSL,1690,NWSL,26540,Jornada 1,Orlando Pride,215083,USA,Bay FC,505655,USA,-,Por jugar
+2026-05-30,00:00,Brazil,Brasileirão Série B,390,Brasileirão Série B,1449,Jornada 11,Juventude,1980,Brazil,América Mineiro,1973,Brazil,-,Por jugar
+2026-05-30,00:00,USA,NWSL,1690,NWSL,26540,Jornada 1,Racing Louisville,377825,USA,Denver Summit FC,1165117,USA,-,Por jugar
+2026-05-30,00:00,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 16,Gimnasia Jujuy,5292,Argentina,Nueva Chicago,3200,Argentina,-,Por jugar
+2026-05-30,00:00,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 16,Racing de Córdoba,273657,Argentina,Club Ferro Carril Oeste,36841,Argentina,-,Por jugar
+2026-05-30,00:30,Chile,Liga de Primera,11653,Liga de Primera,64475,Jornada 14,Universidad de Concepción,5034,Chile,Unión La Calera,48242,Chile,-,Por jugar
+2026-05-30,02:00,USA,MLS Next Pro,18641,MLS Next Pro,99616,Jornada 1,Real Monarchs SLC,197064,USA,Sporting Kansas City II,212570,USA,-,Por jugar
+2026-05-30,05:00,Japan,J1 League,196,"J1 League, Final",186088,Final,Vissel Kobe,3146,Japan,Kashima Antlers,3134,Japan,-,Por jugar
+2026-05-30,05:00,Japan,J1 League,196,"J1 League, Placement Matches",186093,Match for 5th place,Nagoya Grampus,3136,Japan,Machida Zelvia,44409,Japan,-,Por jugar
+2026-05-30,05:00,Japan,J1 League,196,"J1 League, Placement Matches",186093,Placement match,Sanfrecce Hiroshima,3135,Japan,Kawasaki Frontale,5127,Japan,-,Por jugar
+2026-05-30,05:00,Japan,J2 League,402,"J2/J3 League, Placement Matches",186091,Placement match,Albirex Niigata,5128,Japan,Kagoshima United,162632,Japan,-,Por jugar
+2026-05-30,05:00,Japan,J2 League,402,"J2/J3 League, Placement Matches",186091,Placement match,FC Osaka,205600,Japan,Reilac Shiga FC,287054,Japan,-,Por jugar
+2026-05-30,05:00,Japan,J2 League,402,"J2/J3 League, Placement Matches",186091,Placement match,Kochi United SC,230706,Japan,Renofa Yamaguchi FC,38146,Japan,-,Por jugar
+2026-05-30,05:00,Japan,J2 League,402,"J2/J3 League, Placement Matches",186091,Placement match,Nara Club,38148,Japan,Oita Trinita,5129,Japan,-,Por jugar
+2026-05-30,05:00,Japan,J2 League,402,"J2/J3 League, Placement Matches",186091,Placement match,SC Sagamihara,189234,Japan,Fujieda MYFC,118500,Japan,-,Por jugar
+2026-05-30,05:00,Japan,J2 League,402,"J2/J3 League, Placement Matches",186091,Placement match,Shonan Bellmare,21905,Japan,Iwaki FC,256899,Japan,-,Por jugar
+2026-05-30,05:00,Japan,J2 League,402,"J2/J3 League, Placement Matches",186091,Placement match,Tochigi City FC,56419,Japan,Jubilo Iwata,3132,Japan,-,Por jugar
+2026-05-30,05:00,Japan,J2 League,402,"J2/J3 League, Placement Matches",186091,Placement match,Tokushima Vortis,21907,Japan,Sagan Tosu,21904,Japan,-,Por jugar
+2026-05-30,05:00,Japan,J2 League,402,"J2/J3 League, Placement Matches",186091,Placement match,Yokohama FC,7061,Japan,RB Omiya Ardija,5130,Japan,-,Por jugar
+2026-05-30,05:00,Japan,J2 League,402,"J2/J3 League, Playoffs",186092,Semifinals,Vegalta Sendai,3148,Japan,Ventforet Kofu,5762,Japan,-,Por jugar
+2026-05-30,06:00,Japan,J1 League,196,"J1 League, Placement Matches",186093,Match for 3rd place,Cerezo Osaka,3141,Japan,FC Tokyo,3147,Japan,-,Por jugar
+2026-05-30,07:00,Australia,Queensland Premier League 1,21996,Queensland Premier League 1,73757,Jornada 13,Ipswich FC,506782,Australia,Robina City,260089,Australia,-,Por jugar
+2026-05-30,07:00,China,Chinese League 1,782,Chinese League 1,3583,Jornada 10,Yanbian Longding,382025,China,Changchun Yatai,34694,China,-,Por jugar
+2026-05-30,07:00,Japan,J1 League,196,"J1 League, Placement Matches",186093,Placement match,Avispa Fukuoka,3143,Japan,JEF United Chiba,3144,Japan,-,Por jugar
+2026-05-30,07:00,Japan,J1 League,196,"J1 League, Placement Matches",186093,Placement match,Gamba Osaka,3138,Japan,Tokyo Verdy,3139,Japan,-,Por jugar
+2026-05-30,07:00,Japan,J2 League,402,"J2/J3 League, Placement Matches",186091,Placement match,Ehime FC,8060,Japan,Roasso Kumamoto,21903,Japan,-,Por jugar
+2026-05-30,07:30,South Korea,K League 2,777,K-League 2,6230,Jornada 14,Busan I Park,7642,South Korea,Paju Frontier FC,314294,South Korea,-,Por jugar
+2026-05-30,07:30,South Korea,K League 2,777,K-League 2,6230,Jornada 14,Chungnam Asan FC,339827,South Korea,Suwon Samsung Bluewings,7652,South Korea,-,Por jugar
+2026-05-30,07:30,South Korea,K League 2,777,K-League 2,6230,Jornada 14,Yongin City FC,41266,South Korea,Daegu FC,7644,South Korea,-,Por jugar
+2026-05-30,07:30,Philippines,Philippines Football League,1654,"Philippines Football League, Championship Round",183650,,Stallion Laguna,142204,Philippines,Aguilas-UMak FC,253131,Philippines,-,Por jugar
+2026-05-30,08:00,Australia,Queensland Premier League 1,21996,Queensland Premier League 1,73757,Jornada 13,Caboolture FC,261364,Australia,Capalaba Bulldogs,47709,Australia,-,Por jugar
+2026-05-30,08:00,Australia,Queensland Premier League 1,21996,Queensland Premier League 1,73757,Jornada 13,Redlands United,91934,Australia,Sunshine Coast Wanderers,310816,Australia,-,Postponido
+2026-05-30,08:00,Japan,J1 League,196,"J1 League, Placement Matches",186093,Placement match,V-Varen Nagasaki,38154,Japan,Mito Hollyhock,21901,Japan,-,Por jugar
+2026-05-30,08:30,Australia,Queensland Premier League 1,21996,Queensland Premier League 1,73757,Jornada 13,Logan Lightning,91140,Australia,Holland Park Hawks,214426,Australia,-,Postponido
+2026-05-30,09:00,Japan,J2 League,402,"J2/J3 League, Playoffs",186092,Semifinals,Kataller Toyama,34035,Japan,Tegevajaro Miyazaki,287058,Japan,-,Por jugar
+2026-05-30,10:00,China,Chinese Super League,649,Chinese Super League,652,Jornada 15,Qingdao West Coast,369532,China,Shanghai Shenhua,3373,China,-,Por jugar
+2026-05-30,10:00,South Korea,K League 2,777,K-League 2,6230,Jornada 14,Gimhae City FC,41260,South Korea,Gimpo FC,195172,South Korea,-,Por jugar
+2026-05-30,10:00,South Korea,K League 2,777,K-League 2,6230,Jornada 14,Suwon FC,41261,South Korea,Seongnam FC,7651,South Korea,-,Por jugar
+2026-05-30,10:00,Georgia,Erovnuli Liga,704,Erovnuli Liga,3012,Jornada 16,Meshakhte Tkibuli,37305,Georgia,Dinamo Tbilisi,5171,Georgia,-,Por jugar
+2026-05-30,10:00,Japan,J1 League,196,"J1 League, Placement Matches",186093,Placement match,Kyoto Sanga FC,3149,Japan,Kashiwa Reysol,3140,Japan,-,Por jugar
+2026-05-30,10:00,Portugal,Campeonato Nacional Feminino,10527,"Campeonato Nacional, Women, Relegation Playoffs",92806,Final,Clube de Albergaria,265507,Portugal,Marítimo,298501,Portugal,-,Por jugar
+2026-05-30,10:15,Philippines,Philippines Football League,1654,"Philippines Football League, Championship Round",183650,,DH Cebu FC,413276,Philippines,Kaya-Iloilo,142194,Philippines,-,Por jugar
+2026-05-30,11:00,China,Chinese Super League,649,Chinese Super League,652,Jornada 15,Henan FC,34692,China,Zhejiang,34697,China,-,Por jugar
+2026-05-30,11:00,Czechia,Czech First League,172,"Czech First League, Relegation/Promotion",73051,Final,FC Silon Táborsko,24782,Czechia,Baník Ostrava,2204,Czechia,-,Por jugar
+2026-05-30,11:00,Belarus,Vysshaya Liga,169,Vysshaya League,616,Jornada 10,Arsenal Dzerzhinsk,317897,Belarus,Dinamo Minsk,3361,Belarus,-,Por jugar
+2026-05-30,11:00,China,Chinese League 1,782,Chinese League 1,3583,Jornada 10,Dalian Kuncheng City,508178,China,Shijiazhuang Gongfu,382024,China,-,Por jugar
+2026-05-30,11:00,China,Chinese League 1,782,Chinese League 1,3583,Jornada 10,Suzhou Dongwu,164044,China,Wuxi Wugou,382020,China,-,Por jugar
+2026-05-30,11:00,Denmark,CampoBet 2 Division,65,"CampoBet 2 Division, Relegation",10881,Jornada 31,FC Helsingør,6392,Denmark,Brabrand,1398,Denmark,-,Por jugar
+2026-05-30,11:00,Denmark,CampoBet 2 Division,65,"CampoBet 2 Division, Relegation",10881,Jornada 31,Ishøj IF,294406,Denmark,VSK Aarhus,227947,Denmark,-,Por jugar
+2026-05-30,11:00,Norway,"2nd Division, Group 1",11085,"2nd Division, Group 1",396,Jornada 9,IL Bjarg,35610,Norway,Eik Tønsberg,339270,Norway,-,Por jugar
+2026-05-30,11:00,Sweden,Superettan,46,Superettan,27,Jornada 10,Landskrona BoIS,1772,Sweden,IK Brage,1777,Sweden,-,Por jugar
+2026-05-30,11:00,Sweden,Superettan,46,Superettan,27,Jornada 10,Ljungskile SK,1824,Sweden,Varbergs BoIS,7101,Sweden,-,Por jugar
+2026-05-30,11:00,Sweden,"Ettan, Relegation/Promotion",11617,"Ettan, Sodra",174278,Jornada 10,Eskilsminne IF,62558,Sweden,Trelleborgs FF,1771,Sweden,-,Por jugar
+2026-05-30,11:15,Lithuania,TOPLYGA,198,TOPLYGA,1260,Jornada 16,Džiugas Telšiai,168446,Lithuania,FK Panevėžys,192763,Lithuania,-,Por jugar
+2026-05-30,11:30,China,Chinese League 1,782,Chinese League 1,3583,Jornada 10,Guangxi Hengchen FC,510605,China,Foshan Nanshi,508366,China,-,Por jugar
+2026-05-30,11:30,China,Chinese League 1,782,Chinese League 1,3583,Jornada 10,Meizhou Hakka,215186,China,Jiangxi Dingnan United,196341,China,-,Por jugar
+2026-05-30,11:30,Estonia,Premium Liiga,178,Premium Liiga,618,Jornada 14,Harju Jalgpallikool,197994,Estonia,Narva Trans,3343,Estonia,-,Por jugar
+2026-05-30,11:30,Estonia,Premium Liiga,178,Premium Liiga,618,Jornada 14,Pärnu JK Vaprus,247090,Estonia,Nõmme Kalju,8091,Estonia,-,Por jugar
+2026-05-30,11:35,China,Chinese Super League,649,Chinese Super League,652,Jornada 15,Chengdu Rongcheng,221241,China,Shandong Taishan,3371,China,-,Por jugar
