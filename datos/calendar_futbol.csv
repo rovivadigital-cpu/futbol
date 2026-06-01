@@ -64,7 +64,7 @@
 2026-05-31,14:00,Sweden,"Ettan, Relegation/Promotion",11617,"Ettan, Norra",174277,Jornada 10,Karlbergs BK,22238,Sweden,FBK Karlstad,199313,Sweden,1-1,Finalizado
 2026-05-31,14:30,Sweden,Allsvenskan,40,Allsvenskan,24,Jornada 10,Mjällby AIF,1783,Sweden,Djurgårdens IF,1759,Sweden,-,Postponido
 2026-05-31,14:30,North Macedonia,1. MFL,199,"1. MFL, Relegation/Promotion Playoffs",6200,Final,AP Brera Strumica,226868,North Macedonia,FK Skopje,8067,North Macedonia,0-1,Finalizado
-2026-05-31,14:30,North Macedonia,1. MFL,199,"1. MFL, Relegation/Promotion Playoffs",6200,Final,FK Pelister Bitola,6079,North Macedonia,KF Shkendija Haracine,831054,North Macedonia,6-7,Finalizado
+2026-05-31,14:30,North Macedonia,1. MFL,199,"1. MFL, Relegation/Promotion Playoffs",6200,Final,FK Pelister Bitola,6079,North Macedonia,KF Shkendija Haraçinë,831054,North Macedonia,6-7,Finalizado
 2026-05-31,14:30,Norway,"2nd Division, Group 2",11090,"2nd Division, Group 2",395,Jornada 9,Rana FK,339271,Norway,Stjørdals/Blink,727,Norway,3-2,Finalizado
 2026-05-31,14:30,Norway,"2nd Division, Group 2",11090,"2nd Division, Group 2",395,Jornada 9,Tromsdalen UIL,669,Norway,Skeid,679,Norway,2-0,Finalizado
 2026-05-31,15:00,World,International Friendly Games,851,Int. Friendly Games,66,,Cabo Verde,4753,Cape Verde,Serbia,6355,Serbia,3-0,Finalizado
@@ -160,16 +160,20 @@
 2026-05-31,23:10,Ecuador,LigaPro Serie A,240,"LigaPro Serie A, Primera Etapa",16887,Jornada 16,Emelec,5255,Ecuador,Universidad Católica del Ecuador,21942,Ecuador,1-0,Finalizado
 2026-05-31,23:30,Brazil,Brasileirão Betano,325,Brasileirão Betano,83,Jornada 18,Cruzeiro,1954,Brazil,Fluminense,1961,Brazil,1-1,Finalizado
 2026-05-31,23:30,Brazil,Brasileirão Betano,325,Brasileirão Betano,83,Jornada 18,Remo,2012,Brazil,São Paulo,1981,Brazil,1-0,Finalizado
-2026-05-31,23:30,Brazil,Brasileirão Série B,390,Brasileirão Série B,1449,Jornada 11,Cuiabá,49202,Brazil,CRB,22032,Brazil,2-0,Finalizado
+2026-05-31,23:30,Brazil,Brasileirão Série B,390,Brasileirão Série B,1449,Jornada 11,Cuiabá,49202,Brazil,Clube De Regatas Brasil,22032,Brazil,2-0,Finalizado
 2026-05-31,23:30,Brazil,Brasileirão Série C,1281,Brasileirão Série C,27213,Jornada 9,Figueirense,1985,Brazil,Paysandu SC,1997,Brazil,2-1,Finalizado
 2026-06-01,00:00,Chile,Liga de Primera,11653,Liga de Primera,64475,Jornada 14,Palestino,3157,Chile,Audax Italiano,3162,Chile,0-0,Finalizado
 2026-06-01,00:00,USA,MLS Next Pro,18641,MLS Next Pro,99616,Jornada 1,Minnesota United FC 2,411366,USA,Los Angeles FC 2,467298,USA,-,Postponido
-2026-06-01,10:00,Japan,J2 League,402,"J2/J3 League, Placement Matches",186091,Placement match,Vanraure Hachinohe,118478,Japan,Fukushima United FC,38140,Japan,-,Por jugar
-2026-06-01,10:00,Japan,J2 League,402,"J2/J3 League, Placement Matches",186091,Placement match,Vanraure Hachinohe,118478,Japan,Fukushima United FC,38140,Japan,-,Por jugar
-2026-06-01,11:30,Europe,U17 European Championship,429,"U17 European Championship, Group B",7953,Jornada 3,Denmark U17,22597,Denmark,Italy U17,22616,Italy,-,Por jugar
-2026-06-01,11:30,Europe,U17 European Championship,429,"U17 European Championship, Group B",7953,Jornada 3,France U17,22474,France,Montenegro U17,22631,Montenegro,-,Por jugar
-2026-06-01,11:30,Europe,U17 European Championship,429,"U17 European Championship, Group B",7953,Jornada 3,Denmark U17,22597,Denmark,Italy U17,22616,Italy,-,Por jugar
-2026-06-01,11:30,Europe,U17 European Championship,429,"U17 European Championship, Group B",7953,Jornada 3,France U17,22474,France,Montenegro U17,22631,Montenegro,-,Por jugar
+2026-06-01,10:00,Japan,J2 League,402,"J2/J3 League, Placement Matches",186091,Placement match,Vanraure Hachinohe,118478,Japan,Fukushima United FC,38140,Japan,0-1,En curso
+2026-06-01,10:00,Japan,J2 League,402,"J2/J3 League, Placement Matches",186091,Placement match,Vanraure Hachinohe,118478,Japan,Fukushima United FC,38140,Japan,0-1,En curso
+2026-06-01,10:30,World,International Friendly Games Women,852,"International Friendly Games, Women",1039,,Myanmar,132948,Myanmar,Uzbekistan,132956,Uzbekistan,-,Por jugar
+2026-06-01,10:30,World,International Friendly Games Women,852,"International Friendly Games, Women",1039,,Myanmar,132948,Myanmar,Uzbekistan,132956,Uzbekistan,-,Por jugar
+2026-06-01,11:00,World,International Friendly Games,851,Int. Friendly Games,66,,Pakistan,6081,Pakistan,Bangladesh U23,49024,Bangladesh,0-0,En curso
+2026-06-01,11:00,World,International Friendly Games,851,Int. Friendly Games,66,,Pakistan,6081,Pakistan,Bangladesh U23,49024,Bangladesh,0-0,En curso
+2026-06-01,11:30,Europe,U17 European Championship,429,"U17 European Championship, Group B",7953,Jornada 3,Denmark U17,22597,Denmark,Italy U17,22616,Italy,1-0,En curso
+2026-06-01,11:30,Europe,U17 European Championship,429,"U17 European Championship, Group B",7953,Jornada 3,France U17,22474,France,Montenegro U17,22631,Montenegro,0-0,En curso
+2026-06-01,11:30,Europe,U17 European Championship,429,"U17 European Championship, Group B",7953,Jornada 3,Denmark U17,22597,Denmark,Italy U17,22616,Italy,1-0,En curso
+2026-06-01,11:30,Europe,U17 European Championship,429,"U17 European Championship, Group B",7953,Jornada 3,France U17,22474,France,Montenegro U17,22631,Montenegro,0-0,En curso
 2026-06-01,13:00,World,U23 Toulon Tournament,2084,"Tournoi Maurice Revello, Group B",73137,Jornada 1,Japan U19,22523,Japan,Côte d'Ivoire U23,49054,Côte d'Ivoire,-,Por jugar
 2026-06-01,13:00,World,U23 Toulon Tournament,2084,"Tournoi Maurice Revello, Group B",73137,Jornada 1,Japan U19,22523,Japan,Côte d'Ivoire U23,49054,Côte d'Ivoire,-,Por jugar
 2026-06-01,16:00,World,International Friendly Games,851,Int. Friendly Games,66,,Bulgaria,4716,Bulgaria,Montenegro,7139,Montenegro,-,Por jugar
@@ -249,5 +253,5 @@
 2026-06-03,00:10,Argentina,Copa Argentina,1024,Copa Argentina,273,Round of 32,Barracas Central,65668,Argentina,Huracán,7629,Argentina,-,Por jugar
 2026-06-03,00:30,Colombia,"Primera A, Apertura",11539,"Liga DIMAYOR, Apertura, Playoffs",19235,Final,Junior Barranquilla,6105,Colombia,Atlético Nacional,6106,Colombia,-,Por jugar
 2026-06-03,09:30,Australia,Queensland Premier League 1,21996,Queensland Premier League 1,73757,Jornada 11,Sunshine Coast Wanderers,310816,Australia,St. George Willawong FC,256259,Australia,-,Por jugar
-2026-06-03,10:30,World,International Friendly Games Women,852,"International Friendly Games, Women",1039,,Myanmar,132948,Myanmar,Uzbekistan,132956,Uzbekistan,-,Por jugar
 2026-06-03,11:30,World,International Friendly Games,851,Int. Friendly Games,66,,Philippines,4791,Philippines,Guam,23493,Guam,-,Por jugar
+2026-06-03,11:35,World,International Friendly Games Women,852,"International Friendly Games, Women",1039,,China,7413,China,Russia,32486,Russia,-,Por jugar
