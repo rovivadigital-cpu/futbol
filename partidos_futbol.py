@@ -252,8 +252,15 @@ def partido_sin_estadisticas(fila: pd.Series) -> bool:
     """Devuelve True si el partido no tiene estadísticas descargadas (todas las cols clave son 0 o NaN)."""
     for col in COLS_STATS_CLAVE:
         val = fila.get(col, 0)
-        if pd.notna(val) and float(val) != 0:
-            return False
+        if pd.isna(val):
+            continue
+        try:
+            # Limpiar sufijo "%" si viene como string (ej. "52%")
+            num = float(str(val).replace("%", "").strip())
+            if num != 0:
+                return False
+        except (ValueError, TypeError):
+            pass
     return True
 
 def parsear_estadisticas_compactas(stats_data: dict) -> dict:
