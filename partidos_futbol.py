@@ -18,8 +18,11 @@ ARCHIVO_CHECKPOINT    = os.path.join(CARPETA_SALIDA, "checkpoint.json")
 PAUSA_BASE            = 0.6
 CHROME_VERSIONS       = ["chrome136", "chrome131", "chrome124"]
 
+# --- NUEVA CONFIGURACIÓN DE VENTANA TEMPORAL ---
+DIAS_A_ACTUALIZAR = 3  # <--- Cambia este número según necesites (10, 2, 30, etc.)
+# ----------------------------------------------
+
 # Columnas que determinan si un partido tiene estadísticas descargadas.
-# Si TODAS estas columnas son 0 o NaN → partido sin datos → hay que re-descargarlo.
 COLS_STATS_CLAVE = [
     "ALL_ball_possession_home", "ALL_total_shots_home",
     "ALL_corner_kicks_home",    "ALL_passes_home",
@@ -249,13 +252,11 @@ def es_partido_finalizado(evento: dict) -> bool:
     return any(k in desc for k in ["finished", "ended", "ft", "full time"])
 
 def partido_sin_estadisticas(fila: pd.Series) -> bool:
-    """Devuelve True si el partido no tiene estadísticas descargadas (todas las cols clave son 0 o NaN)."""
     for col in COLS_STATS_CLAVE:
         val = fila.get(col, 0)
         if pd.isna(val):
             continue
         try:
-            # Limpiar sufijo "%" si viene como string (ej. "52%")
             num = float(str(val).replace("%", "").strip())
             if num != 0:
                 return False
@@ -334,7 +335,6 @@ def _guardar_checkpoint(fechas_listas: set):
 # ===================== PROCESADO POR DÍA =====================
 
 def descargar_stats_partido(event_id: int) -> dict:
-    """Descarga estadísticas y xG de un partido por su event_id. Devuelve dict con los campos ALL_*."""
     stats = parsear_estadisticas_compactas(
         api_get(f"https://api.sofascore.com/api/v1/event/{event_id}/statistics")
     )
@@ -407,39 +407,45 @@ def procesar_dia(fecha: str) -> int:
     return len(eventos)
 
 
-# ===================== RE-DESCARGA DE PARTIDOS SIN STATS =====================
+# ===================== RE-DESCARGA de PARTIDOS SIN STATS =====================
 
 def reparar_partidos_sin_estadisticas():
-    """
-    Lee el CSV, detecta partidos donde todas las estadísticas clave son 0/NaN,
-    vuelve a descargar sus stats desde la API y actualiza el CSV.
-    """
     if not os.path.exists(ARCHIVO_FUTBOL) or os.path.getsize(ARCHIVO_FUTBOL) == 0:
         logging.info("📂 No hay CSV existente para reparar.")
         return
 
     df = pd.read_csv(ARCHIVO_FUTBOL)
 
-    # Asegurar que las columnas stats existen (pueden faltar en CSVs viejos)
-    for col in COLS_STATS_CLAVE:
-        if col not in df.columns:
-            df[col] = 0
-
-    mascara_sin_datos = df.apply(partido_sin_estadisticas, axis=1)
-    sin_datos = df[mascara_sin_datos]
-
-    if sin_datos.empty:
-        logging.info("✅ Todos los partidos ya tienen estadísticas. Nada que reparar.")
+    # --- FILTRO DE VENTANA TEMPORAL PARA REPARACIONES ---
+    # Convertimos la columna de fecha y filtramos solo los últimos X días
+    df['tourney_date'] = pd.to_datetime(df['tourney_date']).dt.strftime('%Y-%m-%d')
+    hoy = datetime.now().date()
+    fecha_limite = hoy - timedelta(days=DIAS_A_ACTUALIZAR)
+    
+    # Solo intentamos reparar partidos que estén dentro de la ventana de tiempo
+    df_ventana = df[pd.to_datetime(df['tourney_date']).dt.date >= fecha_limite].copy()
+    
+    if df_ventana.empty:
+        logging.info(f"✅ No hay partidos en los últimos {DIAS_A_ACTUALIZAR} días para reparar.")
         return
 
-    logging.info(f"🔧 Encontrados {len(sin_datos)} partidos SIN estadísticas → re-descargando...")
+    # Asegurar columnas stats
+    for col in COLS_STATS_CLAVE:
+        if col not in df_ventana.columns:
+            df_ventana[col] = 0
+
+    mascara_sin_datos = df_ventana.apply(partido_sin_estadisticas, axis=1)
+    sin_datos = df_ventana[mascara_sin_datos]
+
+    if sin_datos.empty:
+        logging.info("✅ Todos los partidos recientes ya tienen estadísticas.")
+        return
+
+    logging.info(f"🔧 Reparando {len(sin_datos)} partidos recientes SIN estadísticas...")
 
     actualizados = 0
     for idx, fila in sin_datos.iterrows():
         event_id = int(fila["event_id"])
-        home = fila.get("home_team_name", "?")
-        away = fila.get("away_team_name", "?")
-        fecha = fila.get("tourney_date", "?")
         try:
             stats = descargar_stats_partido(event_id)
             if stats:
@@ -448,13 +454,10 @@ def reparar_partidos_sin_estadisticas():
                         df.at[idx, col] = val
                 df.at[idx, "scrape_date"] = datetime.now().strftime("%Y-%m-%d")
                 actualizados += 1
-                logging.info(f"   🔄 Reparado [{fecha}] {home} vs {away} (id={event_id})")
-            else:
-                logging.warning(f"   ⚠️  Sin datos disponibles aún: {home} vs {away} (id={event_id})")
+                logging.info(f"   🔄 Reparado ID {event_id}")
         except Exception as e:
             logging.error(f"   💥 Error reparando evento {event_id}: {e}")
 
-    # Guardar CSV con las filas actualizadas
     df.to_csv(ARCHIVO_FUTBOL, index=False, columns=COLUMNAS_BBDD)
     logging.info(f"💾 CSV actualizado: {actualizados}/{len(sin_datos)} partidos reparados.")
 
@@ -462,61 +465,54 @@ def reparar_partidos_sin_estadisticas():
 # ===================== MAIN =====================
 
 if __name__ == "__main__":
-    logging.info("🚀 SCRAPER FÚTBOL v3.0 — ORDEN CRONOLÓGICO + REPARACIÓN STATS")
+    logging.info("🚀 SCRAPER FÚTBOL v3.1 — VENTANA DINÁMICA")
     os.makedirs(CARPETA_SALIDA, exist_ok=True)
 
-    # ── PASO 1: Reparar partidos existentes sin estadísticas ──
+    # ── PASO 1: Reparar solo los últimos X días ──
     logging.info("=" * 60)
-    logging.info("FASE 1: Reparando partidos sin estadísticas en el CSV...")
+    logging.info(f"FASE 1: Reparando stats de los últimos {DIAS_A_ACTUALIZAR} días...")
     logging.info("=" * 60)
     reparar_partidos_sin_estadisticas()
 
-    # ── PASO 2: Descargar días nuevos en orden cronológico ──
+    # ── PASO 2: Descargar días nuevos ──
     logging.info("=" * 60)
-    logging.info("FASE 2: Descargando días nuevos...")
+    logging.info(f"FASE 2: Descargando días nuevos (Ventana: {DIAS_A_ACTUALIZAR} días)...")
     logging.info("=" * 60)
 
-    fecha_inicio = datetime(2026, 5, 25).date()
     hoy = datetime.now().date()
+    # CAMBIO CLAVE: La fecha de inicio ya no es fija (2026), ahora es hoy menos X días.
+    fecha_inicio = hoy - timedelta(days=DIAS_A_ACTUALIZAR)
 
-    # Generar lista de fechas en orden cronológico (sin shuffle)
     todas_fechas = []
     f = fecha_inicio
     while f <= hoy:
         todas_fechas.append(f.strftime("%Y-%m-%d"))
         f += timedelta(days=1)
 
-    # Cargar checkpoint
     completadas = _cargar_checkpoint()
 
-    # Si no hay checkpoint, leer el CSV existente para no repetir días ya descargados
     if not completadas and os.path.exists(ARCHIVO_FUTBOL) and os.path.getsize(ARCHIVO_FUTBOL) > 0:
         try:
             df_existente = pd.read_csv(ARCHIVO_FUTBOL, usecols=["tourney_date"])
             fechas_en_csv = set(df_existente["tourney_date"].dropna().astype(str).unique())
             completadas = fechas_en_csv
             _guardar_checkpoint(completadas)
-            logging.info(f"📂 CSV existente: {len(completadas)} días ya descargados, generando checkpoint...")
+            logging.info(f"📂 CSV existente: Checkpoint generado.")
         except Exception as e:
             logging.warning(f"No se pudo leer el CSV para checkpoint: {e}")
 
-    # ORDEN CRONOLÓGICO — sin random.shuffle
     pendientes = [d for d in todas_fechas if d not in completadas]
 
-    if completadas:
-        logging.info(f"♻️  Retomando: {len(completadas)} días listos, {len(pendientes)} pendientes.")
+    if pendientes:
+        logging.info(f"📅 Procesando {len(pendientes)} días pendientes...")
+        total_descargados = 0
+        for idx, fecha_str in enumerate(pendientes, 1):
+            logging.info(f"[Día {idx}/{len(pendientes)}] {fecha_str}")
+            n = procesar_dia(fecha_str)
+            total_descargados += n
+            completadas.add(fecha_str)
+            _guardar_checkpoint(completadas)
+            time.sleep(random.uniform(2, 5))
+        logging.info(f"✅ Proceso completado. Total partidos: {total_descargados}")
     else:
-        logging.info("🆕 Sin datos previos, comenzando desde cero.")
-
-    logging.info(f"📅 Procesando {len(pendientes)} días en orden cronológico...")
-
-    total_descargados = 0
-    for idx, fecha_str in enumerate(pendientes, 1):
-        logging.info(f"[Día {idx}/{len(pendientes)}] {fecha_str}")
-        n = procesar_dia(fecha_str)
-        total_descargados += n
-        completadas.add(fecha_str)
-        _guardar_checkpoint(completadas)
-        time.sleep(random.uniform(2, 5))
-
-    logging.info(f"✅ Proceso completado. Total partidos esta sesión: {total_descargados}")
+        logging.info("✅ No hay días pendientes dentro de la ventana de tiempo.")
