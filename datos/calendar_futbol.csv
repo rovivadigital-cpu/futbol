@@ -1,72 +1,21 @@
 ﻿Fecha,Hora_Local,Pais,Competicion,Competicion_ID_Sofascore,Torneo,Torneo_ID_Sofascore,Ronda,Equipo_Local,Equipo_Local_ID_Sofascore,Pais_Local,Equipo_Visitante,Equipo_Visitante_ID_Sofascore,Pais_Visitante,Marcador,Estado
-2026-06-01,10:00,Japan,J2 League,402,"J2/J3 League, Placement Matches",186091,Placement match,Vanraure Hachinohe,118478,Japan,Fukushima United FC,38140,Japan,0-1,Finalizado
-2026-06-01,11:00,World,International Friendly Games,851,Int. Friendly Games,66,,Pakistan,6081,Pakistan,Bangladesh U23,49024,Bangladesh,0-0,Finalizado
-2026-06-01,11:30,Europe,U17 European Championship,429,"U17 European Championship, Group B",7953,Jornada 3,Denmark U17,22597,Denmark,Italy U17,22616,Italy,3-3,Finalizado
-2026-06-01,11:30,Europe,U17 European Championship,429,"U17 European Championship, Group B",7953,Jornada 3,France U17,22474,France,Montenegro U17,22631,Montenegro,5-0,Finalizado
-2026-06-01,13:00,World,U23 Toulon Tournament,2084,"Tournoi Maurice Revello, Group B",73137,Jornada 1,Japan U19,22523,Japan,Côte d'Ivoire U23,49054,Côte d'Ivoire,3-3,Finalizado
-2026-06-01,16:00,World,International Friendly Games,851,Int. Friendly Games,66,,Bulgaria,4716,Bulgaria,Montenegro,7139,Montenegro,0-1,Finalizado
-2026-06-01,16:00,World,International Friendly Games,851,Int. Friendly Games,66,,Maldives,6911,Maldives,Afghanistan,4689,Afghanistan,0-1,Finalizado
-2026-06-01,16:00,World,International Friendly Games,851,Int. Friendly Games,66,,Slovakia,4697,Slovakia,Malta,4483,Malta,2-1,Finalizado
-2026-06-01,16:00,Morocco,Botola Pro,937,Botola Pro,3640,Jornada 22,Union Touarga Sport,118834,Morocco,Kawkab Athletic Club Marrakech,47696,Morocco,0-0,Finalizado
-2026-06-01,16:30,Germany,Regionalliga Playoffs,11096,"Regionalliga, Promotion Playoffs",27221,Final,FC Würzburger Kickers,23947,Germany,1. FC Lokomotive Leipzig,24093,Germany,2-1,Finalizado
-2026-06-01,16:30,World,U23 Toulon Tournament,2084,"Tournoi Maurice Revello, Group B",73137,Jornada 1,Venezuela U23,332422,Venezuela,Canada U20,7546,Canada,0-2,Finalizado
-2026-06-01,17:00,World,International Friendly Games,851,Int. Friendly Games,66,,Norway,4475,Norway,Sweden,4688,Sweden,3-1,Finalizado
-2026-06-01,17:00,Sweden,"Ettan, Relegation/Promotion",11617,"Ettan, Sodra",174278,Jornada 10,Skövde AIK,7063,Sweden,Jönköpings Södra,1841,Sweden,1-0,Finalizado
-2026-06-01,17:15,Sweden,"Ettan, Relegation/Promotion",11617,"Ettan, Norra",174277,Jornada 10,FC Arlanda,255863,Sweden,Gefle IF,1778,Sweden,2-3,Finalizado
-2026-06-01,17:30,Romania,SuperLiga României,152,"SuperLiga, Relegation/Promotion Playoffs",53737,Final,FC Voluntari,44255,Romania,FC Hermannstadt,260356,Romania,3-0,Finalizado
-2026-06-01,17:30,World,International Friendly Games,851,Int. Friendly Games,66,,Türkiye,4700,Türkiye,North Macedonia,4777,North Macedonia,4-0,Finalizado
-2026-06-01,18:00,Morocco,Botola Pro,937,Botola Pro,3640,Jornada 22,Olympic Safi,55037,Morocco,MAS de Fès,55035,Morocco,1-2,Finalizado
-2026-06-01,18:00,Uruguay,Liga AUF Uruguaya,278,"Liga AUF Uruguaya, Intermedio, Serie A",59574,Jornada 3,Boston River,174970,Uruguay,Liverpool UY,6879,Uruguay,0-1,Finalizado
-2026-06-01,18:45,World,International Friendly Games,851,Int. Friendly Games,66,,Austria,4718,Austria,Tunisia,4729,Tunisia,1-0,Finalizado
-2026-06-01,19:00,Brazil,Brasileirão Série D,10326,"Brasileirão Série D, Group A7",59484,Jornada 9,Atlético Cearense,212493,Brazil,Piauí EC,188848,Brazil,0-1,Finalizado
-2026-06-01,19:00,Brazil,Brasileirão Série D,10326,"Brasileirão Série D, Group A7",59484,Jornada 9,Tirol/CEFAT,398170,Brazil,Ferroviário,32672,Brazil,0-0,Finalizado
-2026-06-01,20:00,Morocco,Botola Pro,937,Botola Pro,3640,Jornada 22,CODM Meknès,55025,Morocco,Olympique Dcheira,204299,Morocco,2-1,Finalizado
-2026-06-01,22:00,Brazil,Brasileirão Série B,390,Brasileirão Série B,1449,Jornada 11,Ponte Preta,1969,Brazil,Botafogo-SP,1979,Brazil,0-0,Finalizado
-2026-06-01,22:00,Ecuador,LigaPro Serie A,240,"LigaPro Serie A, Primera Etapa",16887,Jornada 16,Leones del Norte,388234,Ecuador,Macará,6001,Ecuador,1-1,Finalizado
-2026-06-01,23:00,World,International Friendly Games,851,Int. Friendly Games,66,,Colombia,4820,Colombia,Costa Rica,4756,Costa Rica,3-1,Finalizado
-2026-06-01,23:00,Brazil,Brasileirão Série C,1281,Brasileirão Série C,27213,Jornada 9,Barra FC,257673,Brazil,Brusque,21884,Brazil,2-2,Finalizado
-2026-06-01,23:00,Brazil,Brasileirão Série D,10326,"Brasileirão Série D, Group A8",59485,Jornada 9,Maguary,456897,Brazil,Sousa EC,21864,Brazil,2-0,Finalizado
-2026-06-01,23:00,Chile,Liga de Ascenso,1240,Liga de Ascenso,60673,Jornada 14,Curicó Unido,33595,Chile,Club Deportes Antofagasta,5601,Chile,1-0,Finalizado
-2026-06-01,23:00,Chile,Liga de Ascenso,1240,Liga de Ascenso,60673,Jornada 14,Deportes Santa Cruz,243490,Chile,Deportes Copiapó,89506,Chile,1-1,Finalizado
-2026-06-01,23:00,Uruguay,Liga AUF Uruguaya,278,"Liga AUF Uruguaya, Intermedio, Serie A",59574,Jornada 3,Peñarol,3227,Uruguay,Central Español,3232,Uruguay,0-1,Finalizado
-2026-06-02,00:00,Bolivia,División Profesional,16736,División Profesional,4330,Jornada 10,Club FC Universitario,268082,Bolivia,Club Aurora,33714,Bolivia,1-2,Finalizado
-2026-06-02,00:30,Ecuador,LigaPro Serie A,240,"LigaPro Serie A, Primera Etapa",16887,Jornada 16,Técnico Universitario,21941,Ecuador,Barcelona SC Guayaquil,5250,Ecuador,1-0,Finalizado
-2026-06-02,01:00,World,International Friendly Games,851,Int. Friendly Games,66,,Canada,4752,Canada,Uzbekistan,4723,Uzbekistan,2-0,Finalizado
-2026-06-02,10:15,Australia,Queensland Premier League 1,21996,Queensland Premier League 1,73757,Jornada 13,North Star FC,91142,Australia,Brisbane Strikers,2936,Australia,1-3,Finalizado
 2026-06-02,10:15,Australia,Queensland Premier League 1,21996,Queensland Premier League 1,73757,Jornada 13,North Star FC,91142,Australia,Brisbane Strikers,2936,Australia,1-3,Finalizado
 2026-06-02,12:15,Asia,ASEAN Championship,602,"ASEAN Championship, Qualification Round",14062,Qualification Round 1,Brunei Darussalam,23491,Brunei,East Timor,23497,East Timor,0-3,Finalizado
-2026-06-02,12:15,Asia,ASEAN Championship,602,"ASEAN Championship, Qualification Round",14062,Qualification Round 1,Brunei Darussalam,23491,Brunei,East Timor,23497,East Timor,0-3,Finalizado
-2026-06-02,13:00,World,U23 Toulon Tournament,2084,"Tournoi Maurice Revello, Group A",73136,Jornada 1,China U22,318364,China,DR Congo U20,520576,DR Congo,0-3,Finalizado
 2026-06-02,13:00,World,U23 Toulon Tournament,2084,"Tournoi Maurice Revello, Group A",73136,Jornada 1,China U22,318364,China,DR Congo U20,520576,DR Congo,0-3,Finalizado
 2026-06-02,16:00,World,International Friendly Games,851,Int. Friendly Games,66,,Croatia,4715,Croatia,Belgium,4717,Belgium,0-2,Finalizado
-2026-06-02,16:00,World,International Friendly Games,851,Int. Friendly Games,66,,Croatia,4715,Croatia,Belgium,4717,Belgium,0-2,Finalizado
-2026-06-02,16:30,Germany,Regionalliga Bayern,1085,"Regionalliga Bayern, Relegation/Promotion Playoffs",27815,Final,SpVgg Greuther Fürth II,5883,Germany,ASV Cham,317548,Germany,1-0,Finalizado
-2026-06-02,16:30,World,U23 Toulon Tournament,2084,"Tournoi Maurice Revello, Group A",73136,Jornada 1,Saudi Arabia U23,49094,Saudi Arabia,Colombia U19,287153,Colombia,5-3,Finalizado
 2026-06-02,16:30,Germany,Regionalliga Bayern,1085,"Regionalliga Bayern, Relegation/Promotion Playoffs",27815,Final,SpVgg Greuther Fürth II,5883,Germany,ASV Cham,317548,Germany,1-0,Finalizado
 2026-06-02,16:30,World,U23 Toulon Tournament,2084,"Tournoi Maurice Revello, Group A",73136,Jornada 1,Saudi Arabia U23,49094,Saudi Arabia,Colombia U19,287153,Colombia,5-3,Finalizado
 2026-06-02,17:00,World,International Friendly Games,851,Int. Friendly Games,66,,Georgia,4763,Georgia,Romania,4477,Romania,1-1,Finalizado
 2026-06-02,17:00,World,International Friendly Games,851,Int. Friendly Games,66,,Morocco,4778,Morocco,Madagascar,8035,Madagascar,4-0,Finalizado
 2026-06-02,17:00,Sweden,"Ettan, Relegation/Promotion",11617,"Ettan, Sodra",174278,Jornada 10,FC Rosengård,7095,Sweden,Ängelholms FF,1788,Sweden,1-2,Finalizado
-2026-06-02,17:00,World,International Friendly Games,851,Int. Friendly Games,66,,Georgia,4763,Georgia,Romania,4477,Romania,1-1,Finalizado
-2026-06-02,17:00,World,International Friendly Games,851,Int. Friendly Games,66,,Morocco,4778,Morocco,Madagascar,8035,Madagascar,4-0,Finalizado
-2026-06-02,17:00,Sweden,"Ettan, Relegation/Promotion",11617,"Ettan, Sodra",174278,Jornada 10,FC Rosengård,7095,Sweden,Ängelholms FF,1788,Sweden,1-2,Finalizado
-2026-06-02,17:30,Sweden,"Ettan, Relegation/Promotion",11617,"Ettan, Norra",174277,Jornada 10,Assyriska FF,1782,Sweden,Enköpings SK,1780,Sweden,4-2,Finalizado
 2026-06-02,17:30,Sweden,"Ettan, Relegation/Promotion",11617,"Ettan, Norra",174277,Jornada 10,Assyriska FF,1782,Sweden,Enköpings SK,1780,Sweden,4-2,Finalizado
 2026-06-02,18:45,World,International Friendly Games,851,Int. Friendly Games,66,,Wales,4702,Wales,Ghana,4764,Ghana,1-1,Finalizado
-2026-06-02,18:45,World,International Friendly Games,851,Int. Friendly Games,66,,Wales,4702,Wales,Ghana,4764,Ghana,1-1,Finalizado
-2026-06-02,19:00,Algeria,Algerian Ligue 1,841,Ligue 1,3657,Jornada 26,USM Alger,42206,Algeria,CR Belouizdad,42207,Algeria,1-1,En curso
-2026-06-02,19:00,Algeria,Algerian Ligue 1,841,Ligue 1,3657,Jornada 26,USM Alger,42206,Algeria,CR Belouizdad,42207,Algeria,1-1,En curso
-2026-06-02,19:15,Italy,"Serie C, Playoffs",11452,"Serie C, Playoffs, Promotion Playoffs",43856,Final,Union Brescia,1110141,Italy,Ascoli,2707,Italy,1-1,Interrumpido
-2026-06-02,19:15,Italy,"Serie C, Playoffs",11452,"Serie C, Playoffs, Promotion Playoffs",43856,Final,Union Brescia,1110141,Italy,Ascoli,2707,Italy,1-1,Interrumpido
-2026-06-03,00:00,World,International Friendly Games,851,Int. Friendly Games,66,,Haiti,7229,Haiti,New Zealand,4784,New Zealand,-,Por jugar
-2026-06-03,00:00,Brazil,Copa do Nordeste,1596,"Copa do Nordeste, Knockout stage",31972,Final,Fortaleza,2020,Brazil,Vitória,1962,Brazil,-,Por jugar
-2026-06-03,00:00,World,International Friendly Games,851,Int. Friendly Games,66,,Haiti,7229,Haiti,New Zealand,4784,New Zealand,-,Por jugar
-2026-06-03,00:00,Brazil,Copa do Nordeste,1596,"Copa do Nordeste, Knockout stage",31972,Final,Fortaleza,2020,Brazil,Vitória,1962,Brazil,-,Por jugar
-2026-06-03,00:10,Argentina,Copa Argentina,1024,Copa Argentina,273,Round of 32,Barracas Central,65668,Argentina,Huracán,7629,Argentina,-,Por jugar
-2026-06-03,00:10,Argentina,Copa Argentina,1024,Copa Argentina,273,Round of 32,Barracas Central,65668,Argentina,Huracán,7629,Argentina,-,Por jugar
-2026-06-03,00:30,Colombia,"Primera A, Apertura",11539,"Liga DIMAYOR, Apertura, Playoffs",19235,Final,Junior Barranquilla,6105,Colombia,Atlético Nacional,6106,Colombia,-,Por jugar
-2026-06-03,00:30,Colombia,"Primera A, Apertura",11539,"Liga DIMAYOR, Apertura, Playoffs",19235,Final,Junior Barranquilla,6105,Colombia,Atlético Nacional,6106,Colombia,-,Por jugar
-2026-06-03,09:30,Australia,Queensland Premier League 1,21996,Queensland Premier League 1,73757,Jornada 11,Sunshine Coast Wanderers,310816,Australia,St. George Willawong FC,256259,Australia,-,Por jugar
+2026-06-02,19:00,Algeria,Algerian Ligue 1,841,Ligue 1,3657,Jornada 26,USM Alger,42206,Algeria,CR Belouizdad,42207,Algeria,1-1,Finalizado
+2026-06-02,19:15,Italy,"Serie C, Playoffs",11452,"Serie C, Playoffs, Promotion Playoffs",43856,Final,Union Brescia,1110141,Italy,Ascoli,2707,Italy,1-1,Cancelado
+2026-06-03,00:00,Brazil,Copa do Nordeste,1596,"Copa do Nordeste, Knockout stage",31972,Final,Fortaleza,2020,Brazil,Vitória,1962,Brazil,1-2,Finalizado
+2026-06-03,00:10,Argentina,Copa Argentina,1024,Copa Argentina,273,Round of 32,Barracas Central,65668,Argentina,Huracán,7629,Argentina,1-0,Finalizado
+2026-06-03,00:30,Colombia,"Primera A, Apertura",11539,"Liga DIMAYOR, Apertura, Playoffs",19235,Final,Junior Barranquilla,6105,Colombia,Atlético Nacional,6106,Colombia,3-0,Finalizado
+2026-06-03,00:36,World,International Friendly Games,851,Int. Friendly Games,66,,Haiti,7229,Haiti,New Zealand,4784,New Zealand,4-0,Finalizado
 2026-06-03,09:30,Australia,Queensland Premier League 1,21996,Queensland Premier League 1,73757,Jornada 11,Sunshine Coast Wanderers,310816,Australia,St. George Willawong FC,256259,Australia,-,Por jugar
 2026-06-03,10:30,World,International Friendly Games Women,852,"International Friendly Games, Women",1039,,Myanmar,132948,Myanmar,Uzbekistan,132956,Uzbekistan,-,Por jugar
 2026-06-03,10:30,World,International Friendly Games Women,852,"International Friendly Games, Women",1039,,Myanmar,132948,Myanmar,Uzbekistan,132956,Uzbekistan,-,Por jugar
@@ -76,32 +25,88 @@
 2026-06-03,11:35,World,International Friendly Games Women,852,"International Friendly Games, Women",1039,,China,7413,China,Russia,32486,Russia,-,Por jugar
 2026-06-03,12:00,World,International Friendly Games Women,852,"International Friendly Games, Women",1039,,Indonesia,290442,Indonesia,Singapore,228017,Singapore,-,Por jugar
 2026-06-03,12:00,World,International Friendly Games Women,852,"International Friendly Games, Women",1039,,Tanzania,291680,Tanzania,Malawi,298498,Malawi,-,Por jugar
+2026-06-03,12:00,World,International Friendly Games Women,852,"International Friendly Games, Women",1039,,Indonesia,290442,Indonesia,Singapore,228017,Singapore,-,Por jugar
+2026-06-03,12:00,World,International Friendly Games Women,852,"International Friendly Games, Women",1039,,Tanzania,291680,Tanzania,Malawi,298498,Malawi,-,Por jugar
+2026-06-03,12:30,World,International Friendly Games,851,Int. Friendly Games,66,,Kyrgyzstan,7930,Kyrgyzstan,Kenya,4773,Kenya,-,Por jugar
 2026-06-03,12:30,World,International Friendly Games,851,Int. Friendly Games,66,,Kyrgyzstan,7930,Kyrgyzstan,Kenya,4773,Kenya,-,Por jugar
 2026-06-03,13:00,South Africa,South African Premier Division,358,"Premier League, Relegation/Promotion Playoffs",8562,,Milford FC,215399,South Africa,Magesi FC,90844,South Africa,-,Por jugar
 2026-06-03,13:00,World,U23 Toulon Tournament,2084,"Tournoi Maurice Revello, Group B",73137,Jornada 1,Japan U19,22523,Japan,Portugal U19,318358,Portugal,-,Por jugar
+2026-06-03,13:00,South Africa,South African Premier Division,358,"Premier League, Relegation/Promotion Playoffs",8562,,Milford FC,215399,South Africa,Magesi FC,90844,South Africa,-,Por jugar
+2026-06-03,13:00,World,U23 Toulon Tournament,2084,"Tournoi Maurice Revello, Group B",73137,Jornada 1,Japan U19,22523,Japan,Portugal U19,318358,Portugal,-,Por jugar
+2026-06-03,15:00,World,International Friendly Games Women,852,"International Friendly Games, Women",1039,,Jordan,150070,Jordan,Malaysia,195589,Malaysia,-,Por jugar
 2026-06-03,15:00,World,International Friendly Games Women,852,"International Friendly Games, Women",1039,,Jordan,150070,Jordan,Malaysia,195589,Malaysia,-,Por jugar
 2026-06-03,16:00,Morocco,Botola Pro,937,Botola Pro,3640,Jornada 22,Renaissance Zemamra,263373,Morocco,Union Sportive Yacoub El Mansour,479104,Morocco,-,Por jugar
+2026-06-03,16:00,Morocco,Botola Pro,937,Botola Pro,3640,Jornada 22,Renaissance Zemamra,263373,Morocco,Union Sportive Yacoub El Mansour,479104,Morocco,-,Por jugar
+2026-06-03,16:30,World,U23 Toulon Tournament,2084,"Tournoi Maurice Revello, Group B",73137,Jornada 1,Côte d'Ivoire U23,49054,Côte d'Ivoire,Venezuela U23,332422,Venezuela,-,Por jugar
 2026-06-03,16:30,World,U23 Toulon Tournament,2084,"Tournoi Maurice Revello, Group B",73137,Jornada 1,Côte d'Ivoire U23,49054,Côte d'Ivoire,Venezuela U23,332422,Venezuela,-,Por jugar
 2026-06-03,17:00,World,International Friendly Games,851,Int. Friendly Games,66,,Gibraltar,129264,Gibraltar,British Virgin Islands,21810,British Virgin Islands,-,Por jugar
 2026-06-03,17:00,Sweden,"Ettan, Relegation/Promotion",11617,"Ettan, Sodra",174278,Jornada 10,BK Olympic,47812,Sweden,Lunds BK,1829,Sweden,-,Por jugar
 2026-06-03,17:00,World,U21 Friendly Games,854,U21 Friendly Games,1435,,Türkiye U21,4892,Türkiye,Kosovo U21,213846,Kosovo,-,Por jugar
+2026-06-03,17:00,World,International Friendly Games,851,Int. Friendly Games,66,,Gibraltar,129264,Gibraltar,British Virgin Islands,21810,British Virgin Islands,-,Por jugar
+2026-06-03,17:00,Sweden,"Ettan, Relegation/Promotion",11617,"Ettan, Sodra",174278,Jornada 10,BK Olympic,47812,Sweden,Lunds BK,1829,Sweden,-,Por jugar
+2026-06-03,17:00,World,U21 Friendly Games,854,U21 Friendly Games,1435,,Türkiye U21,4892,Türkiye,Kosovo U21,213846,Kosovo,-,Por jugar
+2026-06-03,17:30,Sweden,"Ettan, Relegation/Promotion",11617,"Ettan, Norra",174277,Jornada 10,Vasalunds IF,5950,Sweden,FC Järfälla,346049,Sweden,-,Por jugar
 2026-06-03,17:30,Sweden,"Ettan, Relegation/Promotion",11617,"Ettan, Norra",174277,Jornada 10,Vasalunds IF,5950,Sweden,FC Järfälla,346049,Sweden,-,Por jugar
 2026-06-03,18:00,World,International Friendly Games,851,Int. Friendly Games,66,,Albania,4690,Albania,Israel,4480,Israel,-,Por jugar
 2026-06-03,18:00,World,International Friendly Games,851,Int. Friendly Games,66,,Denmark,4476,Denmark,DR Congo,4823,DR Congo,-,Por jugar
 2026-06-03,18:00,Morocco,Botola Pro,937,Botola Pro,3640,Jornada 22,Ittihad Tanger,87180,Morocco,Wydad Casablanca,36268,Morocco,-,Por jugar
+2026-06-03,18:00,World,International Friendly Games,851,Int. Friendly Games,66,,Albania,4690,Albania,Israel,4480,Israel,-,Por jugar
+2026-06-03,18:00,World,International Friendly Games,851,Int. Friendly Games,66,,Denmark,4476,Denmark,DR Congo,4823,DR Congo,-,Por jugar
+2026-06-03,18:00,Morocco,Botola Pro,937,Botola Pro,3640,Jornada 22,Ittihad Tanger,87180,Morocco,Wydad Casablanca,36268,Morocco,-,Por jugar
+2026-06-03,18:30,World,U21 Friendly Games,854,U21 Friendly Games,1435,,Portugal U21,6045,Portugal,Northern Ireland U21,6043,Northern Ireland,-,Por jugar
 2026-06-03,18:30,World,U21 Friendly Games,854,U21 Friendly Games,1435,,Portugal U21,6045,Portugal,Northern Ireland U21,6043,Northern Ireland,-,Por jugar
 2026-06-03,18:45,World,International Friendly Games,851,Int. Friendly Games,66,,Luxembourg,4478,Luxembourg,Italy,4707,Italy,-,Por jugar
 2026-06-03,18:45,World,International Friendly Games,851,Int. Friendly Games,66,,Netherlands,4705,Netherlands,Algeria,4691,Algeria,-,Por jugar
 2026-06-03,18:45,World,International Friendly Games,851,Int. Friendly Games,66,,Poland,4703,Poland,Nigeria,4785,Nigeria,-,Por jugar
+2026-06-03,18:45,World,International Friendly Games,851,Int. Friendly Games,66,,Luxembourg,4478,Luxembourg,Italy,4707,Italy,-,Por jugar
+2026-06-03,18:45,World,International Friendly Games,851,Int. Friendly Games,66,,Netherlands,4705,Netherlands,Algeria,4691,Algeria,-,Por jugar
+2026-06-03,18:45,World,International Friendly Games,851,Int. Friendly Games,66,,Poland,4703,Poland,Nigeria,4785,Nigeria,-,Por jugar
+2026-06-03,20:00,Morocco,Botola Pro,937,Botola Pro,3640,Jornada 22,Raja Club Athletic,41757,Morocco,RS Berkane,80395,Morocco,-,Por jugar
 2026-06-03,20:00,Morocco,Botola Pro,937,Botola Pro,3640,Jornada 22,Raja Club Athletic,41757,Morocco,RS Berkane,80395,Morocco,-,Por jugar
 2026-06-03,22:00,Bolivia,División Profesional,16736,División Profesional,4330,Jornada 7,GV San José,505268,Bolivia,CD Real Tomayapo,335685,Bolivia,-,Por jugar
+2026-06-03,22:00,Bolivia,División Profesional,16736,División Profesional,4330,Jornada 7,GV San José,505268,Bolivia,CD Real Tomayapo,335685,Bolivia,-,Por jugar
+2026-06-03,23:30,USA,USL League One,13362,"USL, League One",71366,,FC Naples,1044341,USA,Charlotte Independence,197072,USA,-,Por jugar
+2026-06-03,23:30,USA,USL League One,13362,"USL, League One",71366,,Greenville Triumph SC,312633,USA,Forward Madison FC,312632,USA,-,Por jugar
 2026-06-03,23:30,USA,USL League One,13362,"USL, League One",71366,,FC Naples,1044341,USA,Charlotte Independence,197072,USA,-,Por jugar
 2026-06-03,23:30,USA,USL League One,13362,"USL, League One",71366,,Greenville Triumph SC,312633,USA,Forward Madison FC,312632,USA,-,Por jugar
 2026-06-04,00:00,Bolivia,División Profesional,16736,División Profesional,4330,Jornada 7,Real Potosí,7060,Bolivia,Academia de Balompié Boliviano,423188,Bolivia,-,Por jugar
 2026-06-04,00:00,USA,USL Championship,13363,USL Championship,71367,Jornada 1,Birmingham Legion FC,310967,USA,Louisville City FC,197070,USA,-,Por jugar
+2026-06-04,00:00,Bolivia,División Profesional,16736,División Profesional,4330,Jornada 7,Real Potosí,7060,Bolivia,Academia de Balompié Boliviano,423188,Bolivia,-,Por jugar
+2026-06-04,00:00,USA,USL Championship,13363,USL Championship,71367,Jornada 1,Birmingham Legion FC,310967,USA,Louisville City FC,197070,USA,-,Por jugar
+2026-06-04,00:10,Argentina,Copa Argentina,1024,Copa Argentina,273,Round of 32,San Lorenzo,3201,Argentina,Deportivo Riestra,189723,Argentina,-,Postponido
 2026-06-04,00:10,Argentina,Copa Argentina,1024,Copa Argentina,273,Round of 32,San Lorenzo,3201,Argentina,Deportivo Riestra,189723,Argentina,-,Postponido
 2026-06-04,00:30,USA,USL League One,13362,"USL, League One",71366,,Corpus Christi FC,284113,USA,Portland Hearts of Pine,1044345,USA,-,Por jugar
+2026-06-04,00:30,USA,USL League One,13362,"USL, League One",71366,,Corpus Christi FC,284113,USA,Portland Hearts of Pine,1044345,USA,-,Por jugar
+2026-06-04,00:45,World,International Friendly Games,851,Int. Friendly Games,66,,Panama,5164,Panama,Dominican Republic,21813,Dominican Republic,-,Por jugar
 2026-06-04,00:45,World,International Friendly Games,851,Int. Friendly Games,66,,Panama,5164,Panama,Dominican Republic,21813,Dominican Republic,-,Por jugar
 2026-06-04,01:00,World,International Friendly Games,851,Int. Friendly Games,66,,South Korea,4735,South Korea,El Salvador,4825,El Salvador,-,Por jugar
+2026-06-04,01:00,World,International Friendly Games,851,Int. Friendly Games,66,,South Korea,4735,South Korea,El Salvador,4825,El Salvador,-,Por jugar
+2026-06-04,11:00,World,International Friendly Games,851,Int. Friendly Games,66,,Maldives,6911,Maldives,Pakistan,6081,Pakistan,-,Por jugar
 2026-06-04,11:00,World,International Friendly Games,851,Int. Friendly Games,66,,Maldives,6911,Maldives,Pakistan,6081,Pakistan,-,Por jugar
 2026-06-04,11:30,Europe,U17 European Championship,429,"U17 European Championship, Knockout stage",5794,Semifinals,Belgium U17,22583,Belgium,France U17,22474,France,-,Por jugar
+2026-06-04,11:30,Europe,U17 European Championship,429,"U17 European Championship, Knockout stage",5794,Semifinals,Belgium U17,22583,Belgium,France U17,22474,France,-,Por jugar
+2026-06-04,12:00,World,International Friendly Games,851,Int. Friendly Games,66,,Cambodia,7929,Cambodia,Bhutan,191564,Bhutan,-,Por jugar
+2026-06-04,15:00,World,U19 Friendly Games,856,U19 Friendly Games,5799,,Bulgaria U19,22493,Bulgaria,Albania U19,22482,Albania,-,Por jugar
+2026-06-04,16:00,World,International Friendly Games,851,Int. Friendly Games,66,,Afghanistan,4689,Afghanistan,Bangladesh,6080,Bangladesh,-,Por jugar
+2026-06-04,16:00,World,International Friendly Games,851,Int. Friendly Games,66,,Northern Ireland,4786,Northern Ireland,Guinea,4826,Guinea,-,Por jugar
+2026-06-04,16:00,World,International Friendly Games,851,Int. Friendly Games,66,,Slovenia,4484,Slovenia,Cyprus,4482,Cyprus,-,Por jugar
+2026-06-04,16:00,Algeria,Algerian Ligue 1,841,Ligue 1,3657,Jornada 28,ES Ben Aknoun,133444,Algeria,USM Alger,42206,Algeria,-,Por jugar
+2026-06-04,16:00,Asia,AFC Asian Cup Qual.,28,"AFC Asian Cup, Qualification Group B",4194,Jornada 6,Lebanon,4774,Lebanon,Yemen,4721,Yemen,-,Por jugar
+2026-06-04,16:00,World,U21 Friendly Games,854,U21 Friendly Games,1435,,Moldova U21,6042,Moldova,Malta U21,6040,Malta,-,Por jugar
+2026-06-04,17:00,World,International Friendly Games,851,Int. Friendly Games,66,,Andorra,4818,Andorra,Liechtenstein,4830,Liechtenstein,-,Por jugar
+2026-06-04,17:00,World,International Friendly Games,851,Int. Friendly Games,66,,Sweden,4688,Sweden,Greece,4710,Greece,-,Por jugar
+2026-06-04,17:00,Europe,U17 European Championship,429,"U17 European Championship, Knockout stage",5794,Semifinals,Italy U17,22616,Italy,Spain U17,22479,Spain,-,Por jugar
+2026-06-04,17:00,Sweden,"Ettan, Relegation/Promotion",11617,"Ettan, Sodra",174278,Jornada 11,Laholms FK,1816,Sweden,Hässleholms IF,22274,Sweden,-,Por jugar
+2026-06-04,17:30,Sweden,"Ettan, Relegation/Promotion",11617,"Ettan, Norra",174277,Jornada 11,AFC Eskilstuna,5954,Sweden,Karlbergs BK,22238,Sweden,-,Por jugar
+2026-06-04,18:00,Morocco,Botola Pro,937,Botola Pro,3640,Jornada 22,Hassania d'Agadir,55039,Morocco,Fath Union Sport,55027,Morocco,-,Por jugar
+2026-06-04,19:00,World,International Friendly Games,851,Int. Friendly Games,66,,Spain,4698,Spain,Iraq,4767,Iraq,-,Por jugar
+2026-06-04,19:10,World,International Friendly Games,851,Int. Friendly Games,66,,France,4481,France,Côte d'Ivoire,4768,Côte d'Ivoire,-,Por jugar
+2026-06-04,20:00,Morocco,Botola Pro,937,Botola Pro,3640,Jornada 22,AS FAR Rabat,24394,Morocco,Difaâ Hassani El-Jadidi,55043,Morocco,-,Por jugar
+2026-06-05,00:00,World,International Friendly Games,851,Int. Friendly Games,66,,Czechia,4714,Czechia,Guatemala,5163,Guatemala,-,Por jugar
+2026-06-05,02:00,World,International Friendly Games,851,Int. Friendly Games,66,,Mexico,4781,Mexico,Serbia,6355,Serbia,-,Por jugar
+2026-06-05,10:00,Japan,J2 League,402,"J2/J3 League, Placement Matches",186091,Placement match,Kamatamare Sanuki,38157,Japan,AC Nagano Parceiro,79883,Japan,-,Por jugar
+2026-06-05,10:30,South Korea,K League 2,777,K-League 2,6230,Jornada 15,Busan I Park,7642,South Korea,Chungnam Asan FC,339827,South Korea,-,Por jugar
+2026-06-05,10:30,South Korea,K League 2,777,K-League 2,6230,Jornada 15,Daegu FC,7644,South Korea,Paju Frontier FC,314294,South Korea,-,Por jugar
+2026-06-05,10:30,South Korea,K League 2,777,K-League 2,6230,Jornada 15,Seongnam FC,7651,South Korea,Gimhae City FC,41260,South Korea,-,Por jugar
+2026-06-05,10:30,Australia,Queensland Premier League 1,21996,Queensland Premier League 1,73757,Jornada 14,Logan Lightning,91140,Australia,Capalaba Bulldogs,47709,Australia,-,Por jugar
+2026-06-05,11:30,World,International Friendly Games,851,Int. Friendly Games,66,,Singapore,4738,Singapore,China,4755,China,-,Por jugar
