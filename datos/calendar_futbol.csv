@@ -1,4 +1,5 @@
 ﻿Fecha,Hora_Local,Pais,Competicion,Competicion_ID_Sofascore,Torneo,Torneo_ID_Sofascore,Ronda,Equipo_Local,Equipo_Local_ID_Sofascore,Pais_Local,Equipo_Visitante,Equipo_Visitante_ID_Sofascore,Pais_Visitante,Marcador,Estado
+2026-06-03,10:00,World,International Friendly Games Women,852,"International Friendly Games, Women",1039,,Hong Kong,491173,Hong Kong,Fiji,422129,Fiji,3-2,Finalizado
 2026-06-03,10:30,World,International Friendly Games Women,852,"International Friendly Games, Women",1039,,Myanmar,132948,Myanmar,Uzbekistan,132956,Uzbekistan,0-1,Finalizado
 2026-06-03,11:30,World,International Friendly Games,851,Int. Friendly Games,66,,Philippines,4791,Philippines,Guam,23493,Guam,5-1,Finalizado
 2026-06-03,11:35,World,International Friendly Games Women,852,"International Friendly Games, Women",1039,,China,7413,China,Russia,32486,Russia,1-2,Finalizado
@@ -42,11 +43,15 @@
 2026-06-04,13:00,World,International Friendly Games,851,Int. Friendly Games,66,,Lesotho,8033,Lesotho,Kenya,4773,Kenya,-,Por jugar
 2026-06-04,15:00,World,U19 Friendly Games,856,U19 Friendly Games,5799,,Bulgaria U19,22493,Bulgaria,Albania U19,22482,Albania,-,Por jugar
 2026-06-04,15:00,World,U19 Friendly Games,856,U19 Friendly Games,5799,,Bulgaria U19,22493,Bulgaria,Albania U19,22482,Albania,-,Por jugar
+2026-06-04,15:30,World,U19 Friendly Games Women,2302,U19 Friendly Games Women,11289,,Slovenia U19,37361,Slovenia,Bosnia & Herzegovina U19,37327,Bosnia & Herzegovina,-,Por jugar
+2026-06-04,15:30,World,U19 Friendly Games Women,2302,U19 Friendly Games Women,11289,,Slovenia U19,37361,Slovenia,Bosnia & Herzegovina U19,37327,Bosnia & Herzegovina,-,Por jugar
+2026-06-04,16:00,World,International Friendly Games,851,Int. Friendly Games,66,,Afghanistan,4689,Afghanistan,Bangladesh U23,49024,Bangladesh,-,Por jugar
 2026-06-04,16:00,World,International Friendly Games,851,Int. Friendly Games,66,,Northern Ireland,4786,Northern Ireland,Guinea,4826,Guinea,-,Por jugar
 2026-06-04,16:00,World,International Friendly Games,851,Int. Friendly Games,66,,Slovenia,4484,Slovenia,Cyprus,4482,Cyprus,-,Por jugar
 2026-06-04,16:00,Algeria,Algerian Ligue 1,841,Ligue 1,3657,Jornada 28,ES Ben Aknoun,133444,Algeria,USM Alger,42206,Algeria,-,Por jugar
 2026-06-04,16:00,Asia,AFC Asian Cup Qual.,28,"AFC Asian Cup, Qualification Group B",4194,Jornada 6,Lebanon,4774,Lebanon,Yemen,4721,Yemen,-,Por jugar
 2026-06-04,16:00,World,U21 Friendly Games,854,U21 Friendly Games,1435,,Moldova U21,6042,Moldova,Malta U21,6040,Malta,-,Por jugar
+2026-06-04,16:00,World,International Friendly Games,851,Int. Friendly Games,66,,Afghanistan,4689,Afghanistan,Bangladesh U23,49024,Bangladesh,-,Por jugar
 2026-06-04,16:00,World,International Friendly Games,851,Int. Friendly Games,66,,Northern Ireland,4786,Northern Ireland,Guinea,4826,Guinea,-,Por jugar
 2026-06-04,16:00,World,International Friendly Games,851,Int. Friendly Games,66,,Slovenia,4484,Slovenia,Cyprus,4482,Cyprus,-,Por jugar
 2026-06-04,16:00,Algeria,Algerian Ligue 1,841,Ligue 1,3657,Jornada 28,ES Ben Aknoun,133444,Algeria,USM Alger,42206,Algeria,-,Por jugar
@@ -132,7 +137,9 @@
 2026-06-05,17:30,Europe,World Championship Women Qual.,780,"FIFA World Cup, Women, Qualification, UEFA, Gr. C3",169325,Jornada 5,Andorra,191657,Andorra,North Macedonia,38086,North Macedonia,-,Por jugar
 2026-06-05,17:45,World,International Friendly Games,851,Int. Friendly Games,66,,Hungary,4709,Hungary,Finland,4712,Finland,-,Por jugar
 2026-06-05,18:00,World,International Friendly Games,851,Int. Friendly Games,66,,Azerbaijan,4742,Azerbaijan,Malta,4483,Malta,-,Por jugar
+2026-06-05,18:00,World,International Friendly Games,851,Int. Friendly Games,66,,Benin,4744,Benin,Niger,8031,Niger,-,Por jugar
 2026-06-05,18:15,Europe,World Championship Women Qual.,780,"FIFA World Cup, Women, Qualification, UEFA, Gr. B4",169321,Jornada 5,Belgium,38081,Belgium,Luxembourg,38097,Luxembourg,-,Por jugar
+2026-06-05,18:15,World,U21 Friendly Games,854,U21 Friendly Games,1435,,Slovenia U21,6371,Slovenia,Albania U21,4878,Albania,-,Por jugar
 2026-06-05,18:30,Europe,World Championship Women Qual.,780,"FIFA World Cup, Women, Qualification, UEFA, Gr. A2",169315,Jornada 5,Ireland,22028,Ireland,Netherlands,32484,Netherlands,-,Por jugar
 2026-06-05,18:35,Europe,World Championship Women Qual.,780,"FIFA World Cup, Women, Qualification, UEFA, Gr. A4",168853,Jornada 5,Germany,23992,Germany,Norway,7422,Norway,-,Por jugar
 2026-06-05,19:00,Algeria,Algerian Ligue 1,841,Ligue 1,3657,Jornada 30,JS Kabylie,42202,Algeria,CR Belouizdad,42207,Algeria,-,Por jugar
@@ -144,7 +151,6 @@
 2026-06-05,23:00,Brazil,Brasileirão Série B,390,Brasileirão Série B,1449,Jornada 12,Operário-PR,39634,Brazil,Juventude,1980,Brazil,-,Por jugar
 2026-06-05,23:00,USA,MLS Next Pro,18641,MLS Next Pro,99616,Jornada 1,Crown Legacy FC,467299,USA,Philadelphia Union II,221835,USA,-,Por jugar
 2026-06-05,23:00,USA,MLS Next Pro,18641,MLS Next Pro,99616,Jornada 1,Toronto FC II,217784,USA,Huntsville City FC,467300,USA,-,Por jugar
-2026-06-05,23:00,World,International Friendly Games,851,Int. Friendly Games,66,,Puerto Rico,21818,Puerto Rico,Saudi Arabia,4834,Saudi Arabia,-,Por jugar
 2026-06-05,23:00,South America,CONMEBOL Nations League Women,30396,CONMEBOL Nations League Women,167012,Jornada 8,Argentina,7409,Argentina,Peru,323787,Peru,-,Por jugar
 2026-06-05,23:00,South America,CONMEBOL Nations League Women,30396,CONMEBOL Nations League Women,167012,Jornada 8,Bolivia,282524,Bolivia,Paraguay,323786,Paraguay,-,Por jugar
 2026-06-05,23:00,South America,CONMEBOL Nations League Women,30396,CONMEBOL Nations League Women,167012,Jornada 8,Chile,49281,Chile,Ecuador,182526,Ecuador,-,Por jugar
@@ -154,7 +160,9 @@
 2026-06-06,00:00,Chile,Copa de la Liga ,32734,"Copa de la Liga, Group A ",176510,Jornada 6,Deportes Concepción,3160,Chile,Coquimbo Unido,3165,Chile,-,Por jugar
 2026-06-06,00:30,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,Gimnasia y Tiro de Salta,222126,Argentina,Ferrocarril Midland,270344,Argentina,-,Por jugar
 2026-06-06,01:00,USA,MLS Next Pro,18641,MLS Next Pro,99616,Jornada 1,Vancouver Whitecaps FC II,217785,USA,Portland Timbers II,197063,USA,-,Por jugar
+2026-06-06,01:00,World,International Friendly Games Women,852,"International Friendly Games, Women",1039,,Panama,132954,Panama,Jamaica,178950,Jamaica,-,Por jugar
 2026-06-06,02:00,Canada,Canadian Premier League,13470,Canadian Premier League,72112,Jornada 1,Vancouver FC,463097,Canada,Atlético Ottawa,342076,Canada,-,Por jugar
+2026-06-06,02:00,World,International Friendly Games Women,852,"International Friendly Games, Women",1039,,El Salvador,132932,El Salvador,Costa Rica,132928,Costa Rica,-,Por jugar
 2026-06-06,05:00,Japan,J1 League,196,"J1 League, Final",186088,Final,Kashima Antlers,3134,Japan,Vissel Kobe,3146,Japan,-,Por jugar
 2026-06-06,05:00,Japan,J1 League,196,"J1 League, Placement Matches",186093,Match for 3rd place,FC Tokyo,3147,Japan,Cerezo Osaka,3141,Japan,-,Por jugar
 2026-06-06,05:00,Japan,J1 League,196,"J1 League, Placement Matches",186093,Placement match,JEF United Chiba,3144,Japan,Avispa Fukuoka,3143,Japan,-,Por jugar
@@ -185,3 +193,5 @@
 2026-06-06,10:00,Japan,J2 League,402,"J2/J3 League, Placement Matches",186091,Placement match,Sagan Tosu,21904,Japan,Shonan Bellmare,21905,Japan,-,Por jugar
 2026-06-06,10:30,South Korea,K League 2,777,K-League 2,6230,Jornada 15,Gyeongnam FC,22020,South Korea,Yongin City FC,41266,South Korea,-,Por jugar
 2026-06-06,10:30,South Korea,K League 2,777,K-League 2,6230,Jornada 15,Hwaseong FC,195174,South Korea,Suwon Samsung Bluewings,7652,South Korea,-,Por jugar
+2026-06-06,11:00,World,International Friendly Games Women,852,"International Friendly Games, Women",1039,,Singapore,228017,Singapore,Cambodia,290441,Cambodia,-,Por jugar
+2026-06-06,11:30,World,International Friendly Games,851,Int. Friendly Games,66,,Myanmar,23484,Myanmar,Guam,23493,Guam,-,Por jugar
