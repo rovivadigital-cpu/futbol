@@ -43,7 +43,7 @@
 2026-06-06,19:00,Spain,LaLiga 2,54,"LaLiga 2, Promotion Playoffs",16255,Semifinals,CD Castellón,5067,Spain,Almería,2858,Spain,1-1,Finalizado
 2026-06-06,19:00,Bolivia,División Profesional,16736,División Profesional,4330,Jornada 8,Academia de Balompié Boliviano,423188,Bolivia,Club Independiente Petrolero,372975,Bolivia,-,Postponido
 2026-06-06,19:00,World,International Friendly Games,851,Int. Friendly Games,66,,Switzerland,4699,Switzerland,Australia,4741,Australia,1-1,Finalizado
-2026-06-06,19:00,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,San Martín de San Juan,7772,Argentina,Nueva Chicago,3200,Argentina,1-0,Interrumpido
+2026-06-06,19:00,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,San Martín de San Juan,7772,Argentina,Nueva Chicago,3200,Argentina,-,Cancelado
 2026-06-06,19:00,Brazil,Brasileirão Série D,10326,"Brasileirão Série D, Group A5",59482,Jornada 10,Imperatriz,214031,Brazil,Tuna Luso,333422,Brazil,4-0,Finalizado
 2026-06-06,19:00,Brazil,Brasileirão Série D,10326,"Brasileirão Série D, Group A5",59482,Jornada 10,Tocantinópolis,215371,Brazil,Oratório RC,90266,Brazil,7-1,Finalizado
 2026-06-06,19:00,Brazil,Brasileirão Série D,10326,"Brasileirão Série D, Group A5",59482,Jornada 10,Trem,21865,Brazil,Águia de Marabá FC,33998,Brazil,2-0,Finalizado
@@ -123,90 +123,92 @@
 2026-06-07,11:00,Vietnam,V-League 1,626,V-League 1,4104,Jornada 26,Thể Công - Viettel,231270,Vietnam,Công An Hà Nội,193616,Vietnam,1-0,Finalizado
 2026-06-07,12:00,Sweden,"Ettan, Relegation/Promotion",11617,"Ettan, Norra",174277,Jornada 11,Piteå IF,1873,Sweden,Enköpings SK,1780,Sweden,0-2,Finalizado
 2026-06-07,12:00,Sweden,"Ettan, Relegation/Promotion",11617,"Ettan, Norra",174277,Jornada 11,Piteå IF,1873,Sweden,Enköpings SK,1780,Sweden,0-2,Finalizado
-2026-06-07,13:00,World,International Friendly Games,851,Int. Friendly Games,66,,Kenya,4773,Kenya,Lesotho,8033,Lesotho,1-0,En curso
-2026-06-07,13:00,World,International Friendly Games,851,Int. Friendly Games,66,,Liechtenstein,4830,Liechtenstein,Cyprus,4482,Cyprus,0-1,En curso
-2026-06-07,13:00,Sweden,"Ettan, Relegation/Promotion",11617,"Ettan, Norra",174277,Jornada 11,Sollentuna FF,21882,Sweden,Umeå,1774,Sweden,0-0,En curso
-2026-06-07,13:00,Uruguay,Liga AUF Uruguaya,278,"Liga AUF Uruguaya, Intermedio, Serie B",59575,Jornada 4,Progreso,3238,Uruguay,Albion FC,278204,Uruguay,0-2,En curso
-2026-06-07,13:00,World,U23 Toulon Tournament,2084,"Tournoi Maurice Revello, Group A",73136,Jornada 1,DR Congo U20,520576,DR Congo,Colombia U19,287153,Colombia,1-0,En curso
-2026-06-07,13:00,World,International Friendly Games,851,Int. Friendly Games,66,,Kenya,4773,Kenya,Lesotho,8033,Lesotho,1-0,En curso
-2026-06-07,13:00,World,International Friendly Games,851,Int. Friendly Games,66,,Liechtenstein,4830,Liechtenstein,Cyprus,4482,Cyprus,0-1,En curso
-2026-06-07,13:00,Sweden,"Ettan, Relegation/Promotion",11617,"Ettan, Norra",174277,Jornada 11,Sollentuna FF,21882,Sweden,Umeå,1774,Sweden,0-0,En curso
-2026-06-07,13:00,Uruguay,Liga AUF Uruguaya,278,"Liga AUF Uruguaya, Intermedio, Serie B",59575,Jornada 4,Progreso,3238,Uruguay,Albion FC,278204,Uruguay,0-2,En curso
-2026-06-07,13:00,World,U23 Toulon Tournament,2084,"Tournoi Maurice Revello, Group A",73136,Jornada 1,DR Congo U20,520576,DR Congo,Colombia U19,287153,Colombia,1-0,En curso
-2026-06-07,14:00,Sweden,"Ettan, Relegation/Promotion",11617,"Ettan, Norra",174277,Jornada 11,FC Arlanda,255863,Sweden,Assyriska FF,1782,Sweden,0-0,En curso
-2026-06-07,14:00,Sweden,"Ettan, Relegation/Promotion",11617,"Ettan, Sodra",174278,Jornada 11,Trelleborgs FF,1771,Sweden,Skövde AIK,7063,Sweden,0-0,En curso
-2026-06-07,14:00,Sweden,"Ettan, Relegation/Promotion",11617,"Ettan, Sodra",174278,Jornada 11,Åtvidabergs FF,1789,Sweden,Tvååkers IF,22356,Sweden,0-0,En curso
-2026-06-07,14:00,Sweden,"Ettan, Relegation/Promotion",11617,"Ettan, Norra",174277,Jornada 11,FC Arlanda,255863,Sweden,Assyriska FF,1782,Sweden,0-0,En curso
-2026-06-07,14:00,Sweden,"Ettan, Relegation/Promotion",11617,"Ettan, Sodra",174278,Jornada 11,Trelleborgs FF,1771,Sweden,Skövde AIK,7063,Sweden,0-0,En curso
-2026-06-07,14:00,Sweden,"Ettan, Relegation/Promotion",11617,"Ettan, Sodra",174278,Jornada 11,Åtvidabergs FF,1789,Sweden,Tvååkers IF,22356,Sweden,0-0,En curso
-2026-06-07,15:00,Norway,Norwegian 1st Division,22,1st Division,6,Jornada 1,Ranheim IL,708,Norway,Strømmen IF,885,Norway,-,Por jugar
-2026-06-07,15:00,Norway,Norwegian 1st Division,22,1st Division,6,Jornada 1,Ranheim IL,708,Norway,Strømmen IF,885,Norway,-,Por jugar
-2026-06-07,16:00,World,International Friendly Games,851,Int. Friendly Games,66,,Maldives,6911,Maldives,Bangladesh U23,49024,Bangladesh,-,Por jugar
-2026-06-07,16:00,Italy,"Serie C, Playoffs",11452,"Serie C, Playoffs, Promotion Playoffs",43856,Final,Ascoli,2707,Italy,Union Brescia,1110141,Italy,-,Por jugar
-2026-06-07,16:00,World,International Friendly Games,851,Int. Friendly Games,66,,Maldives,6911,Maldives,Bangladesh U23,49024,Bangladesh,-,Por jugar
-2026-06-07,16:00,Italy,"Serie C, Playoffs",11452,"Serie C, Playoffs, Promotion Playoffs",43856,Final,Ascoli,2707,Italy,Union Brescia,1110141,Italy,-,Por jugar
-2026-06-07,16:30,World,International Friendly Games,851,Int. Friendly Games,66,,Denmark,4476,Denmark,Ukraine,4701,Ukraine,-,Por jugar
-2026-06-07,16:30,Chile,Copa de la Liga ,32734,"Copa de la Liga, Group D",176513,Jornada 6,Deportes La Serena,5031,Chile,Unión La Calera,48242,Chile,-,Por jugar
-2026-06-07,16:30,Chile,Copa de la Liga ,32734,"Copa de la Liga, Group D",176513,Jornada 6,Universidad de Chile,3161,Chile,Audax Italiano,3162,Chile,-,Por jugar
-2026-06-07,16:30,World,U23 Toulon Tournament,2084,"Tournoi Maurice Revello, Group A",73136,Jornada 1,China U22,318364,China,Tunisia U20,212486,Tunisia,-,Por jugar
-2026-06-07,16:30,World,International Friendly Games,851,Int. Friendly Games,66,,Denmark,4476,Denmark,Ukraine,4701,Ukraine,-,Por jugar
-2026-06-07,16:30,Chile,Copa de la Liga ,32734,"Copa de la Liga, Group D",176513,Jornada 6,Deportes La Serena,5031,Chile,Unión La Calera,48242,Chile,-,Por jugar
-2026-06-07,16:30,Chile,Copa de la Liga ,32734,"Copa de la Liga, Group D",176513,Jornada 6,Universidad de Chile,3161,Chile,Audax Italiano,3162,Chile,-,Por jugar
-2026-06-07,16:30,World,U23 Toulon Tournament,2084,"Tournoi Maurice Revello, Group A",73136,Jornada 1,China U22,318364,China,Tunisia U20,212486,Tunisia,-,Por jugar
+2026-06-07,13:00,World,International Friendly Games,851,Int. Friendly Games,66,,Kenya,4773,Kenya,Lesotho,8033,Lesotho,4-0,Finalizado
+2026-06-07,13:00,World,International Friendly Games,851,Int. Friendly Games,66,,Liechtenstein,4830,Liechtenstein,Cyprus,4482,Cyprus,0-2,Finalizado
+2026-06-07,13:00,Sweden,"Ettan, Relegation/Promotion",11617,"Ettan, Norra",174277,Jornada 11,Sollentuna FF,21882,Sweden,Umeå,1774,Sweden,1-1,Finalizado
+2026-06-07,13:00,Uruguay,Liga AUF Uruguaya,278,"Liga AUF Uruguaya, Intermedio, Serie B",59575,Jornada 4,Progreso,3238,Uruguay,Albion FC,278204,Uruguay,1-2,Finalizado
+2026-06-07,13:00,World,U23 Toulon Tournament,2084,"Tournoi Maurice Revello, Group A",73136,Jornada 1,DR Congo U20,520576,DR Congo,Colombia U19,287153,Colombia,2-2,Finalizado
+2026-06-07,13:00,World,International Friendly Games,851,Int. Friendly Games,66,,Kenya,4773,Kenya,Lesotho,8033,Lesotho,4-0,Finalizado
+2026-06-07,13:00,World,International Friendly Games,851,Int. Friendly Games,66,,Liechtenstein,4830,Liechtenstein,Cyprus,4482,Cyprus,0-2,Finalizado
+2026-06-07,13:00,Sweden,"Ettan, Relegation/Promotion",11617,"Ettan, Norra",174277,Jornada 11,Sollentuna FF,21882,Sweden,Umeå,1774,Sweden,1-1,Finalizado
+2026-06-07,13:00,Uruguay,Liga AUF Uruguaya,278,"Liga AUF Uruguaya, Intermedio, Serie B",59575,Jornada 4,Progreso,3238,Uruguay,Albion FC,278204,Uruguay,1-2,Finalizado
+2026-06-07,13:00,World,U23 Toulon Tournament,2084,"Tournoi Maurice Revello, Group A",73136,Jornada 1,DR Congo U20,520576,DR Congo,Colombia U19,287153,Colombia,2-2,Finalizado
+2026-06-07,14:00,Sweden,"Ettan, Relegation/Promotion",11617,"Ettan, Norra",174277,Jornada 11,FC Arlanda,255863,Sweden,Assyriska FF,1782,Sweden,2-0,Finalizado
+2026-06-07,14:00,Sweden,"Ettan, Relegation/Promotion",11617,"Ettan, Sodra",174278,Jornada 11,Trelleborgs FF,1771,Sweden,Skövde AIK,7063,Sweden,4-0,Finalizado
+2026-06-07,14:00,Sweden,"Ettan, Relegation/Promotion",11617,"Ettan, Sodra",174278,Jornada 11,Åtvidabergs FF,1789,Sweden,Tvååkers IF,22356,Sweden,2-2,Finalizado
+2026-06-07,14:00,Sweden,"Ettan, Relegation/Promotion",11617,"Ettan, Norra",174277,Jornada 11,FC Arlanda,255863,Sweden,Assyriska FF,1782,Sweden,2-0,Finalizado
+2026-06-07,14:00,Sweden,"Ettan, Relegation/Promotion",11617,"Ettan, Sodra",174278,Jornada 11,Trelleborgs FF,1771,Sweden,Skövde AIK,7063,Sweden,4-0,Finalizado
+2026-06-07,14:00,Sweden,"Ettan, Relegation/Promotion",11617,"Ettan, Sodra",174278,Jornada 11,Åtvidabergs FF,1789,Sweden,Tvååkers IF,22356,Sweden,2-2,Finalizado
+2026-06-07,15:00,Norway,Norwegian 1st Division,22,1st Division,6,Jornada 1,Ranheim IL,708,Norway,Strømmen IF,885,Norway,2-2,Finalizado
+2026-06-07,15:00,Norway,Norwegian 1st Division,22,1st Division,6,Jornada 1,Ranheim IL,708,Norway,Strømmen IF,885,Norway,2-2,Finalizado
+2026-06-07,16:00,World,International Friendly Games,851,Int. Friendly Games,66,,Maldives,6911,Maldives,Bangladesh U23,49024,Bangladesh,1-1,Finalizado
+2026-06-07,16:00,Italy,"Serie C, Playoffs",11452,"Serie C, Playoffs, Promotion Playoffs",43856,Final,Ascoli,2707,Italy,Union Brescia,1110141,Italy,3-0,Finalizado
+2026-06-07,16:00,World,International Friendly Games Women,852,"International Friendly Games, Women",1039,,Mali,132944,Mali,Burkina Faso,316668,Burkina Faso,2-2,Finalizado
+2026-06-07,16:00,World,International Friendly Games,851,Int. Friendly Games,66,,Maldives,6911,Maldives,Bangladesh U23,49024,Bangladesh,1-1,Finalizado
+2026-06-07,16:00,Italy,"Serie C, Playoffs",11452,"Serie C, Playoffs, Promotion Playoffs",43856,Final,Ascoli,2707,Italy,Union Brescia,1110141,Italy,3-0,Finalizado
+2026-06-07,16:00,World,International Friendly Games Women,852,"International Friendly Games, Women",1039,,Mali,132944,Mali,Burkina Faso,316668,Burkina Faso,2-2,Finalizado
+2026-06-07,16:30,World,International Friendly Games,851,Int. Friendly Games,66,,Denmark,4476,Denmark,Ukraine,4701,Ukraine,2-1,Cancelado
+2026-06-07,16:30,Chile,Copa de la Liga ,32734,"Copa de la Liga, Group D",176513,Jornada 6,Deportes La Serena,5031,Chile,Unión La Calera,48242,Chile,0-2,Finalizado
+2026-06-07,16:30,Chile,Copa de la Liga ,32734,"Copa de la Liga, Group D",176513,Jornada 6,Universidad de Chile,3161,Chile,Audax Italiano,3162,Chile,2-2,Finalizado
+2026-06-07,16:30,World,U23 Toulon Tournament,2084,"Tournoi Maurice Revello, Group A",73136,Jornada 1,China U22,318364,China,Tunisia U20,212486,Tunisia,0-3,Finalizado
+2026-06-07,16:30,World,International Friendly Games,851,Int. Friendly Games,66,,Denmark,4476,Denmark,Ukraine,4701,Ukraine,2-1,Cancelado
+2026-06-07,16:30,Chile,Copa de la Liga ,32734,"Copa de la Liga, Group D",176513,Jornada 6,Deportes La Serena,5031,Chile,Unión La Calera,48242,Chile,0-2,Finalizado
+2026-06-07,16:30,Chile,Copa de la Liga ,32734,"Copa de la Liga, Group D",176513,Jornada 6,Universidad de Chile,3161,Chile,Audax Italiano,3162,Chile,2-2,Finalizado
+2026-06-07,16:30,World,U23 Toulon Tournament,2084,"Tournoi Maurice Revello, Group A",73136,Jornada 1,China U22,318364,China,Tunisia U20,212486,Tunisia,0-3,Finalizado
 2026-06-07,17:00,Argentina,Copa Argentina,1024,Copa Argentina,273,Round of 32,Independiente Rivadavia,36842,Argentina,Tigre,7628,Argentina,-,Postponido
 2026-06-07,17:00,Argentina,Copa Argentina,1024,Copa Argentina,273,Round of 32,River Plate,3211,Argentina,Aldosivi,36836,Argentina,-,Postponido
 2026-06-07,17:00,Argentina,Copa Argentina,1024,Copa Argentina,273,Round of 32,Sarmiento,42338,Argentina,Boca Juniors,3202,Argentina,-,Postponido
-2026-06-07,17:00,Europe,U17 European Championship,429,"U17 European Championship, Knockout stage",5794,Final,Belgium U17,22583,Belgium,Italy U17,22616,Italy,-,Por jugar
+2026-06-07,17:00,Europe,U17 European Championship,429,"U17 European Championship, Knockout stage",5794,Final,Belgium U17,22583,Belgium,Italy U17,22616,Italy,4-5,Finalizado
 2026-06-07,17:00,Argentina,Copa Argentina,1024,Copa Argentina,273,Round of 32,Independiente Rivadavia,36842,Argentina,Tigre,7628,Argentina,-,Postponido
 2026-06-07,17:00,Argentina,Copa Argentina,1024,Copa Argentina,273,Round of 32,River Plate,3211,Argentina,Aldosivi,36836,Argentina,-,Postponido
 2026-06-07,17:00,Argentina,Copa Argentina,1024,Copa Argentina,273,Round of 32,Sarmiento,42338,Argentina,Boca Juniors,3202,Argentina,-,Postponido
-2026-06-07,17:00,Europe,U17 European Championship,429,"U17 European Championship, Knockout stage",5794,Final,Belgium U17,22583,Belgium,Italy U17,22616,Italy,-,Por jugar
-2026-06-07,18:00,Canada,Canadian Premier League,13470,Canadian Premier League,72112,Jornada 1,Inter Toronto,309890,Canada,Forge FC,313716,Canada,-,Por jugar
-2026-06-07,18:00,World,International Friendly Games,851,Int. Friendly Games,66,,Kosovo,154426,Kosovo,Andorra,4818,Andorra,-,Por jugar
-2026-06-07,18:00,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,Deportivo Morón,93109,Argentina,Almirante Brown,43740,Argentina,-,Por jugar
-2026-06-07,18:00,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,San Telmo,213361,Argentina,Deportivo Madryn,222120,Argentina,-,Por jugar
-2026-06-07,18:00,Uruguay,Liga AUF Uruguaya,278,"Liga AUF Uruguaya, Intermedio, Serie A",59574,Jornada 4,CA Cerro,22011,Uruguay,Peñarol,3227,Uruguay,-,Por jugar
-2026-06-07,18:00,Canada,Canadian Premier League,13470,Canadian Premier League,72112,Jornada 1,Inter Toronto,309890,Canada,Forge FC,313716,Canada,-,Por jugar
-2026-06-07,18:00,World,International Friendly Games,851,Int. Friendly Games,66,,Kosovo,154426,Kosovo,Andorra,4818,Andorra,-,Por jugar
-2026-06-07,18:00,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,Deportivo Morón,93109,Argentina,Almirante Brown,43740,Argentina,-,Por jugar
-2026-06-07,18:00,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,San Telmo,213361,Argentina,Deportivo Madryn,222120,Argentina,-,Por jugar
-2026-06-07,18:00,Uruguay,Liga AUF Uruguaya,278,"Liga AUF Uruguaya, Intermedio, Serie A",59574,Jornada 4,CA Cerro,22011,Uruguay,Peñarol,3227,Uruguay,-,Por jugar
-2026-06-07,18:30,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,All Boys,36834,Argentina,Racing de Córdoba,273657,Argentina,-,Por jugar
-2026-06-07,18:30,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,Club Atlético Chacarita Juniors,3214,Argentina,Temperley,112499,Argentina,-,Por jugar
-2026-06-07,18:30,Brazil,Brasileirão Série D,10326,"Brasileirão Série D, Group A6",59483,Jornada 10,Maracanã,87156,Brazil,IAPE,49203,Brazil,-,Por jugar
-2026-06-07,18:30,Brazil,Brasileirão Série D,10326,"Brasileirão Série D, Group A6",59483,Jornada 10,Parnahyba SC,35282,Brazil,Moto Club,2009,Brazil,-,Por jugar
-2026-06-07,18:30,Brazil,Brasileirão Série D,10326,"Brasileirão Série D, Group A6",59483,Jornada 10,Sampaio Corrêa,2005,Brazil,AD Iguatu,274287,Brazil,-,Por jugar
-2026-06-07,18:30,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,All Boys,36834,Argentina,Racing de Córdoba,273657,Argentina,-,Por jugar
-2026-06-07,18:30,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,Club Atlético Chacarita Juniors,3214,Argentina,Temperley,112499,Argentina,-,Por jugar
-2026-06-07,18:30,Brazil,Brasileirão Série D,10326,"Brasileirão Série D, Group A6",59483,Jornada 10,Maracanã,87156,Brazil,IAPE,49203,Brazil,-,Por jugar
-2026-06-07,18:30,Brazil,Brasileirão Série D,10326,"Brasileirão Série D, Group A6",59483,Jornada 10,Parnahyba SC,35282,Brazil,Moto Club,2009,Brazil,-,Por jugar
-2026-06-07,18:30,Brazil,Brasileirão Série D,10326,"Brasileirão Série D, Group A6",59483,Jornada 10,Sampaio Corrêa,2005,Brazil,AD Iguatu,274287,Brazil,-,Por jugar
-2026-06-07,18:45,World,International Friendly Games,851,Int. Friendly Games,66,,Croatia,4715,Croatia,Slovenia,4484,Slovenia,-,Por jugar
-2026-06-07,18:45,World,International Friendly Games,851,Int. Friendly Games,66,,Croatia,4715,Croatia,Slovenia,4484,Slovenia,-,Por jugar
-2026-06-07,19:00,Spain,LaLiga 2,54,"LaLiga 2, Promotion Playoffs",16255,Semifinals,Las Palmas,6577,Spain,Málaga CF,2830,Spain,-,Por jugar
-2026-06-07,19:00,Brazil,Brasileirão Série B,390,Brasileirão Série B,1449,Jornada 12,Clube De Regatas Brasil,22032,Brazil,São Bernardo,47504,Brazil,-,Por jugar
+2026-06-07,17:00,Europe,U17 European Championship,429,"U17 European Championship, Knockout stage",5794,Final,Belgium U17,22583,Belgium,Italy U17,22616,Italy,4-5,Finalizado
+2026-06-07,18:00,Canada,Canadian Premier League,13470,Canadian Premier League,72112,Jornada 1,Inter Toronto,309890,Canada,Forge FC,313716,Canada,1-3,En curso
+2026-06-07,18:00,World,International Friendly Games,851,Int. Friendly Games,66,,Kosovo,154426,Kosovo,Andorra,4818,Andorra,3-0,En curso
+2026-06-07,18:00,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,Deportivo Morón,93109,Argentina,Almirante Brown,43740,Argentina,1-0,En curso
+2026-06-07,18:00,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,San Telmo,213361,Argentina,Deportivo Madryn,222120,Argentina,0-0,En curso
+2026-06-07,18:00,Uruguay,Liga AUF Uruguaya,278,"Liga AUF Uruguaya, Intermedio, Serie A",59574,Jornada 4,CA Cerro,22011,Uruguay,Peñarol,3227,Uruguay,0-1,En curso
+2026-06-07,18:00,Canada,Canadian Premier League,13470,Canadian Premier League,72112,Jornada 1,Inter Toronto,309890,Canada,Forge FC,313716,Canada,1-3,En curso
+2026-06-07,18:00,World,International Friendly Games,851,Int. Friendly Games,66,,Kosovo,154426,Kosovo,Andorra,4818,Andorra,3-0,En curso
+2026-06-07,18:00,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,Deportivo Morón,93109,Argentina,Almirante Brown,43740,Argentina,1-0,En curso
+2026-06-07,18:00,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,San Telmo,213361,Argentina,Deportivo Madryn,222120,Argentina,0-0,En curso
+2026-06-07,18:00,Uruguay,Liga AUF Uruguaya,278,"Liga AUF Uruguaya, Intermedio, Serie A",59574,Jornada 4,CA Cerro,22011,Uruguay,Peñarol,3227,Uruguay,0-1,En curso
+2026-06-07,18:30,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,All Boys,36834,Argentina,Racing de Córdoba,273657,Argentina,1-1,En curso
+2026-06-07,18:30,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,Club Atlético Chacarita Juniors,3214,Argentina,Temperley,112499,Argentina,0-1,En curso
+2026-06-07,18:30,Brazil,Brasileirão Série D,10326,"Brasileirão Série D, Group A6",59483,Jornada 10,Maracanã,87156,Brazil,IAPE,49203,Brazil,1-0,En curso
+2026-06-07,18:30,Brazil,Brasileirão Série D,10326,"Brasileirão Série D, Group A6",59483,Jornada 10,Parnahyba SC,35282,Brazil,Moto Club,2009,Brazil,0-0,En curso
+2026-06-07,18:30,Brazil,Brasileirão Série D,10326,"Brasileirão Série D, Group A6",59483,Jornada 10,Sampaio Corrêa,2005,Brazil,AD Iguatu,274287,Brazil,0-0,En curso
+2026-06-07,18:30,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,All Boys,36834,Argentina,Racing de Córdoba,273657,Argentina,1-1,En curso
+2026-06-07,18:30,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,Club Atlético Chacarita Juniors,3214,Argentina,Temperley,112499,Argentina,0-1,En curso
+2026-06-07,18:30,Brazil,Brasileirão Série D,10326,"Brasileirão Série D, Group A6",59483,Jornada 10,Maracanã,87156,Brazil,IAPE,49203,Brazil,2-0,En curso
+2026-06-07,18:30,Brazil,Brasileirão Série D,10326,"Brasileirão Série D, Group A6",59483,Jornada 10,Parnahyba SC,35282,Brazil,Moto Club,2009,Brazil,0-0,En curso
+2026-06-07,18:30,Brazil,Brasileirão Série D,10326,"Brasileirão Série D, Group A6",59483,Jornada 10,Sampaio Corrêa,2005,Brazil,AD Iguatu,274287,Brazil,0-0,En curso
+2026-06-07,18:45,World,International Friendly Games,851,Int. Friendly Games,66,,Croatia,4715,Croatia,Slovenia,4484,Slovenia,0-0,En curso
+2026-06-07,18:45,World,International Friendly Games,851,Int. Friendly Games,66,,Croatia,4715,Croatia,Slovenia,4484,Slovenia,0-0,En curso
+2026-06-07,19:00,Spain,LaLiga 2,54,"LaLiga 2, Promotion Playoffs",16255,Semifinals,Las Palmas,6577,Spain,Málaga CF,2830,Spain,0-0,En curso
+2026-06-07,19:00,Brazil,Brasileirão Série B,390,Brasileirão Série B,1449,Jornada 12,Clube De Regatas Brasil,22032,Brazil,São Bernardo,47504,Brazil,1-1,En curso
 2026-06-07,19:00,Bolivia,División Profesional,16736,División Profesional,4330,Jornada 8,Real Potosí,7060,Bolivia,CD San Antonio,396625,Bolivia,-,Por jugar
-2026-06-07,19:00,World,International Friendly Games,851,Int. Friendly Games,66,,Greece,4710,Greece,Italy,4707,Italy,-,Por jugar
-2026-06-07,19:00,World,International Friendly Games,851,Int. Friendly Games,66,,Morocco,4778,Morocco,Norway,4475,Norway,-,Por jugar
-2026-06-07,19:00,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,Agropecuario Argentino,265787,Argentina,Patronato,43741,Argentina,-,Por jugar
-2026-06-07,19:00,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,Chaco For Ever,252726,Argentina,Club Ferro Carril Oeste,36841,Argentina,-,Por jugar
-2026-06-07,19:00,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,Güemes,224646,Argentina,Deportivo Maipú,213042,Argentina,-,Por jugar
-2026-06-07,19:00,Chile,Copa de la Liga ,32734,"Copa de la Liga, Group A ",176510,Jornada 6,Huachipato,3164,Chile,Colo-Colo,3155,Chile,-,Por jugar
-2026-06-07,19:00,USA,USL Prinx Tires Cup,22382,USL Cup,150299,Jornada 1,Brooklyn FC,1158835,USA,Portland Hearts of Pine,1044345,USA,-,Por jugar
-2026-06-07,19:00,Spain,LaLiga 2,54,"LaLiga 2, Promotion Playoffs",16255,Semifinals,Las Palmas,6577,Spain,Málaga CF,2830,Spain,-,Por jugar
-2026-06-07,19:00,Brazil,Brasileirão Série B,390,Brasileirão Série B,1449,Jornada 12,Clube De Regatas Brasil,22032,Brazil,São Bernardo,47504,Brazil,-,Por jugar
+2026-06-07,19:00,World,International Friendly Games,851,Int. Friendly Games,66,,Greece,4710,Greece,Italy,4707,Italy,0-1,En curso
+2026-06-07,19:00,World,International Friendly Games,851,Int. Friendly Games,66,,Morocco,4778,Morocco,Norway,4475,Norway,1-0,En curso
+2026-06-07,19:00,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,Agropecuario Argentino,265787,Argentina,Patronato,43741,Argentina,0-1,En curso
+2026-06-07,19:00,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,Chaco For Ever,252726,Argentina,Club Ferro Carril Oeste,36841,Argentina,0-0,En curso
+2026-06-07,19:00,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,Güemes,224646,Argentina,Deportivo Maipú,213042,Argentina,0-0,En curso
+2026-06-07,19:00,Chile,Copa de la Liga ,32734,"Copa de la Liga, Group A ",176510,Jornada 6,Huachipato,3164,Chile,Colo-Colo,3155,Chile,1-0,En curso
+2026-06-07,19:00,USA,USL Prinx Tires Cup,22382,USL Cup,150299,Jornada 1,Brooklyn FC,1158835,USA,Portland Hearts of Pine,1044345,USA,0-0,En curso
+2026-06-07,19:00,Spain,LaLiga 2,54,"LaLiga 2, Promotion Playoffs",16255,Semifinals,Las Palmas,6577,Spain,Málaga CF,2830,Spain,0-0,En curso
+2026-06-07,19:00,Brazil,Brasileirão Série B,390,Brasileirão Série B,1449,Jornada 12,Clube De Regatas Brasil,22032,Brazil,São Bernardo,47504,Brazil,1-1,En curso
 2026-06-07,19:00,Bolivia,División Profesional,16736,División Profesional,4330,Jornada 8,Real Potosí,7060,Bolivia,CD San Antonio,396625,Bolivia,-,Por jugar
-2026-06-07,19:00,World,International Friendly Games,851,Int. Friendly Games,66,,Greece,4710,Greece,Italy,4707,Italy,-,Por jugar
-2026-06-07,19:00,World,International Friendly Games,851,Int. Friendly Games,66,,Morocco,4778,Morocco,Norway,4475,Norway,-,Por jugar
-2026-06-07,19:00,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,Agropecuario Argentino,265787,Argentina,Patronato,43741,Argentina,-,Por jugar
-2026-06-07,19:00,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,Chaco For Ever,252726,Argentina,Club Ferro Carril Oeste,36841,Argentina,-,Por jugar
-2026-06-07,19:00,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,Güemes,224646,Argentina,Deportivo Maipú,213042,Argentina,-,Por jugar
-2026-06-07,19:00,Chile,Copa de la Liga ,32734,"Copa de la Liga, Group A ",176510,Jornada 6,Huachipato,3164,Chile,Colo-Colo,3155,Chile,-,Por jugar
-2026-06-07,19:00,USA,USL Prinx Tires Cup,22382,USL Cup,150299,Jornada 1,Brooklyn FC,1158835,USA,Portland Hearts of Pine,1044345,USA,-,Por jugar
-2026-06-07,19:30,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,Godoy Cruz,6074,Argentina,CA Mitre,255425,Argentina,-,Por jugar
-2026-06-07,19:30,Chile,Liga de Ascenso,1240,Liga de Ascenso,60673,Jornada 15,Club Deportes Antofagasta,5601,Chile,Deportes Magallanes,89508,Chile,-,Por jugar
-2026-06-07,19:30,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,Godoy Cruz,6074,Argentina,CA Mitre,255425,Argentina,-,Por jugar
-2026-06-07,19:30,Chile,Liga de Ascenso,1240,Liga de Ascenso,60673,Jornada 15,Club Deportes Antofagasta,5601,Chile,Deportes Magallanes,89508,Chile,-,Por jugar
+2026-06-07,19:00,World,International Friendly Games,851,Int. Friendly Games,66,,Greece,4710,Greece,Italy,4707,Italy,0-1,En curso
+2026-06-07,19:00,World,International Friendly Games,851,Int. Friendly Games,66,,Morocco,4778,Morocco,Norway,4475,Norway,1-0,En curso
+2026-06-07,19:00,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,Agropecuario Argentino,265787,Argentina,Patronato,43741,Argentina,0-1,En curso
+2026-06-07,19:00,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,Chaco For Ever,252726,Argentina,Club Ferro Carril Oeste,36841,Argentina,0-0,En curso
+2026-06-07,19:00,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,Güemes,224646,Argentina,Deportivo Maipú,213042,Argentina,0-0,En curso
+2026-06-07,19:00,Chile,Copa de la Liga ,32734,"Copa de la Liga, Group A ",176510,Jornada 6,Huachipato,3164,Chile,Colo-Colo,3155,Chile,1-0,En curso
+2026-06-07,19:00,USA,USL Prinx Tires Cup,22382,USL Cup,150299,Jornada 1,Brooklyn FC,1158835,USA,Portland Hearts of Pine,1044345,USA,0-0,En curso
+2026-06-07,19:30,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,Godoy Cruz,6074,Argentina,CA Mitre,255425,Argentina,0-0,En curso
+2026-06-07,19:30,Chile,Liga de Ascenso,1240,Liga de Ascenso,60673,Jornada 15,Club Deportes Antofagasta,5601,Chile,Deportes Magallanes,89508,Chile,0-0,En curso
+2026-06-07,19:30,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,Godoy Cruz,6074,Argentina,CA Mitre,255425,Argentina,0-0,En curso
+2026-06-07,19:30,Chile,Liga de Ascenso,1240,Liga de Ascenso,60673,Jornada 15,Club Deportes Antofagasta,5601,Chile,Deportes Magallanes,89508,Chile,0-0,En curso
 2026-06-07,20:00,World,International Friendly Games,851,Int. Friendly Games,66,,Ecuador,4757,Ecuador,Guatemala,5163,Guatemala,-,Por jugar
 2026-06-07,20:00,Argentina,Primera Nacional,703,Primera B Nacional,5071,Jornada 17,Club Atletico Colón,3207,Argentina,Ciudad de Bolivar,340432,Argentina,-,Por jugar
 2026-06-07,20:00,Brazil,Brasileirão Série D,10326,"Brasileirão Série D, Group A3",59488,Jornada 10,Gama,1978,Brazil,AA Aparecidense,32794,Brazil,-,Por jugar
