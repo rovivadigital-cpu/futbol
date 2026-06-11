@@ -24,7 +24,7 @@ jobs:
 
       - name: Ejecutar scraping
         run: |
-          python scrape.py
+          python prueba1.py
 
       - name: Guardar resultados en repo
         run: |
