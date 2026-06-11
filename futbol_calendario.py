@@ -15,13 +15,13 @@ SUPERFICIE_MAP = {
 }
 
 def _session():
-    s = requests.Session(impersonate="chrome124")
+    s = requests.Session(impersonate="chrome120")
     s.headers.update({
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125 Safari/537.36",
-    "Accept": "application/json, text/plain, */*",
-    "Referer": "https://www.sofascore.com/football",
-    "Origin": "https://www.sofascore.com",
-})
+        "Accept":          "application/json, text/plain, */*",
+        "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
+        "Referer":         "https://www.sofascore.com/football",
+        "Origin":          "https://www.sofascore.com",
+    })
     return s
 
 SESSION   = _session()
@@ -30,14 +30,6 @@ _cache_liga = {}
 def api_get(url):
     try:
         response = SESSION.get(url, timeout=30)
-        print("\n--- DEBUG ---")
-        print("URL:", url)
-        print("Status:", response.status_code)
-        print("Headers:", response.headers)
-        print("Texto (primeros 500 chars):")
-        print(response.text[:500])   # <-- imprime parte del cuerpo
-        print("--- FIN DEBUG ---\n")
-
         if response.status_code == 200:
             return response.json()
     except Exception as e:
