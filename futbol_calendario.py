@@ -47,11 +47,14 @@ def _session():
     s = requests.Session()
     return s
 
+# Variable global
 SESSION = _session()
 _cache_liga = {}
 
 def api_get(url, retry_count=3):
     """Intenta la petición varias veces con backoff exponencial"""
+    global SESSION  # Ahora sí, después de que SESSION está definida globalmente
+    
     for attempt in range(retry_count):
         try:
             # Pequeña pausa aleatoria para evitar detección
@@ -64,7 +67,6 @@ def api_get(url, retry_count=3):
                 return response.json()
             elif response.status_code == 403:
                 # Si es 403, intentamos recrear la sesión
-                global SESSION
                 SESSION = _session()
                 logging.warning(f"Intento {attempt + 1}: Error 403, recreando sesión...")
                 continue
@@ -321,3 +323,4 @@ if __name__ == "__main__":
             "Marcador", "Estado",
         ])
         df_vacio.to_csv(archivo, index=False, encoding="utf-8-sig")
+        print(f"\n✓ Archivo vacío creado en '{archivo}'")
