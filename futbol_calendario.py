@@ -15,7 +15,7 @@ SUPERFICIE_MAP = {
 }
 
 def _session():
-    s = requests.Session(impersonate="chrome120")
+    s = requests.Session(impersonate="chrome125")
     s.headers.update({
         "Accept":          "application/json, text/plain, */*",
         "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
