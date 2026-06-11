@@ -17,11 +17,11 @@ SUPERFICIE_MAP = {
 def _session():
     s = requests.Session(impersonate="chrome124")
     s.headers.update({
-        "Accept":          "application/json, text/plain, */*",
-        "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
-        "Referer":         "https://www.sofascore.com/football",
-        "Origin":          "https://www.sofascore.com",
-    })
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125 Safari/537.36",
+    "Accept": "application/json, text/plain, */*",
+    "Referer": "https://www.sofascore.com/football",
+    "Origin": "https://www.sofascore.com",
+})
     return s
 
 SESSION   = _session()
