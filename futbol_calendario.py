@@ -15,13 +15,17 @@ SUPERFICIE_MAP = {
 }
 
 def _session():
-    s = requests.Session(impersonate="chrome120")
+    # Actualizado a Chrome 124 (más reciente)
+    s = requests.Session(impersonate="chrome124")
     s.headers.update({
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
         "Accept":          "application/json, text/plain, */*",
         "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
-        "Referer":         "https://www.sofascore.com/football",
+        "Referer":         "https://www.sofascore.com/",
         "Origin":          "https://www.sofascore.com",
     })
+    # Opcional: Añade esta cookie si el paso 1 no funciona
+    # s.cookies.set("XSRF-TOKEN", "TU_TOKEN_AQUI", domain=".sofascore.com")
     return s
 
 SESSION   = _session()
@@ -29,9 +33,12 @@ _cache_liga = {}
 
 def api_get(url):
     try:
-        response = SESSION.get(url, timeout=30)
+        # Aumentado timeout y añadido más opciones
+        response = SESSION.get(url, timeout=30, allow_redirects=True)
         if response.status_code == 200:
             return response.json()
+        else:
+            logging.warning(f"Error HTTP {response.status_code} en {url}")
     except Exception as e:
         logging.warning(f"Error al llamar {url}: {e}")
     return {}
@@ -163,7 +170,19 @@ def obtener_calendario_futbol():
     manana   = hoy + timedelta(days=1)
     hoy_str  = hoy.strftime("%Y-%m-%d")
     man_str  = manana.strftime("%Y-%m-%d")
-
+    
+    # Prueba de conexión rápida
+    logging.info("Verificando conexión con Sofascore...")
+    test_url = f"https://api.sofascore.com/api/v1/sport/football/scheduled-events/{hoy_str}"
+    test_data = api_get(test_url)
+    if not test_data:
+        logging.error("❌ No se pudo conectar con la API de Sofascore.")
+        logging.error("   Posibles soluciones:")
+        logging.error("   1. Actualiza curl_cffi: pip install --upgrade curl_cffi")
+        logging.error("   2. Descomenta la línea de la cookie en _session()")
+        logging.error("   3. Prueba cambiando 'chrome124' por 'chrome120' o 'safari15_5'")
+        return
+    
     partidos_hoy    = obtener_partidos_fecha(hoy_str)
     partidos_manana = obtener_partidos_fecha(man_str)
     todos           = partidos_hoy + partidos_manana
@@ -206,5 +225,32 @@ def obtener_calendario_futbol():
         df_vacio.to_csv(archivo, index=False, encoding="utf-8-sig")
         logging.info("No se encontraron partidos. El archivo ha sido limpiado.")
 
+def probar_conexion():
+    """Función de prueba para verificar que la conexión funciona"""
+    from curl_cffi import requests
+    
+    url = "https://api.sofascore.com/api/v1/sport/football/scheduled-events/2026-06-11"
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    }
+    
+    try:
+        response = requests.get(url, headers=headers, impersonate="chrome124", timeout=10)
+        if response.status_code == 200:
+            print("✓ Conexión exitosa con Sofascore!")
+            return True
+        else:
+            print(f"✗ Error {response.status_code} en la conexión")
+            return False
+    except Exception as e:
+        print(f"✗ Error de conexión: {e}")
+        return False
+
 if __name__ == "__main__":
-    obtener_calendario_futbol()
+    # Primero prueba la conexión
+    print("=== PRUEBA DE CONEXIÓN ===\n")
+    if probar_conexion():
+        print("\n=== OBTENIENDO CALENDARIO ===\n")
+        obtener_calendario_futbol()
+    else:
+        print("\n❌ No se pudo establecer conexión. Revisa las recomendaciones arriba.")
