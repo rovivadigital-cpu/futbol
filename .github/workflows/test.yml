@@ -1,54 +1,36 @@
-name: Test
-on:
-  schedule:
-    - cron: '10 6 * * *'
-  workflow_dispatch:
+name: Test WARP
+on: workflow_dispatch
 
 jobs:
-  scrape:
+  test:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-      - name: Checkout repositorio
-        uses: actions/checkout@v4
+      - name: IP sin WARP
+        run: curl -s -4 ifconfig.me
 
-      - name: Setup Python 3.11
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-          cache: 'pip'
-
-      - name: Instalar dependencias
-        run: |
-          pip install --upgrade pip
-          pip install -r requirements.txt
-
-      - name: Conectar a VPN (Cloudflare WARP)
+      - name: Conectar WARP
         run: |
           curl -fsSL https://pkg.cloudflareclient.com/pubkey.gpg | sudo gpg --yes --dearmor --output /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg
           echo "deb [signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/cloudflare-client.list
           sudo apt-get update
           sudo apt-get install -y cloudflare-warp
-          warp-cli --accept-tos status
           warp-cli --accept-tos registration new
           warp-cli --accept-tos connect
           sleep 8
-          echo "IP actual:"
-          curl -s -4 ifconfig.me || true
-          echo ""
+          warp-cli --accept-tos status
 
-      - name: Verificar archivo
+      - name: IP con WARP
+        run: curl -s -4 ifconfig.me
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Test sofascore
         run: |
-          echo "=== Contenido del directorio ==="
-          ls -la
-          echo "=== Primeras 10 líneas del script ==="
-          head -10 partidos_futbol.py
-          echo "=== Python version ==="
-          python --version
-
-      - name: Ejecutar scraper
-        run: python -u test.py
+          pip install curl_cffi
+          python -u test.py
 
       - name: Guardar datos en repositorio
         if: always()
