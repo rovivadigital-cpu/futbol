@@ -1,4 +1,4 @@
-name: Test Playwright Sofascore
+name: Test Playwright Sofascore v2
 on: workflow_dispatch
 
 jobs:
@@ -28,13 +28,20 @@ jobs:
               context = browser.new_context(user_agent=UA, locale="en-US")
               page = context.new_page()
 
-              print("Cargando sofascore.com/football ...")
-              page.goto("https://www.sofascore.com/football", wait_until="networkidle", timeout=60000)
-              print("Title:", page.title())
+              try:
+                  print("Cargando sofascore.com/football ...")
+                  resp = page.goto("https://www.sofascore.com/football", wait_until="domcontentloaded", timeout=60000)
+                  print("HTTP status:", resp.status if resp else None)
+                  page.wait_for_timeout(8000)
+                  print("Title:", page.title())
+                  body_text = page.evaluate("() => document.body ? document.body.innerText.slice(0, 500) : 'NO BODY'")
+                  print("BODY PREVIEW:", body_text)
+              except Exception as e:
+                  print("ERROR cargando pagina:", repr(e))
 
               cookies = context.cookies()
               names = [c["name"] for c in cookies]
-              print("Cookies obtenidas:", names)
+              print("\nCookies obtenidas:", names)
               cf = next((c["value"] for c in cookies if c["name"] == "cf_clearance"), None)
               print("cf_clearance presente:", cf is not None)
 
