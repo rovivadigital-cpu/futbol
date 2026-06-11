@@ -24,4 +24,4 @@ jobs:
 
       - name: Ejecutar scraping
         run: |
-          python scrape.py
+          python prueba1.py
