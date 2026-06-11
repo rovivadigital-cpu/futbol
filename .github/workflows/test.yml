@@ -1,4 +1,4 @@
-name: Futbol Diario Pro
+name: Test
 on:
   schedule:
     - cron: '10 6 * * *'
