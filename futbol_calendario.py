@@ -30,6 +30,14 @@ _cache_liga = {}
 def api_get(url):
     try:
         response = SESSION.get(url, timeout=30)
+        print("\n--- DEBUG ---")
+        print("URL:", url)
+        print("Status:", response.status_code)
+        print("Headers:", response.headers)
+        print("Texto (primeros 500 chars):")
+        print(response.text[:500])   # <-- imprime parte del cuerpo
+        print("--- FIN DEBUG ---\n")
+
         if response.status_code == 200:
             return response.json()
     except Exception as e:
