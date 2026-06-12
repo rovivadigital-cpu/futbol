@@ -1,11 +1,13 @@
-name: Prueba Futbol
+name: Scraping FootyStats España
 
 on:
   schedule:
-    - cron: "0 * * * *"   # Ejecuta cada hora
+    - cron: "0 6 * * *"   # Ejecuta cada día a las 6 AM
   workflow_dispatch:
+
 permissions:
   contents: write
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
@@ -13,24 +15,14 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Configurar Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
-
-      - name: Instalar dependencias
+      - name: Descargar CSV de LaLiga (FootyStats)
         run: |
-          python -m pip install --upgrade pip
-          pip install requests beautifulsoup4
-
-      - name: Ejecutar scraping
-        run: |
-          python prueba1.py
+          curl -L "https://footystats.org/download-csv/spain/la-liga" -o laliga.csv
 
       - name: Guardar resultados en repo
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git add resultados.json
-          git commit -m "Actualizar resultados de scraping"
+          git add laliga.csv
+          git commit -m "Actualizar CSV de LaLiga FootyStats" || echo "No hay cambios"
           git push
