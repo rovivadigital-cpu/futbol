@@ -1,28 +1,46 @@
-name: Scraping FootyStats España
+name: Automatización de Datos de Fútbol con Gemini
 
 on:
-  schedule:
-    - cron: "0 6 * * *"   # Ejecuta cada día a las 6 AM
+  # 1. Permite ejecutar el script manualmente desde la pestaña "Actions" de GitHub
   workflow_dispatch:
-
-permissions:
-  contents: write
+  
+  # 2. Configura una tarea programada (Cron)
+  # Este ejemplo se ejecuta TODOS LOS DÍAS a las 00:00 UTC (Ajusta según prefieras)
+  schedule:
+    - cron: '0 0 * * *'
 
 jobs:
-  scrape:
+  buscar-y-guardar:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+    # Paso A: Descargar el código del repositorio
+    - name: Checkout del repositorio
+      uses: actions/checkout@v4
 
-      - name: Descargar CSV de LaLiga (FootyStats)
-        run: |
-          curl -L "https://footystats.org/download-csv/spain/la-liga" -o laliga.csv
+    # Paso B: Configurar el entorno de Python
+    - name: Configurar Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
 
-      - name: Guardar resultados en repo
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
-          git add laliga.csv
-          git commit -m "Actualizar CSV de LaLiga FootyStats" || echo "No hay cambios"
-          git push
+    # Paso C: Instalar la librería oficial de Gemini
+    - name: Instalar dependencias
+      run: |
+        python -m pip install --upgrade pip
+        pip install google-genai
+
+    # Paso D: Ejecutar el script inyectando la API KEY desde los secretos
+    - name: Ejecutar script de extracción
+      env:
+        GEMINI_API_KEY: ${{ secrets::GEMINI_API_KEY }}
+      run: python script_futbol.py
+
+    # Paso E: Confirmar y subir los nuevos archivos generados al repositorio de GitHub
+    - name: Guardar cambios en el repositorio
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add .
+        # Solo hace el commit si realmente hay archivos nuevos para evitar errores
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Actualización automática: Datos de partido recopilados" && git push)
