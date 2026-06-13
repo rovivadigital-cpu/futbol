@@ -1,0 +1,87 @@
+{
+    "competicion": "Liga BetPlay Dimayor",
+    "pais": "Colombia",
+    "total_equipos": 20,
+    "equipos": [
+        {
+            "nombre": "Águilas Doradas",
+            "ciudad": "Rionegro"
+        },
+        {
+            "nombre": "Alianza FC",
+            "ciudad": "Valledupar"
+        },
+        {
+            "nombre": "América de Cali",
+            "ciudad": "Cali"
+        },
+        {
+            "nombre": "Atlético Bucaramanga",
+            "ciudad": "Bucaramanga"
+        },
+        {
+            "nombre": "Atlético Nacional",
+            "ciudad": "Medellín"
+        },
+        {
+            "nombre": "Boyacá Chicó FC",
+            "ciudad": "Tunja"
+        },
+        {
+            "nombre": "Cúcuta Deportivo",
+            "ciudad": "Cúcuta"
+        },
+        {
+            "nombre": "Deportes Tolima",
+            "ciudad": "Ibagué"
+        },
+        {
+            "nombre": "Deportivo Cali",
+            "ciudad": "Cali"
+        },
+        {
+            "nombre": "Deportivo Pasto",
+            "ciudad": "Pasto"
+        },
+        {
+            "nombre": "Deportivo Pereira",
+            "ciudad": "Pereira"
+        },
+        {
+            "nombre": "Fortaleza CEIF",
+            "ciudad": "Bogotá"
+        },
+        {
+            "nombre": "Independiente Medellín",
+            "ciudad": "Medellín"
+        },
+        {
+            "nombre": "Independiente Santa Fe",
+            "ciudad": "Bogotá"
+        },
+        {
+            "nombre": "Internacional de Bogotá",
+            "ciudad": "Bogotá"
+        },
+        {
+            "nombre": "Jaguares FC",
+            "ciudad": "Montería"
+        },
+        {
+            "nombre": "Junior FC",
+            "ciudad": "Barranquilla"
+        },
+        {
+            "nombre": "Llaneros FC",
+            "ciudad": "Villavicencio"
+        },
+        {
+            "nombre": "Millonarios FC",
+            "ciudad": "Bogotá"
+        },
+        {
+            "nombre": "Once Caldas",
+            "ciudad": "Manizales"
+        }
+    ]
+}
