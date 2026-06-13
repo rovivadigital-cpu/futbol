@@ -4,35 +4,45 @@ import requests
 from datetime import datetime
 
 def obtener_equipos_liga_betplay():
-    # ID oficial de la Liga BetPlay (Primera A de Colombia) en Sofascore
     id_liga = 972
-    
-    # URL de la API interna de Sofascore para ver los equipos del torneo actual
     url = f"https://api.sofascore.com/api/v1/unique-tournament/{id_liga}/seasons"
     
-    # Encabezados obligatorios para evitar que Sofascore bloquee la petición (403 Forbidden)
+    # Cabeceras completas para simular un navegador real al 100%
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+        'Accept': '*/*',
+        'Accept-Language': 'es-ES,es;q=0.9,en;q=0.8',
+        'Cache-Control': 'no-cache',
+        'Pragma': 'no-cache',
         'Origin': 'https://www.sofascore.com',
-        'Referer': 'https://www.sofascore.com/'
+        'Referer': 'https://www.sofascore.com/',
+        'Sec-Ch-Ua': '"Not-A.Brand";v="99", "Chromium";v="124", "Google Chrome";v="124"',
+        'Sec-Ch-Ua-Mobile': '?0',
+        'Sec-Ch-Ua-Platform': '"Windows"',
+        'Sec-Fetch-Dest': 'empty',
+        'Sec-Fetch-Mode': 'cors',
+        'Sec-Fetch-Site': 'same-site'
     }
 
-    print("Conectando con la API de Sofascore...")
+    print("Conectando con la API de Sofascore usando headers avanzados...")
+    
+    # Usamos una sesión para mantener las cookies que nos asigne el servidor durante las peticiones
+    session = requests.Session()
+    session.headers.update(headers)
     
     try:
-        # 1. Primero obtenemos el ID de la temporada más reciente (actual)
-        res_seasons = requests.get(url, headers=headers)
+        # 1. Intentamos obtener las temporadas
+        res_seasons = session.get(url, timeout=15)
         res_seasons.raise_for_status()
         id_temporada = res_seasons.json()['data']['seasons'][0]['id']
         
-        # 2. Con el ID de la temporada, consultamos los equipos y sus posiciones/datos
+        # 2. Consultamos los equipos de la temporada actual
         url_equipos = f"https://api.sofascore.com/api/v1/unique-tournament/{id_liga}/season/{id_temporada}/standings/total"
-        res_equipos = requests.get(url_equipos, headers=headers)
+        res_equipos = session.get(url_equipos, timeout=15)
         res_equipos.raise_for_status()
         
         datos_tabla = res_equipos.json()['data']['standings'][0]['rows']
         
-        # 3. Procesamos y limpiamos la lista de equipos
         lista_equipos = []
         for fila in datos_tabla:
             equipo = fila['team']
@@ -43,10 +53,8 @@ def obtener_equipos_liga_betplay():
                 "codigo": equipo.get('slug', '')
             })
         
-        # Ordenamos alfabéticamente por nombre de equipo
         lista_equipos = sorted(lista_equipos, key=lambda k: k['nombre'])
         
-        # Estructura final del JSON
         resultado_final = {
             "competicion": "Liga BetPlay Dimayor - Colombia",
             "id_liga_sofascore": id_liga,
@@ -55,7 +63,6 @@ def obtener_equipos_liga_betplay():
             "equipos": lista_equipos
         }
         
-        # 4. Guardar en un archivo JSON fijo para que sea tu diccionario de referencia
         filename = "equipos_liga_betplay.json"
         with open(filename, "w", encoding="utf-8") as f:
             json.dump(resultado_final, f, indent=4, ensure_ascii=False)
@@ -64,9 +71,8 @@ def obtener_equipos_liga_betplay():
         
     except Exception as e:
         print(f"Error al extraer datos de Sofascore: {e}")
-        # Si falla por bloqueo, dejamos constancia del error
         with open("error_log.txt", "w") as f:
-            f.write(f"Error en la ejecución de la fecha {datetime.now()}: {str(e)}")
+            f.write(f"Error en la ejecución: {str(e)}")
 
 if __name__ == "__main__":
     obtener_equipos_liga_betplay()
