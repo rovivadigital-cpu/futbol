@@ -1,28 +1,27 @@
 import os
 import json
 import csv
+import time
 from datetime import datetime, timedelta
 from google import genai
 from google.genai import types
 
 # =====================================================================
-# CONFIGURACIÓN MANUAL DE RANGO DE FECHAS
+# CONFIGURACIÓN MANUAL DE RANGO DE FECHAS (RANGOS LARGOS)
 # =====================================================================
-# Define desde qué día hasta qué día quieres extraer información histórica.
-# Formato: 'AAAA-MM-DD'
 FECHA_INICIO = '2026-01-01'  
 FECHA_FIN    = '2026-04-19'  
 csv_filename = "partidos_estadisticas_historico.csv"
 # =====================================================================
 
-# 1. VALIDACIÓN ANTIDUPLICADOS: Cargar partidos que ya existen en el CSV
+# 1. VALIDACIÓN ANTIDUPLICADOS
 partidos_existentes = set()
 
 if os.path.exists(csv_filename):
     print(f"Leyendo '{csv_filename}' existente para evitar duplicados...")
     with open(csv_filename, "r", encoding="utf-8") as f:
         reader = csv.reader(f)
-        header = next(reader, None) # Saltar cabecera
+        header = next(reader, None)
         if header:
             try:
                 idx_fecha = header.index("tourney_date")
@@ -31,15 +30,13 @@ if os.path.exists(csv_filename):
                 
                 for row in reader:
                     if len(row) > max(idx_fecha, idx_local, idx_visita):
-                        # Creamos la llave única: 'fecha_local_visita'
                         llave = f"{row[idx_fecha]}_{row[idx_local]}_{row[idx_visita]}".strip().lower()
                         partidos_existentes.add(llave)
             except ValueError:
-                print("Aviso: El CSV existente no tiene el formato esperado. Se creará uno nuevo.")
+                print("Aviso: El CSV existente no tiene el formato esperado.")
 
-print(f"-> Se encontraron {len(partidos_existentes)} partidos registrados previamente.")
+print(f"-> Se encontraron {len(partidos_existentes)} partidos registrados previamente.\n")
 
-# Inicializar o mantener el archivo CSV si no existe
 if not os.path.exists(csv_filename):
     ENCABEZADOS_CSV = [
         "event_id", "pais", "liga", "tourney_id", "tourney_name", "tourney_season", "tourney_date",
@@ -64,13 +61,11 @@ if not os.path.exists(csv_filename):
         writer = csv.writer(f)
         writer.writerow(ENCABEZADOS_CSV)
 
-# Inicializar Cliente Gemini
 api_key = os.environ.get("GEMINI_API_KEY")
 if not api_key:
     raise ValueError("La variable de entorno GEMINI_API_KEY no está configurada.")
 client = genai.Client(api_key=api_key)
 
-# Ligas objetivo (Mantenemos tu formato de diccionario original)
 TORNEOS_IDS = {
     17: {"nombre": "Premier League", "pais": "England"},
     11539: {"nombre": "Primera A, Apertura", "pais": "Colombia"},
@@ -86,6 +81,8 @@ delta = timedelta(days=1)
 fecha_actual = start_date
 while fecha_actual <= end_date:
     str_fecha_ayer = fecha_actual.strftime('%Y-%m-%d')
+    mes_actual = fecha_actual.month
+    
     print(f"\n==================================================")
     print(f" PROCESANDO FECHA: {str_fecha_ayer}")
     print(f"==================================================")
@@ -94,67 +91,69 @@ while fecha_actual <= end_date:
         liga_nombre = info["nombre"]
         pais_nombre = info["pais"]
         
+        # FILTRO DE SEGURIDAD: Evitar buscar liga colombiana a principios de Enero (No hay partidos oficiales)
+        if pais_nombre == "Colombia" and mes_actual == 1 and fecha_actual.day < 15:
+            print(f"-> Saltando {liga_nombre} (Sin actividad oficial a principios de enero)")
+            continue
+            
         print(f"-> Buscando partidos de: {liga_nombre} ({pais_nombre})")
         
         prompt = f"""
-        Realiza una búsqueda web exhaustiva de los partidos de fútbol de la liga '{liga_nombre}' del país '{pais_nombre}' 
-        que finalizaron el día {str_fecha_ayer} (Temporada correspondiente al año {str_fecha_ayer[:4]}).
+        Busca en la web los partidos oficiales de fútbol de la liga '{liga_nombre}' ({pais_nombre}) que se jugaron y terminaron por completo el día {str_fecha_ayer}.
         
-        Necesito que extraigas el resultado y las estadísticas completas de cada partido.
-        Devuelve la información estrictamente en formato JSON plano sin bloques de código markdown (```json).
-        Usa exactamente esta estructura:
+        Debes incluir todos los partidos disputados en esa fecha. Devuelve los datos en formato JSON plano, sin bloques de código markdown ni texto extra. Si no hubo partidos oficiales ese día, devuelve "partidos": [].
         
+        Estructura exacta requerida:
         {{
           "partidos": [
             {{
-              "round": "Nombre de la ronda o jornada",
-              "round_number": "Número de jornada (solo número)",
+              "round": "Jornada X",
+              "round_number": "X",
               "home_team_name": "Nombre equipo local",
               "away_team_name": "Nombre equipo visitante",
               "home_goals": 0,
               "away_goals": 0,
-              "home_ht_goals": "Goles al descanso (int o null)",
-              "away_ht_goals": "Goles al descanso (int o null)",
-              "home_et_goals": "Goles prórroga (int o 0)",
-              "away_et_goals": "Goles prórroga (int o 0)",
-              "home_pen_goals": "Goles penaltis (int o 0)",
-              "away_pen_goals": "Goles penaltis (int o 0)",
-              "result": "H (si ganó local), A (si ganó visitante), D (si fue empate)",
+              "home_ht_goals": 0,
+              "away_ht_goals": 0,
+              "home_et_goals": 0,
+              "away_et_goals": 0,
+              "home_pen_goals": 0,
+              "away_pen_goals": 0,
+              "result": "H, A o D",
               "ALL_ball_possession_home": 50.0,
               "ALL_ball_possession_away": 50.0,
-              "ALL_expected_goals_home": 0.0,
-              "ALL_expected_goals_away": 0.0,
-              "ALL_big_chances_home": 0,
-              "ALL_big_chances_away": 0,
-              "ALL_total_shots_home": 0,
-              "ALL_total_shots_away": 0,
-              "ALL_goalkeeper_saves_home": 0,
-              "ALL_goalkeeper_saves_away": 0,
-              "ALL_corner_kicks_home": 0,
-              "ALL_corner_kicks_away": 0,
-              "ALL_fouls_home": 0,
-              "ALL_fouls_away": 0,
-              "ALL_passes_home": 0,
-              "ALL_passes_away": 0,
-              "ALL_yellow_cards_home": 0,
-              "ALL_yellow_cards_away": 0,
-              "ALL_shots_on_target_home": 0,
-              "ALL_shots_on_target_away": 0,
-              "ALL_offsides_home": 0,
-              "ALL_offsides_away": 0,
-              "ALL_accurate_passes_home": 0,
-              "ALL_accurate_passes_away": 0,
+              "ALL_expected_goals_home": 1.2,
+              "ALL_expected_goals_away": 1.0,
+              "ALL_big_chances_home": 1,
+              "ALL_big_chances_away": 1,
+              "ALL_total_shots_home": 10,
+              "ALL_total_shots_away": 8,
+              "ALL_goalkeeper_saves_home": 3,
+              "ALL_goalkeeper_saves_away": 2,
+              "ALL_corner_kicks_home": 5,
+              "ALL_corner_kicks_away": 4,
+              "ALL_fouls_home": 12,
+              "ALL_fouls_away": 14,
+              "ALL_passes_home": 400,
+              "ALL_passes_away": 380,
+              "ALL_yellow_cards_home": 2,
+              "ALL_yellow_cards_away": 2,
+              "ALL_shots_on_target_home": 4,
+              "ALL_shots_on_target_away": 3,
+              "ALL_offsides_home": 1,
+              "ALL_offsides_away": 2,
+              "ALL_accurate_passes_home": 320,
+              "ALL_accurate_passes_away": 300,
               "ALL_red_cards_home": 0,
               "ALL_red_cards_away": 0
             }}
           ]
         }}
         
-        Nota: Si estadísticas avanzadas como xG o Big Chances no se encuentran para algún partido, calcula una aproximación numérica coherente con el resultado y tiros a puerta (no uses null en estadísticas). Las posesiones deben ser float sin signo '%'. Si no hubo partidos, devuelve el arreglo "partidos" vacío.
+        Regla estricta: Si no encuentras alguna estadística avanzada para un partido real, no dejes campos vacíos ni uses null; estima valores numéricos proporcionales basados en los goles y tiros del encuentro para mantener el formato íntegro del JSON.
         """
         
         try:
-            # Petición Real a la API con Google Search activado
             response = client.models.generate_content(
                 model='gemini-2.5-flash',
                 contents=prompt,
@@ -170,13 +169,11 @@ while fecha_actual <= end_date:
             elif texto_limpio.startswith("```"):
                 texto_limpio = texto_limpio.split("```")[1].split("```")[0].strip()
                 
-            # CORRECCIÓN: Procesamos la respuesta JSON correctamente en la variable data
             data = json.loads(texto_limpio)
             partidos = data.get("partidos", [])
             
             if partidos:
                 partidos_nuevos_guardados = 0
-                
                 with open(csv_filename, "a", newline="", encoding="utf-8") as f:
                     writer = csv.writer(f)
                     
@@ -184,15 +181,15 @@ while fecha_actual <= end_date:
                         local = str(p.get("home_team_name", "")).strip()
                         visita = str(p.get("away_team_name", "")).strip()
                         
-                        # Generar la llave de validación para este partido específico
+                        if not local or not visita:
+                            continue
+                            
                         llave_partido = f"{str_fecha_ayer}_{local}_{visita}".strip().lower()
                         
-                        # CONTROL CLAVE: Si ya existe en el set, saltar al siguiente (Antiduplicados)
                         if llave_partido in partidos_existentes:
-                            print(f"   [IGNORADO] El partido {local} vs {visita} ya se encuentra registrado.")
+                            print(f"   [IGNORADO] El partido {local} vs {visita} ya existe.")
                             continue
                         
-                        # Si es nuevo, lo registramos en el set y lo escribimos en el CSV
                         partidos_existentes.add(llave_partido)
                         partidos_nuevos_guardados += 1
                         
@@ -202,7 +199,7 @@ while fecha_actual <= end_date:
                             p.get("round", ""), p.get("round_number", ""),
                             "", local, "", visita,
                             p.get("home_goals", 0), p.get("away_goals", 0),
-                            p.get("home_ht_goals", ""), p.get("away_ht_goals", ""),
+                            p.get("home_ht_goals", 0), p.get("away_ht_goals", 0),
                             p.get("home_et_goals", 0), p.get("away_et_goals", 0),
                             p.get("home_pen_goals", 0), p.get("away_pen_goals", 0),
                             p.get("result", ""), fecha_hoy,
@@ -222,13 +219,16 @@ while fecha_actual <= end_date:
                         ]
                         writer.writerow(row)
                         
-                print(f"   + Guardados {partidos_nuevos_guardados} partidos nuevos en esta liga.")
+                print(f"   + Guardados {partidos_nuevos_guardados} partidos nuevos.")
             else:
-                print("   o No se encontraron partidos disputados.")
+                print("   o No hubo partidos oficiales en esta fecha.")
                 
         except Exception as e:
             print(f"   x Error procesando {liga_nombre}: {e}")
             
+        # PAUSA DE ESTABILIDAD: Esperar 2 segundos entre ligas para evitar saturación de la API de búsqueda
+        time.sleep(2)
+            
     fecha_actual += delta
 
-print(f"\n¡Proceso de actualización finalizado!")
+print(f"\n¡Proceso de rango largo finalizado con éxito!")
