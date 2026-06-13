@@ -1,11 +1,10 @@
 name: Automatización de Datos de Fútbol con Gemini
 
 on:
-  # 1. Permite ejecutar el script manualmente desde la pestaña "Actions" de GitHub
+  # Permite ejecutar el script manualmente desde la pestaña "Actions"
   workflow_dispatch:
   
-  # 2. Configura una tarea programada (Cron)
-  # Este ejemplo se ejecuta TODOS LOS DÍAS a las 00:00 UTC (Ajusta según prefieras)
+  # Se ejecuta automáticamente todos los días a las 00:00 UTC
   schedule:
     - cron: '0 0 * * *'
 
@@ -30,17 +29,17 @@ jobs:
         python -m pip install --upgrade pip
         pip install google-genai
 
-    # Paso D: Ejecutar el script inyectando la API KEY desde los secretos
+    # Paso D: Ejecutar el script inyectando la API KEY corregida
     - name: Ejecutar script de extracción
       env:
-        GEMINI_API_KEY: ${{ secrets::GEMINI_API_KEY }}
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }} # <-- Corregido aquí
       run: python script_futbol.py
 
-    # Paso E: Confirmar y subir los nuevos archivos generados al repositorio de GitHub
+    # Paso E: Confirmar y subir los nuevos archivos generados al repositorio
     - name: Guardar cambios en el repositorio
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add .
-        # Solo hace el commit si realmente hay archivos nuevos para evitar errores
+        # Solo hace el commit si hay archivos nuevos, evitando que falle el flujo si no hay cambios
         git diff --quiet && git diff --staged --quiet || (git commit -m "Actualización automática: Datos de partido recopilados" && git push)
