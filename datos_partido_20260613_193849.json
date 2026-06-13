@@ -1,0 +1,64 @@
+{
+    "partido": {
+        "equipo_local": "Atlético Nacional",
+        "equipo_visitante": "Junior FC",
+        "fecha": "08/06/2026",
+        "competicion": "Liga BetPlay I 2026 - Final (Vuelta)",
+        "estadio": "Atanasio Girardot",
+        "resultado": {
+            "equipo_local_goles": 1,
+            "equipo_visitante_goles": 0,
+            "resultado_global": "Junior FC ganó 3-1 en el global"
+        },
+        "goleadores": [
+            {
+                "jugador": "Edwin Cardona",
+                "equipo": "Atlético Nacional",
+                "minuto": 56,
+                "asistencia": "Andrés Sarmiento"
+            }
+        ],
+        "estadisticas": {
+            "posesion_balon": {
+                "equipo_local": "69%",
+                "equipo_visitante": "31%"
+            },
+            "remates_al_arco": {
+                "equipo_local": 4,
+                "equipo_visitante": 3
+            },
+            "faltas": {
+                "equipo_local": 6,
+                "equipo_visitante": 9
+            }
+        },
+        "alineaciones_titulares": {
+            "Atlético Nacional": [
+                "Castillo",
+                "Román",
+                "Haydar",
+                "Tesillo",
+                "Casco",
+                "Campuzano",
+                "Uribe",
+                "Rengifo",
+                "Rodríguez",
+                "Morelos",
+                "Sarmiento"
+            ],
+            "Junior FC": [
+                "Silveira",
+                "Guerrero",
+                "Peña",
+                "Rivera",
+                "Suárez",
+                "Ríos",
+                "Ángel",
+                "Sarmiento",
+                "Castrillón",
+                "Barrios",
+                "Muriel"
+            ]
+        }
+    }
+}
