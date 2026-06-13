@@ -38,7 +38,7 @@
                 },
                 {
                     "equipo_local": "Junior",
-                    "equipo_visitante": "Independiente Santa Fe",
+                    "equipo_visitante": "Santa Fe",
                     "goles_local": 0,
                     "goles_visitante": 0,
                     "estado": "Finalizado"
@@ -56,7 +56,7 @@
                     "estado": "Finalizado"
                 },
                 {
-                    "equipo_local": "Independiente Santa Fe",
+                    "equipo_local": "Santa Fe",
                     "equipo_visitante": "Junior",
                     "goles_local": 1,
                     "goles_visitante": 1,
@@ -75,16 +75,16 @@
                     "estado": "Finalizado"
                 },
                 {
-                    "equipo_local": "Deportivo Pasto",
-                    "equipo_visitante": "Deportes Tolima",
-                    "goles_local": 0,
-                    "goles_visitante": 2,
+                    "equipo_local": "Santa Fe",
+                    "equipo_visitante": "América de Cali",
+                    "goles_local": 4,
+                    "goles_visitante": 0,
                     "estado": "Finalizado"
                 },
                 {
-                    "equipo_local": "Independiente Santa Fe",
-                    "equipo_visitante": "América de Cali",
-                    "goles_local": 4,
+                    "equipo_local": "Deportes Tolima",
+                    "equipo_visitante": "Deportivo Pasto",
+                    "goles_local": 2,
                     "goles_visitante": 0,
                     "estado": "Finalizado"
                 },
@@ -108,15 +108,15 @@
                     "estado": "Finalizado"
                 },
                 {
-                    "equipo_local": "Deportes Tolima",
-                    "equipo_visitante": "Deportivo Pasto",
+                    "equipo_local": "Deportivo Pasto",
+                    "equipo_visitante": "Deportes Tolima",
                     "goles_local": 1,
                     "goles_visitante": 0,
                     "estado": "Finalizado"
                 },
                 {
                     "equipo_local": "América de Cali",
-                    "equipo_visitante": "Independiente Santa Fe",
+                    "equipo_visitante": "Santa Fe",
                     "goles_local": 1,
                     "goles_visitante": 1,
                     "estado": "Finalizado"
