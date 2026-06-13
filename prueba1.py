@@ -151,6 +151,13 @@ def generar_event_id(fecha, local, visita):
     # Genera un hash numérico consistente de 8 dígitos para emular los IDs de Sofascore
     return int(hashlib.md5(clave).hexdigest()[:8], 16) % 100000000
 
+# Función para formatear la posesión de balón igual que el resto del histórico (ej. "48%")
+def formatear_posesion(valor, default=50):
+    try:
+        return f"{int(round(float(valor)))}%"
+    except (ValueError, TypeError):
+        return f"{default}%"
+
 # 1. AUDITORÍA INTERNA DEL CSV EXISTENTE
 if os.path.exists(csv_filename):
     print(f"Iniciando auditoría interna de '{csv_filename}'...", flush=True)
@@ -191,7 +198,8 @@ if os.path.exists(csv_filename):
                         if liga in NOMBRES_LIGAS:
                             try:
                                 tiros = int(row[idx_shots])
-                                posesion = float(row[idx_poss])
+                                posesion_raw = str(row[idx_poss]).replace("%", "").strip()
+                                posesion = float(posesion_raw) if posesion_raw else 0.0
                                 if tiros == 0 or (posesion == 50.0 and tiros == 0) or posesion == 0:
                                     if fecha_str not in partidos_incompletos_por_fecha:
                                         partidos_incompletos_por_fecha[fecha_str] = []
@@ -284,8 +292,8 @@ if partidos_incompletos_por_fecha:
                             pos_fila = p_inc[3]
                             row_mod = filas_completas_csv[pos_fila]
                             
-                            row_mod[headers.index("ALL_ball_possession_home")] = pn.get("ALL_ball_possession_home", 50)
-                            row_mod[headers.index("ALL_ball_possession_away")] = pn.get("ALL_ball_possession_away", 50)
+                            row_mod[headers.index("ALL_ball_possession_home")] = formatear_posesion(pn.get("ALL_ball_possession_home", 50))
+                            row_mod[headers.index("ALL_ball_possession_away")] = formatear_posesion(pn.get("ALL_ball_possession_away", 50))
                             row_mod[headers.index("ALL_expected_goals_home")] = pn.get("ALL_expected_goals_home", 0.0)
                             row_mod[headers.index("ALL_expected_goals_away")] = pn.get("ALL_expected_goals_away", 0.0)
                             row_mod[headers.index("ALL_big_chances_home")] = pn.get("ALL_big_chances_home", 0)
@@ -485,7 +493,7 @@ while fecha_actual <= end_date:
                             p.get("home_et_goals", 0), p.get("away_et_goals", 0),
                             p.get("home_pen_goals", 0), p.get("away_pen_goals", 0),
                             p.get("result", ""), fecha_hoy_str,
-                            p.get("ALL_ball_possession_home", 50), p.get("ALL_ball_possession_away", 50),
+                            formatear_posesion(p.get("ALL_ball_possession_home", 50)), formatear_posesion(p.get("ALL_ball_possession_away", 50)),
                             p.get("ALL_expected_goals_home", 0.0), p.get("ALL_expected_goals_away", 0.0),
                             p.get("ALL_big_chances_home", 0), p.get("ALL_big_chances_away", 0),
                             p.get("ALL_total_shots_home", 0), p.get("ALL_total_shots_away", 0),
