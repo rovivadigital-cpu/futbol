@@ -1,45 +1,41 @@
 name: Automatización de Datos de Fútbol con Gemini
 
 on:
-  # Permite ejecutar el script manualmente desde la pestaña "Actions"
   workflow_dispatch:
-  
-  # Se ejecuta automáticamente todos los días a las 00:00 UTC
   schedule:
     - cron: '0 0 * * *'
 
 jobs:
   buscar-y-guardar:
     runs-on: ubuntu-latest
+    
+    # 1. AGREGA ESTAS DOS LÍNEAS AQUÍ:
+    permissions:
+      contents: write
 
     steps:
-    # Paso A: Descargar el código del repositorio
     - name: Checkout del repositorio
       uses: actions/checkout@v4
 
-    # Paso B: Configurar el entorno de Python
     - name: Configurar Python
       uses: actions/setup-python@v5
       with:
         python-version: '3.10'
 
-    # Paso C: Instalar la librería oficial de Gemini
     - name: Instalar dependencias
       run: |
         python -m pip install --upgrade pip
         pip install google-genai
 
-    # Paso D: Ejecutar el script inyectando la API KEY corregida
+    # Aquí dejamos tu inyección de secreto que ya quedó solucionada
     - name: Ejecutar script de extracción
       env:
-        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }} # <-- Corregido aquí
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       run: python prueba1.py
 
-    # Paso E: Confirmar y subir los nuevos archivos generados al repositorio
     - name: Guardar cambios en el repositorio
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add .
-        # Solo hace el commit si hay archivos nuevos, evitando que falle el flujo si no hay cambios
         git diff --quiet && git diff --staged --quiet || (git commit -m "Actualización automática: Datos de partido recopilados" && git push)
