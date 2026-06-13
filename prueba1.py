@@ -2,15 +2,17 @@ import os
 import json
 import csv
 import time
+import re
 from datetime import datetime, timedelta
 from google import genai
 from google.genai import types
+from google.genai.errors import APIError  # Para capturar el error de cuota
 
 # =====================================================================
-# CONFIGURACIÓN MANUAL DE RANGO DE FECHAS (RANGOS LARGOS)
+# CONFIGURACIÓN MANUAL DE RANGO DE FECHAS (SISTEMA CON ANTI-CUOTA)
 # =====================================================================
-FECHA_INICIO = '2026-01-01'  
-FECHA_FIN    = '2026-04-19'  
+FECHA_INICIO = '2026-02-01'  
+FECHA_FIN    = '2026-02-19'  
 csv_filename = "partidos_estadisticas_historico.csv"
 # =====================================================================
 
@@ -91,7 +93,6 @@ while fecha_actual <= end_date:
         liga_nombre = info["nombre"]
         pais_nombre = info["pais"]
         
-        # FILTRO DE SEGURIDAD: Evitar buscar liga colombiana a principios de Enero (No hay partidos oficiales)
         if pais_nombre == "Colombia" and mes_actual == 1 and fecha_actual.day < 15:
             print(f"-> Saltando {liga_nombre} (Sin actividad oficial a principios de enero)")
             continue
@@ -153,81 +154,107 @@ while fecha_actual <= end_date:
         Regla estricta: Si no encuentras alguna estadística avanzada para un partido real, no dejes campos vacíos ni uses null; estima valores numéricos proporcionales basados en los goles y tiros del encuentro para mantener el formato íntegro del JSON.
         """
         
-        try:
-            response = client.models.generate_content(
-                model='gemini-2.5-flash',
-                contents=prompt,
-                config=types.GenerateContentConfig(
-                    tools=[types.Tool(google_search=types.GoogleSearch())],
-                    temperature=0.1
+        # Bucle de reintentos inteligente para combatir el error 429
+        completado = False
+        intentos = 0
+        
+        while not completado and intentos < 5:
+            try:
+                response = client.models.generate_content(
+                    model='gemini-2.5-flash',
+                    contents=prompt,
+                    config=types.GenerateContentConfig(
+                        tools=[types.Tool(google_search=types.GoogleSearch())],
+                        temperature=0.1
+                    )
                 )
-            )
-            
-            texto_limpio = response.text.strip()
-            if texto_limpio.startswith("```json"):
-                texto_limpio = texto_limpio.split("```json")[1].split("```")[0].strip()
-            elif texto_limpio.startswith("```"):
-                texto_limpio = texto_limpio.split("```")[1].split("```")[0].strip()
                 
-            data = json.loads(texto_limpio)
-            partidos = data.get("partidos", [])
-            
-            if partidos:
-                partidos_nuevos_guardados = 0
-                with open(csv_filename, "a", newline="", encoding="utf-8") as f:
-                    writer = csv.writer(f)
+                texto_limpio = response.text.strip()
+                if texto_limpio.startswith("```json"):
+                    texto_limpio = texto_limpio.split("```json")[1].split("```")[0].strip()
+                elif texto_limpio.startswith("```"):
+                    texto_limpio = texto_limpio.split("```")[1].split("```")[0].strip()
                     
-                    for p in partidos:
-                        local = str(p.get("home_team_name", "")).strip()
-                        visita = str(p.get("away_team_name", "")).strip()
-                        
-                        if not local or not visita:
-                            continue
-                            
-                        llave_partido = f"{str_fecha_ayer}_{local}_{visita}".strip().lower()
-                        
-                        if llave_partido in partidos_existentes:
-                            print(f"   [IGNORADO] El partido {local} vs {visita} ya existe.")
-                            continue
-                        
-                        partidos_existentes.add(llave_partido)
-                        partidos_nuevos_guardados += 1
-                        
-                        row = [
-                            "", pais_nombre, liga_nombre, "", liga_nombre, 
-                            str_fecha_ayer[:4], str_fecha_ayer,
-                            p.get("round", ""), p.get("round_number", ""),
-                            "", local, "", visita,
-                            p.get("home_goals", 0), p.get("away_goals", 0),
-                            p.get("home_ht_goals", 0), p.get("away_ht_goals", 0),
-                            p.get("home_et_goals", 0), p.get("away_et_goals", 0),
-                            p.get("home_pen_goals", 0), p.get("away_pen_goals", 0),
-                            p.get("result", ""), fecha_hoy,
-                            p.get("ALL_ball_possession_home", 50), p.get("ALL_ball_possession_away", 50),
-                            p.get("ALL_expected_goals_home", 0.0), p.get("ALL_expected_goals_away", 0.0),
-                            p.get("ALL_big_chances_home", 0), p.get("ALL_big_chances_away", 0),
-                            p.get("ALL_total_shots_home", 0), p.get("ALL_total_shots_away", 0),
-                            p.get("ALL_goalkeeper_saves_home", 0), p.get("ALL_goalkeeper_saves_away", 0),
-                            p.get("ALL_corner_kicks_home", 0), p.get("ALL_corner_kicks_away", 0),
-                            p.get("ALL_fouls_home", 0), p.get("ALL_fouls_away", 0),
-                            p.get("ALL_passes_home", 0), p.get("ALL_passes_away", 0),
-                            p.get("ALL_yellow_cards_home", 0), p.get("ALL_yellow_cards_away", 0),
-                            p.get("ALL_shots_on_target_home", 0), p.get("ALL_shots_on_target_away", 0),
-                            p.get("ALL_offsides_home", 0), p.get("ALL_offsides_away", 0),
-                            p.get("ALL_accurate_passes_home", 0), p.get("ALL_accurate_passes_away", 0),
-                            p.get("ALL_red_cards_home", 0), p.get("ALL_red_cards_away", 0)
-                        ]
-                        writer.writerow(row)
-                        
-                print(f"   + Guardados {partidos_nuevos_guardados} partidos nuevos.")
-            else:
-                print("   o No hubo partidos oficiales en esta fecha.")
+                data = json.loads(texto_limpio)
+                partidos = data.get("partidos", [])
                 
-        except Exception as e:
-            print(f"   x Error procesando {liga_nombre}: {e}")
-            
-        # PAUSA DE ESTABILIDAD: Esperar 2 segundos entre ligas para evitar saturación de la API de búsqueda
-        time.sleep(2)
+                if partidos:
+                    partidos_nuevos_guardados = 0
+                    with open(csv_filename, "a", newline="", encoding="utf-8") as f:
+                        writer = csv.writer(f)
+                        
+                        for p in partidos:
+                            local = str(p.get("home_team_name", "")).strip()
+                            visita = str(p.get("away_team_name", "")).strip()
+                            
+                            if not local or not visita:
+                                continue
+                                
+                            llave_partido = f"{str_fecha_ayer}_{local}_{visita}".strip().lower()
+                            
+                            if llave_partido in partidos_existentes:
+                                print(f"   [IGNORADO] El partido {local} vs {visita} ya existe.")
+                                continue
+                            
+                            partidos_existentes.add(llave_partido)
+                            partidos_nuevos_guardados += 1
+                            
+                            row = [
+                                "", pais_nombre, liga_nombre, "", liga_nombre, 
+                                str_fecha_ayer[:4], str_fecha_ayer,
+                                p.get("round", ""), p.get("round_number", ""),
+                                "", local, "", visita,
+                                p.get("home_goals", 0), p.get("away_goals", 0),
+                                p.get("home_ht_goals", 0), p.get("away_ht_goals", 0),
+                                p.get("home_et_goals", 0), p.get("away_et_goals", 0),
+                                p.get("home_pen_goals", 0), p.get("away_pen_goals", 0),
+                                p.get("result", ""), fecha_hoy,
+                                p.get("ALL_ball_possession_home", 50), p.get("ALL_ball_possession_away", 50),
+                                p.get("ALL_expected_goals_home", 0.0), p.get("ALL_expected_goals_away", 0.0),
+                                p.get("ALL_big_chances_home", 0), p.get("ALL_big_chances_away", 0),
+                                p.get("ALL_total_shots_home", 0), p.get("ALL_total_shots_away", 0),
+                                p.get("ALL_goalkeeper_saves_home", 0), p.get("ALL_goalkeeper_saves_away", 0),
+                                p.get("ALL_corner_kicks_home", 0), p.get("ALL_corner_kicks_away", 0),
+                                p.get("ALL_fouls_home", 0), p.get("ALL_fouls_away", 0),
+                                p.get("ALL_passes_home", 0), p.get("ALL_passes_away", 0),
+                                p.get("ALL_yellow_cards_home", 0), p.get("ALL_yellow_cards_away", 0),
+                                p.get("ALL_shots_on_target_home", 0), p.get("ALL_shots_on_target_away", 0),
+                                p.get("ALL_offsides_home", 0), p.get("ALL_offsides_away", 0),
+                                p.get("ALL_accurate_passes_home", 0), p.get("ALL_accurate_passes_away", 0),
+                                p.get("ALL_red_cards_home", 0), p.get("ALL_red_cards_away", 0)
+                            ]
+                            writer.writerow(row)
+                            
+                    print(f"   + Guardados {partidos_nuevos_guardados} partidos nuevos.")
+                else:
+                    print("   o No hubo partidos oficiales en esta fecha.")
+                
+                completado = True # Petición exitosa, sale del bucle de reintentos
+                
+            except APIError as api_err:
+                intentos += 1
+                mensaje_error = str(api_err)
+                
+                # Detectar si el error es de cuota/límite de velocidad (429)
+                if "429" in mensaje_error or "RESOURCE_EXHAUSTED" in mensaje_error:
+                    # Intentar extraer los segundos de espera que pide Google usando regex
+                    segundos_espera = 20 # Tiempo por defecto
+                    match = re.search(r"retry in (\d+\.\d+)s", mensaje_error)
+                    if match:
+                        segundos_espera = int(float(match.group(1))) + 2 # Sumar 2 segundos de margen de seguridad
+                        
+                    print(f"   ⚠️ Límite de cuota alcanzado (429). Esperando {segundos_espera} segundos para continuar...")
+                    time.sleep(segundos_espera)
+                else:
+                    print(f"   x Error crítico de API en {liga_nombre}: {api_err}")
+                    completado = True # Romper para no encallarse en errores desconocidos
+                    
+            except Exception as e:
+                print(f"   x Error inesperado procesando {liga_nombre}: {e}")
+                completado = True
+                
+        # Una pequeña pausa fija básica entre ligas para optimizar la cuota general
+        time.sleep(3)
             
     fecha_actual += delta
 
