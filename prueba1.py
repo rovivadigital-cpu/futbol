@@ -11,7 +11,7 @@ from google.genai import types
 # Define desde qué día hasta qué día quieres extraer información histórica.
 # Formato: 'AAAA-MM-DD'
 FECHA_INICIO = '2026-01-01'  
-FECHA_FIN    = '2026-01-19'  
+FECHA_FIN    = '2026-04-19'  
 csv_filename = "partidos_estadisticas_historico.csv"
 # =====================================================================
 
