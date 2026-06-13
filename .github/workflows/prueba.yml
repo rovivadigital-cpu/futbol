@@ -34,7 +34,7 @@ jobs:
     - name: Ejecutar script de extracción
       env:
         GEMINI_API_KEY: ${{ secrets::GEMINI_API_KEY }}
-      run: python prueba1.py
+      run: python script_futbol.py
 
     # Paso E: Confirmar y subir los nuevos archivos generados al repositorio de GitHub
     - name: Guardar cambios en el repositorio
