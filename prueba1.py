@@ -12,7 +12,7 @@ from google.genai.errors import APIError  # Para capturar el error de cuota
 # CONFIGURACIÓN MANUAL DE RANGO DE FECHAS (SISTEMA CON ANTI-CUOTA)
 # =====================================================================
 FECHA_INICIO = '2026-02-01'  
-FECHA_FIN    = '2026-02-19'  
+FECHA_FIN    = '2026-02-01'  
 csv_filename = "partidos_estadisticas_historico.csv"
 # =====================================================================
 
