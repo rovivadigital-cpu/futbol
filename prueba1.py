@@ -201,6 +201,14 @@ if os.path.exists(csv_filename):
             except ValueError:
                 print("Error: El formato de los encabezados del CSV no es válido.", flush=True)
 
+# Acotar la reparación SOLO a la última fecha registrada en el CSV
+if ultima_fecha_registrada and partidos_incompletos_por_fecha:
+    ultima_fecha_str = ultima_fecha_registrada.strftime('%Y-%m-%d')
+    partidos_incompletos_por_fecha = {
+        k: v for k, v in partidos_incompletos_por_fecha.items()
+        if k == ultima_fecha_str
+    }
+
 # 2. PROCESO DE CONTROL DE LLAMADAS A LA API DE GEMINI
 api_key = os.environ.get("GEMINI_API_KEY")
 if not api_key:
@@ -209,11 +217,12 @@ client = genai.Client(api_key=api_key)
 fecha_hoy_str = datetime.now().strftime('%Y-%m-%d')
 
 # =====================================================================
-# FASE A: REESCRITURA Y REPARACIÓN DE PARTIDOS SIN DATOS (HISTÓRICO)
+# FASE A: REESCRITURA Y REPARACIÓN DE PARTIDOS SIN DATOS (SOLO ÚLTIMA FECHA)
 # =====================================================================
+reparacion_abortada = False
 if partidos_incompletos_por_fecha:
     total_huecos = sum(len(v) for v in partidos_incompletos_por_fecha.values())
-    print(f"\n[AUDITORÍA] Se encontraron {total_huecos} partidos sin estadísticas o incompletos en el pasado.", flush=True)
+    print(f"\n[AUDITORÍA] Se encontraron {total_huecos} partidos sin estadísticas o incompletos en la última fecha registrada.", flush=True)
     print("-> Iniciando fase de reparación prioritaria...", flush=True)
     
     for fecha_inc, partidos_lista in list(partidos_incompletos_por_fecha.items()):
@@ -312,13 +321,17 @@ if partidos_incompletos_por_fecha:
             except Exception as e:
                 mensaje = str(e)
                 if "429" in mensaje or "RESOURCE_EXHAUSTED" in mensaje:
-                    print("\n   ⚠️ Cuota agotada durante fase de reparación. Saliendo...", flush=True)
-                    sys.exit(0)
-                print(f"   x No se pudo parchar el bloque: {e}", flush=True)
+                    print("\n   ⚠️ Cuota agotada durante fase de reparación. No se pudo actualizar este bloque, abortando reparación y pasando a la descarga de nuevos partidos...", flush=True)
+                    reparacion_abortada = True
+                    break
+                print(f"   x No se pudo parchar el bloque: {e}. Continuando con el siguiente...", flush=True)
             
             time.sleep(8)
+        
+        if reparacion_abortada:
+            break
 else:
-    print("[AUDITORÍA] ¡Excelente! No se encontraron partidos con datos vacíos en tu historial.", flush=True)
+    print("[AUDITORÍA] ¡Excelente! No se encontraron partidos con datos vacíos en la última fecha registrada.", flush=True)
 
 # =====================================================================
 # FASE B: CONTINUACIÓN DE EXTRACCIÓN AVANZANDO HACIA EL FUTURO
@@ -361,6 +374,7 @@ LIGAS_ACTUALIZAR = {
     23: {"nombre": "Serie A", "pais": "Italy"}
 }
 
+cuota_agotada_b = False
 fecha_actual = start_date
 while fecha_actual <= end_date:
     fecha_fin_semana = fecha_actual + timedelta(days=6)
@@ -493,11 +507,15 @@ while fecha_actual <= end_date:
         except Exception as e:
             mensaje = str(e)
             if "429" in mensaje or "RESOURCE_EXHAUSTED" in mensaje:
-                print("\n   ⚠️ [CUOTA LIMITADA] Saliendo para proteger el flujo.", flush=True)
-                sys.exit(0)
+                print("\n   ⚠️ [CUOTA LIMITADA] Deteniendo la descarga para proteger el flujo. Se continuará desde aquí en la próxima ejecución.", flush=True)
+                cuota_agotada_b = True
+                break
             print(f"   x Error en bloque: Avanzando.", flush=True)
                 
         time.sleep(8)
+    
+    if cuota_agotada_b:
+        break
             
     fecha_actual += timedelta(days=7)
 
