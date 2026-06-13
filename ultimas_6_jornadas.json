@@ -3,366 +3,128 @@
     "jornadas_analizadas": 6,
     "historial": [
         {
-            "numero_jornada": "Jornada 19",
+            "numero_jornada": "Final - Vuelta",
             "partidos": [
                 {
-                    "equipo_local": "Boyacá Chicó",
-                    "equipo_visitante": "Llaneros FC",
+                    "equipo_local": "Atlético Nacional",
+                    "equipo_visitante": "Junior",
+                    "goles_local": 1,
+                    "goles_visitante": 0,
+                    "estado": "Finalizado"
+                }
+            ]
+        },
+        {
+            "numero_jornada": "Final - Ida",
+            "partidos": [
+                {
+                    "equipo_local": "Junior",
+                    "equipo_visitante": "Atlético Nacional",
                     "goles_local": 3,
                     "goles_visitante": 0,
                     "estado": "Finalizado"
+                }
+            ]
+        },
+        {
+            "numero_jornada": "Semifinales - Vuelta",
+            "partidos": [
+                {
+                    "equipo_local": "Atlético Nacional",
+                    "equipo_visitante": "Deportes Tolima",
+                    "goles_local": 3,
+                    "goles_visitante": 1,
+                    "estado": "Finalizado"
                 },
                 {
-                    "equipo_local": "Jaguares FC",
-                    "equipo_visitante": "Cúcuta Deportivo",
-                    "goles_local": 2,
+                    "equipo_local": "Junior",
+                    "equipo_visitante": "Independiente Santa Fe",
+                    "goles_local": 0,
                     "goles_visitante": 0,
                     "estado": "Finalizado"
-                },
+                }
+            ]
+        },
+        {
+            "numero_jornada": "Semifinales - Ida",
+            "partidos": [
                 {
-                    "equipo_local": "Alianza FC",
-                    "equipo_visitante": "Millonarios FC",
-                    "goles_local": 2,
-                    "goles_visitante": 2,
+                    "equipo_local": "Deportes Tolima",
+                    "equipo_visitante": "Atlético Nacional",
+                    "goles_local": 0,
+                    "goles_visitante": 1,
                     "estado": "Finalizado"
                 },
                 {
-                    "equipo_local": "Fortaleza FC",
-                    "equipo_visitante": "Atlético Bucaramanga",
-                    "goles_local": 2,
-                    "goles_visitante": 0,
+                    "equipo_local": "Independiente Santa Fe",
+                    "equipo_visitante": "Junior",
+                    "goles_local": 1,
+                    "goles_visitante": 1,
+                    "estado": "Finalizado"
+                }
+            ]
+        },
+        {
+            "numero_jornada": "Cuartos de Final - Vuelta",
+            "partidos": [
+                {
+                    "equipo_local": "Atlético Nacional",
+                    "equipo_visitante": "Internacional de Bogotá",
+                    "goles_local": 7,
+                    "goles_visitante": 1,
                     "estado": "Finalizado"
                 },
                 {
-                    "equipo_local": "Independiente Medellín",
-                    "equipo_visitante": "Águilas Doradas",
+                    "equipo_local": "Deportivo Pasto",
+                    "equipo_visitante": "Deportes Tolima",
                     "goles_local": 0,
                     "goles_visitante": 2,
                     "estado": "Finalizado"
                 },
                 {
                     "equipo_local": "Independiente Santa Fe",
-                    "equipo_visitante": "Internacional de Bogotá",
-                    "goles_local": 3,
-                    "goles_visitante": 1,
-                    "estado": "Finalizado"
-                },
-                {
-                    "equipo_local": "Deportes Tolima",
-                    "equipo_visitante": "Deportivo Cali",
-                    "goles_local": 1,
-                    "goles_visitante": 1,
-                    "estado": "Finalizado"
-                },
-                {
-                    "equipo_local": "Junior FC",
-                    "equipo_visitante": "Deportivo Pasto",
-                    "goles_local": null,
-                    "goles_visitante": null,
-                    "estado": "Finalizado"
-                }
-            ]
-        },
-        {
-            "numero_jornada": "Jornada 18",
-            "partidos": [
-                {
-                    "equipo_local": "Deportivo Pasto",
-                    "equipo_visitante": "Independiente Santa Fe",
-                    "goles_local": 1,
-                    "goles_visitante": 2,
-                    "estado": "Finalizado"
-                },
-                {
-                    "equipo_local": "Millonarios FC",
-                    "equipo_visitante": "Deportes Tolima",
-                    "goles_local": 2,
-                    "goles_visitante": 0,
-                    "estado": "Finalizado"
-                },
-                {
-                    "equipo_local": "Llaneros FC",
-                    "equipo_visitante": "Alianza FC",
-                    "goles_local": 0,
-                    "goles_visitante": 0,
-                    "estado": "Finalizado"
-                },
-                {
-                    "equipo_local": "Internacional de Bogotá",
-                    "equipo_visitante": "Boyacá Chicó",
+                    "equipo_visitante": "América de Cali",
                     "goles_local": 4,
                     "goles_visitante": 0,
                     "estado": "Finalizado"
                 },
                 {
-                    "equipo_local": "Atlético Bucaramanga",
-                    "equipo_visitante": "Jaguares FC",
-                    "goles_local": 2,
-                    "goles_visitante": 2,
-                    "estado": "Finalizado"
-                },
-                {
-                    "equipo_local": "Deportivo Pereira",
-                    "equipo_visitante": "Atlético Nacional",
-                    "goles_local": 1,
-                    "goles_visitante": 0,
-                    "estado": "Finalizado"
-                },
-                {
-                    "equipo_local": "Deportivo Cali",
-                    "equipo_visitante": "América de Cali",
-                    "goles_local": 1,
-                    "goles_visitante": 0,
-                    "estado": "Finalizado"
-                },
-                {
-                    "equipo_local": "Águilas Doradas",
+                    "equipo_local": "Junior",
                     "equipo_visitante": "Once Caldas",
                     "goles_local": 2,
                     "goles_visitante": 2,
-                    "estado": "Finalizado"
-                },
-                {
-                    "equipo_local": "Junior FC",
-                    "equipo_visitante": "Cúcuta Deportivo",
-                    "goles_local": null,
-                    "goles_visitante": null,
-                    "estado": "Finalizado"
-                },
-                {
-                    "equipo_local": "Independiente Medellín",
-                    "equipo_visitante": "Fortaleza FC",
-                    "goles_local": null,
-                    "goles_visitante": null,
                     "estado": "Finalizado"
                 }
             ]
         },
         {
-            "numero_jornada": "Jornada 17",
+            "numero_jornada": "Cuartos de Final - Ida",
             "partidos": [
                 {
-                    "equipo_local": "Once Caldas",
-                    "equipo_visitante": "Internacional de Bogotá",
-                    "goles_local": 2,
-                    "goles_visitante": 1,
+                    "equipo_local": "Internacional de Bogotá",
+                    "equipo_visitante": "Atlético Nacional",
+                    "goles_local": 1,
+                    "goles_visitante": 2,
                     "estado": "Finalizado"
                 },
                 {
-                    "equipo_local": "Atlético Nacional",
-                    "equipo_visitante": "Atlético Bucaramanga",
-                    "goles_local": 2,
+                    "equipo_local": "Deportes Tolima",
+                    "equipo_visitante": "Deportivo Pasto",
+                    "goles_local": 1,
                     "goles_visitante": 0,
-                    "estado": "Finalizado"
-                },
-                {
-                    "equipo_local": "Junior FC",
-                    "equipo_visitante": "Llaneros FC",
-                    "goles_local": 2,
-                    "goles_visitante": 0,
-                    "estado": "Finalizado"
-                },
-                {
-                    "equipo_local": "Independiente Santa Fe",
-                    "equipo_visitante": "Cúcuta Deportivo",
-                    "goles_local": 5,
-                    "goles_visitante": 0,
-                    "estado": "Finalizado"
-                },
-                {
-                    "equipo_local": "Alianza FC",
-                    "equipo_visitante": "Independiente Medellín",
-                    "goles_local": 0,
-                    "goles_visitante": 1,
                     "estado": "Finalizado"
                 },
                 {
                     "equipo_local": "América de Cali",
-                    "equipo_visitante": "Millonarios FC",
-                    "goles_local": 3,
-                    "goles_visitante": 1,
-                    "estado": "Finalizado"
-                },
-                {
-                    "equipo_local": "Deportes Tolima",
-                    "equipo_visitante": "Deportivo Pereira",
-                    "goles_local": 2,
-                    "goles_visitante": 0,
-                    "estado": "Finalizado"
-                },
-                {
-                    "equipo_local": "Fortaleza FC",
-                    "equipo_visitante": "Águilas Doradas",
-                    "goles_local": null,
-                    "goles_visitante": null,
-                    "estado": "Finalizado"
-                }
-            ]
-        },
-        {
-            "numero_jornada": "Jornada 16",
-            "partidos": [
-                {
-                    "equipo_local": "Deportivo Pereira",
-                    "equipo_visitante": "Once Caldas",
-                    "goles_local": 0,
-                    "goles_visitante": 0,
-                    "estado": "Finalizado"
-                },
-                {
-                    "equipo_local": "Deportivo Pasto",
-                    "equipo_visitante": "Deportes Tolima",
-                    "goles_local": 1,
-                    "goles_visitante": 0,
-                    "estado": "Finalizado"
-                },
-                {
-                    "equipo_local": "Independiente Medellín",
-                    "equipo_visitante": "Atlético Nacional",
-                    "goles_local": 2,
-                    "goles_visitante": 3,
-                    "estado": "Finalizado"
-                },
-                {
-                    "equipo_local": "Junior FC",
-                    "equipo_visitante": "Águilas Doradas",
-                    "goles_local": 3,
-                    "goles_visitante": 0,
-                    "estado": "Finalizado"
-                },
-                {
-                    "equipo_local": "Atlético Bucaramanga",
-                    "equipo_visitante": "Boyacá Chicó",
-                    "goles_local": 5,
-                    "goles_visitante": 0,
-                    "estado": "Finalizado"
-                },
-                {
-                    "equipo_local": "Independiente Santa Fe",
-                    "equipo_visitante": "Millonarios FC",
+                    "equipo_visitante": "Independiente Santa Fe",
                     "goles_local": 1,
                     "goles_visitante": 1,
-                    "estado": "Finalizado"
-                },
-                {
-                    "equipo_local": "Fortaleza FC",
-                    "equipo_visitante": "Deportivo Cali",
-                    "goles_local": 1,
-                    "goles_visitante": 1,
-                    "estado": "Finalizado"
-                },
-                {
-                    "equipo_local": "Internacional de Bogotá",
-                    "equipo_visitante": "Alianza FC",
-                    "goles_local": 2,
-                    "goles_visitante": 1,
-                    "estado": "Finalizado"
-                }
-            ]
-        },
-        {
-            "numero_jornada": "Jornada 15",
-            "partidos": [
-                {
-                    "equipo_local": "Fortaleza FC",
-                    "equipo_visitante": "Internacional de Bogotá",
-                    "goles_local": 1,
-                    "goles_visitante": 1,
-                    "estado": "Finalizado"
-                },
-                {
-                    "equipo_local": "Junior FC",
-                    "equipo_visitante": "Deportivo Cali",
-                    "goles_local": 1,
-                    "goles_visitante": 2,
-                    "estado": "Finalizado"
-                },
-                {
-                    "equipo_local": "Jaguares FC",
-                    "equipo_visitante": "Millonarios FC",
-                    "goles_local": 1,
-                    "goles_visitante": 0,
                     "estado": "Finalizado"
                 },
                 {
                     "equipo_local": "Once Caldas",
-                    "equipo_visitante": "Independiente Medellín",
-                    "goles_local": 1,
-                    "goles_visitante": 1,
-                    "estado": "Finalizado"
-                },
-                {
-                    "equipo_local": "Deportes Tolima",
-                    "equipo_visitante": "Águilas Doradas",
-                    "goles_local": null,
-                    "goles_visitante": null,
-                    "estado": "Finalizado"
-                },
-                {
-                    "equipo_local": "Alianza FC",
-                    "equipo_visitante": "Deportivo Pasto",
-                    "goles_local": null,
-                    "goles_visitante": null,
-                    "estado": "Finalizado"
-                },
-                {
-                    "equipo_local": "Independiente Santa Fe",
-                    "equipo_visitante": "Llaneros FC",
-                    "goles_local": null,
-                    "goles_visitante": null,
-                    "estado": "Finalizado"
-                },
-                {
-                    "equipo_local": "Atlético Nacional",
-                    "equipo_visitante": "Cúcuta Deportivo",
-                    "goles_local": null,
-                    "goles_visitante": null,
-                    "estado": "Finalizado"
-                }
-            ]
-        },
-        {
-            "numero_jornada": "Jornada 14",
-            "partidos": [
-                {
-                    "equipo_local": "Internacional de Bogotá",
-                    "equipo_visitante": "Junior FC",
+                    "equipo_visitante": "Junior",
                     "goles_local": 0,
-                    "goles_visitante": 1,
-                    "estado": "Finalizado"
-                },
-                {
-                    "equipo_local": "Deportivo Pasto",
-                    "equipo_visitante": "Atlético Nacional",
-                    "goles_local": 1,
-                    "goles_visitante": 2,
-                    "estado": "Finalizado"
-                },
-                {
-                    "equipo_local": "Águilas Doradas",
-                    "equipo_visitante": "Alianza FC",
-                    "goles_local": 1,
-                    "goles_visitante": 0,
-                    "estado": "Finalizado"
-                },
-                {
-                    "equipo_local": "Atlético Bucaramanga",
-                    "equipo_visitante": "Independiente Santa Fe",
-                    "goles_local": 1,
-                    "goles_visitante": 2,
-                    "estado": "Finalizado"
-                },
-                {
-                    "equipo_local": "Millonarios FC",
-                    "equipo_visitante": "Fortaleza FC",
-                    "goles_local": 2,
-                    "goles_visitante": 2,
-                    "estado": "Finalizado"
-                },
-                {
-                    "equipo_local": "Independiente Medellín",
-                    "equipo_visitante": "América de Cali",
-                    "goles_local": 2,
                     "goles_visitante": 1,
                     "estado": "Finalizado"
                 }
