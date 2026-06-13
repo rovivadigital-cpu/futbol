@@ -9,8 +9,8 @@ from google.genai import types
 # =====================================================================
 # CONFIGURACIÓN MANUAL DE RANGO DE FECHAS (VERSIÓN AUTO-FLUSH)
 # =====================================================================
-FECHA_INICIO = '2026-01-01'  
-FECHA_FIN    = '2026-04-19'  
+FECHA_INICIO = '2026-02-01'  
+FECHA_FIN    = '2026-02-19'  
 csv_filename = "partidos_estadisticas_historico.csv"
 # =====================================================================
 
