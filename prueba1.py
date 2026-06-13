@@ -8,7 +8,7 @@ from google.genai import types
 # =====================================================================
 # CONFIGURACIÓN MANUAL DE RANGO DE FECHAS
 # =====================================================================
-FECHA_INICIO = '2026-05-01'  
+FECHA_INICIO = '2026-01-01'  
 FECHA_FIN    = '2026-05-03'  
 csv_filename = "partidos_estadisticas_historico.csv"
 # =====================================================================
