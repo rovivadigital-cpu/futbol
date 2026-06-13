@@ -7,7 +7,7 @@ from google import genai
 from google.genai import types
 
 # =====================================================================
-# CONFIGURACIÓN MANUAL DE RANGO DE FECHAS (VERSIÓN PARA AUTOMATIZACIÓN)
+# CONFIGURACIÓN MANUAL DE RANGO DE FECHAS (VERSIÓN AUTO-FLUSH)
 # =====================================================================
 FECHA_INICIO = '2026-01-01'  
 FECHA_FIN    = '2026-04-19'  
@@ -18,7 +18,7 @@ csv_filename = "partidos_estadisticas_historico.csv"
 partidos_existentes = set()
 
 if os.path.exists(csv_filename):
-    print(f"Leyendo '{csv_filename}' existente para evitar duplicados...")
+    print(f"Leyendo '{csv_filename}' existente para evitar duplicados...", flush=True)
     with open(csv_filename, "r", encoding="utf-8") as f:
         reader = csv.reader(f)
         header = next(reader, None)
@@ -33,9 +33,9 @@ if os.path.exists(csv_filename):
                         llave = f"{row[idx_fecha]}_{row[idx_local]}_{row[idx_visita]}".strip().lower()
                         partidos_existentes.add(llave)
             except ValueError:
-                print("Aviso: El CSV existente no tiene el formato esperado.")
+                print("Aviso: El CSV existente no tiene el formato esperado.", flush=True)
 
-print(f"-> Se encontraron {len(partidos_existentes)} partidos registrados previamente.\n")
+print(f"-> Se encontraron {len(partidos_existentes)} partidos registrados previamente.\n", flush=True)
 
 if not os.path.exists(csv_filename):
     ENCABEZADOS_CSV = [
@@ -84,19 +84,19 @@ while fecha_actual <= end_date:
     str_fecha_ayer = fecha_actual.strftime('%Y-%m-%d')
     mes_actual = fecha_actual.month
     
-    print(f"\n==================================================")
-    print(f" PROCESANDO FECHA: {str_fecha_ayer}")
-    print(f"==================================================")
+    print(f"\n==================================================", flush=True)
+    print(f" PROCESANDO FECHA: {str_fecha_ayer}", flush=True)
+    print(f"==================================================", flush=True)
     
     for tor_id, info in TORNEOS_IDS.items():
         liga_nombre = info["nombre"]
         pais_nombre = info["pais"]
         
         if pais_nombre == "Colombia" and mes_actual == 1 and fecha_actual.day < 15:
-            print(f"-> Saltando {liga_nombre} (Sin actividad oficial a principios de enero)")
+            print(f"-> Saltando {liga_nombre} (Sin actividad oficial a principios de enero)", flush=True)
             continue
             
-        print(f"-> Buscando partidos de: {liga_nombre} ({pais_nombre})...")
+        print(f"-> Buscando partidos de: {liga_nombre} ({pais_nombre})...", flush=True)
         
         prompt = f"""
         Busca en la web los partidos oficiales de fútbol de la liga '{liga_nombre}' ({pais_nombre}) que finalizaron el día {str_fecha_ayer}.
@@ -128,9 +128,6 @@ while fecha_actual <= end_date:
         """
         
         try:
-            # OPTIMIZACIÓN ENTORNO SERVER: Añadimos un timeout directo en la llamada de generación
-            # Nota: Si tu entorno soporta la especificación de timeout directo en http_options, puedes usarla.
-            # En caso de no responder en 25 segundos, el script saltará al except para no congelar el flujo de GitHub.
             config_llamada = types.GenerateContentConfig(
                 tools=[types.Tool(google_search=types.GoogleSearch())],
                 temperature=0.1
@@ -166,7 +163,7 @@ while fecha_actual <= end_date:
                         llave_partido = f"{str_fecha_ayer}_{local}_{visita}".strip().lower()
                         
                         if llave_partido in partidos_existentes:
-                            print(f"   [IGNORADO] {local} vs {visita} ya existe.")
+                            print(f"   [IGNORADO] {local} vs {visita} ya existe.", flush=True)
                             continue
                         
                         partidos_existentes.add(llave_partido)
@@ -198,21 +195,20 @@ while fecha_actual <= end_date:
                         ]
                         writer.writerow(row)
                         
-                print(f"   + Guardados {partidos_nuevos_guardados} partidos nuevos.")
+                print(f"   + Guardados {partidos_nuevos_guardados} partidos nuevos.", flush=True)
             else:
-                print("   o No hubo partidos oficiales en esta fecha.")
+                print("   o No hubo partidos oficiales en esta fecha.", flush=True)
                 
         except Exception as e:
             mensaje = str(e)
             if "429" in mensaje or "RESOURCE_EXHAUSTED" in mensaje:
-                print("   ⚠️ Alerta de Cuota (429). Esperando 30 segundos obligatorios antes del siguiente bloque...")
+                print("   ⚠️ Alerta de Cuota (429). Esperando 30 segundos obligatorios...", flush=True)
                 time.sleep(30)
             else:
-                print(f"   x Error/Timeout en {liga_nombre}: Pasando a la siguiente consulta para no congelar el Job.")
+                print(f"   x Error/Timeout en {liga_nombre}: Pasando a la siguiente consulta.", flush=True)
                 
-        # Pausa fija prudente entre peticiones consecutivas
         time.sleep(4)
             
     fecha_actual += delta
 
-print(f"\n¡Proceso finalizado limpia y rápidamente!")
+print(f"\n¡Proceso finalizado limpia y rápidamente!", flush=True)
