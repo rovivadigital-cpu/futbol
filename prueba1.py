@@ -6,7 +6,7 @@ from google import genai
 from google.genai import types
 
 # 1. Configuración de Fechas (Ayer)
-fecha_ayer = (datetime.now() - timedelta(days=1)).strftime('%Y-%m-%d')
+fecha_ayer = '2026-06-01'
 fecha_hoy = datetime.now().strftime('%Y-%m-%d')
 
 # 2. Inicializar Cliente Gemini
