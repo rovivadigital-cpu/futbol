@@ -286,6 +286,11 @@ def llamar_gemini_json(prompt):
     elif texto_limpio.startswith("```"):
         texto_limpio = texto_limpio.split("```")[1].split("```")[0].strip()
 
+    if not texto_limpio:
+        # El modelo devolvió un bloque ```json``` vacío (típico cuando no hay
+        # partidos para reportar). Lo tratamos como "sin datos" en vez de error.
+        return {}
+
     return json.loads(texto_limpio)
 
 # =====================================================================
