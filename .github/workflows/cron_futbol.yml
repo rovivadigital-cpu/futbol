@@ -1,4 +1,4 @@
-name: Automatización de Datos de Fútbol con Gemini
+name: Automatización de Jornada de Fútbol con Gemini
 
 on:
   workflow_dispatch:
