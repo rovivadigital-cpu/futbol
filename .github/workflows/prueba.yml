@@ -1,4 +1,4 @@
-name: Automatización de Datos de Fútbol con Gemini
+name: Fallo de Datos de Fútbol con Gemini
 
 on:
   # 1. Permite ejecutar el script manualmente desde la pestaña "Actions" de GitHub
