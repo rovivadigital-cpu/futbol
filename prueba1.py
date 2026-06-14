@@ -225,11 +225,18 @@ client = genai.Client(api_key=api_key)
 fecha_hoy_str = datetime.now().strftime('%Y-%m-%d')
 
 # =====================================================================
+# MODELO A USAR
+# (gemini-2.5-flash-lite tiene un cupo diario propio, separado del de
+#  gemini-2.5-flash, así que si uno se agota puedes alternar aquí)
+# =====================================================================
+MODEL_NAME = "gemini-2.5-flash-lite"
+
+# =====================================================================
 # CONTROL DE LLAMADAS POR CORRIDA
 # (para repartir la cuota diaria de Gemini entre varias ejecuciones del cron
 #  y no agotarla toda de un solo golpe)
 # =====================================================================
-MAX_LLAMADAS_POR_CORRIDA = 20  # Ajusta este número según la frecuencia de tu cron
+MAX_LLAMADAS_POR_CORRIDA = 10  # Ajusta este número según la frecuencia de tu cron
 llamadas_realizadas = 0
 
 def limite_alcanzado():
@@ -260,7 +267,7 @@ def llamar_gemini_json(prompt):
         thinking_config=types.ThinkingConfig(thinking_budget=0)
     )
     response = client.models.generate_content(
-        model='gemini-2.5-flash', contents=prompt, config=config_llamada
+        model=MODEL_NAME, contents=prompt, config=config_llamada
     )
 
     texto_limpio = (response.text or "").strip()
