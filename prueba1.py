@@ -432,6 +432,12 @@ FECHA_INICIO_DEFAULT = datetime.strptime('2026-01-01', '%Y-%m-%d')
 # estadísticas listas aún, o que simplemente no se encontraron).
 DIAS_RETROCESO = 2
 
+# Cuántos bloques semanales como máximo se procesan por liga en cada turno.
+# Evita que una sola liga con mucho atraso (ej. backlog desde enero) se
+# coma todo el cupo de la corrida y deje a las demás ligas del turno sin
+# revisar. El resto del atraso se sigue cubriendo en próximos turnos.
+MAX_SEMANAS_POR_LIGA = 2
+
 print(f"\n-> Fase de continuación: cada liga avanzará desde {DIAS_RETROCESO} día(s) antes de su último "
       f"partido registrado hasta hoy ({end_date.strftime('%Y-%m-%d')}).", flush=True)
 
@@ -520,7 +526,12 @@ for tor_id, info in LIGAS_ACTUALIZAR.items():
     print(f"==================================================", flush=True)
 
     fecha_actual = start_date_liga
+    semanas_procesadas = 0
     while fecha_actual <= end_date:
+        if semanas_procesadas >= MAX_SEMANAS_POR_LIGA:
+            print(f"   ... {liga_nombre} queda con más atraso pendiente; se continuará en un próximo turno.", flush=True)
+            break
+
         fecha_fin_semana = fecha_actual + timedelta(days=6)
         if fecha_fin_semana > end_date:
             fecha_fin_semana = end_date
@@ -647,6 +658,7 @@ for tor_id, info in LIGAS_ACTUALIZAR.items():
                 
         time.sleep(8)
 
+        semanas_procesadas += 1
         fecha_actual += timedelta(days=7)
 
     if cuota_agotada_b:
