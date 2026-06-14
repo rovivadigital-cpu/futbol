@@ -33,11 +33,7 @@ jobs:
         GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       run: python prueba1.py
       # Paso D: Ejecutar el script inyectando la API KEY
-    - name: Ejecutar script de extracción de jornadas
-      env:
-        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-      run: python ultimas_jornadas.py
-
+    
     - name: Guardar cambios en el repositorio
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
