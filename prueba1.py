@@ -142,6 +142,7 @@ NOMBRES_LIGAS = [info["nombre"] for info in TORNEOS_IDS.values()]
 partidos_existentes = set()
 partidos_incompletos_por_fecha = {}  # { 'YYYY-MM-DD': [ (liga, local, visita, fila_index), ... ] }
 ultima_fecha_registrada = None
+ultima_fecha_por_liga = {}  # { 'Nombre Liga': datetime } - progreso independiente por liga
 filas_completas_csv = []
 headers = []
 
@@ -191,6 +192,9 @@ if os.path.exists(csv_filename):
                             f_obj = datetime.strptime(fecha_str, '%Y-%m-%d')
                             if ultima_fecha_registrada is None or f_obj > ultima_fecha_registrada:
                                 ultima_fecha_registrada = f_obj
+                            # Progreso independiente por liga (clave para la rotación)
+                            if liga not in ultima_fecha_por_liga or f_obj > ultima_fecha_por_liga[liga]:
+                                ultima_fecha_por_liga[liga] = f_obj
                         except ValueError:
                             pass
                         
@@ -417,20 +421,19 @@ else:
     print("[AUDITORÍA] ¡Excelente! No se encontraron partidos con datos vacíos en la última fecha registrada.", flush=True)
 
 # =====================================================================
-# FASE B: CONTINUACIÓN DE EXTRACCIÓN AVANZANDO HACIA EL FUTURO
+# FASE B: CONTINUACIÓN DE EXTRACCIÓN AVANZANDO HACIA EL FUTURO (POR LIGA)
 # =====================================================================
 fecha_hoy_obj = datetime.now()
-if ultima_fecha_registrada:
-    start_date = ultima_fecha_registrada + timedelta(days=1)
-    print(f"\n-> Fase de continuación: El script avanzará desde el {start_date.strftime('%Y-%m-%d')} hasta hoy.", flush=True)
-else:
-    start_date = datetime.strptime('2026-01-01', '%Y-%m-%d')
-
 end_date = fecha_hoy_obj
-if start_date > end_date:
-    print("¡El archivo histórico ya se encuentra 100% al día con la fecha actual!", flush=True)
-    print(f"\nLlamadas a Gemini realizadas en esta corrida: {llamadas_realizadas}/{MAX_LLAMADAS_POR_CORRIDA}", flush=True)
-    sys.exit(0)
+FECHA_INICIO_DEFAULT = datetime.strptime('2026-01-01', '%Y-%m-%d')
+
+# Cuántos días hacia atrás de la última fecha registrada se vuelven a
+# consultar por liga (para capturar partidos que en su momento no tenían
+# estadísticas listas aún, o que simplemente no se encontraron).
+DIAS_RETROCESO = 2
+
+print(f"\n-> Fase de continuación: cada liga avanzará desde {DIAS_RETROCESO} día(s) antes de su último "
+      f"partido registrado hasta hoy ({end_date.strftime('%Y-%m-%d')}).", flush=True)
 
 # Inicializar headers si el archivo es nuevo
 if not os.path.exists(csv_filename) or len(filas_completas_csv) == 0:
@@ -491,31 +494,49 @@ else:
     print("\n-> Sin cupo de llamadas disponible para la fase de descarga; se omite por esta corrida.", flush=True)
 
 cuota_agotada_b = False
-fecha_actual = start_date
-while fecha_actual <= end_date:
-    fecha_fin_semana = fecha_actual + timedelta(days=6)
-    if fecha_fin_semana > end_date: 
-        fecha_fin_semana = end_date
-        
-    str_inicio_sem = fecha_actual.strftime('%Y-%m-%d')
-    str_fin_sem    = fecha_fin_semana.strftime('%Y-%m-%d')
-    
+for tor_id, info in LIGAS_ACTUALIZAR.items():
+    if limite_alcanzado():
+        cuota_agotada_b = True
+        break
+
+    liga_nombre = info["nombre"]
+    pais_nombre = info["pais"]
+
+    ultima_fecha_liga = ultima_fecha_por_liga.get(liga_nombre)
+    if ultima_fecha_liga:
+        start_date_liga = ultima_fecha_liga - timedelta(days=DIAS_RETROCESO)
+        if start_date_liga < FECHA_INICIO_DEFAULT:
+            start_date_liga = FECHA_INICIO_DEFAULT
+    else:
+        start_date_liga = FECHA_INICIO_DEFAULT
+
+    if start_date_liga > end_date:
+        print(f"-> {liga_nombre}: ya está al día (último partido registrado: "
+              f"{ultima_fecha_liga.strftime('%Y-%m-%d')}).", flush=True)
+        continue
+
     print(f"\n==================================================", flush=True)
-    print(f" PROCESANDO NUEVA SEMANA: Del {str_inicio_sem} al {str_fin_sem}", flush=True)
+    print(f" {liga_nombre} ({pais_nombre}): de {start_date_liga.strftime('%Y-%m-%d')} a {end_date.strftime('%Y-%m-%d')}", flush=True)
     print(f"==================================================", flush=True)
-    
-    for tor_id, info in LIGAS_ACTUALIZAR.items():
+
+    fecha_actual = start_date_liga
+    while fecha_actual <= end_date:
+        fecha_fin_semana = fecha_actual + timedelta(days=6)
+        if fecha_fin_semana > end_date:
+            fecha_fin_semana = end_date
+
+        str_inicio_sem = fecha_actual.strftime('%Y-%m-%d')
+        str_fin_sem    = fecha_fin_semana.strftime('%Y-%m-%d')
+
+        if pais_nombre == "Colombia" and fecha_actual.month == 1 and fecha_actual.day < 15:
+            fecha_actual += timedelta(days=7)
+            continue
+
         if limite_alcanzado():
             cuota_agotada_b = True
             break
 
-        liga_nombre = info["nombre"]
-        pais_nombre = info["pais"]
-        
-        if pais_nombre == "Colombia" and fecha_actual.month == 1 and fecha_actual.day < 15:
-            continue
-            
-        print(f"-> Descargando bloque nuevo para: {liga_nombre}...", flush=True)
+        print(f"-> Descargando bloque para: {liga_nombre} ({str_inicio_sem} a {str_fin_sem})...", flush=True)
         
         prompt = f"""
         Busca en la web todos los partidos oficiales de fútbol de la liga '{liga_nombre}' ({pais_nombre}) completados entre el {str_inicio_sem} y el {str_fin_sem}.
@@ -625,11 +646,11 @@ while fecha_actual <= end_date:
             print(f"   x Error en bloque ({e}): Avanzando.", flush=True)
                 
         time.sleep(8)
-    
+
+        fecha_actual += timedelta(days=7)
+
     if cuota_agotada_b:
         break
-            
-    fecha_actual += timedelta(days=7)
 
 print(f"\nLlamadas a Gemini realizadas en esta corrida: {llamadas_realizadas}/{MAX_LLAMADAS_POR_CORRIDA}", flush=True)
 print(f"\n¡Auditoría y actualización completadas de manera exitosa!", flush=True)
