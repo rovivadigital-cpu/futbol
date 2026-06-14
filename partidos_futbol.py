@@ -221,25 +221,39 @@ _403_consecutivos = 0
 
 def api_get(url: str, intentos: int = 3) -> dict:
     global SESSION, _403_consecutivos
+    ultimo_status = None
+    ultimo_error = None
     for i in range(1, intentos + 1):
         try:
             time.sleep(PAUSA_BASE + random.uniform(0.2, 0.7))
             r = SESSION.get(url, timeout=30)
+            ultimo_status = r.status_code
             if r.status_code == 200:
                 _403_consecutivos = 0
                 return r.json()
             elif r.status_code == 403:
                 _403_consecutivos += 1
+                logging.warning(f"   ⚠️ 403 Forbidden (intento {i}/{intentos}) en {url}")
                 if _403_consecutivos >= 3:
+                    logging.warning(f"   🔄 {_403_consecutivos} 403 consecutivos: rotando sesión/cookies/UA...")
                     time.sleep(120 * i)
                     SESSION = _nueva_sesion()
                     _403_consecutivos = 0
                 else:
                     time.sleep(20 * i)
             elif r.status_code == 429:
+                logging.warning(f"   ⚠️ 429 Too Many Requests (intento {i}/{intentos}) en {url}")
                 time.sleep(90 * i)
+            else:
+                logging.warning(f"   ⚠️ HTTP {r.status_code} (intento {i}/{intentos}) en {url}")
         except Exception as e:
-            logging.error(f"Error en {url}: {e}")
+            ultimo_error = e
+            logging.error(f"   💥 Excepción de red (intento {i}/{intentos}) en {url}: {e}")
+
+    if ultimo_error is not None:
+        logging.error(f"   ❌ Sin respuesta tras {intentos} intentos en {url} (último error: {ultimo_error})")
+    else:
+        logging.error(f"   ❌ Sin respuesta válida tras {intentos} intentos en {url} (último status HTTP: {ultimo_status})")
     return {}
 
 
@@ -348,7 +362,9 @@ def procesar_dia(fecha: str) -> int:
     logging.info(f"📅 Consultando fecha: {fecha}...")
     url = f"https://api.sofascore.com/api/v1/sport/football/scheduled-events/{fecha}"
     data = api_get(url)
-    if not data: return 0
+    if not data:
+        logging.error(f"   ⏭️ Saltando {fecha}: no se pudo obtener el calendario (ver error arriba).")
+        return 0
 
     eventos_brutos = data.get("events", [])
     eventos = [
