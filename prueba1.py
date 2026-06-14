@@ -225,6 +225,22 @@ client = genai.Client(api_key=api_key)
 fecha_hoy_str = datetime.now().strftime('%Y-%m-%d')
 
 # =====================================================================
+# CONTROL DE LLAMADAS POR CORRIDA
+# (para repartir la cuota diaria de Gemini entre varias ejecuciones del cron
+#  y no agotarla toda de un solo golpe)
+# =====================================================================
+MAX_LLAMADAS_POR_CORRIDA = 20  # Ajusta este número según la frecuencia de tu cron
+llamadas_realizadas = 0
+
+def limite_alcanzado():
+    """Devuelve True si ya se llegó al tope de llamadas para esta corrida."""
+    if llamadas_realizadas >= MAX_LLAMADAS_POR_CORRIDA:
+        print(f"\n   ⏸️  Límite de {MAX_LLAMADAS_POR_CORRIDA} llamadas por corrida alcanzado. "
+              f"Pausando aquí para repartir la cuota diaria entre varias ejecuciones del cron.", flush=True)
+        return True
+    return False
+
+# =====================================================================
 # HELPER: Llamada robusta a Gemini con búsqueda web y parseo JSON
 # =====================================================================
 def llamar_gemini_json(prompt):
@@ -234,6 +250,9 @@ def llamar_gemini_json(prompt):
     texto de respuesta) y devuelve el JSON ya parseado.
     Lanza una excepción con un mensaje descriptivo si algo falla.
     """
+    global llamadas_realizadas
+    llamadas_realizadas += 1
+
     config_llamada = types.GenerateContentConfig(
         tools=[types.Tool(google_search=types.GoogleSearch())],
         temperature=0.1,
@@ -276,6 +295,10 @@ if partidos_incompletos_por_fecha:
         ligas_en_fecha = set(p[0] for p in partidos_lista)
         
         for liga_obj in ligas_en_fecha:
+            if limite_alcanzado():
+                reparacion_abortada = True
+                break
+
             partidos_especificos = [p for p in partidos_lista if p[0] == liga_obj]
             nombres_cruzar = ", ".join([f"{p[1]} vs {p[2]}" for p in partidos_especificos])
             
@@ -357,6 +380,7 @@ if partidos_incompletos_por_fecha:
                 mensaje = str(e)
                 if "429" in mensaje or "RESOURCE_EXHAUSTED" in mensaje:
                     print("\n   ⚠️ Cuota agotada durante fase de reparación. No se pudo actualizar este bloque, abortando reparación y pasando a la descarga de nuevos partidos...", flush=True)
+                    print(f"      Detalle: {mensaje}", flush=True)
                     reparacion_abortada = True
                     break
                 print(f"   x No se pudo parchar el bloque ({e}). Continuando con el siguiente...", flush=True)
@@ -381,6 +405,7 @@ else:
 end_date = fecha_hoy_obj
 if start_date > end_date:
     print("¡El archivo histórico ya se encuentra 100% al día con la fecha actual!", flush=True)
+    print(f"\nLlamadas a Gemini realizadas en esta corrida: {llamadas_realizadas}/{MAX_LLAMADAS_POR_CORRIDA}", flush=True)
     sys.exit(0)
 
 # Inicializar headers si el archivo es nuevo
@@ -424,6 +449,10 @@ while fecha_actual <= end_date:
     print(f"==================================================", flush=True)
     
     for tor_id, info in LIGAS_ACTUALIZAR.items():
+        if limite_alcanzado():
+            cuota_agotada_b = True
+            break
+
         liga_nombre = info["nombre"]
         pais_nombre = info["pais"]
         
@@ -534,6 +563,7 @@ while fecha_actual <= end_date:
             mensaje = str(e)
             if "429" in mensaje or "RESOURCE_EXHAUSTED" in mensaje:
                 print("\n   ⚠️ [CUOTA LIMITADA] Deteniendo la descarga para proteger el flujo. Se continuará desde aquí en la próxima ejecución.", flush=True)
+                print(f"      Detalle: {mensaje}", flush=True)
                 cuota_agotada_b = True
                 break
             print(f"   x Error en bloque ({e}): Avanzando.", flush=True)
@@ -545,4 +575,5 @@ while fecha_actual <= end_date:
             
     fecha_actual += timedelta(days=7)
 
+print(f"\nLlamadas a Gemini realizadas en esta corrida: {llamadas_realizadas}/{MAX_LLAMADAS_POR_CORRIDA}", flush=True)
 print(f"\n¡Auditoría y actualización completadas de manera exitosa!", flush=True)
