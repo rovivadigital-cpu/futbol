@@ -291,6 +291,18 @@ def llamar_gemini_json(prompt):
         # partidos para reportar). Lo tratamos como "sin datos" en vez de error.
         return {}
 
+    if not texto_limpio.startswith("{") and not texto_limpio.startswith("["):
+        # El modelo respondió con texto explicativo en lugar de JSON puro
+        # (típico cuando dice "no se encontraron partidos..."). Intentamos
+        # extraer un objeto JSON embebido; si no hay ninguno, lo tratamos
+        # como "sin datos" en vez de error.
+        inicio = texto_limpio.find("{")
+        fin = texto_limpio.rfind("}")
+        if inicio != -1 and fin != -1 and fin > inicio:
+            texto_limpio = texto_limpio[inicio:fin + 1]
+        else:
+            return {}
+
     return json.loads(texto_limpio)
 
 # =====================================================================
@@ -438,13 +450,45 @@ if not os.path.exists(csv_filename) or len(filas_completas_csv) == 0:
     with open(csv_filename, "w", newline="", encoding="utf-8") as f:
         csv.writer(f).writerow(headers)
 
-# SOLO ACTIVAMOS LAS LIGAS PRINCIPALES PARA NO COPAR LA CUOTA DIARIA DE INMEDIATO
-LIGAS_ACTUALIZAR = {
-    17: {"nombre": "Premier League", "pais": "England"},
-    11539: {"nombre": "Primera A, Apertura", "pais": "Colombia"},
-    8: {"nombre": "LaLiga", "pais": "Spain"},
-    23: {"nombre": "Serie A", "pais": "Italy"}
-}
+# =====================================================================
+# ROTACIÓN DE LIGAS
+# Tienes ~122 ligas en TORNEOS_IDS pero el cupo diario de Gemini solo
+# permite unas pocas llamadas por corrida. En vez de revisar siempre las
+# mismas 4 ligas, cada corrida toma el siguiente bloque (circular) y guarda
+# un cursor en disco, así con corridas periódicas del cron todas las ligas
+# se van cubriendo por turnos.
+# =====================================================================
+estado_ligas_path = os.path.join("datos", "estado_ligas.json")
+cursor_ligas = 0
+if os.path.exists(estado_ligas_path):
+    try:
+        with open(estado_ligas_path, "r", encoding="utf-8") as f:
+            cursor_ligas = json.load(f).get("indice_actual", 0)
+    except Exception:
+        cursor_ligas = 0
+
+todas_las_ligas = list(TORNEOS_IDS.items())
+n_ligas = len(todas_las_ligas)
+cupo_restante = max(0, MAX_LLAMADAS_POR_CORRIDA - llamadas_realizadas)
+
+LIGAS_ACTUALIZAR = {}
+if n_ligas > 0 and cupo_restante > 0:
+    cantidad = min(cupo_restante, n_ligas)
+    for i in range(cantidad):
+        tor_id, info = todas_las_ligas[(cursor_ligas + i) % n_ligas]
+        LIGAS_ACTUALIZAR[tor_id] = info
+
+    nuevo_cursor = (cursor_ligas + cantidad) % n_ligas
+    try:
+        with open(estado_ligas_path, "w", encoding="utf-8") as f:
+            json.dump({"indice_actual": nuevo_cursor}, f)
+    except Exception as e:
+        print(f"   (no se pudo guardar el estado de rotación de ligas: {e})", flush=True)
+
+    print(f"\n-> Este turno cubre {len(LIGAS_ACTUALIZAR)} liga(s) [rotación {cursor_ligas}-{(cursor_ligas + cantidad - 1) % n_ligas} de {n_ligas}]: "
+          f"{', '.join(info['nombre'] for info in LIGAS_ACTUALIZAR.values())}", flush=True)
+else:
+    print("\n-> Sin cupo de llamadas disponible para la fase de descarga; se omite por esta corrida.", flush=True)
 
 cuota_agotada_b = False
 fecha_actual = start_date
