@@ -240,7 +240,7 @@ MODEL_NAME = "gemini-2.5-flash-lite"
 # (para repartir la cuota diaria de Gemini entre varias ejecuciones del cron
 #  y no agotarla toda de un solo golpe)
 # =====================================================================
-MAX_LLAMADAS_POR_CORRIDA = 10  # Ajusta este número según la frecuencia de tu cron
+MAX_LLAMADAS_POR_CORRIDA = 5  # Ajusta este número según la frecuencia de tu cron
 llamadas_realizadas = 0
 
 def limite_alcanzado():
