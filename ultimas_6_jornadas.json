@@ -3,11 +3,11 @@
     "jornadas_analizadas": 6,
     "historial": [
         {
-            "numero_jornada": "Final - Vuelta",
+            "numero_jornada": "Final Vuelta",
             "partidos": [
                 {
                     "equipo_local": "Atlético Nacional",
-                    "equipo_visitante": "Junior",
+                    "equipo_visitante": "Junior FC",
                     "goles_local": 1,
                     "goles_visitante": 0,
                     "estado": "Finalizado"
@@ -15,10 +15,10 @@
             ]
         },
         {
-            "numero_jornada": "Final - Ida",
+            "numero_jornada": "Final Ida",
             "partidos": [
                 {
-                    "equipo_local": "Junior",
+                    "equipo_local": "Junior FC",
                     "equipo_visitante": "Atlético Nacional",
                     "goles_local": 3,
                     "goles_visitante": 0,
@@ -27,7 +27,7 @@
             ]
         },
         {
-            "numero_jornada": "Semifinales - Vuelta",
+            "numero_jornada": "Semifinal Vuelta",
             "partidos": [
                 {
                     "equipo_local": "Atlético Nacional",
@@ -37,8 +37,8 @@
                     "estado": "Finalizado"
                 },
                 {
-                    "equipo_local": "Junior",
-                    "equipo_visitante": "Santa Fe",
+                    "equipo_local": "Junior FC",
+                    "equipo_visitante": "Independiente Santa Fe",
                     "goles_local": 0,
                     "goles_visitante": 0,
                     "estado": "Finalizado"
@@ -46,7 +46,7 @@
             ]
         },
         {
-            "numero_jornada": "Semifinales - Ida",
+            "numero_jornada": "Semifinal Ida",
             "partidos": [
                 {
                     "equipo_local": "Deportes Tolima",
@@ -56,8 +56,8 @@
                     "estado": "Finalizado"
                 },
                 {
-                    "equipo_local": "Santa Fe",
-                    "equipo_visitante": "Junior",
+                    "equipo_local": "Independiente Santa Fe",
+                    "equipo_visitante": "Junior FC",
                     "goles_local": 1,
                     "goles_visitante": 1,
                     "estado": "Finalizado"
@@ -65,7 +65,7 @@
             ]
         },
         {
-            "numero_jornada": "Cuartos de Final - Vuelta",
+            "numero_jornada": "Cuartos de Final Vuelta",
             "partidos": [
                 {
                     "equipo_local": "Atlético Nacional",
@@ -75,7 +75,7 @@
                     "estado": "Finalizado"
                 },
                 {
-                    "equipo_local": "Santa Fe",
+                    "equipo_local": "Independiente Santa Fe",
                     "equipo_visitante": "América de Cali",
                     "goles_local": 4,
                     "goles_visitante": 0,
@@ -89,7 +89,7 @@
                     "estado": "Finalizado"
                 },
                 {
-                    "equipo_local": "Junior",
+                    "equipo_local": "Junior FC",
                     "equipo_visitante": "Once Caldas",
                     "goles_local": 2,
                     "goles_visitante": 2,
@@ -98,15 +98,8 @@
             ]
         },
         {
-            "numero_jornada": "Cuartos de Final - Ida",
+            "numero_jornada": "Cuartos de Final Ida",
             "partidos": [
-                {
-                    "equipo_local": "Internacional de Bogotá",
-                    "equipo_visitante": "Atlético Nacional",
-                    "goles_local": 1,
-                    "goles_visitante": 2,
-                    "estado": "Finalizado"
-                },
                 {
                     "equipo_local": "Deportes Tolima",
                     "equipo_visitante": "Deportivo Pasto",
@@ -116,14 +109,21 @@
                 },
                 {
                     "equipo_local": "América de Cali",
-                    "equipo_visitante": "Santa Fe",
+                    "equipo_visitante": "Independiente Santa Fe",
                     "goles_local": 1,
                     "goles_visitante": 1,
                     "estado": "Finalizado"
                 },
                 {
+                    "equipo_local": "Internacional de Bogotá",
+                    "equipo_visitante": "Atlético Nacional",
+                    "goles_local": 1,
+                    "goles_visitante": 2,
+                    "estado": "Finalizado"
+                },
+                {
                     "equipo_local": "Once Caldas",
-                    "equipo_visitante": "Junior",
+                    "equipo_visitante": "Junior FC",
                     "goles_local": 0,
                     "goles_visitante": 1,
                     "estado": "Finalizado"
