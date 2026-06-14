@@ -225,6 +225,44 @@ client = genai.Client(api_key=api_key)
 fecha_hoy_str = datetime.now().strftime('%Y-%m-%d')
 
 # =====================================================================
+# HELPER: Llamada robusta a Gemini con búsqueda web y parseo JSON
+# =====================================================================
+def llamar_gemini_json(prompt):
+    """
+    Llama a Gemini con la herramienta de búsqueda de Google, desactiva el
+    'thinking' (para que no consuma todo el max_output_tokens sin dejar
+    texto de respuesta) y devuelve el JSON ya parseado.
+    Lanza una excepción con un mensaje descriptivo si algo falla.
+    """
+    config_llamada = types.GenerateContentConfig(
+        tools=[types.Tool(google_search=types.GoogleSearch())],
+        temperature=0.1,
+        max_output_tokens=8192,
+        thinking_config=types.ThinkingConfig(thinking_budget=0)
+    )
+    response = client.models.generate_content(
+        model='gemini-2.5-flash', contents=prompt, config=config_llamada
+    )
+
+    texto_limpio = (response.text or "").strip()
+
+    if not texto_limpio:
+        # Diagnóstico: por qué vino vacía la respuesta
+        finish_reason = "desconocido"
+        try:
+            finish_reason = response.candidates[0].finish_reason
+        except Exception:
+            pass
+        raise ValueError(f"Respuesta vacía de Gemini (finish_reason={finish_reason})")
+
+    if texto_limpio.startswith("```json"):
+        texto_limpio = texto_limpio.split("```json")[1].split("```")[0].strip()
+    elif texto_limpio.startswith("```"):
+        texto_limpio = texto_limpio.split("```")[1].split("```")[0].strip()
+
+    return json.loads(texto_limpio)
+
+# =====================================================================
 # FASE A: REESCRITURA Y REPARACIÓN DE PARTIDOS SIN DATOS (SOLO ÚLTIMA FECHA)
 # =====================================================================
 reparacion_abortada = False
@@ -270,18 +308,7 @@ if partidos_incompletos_por_fecha:
             }}
             """
             try:
-                config_llamada = types.GenerateContentConfig(
-                    tools=[types.Tool(google_search=types.GoogleSearch())], temperature=0.1
-                )
-                response = client.models.generate_content(model='gemini-2.5-flash', contents=prompt_reparar, config=config_llamada)
-                
-                texto_limpio = response.text.strip()
-                if texto_limpio.startswith("```json"): 
-                    texto_limpio = texto_limpio.split("```json")[1].split("```")[0].strip()
-                elif texto_limpio.startswith("```"): 
-                    texto_limpio = texto_limpio.split("```")[1].split("```")[0].strip()
-                
-                data = json.loads(texto_limpio)
+                data = llamar_gemini_json(prompt_reparar)
                 partidos_nuevos = data.get("partidos", [])
                 
                 for pn in partidos_nuevos:
@@ -332,7 +359,7 @@ if partidos_incompletos_por_fecha:
                     print("\n   ⚠️ Cuota agotada durante fase de reparación. No se pudo actualizar este bloque, abortando reparación y pasando a la descarga de nuevos partidos...", flush=True)
                     reparacion_abortada = True
                     break
-                print(f"   x No se pudo parchar el bloque: {e}. Continuando con el siguiente...", flush=True)
+                print(f"   x No se pudo parchar el bloque ({e}). Continuando con el siguiente...", flush=True)
             
             time.sleep(8)
         
@@ -439,16 +466,7 @@ while fecha_actual <= end_date:
         """
         
         try:
-            config_llamada = types.GenerateContentConfig(tools=[types.Tool(google_search=types.GoogleSearch())], temperature=0.1)
-            response = client.models.generate_content(model='gemini-2.5-flash', contents=prompt, config=config_llamada)
-            
-            texto_limpio = response.text.strip()
-            if texto_limpio.startswith("```json"): 
-                texto_limpio = texto_limpio.split("```json")[1].split("```")[0].strip()
-            elif texto_limpio.startswith("```"): 
-                texto_limpio = texto_limpio.split("```")[1].split("```")[0].strip()
-                
-            data = json.loads(texto_limpio)
+            data = llamar_gemini_json(prompt)
             partidos = data.get("partidos", [])
             
             if partidos:
@@ -518,7 +536,7 @@ while fecha_actual <= end_date:
                 print("\n   ⚠️ [CUOTA LIMITADA] Deteniendo la descarga para proteger el flujo. Se continuará desde aquí en la próxima ejecución.", flush=True)
                 cuota_agotada_b = True
                 break
-            print(f"   x Error en bloque: Avanzando.", flush=True)
+            print(f"   x Error en bloque ({e}): Avanzando.", flush=True)
                 
         time.sleep(8)
     
