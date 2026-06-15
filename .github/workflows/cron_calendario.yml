@@ -10,6 +10,9 @@ jobs:
   run-scraper:
     runs-on: ubuntu-latest
 
+     permissions:
+       contents: write
+
     steps:
     # 1. Descargar el código del repositorio
     - name: Checkout del repositorio
