@@ -1,4 +1,4 @@
-name: Cron Calendario Diario Calendario Futbol
+name: Cron - Calendario Futbol
 
 on:
   schedule:
@@ -9,9 +9,6 @@ on:
 jobs:
   run-scraper:
     runs-on: ubuntu-latest
-
-     permissions:
-       contents: write
 
     steps:
     # 1. Descargar el código del repositorio
