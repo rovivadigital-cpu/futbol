@@ -21,14 +21,13 @@ def limpiar_calendario_vencido(csv_filename):
     fecha_hoy = datetime.now().strftime('%Y-%m-%d')
     if not os.path.exists(csv_filename): return
 
-    # Leemos y filtramos
     with open(csv_filename, "r", encoding="utf-8") as f:
         reader = list(csv.reader(f))
     
+    if not reader: return
     encabezados = reader[0]
     partidos_futuros = [row for row in reader[1:] if row[0] >= fecha_hoy]
     
-    # Reescribimos solo lo necesario
     with open(csv_filename, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(encabezados)
@@ -36,8 +35,10 @@ def limpiar_calendario_vencido(csv_filename):
 
 limpiar_calendario_vencido(csv_filename)
 
-# Lista de torneos oficial (Eliminamos los IDs de Sofascore para evitar bloqueos)
-TORNEOS_DATA = [
+# =====================================================================
+# LISTA DE TORNEOS (Ahora es un DICCIONARIO para soportar los IDs)
+# =====================================================================
+TORNEOS_DATA = {
     17: {"nombre": "Premier League", "pais": "England"},
     18: {"nombre": "Championship", "pais": "England"},
     24: {"nombre": "League One", "pais": "England"},
@@ -156,25 +157,19 @@ TORNEOS_DATA = [
     205: {"nombre": "FNL", "pais": "Czech Republic"},
     39: {"nombre": "Danish Superliga", "pais": "Denmark"},
     170: {"nombre": "HNL", "pais": "Croatia"}
-]
+}
 
-# Generar un mapeo seguro indexado por el nombre de la liga en minúsculas
-MAPPING_LIGAS = {info["nombre"].lower(): info for info in TORNEOS_DATA}
+# Generar un mapeo seguro: { 'premier league': {'id': 17, 'nombre': 'Premier League', 'pais': 'England'}, ... }
+MAPPING_LIGAS = {}
+for tourney_id, info in TORNEOS_DATA.items():
+    MAPPING_LIGAS[info["nombre"].lower()] = {"id": tourney_id, **info}
 
 partidos_existentes = set()
 
-# Función para generar un event_id único y consistente para el partido
 def generar_event_id(fecha, local, visita):
     clave = f"{fecha.strip()}_{local.strip().lower()}_{visita.strip().lower()}".encode('utf-8')
     return int(hashlib.md5(clave).hexdigest()[:8], 16) % 100000000
 
-# NUEVA FUNCIÓN: Generar un ID numérico único e independiente para el torneo/liga
-def generar_tourney_id(nombre_liga, pais):
-    clave = f"{nombre_liga.strip().lower()}_{pais.strip().lower()}".encode('utf-8')
-    # Retorna un entero consistente de 5 dígitos para tus llaves foráneas en MariaDB
-    return int(hashlib.md5(clave).hexdigest()[:6], 16) % 100000
-
-# Inicializar archivo de calendario con cabeceras estándar
 headers = [
     "Fecha", "Hora_Local", "Pais", "Competicion", "Competicion_ID_Sofascore", 
     "Torneo", "Torneo_ID_Sofascore", "Ronda", "Equipo_Local", 
@@ -182,21 +177,11 @@ headers = [
     "Equipo_Visitante_ID_Sofascore", "Pais_Visitante", "Marcador", "Estado"
 ]
 
-# =====================================================================
-# INICIALIZACIÓN DEL ARCHIVO CSV
-# =====================================================================
-# Verificamos si el archivo existe antes de abrirlo
 archivo_existe = os.path.exists(csv_filename)
-
-# Si el archivo NO existe, lo creamos y escribimos los encabezados
 if not archivo_existe:
     with open(csv_filename, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(headers)
-    print(f"Archivo creado con encabezados en: {csv_filename}")
-else:
-    print(f"El archivo ya existe, se añadirán los datos a: {csv_filename}")
-# =====================================================================
 
 api_key = os.environ.get("GEMINI_API_KEY2")
 if not api_key:
@@ -211,25 +196,21 @@ dias_a_revisar = [
 ]
 
 MODEL_NAME = "gemini-2.5-flash-lite"
-scrape_date_str = fecha_base.strftime('%Y-%m-%d')
 
 print(f"==================================================", flush=True)
-print(f" INICIANDO CALENDARIO INDEPENDIENTE (SIN SOFASCORE) ", flush=True)
+print(f" INICIANDO CALENDARIO CON IDs DE SOFASCORE ", flush=True)
 print(f"==================================================", flush=True)
 
 for fecha_obj, etiqueta in dias_a_revisar:
     fecha_str = fecha_obj.strftime('%Y-%m-%d')
-    print(f"\n-> Buscando partidos programados para {etiqueta} ({fecha_str})...", flush=True)
+    print(f"\n-> Buscando partidos para {etiqueta} ({fecha_str})...", flush=True)
 
-    lista_ligas_prompt = ", ".join([info["nombre"] for info in TORNEOS_DATA])
+    # Extraemos solo los nombres de las ligas para el prompt
+    lista_ligas_prompt = ", ".join([info["nombre"] for info in TORNEOS_DATA.values()])
 
     prompt = f"""
-    Busca el calendario de partidos para los próximos 3 días (hoy, mañana y pasado mañana) para las siguientes ligas: [{lista_ligas_prompt}].
-    Devuelve un JSON con:
-    - liga_nombre_oficial, tourney_season, round, round_number, home_team_name, away_team_name.
-    - Opcional: Intenta extraer la hora del partido (formato HH:MM) y el país de los equipos si la información está disponible.
-    
-    Devuelve estrictamente este JSON:
+    Busca el calendario de partidos para los próximos 3 días para las siguientes ligas: [{lista_ligas_prompt}].
+    Devuelve un JSON estrictamente con este formato:
     {{
       "partidos": [
         {{
@@ -255,23 +236,13 @@ for fecha_obj, etiqueta in dias_a_revisar:
             max_output_tokens=8192,
             thinking_config=types.ThinkingConfig(thinking_budget=0)
         )
-        response = client.models.generate_content(
-            model=MODEL_NAME, contents=prompt, config=config_llamada
-        )
+        response = client.models.generate_content(model=MODEL_NAME, contents=prompt, config=config_llamada)
 
         texto_limpio = (response.text or "").strip()
-        if texto_limpio.startswith("```json"):
+        if "```json" in texto_limpio:
             texto_limpio = texto_limpio.split("```json")[1].split("```")[0].strip()
-        elif texto_limpio.startswith("```"):
+        elif "```" in texto_limpio:
             texto_limpio = texto_limpio.split("```")[1].split("```")[0].strip()
-
-        if not texto_limpio.startswith("{"):
-            inicio = texto_limpio.find("{")
-            fin = texto_limpio.rfind("}")
-            if inicio != -1 and fin != -1:
-                texto_limpio = texto_limpio[inicio:fin+1]
-            else:
-                texto_limpio = "{}"
 
         data = json.loads(texto_limpio)
         partidos = data.get("partidos", [])
@@ -295,45 +266,37 @@ for fecha_obj, etiqueta in dias_a_revisar:
                     partidos_existentes.add(llave_partido)
                     partidos_guardados += 1
 
-                    # Recuperar metadatos locales de nuestro diccionario seguro
+                    # Recuperar info incluyendo el ID
                     liga_info = MAPPING_LIGAS[liga_raw]
-                    hora = p.get("hora", "00:00")
-                    pais_local = p.get("home_team_country", "")
-                    pais_visitante = p.get("away_team_country", "")
-                    liga_nombre_correcto = liga_info["nombre"]
-                    pais_nombre = liga_info["pais"]
-                    season = p.get("tourney_season", f"{liga_nombre_correcto} {fecha_str[:4]}")
-
-                    # GENERACIÓN EN CALIENTE DE NUESTROS PROPIOS IDS SEGUROS
-                    event_id = generar_event_id(fecha_str, local, visita)
-                    custom_tourney_id = generar_tourney_id(liga_nombre_correcto, pais_nombre)
-
+                    id_sofascore = liga_info["id"] # <--- AQUÍ ESTÁ EL NÚMERO
+                    
                     row = [
                         fecha_str,                  # Fecha
-                        hora,                       # Hora_Local
+                        p.get("hora", "00:00"),     # Hora_Local
                         liga_info["pais"],          # Pais
-                        liga_nombre_correcto,       # Competicion
-                        "",                         # Competicion_ID_Sofascore
-                        liga_nombre_correcto,       # Torneo
-                        "",                         # Torneo_ID_Sofascore
+                        liga_info["nombre"],        # Competicion
+                        id_sofascore,                # Competicion_ID_Sofascore (EL NÚMERO)
+                        liga_info["nombre"],        # Torneo
+                        "",                          # Torneo_ID_Sofascore
                         p.get("round", ""),         # Ronda
                         local,                      # Equipo_Local
                         "",                         # Equipo_Local_ID_Sofascore
-                        pais_local,                 # Pais_Local
-                        visita,                     # Equipo_Visitante
+                        p.get("home_team_country", ""), # Pais_Local
+                        visita,                      # Equipo_Visitante
                         "",                         # Equipo_Visitante_ID_Sofascore
-                        pais_visitante,             # Pais_Visitante
+                        p.get("away_team_country", ""), # Pais_Visitante
                         "",                         # Marcador
                         "Programado"                # Estado
                     ]
                     writer.writerow(row)
-            print(f"   + Guardados {partidos_guardados} partidos en el archivo temporal.", flush=True)
+            print(f"   + Guardados {partidos_guardados} partidos.", flush=True)
         else:
-            print("   o No hay partidos calendarizados en nuestras ligas para esta fecha.", flush=True)
+            print("   o No hay partidos.", flush=True)
 
     except Exception as e:
-        print(f"   x Error procesando fecha {fecha_str}: {e}", flush=True)
+        print(f"   x Error: {e}", flush=True)
 
     time.sleep(6)
 
-print(f"\n Calendario independiente actualizado con éxito en '{csv_filename}'.", flush=True)
+print(f"\n Proceso finalizado. Archivo: '{csv_filename}'.", flush=True)
+
