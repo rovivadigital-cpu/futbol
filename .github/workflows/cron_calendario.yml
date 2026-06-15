@@ -46,7 +46,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         
         # Agrega tanto el CSV como el estado de control si se llega a generar
-        git add datos/futbol_calendario.csv
+        git add datos/calendar_futbol.csv
         
         # El condicional evita que el flujo falle si no hay partidos nuevos que commitear
         if ! git diff --cached --quiet; then
