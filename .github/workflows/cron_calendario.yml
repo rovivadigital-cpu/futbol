@@ -34,7 +34,7 @@ jobs:
     # 4. Ejecutar el script del calendario pasándole tu API KEY de forma segura
     - name: Ejecutar Script de Calendario
       env:
-        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY2 }}
       run: |
         # Reemplaza 'tu_script_calendario.py' por el nombre real de tu archivo python
         python tu_script_calendario.py
