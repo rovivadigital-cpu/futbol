@@ -14,6 +14,28 @@ csv_filename = os.path.join("datos", "futbol_calendario.csv")
 os.makedirs("datos", exist_ok=True)
 # =====================================================================
 
+# =====================================================================
+# LIMPIEZA DE DATOS VENCIDOS
+# =====================================================================
+def limpiar_calendario_vencido(csv_filename):
+    fecha_hoy = datetime.now().strftime('%Y-%m-%d')
+    if not os.path.exists(csv_filename): return
+
+    # Leemos y filtramos
+    with open(csv_filename, "r", encoding="utf-8") as f:
+        reader = list(csv.reader(f))
+    
+    encabezados = reader[0]
+    partidos_futuros = [row for row in reader[1:] if row[0] >= fecha_hoy]
+    
+    # Reescribimos solo lo necesario
+    with open(csv_filename, "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(encabezados)
+        writer.writerows(partidos_futuros)
+
+limpiar_calendario_vencido(csv_filename)
+
 # Lista de torneos oficial (Eliminamos los IDs de Sofascore para evitar bloqueos)
 TORNEOS_DATA = [
     {"nombre": "Premier League", "pais": "England"},
