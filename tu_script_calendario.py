@@ -10,7 +10,7 @@ from google.genai import types
 # =====================================================================
 # CONFIGURACIÓN DE RUTA DINÁMICA (CARPETA DATOS)
 # =====================================================================
-csv_filename = os.path.join("datos", "futbol_calendario.csv")
+csv_filename = os.path.join("datos", "calendar_futbol.csv")
 os.makedirs("datos", exist_ok=True)
 # =====================================================================
 
