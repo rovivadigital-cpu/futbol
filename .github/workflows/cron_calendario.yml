@@ -1,4 +1,4 @@
-name: Tennis Scraper Diario PROnew - Calendario Futbol
+name: Cron Calendario Diario Calendario Futbol
 
 on:
   schedule:
