@@ -160,16 +160,21 @@ headers = [
     "Equipo_Visitante_ID_Sofascore", "Pais_Visitante", "Marcador", "Estado"
 ]
 
-if os.path.exists(csv_filename):
-    with open(csv_filename, "r", encoding="utf-8") as f:
-        reader = csv.reader(f)
-        next(reader, None)  # saltar encabezados
-        for row in reader:
-            if len(row) > 12:
-                partidos_existentes.add(f"{row[6]}_{row[10]}_{row[12]}".strip().lower())
-else:
+# =====================================================================
+# INICIALIZACIÓN DEL ARCHIVO CSV
+# =====================================================================
+# Verificamos si el archivo existe antes de abrirlo
+archivo_existe = os.path.exists(csv_filename)
+
+# Si el archivo NO existe, lo creamos y escribimos los encabezados
+if not archivo_existe:
     with open(csv_filename, "w", newline="", encoding="utf-8") as f:
-        csv.writer(f).writerow(headers)
+        writer = csv.writer(f)
+        writer.writerow(headers)
+    print(f"Archivo creado con encabezados en: {csv_filename}")
+else:
+    print(f"El archivo ya existe, se añadirán los datos a: {csv_filename}")
+# =====================================================================
 
 api_key = os.environ.get("GEMINI_API_KEY")
 if not api_key:
