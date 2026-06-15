@@ -198,9 +198,9 @@ else:
     print(f"El archivo ya existe, se añadirán los datos a: {csv_filename}")
 # =====================================================================
 
-api_key = os.environ.get("GEMINI_API_KEY")
+api_key = os.environ.get("GEMINI_API_KEY2")
 if not api_key:
-    raise ValueError("La variable de entorno GEMINI_API_KEY no está configurada.")
+    raise ValueError("La variable de entorno GEMINI_API_KEY2 no está configurada.")
 client = genai.Client(api_key=api_key)
 
 fecha_base = datetime.now()
