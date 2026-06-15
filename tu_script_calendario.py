@@ -14,29 +14,26 @@ csv_filename = os.path.join("datos", "calendar_futbol.csv")
 os.makedirs("datos", exist_ok=True)
 # =====================================================================
 
-# =====================================================================
-# LIMPIEZA DE DATOS VENCIDOS
-# =====================================================================
 def limpiar_calendario_vencido(csv_filename):
     fecha_hoy = datetime.now().strftime('%Y-%m-%d')
     if not os.path.exists(csv_filename): return
-
-    with open(csv_filename, "r", encoding="utf-8") as f:
-        reader = list(csv.reader(f))
-    
-    if not reader: return
-    encabezados = reader[0]
-    partidos_futuros = [row for row in reader[1:] if row[0] >= fecha_hoy]
-    
-    with open(csv_filename, "w", newline="", encoding="utf-8") as f:
-        writer = csv.writer(f)
-        writer.writerow(encabezados)
-        writer.writerows(partidos_futuros)
+    try:
+        with open(csv_filename, "r", encoding="utf-8") as f:
+            reader = list(csv.reader(f))
+        if not reader: return
+        encabezados = reader[0]
+        partidos_futuros = [row for row in reader[1:] if row[0] >= fecha_hoy]
+        with open(csv_filename, "w", newline="", encoding="utf-8") as f:
+            writer = csv.writer(f)
+            writer.writerow(encabezados)
+            writer.writerows(partidos_futuros)
+    except Exception as e:
+        print(f"Error limpiando calendario: {e}")
 
 limpiar_calendario_vencido(csv_filename)
 
 # =====================================================================
-# LISTA DE TORNEOS (Ahora es un DICCIONARIO para soportar los IDs)
+# LISTA DE TORNEOS (DICCIONARIO)
 # =====================================================================
 TORNEOS_DATA = {
     17: {"nombre": "Premier League", "pais": "England"},
@@ -159,16 +156,11 @@ TORNEOS_DATA = {
     170: {"nombre": "HNL", "pais": "Croatia"}
 }
 
-# Generar un mapeo seguro: { 'premier league': {'id': 17, 'nombre': 'Premier League', 'pais': 'England'}, ... }
 MAPPING_LIGAS = {}
 for tourney_id, info in TORNEOS_DATA.items():
     MAPPING_LIGAS[info["nombre"].lower()] = {"id": tourney_id, **info}
 
 partidos_existentes = set()
-
-def generar_event_id(fecha, local, visita):
-    clave = f"{fecha.strip()}_{local.strip().lower()}_{visita.strip().lower()}".encode('utf-8')
-    return int(hashlib.md5(clave).hexdigest()[:8], 16) % 100000000
 
 headers = [
     "Fecha", "Hora_Local", "Pais", "Competicion", "Competicion_ID_Sofascore", 
@@ -177,8 +169,7 @@ headers = [
     "Equipo_Visitante_ID_Sofascore", "Pais_Visitante", "Marcador", "Estado"
 ]
 
-archivo_existe = os.path.exists(csv_filename)
-if not archivo_existe:
+if not os.path.exists(csv_filename):
     with open(csv_filename, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(headers)
@@ -198,19 +189,18 @@ dias_a_revisar = [
 MODEL_NAME = "gemini-2.5-flash-lite"
 
 print(f"==================================================", flush=True)
-print(f" INICIANDO CALENDARIO CON IDs DE SOFASCORE ", flush=True)
+print(f" INICIANDO CALENDARIO CON IDS DE SOFASCORE ", flush=True)
 print(f"==================================================", flush=True)
 
 for fecha_obj, etiqueta in dias_a_revisar:
     fecha_str = fecha_obj.strftime('%Y-%m-%d')
     print(f"\n-> Buscando partidos para {etiqueta} ({fecha_str})...", flush=True)
 
-    # Extraemos solo los nombres de las ligas para el prompt
     lista_ligas_prompt = ", ".join([info["nombre"] for info in TORNEOS_DATA.values()])
 
     prompt = f"""
-    Busca el calendario de partidos para los próximos 3 días para las siguientes ligas: [{lista_ligas_prompt}].
-    Devuelve un JSON estrictamente con este formato:
+    Busca el calendario de partidos para la fecha {fecha_str} para las siguientes ligas: [{lista_ligas_prompt}].
+    Devuelve UNICAMENTE un objeto JSON con este formato:
     {{
       "partidos": [
         {{
@@ -226,7 +216,7 @@ for fecha_obj, etiqueta in dias_a_revisar:
         }}
       ]
     }}
-    Si no hay partidos, devuelve {{"partidos": []}}.
+    Si no hay partidos, devuelve {{"partidos": []}}. No escribas nada más que el JSON.
     """
 
     try:
@@ -237,13 +227,19 @@ for fecha_obj, etiqueta in dias_a_revisar:
             thinking_config=types.ThinkingConfig(thinking_budget=0)
         )
         response = client.models.generate_content(model=MODEL_NAME, contents=prompt, config=config_llamada)
+        texto = (response.text or "").strip()
 
-        texto_limpio = (response.text or "").strip()
-        if "```json" in texto_limpio:
-            texto_limpio = texto_limpio.split("```json")[1].split("```")[0].strip()
-        elif "```" in texto_limpio:
-            texto_limpio = texto_limpio.split("```")[1].split("```")[0].strip()
-
+        # --- LIMPIEZA ROBUSTA DE JSON ---
+        # Buscamos el primer '{' y el último '}' para extraer el JSON
+        inicio = texto.find("{")
+        fin = texto.rfind("}")
+        
+        if inicio == -1 or fin == -1:
+            print(f"   x Error: La respuesta no contiene un JSON válido.")
+            continue
+            
+        texto_limpio = texto[inicio:fin+1]
+        
         data = json.loads(texto_limpio)
         partidos = data.get("partidos", [])
 
@@ -266,37 +262,39 @@ for fecha_obj, etiqueta in dias_a_revisar:
                     partidos_existentes.add(llave_partido)
                     partidos_guardados += 1
 
-                    # Recuperar info incluyendo el ID
                     liga_info = MAPPING_LIGAS[liga_raw]
-                    id_sofascore = liga_info["id"] # <--- AQUÍ ESTÁ EL NÚMERO
+                    id_sofascore = liga_info["id"]
                     
                     row = [
-                        fecha_str,                  # Fecha
-                        p.get("hora", "00:00"),     # Hora_Local
-                        liga_info["pais"],          # Pais
-                        liga_info["nombre"],        # Competicion
-                        id_sofascore,                # Competicion_ID_Sofascore (EL NÚMERO)
-                        liga_info["nombre"],        # Torneo
-                        "",                          # Torneo_ID_Sofascore
-                        p.get("round", ""),         # Ronda
-                        local,                      # Equipo_Local
-                        "",                         # Equipo_Local_ID_Sofascore
-                        p.get("home_team_country", ""), # Pais_Local
-                        visita,                      # Equipo_Visitante
-                        "",                         # Equipo_Visitante_ID_Sofascore
-                        p.get("away_team_country", ""), # Pais_Visitante
-                        "",                         # Marcador
-                        "Programado"                # Estado
+                        fecha_str,
+                        p.get("hora", "00:00"),
+                        liga_info["pais"],
+                        liga_info["nombre"],
+                        id_sofascore,
+                        liga_info["nombre"],
+                        "",
+                        p.get("round", ""),
+                        local,
+                        "",
+                        p.get("home_team_country", ""),
+                        visita,
+                        "",
+                        p.get("away_team_country", ""),
+                        "",
+                        "Programado"
                     ]
                     writer.writerow(row)
             print(f"   + Guardados {partidos_guardados} partidos.", flush=True)
         else:
-            print("   o No hay partidos.", flush=True)
+            print("   o No se encontraron partidos.", flush=True)
 
+    except json.JSONDecodeError:
+        print(f"   x Error: El JSON devuelto por la IA estaba mal formado o incompleto.")
     except Exception as e:
-        print(f"   x Error: {e}", flush=True)
+        print(f"   x Error inesperado: {e}", flush=True)
 
     time.sleep(6)
 
 print(f"\n Proceso finalizado. Archivo: '{csv_filename}'.", flush=True)
+
 
