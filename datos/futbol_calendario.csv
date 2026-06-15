@@ -1,0 +1,91 @@
+event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,home_ht_goals,away_ht_goals,home_et_goals,away_et_goals,home_pen_goals,away_pen_goals,result,scrape_date,ALL_ball_possession_home,ALL_ball_possession_away,ALL_expected_goals_home,ALL_expected_goals_away,ALL_big_chances_home,ALL_big_chances_away,ALL_total_shots_home,ALL_total_shots_away,ALL_goalkeeper_saves_home,ALL_goalkeeper_saves_away,ALL_corner_kicks_home,ALL_corner_kicks_away,ALL_fouls_home,ALL_fouls_away,ALL_passes_home,ALL_passes_away,ALL_yellow_cards_home,ALL_yellow_cards_away,ALL_shots_on_target_home,ALL_shots_on_target_away,ALL_offsides_home,ALL_offsides_away,ALL_accurate_passes_home,ALL_accurate_passes_away,ALL_red_cards_home,ALL_red_cards_away
+82304638,World,FIFA World Cup,3842,FIFA World Cup,2026,2026-06-15,Group stage - Matchday 1,1,,Spain,,Cabo Verde,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+60987873,World,FIFA World Cup,3842,FIFA World Cup,2026,2026-06-15,Group stage - Matchday 1,1,,Belgium,,Egypt,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5348588,World,FIFA World Cup,3842,FIFA World Cup,2026,2026-06-15,Group stage - Matchday 1,1,,Saudi Arabia,,Uruguay,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+73079562,World,FIFA World Cup,3842,FIFA World Cup,2026,2026-06-15,Group stage - Matchday 1,1,,Iran,,New Zealand,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+21070107,Australia,NPL Capital Football,25365,NPL Capital Football,2026,2026-06-15,RO,,,Canberra Juventus,,Tigers FC,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+14017284,Brazil,Brasileirão Série B,29957,Brasileirão Série B,2026,2026-06-15,Regular Season,,,Brusque,,Santa Cruz,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+75351968,Brazil,Brasileirão Série B,29957,Brasileirão Série B,2026,2026-06-15,Regular Season,,,Paysandu,,Inter de Limeira,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6670878,Brazil,Brasileirão Série B,29957,Brasileirão Série B,2026,2026-06-15,Regular Season,,,AO Itabaiana,,Ituano FC,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+22473161,Brazil,Brasileirão Série B,29957,Brasileirão Série B,2026,2026-06-15,Regular Season,,,Volta Redonda,,Confianca,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+72476879,Brazil,Brasileirão Série B,29957,Brasileirão Série B,2026,2026-06-15,Regular Season,,,Floresta,,Figueirense,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5494147,Brazil,Brasileirão Série B,29957,Brasileirão Série B,2026,2026-06-15,Regular Season,,,Juventude,,Ponte Preta,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+47473586,Brazil,Brasileirão Série B,29957,Brasileirão Série B,2026,2026-06-15,Regular Season,,,Sao Bernardo,,Sport Recife,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+15185783,Brazil,Brasileirão Série B,29957,Brasileirão Série B,2026,2026-06-15,Regular Season,,,Cuiaba,,Vila Nova,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+96216162,Brazil,Brasileirão Série B,29957,Brasileirão Série B,2026,2026-06-15,Regular Season,,,Athletic Club,,Goias,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+56192868,Brazil,Brasileirão Série B,29957,Brasileirão Série B,2026,2026-06-15,Regular Season,,,Novorizontino,,Nautico,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+42290257,Brazil,Brasileirão Série B,29957,Brasileirão Série B,2026,2026-06-15,Regular Season,,,Botafogo SP,,Operario Ferroviario,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+59841620,World,FIFA World Cup,3842,FIFA World Cup,2026,2026-06-15,Group stage,,,Germany,,Curacao,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+903,World,FIFA World Cup,3842,FIFA World Cup,2026,2026-06-15,Group stage,,,Netherlands,,Japan,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+70293497,World,FIFA World Cup,3842,FIFA World Cup,2026,2026-06-15,Group stage,,,Ivory Coast,,Ecuador,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+93319767,World,FIFA World Cup,3842,FIFA World Cup,2026,2026-06-15,Group stage,,,Sweden,,Tunisia,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+34351679,Argentina,Primera Nacional,37544,Primera Nacional,2026,2026-06-15,Regular Season,,,Almirante Brown,,Godoy Cruz,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+13616849,Argentina,Primera Nacional,37544,Primera Nacional,2026,2026-06-15,Regular Season,,,Club Atletico Estudiantes,,All Boys,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+26797240,Argentina,Primera Nacional,37544,Primera Nacional,2026,2026-06-15,Regular Season,,,Deportivo Madryn,,CA San Miguel,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+37027036,Argentina,Primera Nacional,37544,Primera Nacional,2026,2026-06-15,Regular Season,,,Patronato de Parana,,Atletico Rafaela,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4887816,Argentina,Primera Nacional,37544,Primera Nacional,2026,2026-06-15,Regular Season,,,Ferro Carril Oeste,,Acassuso,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+27369788,Argentina,Primera Nacional,37544,Primera Nacional,2026,2026-06-15,Regular Season,,,Racing de Cordoba,,CA Chaco For Ever,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+47353426,Argentina,Primera Nacional,37544,Primera Nacional,2026,2026-06-15,Regular Season,,,Temperley,,Atletico Guemes,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+75312437,Argentina,Primera Nacional,37544,Primera Nacional,2026,2026-06-15,Regular Season,,,Club Atletico Mitre,,Los Andes,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+44700454,Argentina,Primera Nacional,37544,Primera Nacional,2026,2026-06-15,Regular Season,,,Deportivo Maipu,,Tristan Suarez,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+69891865,Argentina,Primera Nacional,37544,Primera Nacional,2026,2026-06-15,Regular Season,,,Central Norte,,San Telmo,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4770351,Japan,J1 League,68431,J1 League,2026,2026-06-15,Full time,,,Albirex Niigata,,Yokohama F. Marinos,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+45867776,Japan,J1 League,68431,J1 League,2026,2026-06-15,Full time,,,Fagiano Okayama,,Avispa Fukuoka,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+94075421,Japan,J1 League,68431,J1 League,2026,2026-06-15,Full time,,,Tokyo Verdy,,Kashiwa Reysol,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+92213269,Japan,J1 League,68431,J1 League,2026,2026-06-15,Full time,,,Vissel Kobe,,Nagoya Grampus,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+95189472,Japan,J1 League,68431,J1 League,2026,2026-06-15,Full time,,,Shimizu S-Pulse,,Gamba Osaka,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+89773700,Canada,Canadian Premier League,57631,Canadian Premier League,2026,2026-06-15,Regular Season,,,Vancouver FC,,Pacific FC,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6765910,Finland,Ykkösliiga,55285,Ykkösliiga,2026,2026-06-15,Matchday 11,11,,SJK Akatemia,,FC Haka,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+70300376,Brazil,Brasileirão Série B,29957,Brasileirão Série B,2026,2026-06-15,Regular Season,,,Criciuma,,Ceara,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2514686,Brazil,Brasileirão Série B,29957,Brasileirão Série B,2026,2026-06-15,Regular Season,,,Londrina EC,,Avai FC,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+54037683,World,FIFA World Cup,3842,FIFA World Cup,2026,2026-06-15,Group stage,,,Spain,,Cape Verde,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+71197140,World,FIFA World Cup,3842,FIFA World Cup,2026,2026-06-15,Group stage,,,Côte d'Ivoire,,Ecuador,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4115356,World,FIFA World Cup,3842,FIFA World Cup,2026,2026-06-16,Group stage - Matchday 1,,,IR Iran,,New Zealand,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+89485419,World,FIFA World Cup,3842,FIFA World Cup,2026,2026-06-16,Group I,,,France,,Senegal,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+39621624,World,FIFA World Cup,3842,FIFA World Cup,2026,2026-06-16,Group I,,,Iraq,,Norway,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+11178262,World,FIFA World Cup,3842,FIFA World Cup,2026,2026-06-16,Group J,,,Argentina,,Algeria,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5933398,World,FIFA World Cup,3842,FIFA World Cup,2026,2026-06-16,Group J,,,Austria,,Jordan,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+62152868,Sweden,Superettan,30401,Superettan,2026,2026-06-16,Round 13,13,,Landskrona BoIS,,United IK Nordic,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+50194423,Sweden,Superettan,30401,Superettan,2026,2026-06-16,Round 13,13,,Varnamo,,Helsingborg,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+7749538,Georgia,Erovnuli Liga,36810,Erovnuli Liga,2026,2026-06-16,Round 18,18,,None,,None,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+51730038,Italy,Serie B,56753,Serie B,2026,2026-06-16,,,,Fortaleza,,America MG,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+63120640,Georgia,Erovnuli Liga,36810,Erovnuli Liga,2026,2026-06-16,,,,Dila Gori,,Spaeri,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+29300085,Latvia,Virsliga,19524,Virsliga,2026,2026-06-16,,,,BFC Daugavpils,,SK Super Nova,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+91897505,England,Premier League,12069,Premier League,2026,2026-06-16,,,,Namungo FC,,Tabora United,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4983343,Latvia,Virsliga,19524,Virsliga,2026,2026-06-16,,,,Grobina,,FK Liepaja,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+63104584,USA,MLS Next Pro,28601,MLS Next Pro,MLS Next Pro 2026,2026-06-17,Regular Season,,,Vancouver Whitecaps II,,San Jose Earthquakes II,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+42335464,USA,MLS Next Pro,28601,MLS Next Pro,MLS Next Pro 2026,2026-06-17,Regular Season,,,Tacoma Defiance,,Houston Dynamo II,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6500386,Georgia,Erovnuli Liga,36810,Erovnuli Liga,Erovnuli Liga 2026,2026-06-17,Matchday 18,18,,FC Iberia 1999,,FC Rustavi,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+14119053,Georgia,Erovnuli Liga,36810,Erovnuli Liga,Erovnuli Liga 2026,2026-06-17,Matchday 18,18,,Torpedo Kutaisi,,Dinamo Batumi,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+7570045,Argentina,Primera Nacional,37544,Primera Nacional,Primera Nacional 2026,2026-06-17,,,,CA Gimnasia de Jujuy,,Nueva Chicago,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1115298,USA,USL Championship,37582,USL Championship,USL Championship 2026,2026-06-17,,,,Oakland Roots,,Birmingham Legion,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+28317727,USA,USL Championship,37582,USL Championship,USL Championship 2026,2026-06-17,,,,Indy Eleven,,Brooklyn,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+46966088,Kazakhstan,Kazakhstan Premier League,36632,Kazakhstan Premier League,Kazakhstan Premier League 2026,2026-06-17,,,,Kairat Almaty,,FC Kyzylzhar Petropavlovsk,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+66456900,World,FIFA World Cup,3842,FIFA World Cup,FIFA World Cup 2026,2026-06-17,Group stage,,,Portugal,,DR Congo,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+7111428,World,FIFA World Cup,3842,FIFA World Cup,FIFA World Cup 2026,2026-06-17,Group stage,,,England,,Croatia,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+56093637,World,FIFA World Cup,3842,FIFA World Cup,FIFA World Cup 2026,2026-06-17,Group stage,,,Ghana,,Panama,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+8635756,World,FIFA World Cup,3842,FIFA World Cup,FIFA World Cup 2026,2026-06-17,Group stage,,,Uzbekistan,,Colombia,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4801120,Finland,Veikkausliiga,50956,Veikkausliiga,Veikkausliiga 2026,2026-06-17,,,,HJK Helsinki,,FC Inter Turku,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+46554881,Finland,Veikkausliiga,50956,Veikkausliiga,Veikkausliiga 2026,2026-06-17,,,,Ilves,,FF Jaro,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5786939,Finland,Veikkausliiga,50956,Veikkausliiga,Veikkausliiga 2026,2026-06-17,,,,TPS Turku,,KuPS Kuopio,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+17577900,Finland,Veikkausliiga,50956,Veikkausliiga,Veikkausliiga 2026,2026-06-17,,,,Gnistan,,FC Lahti,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+92585229,Finland,Veikkausliiga,50956,Veikkausliiga,Veikkausliiga 2026,2026-06-17,,,,SJK,,VPS,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+74213234,World,FIFA World Cup,3842,FIFA World Cup,FIFA World Cup 2026,2026-06-17,Group stage,,,Argentina,,Algeria,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+42359110,World,FIFA World Cup,3842,FIFA World Cup,FIFA World Cup 2026,2026-06-17,Group stage,,,Austria,,Jordan,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+60792944,World,FIFA World Cup,3842,FIFA World Cup,FIFA World Cup 2026,2026-06-17,Group stage,,,Portugal,,Congo DR,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+59038955,USA,MLS Next Pro,28601,MLS Next Pro,MLS Next Pro 2026,2026-06-17,Regular Season,,,New York City FC II,,Carolina Core,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+32164996,USA,MLS Next Pro,28601,MLS Next Pro,MLS Next Pro 2026,2026-06-17,Regular Season,,,Vancouver Whitecaps II,,The,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+96200255,USA,USL Championship,37582,USL Championship,USL Championship 2026,2026-06-17,,,,Loudoun United FC,,Rhode Island FC,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+8863319,USA,USL Championship,37582,USL Championship,USL Championship 2026,2026-06-17,,,,Sporting JAX,,Detroit City FC,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+37645397,USA,USL Championship,37582,USL Championship,USL Championship 2026,2026-06-17,,,,Lexington SC,,San Antonio FC,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+16046044,USA,USL Championship,37582,USL Championship,USL Championship 2026,2026-06-17,,,,Pittsburgh Riverhounds SC,,Indy Eleven,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+71879371,USA,USL Championship,37582,USL Championship,USL Championship 2026,2026-06-17,,,,Tampa Bay Rowdies,,Hartford Athletic,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+46963544,USA,USL Championship,37582,USL Championship,USL Championship 2026,2026-06-17,,,,Charleston Battery,,FC Tulsa,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+26036726,USA,USL Championship,37582,USL Championship,USL Championship 2026,2026-06-17,,,,Louisville City FC,,Brooklyn,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+23775718,USA,USL Championship,37582,USL Championship,USL Championship 2026,2026-06-17,,,,Birmingham Legion FC,,Las Vegas Lights FC,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+19962161,USA,USL Championship,37582,USL Championship,USL Championship 2026,2026-06-17,,,,El Paso Locomotive FC,,Phoenix Rising FC,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+86802453,USA,USL Championship,37582,USL Championship,USL Championship 2026,2026-06-17,,,,Colorado Springs Switchbacks FC,,Sacramento Republic FC,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+90745039,USA,USL Championship,37582,USL Championship,USL Championship 2026,2026-06-17,,,,New Mexico United,,Orange County SC,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+93476238,USA,USL Championship,37582,USL Championship,USL Championship 2026,2026-06-17,,,,Oakland Roots SC,,Miami FC,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+89830259,USA,MLS Next Pro,28601,MLS Next Pro,MLS NEXT Pro 2026,2026-06-17,Regular Season,,,NYC,,CCFC,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+74251581,USA,MLS Next Pro,28601,MLS Next Pro,MLS NEXT Pro 2026,2026-06-17,Regular Season,,,TAC,,HOU,,,,,,,,,,2026-06-15,50%,50%,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
