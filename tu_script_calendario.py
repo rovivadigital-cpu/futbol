@@ -154,17 +154,10 @@ def generar_tourney_id(nombre_liga, pais):
 
 # Inicializar archivo de calendario con cabeceras estándar
 headers = [
-    "event_id", "pais", "liga", "tourney_id", "tourney_name", "tourney_season", "tourney_date",
-    "round", "round_number", "home_team_id", "home_team_name", "away_team_id", "away_team_name",
-    "home_goals", "away_goals", "home_ht_goals", "away_ht_goals", "home_et_goals", "away_et_goals",
-    "home_pen_goals", "away_pen_goals", "result", "scrape_date",
-    "ALL_ball_possession_home", "ALL_ball_possession_away", "ALL_expected_goals_home", "ALL_expected_goals_away",
-    "ALL_big_chances_home", "ALL_big_chances_away", "ALL_total_shots_home", "ALL_total_shots_away",
-    "ALL_goalkeeper_saves_home", "ALL_goalkeeper_saves_away", "ALL_corner_kicks_home", "ALL_corner_kicks_away",
-    "ALL_fouls_home", "ALL_fouls_away", "ALL_passes_home", "ALL_passes_away",
-    "ALL_yellow_cards_home", "ALL_yellow_cards_away", "ALL_shots_on_target_home", "ALL_shots_on_target_away",
-    "ALL_offsides_home", "ALL_offsides_away", "ALL_accurate_passes_home", "ALL_accurate_passes_away",
-    "ALL_red_cards_home", "ALL_red_cards_away"
+    "Fecha", "Hora_Local", "Pais", "Competicion", "Competicion_ID_Sofascore", 
+    "Torneo", "Torneo_ID_Sofascore", "Ronda", "Equipo_Local", 
+    "Equipo_Local_ID_Sofascore", "Pais_Local", "Equipo_Visitante", 
+    "Equipo_Visitante_ID_Sofascore", "Pais_Visitante", "Marcador", "Estado"
 ]
 
 if os.path.exists(csv_filename):
@@ -281,10 +274,22 @@ for fecha_obj, etiqueta in dias_a_revisar:
                     custom_tourney_id = generar_tourney_id(liga_nombre_correcto, pais_nombre)
 
                     row = [
-                        event_id, pais_nombre, liga_nombre_correcto, custom_tourney_id, liga_nombre_correcto, season, fecha_str,
-                        p.get("round", ""), p.get("round_number", ""), "", local, "", visita,
-                        "", "", "", "", "", "", "", "", "", scrape_date_str,  # Goles vacíos
-                        "50%", "50%", 0.0, 0.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0  # Stats por defecto
+                        fecha_str,              # Fecha
+                        "00:00",                # Hora_Local (puedes ajustar si la obtienes del prompt)
+                        pais_nombre,            # Pais
+                        liga_nombre_correcto,   # Competicion
+                        "",                     # Competicion_ID_Sofascore
+                        liga_nombre_correcto,   # Torneo
+                        "",                     # Torneo_ID_Sofascore
+                        p.get("round", ""),     # Ronda
+                        local,                  # Equipo_Local
+                        "",                     # Equipo_Local_ID_Sofascore
+                        "",                     # Pais_Local
+                        visita,                 # Equipo_Visitante
+                        "",                     # Equipo_Visitante_ID_Sofascore
+                        "",                     # Pais_Visitante
+                        "",                     # Marcador
+                        "Programado"            # Estado
                     ]
                     writer.writerow(row)
             print(f"   + Guardados {partidos_guardados} partidos en el archivo temporal.", flush=True)
