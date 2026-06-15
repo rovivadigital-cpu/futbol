@@ -197,23 +197,28 @@ for fecha_obj, etiqueta in dias_a_revisar:
     lista_ligas_prompt = ", ".join([info["nombre"] for info in TORNEOS_DATA])
 
     prompt = f"""
-    Busca en la web el calendario de partidos oficiales programados para el día {fecha_str} exclusivamente para las siguientes ligas de fútbol:
-    [{lista_ligas_prompt}]
-
-    Devuelve los datos estrictamente en este formato JSON plano, sin bloques markdown ni texto explicativo:
+    Busca el calendario de partidos para el día {fecha_str} de las siguientes ligas: [{lista_ligas_prompt}].
+    Para cada partido encontrado, devuelve un JSON con:
+    - liga_nombre_oficial, tourney_season, round, round_number, home_team_name, away_team_name.
+    - Opcional: Intenta extraer la hora del partido (formato HH:MM) y el país de los equipos si la información está disponible.
+    
+    Devuelve estrictamente este JSON:
     {{
       "partidos": [
         {{
-          "liga_nombre_oficial": "Nombre de la liga tal cual viene en la lista de arriba",
-          "tourney_season": "Nombre oficial de la temporada (ej: Premier League 25/26 o Primera A 2026)",
-          "round": "Jornada X o Fase",
-          "round_number": "X",
-          "home_team_name": "Nombre equipo local",
-          "away_team_name": "Nombre equipo visitante"
+          "liga_nombre_oficial": "...",
+          "tourney_season": "...",
+          "round": "...",
+          "round_number": "...",
+          "hora": "HH:MM", 
+          "home_team_name": "...",
+          "home_team_country": "...",
+          "away_team_name": "...",
+          "away_team_country": "..."
         }}
       ]
     }}
-    If there are no matches scheduled for any of those leagues on that day, return an empty list: {{"partidos": []}}
+    Si no hay partidos, devuelve {{"partidos": []}}.
     """
 
     try:
@@ -265,6 +270,9 @@ for fecha_obj, etiqueta in dias_a_revisar:
 
                     # Recuperar metadatos locales de nuestro diccionario seguro
                     liga_info = MAPPING_LIGAS[liga_raw]
+                    hora = p.get("hora", "00:00")
+                    pais_local = p.get("home_team_country", "")
+                    pais_visitante = p.get("away_team_country", "")
                     liga_nombre_correcto = liga_info["nombre"]
                     pais_nombre = liga_info["pais"]
                     season = p.get("tourney_season", f"{liga_nombre_correcto} {fecha_str[:4]}")
@@ -274,22 +282,22 @@ for fecha_obj, etiqueta in dias_a_revisar:
                     custom_tourney_id = generar_tourney_id(liga_nombre_correcto, pais_nombre)
 
                     row = [
-                        fecha_str,              # Fecha
-                        "00:00",                # Hora_Local (puedes ajustar si la obtienes del prompt)
-                        pais_nombre,            # Pais
-                        liga_nombre_correcto,   # Competicion
-                        "",                     # Competicion_ID_Sofascore
-                        liga_nombre_correcto,   # Torneo
-                        "",                     # Torneo_ID_Sofascore
-                        p.get("round", ""),     # Ronda
-                        local,                  # Equipo_Local
-                        "",                     # Equipo_Local_ID_Sofascore
-                        "",                     # Pais_Local
-                        visita,                 # Equipo_Visitante
-                        "",                     # Equipo_Visitante_ID_Sofascore
-                        "",                     # Pais_Visitante
-                        "",                     # Marcador
-                        "Programado"            # Estado
+                        fecha_str,                  # Fecha
+                        hora,                       # Hora_Local
+                        liga_info["pais"],          # Pais
+                        liga_nombre_correcto,       # Competicion
+                        "",                         # Competicion_ID_Sofascore
+                        liga_nombre_correcto,       # Torneo
+                        "",                         # Torneo_ID_Sofascore
+                        p.get("round", ""),         # Ronda
+                        local,                      # Equipo_Local
+                        "",                         # Equipo_Local_ID_Sofascore
+                        pais_local,                 # Pais_Local
+                        visita,                     # Equipo_Visitante
+                        "",                         # Equipo_Visitante_ID_Sofascore
+                        pais_visitante,             # Pais_Visitante
+                        "",                         # Marcador
+                        "Programado"                # Estado
                     ]
                     writer.writerow(row)
             print(f"   + Guardados {partidos_guardados} partidos en el archivo temporal.", flush=True)
