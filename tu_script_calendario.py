@@ -54,7 +54,7 @@ TORNEOS_DATA = {
     13331: {"nombre": "Bangladesh Football League", "pais": "Bangladesh"},
     16736: {"nombre": "División Profesional", "pais": "Bolivia"},
     325: {"nombre": "Brasileirão Betano", "pais": "Brazil"},
-    390: {"nombre": "Brasileirão Série B", "pais": "Brazil"},
+    390: {"nombre": "brasileirao-serie-b", "pais": "Brazil"},
     1281: {"nombre": "Brasileirão Série C", "pais": "Brazil"},
     22106: {"nombre": "Première Division de N'Djaména", "pais": "Chad"},
     11653: {"nombre": "Liga de Primera", "pais": "Chile"},
