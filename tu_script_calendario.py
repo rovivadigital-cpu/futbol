@@ -202,8 +202,8 @@ for fecha_obj, etiqueta in dias_a_revisar:
     lista_ligas_prompt = ", ".join([info["nombre"] for info in TORNEOS_DATA])
 
     prompt = f"""
-    Busca el calendario de partidos para el día {fecha_str} de las siguientes ligas: [{lista_ligas_prompt}].
-    Para cada partido encontrado, devuelve un JSON con:
+    Busca el calendario de partidos para los próximos 3 días (hoy, mañana y pasado mañana) para las siguientes ligas: [{lista_ligas_prompt}].
+    Devuelve un JSON con:
     - liga_nombre_oficial, tourney_season, round, round_number, home_team_name, away_team_name.
     - Opcional: Intenta extraer la hora del partido (formato HH:MM) y el país de los equipos si la información está disponible.
     
