@@ -16,127 +16,125 @@ os.makedirs("datos", exist_ok=True)
 # =====================================================================
 
 # Diccionario original completo con sus IDs oficiales para recuperar los IDs de torneo
-# Cada entrada incluye "equipos_muestra": palabras clave de equipos típicos de esa liga.
-# Se usa para detectar si Gemini devolvió equipos del país/liga equivocados.
 TORNEOS_IDS = {
-    17:    {"nombre": "Premier League",                 "pais": "England",                 "equipos_muestra": ["arsenal", "chelsea", "liverpool", "manchester", "tottenham", "city", "united", "newcastle", "west ham", "aston villa"]},
-    18:    {"nombre": "Championship",                   "pais": "England",                 "equipos_muestra": ["leeds", "sheffield", "burnley", "middlesbrough", "sunderland", "norwich", "bristol", "coventry", "hull", "cardiff"]},
-    24:    {"nombre": "League One",                     "pais": "England",                 "equipos_muestra": ["barnsley", "oxford", "bolton", "portsmouth", "derby", "charlton", "exeter", "burton", "stockport", "peterborough"]},
-    25:    {"nombre": "League Two",                     "pais": "England",                 "equipos_muestra": ["swindon", "mansfield", "salford", "crewe", "grimsby", "harrogate", "stevenage", "crawley", "colchester", "wrexham"]},
-    19:    {"nombre": "FA Cup",                         "pais": "England",                 "equipos_muestra": ["arsenal", "chelsea", "liverpool", "manchester", "tottenham"]},
-    841:   {"nombre": "Algerian Ligue 1",               "pais": "Algeria",                 "equipos_muestra": ["mouloudia", "usm alger", "es setif", "cr belouizdad", "js kabylie", "mc oran"]},
-    155:   {"nombre": "Liga Profesional de Fútbol",     "pais": "Argentina",               "equipos_muestra": ["boca", "river", "racing", "independiente", "san lorenzo", "velez", "talleres", "estudiantes", "huracan", "lanus"]},
-    703:   {"nombre": "Primera Nacional",               "pais": "Argentina",               "equipos_muestra": ["brown", "quilmes", "chaco for ever", "almagro", "san martin", "atletico", "gimnasia"]},
-    1347:  {"nombre": "Primera B Metropolitana",        "pais": "Argentina",               "equipos_muestra": ["colegiales", "acassuso", "deportivo riestra", "defensores", "villa san carlos"]},
-    136:   {"nombre": "A-League Men",                   "pais": "Australia",               "equipos_muestra": ["sydney", "melbourne", "perth", "brisbane", "adelaide", "wellington", "central coast", "western united"]},
-    1894:  {"nombre": "A-League Women",                 "pais": "Australia",               "equipos_muestra": ["sydney", "melbourne", "perth", "brisbane", "adelaide", "canberra", "western united"]},
-    1260:  {"nombre": "NPL Capital Football",           "pais": "Australia",               "equipos_muestra": ["canberra", "gungahlin", "tuggeranong", "brindabella", "belconnen"]},
-    1268:  {"nombre": "NPL Queensland",                 "pais": "Australia",               "equipos_muestra": ["brisbane", "olympic", "easts", "lions", "rochedale", "north star"]},
-    709:   {"nombre": "Misli Premier League",           "pais": "Azerbaijan",              "equipos_muestra": ["qarabag", "neftchi", "sabah", "shamakhi", "zira", "kapaz"]},
-    846:   {"nombre": "Bahraini Premier League",        "pais": "Bahrain",                 "equipos_muestra": ["al riffa", "al muharraq", "al hidd", "east riffa", "al ahli"]},
-    13331: {"nombre": "Bangladesh Football League",     "pais": "Bangladesh",              "equipos_muestra": ["abahani", "mohammedan", "bashundhara", "sheikh russel"]},
-    16736: {"nombre": "División Profesional",           "pais": "Bolivia",                 "equipos_muestra": ["bolivar", "the strongest", "wilstermann", "blooming", "oriente petrolero"]},
-    325:   {"nombre": "Brasileirão Série A",            "pais": "Brazil",                  "equipos_muestra": ["flamengo", "palmeiras", "atletico mineiro", "fluminense", "corinthians", "sao paulo", "santos", "gremio", "internacional", "botafogo", "vasco", "cruzeiro", "bahia", "fortaleza"]},
-    390:   {"nombre": "Brasileirão Série B",            "pais": "Brazil",                  "equipos_muestra": ["criciuma", "juventude", "sport recife", "athletico paranaense", "america mineiro", "chapecoense", "ituano", "coritiba", "vila nova", "goias"]},
-    1281:  {"nombre": "Brasileirão Série C",            "pais": "Brazil",                  "equipos_muestra": ["athletic club", "remo", "tombense", "ferroviaria", "botafogo pb", "abc", "paysandu", "mirassol"]},
-    22106: {"nombre": "Première Division de N'Djaména", "pais": "Chad",                    "equipos_muestra": []},
-    11653: {"nombre": "Liga de Primera",                "pais": "Chile",                   "equipos_muestra": ["colo colo", "universidad de chile", "universidad catolica", "la serena", "antofagasta", "huachipato", "palestino", "audax italiano"]},
-    649:   {"nombre": "Chinese Super League",           "pais": "China",                   "equipos_muestra": ["shandong", "shanghai", "beijing", "guangzhou", "wuhan", "tianjin", "shenzhen", "chengdu"]},
-    782:   {"nombre": "Chinese League 1",               "pais": "China",                   "equipos_muestra": ["yanbian", "qingdao", "dalian", "zhejiang", "nanjing", "heilongjiang"]},
-    11539: {"nombre": "Primera A, Apertura",            "pais": "Colombia",                "equipos_muestra": ["millonarios", "america", "nacional", "santa fe", "junior", "cali", "medellin", "pereira", "bucaramanga", "pasto"]},
-    11536: {"nombre": "Primera A, Finalización",        "pais": "Colombia",                "equipos_muestra": ["millonarios", "america", "nacional", "santa fe", "junior", "cali", "medellin", "pereira", "bucaramanga", "pasto"]},
-    1238:  {"nombre": "Categoría Primera B",            "pais": "Colombia",                "equipos_muestra": ["real cartagena", "llaneros", "tigres", "cortuluá", "unión magdalena", "leones"]},
-    240:   {"nombre": "LigaPro Serie A",                "pais": "Ecuador",                 "equipos_muestra": ["barcelona sc", "emelec", "liga de quito", "aucas", "independiente", "delfin", "orense", "macara"]},
-    808:   {"nombre": "Egyptian Premier League",        "pais": "Egypt",                   "equipos_muestra": ["al ahly", "zamalek", "pyramids", "al masry", "ismaily", "wadi degla"]},
-    309:   {"nombre": "World Cup Qual. OFC",            "pais": "Oceania",                 "equipos_muestra": ["new zealand", "tahiti", "solomon islands", "fiji", "vanuatu", "new caledonia"]},
-    1222:  {"nombre": "OFC Champions League",           "pais": "Oceania",                 "equipos_muestra": ["auckland city", "hienghene sport", "lautoka", "ba"]},
-    704:   {"nombre": "Erovnuli Liga",                  "pais": "Georgia",                 "equipos_muestra": ["dinamo tbilisi", "lokomotivi", "torpedo kutaisi", "saburtalo", "dila gori"]},
-    1054:  {"nombre": "CAF Champions League",           "pais": "Africa",                  "equipos_muestra": ["al ahly", "wydad", "mamelodi", "tp mazembe", "esperance", "raja"]},
-    463:   {"nombre": "AFC Champions League Elite",     "pais": "Asia",                    "equipos_muestra": ["urawa", "jeonbuk", "al hilal", "al ain", "pohang", "kawasaki"]},
-    7:     {"nombre": "UEFA Champions League",          "pais": "Europe",                  "equipos_muestra": ["real madrid", "barcelona", "bayern", "manchester city", "psg", "chelsea", "juventus", "inter", "atletico", "dortmund"]},
-    679:   {"nombre": "UEFA Europa League",             "pais": "Europe",                  "equipos_muestra": ["roma", "sevilla", "ajax", "arsenal", "bayer leverkusen", "atalanta", "rangers", "villarreal"]},
-    17015: {"nombre": "UEFA Conference League",         "pais": "Europe",                  "equipos_muestra": ["fiorentina", "west ham", "olympiakos", "club brugge", "basel", "gent"]},
-    696:   {"nombre": "UEFA Women's Champions League",  "pais": "Europe",                  "equipos_muestra": ["barcelona", "lyon", "chelsea", "wolfsburg", "arsenal", "paris"]},
-    140:   {"nombre": "CONCACAF Gold Cup",              "pais": "North & Central America", "equipos_muestra": ["usa", "mexico", "canada", "jamaica", "panama", "costa rica", "honduras"]},
-    11454: {"nombre": "Campeones Cup",                  "pais": "North & Central America", "equipos_muestra": ["la galaxy", "leon", "portland", "chivas", "seattle", "club america"]},
-    498:   {"nombre": "CONCACAF Champions Cup",         "pais": "North & Central America", "equipos_muestra": ["club america", "tigres", "chivas", "monterrey", "la galaxy", "toronto", "seattle"]},
-    13783: {"nombre": "Leagues Cup",                    "pais": "North & Central America", "equipos_muestra": ["la galaxy", "inter miami", "atlas", "tigres", "chivas", "seattle"]},
-    384:   {"nombre": "CONMEBOL Libertadores",          "pais": "South America",           "equipos_muestra": ["flamengo", "river", "boca", "palmeiras", "atletico mineiro", "nacional", "olimpia", "independiente"]},
-    480:   {"nombre": "CONMEBOL Sudamericana",          "pais": "South America",           "equipos_muestra": ["ldu", "independiente", "fluminense", "defensa y justicia", "peñarol", "america"]},
-    133:   {"nombre": "Copa América",                   "pais": "South America",           "equipos_muestra": ["brazil", "argentina", "uruguay", "colombia", "chile", "ecuador", "peru", "venezuela"]},
-    10602: {"nombre": "Copa Libertadores Femenina",     "pais": "South America",           "equipos_muestra": ["corinthians", "boca", "nacional", "ferroviaria", "america de cali"]},
-    1015:  {"nombre": "Indonesia Super League",         "pais": "Indonesia",               "equipos_muestra": ["persija", "persib", "bali united", "arema", "psm makassar", "madura united"]},
-    20708: {"nombre": "UEFA-CONMEBOL Club Challenge",   "pais": "World",                   "equipos_muestra": []},
-    16:    {"nombre": "FIFA World Cup",                 "pais": "World",                   "equipos_muestra": ["brazil", "argentina", "france", "germany", "spain", "england"]},
-    23674: {"nombre": "FIFA Intercontinental Cup",      "pais": "World",                   "equipos_muestra": []},
-    851:   {"nombre": "International Friendly Games",   "pais": "World",                   "equipos_muestra": []},
-    290:   {"nombre": "FIFA Women's World Cup",         "pais": "World",                   "equipos_muestra": ["usa", "germany", "france", "japan", "sweden", "england", "australia"]},
-    915:   {"nombre": "Persian Gulf Pro League",        "pais": "Iran",                    "equipos_muestra": ["persepolis", "esteghlal", "sepahan", "tractor", "foolad", "zobahan"]},
-    206:   {"nombre": "Israeli Premier League",         "pais": "Israel",                  "equipos_muestra": ["maccabi tel aviv", "hapoel", "beitar jerusalem", "bnei yehuda", "maccabi haifa"]},
-    196:   {"nombre": "J1 League",                      "pais": "Japan",                   "equipos_muestra": ["kashima", "urawa", "gamba osaka", "yokohama", "vissel kobe", "kawasaki", "cerezo", "nagoya"]},
-    402:   {"nombre": "J2 League",                      "pais": "Japan",                   "equipos_muestra": ["vegalta sendai", "kyoto sanga", "tokushima", "renofa yamaguchi", "roasso kumamoto"]},
-    682:   {"nombre": "Kazakhstan Premier League",      "pais": "Kazakhstan",              "equipos_muestra": ["shakhtar karagandy", "astana", "kairat", "tobol", "ordabasy"]},
-    1002:  {"nombre": "Zain Premier League",            "pais": "Kuwait",                  "equipos_muestra": ["al kuwait", "al qadsia", "al arabi", "al jahra", "kazma"]},
-    594:   {"nombre": "New Zealand National League",    "pais": "New Zealand",             "equipos_muestra": ["auckland city", "waitakere", "team wellington", "southern united", "eastern suburbs"]},
-    200:   {"nombre": "NIFL Premiership",               "pais": "Northern Ireland",        "equipos_muestra": ["linfield", "glentoran", "cliftonville", "crusaders", "coleraine", "portadown"]},
-    11540: {"nombre": "Primera División, Apertura",     "pais": "Paraguay",                "equipos_muestra": ["olimpia", "cerro porteño", "libertad", "guarani", "tacuary", "sol de america"]},
-    11541: {"nombre": "Primera División, Clausura",     "pais": "Paraguay",                "equipos_muestra": ["olimpia", "cerro porteño", "libertad", "guarani", "tacuary", "sol de america"]},
-    406:   {"nombre": "Liga 1",                         "pais": "Peru",                    "equipos_muestra": ["alianza lima", "universitario", "sporting cristal", "melgar", "cienciano", "san martin"]},
-    825:   {"nombre": "Stars League",                   "pais": "Qatar",                   "equipos_muestra": ["al sadd", "al duhail", "al rayyan", "al arabi", "al wakrah", "umm salal"]},
-    955:   {"nombre": "Saudi Pro League",               "pais": "Saudi Arabia",            "equipos_muestra": ["al hilal", "al nassr", "al ittihad", "al ahli", "al qadsiah", "al shabab"]},
-    36:    {"nombre": "Scottish Premiership",           "pais": "Scotland",                "equipos_muestra": ["celtic", "rangers", "hearts", "hibernian", "aberdeen", "motherwell", "dundee"]},
-    358:   {"nombre": "South African Premier Division", "pais": "South Africa",            "equipos_muestra": ["kaizer chiefs", "orlando pirates", "mamelodi sundowns", "cape town city", "supersport united"]},
-    52:    {"nombre": "Trendyol Süper Lig",             "pais": "Turkey",                  "equipos_muestra": ["galatasaray", "fenerbahce", "besiktas", "trabzonspor", "basaksehir", "sivasspor", "konyaspor"]},
-    971:   {"nombre": "UAE Pro League",                 "pais": "United Arab Emirates",    "equipos_muestra": ["al ain", "al jazira", "al wahda", "al nasr", "sharjah", "dubai"]},
-    278:   {"nombre": "Liga AUF Uruguaya",              "pais": "Uruguay",                 "equipos_muestra": ["nacional", "peñarol", "river plate", "defensor sporting", "danubio", "liverpool"]},
-    13470: {"nombre": "Canadian Premier League",        "pais": "Canada",                  "equipos_muestra": ["forge", "cavalry", "pacific", "hfx wanderers", "york united", "atletico ottawa"]},
-    11621: {"nombre": "Liga MX, Apertura",              "pais": "Mexico",                  "equipos_muestra": ["america", "chivas", "tigres", "monterrey", "cruz azul", "pumas", "toluca", "atlas", "pachuca", "leon"]},
-    11620: {"nombre": "Liga MX, Clausura",              "pais": "Mexico",                  "equipos_muestra": ["america", "chivas", "tigres", "monterrey", "cruz azul", "pumas", "toluca", "atlas", "pachuca", "leon"]},
-    11611: {"nombre": "Liga de Expansión MX, Apertura", "pais": "Mexico",                  "equipos_muestra": ["atletico morelia", "tapatio", "cancun", "celaya", "tampico madero", "cimarrones"]},
-    11612: {"nombre": "Liga de Expansión MX, Clausura", "pais": "Mexico",                  "equipos_muestra": ["atletico morelia", "tapatio", "cancun", "celaya", "tampico madero", "cimarrones"]},
-    242:   {"nombre": "MLS",                            "pais": "USA",                     "equipos_muestra": ["la galaxy", "inter miami", "seattle sounders", "portland timbers", "new york", "atlanta united", "chicago fire", "new england", "columbus", "sporting kc"]},
-    13363: {"nombre": "USL Championship",               "pais": "USA",                     "equipos_muestra": ["tampa bay", "hartford athletic", "indy eleven", "pittsburgh", "sacramento republic", "orange county"]},
-    18641: {"nombre": "MLS Next Pro",                   "pais": "USA",                     "equipos_muestra": ["new york city ii", "la galaxy ii", "portland timbers 2", "seattle sounders 2"]},
-    1690:  {"nombre": "NWSL",                           "pais": "USA",                     "equipos_muestra": ["portland thorns", "north carolina", "chicago red stars", "kansas city", "gotham fc", "angel city"]},
-    197:   {"nombre": "Virsliga",                       "pais": "Latvia",                  "equipos_muestra": ["riga fc", "riga", "liepaja", "ventspils", "spartaks"]},
-    198:   {"nombre": "TOPLYGA",                        "pais": "Lithuania",               "equipos_muestra": ["zalgiris", "suduva", "panevezys", "riteriai", "hegelmann"]},
-    211:   {"nombre": "Niké Liga",                      "pais": "Slovakia",                "equipos_muestra": ["slovan bratislava", "spartak trnava", "zilina", "dunajska streda", "trencin"]},
-    8:     {"nombre": "LaLiga",                         "pais": "Spain",                   "equipos_muestra": ["real madrid", "barcelona", "atletico", "sevilla", "valencia", "villarreal", "real sociedad", "betis", "athletic", "osasuna"]},
-    54:    {"nombre": "LaLiga 2",                       "pais": "Spain",                   "equipos_muestra": ["eibar", "albacete", "huesca", "tenerife", "levante", "zaragoza", "mirandes", "oviedo", "burgos"]},
-    20:    {"nombre": "Eliteserien",                    "pais": "Norway",                  "equipos_muestra": ["bodo glimt", "molde", "rosenborg", "viking", "brann", "lillestrom", "ham-kam"]},
-    22:    {"nombre": "Norwegian 1st Division",         "pais": "Norway",                  "equipos_muestra": ["fredrikstad", "aalesund", "jerv", "sogndal", "sandnes ulf", "raufoss"]},
-    202:   {"nombre": "Ekstraklasa",                    "pais": "Poland",                  "equipos_muestra": ["legia", "lech poznan", "wisla krakow", "rakow", "gornik zabrze", "jagiellonia"]},
-    238:   {"nombre": "Liga Portugal Betclic",          "pais": "Portugal",                "equipos_muestra": ["benfica", "porto", "sporting", "braga", "vitoria", "boavista", "famalicao", "estoril"]},
-    152:   {"nombre": "SuperLiga României",             "pais": "Romania",                 "equipos_muestra": ["fcsb", "cfr cluj", "rapid", "dinamo", "craiova", "hermannstadt"]},
-    40:    {"nombre": "Allsvenskan",                    "pais": "Sweden",                  "equipos_muestra": ["malmo", "djurgarden", "hammarby", "ifk goteborg", "helsingborg", "norrkoping", "aik"]},
-    46:    {"nombre": "Superettan",                     "pais": "Sweden",                  "equipos_muestra": ["brage", "degerfors", "brommapojkarna", "vasalunds", "utsikten"]},
-    67:    {"nombre": "Ettan, Norra",                   "pais": "Sweden",                  "equipos_muestra": ["ge gefle", "umeå", "friska viljor", "sundsvall", "gif sundsvall"]},
-    68:    {"nombre": "Ettan, Södra",                   "pais": "Sweden",                  "equipos_muestra": ["assyriska", "trelleborgs", "landskrona", "halmstads", "ängelholm"]},
-    214:   {"nombre": "Damallsvenskan",                 "pais": "Sweden",                  "equipos_muestra": ["rosengard", "linkoping", "goteborg", "djurgarden", "hammarby", "aik"]},
-    218:   {"nombre": "Ukrainian Premier League",       "pais": "Ukraine",                 "equipos_muestra": ["shakhtar", "dynamo kyiv", "metalist", "dnipro", "vorskla", "olimpik"]},
-    37:    {"nombre": "VriendenLoterij Eredivisie",     "pais": "Netherlands",             "equipos_muestra": ["ajax", "psv", "feyenoord", "az alkmaar", "utrecht", "twente", "vitesse", "groningen"]},
-    131:   {"nombre": "Eerste Divisie",                 "pais": "Netherlands",             "equipos_muestra": ["de graafschap", "nac breda", "fc volendam", "almere city", "helmond sport", "dordrecht"]},
-    215:   {"nombre": "Swiss Super League",             "pais": "Switzerland",             "equipos_muestra": ["young boys", "basel", "zurich", "servette", "lugano", "st gallen", "sion", "luzern"]},
-    185:   {"nombre": "Stoiximan Super League",         "pais": "Greece",                  "equipos_muestra": ["olympiakos", "paok", "panathinaikos", "aek athens", "aris", "asteras tripolis"]},
-    38:    {"nombre": "Pro League",                     "pais": "Belgium",                 "equipos_muestra": ["club brugge", "anderlecht", "gent", "standard liege", "antwerp", "genk", "union saint gilloise"]},
-    9:     {"nombre": "Challenger Pro League",          "pais": "Belgium",                 "equipos_muestra": ["oh leuven", "rwdm", "dender", "lommel", "beerschot", "lierse"]},
-    178:   {"nombre": "Premium Liiga",                  "pais": "Estonia",                 "equipos_muestra": ["flora", "levadia", "paide", "narva trans", "nomme kalju"]},
-    678:   {"nombre": "Esiliiga",                       "pais": "Estonia",                 "equipos_muestra": ["tallinn", "parnu", "viljandi", "rakvere", "tartu"]},
-    41:    {"nombre": "Veikkausliiga",                  "pais": "Finland",                 "equipos_muestra": ["hjk", "ilves", "kups", "haka", "mariehamn", "inter turku", "seinajoki"]},
-    55:    {"nombre": "Ykkösliiga",                     "pais": "Finland",                 "equipos_muestra": ["gnistan", "jazz pori", "klubi 04", "mikkelin palloilijat", "gps turku"]},
-    34:    {"nombre": "Ligue 1",                        "pais": "France",                  "equipos_muestra": ["psg", "marseille", "lyon", "monaco", "lille", "rennes", "nice", "strasbourg", "nantes", "lens"]},
-    182:   {"nombre": "Ligue 2",                        "pais": "France",                  "equipos_muestra": ["havre", "metz", "caen", "troyes", "amiens", "auxerre", "bordeaux", "laval", "grenoble"]},
-    35:    {"nombre": "Bundesliga",                     "pais": "Germany",                 "equipos_muestra": ["bayern", "dortmund", "leverkusen", "leipzig", "frankfurt", "hoffenheim", "wolfsburg", "gladbach", "union berlin"]},
-    44:    {"nombre": "2. Bundesliga",                  "pais": "Germany",                 "equipos_muestra": ["hamburger", "schalke", "kaiserslautern", "karlsruhe", "nurnberg", "hannover", "paderborn"]},
-    192:   {"nombre": "Premier Division",               "pais": "Ireland",                 "equipos_muestra": ["shamrock rovers", "shelbourne", "bohemian", "dundalk", "derry city", "drogheda"]},
-    23:    {"nombre": "Serie A",                        "pais": "Italy",                   "equipos_muestra": ["juventus", "inter", "milan", "roma", "napoli", "lazio", "atalanta", "fiorentina", "torino", "bologna"]},
-    53:    {"nombre": "Serie B",                        "pais": "Italy",                   "equipos_muestra": ["parma", "venezia", "palermo", "bari", "catanzaro", "brescia", "reggiana", "modena", "cittadella", "sampdoria"]},
-    45:    {"nombre": "Austrian Bundesliga",            "pais": "Austria",                 "equipos_muestra": ["salzburg", "sturm graz", "rapid wien", "austria wien", "wolfsberg", "lask"]},
-    247:   {"nombre": "Parva Liga",                     "pais": "Bulgaria",                "equipos_muestra": ["ludogorets", "cska sofia", "levski", "botev plovdiv", "lokomotiv sofia"]},
-    1135:  {"nombre": "Vtora Liga",                     "pais": "Bulgaria",                "equipos_muestra": ["hebar", "beroe", "lokomotiv plovdiv", "cherno more", "arda"]},
-    205:   {"nombre": "FNL",                            "pais": "Czech Republic",          "equipos_muestra": ["zbrojovka brno", "vlasim", "prostejov", "jihlava", "zlin", "pardubice"]},
-    39:    {"nombre": "Danish Superliga",               "pais": "Denmark",                 "equipos_muestra": ["copenhagen", "midtjylland", "brondby", "aab aalborg", "randers", "odense", "silkeborg"]},
-    170:   {"nombre": "HNL",                            "pais": "Croatia",                 "equipos_muestra": ["dinamo zagreb", "hajduk split", "rijeka", "osijek", "gorica", "lokomotiva"]},
+    17: {"nombre": "Premier League", "pais": "England"},
+    18: {"nombre": "Championship", "pais": "England"},
+    24: {"nombre": "League One", "pais": "England"},
+    25: {"nombre": "League Two", "pais": "England"},
+    19: {"nombre": "FA Cup", "pais": "England"},
+    841: {"nombre": "Algerian Ligue 1", "pais": "Algeria"},
+    155: {"nombre": "Liga Profesional de Fútbol", "pais": "Argentina"},
+    703: {"nombre": "Primera Nacional", "pais": "Argentina"},
+    1347: {"nombre": "Primera B Metropolitana", "pais": "Argentina"},
+    136: {"nombre": "A-League Men", "pais": "Australia"},
+    1894: {"nombre": "A-League Women", "pais": "Australia"},
+    1260: {"nombre": "NPL Capital Football", "pais": "Australia"},
+    1268: {"nombre": "NPL Queensland", "pais": "Australia"},
+    709: {"nombre": "Misli Premier League", "pais": "Azerbaijan"},
+    846: {"nombre": "Bahraini Premier League", "pais": "Bahrain"},
+    13331: {"nombre": "Bangladesh Football League", "pais": "Bangladesh"},
+    16736: {"nombre": "División Profesional", "pais": "Bolivia"},
+    325: {"nombre": "Brasileirão Betano", "pais": "Brazil"},
+    390: {"nombre": "Brasileirão Série B", "pais": "Brazil"},
+    1281: {"nombre": "Brasileirão Série C", "pais": "Brazil"},
+    22106: {"nombre": "Première Division de N'Djaména", "pais": "Chad"},
+    11653: {"nombre": "Liga de Primera", "pais": "Chile"},
+    649: {"nombre": "Chinese Super League", "pais": "China"},
+    782: {"nombre": "Chinese League 1", "pais": "China"},
+    11539: {"nombre": "Primera A, Apertura", "pais": "Colombia"},
+    11536: {"nombre": "Primera A, Finalización", "pais": "Colombia"},
+    1238: {"nombre": "Categoría Primera B", "pais": "Colombia"},
+    240: {"nombre": "LigaPro Serie A", "pais": "Ecuador"},
+    808: {"nombre": "Egyptian Premier League", "pais": "Egypt"},
+    309: {"nombre": "World Cup Qual. OFC", "pais": "Oceania"},
+    1222: {"nombre": "OFC Champions League", "pais": "Oceania"},
+    704: {"nombre": "Erovnuli Liga", "pais": "Georgia"},
+    1054: {"nombre": "CAF Champions League", "pais": "Africa"},
+    463: {"nombre": "AFC Champions League Elite", "pais": "Asia"},
+    7: {"nombre": "UEFA Champions League", "pais": "Europe"},
+    679: {"nombre": "UEFA Europa League", "pais": "Europe"},
+    17015: {"nombre": "UEFA Conference League", "pais": "Europe"},
+    696: {"nombre": "UEFA Women's Champions League", "pais": "Europe"},
+    140: {"nombre": "CONCACAF Gold Cup", "pais": "North & Central America"},
+    11454: {"nombre": "Campeones Cup", "pais": "North & Central America"},
+    498: {"nombre": "CONCACAF Champions Cup", "pais": "North & Central America"},
+    13783: {"nombre": "Leagues Cup", "pais": "North & Central America"},
+    384: {"nombre": "CONMEBOL Libertadores", "pais": "South America"},
+    480: {"nombre": "CONMEBOL Sudamericana", "pais": "South America"},
+    133: {"nombre": "Copa América", "pais": "South America"},
+    10602: {"nombre": "Copa Libertadores Femenina", "pais": "South America"},
+    1015: {"nombre": "Indonesia Super League", "pais": "Indonesia"},
+    20708: {"nombre": "UEFA-CONMEBOL Club Challenge", "pais": "World"},
+    16: {"nombre": "FIFA World Cup", "pais": "World"},
+    23674: {"nombre": "FIFA Intercontinental Cup", "pais": "World"},
+    851: {"nombre": "International Friendly Games", "pais": "World"},
+    290: {"nombre": "FIFA Women's World Cup", "pais": "World"},
+    915: {"nombre": "Persian Gulf Pro League", "pais": "Iran"},
+    206: {"nombre": "Israeli Premier League", "pais": "Israel"},
+    196: {"nombre": "J1 League", "pais": "Japan"},
+    402: {"nombre": "J2 League", "pais": "Japan"},
+    682: {"nombre": "Kazakhstan Premier League", "pais": "Kazakhstan"},
+    1002: {"nombre": "Zain Premier League", "pais": "Kuwait"},
+    594: {"nombre": "New Zealand National League", "pais": "New Zealand"},
+    200: {"nombre": "NIFL Premiership", "pais": "Northern Ireland"},
+    11540: {"nombre": "Primera División, Apertura", "pais": "Paraguay"},
+    11541: {"nombre": "Primera División, Clausura", "pais": "Paraguay"},
+    406: {"nombre": "Liga 1", "pais": "Peru"},
+    825: {"nombre": "Stars League", "pais": "Qatar"},
+    955: {"nombre": "Saudi Pro League", "pais": "Saudi Arabia"},
+    36: {"nombre": "Scottish Premiership", "pais": "Scotland"},
+    358: {"nombre": "South African Premier Division", "pais": "South Africa"},
+    52: {"nombre": "Trendyol Süper Lig", "pais": "Turkey"},
+    971: {"nombre": "UAE Pro League", "pais": "United Arab Emirates"},
+    278: {"nombre": "Liga AUF Uruguaya", "pais": "Uruguay"},
+    13470: {"nombre": "Canadian Premier League", "pais": "Canada"},
+    11621: {"nombre": "Liga MX, Apertura", "pais": "Mexico"},
+    11620: {"nombre": "Liga MX, Clausura", "pais": "Mexico"},
+    11611: {"nombre": "Liga de Expansión MX, Apertura", "pais": "Mexico"},
+    11612: {"nombre": "Liga de Expansión MX, Clausura", "pais": "Mexico"},
+    242: {"nombre": "MLS", "pais": "USA"},
+    13363: {"nombre": "USL Championship", "pais": "USA"},
+    18641: {"nombre": "MLS Next Pro", "pais": "USA"},
+    1690: {"nombre": "NWSL", "pais": "USA"},
+    197: {"nombre": "Virsliga", "pais": "Latvia"},
+    198: {"nombre": "TOPLYGA", "pais": "Lithuania"},
+    211: {"nombre": "Niké Liga", "pais": "Slovakia"},
+    8: {"nombre": "LaLiga", "pais": "Spain"},
+    54: {"nombre": "LaLiga 2", "pais": "Spain"},
+    20: {"nombre": "Eliteserien", "pais": "Norway"},
+    22: {"nombre": "Norwegian 1st Division", "pais": "Norway"},
+    202: {"nombre": "Ekstraklasa", "pais": "Poland"},
+    238: {"nombre": "Liga Portugal Betclic", "pais": "Portugal"},
+    152: {"nombre": "SuperLiga României", "pais": "Romania"},
+    40: {"nombre": "Allsvenskan", "pais": "Sweden"},
+    46: {"nombre": "Superettan", "pais": "Sweden"},
+    67: {"nombre": "Ettan, Norra", "pais": "Sweden"},
+    68: {"nombre": "Ettan, Södra", "pais": "Sweden"},
+    214: {"nombre": "Damallsvenskan", "pais": "Sweden"},
+    218: {"nombre": "Ukrainian Premier League", "pais": "Ukraine"},
+    37: {"nombre": "VriendenLoterij Eredivisie", "pais": "Netherlands"},
+    131: {"nombre": "Eerste Divisiee", "pais": "Netherlands"},
+    215: {"nombre": "Swiss Super League", "pais": "Switzerland"},
+    185: {"nombre": "Stoiximan Super League", "pais": "Greece"},
+    38: {"nombre": "Pro League", "pais": "Belgium"},
+    9: {"nombre": "Challenger Pro League", "pais": "Belgium"},
+    178: {"nombre": "Premium Liiga", "pais": "Estonia"},
+    678: {"nombre": "Esiliiga", "pais": "Estonia"},
+    41: {"nombre": "Veikkausliiga", "pais": "Finland"},
+    55: {"nombre": "Ykkösliiga", "pais": "Finland"},
+    34: {"nombre": "Ligue 1", "pais": "France"},
+    182: {"nombre": "Ligue 2", "pais": "France"},
+    35: {"nombre": "Bundesliga", "pais": "Germany"},
+    44: {"nombre": "2. Bundesliga", "pais": "Germany"},
+    192: {"nombre": "Premier Division", "pais": "Ireland"},
+    23: {"nombre": "Serie A", "pais": "Italy"},
+    53: {"nombre": "Serie B", "pais": "Italy"},
+    45: {"nombre": "Austrian Bundesliga", "pais": "Austria"},
+    247: {"nombre": "Parva Liga", "pais": "Bulgaria"},
+    1135: {"nombre": "Vtora Liga", "pais": "Bulgaria"},
+    205: {"nombre": "FNL", "pais": "Czech Republic"},
+    39: {"nombre": "Danish Superliga", "pais": "Denmark"},
+    170: {"nombre": "HNL", "pais": "Croatia"}
 }
 
 NOMBRES_LIGAS = [info["nombre"] for info in TORNEOS_IDS.values()]
@@ -147,49 +145,6 @@ ultima_fecha_registrada = None
 ultima_fecha_por_liga = {}  # { 'Nombre Liga': datetime } - progreso independiente por liga
 filas_completas_csv = []
 headers = []
-
-# =====================================================================
-# VALIDACIÓN DE EQUIPOS POR LIGA
-# Detecta si Gemini devolvió equipos que no corresponden al país/liga
-# solicitada, comparando con palabras clave conocidas de otras ligas
-# que podrían confundirse (ej: Serie B Italy vs Brasileirão Série B).
-# =====================================================================
-def equipo_parece_de_otra_liga(local, visita, liga_id_actual):
-    """
-    Retorna True si algún equipo parece pertenecer a una liga distinta
-    a la solicitada, basándose en los equipos_muestra de otras ligas
-    con nombres similares o del mismo país.
-    """
-    local_l  = local.lower()
-    visita_l = visita.lower()
-    info_actual = TORNEOS_IDS.get(liga_id_actual, {})
-    pais_actual = info_actual.get("pais", "").lower()
-    nombre_actual = info_actual.get("nombre", "").lower()
-
-    for tid, info in TORNEOS_IDS.items():
-        if tid == liga_id_actual:
-            continue
-        # Solo revisar ligas de otro país con nombre parecido
-        # (las del mismo país son menos peligrosas)
-        pais_candidato = info.get("pais", "").lower()
-        nombre_candidato = info.get("nombre", "").lower()
-        if pais_candidato == pais_actual:
-            continue  # Mismo país → no es confusión inter-liga
-
-        # ¿Hay solapamiento de palabras clave en el nombre de la liga?
-        palabras_actual    = set(nombre_actual.split())
-        palabras_candidato = set(nombre_candidato.split())
-        if not palabras_actual & palabras_candidato:
-            continue  # Nombres sin palabras en común → no hay riesgo de confusión
-
-        # Revisar si algún equipo recibido aparece en los equipos_muestra del candidato
-        muestra = info.get("equipos_muestra", [])
-        for kw in muestra:
-            kw_l = kw.lower()
-            if kw_l in local_l or kw_l in visita_l:
-                return True, f"'{local}' o '{visita}' parece de '{info['nombre']}' ({info['pais']}) no de '{info_actual['nombre']}' ({info_actual['pais']})"
-
-    return False, ""
 
 # Función para generar un event_id consistente e idéntico a partir del partido
 def generar_event_id(fecha, local, visita):
@@ -595,42 +550,37 @@ for tor_id, info in LIGAS_ACTUALIZAR.items():
         print(f"-> Descargando bloque para: {liga_nombre} ({str_inicio_sem} a {str_fin_sem})...", flush=True)
         
         prompt = f"""
-Busca en la web todos los partidos oficiales completados entre el {str_inicio_sem} y el {str_fin_sem}
-de la liga EXACTA: '{liga_nombre}' del país '{pais_nombre}'.
-
-REGLAS ESTRICTAS:
-- NO incluyas partidos de otras ligas aunque tengan un nombre similar (ej: si la liga es 'Serie B' de Italy, NO incluyas partidos de 'Brasileirão Série B' de Brazil, y viceversa).
-- NO incluyas partidos de divisiones inferiores, copas ni torneos amistosos a menos que la liga solicitada sea una copa o amistoso.
-- Solo partidos del país '{pais_nombre}' para la liga '{liga_nombre}'.
-- El campo "tourney_date" es obligatorio (formato YYYY-MM-DD).
-- El campo "tourney_season" debe ser el nombre oficial de la temporada (ej: "Premier League 25/26").
-
-Devuelve JSON plano sin bloques markdown con esta estructura:
-{{
-  "partidos": [
-    {{
-      "tourney_date": "YYYY-MM-DD",
-      "tourney_season": "Nombre exacto de la temporada",
-      "round": "Jornada X", "round_number": "X",
-      "home_team_name": "Nombre local", "away_team_name": "Nombre visitante",
-      "home_goals": 0, "away_goals": 0, "home_ht_goals": 0, "away_ht_goals": 0,
-      "home_et_goals": 0, "away_et_goals": 0, "home_pen_goals": 0, "away_pen_goals": 0,
-      "result": "H, A o D", "ALL_ball_possession_home": 50.0, "ALL_ball_possession_away": 50.0,
-      "ALL_expected_goals_home": 1.0, "ALL_expected_goals_away": 1.0,
-      "ALL_big_chances_home": 0, "ALL_big_chances_away": 0,
-      "ALL_total_shots_home": 0, "ALL_total_shots_away": 0,
-      "ALL_goalkeeper_saves_home": 0, "ALL_goalkeeper_saves_away": 0,
-      "ALL_corner_kicks_home": 0, "ALL_corner_kicks_away": 0,
-      "ALL_fouls_home": 0, "ALL_fouls_away": 0, "ALL_passes_home": 0, "ALL_passes_away": 0,
-      "ALL_yellow_cards_home": 0, "ALL_yellow_cards_away": 0,
-      "ALL_shots_on_target_home": 0, "ALL_shots_on_target_away": 0,
-      "ALL_offsides_home": 0, "ALL_offsides_away": 0,
-      "ALL_accurate_passes_home": 0, "ALL_accurate_passes_away": 0,
-      "ALL_red_cards_home": 0, "ALL_red_cards_away": 0
-    }}
-  ]
-}}
-"""
+        Busca en la web todos los partidos oficiales de fútbol de la liga '{liga_nombre}' ({pais_nombre}) completados entre el {str_inicio_sem} y el {str_fin_sem}.
+        Devuelve JSON plano sin markdown. Campo "tourney_date" obligatorio (YYYY-MM-DD).
+        
+        Establece en el campo "tourney_season" el nombre oficial de la temporada (ej: "Premier League 25/26" o "LaLiga 25/26" o "Primera A 2026").
+        
+        JSON Estructura:
+        {{
+          "partidos": [
+            {{
+              "tourney_date": "YYYY-MM-DD", 
+              "tourney_season": "Nombre exacto de la temporada",
+              "round": "Jornada X", "round_number": "X",
+              "home_team_name": "Nombre local", "away_team_name": "Nombre visitante",
+              "home_goals": 0, "away_goals": 0, "home_ht_goals": 0, "away_ht_goals": 0,
+              "home_et_goals": 0, "away_et_goals": 0, "home_pen_goals": 0, "away_pen_goals": 0,
+              "result": "H, A o D", "ALL_ball_possession_home": 50.0, "ALL_ball_possession_away": 50.0,
+              "ALL_expected_goals_home": 1.0, "ALL_expected_goals_away": 1.0,
+              "ALL_big_chances_home": 0, "ALL_big_chances_away": 0,
+              "ALL_total_shots_home": 0, "ALL_total_shots_away": 0,
+              "ALL_goalkeeper_saves_home": 0, "ALL_goalkeeper_saves_away": 0,
+              "ALL_corner_kicks_home": 0, "ALL_corner_kicks_away": 0,
+              "ALL_fouls_home": 0, "ALL_fouls_away": 0, "ALL_passes_home": 0, "ALL_passes_away": 0,
+              "ALL_yellow_cards_home": 0, "ALL_yellow_cards_away": 0,
+              "ALL_shots_on_target_home": 0, "ALL_shots_on_target_away": 0,
+              "ALL_offsides_home": 0, "ALL_offsides_away": 0,
+              "ALL_accurate_passes_home": 0, "ALL_accurate_passes_away": 0,
+              "ALL_red_cards_home": 0, "ALL_red_cards_away": 0
+            }}
+          ]
+        }}
+        """
         
         try:
             data = llamar_gemini_json(prompt)
@@ -645,20 +595,13 @@ Devuelve JSON plano sin bloques markdown con esta estructura:
                         local = str(p.get("home_team_name", "")).strip()
                         visita = str(p.get("away_team_name", "")).strip()
                         
-                        if not local or not visita:
+                        if not local or not visita: 
                             continue
-
-                        # --- VALIDACIÓN: detectar equipos de liga equivocada ---
-                        sospechoso, razon = equipo_parece_de_otra_liga(local, visita, tor_id)
-                        if sospechoso:
-                            print(f"   ! DESCARTADO (posible liga incorrecta): {razon}", flush=True)
-                            continue
-
                         llave_partido = f"{f_partido}_{local}_{visita}".strip().lower()
-
-                        if llave_partido in partidos_existentes:
+                        
+                        if llave_partido in partidos_existentes: 
                             continue
-
+                        
                         partidos_existentes.add(llave_partido)
                         partidos_nuevos_guardados += 1
                         
