@@ -71,7 +71,7 @@ TORNEOS_IDS = {
     23674: {"nombre": "FIFA Intercontinental Cup",      "pais": "World",                   "equipos_muestra": []},
     851:   {"nombre": "International Friendly Games",   "pais": "World",                   "equipos_muestra": []},
     290:   {"nombre": "FIFA Women's World Cup",         "pais": "World",                   "equipos_muestra": ["usa", "germany", "france", "japan", "sweden", "england", "australia"]},
-    915:   {"nombre": "Persian Gulf Pro League",        " ईरान",                   "equipos_muestra": ["persepolis", "esteghlal", "sepahan", "tractor", "foolad", "zobahan"]},
+    915:   {"nombre": "Persian Gulf Pro League",        "pais": "Iran",            "equipos_muestra": ["persepolis", "esteghlal", "sepahan", "tractor", "foolad", "zobahan"]},
     206:   {"nombre": "Israeli Premier League",         "pais": "Israel",                  "equipos_muestra": ["maccabi tel aviv", "hapoel", "beitar jerusalem", "bnei yehuda", "maccabi haifa"]},
     196:   {"nombre": "J1 League",                      "pais": "Japan",                   "equipos_muestra": ["kashima", "urawa", "gamba osaka", "yokohama", "vissel kobe", "kawasaki", "cerezo", "nagoya"]},
     402:   {"nombre": "J2 League",                      "pais": "Japan",                   "equipos_muestra": ["vegalta sendai", "kyoto sanga", "tokushima", "renofa yamaguchi", "roasso kumamoto"]},
@@ -708,3 +708,4 @@ if ligas_revisadas > 0:
 
 print(f"\nLlamadas a Gemini realizadas en esta corrida: {llamadas_realizadas}/{MAX_LLAMADAS_POR_CORRIDA}", flush=True)
 print(f"\n¡Auditoría y actualización completadas de manera exitosa!", flush=True)
+
