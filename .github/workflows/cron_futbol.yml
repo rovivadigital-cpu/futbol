@@ -2,7 +2,7 @@ name: Automatización de Jornada de Fútbol con Gemini
 on:
   workflow_dispatch:  # ← agrega esto
   schedule:
-    - cron: '*/20 * * * *'
+    - cron: '*/15 * * * *'
 
 jobs:
   buscar-y-guardar:
