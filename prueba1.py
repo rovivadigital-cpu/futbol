@@ -660,7 +660,7 @@ for tor_id, info in LIGAS_ACTUALIZAR.items():
                 break
             print(f"   x Error en bloque ({e}): Avanzando.", flush=True)
                 
-        time.sleep(8)
+        time.sleep(6)
 
         semanas_procesadas += 1
         fecha_actual += timedelta(days=7)
