@@ -283,7 +283,11 @@ def llamar_gemini_json(prompt):
             finish_reason = response.candidates[0].finish_reason
         except Exception:
             pass
-        raise ValueError(f"Respuesta vacía de Gemini (finish_reason={finish_reason})")
+        # CAMBIO AQUÍ: En lugar de lanzar error, lo tratamos como sin partidos
+        if finish_reason == "STOP":
+            return {}
+        else:
+            raise ValueError(f"Respuesta vacía de Gemini (finish_reason={finish_reason})")
 
     if texto_limpio.startswith("```json"):
         texto_limpio = texto_limpio.split("```json")[1].split("```")[0].strip()
