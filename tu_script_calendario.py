@@ -2,9 +2,11 @@ import os
 import json
 import csv
 import time
+import random
 from datetime import datetime, timedelta
 from google import genai
 from google.genai import types
+from curl_cffi import requests as cffi_requests
 
 # =====================================================================
 # CONFIGURACIÓN DE RUTA DINÁMICA (CARPETA DATOS)
@@ -32,12 +34,62 @@ def limpiar_calendario_vencido(csv_filename):
 limpiar_calendario_vencido(csv_filename)
 
 # =====================================================================
-# CARGAR TABLA DE IDs DE EQUIPOS (lookup local, sin tocar Sofascore)
-# Se construye desde partidos_futbol.csv via build_equipos_ids.py
+# CACHÉ DE IDs DE EQUIPOS (lookup local + búsqueda en Sofascore)
+# Se persiste en datos/equipos_ids.csv entre ejecuciones.
+# Solo consulta Sofascore para equipos que no están en caché.
 # =====================================================================
+import re
+
+def normalizar_equipo(nombre: str) -> str:
+    """
+    Normaliza el nombre de un equipo para deduplicación robusta.
+    Elimina prefijos/sufijos comunes (FC, CF, SC, AC, CD, etc.),
+    puntuación, y colapsa espacios. Todo en minúsculas.
+    Ejemplos:
+      'FC Barcelona'  → 'barcelona'
+      'Barcelona FC'  → 'barcelona'
+      'Atlético de Madrid CF' → 'atletico de madrid'
+      'Manchester United FC' → 'manchester united'
+    """
+    import unicodedata
+    # Lowercase
+    s = nombre.strip().lower()
+    # Quitar acentos
+    s = ''.join(
+        c for c in unicodedata.normalize('NFD', s)
+        if unicodedata.category(c) != 'Mn'
+    )
+    # Eliminar sufijos comunes al final: fc, cf, sc, ac, cd, sd, afc, fk, sk, bk, if, ik, ff, ss, as, us, sv
+    s = re.sub(
+        r'\b(f\.?c\.?|c\.?f\.?|s\.?c\.?|a\.?c\.?|c\.?d\.?|s\.?d\.?|a\.?f\.?c\.?|'
+        r'f\.?k\.?|s\.?k\.?|b\.?k\.?|i\.?f\.?|i\.?k\.?|f\.?f\.?|s\.?s\.?|a\.?s\.?|'
+        r'u\.?s\.?|s\.?v\.?|r\.?c\.?|r\.?s\.?c\.?|k\.?f\.?c\.?|o\.?f\.?k\.?)\s*$',
+        '', s
+    ).strip()
+    # Eliminar prefijos comunes al inicio
+    s = re.sub(
+        r'^\s*(f\.?c\.?|c\.?f\.?|s\.?c\.?|a\.?c\.?|c\.?d\.?|s\.?d\.?|a\.?f\.?c\.?|'
+        r'f\.?k\.?|s\.?k\.?|b\.?k\.?|r\.?c\.?|r\.?s\.?c\.?|k\.?f\.?c\.?|c\.?a\.?|'
+        r'c\.?s\.?d\.?|p\.?f\.?c\.?|h\.?n\.?k\.?|n\.?k\.?|g\.?d\.?)\s+',
+        '', s
+    ).strip()
+    # Eliminar puntuación sobrante y colapsar espacios
+    s = re.sub(r'[^\w\s]', ' ', s)
+    s = re.sub(r'\s+', ' ', s).strip()
+    return s
+
 equipos_ids_file = os.path.join("datos", "equipos_ids.csv")
 EQUIPOS_IDS = {}  # {nombre_normalizado: id_sofascore}
 
+def guardar_cache_equipos():
+    """Persiste el caché actual en disco."""
+    with open(equipos_ids_file, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=["nombre_equipo", "id_sofascore"])
+        writer.writeheader()
+        for nombre_lower, eid in sorted(EQUIPOS_IDS.items()):
+            writer.writerow({"nombre_equipo": nombre_lower, "id_sofascore": eid})
+
+# Cargar caché existente
 if os.path.exists(equipos_ids_file):
     try:
         with open(equipos_ids_file, "r", encoding="utf-8") as f:
@@ -46,12 +98,84 @@ if os.path.exists(equipos_ids_file):
                 eid    = row.get("id_sofascore", "").strip()
                 if nombre and eid:
                     EQUIPOS_IDS[nombre] = eid
-        print(f"   Tabla equipos cargada: {len(EQUIPOS_IDS)} equipos.", flush=True)
+        print(f"   Caché equipos cargado: {len(EQUIPOS_IDS)} equipos.", flush=True)
     except Exception as e:
-        print(f"   ! No se pudo cargar equipos_ids.csv: {e}", flush=True)
-else:
-    print(f"   ! equipos_ids.csv no encontrado en datos/. Los IDs de equipos quedarán vacíos.", flush=True)
-    print(f"     Ejecuta build_equipos_ids.py para generarlo desde partidos_futbol.csv.", flush=True)
+        print(f"   ! Error cargando caché de equipos: {e}", flush=True)
+
+# Headers para impersonar Chrome ante Sofascore
+SOFASCORE_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+    "Accept": "application/json",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Referer": "https://www.sofascore.com/",
+    "Origin": "https://www.sofascore.com",
+    "Cache-Control": "no-cache",
+}
+
+# Marcador para equipos buscados pero no encontrados (evita reintentar)
+NO_ENCONTRADO = "__NOT_FOUND__"
+_cache_nuevos = 0  # contador de IDs nuevos encontrados en esta ejecución
+
+def buscar_id_equipo_sofascore(nombre_equipo: str) -> str:
+    """
+    Busca el ID de un equipo en Sofascore por nombre.
+    Devuelve el ID como string, o "" si no se encuentra.
+    Respeta el caché: no vuelve a buscar equipos ya procesados.
+    """
+    global _cache_nuevos
+    key = nombre_equipo.strip().lower()
+
+    # Ya está en caché (encontrado o marcado como no-encontrado)
+    if key in EQUIPOS_IDS:
+        val = EQUIPOS_IDS[key]
+        return "" if val == NO_ENCONTRADO else val
+
+    # Pausa humana antes de la request
+    time.sleep(random.uniform(2.5, 5.0))
+
+    try:
+        url = f"https://api.sofascore.com/api/v1/search/all?q={nombre_equipo}"
+        resp = cffi_requests.get(
+            url,
+            headers=SOFASCORE_HEADERS,
+            impersonate="chrome124",
+            timeout=15,
+        )
+
+        if resp.status_code != 200:
+            print(f"   ! Sofascore {resp.status_code} para '{nombre_equipo}'", flush=True)
+            EQUIPOS_IDS[key] = NO_ENCONTRADO
+            return ""
+
+        data = resp.json()
+        teams = data.get("teams", [])
+
+        if not teams:
+            print(f"   ~ Sin resultados Sofascore para '{nombre_equipo}'", flush=True)
+            EQUIPOS_IDS[key] = NO_ENCONTRADO
+            return ""
+
+        # Intentar match exacto primero, luego tomar el primero
+        eid = ""
+        for t in teams:
+            if t.get("name", "").strip().lower() == key or \
+               t.get("shortName", "").strip().lower() == key:
+                eid = str(t.get("id", ""))
+                break
+        if not eid:
+            eid = str(teams[0].get("id", ""))
+
+        if eid:
+            EQUIPOS_IDS[key] = eid
+            _cache_nuevos += 1
+            print(f"   + ID encontrado: '{nombre_equipo}' → {eid}", flush=True)
+
+        return eid
+
+    except Exception as e:
+        print(f"   ! Error buscando '{nombre_equipo}': {e}", flush=True)
+        EQUIPOS_IDS[key] = NO_ENCONTRADO
+        return ""
 # =====================================================================
 
 # =====================================================================
@@ -332,8 +456,9 @@ Si no hay ningún partido ese día, devuelve {{"partidos": []}}.
                         print(f"   ! Descartado (liga no reconocida): '{liga_raw}' | '{pais_raw}'", flush=True)
                         continue
 
-                    llave_partido = f"{fecha_str}_{local}_{visita}".strip().lower()
+                    llave_partido = f"{fecha_str}_{normalizar_equipo(local)}_{normalizar_equipo(visita)}"
                     if llave_partido in partidos_existentes:
+                        print(f"   ~ Duplicado ignorado: {local} vs {visita}", flush=True)
                         continue
 
                     partidos_existentes.add(llave_partido)
@@ -341,8 +466,8 @@ Si no hay ningún partido ese día, devuelve {{"partidos": []}}.
 
                     id_sofascore = liga_info["id"]
 
-                    local_id  = EQUIPOS_IDS.get(local.strip().lower(), "")
-                    visita_id = EQUIPOS_IDS.get(visita.strip().lower(), "")
+                    local_id  = buscar_id_equipo_sofascore(local)
+                    visita_id = buscar_id_equipo_sofascore(visita)
 
                     row = [
                         fecha_str,
@@ -374,6 +499,69 @@ Si no hay ningún partido ese día, devuelve {{"partidos": []}}.
         print(f"   x Error inesperado: {e}", flush=True)
 
     time.sleep(6)
+
+# =====================================================================
+# PERSISTIR CACHÉ DE EQUIPOS
+# =====================================================================
+if _cache_nuevos > 0:
+    try:
+        guardar_cache_equipos()
+        print(f"\n   Caché actualizado: {_cache_nuevos} IDs nuevos guardados en {equipos_ids_file}", flush=True)
+    except Exception as e:
+        print(f"\n   ! Error guardando caché de equipos: {e}", flush=True)
+
+# =====================================================================
+# ORDENAR CSV POR FECHA → HORA Y MOSTRAR RESUMEN FINAL
+# =====================================================================
+try:
+    if os.path.exists(csv_filename):
+        with open(csv_filename, "r", encoding="utf-8") as f:
+            reader = list(csv.reader(f))
+
+        if len(reader) > 1:
+            encabezados = reader[0]
+            filas = reader[1:]
+
+            # Ordenar por Fecha (col 0) y Hora_Local (col 1)
+            filas.sort(key=lambda r: (r[0], r[1]))
+
+            with open(csv_filename, "w", newline="", encoding="utf-8") as f:
+                writer = csv.writer(f)
+                writer.writerow(encabezados)
+                writer.writerows(filas)
+
+            total = len(filas)
+
+            # --- Resumen por país (col 2) ---
+            conteo_pais = {}
+            for r in filas:
+                pais = r[2] if len(r) > 2 else "Desconocido"
+                conteo_pais[pais] = conteo_pais.get(pais, 0) + 1
+
+            # --- Resumen por competición (col 3) ---
+            conteo_comp = {}
+            for r in filas:
+                comp = r[3] if len(r) > 3 else "Desconocida"
+                conteo_comp[comp] = conteo_comp.get(comp, 0) + 1
+
+            print(f"\n{'='*54}", flush=True)
+            print(f"  RESUMEN FINAL — {total} partidos guardados", flush=True)
+            print(f"{'='*54}", flush=True)
+
+            print(f"\n  Partidos por país (Top 15):", flush=True)
+            for pais, cnt in sorted(conteo_pais.items(), key=lambda x: -x[1])[:15]:
+                print(f"    {pais:<30} {cnt:>4}", flush=True)
+
+            print(f"\n  Partidos por competición (Top 20):", flush=True)
+            for comp, cnt in sorted(conteo_comp.items(), key=lambda x: -x[1])[:20]:
+                print(f"    {comp:<40} {cnt:>4}", flush=True)
+
+            print(f"\n{'='*54}", flush=True)
+        else:
+            print("\n  Sin partidos en el archivo.", flush=True)
+
+except Exception as e:
+    print(f"\n   ! Error generando resumen: {e}", flush=True)
 
 print(f"\n Proceso finalizado. Archivo: '{csv_filename}'.", flush=True)
 
