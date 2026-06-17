@@ -491,7 +491,36 @@ for fecha_obj, etiqueta in dias_a_revisar:
                     if not local or not visita:
                         continue
 
-                    # Validar que la liga esté en el grupo actual (evita que
+                    # -------------------------------------------------------
+                    # Filtro 1: nombres placeholder que Gemini inventa cuando
+                    # no sabe los equipos reales (ej: "Ranked 1st", "TBD",
+                    # "Winner Group A", "Team A", etc.)
+                    # -------------------------------------------------------
+                    PLACEHOLDERS = re.compile(
+                        r'^(ranked\s+\d|tbd|tbf|tba|winner|loser|team\s+[a-z]|'
+                        r'group\s+[a-z]|\d+st|\d+nd|\d+rd|\d+th)',
+                        re.IGNORECASE
+                    )
+                    if PLACEHOLDERS.match(local) or PLACEHOLDERS.match(visita):
+                        descartados += 1
+                        print(f"  ! Descartado (nombre placeholder): '{local}' vs '{visita}'", flush=True)
+                        continue
+
+                    # -------------------------------------------------------
+                    # Filtro 2: equipos femeninos en ligas masculinas.
+                    # Si el nombre contiene sufijos femeninos comunes, descartar.
+                    # -------------------------------------------------------
+                    SUFIJOS_FEMENINOS = re.compile(
+                        r'\b(women|woman|ladies|femenino|femenina|girls|femmes|dames|'
+                        r'mujer|vrouwen|frauen|damlag|kvinder|naiset)\b',
+                        re.IGNORECASE
+                    )
+                    if SUFIJOS_FEMENINOS.search(local) or SUFIJOS_FEMENINOS.search(visita):
+                        descartados += 1
+                        print(f"  ! Descartado (equipo femenino en liga masculina): '{local}' vs '{visita}'", flush=True)
+                        continue
+
+
                     # Gemini meta ligas de otros grupos o ligas inventadas)
                     ids_grupo = {tid for tid, _ in grupo}
                     clave_compuesta = f"{liga_raw}|{pais_raw}"
