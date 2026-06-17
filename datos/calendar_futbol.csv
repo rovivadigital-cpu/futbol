@@ -1,1 +1,77 @@
 ﻿Fecha,Hora_Local,Pais,Competicion,Competicion_ID_Sofascore,Torneo,Torneo_ID_Sofascore,Ronda,Equipo_Local,Equipo_Local_ID_Sofascore,Pais_Local,Equipo_Visitante,Equipo_Visitante_ID_Sofascore,Pais_Visitante,Marcador,Estado
+2026-06-17,16:00,USA,MLS Next Pro,18641,MLS Next Pro,,Regular Season,New York City FC II,,USA,Carolina Core FC,,USA,,Programado
+2026-06-17,18:00,USA,MLS Next Pro,18641,MLS Next Pro,,Regular Season,Vancouver Whitecaps II,,Canada,San Jose Earthquakes II,,USA,,Programado
+2026-06-17,19:00,USA,MLS Next Pro,18641,MLS Next Pro,,Regular Season,Tacoma Defiance,,USA,Houston Dynamo 2,,USA,,Programado
+2026-06-17,08:00,Latvia,Virsliga,197,Virsliga,,,FK Jelgava,,Latvia,Ogre United,,Latvia,,Programado
+2026-06-17,08:00,Latvia,Virsliga,197,Virsliga,,,FK Tukums 2000,,Latvia,Auda,,Latvia,,Programado
+2026-06-17,09:00,Latvia,Virsliga,197,Virsliga,,,Riga FC,,Latvia,RFS,,Latvia,,Programado
+2026-06-17,08:00,Georgia,Erovnuli Liga,704,Erovnuli Liga,,,FC Iberia 1999,,Georgia,FC Rustavi,,Georgia,,Programado
+2026-06-17,10:00,Georgia,Erovnuli Liga,704,Erovnuli Liga,,,Torpedo Kutaisi,,Georgia,Dinamo Batumi,,Georgia,,Programado
+2026-06-17,08:30,Lithuania,TOPLYGA,198,TOPLYGA,,,Hegelmann,,Lithuania,Dziugas Telsiai,,Lithuania,,Programado
+2026-06-17,09:00,Lithuania,TOPLYGA,198,TOPLYGA,,,Kauno Zalgiris,,Lithuania,Banga,,Lithuania,,Programado
+2026-06-17,01:00,World,FIFA World Cup,16,FIFA World Cup,,Group Stage,Argentina,,Argentina,Algeria,,Algeria,,Programado
+2026-06-17,05:00,World,FIFA World Cup,16,FIFA World Cup,,Group Stage,Austria,,Austria,Jordan,,Jordan,,Programado
+2026-06-17,09:00,World,FIFA World Cup,16,FIFA World Cup,,Group Stage,England,,England,Croatia,,Croatia,,Programado
+2026-06-17,18:00,World,FIFA World Cup,16,FIFA World Cup,,Group Stage,Portugal,,Portugal,Congo DR,,Congo DR,,Programado
+2026-06-17,15:00,Finland,Veikkausliiga,41,Veikkausliiga,,,Ilves,,Finland,FF Jaro,,Finland,,Programado
+2026-06-17,15:00,Finland,Veikkausliiga,41,Veikkausliiga,,,HJK,,Finland,Inter Turku,,Finland,,Programado
+2026-06-17,15:00,Finland,Veikkausliiga,41,Veikkausliiga,,,TPS,,Finland,KuPS,,Finland,,Programado
+2026-06-17,07:00,Kazakhstan,Kazakhstan Premier League,682,Kazakhstan Premier League,,,Kairat Almaty,,Kazakhstan,Kyzylzhar Petropavlovsk,,Kazakhstan,,Programado
+2026-06-17,11:00,Argentina,Primera Nacional,703,Primera Nacional,,,Gimnasia Jujuy,,Argentina,Nueva Chicago,,Argentina,,Programado
+2026-06-17,17:05,USA,USL Championship,13363,USL Championship,,,Louisville City,,USA,Hartford Athletic,,USA,,Programado
+2026-06-17,17:35,USA,USL Championship,13363,USL Championship,,,FC Tulsa,,USA,Sacramento Republic,,USA,,Programado
+2026-06-17,18:05,USA,USL Championship,13363,USL Championship,,,CS Switchbacks,,USA,Phoenix Rising,,USA,,Programado
+2026-06-17,18:05,USA,USL Championship,13363,USL Championship,,,San Antonio FC,,USA,Monterey Bay FC,,USA,,Programado
+2026-06-17,18:35,USA,USL Championship,13363,USL Championship,,,New Mexico United,,USA,Oakland Roots,,USA,,Programado
+2026-06-17,19:35,USA,USL Championship,13363,USL Championship,,,Las Vegas Lights,,USA,El Paso Locomotive,,USA,,Programado
+2026-06-17,16:05,USA,USL Championship,13363,USL Championship,,,Miami FC,,USA,Birmingham Legion,,USA,,Programado
+2026-06-17,15:00,Georgia,Erovnuli Liga,704,Erovnuli Liga,,,Saburtalo,,Georgia,Metalurgi Rustavi,,Georgia,,Programado
+2026-06-18,06:00,Sweden,Damallsvenskan,214,Damallsvenskan,,,Brommapojkarna,,Sweden,Vittsjö GIK,,Sweden,,Programado
+2026-06-18,07:00,Sweden,Damallsvenskan,214,Damallsvenskan,,,Eskilstuna United DFF,,Sweden,Piteå IF,,Sweden,,Programado
+2026-06-18,09:00,Sweden,Damallsvenskan,214,Damallsvenskan,,,BK Häcken,,Sweden,FC Rosengård,,Sweden,,Programado
+2026-06-18,09:00,Sweden,Damallsvenskan,214,Damallsvenskan,,,Kristianstads DFF,,Sweden,IK Uppsala Fotboll,,Sweden,,Programado
+2026-06-18,10:00,Sweden,Damallsvenskan,214,Damallsvenskan,,,IFK Norrköping,,Sweden,Växjö DFF,,Sweden,,Programado
+2026-06-18,17:30,Georgia,Erovnuli Liga,704,Erovnuli Liga,,,Meshakhte MSH,,Georgia,Gagra GAG,,Georgia,,Programado
+2026-06-18,20:00,Georgia,Erovnuli Liga,704,Erovnuli Liga,,,Dinamo TB DTB,,Georgia,Samgurali SMG,,Georgia,,Programado
+2026-06-18,10:00,Sweden,"Ettan, Norra",67,"Ettan, Norra",,,Gefle,,Sweden,FC Stockholm Internazionale,,Sweden,,Programado
+2026-06-18,10:00,Sweden,"Ettan, Norra",67,"Ettan, Norra",,,Hammarby Talang,,Sweden,Järfälla,,Sweden,,Programado
+2026-06-18,10:00,Sweden,"Ettan, Norra",67,"Ettan, Norra",,,Vasalund,,Sweden,Karlberg,,Sweden,,Programado
+2026-06-18,10:00,Sweden,"Ettan, Södra",68,"Ettan, Södra",,,Eskilsminne IF,,Sweden,FC Trollhättan,,Sweden,,Programado
+2026-06-18,10:00,Sweden,"Ettan, Södra",68,"Ettan, Södra",,,Jönköpings Södra,,Sweden,Lunds BK,,Sweden,,Programado
+2026-06-18,10:00,Sweden,"Ettan, Södra",68,"Ettan, Södra",,,Skövde AIK,,Sweden,Hässleholms IF,,Sweden,,Programado
+2026-06-18,10:00,Sweden,"Ettan, Södra",68,"Ettan, Södra",,,Trelleborgs FF,,Sweden,FC Rosengård,,Sweden,,Programado
+2026-06-18,10:00,Sweden,"Ettan, Södra",68,"Ettan, Södra",,,Tvaakers IF,,Sweden,Ängelholms FF,,Sweden,,Programado
+2026-06-18,09:00,World,FIFA World Cup,16,FIFA World Cup,,Group A,Czechia,,Czech Republic,South Africa,,South Africa,,Programado
+2026-06-18,12:00,World,FIFA World Cup,16,FIFA World Cup,,Group B,Switzerland,,Switzerland,Bosnia and Herzegovina,,Bosnia and Herzegovina,,Programado
+2026-06-18,15:00,World,FIFA World Cup,16,FIFA World Cup,,Group B,Canada,,Canada,Qatar,,Qatar,,Programado
+2026-06-18,18:00,World,FIFA World Cup,16,FIFA World Cup,,Group A,Mexico,,Mexico,South Korea,,South Korea,,Programado
+2026-06-18,17:00,Chile,Liga de Primera,11653,Liga de Primera,,,Universidad de Chile,,Chile,O'Higgins,,Chile,,Programado
+2026-06-18,15:00,USA,MLS Next Pro,18641,MLS Next Pro,,Regular Season,Connecticut United,,USA,Cincinnati II,,USA,,Programado
+2026-06-18,09:59,Finland,Veikkausliiga,41,Veikkausliiga,,Round 11,AC Oulu,,Finland,IFK Mariehamn,,Finland,,Programado
+2026-06-19,17:00,Chile,Liga de Primera,11653,Liga de Primera,,Clausura,Liniers,,Argentina,Real Pilar,,Argentina,,Programado
+2026-06-19,17:00,Chile,Liga de Primera,11653,Liga de Primera,,Clausura,Villa San Carlos,,Argentina,UAI Urquiza,,Argentina,,Programado
+2026-06-19,17:00,Chile,Liga de Primera,11653,Liga de Primera,,Clausura,San Martín (Bur.),,Argentina,Villa Dalmine,,Argentina,,Programado
+2026-06-19,17:00,Chile,Liga de Primera,11653,Liga de Primera,,Clausura,Camioneros,,Argentina,Arsenal Sarandi,,Argentina,,Programado
+2026-06-19,17:00,Chile,Liga de Primera,11653,Liga de Primera,,Clausura,Italiano,,Argentina,Excursionistas,,Argentina,,Programado
+2026-06-19,17:00,Chile,Liga de Primera,11653,Liga de Primera,,Clausura,Merlo,,Argentina,Argentino (M),,Argentina,,Programado
+2026-06-19,17:00,Chile,Liga de Primera,11653,Liga de Primera,,Clausura,Dock Sud,,Argentina,Talleres RE,,Argentina,,Programado
+2026-06-19,17:00,Chile,Liga de Primera,11653,Liga de Primera,,Clausura,Comunicaciones,,Argentina,Laferrere,,Argentina,,Programado
+2026-06-19,17:00,Chile,Liga de Primera,11653,Liga de Primera,,Clausura,CADU,,Argentina,Brown,,Argentina,,Programado
+2026-06-19,17:00,Chile,Liga de Primera,11653,Liga de Primera,,Clausura,Argentino (Q),,Argentina,Armenio,,Argentina,,Programado
+2026-06-19,17:00,Chile,Liga de Primera,11653,Liga de Primera,,Clausura,Flandria,,Argentina,Ituzaingó,,Argentina,,Programado
+2026-06-19,11:45,Ireland,Premier Division,192,Premier Division,,Regular,Bohemian FC,,Ireland,Dundalk,,Ireland,,Programado
+2026-06-19,11:45,Ireland,Premier Division,192,Premier Division,,Regular,St. Patrick's Athletic,,Ireland,Sligo Rovers,,Ireland,,Programado
+2026-06-19,11:45,Ireland,Premier Division,192,Premier Division,,Regular,Waterford FC,,Ireland,Shamrock Rovers,,Ireland,,Programado
+2026-06-19,11:45,Ireland,Premier Division,192,Premier Division,,Regular,Galway United FC,,Ireland,Derry City,,Ireland,,Programado
+2026-06-19,11:45,Ireland,Premier Division,192,Premier Division,,Regular,Drogheda United,,Ireland,Shelbourne,,Ireland,,Programado
+2026-06-19,21:30,Australia,NPL Capital Football,1260,NPL Capital Football,,Regular,Canberra Olympic,,Australia,Monaro Panthers,,Australia,,Programado
+2026-06-19,22:00,Australia,NPL Capital Football,1260,NPL Capital Football,,Regular,Brindabella Blues FC,,Australia,O'Connor Knights,,Australia,,Programado
+2026-06-19,22:00,Australia,NPL Capital Football,1260,NPL Capital Football,,Regular,Tuggeranong United,,Australia,Canberra White Eagles FC,,Australia,,Programado
+2026-06-19,23:30,Australia,NPL Capital Football,1260,NPL Capital Football,,Regular,Belconnen United,,Australia,Queanbeyan City,,Australia,,Programado
+2026-06-19,02:30,Australia,NPL Queensland,1268,NPL Queensland,,Regular,Gold Coast Knights,,Australia,Magic United,,Australia,,Programado
+2026-06-19,22:00,Australia,NPL Queensland,1268,NPL Queensland,,Regular,Gold Coast Utd,,Australia,Brisbane Roar U23,,Australia,,Programado
+2026-06-19,12:00,World,FIFA World Cup,16,FIFA World Cup,,Group Stage,Australia,,Australia,USA,,USA,,Programado
+2026-06-19,15:00,World,FIFA World Cup,16,FIFA World Cup,,Group Stage,Scotland,,Scotland,Morocco,,Morocco,,Programado
+2026-06-19,20:00,World,FIFA World Cup,16,FIFA World Cup,,Group Stage,Turkiye,,Turkey,Paraguay,,Paraguay,,Programado
+2026-06-19,19:45,New Zealand,New Zealand National League,594,New Zealand National League,,Regular,Northern AFC,,New Zealand,Ferrymead Bays,,New Zealand,,Programado
+2026-06-19,22:00,New Zealand,New Zealand National League,594,New Zealand National League,,Regular,Tauranga City United,,New Zealand,Bay Olympic,,New Zealand,,Programado
