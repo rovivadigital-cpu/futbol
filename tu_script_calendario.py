@@ -335,6 +335,8 @@ for tid, info in TORNEOS_DATA.items():
 
 # =====================================================================
 
+# Precargar partidos ya existentes en el CSV para evitar duplicados
+# entre runs múltiples del mismo día
 partidos_existentes = set()
 
 headers = [
@@ -344,7 +346,20 @@ headers = [
     "Equipo_Visitante_ID_Sofascore", "Pais_Visitante", "Marcador", "Estado"
 ]
 
-if not os.path.exists(csv_filename):
+if os.path.exists(csv_filename):
+    try:
+        with open(csv_filename, "r", encoding="utf-8-sig") as f:
+            for row in csv.DictReader(f):
+                fecha  = row.get("Fecha", "").strip()
+                local  = row.get("Equipo_Local", "").strip()
+                visita = row.get("Equipo_Visitante", "").strip()
+                if fecha and local and visita:
+                    llave = f"{fecha}_{normalizar_equipo(local)}_{normalizar_equipo(visita)}"
+                    partidos_existentes.add(llave)
+        print(f"   Partidos ya en CSV: {len(partidos_existentes)}", flush=True)
+    except Exception as e:
+        print(f"   ! Error leyendo CSV existente: {e}", flush=True)
+else:
     with open(csv_filename, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(headers)
@@ -368,39 +383,39 @@ print(f" INICIANDO CALENDARIO CON IDS DE SOFASCORE ", flush=True)
 print(f"==================================================", flush=True)
 
 # =====================================================================
-# Construir el prompt con nombre + país para que Gemini no confunda
-# torneos homónimos (Serie B Italy vs Serie B Brazil, Ligue 1 France
-# vs Algerian Ligue 1, etc.)
+# Agrupar torneos en bloques de 10 para reducir alucinaciones de Gemini
+# Menos ligas por prompt = más precisión, menos partidos inventados
 # =====================================================================
-lista_ligas_prompt = "\n".join([
-    f'  - "{info["nombre"]}" | País: {info["pais"]}'
-    for info in TORNEOS_DATA.values()
-])
+TAMAÑO_GRUPO = 10
+torneos_lista = list(TORNEOS_DATA.items())
+grupos_torneos = [
+    torneos_lista[i:i + TAMAÑO_GRUPO]
+    for i in range(0, len(torneos_lista), TAMAÑO_GRUPO)
+]
 
-for fecha_obj, etiqueta in dias_a_revisar:
-    fecha_str = fecha_obj.strftime('%Y-%m-%d')
-    print(f"\n-> Buscando partidos para {etiqueta} ({fecha_str})...", flush=True)
-
-    prompt = f"""
-Busca el calendario de partidos de fútbol para la fecha {fecha_str}.
+def construir_prompt(fecha_str, grupo):
+    lista_ligas = "\n".join([
+        f'  - "{info["nombre"]}" | País: {info["pais"]}'
+        for _, info in grupo
+    ])
+    return f"""Busca el calendario de partidos de fútbol para la fecha {fecha_str}.
 Solo incluye partidos de EXACTAMENTE estas ligas (nombre y país):
 
-{lista_ligas_prompt}
+{lista_ligas}
 
 REGLAS IMPORTANTES:
-- El campo "liga_nombre_oficial" debe ser EXACTAMENTE el nombre que aparece en la lista anterior (respeta tildes, mayúsculas y formato).
-- El campo "liga_pais" debe ser EXACTAMENTE el país que aparece junto al nombre en la lista.
-- Si un torneo tiene un nombre similar en otro país (ej: "Serie B" existe en Italia y Brasil), usa el país para distinguirlos.
-- No incluyas partidos de ligas que no estén en la lista.
-- Si no hay partidos para una liga ese día, simplemente no la incluyas.
+- El campo "liga_nombre_oficial" debe ser EXACTAMENTE el nombre de la lista (respeta tildes, mayúsculas y formato).
+- El campo "liga_pais" debe ser EXACTAMENTE el país de la lista.
+- NO incluyas partidos de ligas que no estén en esta lista exacta.
+- NO inventes partidos. Si no tienes información confirmada de un partido, no lo incluyas.
+- Si no hay partidos para ninguna liga ese día, devuelve {{"partidos": []}}.
 
-Devuelve ÚNICAMENTE un objeto JSON con este formato, sin texto adicional:
+Devuelve ÚNICAMENTE un objeto JSON sin texto adicional:
 {{
   "partidos": [
     {{
       "liga_nombre_oficial": "...",
       "liga_pais": "...",
-      "tourney_season": "...",
       "round": "...",
       "hora": "HH:MM",
       "home_team_name": "...",
@@ -409,77 +424,101 @@ Devuelve ÚNICAMENTE un objeto JSON con este formato, sin texto adicional:
       "away_team_country": "..."
     }}
   ]
-}}
+}}"""
 
-Si no hay ningún partido ese día, devuelve {{"partidos": []}}.
-"""
+config_llamada = types.GenerateContentConfig(
+    tools=[types.Tool(google_search=types.GoogleSearch())],
+    temperature=0.1,
+    max_output_tokens=4096,
+    thinking_config=types.ThinkingConfig(thinking_budget=0)
+)
 
-    try:
-        config_llamada = types.GenerateContentConfig(
-            tools=[types.Tool(google_search=types.GoogleSearch())],
-            temperature=0.1,
-            max_output_tokens=8192,
-            thinking_config=types.ThinkingConfig(thinking_budget=0)
-        )
-        response = client.models.generate_content(model=MODEL_NAME, contents=prompt, config=config_llamada)
-        texto = (response.text or "").strip()
+fecha_base = datetime.now()
+dias_a_revisar = [
+    (fecha_base, "HOY"),
+    (fecha_base + timedelta(days=1), "MAÑANA"),
+]
 
-        # Limpieza robusta de JSON
-        inicio = texto.find("{")
-        fin = texto.rfind("}")
-        if inicio == -1 or fin == -1:
-            print(f"   x Error: La respuesta no contiene un JSON válido.")
-            continue
+for fecha_obj, etiqueta in dias_a_revisar:
+    fecha_str = fecha_obj.strftime('%Y-%m-%d')
+    print(f"\n{'='*54}", flush=True)
+    print(f"-> {etiqueta} ({fecha_str}) — {len(grupos_torneos)} grupos de ligas", flush=True)
+    print(f"{'='*54}", flush=True)
 
-        texto_limpio = texto[inicio:fin+1]
-        data = json.loads(texto_limpio)
-        partidos = data.get("partidos", [])
+    total_guardados   = 0
+    total_descartados = 0
 
-        if partidos:
-            partidos_guardados = 0
-            partidos_descartados = 0
+    for idx, grupo in enumerate(grupos_torneos, 1):
+        nombres_grupo = ", ".join(info["nombre"] for _, info in grupo)
+        print(f"\n  Grupo {idx}/{len(grupos_torneos)}: {nombres_grupo[:80]}...", flush=True)
+
+        prompt = construir_prompt(fecha_str, grupo)
+
+        try:
+            response = client.models.generate_content(
+                model=MODEL_NAME,
+                contents=prompt,
+                config=config_llamada
+            )
+            texto = (response.text or "").strip()
+
+            inicio = texto.find("{")
+            fin    = texto.rfind("}")
+            if inicio == -1 or fin == -1:
+                print(f"  x Sin JSON válido en respuesta.", flush=True)
+                time.sleep(3)
+                continue
+
+            data     = json.loads(texto[inicio:fin+1])
+            partidos = data.get("partidos", [])
+
+            if not partidos:
+                print(f"  o Sin partidos.", flush=True)
+                time.sleep(3)
+                continue
+
+            guardados   = 0
+            descartados = 0
+
             with open(csv_filename, "a", newline="", encoding="utf-8") as f:
                 writer = csv.writer(f)
                 for p in partidos:
-                    liga_raw  = str(p.get("liga_nombre_oficial", "")).strip().lower()
-                    pais_raw  = str(p.get("liga_pais", "")).strip().lower()
-                    local     = str(p.get("home_team_name", "")).strip()
-                    visita    = str(p.get("away_team_name", "")).strip()
+                    liga_raw = str(p.get("liga_nombre_oficial", "")).strip().lower()
+                    pais_raw = str(p.get("liga_pais", "")).strip().lower()
+                    local    = str(p.get("home_team_name", "")).strip()
+                    visita   = str(p.get("away_team_name", "")).strip()
 
                     if not local or not visita:
                         continue
 
-                    # -------------------------------------------------------
-                    # Lookup con clave compuesta nombre|país (más seguro)
-                    # Si no encuentra, intenta solo por nombre (fallback)
-                    # -------------------------------------------------------
+                    # Validar que la liga esté en el grupo actual (evita que
+                    # Gemini meta ligas de otros grupos o ligas inventadas)
+                    ids_grupo = {tid for tid, _ in grupo}
                     clave_compuesta = f"{liga_raw}|{pais_raw}"
                     liga_info = MAPPING_LIGAS.get(clave_compuesta) or MAPPING_LIGAS.get(liga_raw)
 
-                    if not liga_info:
-                        partidos_descartados += 1
-                        print(f"   ! Descartado (liga no reconocida): '{liga_raw}' | '{pais_raw}'", flush=True)
+                    if not liga_info or liga_info["id"] not in ids_grupo:
+                        descartados += 1
+                        print(f"  ! Descartado (fuera de grupo): '{liga_raw}' | '{pais_raw}'", flush=True)
                         continue
 
                     llave_partido = f"{fecha_str}_{normalizar_equipo(local)}_{normalizar_equipo(visita)}"
                     if llave_partido in partidos_existentes:
-                        print(f"   ~ Duplicado ignorado: {local} vs {visita}", flush=True)
+                        print(f"  ~ Duplicado ignorado: {local} vs {visita}", flush=True)
                         continue
 
                     partidos_existentes.add(llave_partido)
-                    partidos_guardados += 1
-
-                    id_sofascore = liga_info["id"]
+                    guardados += 1
 
                     local_id  = buscar_id_equipo_sofascore(local)
                     visita_id = buscar_id_equipo_sofascore(visita)
 
-                    row = [
+                    writer.writerow([
                         fecha_str,
                         p.get("hora", "00:00"),
                         liga_info["pais"],
                         liga_info["nombre"],
-                        id_sofascore,
+                        liga_info["id"],
                         liga_info["nombre"],
                         "",
                         p.get("round", ""),
@@ -491,19 +530,21 @@ Si no hay ningún partido ese día, devuelve {{"partidos": []}}.
                         p.get("away_team_country", ""),
                         "",
                         "Programado"
-                    ]
-                    writer.writerow(row)
+                    ])
 
-            print(f"   + Guardados: {partidos_guardados} | Descartados: {partidos_descartados}", flush=True)
-        else:
-            print("   o No se encontraron partidos.", flush=True)
+            total_guardados   += guardados
+            total_descartados += descartados
+            print(f"  + Guardados: {guardados} | Descartados: {descartados}", flush=True)
 
-    except json.JSONDecodeError:
-        print(f"   x Error: El JSON devuelto por la IA estaba mal formado o incompleto.")
-    except Exception as e:
-        print(f"   x Error inesperado: {e}", flush=True)
+        except json.JSONDecodeError:
+            print(f"  x JSON malformado en grupo {idx}.", flush=True)
+        except Exception as e:
+            print(f"  x Error en grupo {idx}: {e}", flush=True)
 
-    time.sleep(6)
+        time.sleep(4)
+
+    print(f"\n  TOTAL {etiqueta}: {total_guardados} guardados | {total_descartados} descartados", flush=True)
+
 
 # =====================================================================
 # PERSISTIR CACHÉ DE EQUIPOS
