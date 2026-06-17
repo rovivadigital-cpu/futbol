@@ -1,4 +1,4 @@
-name: Automatización de Jornada de Fútbol con Gemini
+name: PonerID
 on:
   workflow_dispatch:  # ← agrega esto
   schedule:
