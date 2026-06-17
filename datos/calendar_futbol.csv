@@ -1,2 +1,46 @@
 ﻿Fecha,Hora_Local,Pais,Competicion,Competicion_ID_Sofascore,Torneo,Torneo_ID_Sofascore,Ronda,Equipo_Local,Equipo_Local_ID_Sofascore,Pais_Local,Equipo_Visitante,Equipo_Visitante_ID_Sofascore,Pais_Visitante,Marcador,Estado
 
+2026-06-17,17:00,Argentina,Liga Profesional de Fútbol,155,Liga Profesional de Fútbol,,,Sarmiento Junin,,Argentina,Argentinos Juniors,,Argentina,,Programado
+2026-06-17,17:00,Argentina,Liga Profesional de Fútbol,155,Liga Profesional de Fútbol,,,Belgrano,,Argentina,Rosario Central,,Argentina,,Programado
+2026-06-17,17:00,Argentina,Liga Profesional de Fútbol,155,Liga Profesional de Fútbol,,,Racing,,Argentina,Gimnasia La Plata,,Argentina,,Programado
+2026-06-17,17:00,Argentina,Liga Profesional de Fútbol,155,Liga Profesional de Fútbol,,,River,,Argentina,Barracas,,Argentina,,Programado
+2026-06-17,17:00,Argentina,Liga Profesional de Fútbol,155,Liga Profesional de Fútbol,,,Gimnasia Mendoza,,Argentina,Central Córdoba,,Argentina,,Programado
+2026-06-17,17:00,Argentina,Liga Profesional de Fútbol,155,Liga Profesional de Fútbol,,,Lanus,,Argentina,San Lorenzo,,Argentina,,Programado
+2026-06-17,17:00,Argentina,Liga Profesional de Fútbol,155,Liga Profesional de Fútbol,,,Platense,,Argentina,Union Santa Fe,,Argentina,,Programado
+2026-06-17,17:00,Argentina,Liga Profesional de Fútbol,155,Liga Profesional de Fútbol,,,Velez Sarsfield,,Argentina,Instituto Cordoba,,Argentina,,Programado
+2026-06-17,17:00,Argentina,Liga Profesional de Fútbol,155,Liga Profesional de Fútbol,,,Newell's,,Argentina,Talleres,,Argentina,,Programado
+2026-06-17,17:00,Argentina,Liga Profesional de Fútbol,155,Liga Profesional de Fútbol,,,Estudiantes,,Argentina,Independiente,,Argentina,,Programado
+2026-06-17,17:00,Argentina,Liga Profesional de Fútbol,155,Liga Profesional de Fútbol,,,Riestra,,Argentina,Boca Jrs,,Argentina,,Programado
+2026-06-17,17:00,Argentina,Liga Profesional de Fútbol,155,Liga Profesional de Fútbol,,,Defensa Y Justicia,,Argentina,Aldosivi,,Argentina,,Programado
+2026-06-17,17:00,Argentina,Liga Profesional de Fútbol,155,Liga Profesional de Fútbol,,,Estudiantes Río Cuarto,,Argentina,Tigre,,Argentina,,Programado
+2026-06-17,17:00,Argentina,Liga Profesional de Fútbol,155,Liga Profesional de Fútbol,,,Atletico Tucuman,,Argentina,Ind. Rivadavia,,Argentina,,Programado
+2026-06-17,17:00,Argentina,Liga Profesional de Fútbol,155,Liga Profesional de Fútbol,,,Huracan,,Argentina,Banfield,,Argentina,,Programado
+2026-06-17,11:00,Argentina,Primera Nacional,703,Primera Nacional,,,Gimnasia Jujuy,,Argentina,Nueva Chicago,,Argentina,,Programado
+2026-06-17,17:00,Argentina,Primera B Metropolitana,1347,Primera B Metropolitana,,20,Liniers,,Argentina,Real Pilar,,Argentina,,Programado
+2026-06-17,17:00,Argentina,Primera B Metropolitana,1347,Primera B Metropolitana,,20,Villa San Carlos,,Argentina,UAI Urquiza,,Argentina,,Programado
+2026-06-17,17:00,Argentina,Primera B Metropolitana,1347,Primera B Metropolitana,,20,San Martín (Bur.),,Argentina,Villa Dalmine,,Argentina,,Programado
+2026-06-17,17:00,Argentina,Primera B Metropolitana,1347,Primera B Metropolitana,,20,Camioneros,,Argentina,Arsenal Sarandi,,Argentina,,Programado
+2026-06-17,17:00,Argentina,Primera B Metropolitana,1347,Primera B Metropolitana,,20,Italiano,,Argentina,Excursionistas,,Argentina,,Programado
+2026-06-17,17:00,Argentina,Primera B Metropolitana,1347,Primera B Metropolitana,,20,Merlo,,Argentina,Argentino (M),,Argentina,,Programado
+2026-06-17,17:00,Argentina,Primera B Metropolitana,1347,Primera B Metropolitana,,20,Dock Sud,,Argentina,Talleres RE,,Argentina,,Programado
+2026-06-17,17:00,Argentina,Primera B Metropolitana,1347,Primera B Metropolitana,,20,Comunicaciones,,Argentina,Laferrere,,Argentina,,Programado
+2026-06-17,17:00,Argentina,Primera B Metropolitana,1347,Primera B Metropolitana,,20,CADU,,Argentina,Brown,,Argentina,,Programado
+2026-06-17,17:00,Argentina,Primera B Metropolitana,1347,Primera B Metropolitana,,20,Argentino (Q),,Argentina,Armenio,,Argentina,,Programado
+2026-06-17,17:00,Argentina,Primera B Metropolitana,1347,Primera B Metropolitana,,20,Flandria,,Argentina,Ituzaingó,,Argentina,,Programado
+2026-06-18,09:00,World,International Friendly Games,851,International Friendly Games,,,Czechia,,World,South Africa,,World,,Programado
+2026-06-18,16:00,World,International Friendly Games,851,International Friendly Games,,,Ghana,,World,Panama,,World,,Programado
+2026-06-18,19:00,World,International Friendly Games,851,International Friendly Games,,,Uzbekistan,,World,Colombia,,World,,Programado
+2026-06-18,21:00,World,International Friendly Games,851,International Friendly Games,,,Mexico,,World,South Korea,,World,,Programado
+2026-06-18,15:00,World,FIFA Women's World Cup,290,FIFA Women's World Cup,,Group B,Switzerland,,World,Bosnia and Herzegovina,,World,,Programado
+2026-06-18,18:00,World,FIFA Women's World Cup,290,FIFA Women's World Cup,,Group B,Canada,,World,Qatar,,World,,Programado
+2026-06-18,12:00,Kazakhstan,Kazakhstan Premier League,682,Kazakhstan Premier League,,Matchday 18,FC Okzhetpes,,Kazakhstan,FC Zhetysu,,Kazakhstan,,Programado
+2026-06-18,13:00,Kazakhstan,Kazakhstan Premier League,682,Kazakhstan Premier League,,Matchday 18,FK Zhenys,,Kazakhstan,Ulytau Zhezkazgan,,Kazakhstan,,Programado
+2026-06-18,14:00,Kazakhstan,Kazakhstan Premier League,682,Kazakhstan Premier League,,Matchday 18,FK Atyrau,,Kazakhstan,Kairat,,Kazakhstan,,Programado
+2026-06-18,15:00,Kazakhstan,Kazakhstan Premier League,682,Kazakhstan Premier League,,Matchday 18,Qaisar Qysylorda,,Kazakhstan,FK Kaspiy Aktau,,Kazakhstan,,Programado
+2026-06-18,17:00,Kuwait,Zain Premier League,1002,Zain Premier League,,,Ranked 1st,,Kuwait,Ranked 6th,,Kuwait,,Programado
+2026-06-18,17:00,Kuwait,Zain Premier League,1002,Zain Premier League,,,Ranked 2nd,,Kuwait,Ranked 15th,,Kuwait,,Programado
+2026-06-18,17:00,Kuwait,Zain Premier League,1002,Zain Premier League,,,Ranked 3rd,,Kuwait,Ranked 4th,,Kuwait,,Programado
+2026-06-18,19:45,Northern Ireland,NIFL Premiership,200,NIFL Premiership,,,Larne Women,,Northern Ireland,Lisburn Rangers,,Northern Ireland,,Programado
+2026-06-18,19:45,Northern Ireland,NIFL Premiership,200,NIFL Premiership,,,Linfield Women,,Northern Ireland,Lisburn Ladies,,Northern Ireland,,Programado
+2026-06-18,20:00,Northern Ireland,NIFL Premiership,200,NIFL Premiership,,,Cliftonville Ladies,,Northern Ireland,Derry City Women,,Northern Ireland,,Programado
+2026-06-18,20:00,Northern Ireland,NIFL Premiership,200,NIFL Premiership,,,Crusaders Strikers,,Northern Ireland,Glentoran Women,,Northern Ireland,,Programado
