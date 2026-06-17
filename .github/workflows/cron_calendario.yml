@@ -22,33 +22,33 @@ jobs:
     - name: Configurar Python
       uses: actions/setup-python@v5
       with:
-        python-python: '3.10'
-        cache: 'pip' # Optimiza la velocidad de ejecución indexando las descargas
+        python-version: '3.10'
+        cache: 'pip'
 
-    # 3. Instalar la librería oficial de Google GenAI
+    # 3. Instalar dependencias
     - name: Instalar dependencias
       run: |
         python -m pip install --upgrade pip
         pip install google-genai
 
-    # 4. Ejecutar el script del calendario pasándole tu API KEY de forma segura
+    # 4. Construir el lookup de IDs de equipos desde el histórico
+    - name: Construir lookup de equipos
+      run: python build_equipos_ids.py
+
+    # 5. Ejecutar el script del calendario
     - name: Ejecutar Script de Calendario
       env:
         GEMINI_API_KEY2: ${{ secrets.GEMINI_API_KEY2 }}
-      run: |
-        # Reemplaza 'tu_script_calendario.py' por el nombre real de tu archivo python
-        python tu_script_calendario.py
+      run: python tu_script_calendario.py
 
-    # 5. Guardar los cambios automáticamente en el repositorio (Hot insertion)
+    # 6. Guardar los cambios automáticamente en el repositorio
     - name: Guardar y subir cambios al repositorio
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        
-        # Agrega tanto el CSV como el estado de control si se llega a generar
+
         git add datos/calendar_futbol.csv
-        
-        # El condicional evita que el flujo falle si no hay partidos nuevos que commitear
+
         if ! git diff --cached --quiet; then
           git commit -m "⚙️ Actualización automática: Calendario de partidos [Bot]"
           git push
