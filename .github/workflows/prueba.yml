@@ -1,46 +1,41 @@
-name: Fallo de Datos de Fútbol con Gemini
-
+name: Automatización de Jornada de Fútbol con Gemini
 on:
-  # 1. Permite ejecutar el script manualmente desde la pestaña "Actions" de GitHub
-  workflow_dispatch:
-  
-  # 2. Configura una tarea programada (Cron)
-  # Este ejemplo se ejecuta TODOS LOS DÍAS a las 00:00 UTC (Ajusta según prefieras)
+  workflow_dispatch:  # ← agrega esto
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '*/20 * * * *'
 
 jobs:
   buscar-y-guardar:
     runs-on: ubuntu-latest
+    
+    # 1. AGREGA ESTAS DOS LÍNEAS AQUÍ:
+    permissions:
+      contents: write
 
     steps:
-    # Paso A: Descargar el código del repositorio
     - name: Checkout del repositorio
       uses: actions/checkout@v4
 
-    # Paso B: Configurar el entorno de Python
     - name: Configurar Python
       uses: actions/setup-python@v5
       with:
         python-version: '3.10'
 
-    # Paso C: Instalar la librería oficial de Gemini
     - name: Instalar dependencias
       run: |
         python -m pip install --upgrade pip
         pip install google-genai
 
-    # Paso D: Ejecutar el script inyectando la API KEY desde los secretos
+    # Aquí dejamos tu inyección de secreto que ya quedó solucionada
     - name: Ejecutar script de extracción
       env:
-        GEMINI_API_KEY: ${{ secrets::GEMINI_API_KEY }}
-      run: python script_futbol.py
-
-    # Paso E: Confirmar y subir los nuevos archivos generados al repositorio de GitHub
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      run: python python build_equipos_ids.py
+      # Paso D: Ejecutar el script inyectando la API KEY
+    
     - name: Guardar cambios en el repositorio
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add .
-        # Solo hace el commit si realmente hay archivos nuevos para evitar errores
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Actualización automática: Datos de partido recopilados" && git push)
+        git add datos/
+        git diff --quiet && git diff --staged --quiet || (git commit -m "chore: actualización automática de datos [skip ci]" && git push)
