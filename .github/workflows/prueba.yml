@@ -30,7 +30,7 @@ jobs:
     - name: Ejecutar script de extracción
       env:
         GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-      run: python python build_equipos_ids.py
+      run: python build_equipos_ids.py
       # Paso D: Ejecutar el script inyectando la API KEY
     
     - name: Guardar cambios en el repositorio
