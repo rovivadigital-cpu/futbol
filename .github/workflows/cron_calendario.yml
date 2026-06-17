@@ -29,6 +29,7 @@ jobs:
     - name: Ejecutar Script de Calendario
       env:
         GEMINI_API_KEY2: ${{ secrets.GEMINI_API_KEY2 }}
+        SOFASCORE_IDS_ACTIVO: "false"
       run: python tu_script_calendario.py
 
     - name: Guardar y subir cambios al repositorio
