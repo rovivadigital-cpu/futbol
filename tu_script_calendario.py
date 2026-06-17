@@ -32,6 +32,29 @@ def limpiar_calendario_vencido(csv_filename):
 limpiar_calendario_vencido(csv_filename)
 
 # =====================================================================
+# CARGAR TABLA DE IDs DE EQUIPOS (lookup local, sin tocar Sofascore)
+# Se construye desde partidos_futbol.csv via build_equipos_ids.py
+# =====================================================================
+equipos_ids_file = os.path.join("datos", "equipos_ids.csv")
+EQUIPOS_IDS = {}  # {nombre_normalizado: id_sofascore}
+
+if os.path.exists(equipos_ids_file):
+    try:
+        with open(equipos_ids_file, "r", encoding="utf-8") as f:
+            for row in csv.DictReader(f):
+                nombre = row.get("nombre_equipo", "").strip().lower()
+                eid    = row.get("id_sofascore", "").strip()
+                if nombre and eid:
+                    EQUIPOS_IDS[nombre] = eid
+        print(f"   Tabla equipos cargada: {len(EQUIPOS_IDS)} equipos.", flush=True)
+    except Exception as e:
+        print(f"   ! No se pudo cargar equipos_ids.csv: {e}", flush=True)
+else:
+    print(f"   ! equipos_ids.csv no encontrado en datos/. Los IDs de equipos quedarán vacíos.", flush=True)
+    print(f"     Ejecuta build_equipos_ids.py para generarlo desde partidos_futbol.csv.", flush=True)
+# =====================================================================
+
+# =====================================================================
 # LISTA DE TORNEOS
 # Cada torneo tiene:
 #   - nombre: nombre oficial legible (el que Gemini debería reconocer)
@@ -318,6 +341,9 @@ Si no hay ningún partido ese día, devuelve {{"partidos": []}}.
 
                     id_sofascore = liga_info["id"]
 
+                    local_id  = EQUIPOS_IDS.get(local.strip().lower(), "")
+                    visita_id = EQUIPOS_IDS.get(visita.strip().lower(), "")
+
                     row = [
                         fecha_str,
                         p.get("hora", "00:00"),
@@ -328,10 +354,10 @@ Si no hay ningún partido ese día, devuelve {{"partidos": []}}.
                         "",
                         p.get("round", ""),
                         local,
-                        "",
+                        local_id,
                         p.get("home_team_country", ""),
                         visita,
-                        "",
+                        visita_id,
                         p.get("away_team_country", ""),
                         "",
                         "Programado"
