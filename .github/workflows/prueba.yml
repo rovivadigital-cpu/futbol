@@ -1,8 +1,7 @@
 name: PonerID
 on:
   workflow_dispatch:  # ← agrega esto
-  schedule:
-    - cron: '*/20 * * * *'
+  
 
 jobs:
   buscar-y-guardar:
