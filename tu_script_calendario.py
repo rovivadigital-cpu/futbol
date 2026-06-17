@@ -121,6 +121,7 @@ def buscar_id_equipo_sofascore(nombre_equipo: str) -> str:
     Busca el ID de un equipo en Sofascore por nombre.
     Devuelve el ID como string, o "" si no se encuentra.
     Respeta el caché: no vuelve a buscar equipos ya procesados.
+    Si SOFASCORE_IDS_ACTIVO=false (Actions), solo usa caché y no hace requests.
     """
     global _cache_nuevos
     key = nombre_equipo.strip().lower()
@@ -129,6 +130,10 @@ def buscar_id_equipo_sofascore(nombre_equipo: str) -> str:
     if key in EQUIPOS_IDS:
         val = EQUIPOS_IDS[key]
         return "" if val == NO_ENCONTRADO else val
+
+    # Si las búsquedas están desactivadas (ej: GitHub Actions), no hacer request
+    if os.environ.get("SOFASCORE_IDS_ACTIVO", "true").lower() == "false":
+        return ""
 
     # Pausa humana antes de la request
     time.sleep(random.uniform(2.5, 5.0))
