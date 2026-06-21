@@ -766,3 +766,8 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,round,rou
 87582946,USA,MLS Next Pro,18641,MLS Next Pro,2026,2026-06-15,Jornada 13,13,,Atlanta United 2,,Chattanooga FC,0,0,0,0,0,0,0,0,D,2026-06-21,50%,50%,,,,,,,,,,,,,,,,,,,,,,,,
 6273124,USA,MLS Next Pro,18641,MLS Next Pro,2026,2026-06-15,Jornada 13,13,,Real Monarchs,,Portland Timbers 2,4,1,0,0,0,0,0,0,H,2026-06-21,50%,50%,,,,,,,,,,,,,,,,,,,,,,,,
 31634329,USA,MLS Next Pro,18641,MLS Next Pro,2026,2026-06-15,Jornada 13,13,,Ventura County,,Colorado Rapids 2,,,,,0,0,0,0,,2026-06-21,50%,50%,,,,,,,,,,,,,,,,,,,,,,,,
+25895372,Sweden,Superettan,46,Superettan,Superettan 2026,2026-06-06,Jornada 11,11,,Helsingborg,,Landskrona,0,3,0,0,0,0,0,0,A,2026-06-21,50%,50%,,,,,,,,,,,,,,,,,,,,,,,,
+46479009,Sweden,Superettan,46,Superettan,Superettan 2026,2026-06-10,Jornada 11,11,,Örebro SK,,Helsingborg,0,2,0,0,0,0,0,0,A,2026-06-21,50%,50%,,,,,,,,,,,,,,,,,,,,,,,,
+41982206,Sweden,Superettan,46,Superettan,Superettan 2026,2026-06-11,Jornada 11,11,,IFK Värnamo,,United Nordic,,,,,,,,,,2026-06-21,50%,50%,,,,,,,,,,,,,,,,,,,,,,,,
+4475304,Sweden,Superettan,46,Superettan,Superettan 2026,2026-06-12,Jornada 12,12,,Landskrona,,Nordic United,2,0,,,,,,,H,2026-06-21,50%,50%,,,,,,,,,,,,,,,,,,,,,,,,
+2486722,Sweden,Superettan,46,Superettan,Superettan 2026,2026-06-12,Jornada 12,12,,IFK Värnamo,,Landskrona,,,,,,,,,,2026-06-21,50%,50%,,,,,,,,,,,,,,,,,,,,,,,,
