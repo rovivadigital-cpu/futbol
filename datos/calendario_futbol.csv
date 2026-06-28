@@ -1,0 +1,36 @@
+event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
+15640261,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-06-27,00:00,Unknown,15,91568,Canberra Croatia FC,91576,Tuggeranong United,,,notstarted,1782622800,2026-06-27
+15640262,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-06-27,00:00,Unknown,15,520573,Canberra Juventus,466742,Brindabella Blues FC,,,notstarted,1782622800,2026-06-27
+15389364,Australia,Queensland NPL,1268,Queensland NPL,,2026-06-27,00:00,Unknown,16,35845,Gold Coast United,504568,Moreton City Excelsior FC,,,notstarted,1782622800,2026-06-27
+15389365,Australia,Queensland NPL,1268,Queensland NPL,,2026-06-27,02:00,Unknown,16,47708,Queensland Lions FC,91134,Wynnum Wolves FC,,,notstarted,1782630000,2026-06-27
+15341263,Finland,Ykkosliiga,55,Ykkosliiga,,2026-06-27,08:00,Unknown,12,2273,KäPa,23422,JäPS,,,notstarted,1782651600,2026-06-27
+15481679,Finland,Ykkonen,22020,Ykkonen,,2026-06-27,08:00,Unknown,1,2256,KPV,22393,PK Keski-Uusimaa,,,notstarted,1782651600,2026-06-27
+15271265,Sweden,Superettan,46,Superettan,,2026-06-27,08:00,Unknown,14,1769,IFK Norrköping,1849,Norrby IF,,,notstarted,1782651600,2026-06-27
+15271273,Sweden,Superettan,46,Superettan,,2026-06-27,08:00,Unknown,14,1772,Landskrona BoIS,1842,IFK Värnamo,,,notstarted,1782651600,2026-06-27
+15657424,New Zealand,Central League,594,Central League,,2026-06-27,18:00,Unknown,12,1176792,FC Western,411578,Western Suburbs FC,,,notstarted,1782601200,2026-06-27
+15657425,New Zealand,Central League,594,Central League,,2026-06-27,21:00,Unknown,12,261130,Napier City Rovers,378944,Wellington Olympic,0,0,inprogress,1782612000,2026-06-27
+15186747,World,"FIFA World Cup, Group J",16,"FIFA World Cup, Group J",,2026-06-27,21:00,Unknown,3,4691,Algeria,4718,Austria,0,0,inprogress,1782612000,2026-06-27
+15186734,World,"FIFA World Cup, Group J",16,"FIFA World Cup, Group J",,2026-06-27,21:00,Unknown,3,4771,Jordan,4819,Argentina,0,0,inprogress,1782612000,2026-06-27
+15617678,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-06-28,09:00,Unknown,12,1985,Figueirense,1972,Guarani,,,notstarted,1782655200,2026-06-27
+15432354,Estonia,Premium Liiga,178,Premium Liiga,,2026-06-28,09:00,Unknown,19,8091,Nõmme Kalju,32476,Paide Linnameeskond,,,notstarted,1782655200,2026-06-27
+16273159,Lithuania,TOPLYGA,198,TOPLYGA,,2026-06-28,10:00,Unknown,19,35388,FK Banga Gargždai,171484,FC Hegelmann,,,notstarted,1782658800,2026-06-27
+15271266,Sweden,Superettan,46,Superettan,,2026-06-28,10:00,Unknown,14,1844,Sandvikens IF,1890,Helsingborgs IF,,,notstarted,1782658800,2026-06-27
+15481680,Finland,Ykkonen,22020,Ykkonen,,2026-06-28,10:30,Unknown,1,5116,OLS Oulu,41819,KuPS Akatemia,,,notstarted,1782660600,2026-06-27
+16273156,Lithuania,TOPLYGA,198,TOPLYGA,,2026-06-28,10:45,Unknown,19,168446,Džiugas Telšiai,5345,FK Žalgiris,,,notstarted,1782661500,2026-06-27
+15276288,Argentina,Primera B,1347,Primera B,,2026-06-28,11:00,Unknown,22,192841,CSYD Liniers,107199,Villa San Carlos,,,notstarted,1782662400,2026-06-27
+15276280,Argentina,Primera B,1347,Primera B,,2026-06-28,11:00,Unknown,22,228062,Deportivo Laferrere,194523,Argentino de Quilmes,,,notstarted,1782662400,2026-06-27
+15276286,Argentina,Primera B,1347,Primera B,,2026-06-28,11:00,Unknown,22,112507,UAI Urquiza,36843,Sportivo Italiano,,,notstarted,1782662400,2026-06-27
+15432355,Estonia,Premium Liiga,178,Premium Liiga,,2026-06-28,11:00,Unknown,19,3342,FCI Levadia Tallinn,3346,Flora Tallinn,,,notstarted,1782662400,2026-06-27
+16273157,Lithuania,TOPLYGA,198,TOPLYGA,,2026-06-28,12:00,Unknown,19,310557,FK Riteriai,80741,FK Kauno Žalgiris,,,canceled,1782666000,2026-06-27
+15276282,Argentina,Primera B,1347,Primera B,,2026-06-28,13:00,Unknown,22,199311,Argentino de Merlo,112501,Club Comunicaciones,,,notstarted,1782669600,2026-06-27
+15276283,Argentina,Primera B,1347,Primera B,,2026-06-28,13:00,Unknown,22,3221,Arsenal de Sarandí,270405,CS Dock Sud,,,notstarted,1782669600,2026-06-27
+15526150,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-06-28,14:00,Unknown,15,342775,Athletic Club,7315,Avaí,,,notstarted,1782673200,2026-06-27
+15526153,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-06-28,14:00,Unknown,15,7314,Atlético Goianiense,1969,Ponte Preta,,,notstarted,1782673200,2026-06-27
+15526157,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-06-28,14:00,Unknown,15,1980,Juventude,2001,Ceará,,,notstarted,1782673200,2026-06-27
+12813000,World,"FIFA World Cup, Knockout",16,"FIFA World Cup, Knockout",,2026-06-28,14:00,Unknown,6,4736,South Africa,4752,Canada,,,notstarted,1782673200,2026-06-27
+15526152,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-06-28,16:30,Unknown,15,2020,Fortaleza,1959,Sport Recife,,,notstarted,1782682200,2026-06-27
+15526155,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-06-28,16:30,Unknown,15,2011,Náutico,1960,Goiás,,,notstarted,1782682200,2026-06-27
+15502831,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-06-28,18:00,Unknown,1,309889,Cavalry FC,1165894,FC Supra Du Quebec,,,notstarted,1782687600,2026-06-27
+15617677,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-06-28,18:30,Unknown,12,2025,Ituano,21858,Maranhão AC,,,notstarted,1782689400,2026-06-27
+15617679,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-06-28,18:30,Unknown,12,32766,Ypiranga FC,2017,Confiança,,,notstarted,1782689400,2026-06-27
+15657412,New Zealand,Southern League,594,Southern League,,2026-06-27,19:45,Unknown,12,389659,Dunedin City Royals FC,378874,Nelson Suburbs FC,0,4,inprogress,1782607500,2026-06-27
