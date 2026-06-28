@@ -1,0 +1,118 @@
+event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
+15640261,Australia,Capital NPL 1,35336,Capital NPL 1,,2026-06-27,Unknown,15,91568,Canberra Croatia FC,91576,Tuggeranong United,,,notstarted,1782622800,2026-06-27
+15640262,Australia,Capital NPL 1,35336,Capital NPL 1,,2026-06-27,Unknown,15,520573,Canberra Juventus,466742,Brindabella Blues FC,,,notstarted,1782622800,2026-06-27
+15389364,Australia,Queensland NPL,35336,Queensland NPL,,2026-06-27,Unknown,16,35845,Gold Coast United,504568,Moreton City Excelsior FC,,,notstarted,1782622800,2026-06-27
+15389365,Australia,Queensland NPL,35336,Queensland NPL,,2026-06-27,Unknown,16,47708,Queensland Lions FC,91134,Wynnum Wolves FC,,,notstarted,1782630000,2026-06-27
+15617688,Brazil,Brasileirão Série C,34929,Brasileirão Série C,,2026-06-27,Unknown,12,21853,AO Itabaiana,35285,Ferroviária,1,0,inprogress,1782597600,2026-06-27
+15341263,Finland,Ykkosliiga,31681,Ykkosliiga,,2026-06-27,Unknown,12,2273,KäPa,23422,JäPS,,,notstarted,1782651600,2026-06-27
+15481679,Finland,Ykkonen,31681,Ykkonen,,2026-06-27,Unknown,1,2256,KPV,22393,PK Keski-Uusimaa,,,notstarted,1782651600,2026-06-27
+15657424,New Zealand,Central League,33754,Central League,,2026-06-27,Unknown,12,1176792,FC Western,411578,Western Suburbs FC,,,notstarted,1782601200,2026-06-27
+15657425,New Zealand,Central League,33754,Central League,,2026-06-27,Unknown,12,261130,Napier City Rovers,378944,Wellington Olympic,,,notstarted,1782612000,2026-06-27
+15657412,New Zealand,Southern League,33754,Southern League,,2026-06-27,Unknown,12,389659,Dunedin City Royals FC,378874,Nelson Suburbs FC,,,notstarted,1782607500,2026-06-27
+15186747,World,"FIFA World Cup, Group J",853,"FIFA World Cup, Group J",,2026-06-27,Unknown,3,4691,Algeria,4718,Austria,,,notstarted,1782612000,2026-06-27
+15186734,World,"FIFA World Cup, Group J",853,"FIFA World Cup, Group J",,2026-06-27,Unknown,3,4771,Jordan,4819,Argentina,,,notstarted,1782612000,2026-06-27
+15186696,World,"FIFA World Cup, Group K",853,"FIFA World Cup, Group K",,2026-06-27,Unknown,3,4820,Colombia,4704,Portugal,0,0,inprogress,1782603000,2026-06-27
+15186717,World,"FIFA World Cup, Group K",853,"FIFA World Cup, Group K",,2026-06-27,Unknown,3,4823,DR Congo,4723,Uzbekistan,0,1,inprogress,1782603000,2026-06-27
+16389966,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,3277,Lokomotiv Sofia,230417,KF Ballkani,,,canceled,1782475200,2026-06-27
+16381098,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,323848,1.FC Phönix Lübeck,6159,Hansa Rostock II U23,,,canceled,1782491400,2026-06-27
+16317786,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,34762,FC Breitenrain,2454,FC Thun,,,canceled,1782495000,2026-06-27
+16398464,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,6169,SV Heimstetten,36288,TSV 1860 Rosenheim,,,notstarted,1782546300,2026-06-27
+16378616,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,7295,Radomiak Radom,3125,Górnik Łęczna,,,canceled,1782547200,2026-06-27
+16390227,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,164596,SC Spelle-Venhaus,5844,Sportfreunde Lotte,,,postponed,1782547200,2026-06-27
+16350218,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,5871,FC Memmingen,226867,FC 1920 Gundelfingen,0,0,canceled,1782550800,2026-06-27
+16379353,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,2990,Almere City FC,6480,HHC Hardenberg,,,canceled,1782556200,2026-06-27
+16379370,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,5801,Hannover 96 II U23,2626,Hertha BSC II U23,,,notstarted,1782558000,2026-06-27
+16379373,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,42600,MTV Wolfenbüttel,229126,Hannoverscher SC,,,canceled,1782558000,2026-06-27
+16322611,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,36572,SC Weiche Flensburg 08,24102,Heider SV,,,canceled,1782561300,2026-06-27
+16390040,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,2525,1. FC Köln II U23,4899,TuS Koblenz,,,canceled,1782561600,2026-06-27
+16379368,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,24039,Bremer SV,163450,FC Süderelbe,0,0,canceled,1782561600,2026-06-27
+16398665,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,70944,FC Augsburg II,2522,VfB Stuttgart II U21,,,canceled,1782561600,2026-06-27
+16387377,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,7864,Greifswalder FC,1241516,SV Eintracht Zinnowitz,,,notstarted,1782561600,2026-06-27
+16379454,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,45657,OFK Spartak Pleven,24444,OFC Lokomotiv Mezdra,,,notstarted,1782561600,2026-06-27
+16379460,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,2972,SC Telstar,2974,Helmond Sport,,,canceled,1782561600,2026-06-27
+16393146,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,43205,SKV Rot-Weiß Darmstadt,5791,SV Viktoria Aschaffenburg,,,canceled,1782561600,2026-06-27
+16379452,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,3274,Slavia Sofia,3287,FC Rilski Sportist 2011 Samokov,,,notstarted,1782561600,2026-06-27
+16389379,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,304363,TSV Gau-Odernheim,2571,1. FSV Mainz 05 II U23,,,canceled,1782561600,2026-06-27
+16334440,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,257618,TSV Schwaben Augsburg,23539,TSV Rain/Lech,,,canceled,1782561600,2026-06-27
+16379464,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,258981,Veles Moscow,35301,Arsenal Tula,,,notstarted,1782561600,2026-06-27
+16379473,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,275817,VfB Zwenkau 02,24093,1. FC Lokomotive Leipzig,,,canceled,1782561600,2026-06-27
+16400011,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,385110,ASV Salzburg,43074,Austria Salzburg,,,notstarted,1782565200,2026-06-27
+16333369,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,162354,TSV Schott Mainz,1238284,SV Morbach,,,canceled,1782565200,2026-06-27
+16379509,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,42589,VfB Eichstätt,4900,TSV 1860 München II U21,,,notstarted,1782565200,2026-06-27
+16368470,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,23537,DJK Vilzing,317548,ASV Cham,,,canceled,1782567000,2026-06-27
+16400012,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,1242146,Pfaffikon,2458,FC Winterthur,,,notstarted,1782567000,2026-06-27
+16379669,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,38370,Civil Service Strollers FC,2374,Greenock Morton,,,canceled,1782568800,2026-06-27
+16396217,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,294048,FC Kryvbas Kryvyi Rih,200123,Inhulets Petrove,,,notstarted,1782568800,2026-06-27
+16400013,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,288735,Longridge Town FC,217,Chorley FC,,,notstarted,1782568800,2026-06-27
+16389400,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,1241615,SV Planitz,2620,FSV Zwickau,,,notstarted,1782568800,2026-06-27
+16390036,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,24798,FC Botoșani,264619,KF Egnatia,,,notstarted,1782570600,2026-06-27
+16379694,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,2950,AZ Alkmaar,46161,Jong AZ Alkmaar,,,canceled,1782572400,2026-06-27
+16379695,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,3275,CSKA Sofia,5962,Qarabağ FK,,,canceled,1782572400,2026-06-27
+16326598,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,1237866,Hainichener FV,2592,Chemnitzer FC,,,notstarted,1782572400,2026-06-27
+16381320,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,23951,MFK Karviná,7692,Polonia Bytom,,,canceled,1782572400,2026-06-27
+16398222,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,200773,NK Veres Rivne,1242034,Fenix Mariupol,,,notstarted,1782572400,2026-06-27
+16400017,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,1242147,SPG Wilhering/Muhlbach,2113,FC Blau Weiss Linz,,,notstarted,1782572400,2026-06-27
+16379704,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,391532,Koninklijke Sporting Hasselt,2900,RSC Anderlecht,,,notstarted,1782576000,2026-06-27
+16379698,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,37860,La Fiorita,5403,FK Vardar Skopje,,,notstarted,1782576000,2026-06-27
+16394916,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,1117024,Vroomshoopse Boys,2955,FC Twente,,,notstarted,1782576000,2026-06-27
+16402212,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,6226,FK Dečić Tuzi,403091,AF Elbasani,,,notstarted,1782577800,2026-06-27
+16390237,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,1241652,KSK Wilrijk,169260,K. Beerschot V.A.,,,notstarted,1782583200,2026-06-27
+16390240,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,1933,Pumas UNAM,1941,Club Puebla,,,notstarted,1782590400,2026-06-27
+16390242,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,201624,FC Juárez,1943,Atlante FC,,,notstarted,1782608400,2026-06-27
+16390352,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,3112,GKS Katowice,5064,MZKS Arka Gdynia,,,notstarted,1782631800,2026-06-27
+16394919,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,7084,FC ViOn Zlaté Moravce,203588,FC Baník Prievidza,,,notstarted,1782633600,2026-06-27
+16400144,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,2402,MŠK Žilina,7916,OKS Odra Opole,,,notstarted,1782635400,2026-06-27
+16396220,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,5207,F91 Dudelange,78645,Crossing Schaerbeek,,,notstarted,1782637200,2026-06-27
+16390246,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,35089,SSV Jahn Regensburg II U21,5883,SpVgg Greuther Fürth II,,,notstarted,1782637200,2026-06-27
+16400960,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,207386,BTS Neustadt,6163,VSK Osterholz-Scharmbeck,,,notstarted,1782640800,2026-06-27
+16400164,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,1281,Brøndby IF,1305,Hvidovre,,,notstarted,1782644400,2026-06-27
+16390349,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,1764,AIK,1775,Västerås SK,,,notstarted,1782648000,2026-06-27
+16390351,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,148278,FC Corvinul Hunedoara,267146,FC Nagykanizsa,,,notstarted,1782648000,2026-06-27
+16390354,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,25557,FC Nyva Vinnytsia,323552,FC Epicentr Dunaivtsi,,,notstarted,1782648000,2026-06-27
+16289297,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,687,Fredrikstad FK,1762,IF Elfsborg,,,notstarted,1782648000,2026-06-27
+16282051,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,2582,Hallescher FC,3110,Górnik Zabrze,,,notstarted,1782648000,2026-06-27
+16400163,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,2322,Krylya Sovetov Samara,73172,Neftekhimik Nizhnekamsk,,,notstarted,1782648000,2026-06-27
+16390350,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,2424,NK Aluminij Kidričevo,262228,FC Noah,,,notstarted,1782648000,2026-06-27
+16390356,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,2318,Rotor Volgograd,74241,FC Ufa,,,notstarted,1782648000,2026-06-27
+16390348,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,290412,TSV Abtswind,2544,1. FC Schweinfurt 05,,,notstarted,1782648000,2026-06-27
+16390357,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,291536,SG Barockstadt Fulda-Lehnerz,228060,SV Steinbach,,,notstarted,1782649800,2026-06-27
+16390359,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,1161,Rosenborg BK,822,Sarpsborg 08,,,notstarted,1782651600,2026-06-27
+16282052,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,24080,SC Vorwärts-Wacker Billstedt,24148,SV Drochtersen/Assel,,,canceled,1782651600,2026-06-27
+16368995,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,70942,SpVgg Selbitz,2656,SpVgg Bayern Hof,,,notstarted,1782651600,2026-06-27
+16289298,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,482949,KFC Nijlen,116075,Koninklijke Lierse Sportkring,,,notstarted,1782653400,2026-06-27
+16390245,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,661,Molde FK,656,Bodø/Glimt,,,notstarted,1782653400,2026-06-27
+16371711,World,Club Friendly Games,853,Club Friendly Games,,2026-06-27,Unknown,,1240249,SV Garham,75131,SpVgg Hankofen-Hailing,,,notstarted,1782653400,2026-06-27
+15271265,Sweden,Superettan,80,Superettan,,2026-06-27,Unknown,14,1769,IFK Norrköping,1849,Norrby IF,,,notstarted,1782651600,2026-06-27
+15271273,Sweden,Superettan,80,Superettan,,2026-06-27,Unknown,14,1772,Landskrona BoIS,1842,IFK Värnamo,,,notstarted,1782651600,2026-06-27
+15276288,Argentina,Primera B,27239,Primera B,,2026-06-28,Unknown,22,192841,CSYD Liniers,107199,Villa San Carlos,,,notstarted,1782662400,2026-06-27
+15276280,Argentina,Primera B,27239,Primera B,,2026-06-28,Unknown,22,228062,Deportivo Laferrere,194523,Argentino de Quilmes,,,notstarted,1782662400,2026-06-27
+15276286,Argentina,Primera B,27239,Primera B,,2026-06-28,Unknown,22,112507,UAI Urquiza,36843,Sportivo Italiano,,,notstarted,1782662400,2026-06-27
+15276282,Argentina,Primera B,27239,Primera B,,2026-06-28,Unknown,22,199311,Argentino de Merlo,112501,Club Comunicaciones,,,notstarted,1782669600,2026-06-27
+15276283,Argentina,Primera B,27239,Primera B,,2026-06-28,Unknown,22,3221,Arsenal de Sarandí,270405,CS Dock Sud,,,notstarted,1782669600,2026-06-27
+15526150,Brazil,Brasileirão Série B,34929,Brasileirão Série B,,2026-06-28,Unknown,15,342775,Athletic Club,7315,Avaí,,,notstarted,1782673200,2026-06-27
+15526153,Brazil,Brasileirão Série B,34929,Brasileirão Série B,,2026-06-28,Unknown,15,7314,Atlético Goianiense,1969,Ponte Preta,,,notstarted,1782673200,2026-06-27
+15526157,Brazil,Brasileirão Série B,34929,Brasileirão Série B,,2026-06-28,Unknown,15,1980,Juventude,2001,Ceará,,,notstarted,1782673200,2026-06-27
+15526152,Brazil,Brasileirão Série B,34929,Brasileirão Série B,,2026-06-28,Unknown,15,2020,Fortaleza,1959,Sport Recife,,,notstarted,1782682200,2026-06-27
+15526155,Brazil,Brasileirão Série B,34929,Brasileirão Série B,,2026-06-28,Unknown,15,2011,Náutico,1960,Goiás,,,notstarted,1782682200,2026-06-27
+15617678,Brazil,Brasileirão Série C,34929,Brasileirão Série C,,2026-06-28,Unknown,12,1985,Figueirense,1972,Guarani,,,notstarted,1782655200,2026-06-27
+15617677,Brazil,Brasileirão Série C,34929,Brasileirão Série C,,2026-06-28,Unknown,12,2025,Ituano,21858,Maranhão AC,,,notstarted,1782689400,2026-06-27
+15617679,Brazil,Brasileirão Série C,34929,Brasileirão Série C,,2026-06-28,Unknown,12,32766,Ypiranga FC,2017,Confiança,,,notstarted,1782689400,2026-06-27
+15502831,Canada,Canadian Premier League,34682,Canadian Premier League,,2026-06-28,Unknown,1,309889,Cavalry FC,1165894,FC Supra Du Quebec,,,notstarted,1782687600,2026-06-27
+15432354,Estonia,Premium Liiga,35654,Premium Liiga,,2026-06-28,Unknown,19,8091,Nõmme Kalju,32476,Paide Linnameeskond,,,notstarted,1782655200,2026-06-27
+15432355,Estonia,Premium Liiga,35654,Premium Liiga,,2026-06-28,Unknown,19,3342,FCI Levadia Tallinn,3346,Flora Tallinn,,,notstarted,1782662400,2026-06-27
+15481680,Finland,Ykkonen,31681,Ykkonen,,2026-06-28,Unknown,1,5116,OLS Oulu,41819,KuPS Akatemia,,,notstarted,1782660600,2026-06-27
+16273159,Lithuania,TOPLYGA,16785,TOPLYGA,,2026-06-28,Unknown,19,35388,FK Banga Gargždai,171484,FC Hegelmann,,,notstarted,1782658800,2026-06-27
+16273156,Lithuania,TOPLYGA,16785,TOPLYGA,,2026-06-28,Unknown,19,168446,Džiugas Telšiai,5345,FK Žalgiris,,,notstarted,1782661500,2026-06-27
+16273157,Lithuania,TOPLYGA,16785,TOPLYGA,,2026-06-28,Unknown,19,310557,FK Riteriai,80741,FK Kauno Žalgiris,,,canceled,1782666000,2026-06-27
+12813000,World,"FIFA World Cup, Knockout",28008,"FIFA World Cup, Knockout",,2026-06-28,Unknown,6,4736,South Africa,4752,Canada,,,notstarted,1782673200,2026-06-27
+16390361,World,Club Friendly Games,28008,Club Friendly Games,,2026-06-28,Unknown,,1204538,SG Werratal II,5781,KSV Hessen Kassel,,,notstarted,1782655200,2026-06-27
+16390360,World,Club Friendly Games,28008,Club Friendly Games,,2026-06-28,Unknown,,36393,Spartak Kostroma,21946,Volga Ulyanovsk,,,notstarted,1782655200,2026-06-27
+16390362,World,Club Friendly Games,28008,Club Friendly Games,,2026-06-28,Unknown,,1925,Ferencváros TC,267828,Sabah FK,,,notstarted,1782657000,2026-06-27
+16371712,World,Club Friendly Games,28008,Club Friendly Games,,2026-06-28,Unknown,,1240250,TSV Ettleben,5874,Würzburger FV,,,notstarted,1782657000,2026-06-27
+16390364,World,Club Friendly Games,28008,Club Friendly Games,,2026-06-28,Unknown,,334956,Wieczysta Kraków,3305,Dynamo Kyiv,,,notstarted,1782658800,2026-06-27
+16390355,World,Club Friendly Games,28008,Club Friendly Games,,2026-06-28,Unknown,,2416,NK Olimpija Ljubljana,5148,FK Čukarički,,,notstarted,1782662400,2026-06-27
+16400959,World,Club Friendly Games,28008,Club Friendly Games,,2026-06-28,Unknown,,2416,NK Olimpija Ljubljana,5148,FK Čukarički,,,notstarted,1782662400,2026-06-27
+16394921,World,Club Friendly Games,28008,Club Friendly Games,,2026-06-28,Unknown,,7916,OKS Odra Opole,3275,CSKA Sofia,,,notstarted,1782662400,2026-06-27
+16390367,World,Club Friendly Games,28008,Club Friendly Games,,2026-06-28,Unknown,,53903,New York Cosmos,1948,Santos Laguna,,,notstarted,1782680400,2026-06-27
+16393417,World,Club Friendly Games,28008,Club Friendly Games,,2026-06-28,Unknown,,1286,Odense Boldklub,22162,Kolding IF,,,notstarted,1782738000,2026-06-27
+15271266,Sweden,Superettan,80,Superettan,,2026-06-28,Unknown,14,1844,Sandvikens IF,1890,Helsingborgs IF,,,notstarted,1782658800,2026-06-27
