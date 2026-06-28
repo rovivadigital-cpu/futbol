@@ -3,14 +3,14 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15640262,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-06-27,00:00,Unknown,15,520573,Canberra Juventus,466742,Brindabella Blues FC,,,notstarted,1782622800,2026-06-27
 15389364,Australia,Queensland NPL,1268,Queensland NPL,,2026-06-27,00:00,Unknown,16,35845,Gold Coast United,504568,Moreton City Excelsior FC,,,notstarted,1782622800,2026-06-27
 15389365,Australia,Queensland NPL,1268,Queensland NPL,,2026-06-27,02:00,Unknown,16,47708,Queensland Lions FC,91134,Wynnum Wolves FC,,,notstarted,1782630000,2026-06-27
-15341263,Finland,Ykkosliiga,55,Ykkosliiga,,2026-06-27,08:00,Unknown,12,2273,KäPa,23422,JäPS,,,notstarted,1782651600,2026-06-27
-15481679,Finland,Ykkonen,22020,Ykkonen,,2026-06-27,08:00,Unknown,1,2256,KPV,22393,PK Keski-Uusimaa,,,notstarted,1782651600,2026-06-27
-15271265,Sweden,Superettan,46,Superettan,,2026-06-27,08:00,Unknown,14,1769,IFK Norrköping,1849,Norrby IF,,,notstarted,1782651600,2026-06-27
-15271273,Sweden,Superettan,46,Superettan,,2026-06-27,08:00,Unknown,14,1772,Landskrona BoIS,1842,IFK Värnamo,,,notstarted,1782651600,2026-06-27
 15657424,New Zealand,Central League,594,Central League,,2026-06-27,18:00,Unknown,12,1176792,FC Western,411578,Western Suburbs FC,,,notstarted,1782601200,2026-06-27
 15657425,New Zealand,Central League,594,Central League,,2026-06-27,21:00,Unknown,12,261130,Napier City Rovers,378944,Wellington Olympic,0,0,inprogress,1782612000,2026-06-27
 15186747,World,"FIFA World Cup, Group J",16,"FIFA World Cup, Group J",,2026-06-27,21:00,Unknown,3,4691,Algeria,4718,Austria,0,0,inprogress,1782612000,2026-06-27
 15186734,World,"FIFA World Cup, Group J",16,"FIFA World Cup, Group J",,2026-06-27,21:00,Unknown,3,4771,Jordan,4819,Argentina,0,0,inprogress,1782612000,2026-06-27
+15341263,Finland,Ykkosliiga,55,Ykkosliiga,,2026-06-28,08:00,Unknown,12,2273,KäPa,23422,JäPS,0,0,inprogress,1782651600,2026-06-28
+15481679,Finland,Ykkonen,22020,Ykkonen,,2026-06-28,08:00,Unknown,1,2256,KPV,22393,PK Keski-Uusimaa,0,0,inprogress,1782651600,2026-06-28
+15271265,Sweden,Superettan,46,Superettan,,2026-06-28,08:00,Unknown,14,1769,IFK Norrköping,1849,Norrby IF,0,0,inprogress,1782651600,2026-06-28
+15271273,Sweden,Superettan,46,Superettan,,2026-06-28,08:00,Unknown,14,1772,Landskrona BoIS,1842,IFK Värnamo,0,0,inprogress,1782651600,2026-06-28
 15617678,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-06-28,09:00,Unknown,12,1985,Figueirense,1972,Guarani,,,notstarted,1782655200,2026-06-27
 15432354,Estonia,Premium Liiga,178,Premium Liiga,,2026-06-28,09:00,Unknown,19,8091,Nõmme Kalju,32476,Paide Linnameeskond,,,notstarted,1782655200,2026-06-27
 16273159,Lithuania,TOPLYGA,198,TOPLYGA,,2026-06-28,10:00,Unknown,19,35388,FK Banga Gargždai,171484,FC Hegelmann,,,notstarted,1782658800,2026-06-27
