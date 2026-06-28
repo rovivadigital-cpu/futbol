@@ -11,10 +11,10 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15481679,Finland,Ykkonen,22020,Ykkonen,,2026-06-28,08:00,Unknown,1,2256,KPV,22393,PK Keski-Uusimaa,0,0,inprogress,1782651600,2026-06-28
 15271265,Sweden,Superettan,46,Superettan,,2026-06-28,08:00,Unknown,14,1769,IFK Norrköping,1849,Norrby IF,0,0,inprogress,1782651600,2026-06-28
 15271273,Sweden,Superettan,46,Superettan,,2026-06-28,08:00,Unknown,14,1772,Landskrona BoIS,1842,IFK Värnamo,0,0,inprogress,1782651600,2026-06-28
-15617678,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-06-28,09:00,Unknown,12,1985,Figueirense,1972,Guarani,,,notstarted,1782655200,2026-06-27
-15432354,Estonia,Premium Liiga,178,Premium Liiga,,2026-06-28,09:00,Unknown,19,8091,Nõmme Kalju,32476,Paide Linnameeskond,,,notstarted,1782655200,2026-06-27
-16273159,Lithuania,TOPLYGA,198,TOPLYGA,,2026-06-28,10:00,Unknown,19,35388,FK Banga Gargždai,171484,FC Hegelmann,,,notstarted,1782658800,2026-06-27
-15271266,Sweden,Superettan,46,Superettan,,2026-06-28,10:00,Unknown,14,1844,Sandvikens IF,1890,Helsingborgs IF,,,notstarted,1782658800,2026-06-27
+15617678,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-06-28,09:00,Unknown,12,1985,Figueirense,1972,Guarani,0,0,inprogress,1782655200,2026-06-28
+15432354,Estonia,Premium Liiga,178,Premium Liiga,,2026-06-28,09:00,Unknown,19,8091,Nõmme Kalju,32476,Paide Linnameeskond,0,0,inprogress,1782655200,2026-06-28
+16273159,Lithuania,TOPLYGA,198,TOPLYGA,,2026-06-28,10:00,Unknown,19,35388,FK Banga Gargždai,171484,FC Hegelmann,0,0,inprogress,1782658800,2026-06-28
+15271266,Sweden,Superettan,46,Superettan,,2026-06-28,10:00,Unknown,14,1844,Sandvikens IF,1890,Helsingborgs IF,1,0,inprogress,1782658800,2026-06-28
 15481680,Finland,Ykkonen,22020,Ykkonen,,2026-06-28,10:30,Unknown,1,5116,OLS Oulu,41819,KuPS Akatemia,,,notstarted,1782660600,2026-06-27
 16273156,Lithuania,TOPLYGA,198,TOPLYGA,,2026-06-28,10:45,Unknown,19,168446,Džiugas Telšiai,5345,FK Žalgiris,,,notstarted,1782661500,2026-06-27
 15276288,Argentina,Primera B,1347,Primera B,,2026-06-28,11:00,Unknown,22,192841,CSYD Liniers,107199,Villa San Carlos,,,notstarted,1782662400,2026-06-27
