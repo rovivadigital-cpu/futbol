@@ -30,9 +30,9 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 12813000,World,"FIFA World Cup, Knockout",16,"FIFA World Cup, Knockout",,2026-06-28,14:00,Unknown,6,4736,South Africa,4752,Canada,,,notstarted,1782673200,2026-06-27
 15526152,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-06-28,16:30,Unknown,15,2020,Fortaleza,1959,Sport Recife,,,notstarted,1782682200,2026-06-27
 15526155,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-06-28,16:30,Unknown,15,2011,Náutico,1960,Goiás,,,notstarted,1782682200,2026-06-27
-15502831,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-06-28,18:00,Unknown,1,309889,Cavalry FC,1165894,FC Supra Du Quebec,,,notstarted,1782687600,2026-06-27
-15617677,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-06-28,18:30,Unknown,12,2025,Ituano,21858,Maranhão AC,,,notstarted,1782689400,2026-06-27
-15617679,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-06-28,18:30,Unknown,12,32766,Ypiranga FC,2017,Confiança,,,notstarted,1782689400,2026-06-27
+15502831,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-06-28,18:00,Unknown,1,309889,Cavalry FC,1165894,FC Supra Du Quebec,,,delayed,1782687600,2026-06-28
+15617677,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-06-28,18:30,Unknown,12,2025,Ituano,21858,Maranhão AC,0,0,inprogress,1782689400,2026-06-28
+15617679,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-06-28,18:30,Unknown,12,32766,Ypiranga FC,2017,Confiança,0,0,inprogress,1782689400,2026-06-28
 15472524,Latvia,Virsliga,197,Virsliga,,2026-06-29,10:00,Unknown,21,5346,FK Auda,162368,Riga FC,,,notstarted,1782745200,2026-06-28
 15472523,Latvia,Virsliga,197,Virsliga,,2026-06-29,10:00,Unknown,21,36081,FS Jelgava,52220,FK Grobiņa,,,notstarted,1782745200,2026-06-28
 15481681,Finland,Ykkonen,22020,Ykkonen,,2026-06-29,10:30,Unknown,1,283886,VJS,2269,TPV,,,notstarted,1782747000,2026-06-28
