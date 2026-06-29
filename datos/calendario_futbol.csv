@@ -30,7 +30,6 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 12813000,World,"FIFA World Cup, Knockout",16,"FIFA World Cup, Knockout",,2026-06-28,14:00,Unknown,6,4736,South Africa,4752,Canada,,,notstarted,1782673200,2026-06-27
 15526152,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-06-28,16:30,Unknown,15,2020,Fortaleza,1959,Sport Recife,,,notstarted,1782682200,2026-06-27
 15526155,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-06-28,16:30,Unknown,15,2011,Náutico,1960,Goiás,,,notstarted,1782682200,2026-06-27
-15502831,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-06-28,18:00,Unknown,1,309889,Cavalry FC,1165894,FC Supra Du Quebec,,,delayed,1782687600,2026-06-28
 15617677,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-06-28,18:30,Unknown,12,2025,Ituano,21858,Maranhão AC,0,0,inprogress,1782689400,2026-06-28
 15617679,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-06-28,18:30,Unknown,12,32766,Ypiranga FC,2017,Confiança,0,0,inprogress,1782689400,2026-06-28
 15472524,Latvia,Virsliga,197,Virsliga,,2026-06-29,10:00,Unknown,21,5346,FK Auda,162368,Riga FC,,,notstarted,1782745200,2026-06-28
@@ -41,5 +40,18 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 12813012,World,"FIFA World Cup, Knockout",16,"FIFA World Cup, Knockout",,2026-06-29,12:00,Unknown,6,4748,Brazil,4770,Japan,,,notstarted,1782752400,2026-06-28
 16299775,Iceland,Iceland 1. deild,675,Iceland 1. deild,,2026-06-29,14:15,Unknown,9,1914,UMF Afturelding,70092,Aegir,,,notstarted,1782760500,2026-06-28
 12813014,World,"FIFA World Cup, Knockout",16,"FIFA World Cup, Knockout",,2026-06-29,15:30,Unknown,6,4711,Germany,4789,Paraguay,,,notstarted,1782765000,2026-06-28
+15502831,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-06-29,18:00,Unknown,1,309889,Cavalry FC,1165894,FC Supra Du Quebec,,,postponed,1782687600,2026-06-29
 12812998,World,"FIFA World Cup, Knockout",16,"FIFA World Cup, Knockout",,2026-06-29,20:00,Unknown,6,4705,Netherlands,4778,Morocco,,,notstarted,1782781200,2026-06-28
+15657426,New Zealand,Northern League,594,Northern League,,2026-06-30,02:30,Unknown,21,6909,Auckland City,1079629,Auckland FC Reserves,,,notstarted,1782891000,2026-06-29
+16240954,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-06-30,04:30,Unknown,3,91574,Monaro Panthers,1083016,Queanbeyan City FC,,,notstarted,1782898200,2026-06-29
+15472525,Latvia,Virsliga,197,Virsliga,,2026-06-30,10:00,Unknown,21,68718,RFS,41498,BFC Daugavpils,,,notstarted,1782831600,2026-06-29
+16092599,Estonia,Esiliiga,678,Esiliiga,,2026-06-30,11:00,Unknown,8,383797,FC Nõmme United U21,36074,Flora Tallinn U21,,,notstarted,1782835200,2026-06-29
+15472526,Latvia,Virsliga,197,Virsliga,,2026-06-30,11:00,Unknown,21,146336,FK Liepaja,477400,Ogre United,,,notstarted,1782835200,2026-06-29
+12812989,World,"FIFA World Cup, Knockout",16,"FIFA World Cup, Knockout",,2026-06-30,12:00,Unknown,6,4768,Côte d'Ivoire,4475,Norway,,,notstarted,1782838800,2026-06-29
+12812995,World,"FIFA World Cup, Knockout",16,"FIFA World Cup, Knockout",,2026-06-30,16:00,Unknown,6,4481,France,4688,Sweden,,,notstarted,1782853200,2026-06-29
+15617676,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-06-30,17:30,Unknown,12,2000,Caxias,21872,Anápolis,,,notstarted,1782858600,2026-06-29
+15526148,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-06-30,18:00,Unknown,15,1979,Botafogo-SP,22032,Clube De Regatas Brasil,,,notstarted,1782860400,2026-06-29
+15617680,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-06-30,18:30,Unknown,12,49196,Botafogo-PB,21884,Brusque,,,notstarted,1782862200,2026-06-29
+15617690,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-06-30,18:30,Unknown,12,6982,Volta Redonda,336664,Amazonas FC,,,notstarted,1782862200,2026-06-29
+12813001,World,"FIFA World Cup, Knockout",16,"FIFA World Cup, Knockout",,2026-06-30,20:00,Unknown,6,4781,Mexico,4757,Ecuador,,,notstarted,1782867600,2026-06-29
 15657412,New Zealand,Southern League,594,Southern League,,2026-06-27,19:45,Unknown,12,389659,Dunedin City Royals FC,378874,Nelson Suburbs FC,0,4,inprogress,1782607500,2026-06-27
