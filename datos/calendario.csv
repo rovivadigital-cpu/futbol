@@ -1,132 +1,29 @@
 Jugador_Local,Jugador_Visitante,Fecha,Hora_Aprox,Torneo,Torneo_ID_Sofascore,Categoria,Superficie,Ronda,Jugador_Local_ID_Sofascore,Jugador_Visitante_ID_Sofascore,Event_ID_Sofascore,Category_ID,Ranking_Local,Ranking_Visitante,Seed_Local,Seed_Visitante,Estado,Pais_Torneo,Numero_Ronda
-Francesco Maestrelli,Ognjen Milić,2026-06-30,02:30,"Brasov, Romania",3436,Challenger,,,261017,479273,16402079,72,128,370,,,notstarted,,6
-Frederico Ferreira Silva,Edas Butvilas,2026-06-30,02:30,"Brasov, Romania",3436,Challenger,,,66484,385592,16402077,72,230,226,,,notstarted,,6
-Guido Ivan Justo,Franco Agamenone,2026-06-30,02:30,"Brasov, Romania",3436,Challenger,,,255418,65606,16402078,72,238,265,,,notstarted,,6
-Lautaro Midon,Stefan Horia Haita,2026-06-30,02:30,"Brasov, Romania",3436,Challenger,,,397014,486375,16402073,72,227,853,,,notstarted,,6
-Daniel Michalski,Francesco Passaro,2026-06-30,03:00,"Milano, Italy",3453,Challenger,,,257091,258908,16402867,72,321,190,,,notstarted,,6
-David Jorda Sanchis,Juan Carlos Prado Angelo,2026-06-30,03:00,"Milano, Italy",3453,Challenger,,,57155,392072,16402085,72,186,156,,,notstarted,,6
-Facundo Diaz Acosta,Miguel Tobon,2026-06-30,03:00,"Milano, Italy",3453,Challenger,,,264372,451986,16402087,72,120,449,,,notstarted,,6
-Filippo Romano,Marco Cecchinato,2026-06-30,03:00,"Milano, Italy",3453,Challenger,,,399603,44549,16402081,72,301,159,,,notstarted,,6
-Niels McDonald,Juan Cruz Martin Manzano,2026-06-30,03:00,"Milano, Italy",3453,Challenger,,,484006,418785,16402086,72,620,495,,,notstarted,,6
-Raul Brancaccio,Nikoloz Basilashvili,2026-06-30,03:00,"Milano, Italy",3453,Challenger,,,201847,26204,16402080,72,248,112,,,notstarted,,6
-Anton Matusevich,Calvin Hemery,2026-06-30,03:00,"Troyes, France",18661,Challenger,,,245110,81271,16402093,72,377,282,,,notstarted,,6
-Federico Bondioli,Inaki Montes-de la Torre,2026-06-30,03:00,"Troyes, France",18661,Challenger,,,407383,290568,16402095,72,359,312,,,notstarted,,6
-Kilian Feldbausch,Samuele Pieri,2026-06-30,03:00,"Troyes, France",18661,Challenger,,,377489,376882,16402097,72,279,403,,,notstarted,,6
-Manas Dhamne,Ioannis Xilas,2026-06-30,03:00,"Troyes, France",18661,Challenger,,,415528,317445,16402096,72,382,362,,,notstarted,,6
-Marko Topo,Leo Raquillet,2026-06-30,03:00,"Troyes, France",18661,Challenger,,,348701,405556,16402099,72,364,642,,,notstarted,,6
-Thiago Seyboth Wild,Eliakim Coulibaly,2026-06-30,03:00,"Troyes, France",18661,Challenger,,,161262,321948,16402094,72,292,313,,,notstarted,,6
-Adrian Mannarino,Titouan Droguet,2026-06-30,05:00,Wimbledon,2361,ATP,,,15894,243925,16397404,3,40,115,,,notstarted,,64
-Kamil Majchrzak,Alejandro Tabilo,2026-06-30,05:00,Wimbledon,2361,ATP,,,108709,102151,16397402,3,46,33,,,notstarted,,64
-Sho Shimabukuro,Jaime Faria,2026-06-30,05:00,Wimbledon,2361,ATP,,,216154,341818,16397392,3,89,97,,,notstarted,,64
-Valentin Royer,Harry Wendelken,2026-06-30,05:00,Wimbledon,2361,ATP,,,255449,267242,16397375,3,75,203,,,notstarted,,64
-Yannick Hanfmann,Giovanni Mpetshi Perricard,2026-06-30,05:00,Wimbledon,2361,ATP,,,47975,289146,16397400,3,55,84,,,notstarted,,64
-Amanda Anisimova,Lina Gjorcheska,2026-06-30,05:00,Wimbledon,2600,WTA,,,230628,67743,16397365,6,6,222,,,notstarted,,64
-Anhelina Kalinina,Kamilla Rakhimova,2026-06-30,05:00,Wimbledon,2600,WTA,,,90664,217828,16397367,6,66,70,,,notstarted,,64
-Irina-Camelia Begu,Katie Swan,2026-06-30,05:00,Wimbledon,2600,WTA,,,35838,155952,16397362,6,173,196,,,notstarted,,64
-Jasmine Paolini,Robin Montgomery,2026-06-30,05:00,Wimbledon,2600,WTA,,,69208,297368,16397369,6,17,195,,,notstarted,,64
-Katie Boulter,Tyra Caterina Grant,2026-06-30,05:00,Wimbledon,2600,WTA,,,62924,460330,16397354,6,60,172,,,notstarted,,64
-Kayla Day,Madison Keys,2026-06-30,05:00,Wimbledon,2600,WTA,,,137962,35424,16397361,6,137,22,,,notstarted,,64
-Maria Sakkari,Clara Tauson,2026-06-30,05:00,Wimbledon,2600,WTA,,,65950,252168,16397202,6,43,25,,,notstarted,,64
-Petra Marčinko,Sofia Kenin,2026-06-30,05:00,Wimbledon,2600,WTA,,,381052,91960,16397363,6,47,105,,,notstarted,,64
-Talia Gibson,Marie Bouzkova,2026-06-30,05:00,Wimbledon,2600,WTA,,,308088,105463,16397353,6,58,23,,,notstarted,,64
-Tereza Valentová,Karolína Plíšková,2026-06-30,05:00,Wimbledon,2600,WTA,,,381430,20732,16397203,6,54,73,,,notstarted,,64
-Alex Michelsen,Jacob Fearnley,2026-06-30,06:10,Wimbledon,2361,ATP,,,406728,275948,16397379,3,42,152,,,notstarted,,64
-Alex de Minaur,Roman Andres Burruchaga,2026-06-30,06:10,Wimbledon,2361,ATP,,,201239,287181,16397405,3,6,66,,,notstarted,,64
-Damir Džumhur,Arthur Fery,2026-06-30,06:10,Wimbledon,2361,ATP,,,49172,321789,16397391,3,104,118,,,notstarted,,64
-Karen Khachanov,Billy Harris,2026-06-30,06:10,Wimbledon,2361,ATP,,,90080,111837,16397401,3,22,140,,,notstarted,,64
-Kyrian Jacquet,Vilius Gaubas,2026-06-30,06:10,Wimbledon,2361,ATP,,,267577,322022,16397383,3,136,129,,,notstarted,,64
-Matteo Arnaldi,Quentin Halys,2026-06-30,06:10,Wimbledon,2361,ATP,,,299538,90798,16397377,3,35,101,,,notstarted,,64
-Mattia Bellucci,Zachary Svajda,2026-06-30,06:10,Wimbledon,2361,ATP,,,294337,298247,16397403,3,65,69,,,notstarted,,64
-Otto Virtanen,Ben Shelton,2026-06-30,06:10,Wimbledon,2361,ATP,,,229218,385485,16397390,3,137,5,,,notstarted,,64
-Thanasi Kokkinakis,Alexander Bublik,2026-06-30,06:10,Wimbledon,2361,ATP,,,71280,163480,16397382,3,492,11,,,notstarted,,64
-Benjamin Bonzi,Gabriel Diallo,2026-06-30,06:40,Wimbledon,2361,ATP,,,94485,280151,16397387,3,93,91,,,notstarted,,64
-Jaume Munar,Francisco Cerundolo,2026-06-30,06:40,Wimbledon,2361,ATP,,,126356,221012,16397378,3,44,21,,,notstarted,,64
-Beatriz Haddad Maia,Maria Timofeeva,2026-06-30,06:40,Wimbledon,2600,WTA,,,59702,293867,16397351,6,134,95,,,notstarted,,64
-Iryna Shymanovich,Viktorija Golubić,2026-06-30,06:40,Wimbledon,2600,WTA,,,92879,48455,16397368,6,215,62,,,notstarted,,64
-Kimberly Birrell,Alina Korneeva,2026-06-30,06:40,Wimbledon,2600,WTA,,,105099,396293,16397359,6,72,98,,,notstarted,,64
-Alexander Blockx,Alexander Zverev,2026-06-30,07:00,Wimbledon,2361,ATP,,,390214,57163,16397374,3,37,3,,,notstarted,,64
-Ugo Humbert,Zizou Bergs,2026-06-30,07:00,Wimbledon,2361,ATP,,,185388,170946,16397393,3,30,48,,,notstarted,,64
-Taylor Townsend,Iga Swiatek,2026-06-30,07:30,Wimbledon,2600,WTA,,,51387,228272,16397366,6,79,3,,,notstarted,,64
-Corentin Moutet,Marcos Giron,2026-06-30,07:50,Wimbledon,2361,ATP,,,175014,42379,16397376,3,36,86,,,notstarted,,64
-Dane Sweeny,Grigor Dimitrov,2026-06-30,07:50,Wimbledon,2361,ATP,,,233126,23581,16397396,3,126,164,,,notstarted,,64
-Jakub Menšik,Toby Samuel,2026-06-30,07:50,Wimbledon,2361,ATP,,,372312,321791,16397397,3,17,142,,,notstarted,,64
-Lorenzo Sonego,Tomas Martin Etcheverry,2026-06-30,07:50,Wimbledon,2361,ATP,,,104847,169496,16397386,3,72,32,,,notstarted,,64
-Patrick Kypson,Mackenzie McDonald,2026-06-30,07:50,Wimbledon,2361,ATP,,,210490,63438,16397388,3,114,144,,,notstarted,,64
-Raphael Collignon,Arthur Fils,2026-06-30,07:50,Wimbledon,2361,ATP,,,355525,338500,16397394,3,43,23,,,notstarted,,64
-Alexandra Eala,Renata Zarazua,2026-06-30,07:50,Wimbledon,2600,WTA,,,327924,111189,16397201,6,32,75,,,notstarted,,64
-Elina Svitolina,Daria Snigur,2026-06-30,07:50,Wimbledon,2600,WTA,,,51293,267148,16397199,6,8,77,,,notstarted,,64
-Emma Navarro,Paula Badosa,2026-06-30,07:50,Wimbledon,2600,WTA,,,207979,69050,16397373,6,26,141,,,notstarted,,64
-Oksana Selekhmeteva,Sinja Kraus,2026-06-30,07:50,Wimbledon,2600,WTA,,,287804,246159,16397372,6,91,93,,,notstarted,,64
-Veronika Erjavec,Leolia Jeanjean,2026-06-30,07:50,Wimbledon,2600,WTA,,,263653,112957,16397198,6,89,132,,,notstarted,,64
-Yuliia Starodubtseva,Anna Blinkova,2026-06-30,07:50,Wimbledon,2600,WTA,,,206617,189995,16397371,6,55,114,,,notstarted,,64
-Elena-Gabriela Ruse,Catherine McNally,2026-06-30,08:20,Wimbledon,2600,WTA,,,103901,220592,16397350,6,71,50,,,notstarted,,64
-Elise Mertens,Laura Siegemund,2026-06-30,08:20,Wimbledon,2600,WTA,,,78551,37508,16397352,6,27,40,,,notstarted,,64
-Taylor Fritz,Jack Draper,2026-06-30,08:40,Wimbledon,2361,ATP,,,136042,258749,16397389,3,7,160,,,notstarted,,64
-Lois Boisson,Elena Rybakina,2026-06-30,08:40,Wimbledon,2600,WTA,,,293708,186312,16397204,6,154,2,,,notstarted,,64
-Sorana Cirstea,Sara Bejlek,2026-06-30,08:40,Wimbledon,2600,WTA,,,19728,360184,16397360,6,18,45,,,notstarted,,64
-Blake Ellis,Philip Sekulic,2026-06-30,09:00,"Cary, USA",6636,Challenger,,,119140,299481,16402328,72,502,324,,,notstarted,,6
-Fajing Sun,Braden Shick,2026-06-30,09:00,"Cary, USA",6636,Challenger,,,163438,385591,16402322,72,261,330,,,notstarted,,6
-Rei Sakamoto,Jules Leroux,2026-06-30,09:00,"Cary, USA",6636,Challenger,,,413296,417195,16402308,72,148,,,,notstarted,,6
-Rio Noguchi,Alex Martinez,2026-06-30,09:00,"Cary, USA",6636,Challenger,,,217464,276766,16402323,72,214,317,,,notstarted,,6
-Timo Legout,Blaise Bicknell,2026-06-30,09:00,"Cary, USA",6636,Challenger,,,318572,303122,16402329,72,959,318,,,notstarted,,6
-Tung-Lin Wu,Bernard Tomić,2026-06-30,09:00,"Cary, USA",6636,Challenger,,,163996,17080,16402309,72,346,189,,,notstarted,,6
-Andrew Fenty,Masamichi Imamura,2026-06-30,09:00,"Cary, USA",6636,Challenger,,,258983,197935,16405862,72,383,431,,,notstarted,,250
-Dhakshineswar Suresh,Samir Banerjee,2026-06-30,09:00,"Cary, USA",6636,Challenger,,,231728,320820,16406721,72,477,416,,,notstarted,,250
-Justin Boulais,Jay Friend,2026-06-30,09:00,"Cary, USA",6636,Challenger,,,263674,393595,16406328,72,387,404,,,notstarted,,250
-Diego Dedura-Palomero,Miguel Damas,2026-06-30,09:00,"Milano, Italy",3453,Challenger,,,484219,192862,16402089,72,262,271,,,notstarted,,6
-Jesper De Jong,Rinky Hijikata,2026-06-30,09:00,Wimbledon,2361,ATP,,,244420,237452,16397290,3,74,83,,,notstarted,,64
-Alex Molčan,Daniel Altmaier,2026-06-30,09:00,Wimbledon,2361,ATP,,,145130,127208,16397380,3,102,59,,,notstarted,,64
-Frances Tiafoe,Terence Atmane,2026-06-30,09:00,Wimbledon,2361,ATP,,,101101,273679,16397385,3,19,50,,,notstarted,,64
-Mariano Navone,Flavio Cobolli,2026-06-30,09:00,Wimbledon,2361,ATP,,,271389,273680,16397398,3,38,10,,,notstarted,,64
-Tallon Griekspoor,James Duckworth,2026-06-30,09:00,Wimbledon,2361,ATP,,,122368,39711,16397399,3,39,78,,,notstarted,,64
-Vit Kopřiva,Jan Choinski,2026-06-30,09:00,Wimbledon,2361,ATP,,,199395,105607,16397384,3,68,106,,,notstarted,,64
-Aryna Sabalenka,Teodora Kostović,2026-06-30,09:10,Wimbledon,2600,WTA,,,157754,478940,16397349,6,1,184,,,notstarted,,64
-Anastasia Gasanova,Emiliana Arango,2026-06-30,09:30,Wimbledon,2600,WTA,,,130624,198197,16397331,6,225,97,,,notstarted,,64
-Dayana Yastremska,Aoi Ito,2026-06-30,09:30,Wimbledon,2600,WTA,,,189986,297194,16397337,6,67,228,,,notstarted,,64
-Ekaterina Alexandrova,Panna Udvardy,2026-06-30,09:30,Wimbledon,2600,WTA,,,67759,218347,16397335,6,19,69,,,notstarted,,64
-Jessica Bouzas Maneiro,Anastasia Potapova,2026-06-30,09:30,Wimbledon,2600,WTA,,,275105,210831,16397336,6,52,28,,,notstarted,,64
-Leylah Fernandez,Janice Tjen,2026-06-30,09:30,Wimbledon,2600,WTA,,,250279,291733,16397344,6,24,42,,,notstarted,,64
-Solana Sierra,Anna Bondar,2026-06-30,09:30,Wimbledon,2600,WTA,,,298913,150574,16397323,6,56,74,,,notstarted,,64
-Ajla Tomljanović,Mariam Bolkvadze,2026-06-30,09:30,Wimbledon,2600,WTA,,,34486,100341,16397197,6,94,545,,,notstarted,,64
-Camila Osorio,Simona Waltert,2026-06-30,09:30,Wimbledon,2600,WTA,,,213943,215166,16397358,6,68,90,,,notstarted,,64
-Diana Shnaider,Eva Lys,2026-06-30,09:30,Wimbledon,2600,WTA,,,318575,215773,16397356,6,15,76,,,notstarted,,64
-Ella Seidel,Linda Noskova,2026-06-30,09:30,Wimbledon,2600,WTA,,,371932,274049,16397357,6,100,12,,,notstarted,,64
-Polina Kudermetova,Liudmila Samsonova,2026-06-30,09:30,Wimbledon,2600,WTA,,,293868,128584,16397355,6,113,41,,,notstarted,,64
-Brandon Nakashima,Jack Pinnington Jones,2026-06-30,09:40,Wimbledon,2361,ATP,,,235576,321790,16397297,3,31,145,,,notstarted,,64
-Katerina Siniakova,Qinwen Zheng,2026-06-30,09:50,Wimbledon,2600,WTA,,,72376,257784,16397345,6,36,138,,,notstarted,,64
-Magda Linette,Mirra Andreeva,2026-06-30,09:50,Wimbledon,2600,WTA,,,42289,406776,16397341,6,59,5,,,notstarted,,64
-Jiri Lehečka,Alexei Popyrin,2026-06-30,09:50,Wimbledon,2361,ATP,,,254742,128552,16397381,3,14,100,,,notstarted,,64
-Stan Wawrinka,Matteo Berrettini,2026-06-30,09:50,Wimbledon,2361,ATP,,,14548,112783,16397395,3,110,49,,,notstarted,,64
-Felipe Meligeni Alves,Fermin Tenti,2026-06-30,10:00,"Quito, Ecuador Men Singles",3613,Challenger,,,158748,221015,16405917,72,806,989,,,notstarted,,250
-Gustavo Ribeiro de Almeida,Lucas Yunez,2026-06-30,10:00,"Quito, Ecuador Men Singles",3613,Challenger,,,407629,935291,16405919,72,743,,,,notstarted,,250
-Juan Sebastian Osorio,Alejandro Hayen,2026-06-30,10:00,"Quito, Ecuador Men Singles",3613,Challenger,,,135032,221020,16405918,72,826,1100,,,notstarted,,250
-Bruno Fernandez,Rodrigo Pacheco Mendez,2026-06-30,10:00,"Quito, Ecuador Men Singles",3613,Challenger,,,393631,386107,16402990,72,614,341,,,notstarted,,6
-Facundo Mena,Valerio Aboian,2026-06-30,10:00,"Quito, Ecuador Men Singles",3613,Challenger,,,38180,297139,16402991,72,353,464,,,notstarted,,6
-Hernan Casanova,Mario Andre Galarraga,2026-06-30,10:00,"Quito, Ecuador Men Singles",3613,Challenger,,,54975,392702,16402989,72,406,,,,notstarted,,6
-Johan Alexander Rodriguez Rodriguez,Matheus Pucinelli de Almeida,2026-06-30,10:00,"Quito, Ecuador Men Singles",3613,Challenger,,,315057,264978,16402992,72,546,409,,,notstarted,,6
-Juan Manuel La Serna,Alex Hernandez,2026-06-30,10:00,"Quito, Ecuador Men Singles",3613,Challenger,,,379442,258977,16402997,72,298,422,,,notstarted,,6
-Juan Sebastian Gomez,Ignacio Monzon,2026-06-30,10:00,"Quito, Ecuador Men Singles",3613,Challenger,,,25726,107483,16402996,72,559,695,,,notstarted,,6
-Pedro Sakamoto,Alan Magadan,2026-06-30,10:00,"Quito, Ecuador Men Singles",3613,Challenger,,,65576,272535,16402994,72,496,627,,,notstarted,,6
-Hiroki Moriya,Edward Winter,2026-06-30,10:10,"Cary, USA",6636,Challenger,,,32466,338420,16406089,72,490,432,,,notstarted,,250
-Ozan Baris,James Trotter,2026-06-30,10:10,"Cary, USA",6636,Challenger,,,335630,255993,16406940,72,708,420,,,notstarted,,250
-Yuta Shimizu,Trevor Svajda,2026-06-30,10:10,"Cary, USA",6636,Challenger,,,217136,417424,16405864,72,357,470,,,notstarted,,250
-Francesca Jones,Diane Parry,2026-06-30,10:10,Wimbledon,2600,WTA,,,193290,247791,16397328,6,106,49,,,notstarted,,64
-Magdalena Frech,Anna Kalinskaya,2026-06-30,10:10,Wimbledon,2600,WTA,,,71250,179146,16397327,6,44,20,,,notstarted,,64
-Yibing Wu,Novak Djokovic,2026-06-30,10:20,Wimbledon,2361,ATP,,,194186,14882,16397289,3,99,8,,,notstarted,,64
-Serena Williams,Maya Joint,2026-06-30,10:20,Wimbledon,2600,WTA,,,18254,376006,16397200,6,,87,,,notstarted,,64
-Barbora Krejčiková,Hannah Klugman,2026-06-30,10:30,Wimbledon,2600,WTA,,,60398,420872,16397342,6,38,416,,,notstarted,,64
-Tamara Korpatsch,Coco Gauff,2026-06-30,10:30,Wimbledon,2600,WTA,,,69988,264983,16397322,6,78,7,,,notstarted,,64
-Ashlyn Krueger,Donna Vekić,2026-06-30,11:00,Wimbledon,2600,WTA,,,311012,50641,16397196,6,102,34,,,notstarted,,64
-Nadia Podoroska,Marta Kostyuk,2026-06-30,11:00,Wimbledon,2600,WTA,,,60276,230056,16397370,6,574,13,,,notstarted,,64
-Lucas Andrade Da Silva,Federico Zeballos,2026-06-30,11:10,"Quito, Ecuador Men Singles",3613,Challenger,,,487313,37637,16406576,72,885,1343,,,notstarted,,250
-Martin Maldonado,Segundo Goity Zapico,2026-06-30,11:10,"Quito, Ecuador Men Singles",3613,Challenger,,,329562,379454,16406059,72,,1185,,,notstarted,,250
-Tomas Martinez,Mauricio Echazu,2026-06-30,11:10,"Quito, Ecuador Men Singles",3613,Challenger,,,379453,17037,16406391,72,895,,,,notstarted,,250
-Felipe Rivadeneira,Luis Carlos Alvarez Valdes,2026-06-30,12:20,"Quito, Ecuador Men Singles",3613,Challenger,,,388402,406660,16402988,72,,,,,notstarted,,6
-Juan Pablo Varillas,Dmitry Popko,2026-06-30,12:20,"Quito, Ecuador Men Singles",3613,Challenger,,,72248,50901,16402995,72,309,675,,,notstarted,,6
-Mwendwa Mbithi,Matias Soto,2026-06-30,12:20,"Quito, Ecuador Men Singles",3613,Challenger,,,187215,241039,16402987,72,808,300,,,notstarted,,6
-Angel Veliz,Daniel Antonio Nunez,2026-06-30,13:30,"Quito, Ecuador Men Singles",3613,Challenger,,,935290,305134,16402993,72,1485,668,,,notstarted,,6
-Daniil Glinka,Aidan Mayo,2026-06-30,16:00,"Cary, USA",6636,Challenger,,,210033,309157,16402327,72,171,547,,,notstarted,,6
-Jack Kennedy,Kaichi Uchida,2026-06-30,16:00,"Cary, USA",6636,Challenger,,,522293,82579,16402325,72,414,255,,,notstarted,,6
-Yosuke Watanuki,Andre Ilagan,2026-06-30,16:00,"Cary, USA",6636,Challenger,,,157302,244985,16402324,72,288,258,,,notstarted,,6
-Giles Hussey,William Manning,2026-06-30,17:10,"Cary, USA",6636,Challenger,,,289173,496091,16402307,72,293,,,,notstarted,,6
-Liam Broady,Hayato Matsuoka,2026-06-30,17:10,"Cary, USA",6636,Challenger,,,47764,420914,16402326,72,210,347,,,notstarted,,6
+Blake Ellis,Philip Sekulic,2026-07-01,09:00,"Cary, USA",6636,Challenger,,,119140,299481,16402328,72,502,324,,,notstarted,,6
+Fajing Sun,Braden Shick,2026-07-01,09:00,"Cary, USA",6636,Challenger,,,163438,385591,16402322,72,261,330,,,notstarted,,6
+Rei Sakamoto,Jules Leroux,2026-07-01,09:00,"Cary, USA",6636,Challenger,,,413296,417195,16402308,72,148,,,,notstarted,,6
+Rio Noguchi,Alex Martinez,2026-07-01,09:00,"Cary, USA",6636,Challenger,,,217464,276766,16402323,72,214,317,,,notstarted,,6
+Timo Legout,Blaise Bicknell,2026-07-01,09:00,"Cary, USA",6636,Challenger,,,318572,303122,16402329,72,959,318,,,notstarted,,6
+Tung-Lin Wu,Bernard Tomić,2026-07-01,09:00,"Cary, USA",6636,Challenger,,,163996,17080,16402309,72,346,189,,,notstarted,,6
+Alex Molčan,Daniel Altmaier,2026-07-01,09:00,Wimbledon,2361,ATP,,,145130,127208,16397380,3,102,59,,,notstarted,,64
+Frances Tiafoe,Terence Atmane,2026-07-01,09:00,Wimbledon,2361,ATP,,,101101,273679,16397385,3,19,50,,,notstarted,,64
+Mariano Navone,Flavio Cobolli,2026-07-01,09:00,Wimbledon,2361,ATP,,,271389,273680,16397398,3,38,10,,,notstarted,,64
+Tallon Griekspoor,James Duckworth,2026-07-01,09:00,Wimbledon,2361,ATP,,,122368,39711,16397399,3,39,78,,,notstarted,,64
+Vit Kopřiva,Jan Choinski,2026-07-01,09:00,Wimbledon,2361,ATP,,,199395,105607,16397384,3,68,106,,,notstarted,,64
+Ajla Tomljanović,Mariam Bolkvadze,2026-07-01,09:30,Wimbledon,2600,WTA,,,34486,100341,16397197,6,98,539,,,notstarted,,64
+Camila Osorio,Simona Waltert,2026-07-01,09:30,Wimbledon,2600,WTA,,,213943,215166,16397358,6,69,88,,,notstarted,,64
+Diana Shnaider,Eva Lys,2026-07-01,09:30,Wimbledon,2600,WTA,,,318575,215773,16397356,6,16,77,,,notstarted,,64
+Ella Seidel,Linda Noskova,2026-07-01,09:30,Wimbledon,2600,WTA,,,371932,274049,16397357,6,97,10,,,notstarted,,64
+Polina Kudermetova,Liudmila Samsonova,2026-07-01,09:30,Wimbledon,2600,WTA,,,293868,128584,16397355,6,116,42,,,notstarted,,64
+Jiri Lehečka,Alexei Popyrin,2026-07-01,09:50,Wimbledon,2361,ATP,,,254742,128552,16397381,3,14,100,,,notstarted,,64
+Stan Wawrinka,Matteo Berrettini,2026-07-01,09:50,Wimbledon,2361,ATP,,,14548,112783,16397395,3,110,49,,,notstarted,,64
+Bruno Fernandez,Rodrigo Pacheco Mendez,2026-07-01,10:00,"Quito, Ecuador Men Singles",3613,Challenger,,,393631,386107,16402990,72,614,341,,,notstarted,,6
+Facundo Mena,Valerio Aboian,2026-07-01,10:00,"Quito, Ecuador Men Singles",3613,Challenger,,,38180,297139,16402991,72,353,464,,,notstarted,,6
+Hernan Casanova,Mario Andre Galarraga,2026-07-01,10:00,"Quito, Ecuador Men Singles",3613,Challenger,,,54975,392702,16402989,72,406,,,,notstarted,,6
+Johan Alexander Rodriguez Rodriguez,Matheus Pucinelli de Almeida,2026-07-01,10:00,"Quito, Ecuador Men Singles",3613,Challenger,,,315057,264978,16402992,72,546,409,,,notstarted,,6
+Juan Manuel La Serna,Alex Hernandez,2026-07-01,10:00,"Quito, Ecuador Men Singles",3613,Challenger,,,379442,258977,16402997,72,298,422,,,notstarted,,6
+Juan Sebastian Gomez,Ignacio Monzon,2026-07-01,10:00,"Quito, Ecuador Men Singles",3613,Challenger,,,25726,107483,16402996,72,559,695,,,notstarted,,6
+Pedro Sakamoto,Alan Magadan,2026-07-01,10:00,"Quito, Ecuador Men Singles",3613,Challenger,,,65576,272535,16402994,72,496,627,,,notstarted,,6
+Serena Williams,Maya Joint,2026-07-01,10:20,Wimbledon,2600,WTA,,,18254,376006,16397200,6,,53,,,notstarted,,64
+Ashlyn Krueger,Donna Vekić,2026-07-01,11:00,Wimbledon,2600,WTA,,,311012,50641,16397196,6,96,33,,,notstarted,,64
+Nadia Podoroska,Marta Kostyuk,2026-07-01,11:00,Wimbledon,2600,WTA,,,60276,230056,16397370,6,594,13,,,notstarted,,64
