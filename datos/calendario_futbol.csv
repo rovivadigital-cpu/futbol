@@ -52,6 +52,25 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15617680,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-06-30,18:30,Unknown,12,49196,Botafogo-PB,21884,Brusque,,,notstarted,1782862200,2026-06-29
 15617690,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-06-30,18:30,Unknown,12,6982,Volta Redonda,336664,Amazonas FC,,,notstarted,1782862200,2026-06-29
 12813001,World,"FIFA World Cup, Knockout",16,"FIFA World Cup, Knockout",,2026-06-30,20:00,Unknown,6,4781,Mexico,4757,Ecuador,,,notstarted,1782867600,2026-06-29
+15472527,Latvia,Virsliga,197,Virsliga,,2026-07-01,10:00,Unknown,21,36080,FK Tukums 2000,282126,SK Super Nova,,,notstarted,1782918000,2026-06-30
+12813020,World,"World Championship, Knockout",16,"World Championship, Knockout",,2026-07-01,11:00,Unknown,6,4713,England,4823,DR Congo,,,notstarted,1782921600,2026-06-30
+15502832,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-07-01,12:00,Unknown,1,313716,Forge FC,463097,Vancouver FC,,,notstarted,1782925200,2026-06-30
+15502833,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-07-01,15:00,Unknown,1,309892,HFX Wanderers FC,342076,Atlético Ottawa,,,notstarted,1782936000,2026-06-30
+15502581,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-01,15:00,Unknown,17,5249,Aucas,188850,Guayaquil City,,,postponed,1782936000,2026-06-30
+15502586,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-01,15:00,Unknown,17,5250,Barcelona SC Guayaquil,5251,Deportivo Cuenca,,,postponed,1782936000,2026-06-30
+15502585,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-01,15:00,Unknown,17,39723,Independiente del Valle,33561,Manta FC,,,postponed,1782936000,2026-06-30
+15502587,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-01,15:00,Unknown,17,394127,Libertad,388234,Leones del Norte,,,postponed,1782936000,2026-06-30
+15502582,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-01,15:00,Unknown,17,6001,Macará,5257,LDU,,,postponed,1782936000,2026-06-30
+15502583,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-01,15:00,Unknown,17,277525,Orense SC,21941,Técnico Universitario,,,postponed,1782936000,2026-06-30
+15502584,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-01,15:00,Unknown,17,21942,Universidad Católica del Ecuador,134976,Mushuc Runa SC,,,postponed,1782936000,2026-06-30
+12813013,World,"World Championship, Knockout",16,"World Championship, Knockout",,2026-07-01,15:00,Unknown,6,4717,Belgium,4739,Senegal,,,notstarted,1782936000,2026-06-30
+15285484,USA,"USL, League One",13362,"USL, League One",,2026-07-01,16:30,Unknown,,197072,Charlotte Independence,284113,Corpus Christi FC,,,notstarted,1782941400,2026-06-30
+16410763,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-01,17:00,Unknown,16,5257,LDU,277525,Orense SC,,,notstarted,1782943200,2026-06-30
+15285480,USA,"USL, League One",13362,"USL, League One",,2026-07-01,18:00,Unknown,,312631,Chattanooga Red Wolves SC,1044342,Westchester SC,,,notstarted,1782946800,2026-06-30
+15502580,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-01,19:00,Unknown,17,213638,Delfín,5255,Emelec,,,notstarted,1782950400,2026-06-30
+12812992,World,"World Championship, Knockout",16,"World Championship, Knockout",,2026-07-01,19:00,Unknown,6,4724,USA,4479,Bosnia & Herzegovina,,,notstarted,1782950400,2026-06-30
+15285482,USA,"USL, League One",13362,"USL, League One",,2026-07-01,21:00,Unknown,,502354,Spokane Velocity FC,312632,Forward Madison FC,,,notstarted,1782957600,2026-06-30
+15285483,USA,"USL, League One",13362,"USL, League One",,2026-07-01,21:30,Unknown,,338006,Union Omaha SC,1044343,AV Alta FC,,,notstarted,1782959400,2026-06-30
 16273160,Lithuania,TOPLYGA,198,TOPLYGA,,2026-06-29,10:45,Unknown,19,192763,FK Panevėžys,5343,FK Sūduva Marijampolė,1,1,inprogress,1782747900,2026-06-29
 12813012,World,"World Championship, Knockout",16,"World Championship, Knockout",,2026-06-29,12:00,Unknown,6,4748,Brazil,4770,Japan,0,1,inprogress,1782752400,2026-06-29
 15657412,New Zealand,Southern League,594,Southern League,,2026-06-27,19:45,Unknown,12,389659,Dunedin City Royals FC,378874,Nelson Suburbs FC,0,4,inprogress,1782607500,2026-06-27
