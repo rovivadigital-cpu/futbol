@@ -1,50 +1,5 @@
 Jugador_Local,Jugador_Visitante,Fecha,Hora_Aprox,Torneo,Torneo_ID_Sofascore,Categoria,Superficie,Ronda,Jugador_Local_ID_Sofascore,Jugador_Visitante_ID_Sofascore,Event_ID_Sofascore,Category_ID,Ranking_Local,Ranking_Visitante,Seed_Local,Seed_Visitante,Estado,Pais_Torneo,Numero_Ronda
-Olle Wallin,Frederico Ferreira Silva,2026-07-02,02:30,"Brasov, Romania",3436,Challenger,Clay,Round of 16,325223,66484,16383645,72,447,231,,,notstarted,,5
-Stefan Palosi,Zsombor Piros,2026-07-02,02:30,"Brasov, Romania",3436,Challenger,Clay,Round of 16,231562,205795,16383646,72,411,169,,,notstarted,,5
-Luka Pavlović,Dimitar Kuzmanov,2026-07-02,02:30,"Brasov, Romania",3436,Challenger,Clay,Round of 16,224534,51009,16383643,72,217,427,,,notstarted,,5
-Elmer Moller,Pierluigi Basile,2026-07-02,03:00,"Milano, Italy",3453,Challenger,Clay,Round of 16,499834,524820,16383687,72,147,839,,,notstarted,,5
-Facundo Diaz Acosta,Daniele Rapagnetta,2026-07-02,03:00,"Milano, Italy",3453,Challenger,Clay,Round of 16,264372,453479,16383691,72,120,895,,,notstarted,,5
-Juan Cruz Martin Manzano,David Jorda Sanchis,2026-07-02,03:00,"Milano, Italy",3453,Challenger,Clay,Round of 16,418785,57155,16383688,72,494,184,,,notstarted,,5
-Marco Cecchinato,Raul Brancaccio,2026-07-02,03:00,"Milano, Italy",3453,Challenger,Clay,Round of 16,44549,201847,16383681,72,195,248,,,notstarted,,5
-Eliakim Coulibaly,Alexander Vasilev,2026-07-02,03:00,"Troyes, France",18661,Challenger,Clay,Round of 16,321948,420967,16383755,72,314,592,,,notstarted,,5
-Kilian Feldbausch,Ioannis Xilas,2026-07-02,03:00,"Troyes, France",18661,Challenger,Clay,Round of 16,377489,317445,16383762,72,288,362,,,notstarted,,5
-Maxime Chazal,Inaki Montes-de la Torre,2026-07-02,03:00,"Troyes, France",18661,Challenger,Clay,Round of 16,17065,290568,16383764,72,488,269,,,notstarted,,5
-Carlo Alberto Caniato,Calvin Hemery,2026-07-02,03:00,"Troyes, France",18661,Challenger,Clay,Round of 16,403167,81271,16383759,72,380,291,,,notstarted,,5
-Alex de Minaur,Adrian Mannarino,2026-07-02,05:00,Wimbledon,2361,ATP,Grass,Round of 64,201239,15894,16385358,3,6,40,,,notstarted,,32
-Arthur Fery,Otto Virtanen,2026-07-02,05:00,Wimbledon,2361,ATP,Grass,Round of 64,321789,229218,16385320,3,114,140,,,notstarted,,32
-Jacob Fearnley,Jaume Munar,2026-07-02,05:00,Wimbledon,2361,ATP,Grass,Round of 64,275948,126356,16385313,3,159,44,,,notstarted,,32
-Karen Khachanov,Yannick Hanfmann,2026-07-02,05:00,Wimbledon,2361,ATP,Grass,Round of 64,90080,47975,16385337,3,22,56,,,notstarted,,32
-Kyrian Jacquet,Alexander Bublik,2026-07-02,05:00,Wimbledon,2361,ATP,Grass,Round of 64,267577,163480,16385319,3,139,11,,,notstarted,,32
-Taylor Fritz,Patrick Kypson,2026-07-02,05:00,Wimbledon,2361,ATP,Grass,Round of 64,136042,210490,16385323,3,7,113,,,notstarted,,32
-Zachary Svajda,Kamil Majchrzak,2026-07-02,05:00,Wimbledon,2361,ATP,Grass,Round of 64,298247,108709,16385339,3,66,45,,,notstarted,,32
-Zizou Bergs,Jaime Faria,2026-07-02,05:00,Wimbledon,2361,ATP,Grass,Round of 64,170946,341818,16385317,3,37,98,,,notstarted,,32
-Amanda Anisimova,Sofia Kenin,2026-07-02,05:00,Wimbledon,2600,WTA,Grass,Round of 64,230628,91960,16385445,6,6,105,,,notstarted,,32
-Catherine McNally,Elena Rybakina,2026-07-02,05:00,Wimbledon,2600,WTA,Grass,Round of 64,220592,186312,16385437,6,50,2,,,notstarted,,32
-Daria Snigur,Leolia Jeanjean,2026-07-02,05:00,Wimbledon,2600,WTA,Grass,Round of 64,267148,112957,16385427,6,77,132,,,notstarted,,32
-Elise Mertens,Maria Timofeeva,2026-07-02,05:00,Wimbledon,2600,WTA,Grass,Round of 64,78551,293867,16385441,6,27,95,,,notstarted,,32
-Emma Navarro,Oksana Selekhmeteva,2026-07-02,05:00,Wimbledon,2600,WTA,Grass,Round of 64,207979,287804,16385419,6,26,91,,,notstarted,,32
-Jasmine Paolini,Viktorija Golubić,2026-07-02,05:00,Wimbledon,2600,WTA,Grass,Round of 64,69208,48455,16385417,6,17,62,,,notstarted,,32
-Kamilla Rakhimova,Maria Sakkari,2026-07-02,05:00,Wimbledon,2600,WTA,Grass,Round of 64,217828,65950,16385415,6,70,43,,,notstarted,,32
-Karolína Plíšková,Iga Swiatek,2026-07-02,05:00,Wimbledon,2600,WTA,Grass,Round of 64,20732,228272,16385447,6,73,3,,,notstarted,,32
-Katie Swan,Madison Keys,2026-07-02,05:00,Wimbledon,2600,WTA,Grass,Round of 64,155952,35424,16385448,6,196,22,,,notstarted,,32
-Tyra Caterina Grant,Marie Bouzkova,2026-07-02,05:00,Wimbledon,2600,WTA,Grass,Round of 64,460330,105463,16385444,6,172,23,,,notstarted,,32
-Gabriel Diallo,Lorenzo Sonego,2026-07-02,05:00,Wimbledon,2361,ATP,Grass,Round of 64,280151,104847,16385315,3,88,69,,,notstarted,,32
-Jakub Menšik,Grigor Dimitrov,2026-07-02,05:00,Wimbledon,2361,ATP,Grass,Round of 64,372312,23581,16385357,3,18,146,,,notstarted,,32
-Matteo Berrettini,Arthur Fils,2026-07-02,05:00,Wimbledon,2361,ATP,Grass,Round of 64,112783,338500,16385318,3,51,24,,,notstarted,,32
-Quentin Halys,Marcos Giron,2026-07-02,05:00,Wimbledon,2361,ATP,Grass,Round of 64,90798,42379,16385311,3,95,92,,,notstarted,,32
-Valentin Royer,Alexander Zverev,2026-07-02,05:00,Wimbledon,2361,ATP,Grass,Round of 64,255449,57163,16385314,3,75,3,,,notstarted,,32
-Alexandra Eala,Maya Joint,2026-07-02,05:00,Wimbledon,2600,WTA,Grass,Round of 64,327924,376006,16385446,6,32,87,,,notstarted,,32
-Anna Blinkova,Marta Kostyuk,2026-07-02,05:00,Wimbledon,2600,WTA,Grass,Round of 64,189995,230056,16385428,6,114,13,,,notstarted,,32
-Camila Osorio,Linda Noskova,2026-07-02,05:00,Wimbledon,2600,WTA,Grass,Round of 64,213943,274049,16385443,6,68,12,,,notstarted,,32
-Diana Shnaider,Liudmila Samsonova,2026-07-02,05:00,Wimbledon,2600,WTA,Grass,Round of 64,318575,128584,16385442,6,15,41,,,notstarted,,32
-Mariam Bolkvadze,Ashlyn Krueger,2026-07-02,05:00,Wimbledon,2600,WTA,Grass,Round of 64,100341,311012,16385426,6,545,102,,,notstarted,,32
-Sorana Cirstea,Kimberly Birrell,2026-07-02,05:00,Wimbledon,2600,WTA,Grass,Round of 64,19728,105099,16385440,6,18,72,,,notstarted,,32
-Daniil Glinka,Edward Winter,2026-07-02,09:10,"Cary, USA",6636,Challenger,Hard,Round of 16,210033,338420,16383664,72,168,434,,,notstarted,,5
-Daniel Antonio Nunez,Matheus Pucinelli de Almeida,2026-07-02,10:00,"Quito, Ecuador Men Singles",3613,Challenger,Clay,Round of 16,305134,264978,16383735,72,689,397,,,notstarted,,5
-Juan Manuel La Serna,Ignacio Monzon,2026-07-02,10:00,"Quito, Ecuador Men Singles",3613,Challenger,Clay,Round of 16,379442,107483,16383743,72,287,693,,,notstarted,,5
-Juan Pablo Varillas,Alan Magadan,2026-07-02,10:00,"Quito, Ecuador Men Singles",3613,Challenger,Clay,Round of 16,72248,272535,16383737,72,308,632,,,notstarted,,5
-Juan Sebastian Osorio,Matias Soto,2026-07-02,10:00,"Quito, Ecuador Men Singles",3613,Challenger,Clay,Round of 16,135032,241039,16383733,72,840,296,,,notstarted,,5
-Valerio Aboian,Felipe Meligeni Alves,2026-07-02,10:00,"Quito, Ecuador Men Singles",3613,Challenger,Clay,Round of 16,297139,158748,16383746,72,442,807,,,notstarted,,5
-Samuel Heredia,Eduardo Ribeiro,2026-07-02,10:00,"Quito, Ecuador Men Singles",3613,Challenger,Clay,Round of 16,400534,199488,16383734,72,727,375,,,notstarted,,5
-Segundo Goity Zapico,Rodrigo Pacheco Mendez,2026-07-02,10:00,"Quito, Ecuador Men Singles",3613,Challenger,Clay,Round of 16,379454,386107,16383741,72,1183,338,,,notstarted,,5
-Hernan Casanova,Luis Carlos Alvarez Valdes,2026-07-02,11:10,"Quito, Ecuador Men Singles",3613,Challenger,Clay,Round of 16,54975,406660,16383736,72,409,,,,notstarted,,5
+Juan Manuel La Serna,Ignacio Monzon,2026-07-03,10:00,"Quito, Ecuador Men Singles",3613,Challenger,Clay,Round of 16,379442,107483,16383743,72,287,693,,,notstarted,,5
+Valerio Aboian,Felipe Meligeni Alves,2026-07-03,10:00,"Quito, Ecuador Men Singles",3613,Challenger,Clay,Round of 16,297139,158748,16383746,72,442,807,,,notstarted,,5
+Samuel Heredia,Eduardo Ribeiro,2026-07-03,10:00,"Quito, Ecuador Men Singles",3613,Challenger,Clay,Round of 16,400534,199488,16383734,72,727,375,,,notstarted,,5
+Segundo Goity Zapico,Rodrigo Pacheco Mendez,2026-07-03,10:00,"Quito, Ecuador Men Singles",3613,Challenger,Clay,Round of 16,379454,386107,16383741,72,1183,338,,,notstarted,,5
