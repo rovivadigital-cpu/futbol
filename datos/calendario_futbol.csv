@@ -61,11 +61,11 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 12813013,World,"World Championship, Knockout",16,"World Championship, Knockout",,2026-07-01,15:00,Unknown,6,4717,Belgium,4739,Senegal,,,notstarted,1782936000,2026-06-30
 15285484,USA,"USL, League One",13362,"USL, League One",,2026-07-01,16:30,Unknown,,197072,Charlotte Independence,284113,Corpus Christi FC,,,notstarted,1782941400,2026-06-30
 16410763,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-01,17:00,Unknown,16,5257,LDU,277525,Orense SC,,,notstarted,1782943200,2026-06-30
-15285480,USA,"USL, League One",13362,"USL, League One",,2026-07-01,18:00,Unknown,,312631,Chattanooga Red Wolves SC,1044342,Westchester SC,,,notstarted,1782946800,2026-06-30
+15285480,USA,"USL, League One",13362,"USL, League One",,2026-07-01,18:00,Unknown,,312631,Chattanooga Red Wolves SC,1044342,Westchester SC,1,0,inprogress,1782946800,2026-07-01
 15617680,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-07-01,18:30,Unknown,12,49196,Botafogo-PB,21884,Brusque,0,0,inprogress,1782862200,2026-06-30
 15617690,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-07-01,18:30,Unknown,12,6982,Volta Redonda,336664,Amazonas FC,0,0,inprogress,1782862200,2026-06-30
-15502580,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-01,19:00,Unknown,17,213638,Delfín,5255,Emelec,,,notstarted,1782950400,2026-06-30
-12812992,World,"World Championship, Knockout",16,"World Championship, Knockout",,2026-07-01,19:00,Unknown,6,4724,USA,4479,Bosnia & Herzegovina,,,notstarted,1782950400,2026-06-30
+15502580,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-01,19:00,Unknown,17,213638,Delfín,5255,Emelec,,,postponed,1782950400,2026-07-01
+12812992,World,"World Championship, Knockout",16,"World Championship, Knockout",,2026-07-01,19:00,Unknown,6,4724,USA,4479,Bosnia & Herzegovina,0,0,inprogress,1782950400,2026-07-01
 15285482,USA,"USL, League One",13362,"USL, League One",,2026-07-01,21:00,Unknown,,502354,Spokane Velocity FC,312632,Forward Madison FC,,,notstarted,1782957600,2026-06-30
 15285483,USA,"USL, League One",13362,"USL, League One",,2026-07-01,21:30,Unknown,,338006,Union Omaha SC,1044343,AV Alta FC,,,notstarted,1782959400,2026-06-30
 15389366,Australia,Queensland NPL,1268,Queensland NPL,,2026-07-02,04:30,Unknown,17,91134,Wynnum Wolves FC,91146,Rochedale Rovers,,,notstarted,1783071000,2026-07-01
