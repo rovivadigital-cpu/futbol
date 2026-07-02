@@ -1,8 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15432356,Estonia,Premium Liiga,178,Premium Liiga,,2026-07-02,11:00,Unknown,18,7106,FC Kuressaare,3346,Flora Tallinn,,,notstarted,1783008000,2026-07-01
-15514298,Estonia,Esiliiga,678,Esiliiga,,2026-07-02,11:00,Unknown,18,42740,Tartu JK Welco,44459,Viimsi JK,,,notstarted,1783008000,2026-07-01
-15481682,Finland,Ykkonen,22020,Ykkonen,,2026-07-02,11:00,Unknown,1,35395,FC Jazz,2256,KPV,,,notstarted,1783008000,2026-07-01
-15265831,Norway,1st Division,22,1st Division,,2026-07-02,11:00,Unknown,14,657,Lyn FK,682,Åsane,,,notstarted,1783008000,2026-07-01
 12813004,World,"World Championship, Knockout",16,"World Championship, Knockout",,2026-07-02,14:00,Unknown,6,4698,Spain,4718,Austria,,,notstarted,1783018800,2026-07-01
 15526166,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-02,18:00,Unknown,16,49202,Cuiabá,1973,América Mineiro,,,notstarted,1783033200,2026-07-01
 12812997,World,"World Championship, Knockout",16,"World Championship, Knockout",,2026-07-02,18:00,Unknown,6,4704,Portugal,4715,Croatia,,,notstarted,1783033200,2026-07-01
