@@ -35,6 +35,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15285487,USA,"USL, League One",13362,"USL, League One",,2026-07-03,18:30,Unknown,,1044341,FC Naples,1044345,Portland Hearts of Pine,,,notstarted,1783121400,2026-07-01
 15285486,USA,"USL, League One",13362,"USL, League One",,2026-07-03,18:30,Unknown,,23841,Richmond Kickers,465623,Sarasota Paradise,,,notstarted,1783121400,2026-07-01
 15388499,USA,NWSL,1690,NWSL,,2026-07-03,19:00,Unknown,1,151012,Washington Spirit,151006,Houston Dash,,,notstarted,1783123200,2026-07-01
+16405026,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-03,19:00,Unknown,17,39723,Independiente del Valle,33561,Manta FC,,,notstarted,1783123200,2026-07-02
 16385598,New Zealand,Central League,594,Central League,,2026-07-03,20:00,Unknown,1,182819,Wellington Phoenix Reserve,1176792,FC Western,,,notstarted,1783126800,2026-07-01
 12813011,World,"World Championship, Knockout",16,"World Championship, Knockout",,2026-07-03,20:30,Unknown,6,4820,Colombia,4764,Ghana,,,notstarted,1783128600,2026-07-01
 15388501,USA,NWSL,1690,NWSL,,2026-07-03,20:30,Unknown,1,1165117,Denver Summit FC,377826,Kansas City Current,,,notstarted,1783128600,2026-07-01
@@ -63,3 +64,86 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16273169,Lithuania,TOPLYGA,198,TOPLYGA,,2026-07-03,08:00,Unknown,21,192763,FK Panevėžys,171484,FC Hegelmann,,,notstarted,1783170000,2026-07-01
 15272444,Sweden,Allsvenskan,40,Allsvenskan,,2026-07-03,08:00,Unknown,11,1807,Degerfors IF,1892,Malmö FF,,,notstarted,1783170000,2026-07-01
 15272450,Sweden,Allsvenskan,40,Allsvenskan,,2026-07-03,08:00,Unknown,11,1767,Halmstads BK,1775,Västerås SK,,,notstarted,1783170000,2026-07-01
+15272780,Finland,Veikkausliiga,41,Veikkausliiga,,2026-07-04,09:00,Unknown,,2252,FF Jaro,22386,Ilves,,,notstarted,1783173600,2026-07-02
+15272781,Finland,Veikkausliiga,41,Veikkausliiga,,2026-07-04,09:00,Unknown,,22395,SJK,2254,Turun Palloseura,,,notstarted,1783173600,2026-07-02
+15481685,Finland,Ykkonen,22020,Ykkonen,,2026-07-04,09:00,Unknown,1,41819,KuPS Akatemia,2241,Tampere United,,,notstarted,1783173600,2026-07-02
+15442494,Iceland,Iceland 1. deild,675,Iceland 1. deild,,2026-07-04,09:00,Unknown,12,1897,UMF Grindavík ,221305,IF Vestri,,,notstarted,1783173600,2026-07-02
+15265829,Norway,1st Division,22,1st Division,,2026-07-04,09:00,Unknown,14,680,Hødd IL,1163,Strømsgodset,,,notstarted,1783173600,2026-07-02
+15272782,Finland,Veikkausliiga,41,Veikkausliiga,,2026-07-04,10:00,Unknown,,2246,VPS,5058,IFK Mariehamn,,,notstarted,1783177200,2026-07-02
+15481686,Finland,Ykkonen,22020,Ykkonen,,2026-07-04,10:00,Unknown,1,5116,OLS Oulu,283350,Inter Turku/2,,,notstarted,1783177200,2026-07-02
+15472530,Latvia,Virsliga,197,Virsliga,,2026-07-04,10:00,Unknown,22,68718,RFS,5346,FK Auda,,,notstarted,1783177200,2026-07-02
+15276292,Argentina,Primera B,1347,Primera B,,2026-07-04,11:00,Unknown,23,253807,Camioneros,112507,UAI Urquiza,,,notstarted,1783180800,2026-07-02
+15432358,Estonia,Premium Liiga,178,Premium Liiga,,2026-07-04,11:00,Unknown,18,3343,Narva Trans,3342,FCI Levadia Tallinn,,,notstarted,1783180800,2026-07-02
+15432359,Estonia,Premium Liiga,178,Premium Liiga,,2026-07-04,11:00,Unknown,18,32476,Paide Linnameeskond,247090,Pärnu JK Vaprus,,,notstarted,1783180800,2026-07-02
+15442495,Iceland,Iceland 1. deild,675,Iceland 1. deild,,2026-07-04,11:00,Unknown,12,36057,Leiknir Reykjavík,5372,IF Völsungur,,,notstarted,1783180800,2026-07-02
+15265827,Norway,1st Division,22,1st Division,,2026-07-04,11:00,Unknown,14,663,Bryne FK,929,Sandnes Ulf,,,notstarted,1783180800,2026-07-02
+12813009,World,"World Championship, Knockout",16,"World Championship, Knockout",,2026-07-04,12:00,Unknown,5,4752,Canada,4778,Morocco,,,notstarted,1783184400,2026-07-02
+15276289,Argentina,Primera B,1347,Primera B,,2026-07-04,12:30,Unknown,23,265447,Ituzaingó,107199,Villa San Carlos,,,notstarted,1783186200,2026-07-02
+15275715,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-04,13:00,Unknown,19,112493,Colegiales,222126,Gimnasia y Tiro de Salta,,,notstarted,1783188000,2026-07-02
+15276298,Argentina,Primera B,1347,Primera B,,2026-07-04,13:00,Unknown,23,112505,CSD Flandria,228062,Deportivo Laferrere,,,notstarted,1783188000,2026-07-02
+15276294,Argentina,Primera B,1347,Primera B,,2026-07-04,13:00,Unknown,23,270405,CS Dock Sud,65672,Excursionistas,,,notstarted,1783188000,2026-07-02
+15276295,Argentina,Primera B,1347,Primera B,,2026-07-04,13:00,Unknown,23,112501,Club Comunicaciones,3221,Arsenal de Sarandí,,,notstarted,1783188000,2026-07-02
+15276293,Argentina,Primera B,1347,Primera B,,2026-07-04,13:00,Unknown,23,36840,Deportivo Merlo,112509,Villa Dálmine,,,notstarted,1783188000,2026-07-02
+15275717,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-04,13:30,Unknown,19,4938,Almagro,34976,Atlético de Rafaela,,,notstarted,1783189800,2026-07-02
+15275706,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-04,13:30,Unknown,19,43740,Almirante Brown,112497,Los Andes,,,notstarted,1783189800,2026-07-02
+15275708,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-04,13:30,Unknown,19,52215,Defensores de Belgrano,93109,Deportivo Morón,,,notstarted,1783189800,2026-07-02
+15275720,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-04,13:30,Unknown,19,3200,Nueva Chicago,224646,Güemes,,,notstarted,1783189800,2026-07-02
+15275719,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-04,13:30,Unknown,19,112499,Temperley,93513,Tristán Suárez,,,notstarted,1783189800,2026-07-02
+15276299,Argentina,Primera B,1347,Primera B,,2026-07-04,13:30,Unknown,23,93105,Deportivo Armenio,107201,Brown de Adrogué,,,notstarted,1783189800,2026-07-02
+15275707,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-04,14:00,Unknown,19,340432,Ciudad de Bolivar,6074,Godoy Cruz,,,notstarted,1783191600,2026-07-02
+15526164,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-04,14:00,Unknown,16,1984,Criciúma,1959,Sport Recife,,,notstarted,1783191600,2026-07-02
+15526159,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-04,14:00,Unknown,16,135514,Grêmio Novorizontino,7314,Atlético Goianiense,,,notstarted,1783191600,2026-07-02
+15526161,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-04,14:00,Unknown,16,2022,Londrina,22032,Clube De Regatas Brasil,,,notstarted,1783191600,2026-07-02
+16410809,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-04,14:00,Unknown,17,394127,Libertad,388234,Leones del Norte,,,notstarted,1783191600,2026-07-02
+15275734,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-04,15:00,Unknown,20,265787,Agropecuario Argentino,112499,Temperley,,,postponed,1783195200,2026-07-02
+15275729,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-04,15:00,Unknown,20,36834,All Boys,43740,Almirante Brown,,,postponed,1783195200,2026-07-02
+15275738,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-04,15:00,Unknown,20,53799,Atlanta,112493,Colegiales,,,postponed,1783195200,2026-07-02
+15275735,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-04,15:00,Unknown,20,34976,Atlético de Rafaela,213042,Deportivo Maipú,,,postponed,1783195200,2026-07-02
+15275725,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-04,15:00,Unknown,20,3207,Club Atletico Colón,255426,Central Norte de Salta,,,postponed,1783195200,2026-07-02
+15275730,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-04,15:00,Unknown,20,93107,Estudiantes de Buenos Aires,255425,CA Mitre,,,postponed,1783195200,2026-07-02
+15275739,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-04,15:00,Unknown,20,270344,Ferrocarril Midland,4936,Quilmes Atlético Club,,,postponed,1783195200,2026-07-02
+15275731,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-04,15:00,Unknown,20,5292,Gimnasia Jujuy,3214,Club Atlético Chacarita Juniors,,,postponed,1783195200,2026-07-02
+15275737,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-04,15:00,Unknown,20,222126,Gimnasia y Tiro de Salta,43741,Patronato,,,postponed,1783195200,2026-07-02
+15275727,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-04,15:00,Unknown,20,6074,Godoy Cruz,52215,Defensores de Belgrano,,,postponed,1783195200,2026-07-02
+15275732,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-04,15:00,Unknown,20,224646,Güemes,7772,San Martín de San Juan,,,postponed,1783195200,2026-07-02
+15275728,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-04,15:00,Unknown,20,112497,Los Andes,340432,Ciudad de Bolivar,,,postponed,1783195200,2026-07-02
+15275722,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-04,15:00,Unknown,20,273657,Racing de Córdoba,112491,Acassuso,,,postponed,1783195200,2026-07-02
+15275736,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-04,15:00,Unknown,20,23950,San Martín de Tucumán,4938,Almagro,,,postponed,1783195200,2026-07-02
+15275724,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-04,15:00,Unknown,20,264945,San Miguel,36841,Club Ferro Carril Oeste,,,postponed,1783195200,2026-07-02
+15275723,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-04,15:00,Unknown,20,213361,San Telmo,252726,Chaco For Ever,,,postponed,1783195200,2026-07-02
+15275733,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-04,15:00,Unknown,20,93513,Tristán Suárez,3200,Nueva Chicago,,,postponed,1783195200,2026-07-02
+15617682,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-07-04,15:00,Unknown,13,21858,Maranhão AC,135526,Inter de Limeira,,,notstarted,1783195200,2026-07-02
+15502834,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-07-04,15:00,Unknown,1,342076,Atlético Ottawa,309889,Cavalry FC,,,notstarted,1783195200,2026-07-02
+15275714,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-04,16:00,Unknown,19,4936,Quilmes Atlético Club,53799,Atlanta,,,notstarted,1783198800,2026-07-02
+12813010,World,"World Championship, Knockout",16,"World Championship, Knockout",,2026-07-04,16:00,Unknown,5,4789,Paraguay,4481,France,,,notstarted,1783198800,2026-07-02
+15617683,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-07-04,17:00,Unknown,13,2017,Confiança,257673,Barra FC,,,notstarted,1783202400,2026-07-02
+15617685,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-07-04,17:00,Unknown,13,135324,Maringá FC,6982,Volta Redonda,,,notstarted,1783202400,2026-07-02
+15617691,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-07-04,17:30,Unknown,13,1976,Santa Cruz,2025,Ituano,,,notstarted,1783204200,2026-07-02
+15388505,USA,NWSL,1690,NWSL,,2026-07-04,17:30,Unknown,1,49787,North Carolina Courage,151010,Seattle Reign FC,,,notstarted,1783204200,2026-07-02
+15526163,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-04,18:00,Unknown,16,1960,Goiás,2001,Ceará,,,notstarted,1783206000,2026-07-02
+15502835,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-07-04,18:00,Unknown,1,463097,Vancouver FC,309890,Inter Toronto,,,notstarted,1783206000,2026-07-02
+15285496,USA,"USL, League One",13362,"USL, League One",,2026-07-04,18:00,Unknown,,53903,New York Cosmos,312633,Greenville Triumph SC,,,notstarted,1783206000,2026-07-02
+15617684,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-07-04,18:30,Unknown,13,35285,Ferroviária,2000,Caxias,,,notstarted,1783207800,2026-07-02
+15617689,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-07-04,18:30,Unknown,13,1972,Guarani,274286,Floresta,,,notstarted,1783207800,2026-07-02
+15285488,USA,"USL, League One",13362,"USL, League One",,2026-07-04,18:30,Unknown,,284113,Corpus Christi FC,312631,Chattanooga Red Wolves SC,,,notstarted,1783207800,2026-07-02
+15285494,USA,"USL, League One",13362,"USL, League One",,2026-07-04,18:30,Unknown,,341749,Fort Wayne FC,502354,Spokane Velocity FC,,,notstarted,1783207800,2026-07-02
+15285489,USA,"USL, League One",13362,"USL, League One",,2026-07-04,18:30,Unknown,,312632,Forward Madison FC,253417,South Georgia Tormenta FC,,,canceled,1783207800,2026-07-02
+16410824,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-04,19:00,Unknown,17,5250,Barcelona SC Guayaquil,5251,Deportivo Cuenca,,,notstarted,1783209600,2026-07-02
+15388503,USA,NWSL,1690,NWSL,,2026-07-04,19:45,Unknown,1,408170,San Diego Wave FC,34718,NJ/NY Gotham FC,,,notstarted,1783212300,2026-07-02
+15640267,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-07-04,00:00,Unknown,16,91568,Canberra Croatia FC,91570,Canberra Olympic,,,notstarted,1783227600,2026-07-02
+15389370,Australia,Queensland NPL,1268,Queensland NPL,,2026-07-04,00:00,Unknown,17,35845,Gold Coast United,251786,Magic United TFA,,,notstarted,1783227600,2026-07-02
+15389371,Australia,Queensland NPL,1268,Queensland NPL,,2026-07-04,00:45,Unknown,17,91920,Brisbane City,137384,Brisbane Roar Youth,,,notstarted,1783230300,2026-07-02
+15373017,South Korea,K League 1,410,K League 1,,2026-07-04,05:30,Unknown,16,7646,FC Seoul,7648,Incheon United,,,notstarted,1783247400,2026-07-02
+15373018,South Korea,K League 1,410,K League 1,,2026-07-04,05:30,Unknown,16,7647,Gimcheon Sangmu FC,7649,Jeju SK,,,notstarted,1783247400,2026-07-02
+15373016,South Korea,K League 1,410,K League 1,,2026-07-04,05:30,Unknown,16,48912,Gwangju FC,7653,Ulsan HD,,,notstarted,1783247400,2026-07-02
+15403914,South Korea,K-League 2,777,K-League 2,,2026-07-04,05:30,Unknown,16,41260,Gimhae City FC,189422,Seoul E-Land FC,,,notstarted,1783247400,2026-07-02
+15403904,South Korea,K-League 2,777,K-League 2,,2026-07-04,05:30,Unknown,16,195172,Gimpo FC,339827,Chungnam Asan FC,,,notstarted,1783247400,2026-07-02
+15403903,South Korea,K-League 2,777,K-League 2,,2026-07-04,05:30,Unknown,16,22020,Gyeongnam FC,41263,Cheonan City FC,,,notstarted,1783247400,2026-07-02
+15403907,South Korea,K-League 2,777,K-League 2,,2026-07-04,05:30,Unknown,16,7643,Jeonnam Dragons,7642,Busan I Park,,,notstarted,1783247400,2026-07-02
+15514302,Estonia,Esiliiga,678,Esiliiga,,2026-07-04,07:00,Unknown,18,36074,Flora Tallinn U21,36075,FCI Levadia Tallinn U21,,,notstarted,1783252800,2026-07-02
+15514301,Estonia,Esiliiga,678,Esiliiga,,2026-07-04,07:00,Unknown,18,37570,Nõmme Kalju U21,37534,FC Elva,,,notstarted,1783252800,2026-07-02
+15481684,Finland,Ykkonen,22020,Ykkonen,,2026-07-04,07:00,Unknown,1,2269,TPV,7298,JJK Jyväskylä,,,notstarted,1783252800,2026-07-02
+15272445,Sweden,Allsvenskan,40,Allsvenskan,,2026-07-04,07:00,Unknown,11,1761,IFK Göteborg,1764,AIK,,,notstarted,1783252800,2026-07-02
+15272448,Sweden,Allsvenskan,40,Allsvenskan,,2026-07-04,07:00,Unknown,11,1891,Kalmar FF,1766,Örgryte IS,,,notstarted,1783252800,2026-07-02
+15481687,Finland,Ykkonen,22020,Ykkonen,,2026-07-04,08:00,Unknown,1,2250,RoPS,22393,PK Keski-Uusimaa,,,notstarted,1783256400,2026-07-02
+15472531,Latvia,Virsliga,197,Virsliga,,2026-07-04,08:00,Unknown,22,52220,FK Grobiņa,36080,FK Tukums 2000,,,notstarted,1783256400,2026-07-02
