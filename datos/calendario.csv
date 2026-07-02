@@ -1,4 +1,5 @@
 Jugador_Local,Jugador_Visitante,Fecha,Hora_Aprox,Torneo,Torneo_ID_Sofascore,Categoria,Superficie,Ronda,Jugador_Local_ID_Sofascore,Jugador_Visitante_ID_Sofascore,Event_ID_Sofascore,Category_ID,Ranking_Local,Ranking_Visitante,Seed_Local,Seed_Visitante,Estado,Pais_Torneo,Numero_Ronda
+Francisco Comesaña,Daniel Rincon,2026-07-03,03:00,"Milano, Italy",3453,Challenger,Clay,Quarterfinals,255420,307391,16383683,72,91,261,,,notstarted,,27
 Lorenzo Giustino,Igor Marcondes,2026-07-03,03:30,"Troyes, France",18661,Challenger,Clay,Quarterfinals,48626,82157,16383767,72,226,328,,,notstarted,,27
 Marvin Möller,Marat Sharipov,2026-07-03,03:30,"Troyes, France",18661,Challenger,Clay,Quarterfinals,226833,326246,16383757,72,372,381,,,notstarted,,27
 Hubert Hurkacz,Tommy Paul,2026-07-03,05:00,Wimbledon,2361,ATP,Grass,Round of 32,158896,138546,16385309,3,96,25,,,notstarted,,6
@@ -12,8 +13,12 @@ Daria Kasatkina,Naomi Osaka,2026-07-03,05:00,Wimbledon,2600,WTA,Grass,Round of 3
 Jessica Pegula,Jessica Bouzas Maneiro,2026-07-03,05:00,Wimbledon,2600,WTA,Grass,Round of 32,44834,275105,16385435,6,4,52,,,notstarted,,6
 Karolina Muchova,Mananchaya Sawangkaew,2026-07-03,05:00,Wimbledon,2600,WTA,Grass,Round of 32,85077,238275,16385425,6,9,164,,,notstarted,,6
 Nikola Bartunkova,Barbora Krejčiková,2026-07-03,05:00,Wimbledon,2600,WTA,Grass,Round of 32,348987,60398,16385420,6,48,38,,,notstarted,,6
+Arthur Rinderknech,Novak Djokovic,2026-07-03,05:00,Wimbledon,2361,ATP,Grass,Round of 32,63606,14882,16385355,3,28,8,,,notstarted,,6
+Felix Auger-Aliassime,Michael Zheng,2026-07-03,05:00,Wimbledon,2361,ATP,Grass,Round of 32,192013,385285,16385310,3,4,144,,,notstarted,,6
+Ekaterina Alexandrova,Iva Jović,2026-07-03,05:00,Wimbledon,2600,WTA,Grass,Round of 32,67759,420632,16385436,6,19,16,,,notstarted,,6
 Juan Manuel La Serna,Ignacio Monzon,2026-07-03,10:00,"Quito, Ecuador Men Singles",3613,Challenger,Clay,Round of 16,379442,107483,16383743,72,287,693,,,notstarted,,5
 Valerio Aboian,Felipe Meligeni Alves,2026-07-03,10:00,"Quito, Ecuador Men Singles",3613,Challenger,Clay,Round of 16,297139,158748,16383746,72,442,807,,,notstarted,,5
 Samuel Heredia,Eduardo Ribeiro,2026-07-03,10:00,"Quito, Ecuador Men Singles",3613,Challenger,Clay,Round of 16,400534,199488,16383734,72,727,375,,,notstarted,,5
-Segundo Goity Zapico,Rodrigo Pacheco Mendez,2026-07-03,10:00,"Quito, Ecuador Men Singles",3613,Challenger,Clay,Round of 16,379454,386107,16383741,72,1183,338,,,notstarted,,5
 Alan Magadan,Matheus Pucinelli de Almeida,2026-07-03,10:00,"Quito, Ecuador Men Singles",3613,Challenger,Clay,Quarterfinals,272535,264978,16383742,72,632,397,,,notstarted,,27
+Hernan Casanova,Juan Sebastian Osorio,2026-07-03,10:00,"Quito, Ecuador Men Singles",3613,Challenger,Clay,Quarterfinals,54975,135032,16383740,72,409,840,,,notstarted,,27
+Segundo Goity Zapico,Rodrigo Pacheco Mendez,2026-07-03,11:10,"Quito, Ecuador Men Singles",3613,Challenger,Clay,Round of 16,379454,386107,16383741,72,1183,338,,,notstarted,,5
