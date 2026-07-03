@@ -1,22 +1,8 @@
 Jugador_Local,Jugador_Visitante,Fecha,Hora_Aprox,Torneo,Torneo_ID_Sofascore,Categoria,Superficie,Ronda,Jugador_Local_ID_Sofascore,Jugador_Visitante_ID_Sofascore,Event_ID_Sofascore,Category_ID,Ranking_Local,Ranking_Visitante,Seed_Local,Seed_Visitante,Estado,Pais_Torneo,Numero_Ronda
-Liudmila Samsonova,Marie Bouzkova,2026-07-04,05:00,Wimbledon,2600,WTA,Grass,Round of 32,128584,105463,16385451,6,41,23,,,notstarted,,6
-Alex de Minaur,Zachary Svajda,2026-07-04,05:00,Wimbledon,2361,ATP,Grass,Round of 32,201239,298247,16385354,3,6,66,,,notstarted,,6
-Jiri Lehečka,Jaume Munar,2026-07-04,05:00,Wimbledon,2361,ATP,Grass,Round of 32,254742,126356,16385347,3,14,44,,,notstarted,,6
-Karen Khachanov,Flavio Cobolli,2026-07-04,05:00,Wimbledon,2361,ATP,Grass,Round of 32,90080,273680,16385351,3,22,10,,,notstarted,,6
-Marcos Giron,Alexander Zverev,2026-07-04,05:00,Wimbledon,2361,ATP,Grass,Round of 32,42379,57163,16385346,3,92,3,,,notstarted,,6
-Taylor Fritz,Lorenzo Sonego,2026-07-04,05:00,Wimbledon,2361,ATP,Grass,Round of 32,136042,104847,16385352,3,7,69,,,notstarted,,6
-Zizou Bergs,Arthur Fery,2026-07-04,05:00,Wimbledon,2361,ATP,Grass,Round of 32,170946,321789,16385350,3,37,114,,,notstarted,,6
-Alexandra Eala,Iga Swiatek,2026-07-04,05:00,Wimbledon,2600,WTA,Grass,Round of 32,327924,228272,16390376,6,32,3,,,notstarted,,6
-Amanda Anisimova,Madison Keys,2026-07-04,05:00,Wimbledon,2600,WTA,Grass,Round of 32,230628,35424,16390375,6,6,22,,,notstarted,,6
-Daria Snigur,Ashlyn Krueger,2026-07-04,05:00,Wimbledon,2600,WTA,Grass,Round of 32,267148,311012,16390377,6,77,102,,,notstarted,,6
-Emma Navarro,Marta Kostyuk,2026-07-04,05:00,Wimbledon,2600,WTA,Grass,Round of 32,207979,230056,16390374,6,26,13,,,notstarted,,6
-Frances Tiafoe,Alexander Bublik,2026-07-04,05:00,Wimbledon,2361,ATP,Grass,Round of 32,101101,163480,16385343,3,19,11,,,notstarted,,6
-Grigor Dimitrov,Matteo Berrettini,2026-07-04,05:00,Wimbledon,2361,ATP,Grass,Round of 32,23581,112783,16385349,3,146,51,,,notstarted,,6
-Elise Mertens,Elena Rybakina,2026-07-04,05:00,Wimbledon,2600,WTA,Grass,Round of 32,78551,186312,16385455,6,27,2,,,notstarted,,6
-Jasmine Paolini,Maria Sakkari,2026-07-04,05:00,Wimbledon,2600,WTA,Grass,Round of 32,69208,65950,16390373,6,17,43,,,notstarted,,6
-Sorana Cirstea,Linda Noskova,2026-07-04,05:00,Wimbledon,2600,WTA,Grass,Round of 32,19728,274049,16390380,6,18,12,,,notstarted,,6
-Hernan Casanova,Juan Sebastian Osorio,2026-07-04,10:00,"Quito, Ecuador Men Singles",3613,Challenger,Clay,Quarterfinals,54975,135032,16383740,72,409,840,,,notstarted,,27
-Felipe Meligeni Alves,Rodrigo Pacheco Mendez,2026-07-04,10:00,"Quito, Ecuador Men Singles",3613,Challenger,Clay,Quarterfinals,158748,386107,16383745,72,807,338,,,notstarted,,27
-Eliakim Coulibaly,Calvin Hemery,2026-07-04,10:30,"Troyes, France",18661,Challenger,Clay,Quarterfinals,321948,81271,16383763,72,314,291,,,notstarted,,27
-Alan Magadan,Matheus Pucinelli de Almeida,2026-07-04,11:10,"Quito, Ecuador Men Singles",3613,Challenger,Clay,Quarterfinals,272535,264978,16383742,72,632,397,,,notstarted,,27
-Ignacio Monzon,Samuel Heredia,2026-07-04,11:10,"Quito, Ecuador Men Singles",3613,Challenger,Clay,Quarterfinals,107483,400534,16383738,72,693,727,,,notstarted,,27
+Hubert Hurkacz,Jan-Lennard Struff,2026-07-05,05:00,Wimbledon,2361,ATP,Grass,Round of 16,158896,46391,16385341,3,96,74,,,notstarted,,5
+Jannik Sinner,Shintaro Mochizuki,2026-07-05,05:00,Wimbledon,2361,ATP,Grass,Round of 16,206570,298795,16385348,3,1,151,,,notstarted,,5
+Roman Safiullin,Novak Djokovic,2026-07-05,05:00,Wimbledon,2361,ATP,Grass,Round of 16,124930,14882,16385321,3,132,8,,,notstarted,,5
+Aryna Sabalenka,Naomi Osaka,2026-07-05,05:00,Wimbledon,2600,WTA,Grass,Round of 16,157754,66476,16390378,6,1,14,,,notstarted,,5
+Jessica Pegula,Iva Jović,2026-07-05,05:00,Wimbledon,2600,WTA,Grass,Round of 16,44834,420632,16385449,6,4,16,,,notstarted,,5
+Karolina Muchova,Barbora Krejčiková,2026-07-05,05:00,Wimbledon,2600,WTA,Grass,Round of 16,85077,60398,16385453,6,9,38,,,notstarted,,5
+Felipe Meligeni Alves,Hernan Casanova,2026-07-05,12:00,"Quito, Ecuador Men Singles",3613,Challenger,Clay,Semifinals,158748,54975,16383739,72,807,409,,,notstarted,,28
