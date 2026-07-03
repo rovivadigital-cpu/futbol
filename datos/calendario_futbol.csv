@@ -1,16 +1,5 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15341264,Finland,Ykkosliiga,55,Ykkosliiga,,2026-07-03,10:30,Unknown,13,23422,JäPS,89908,SJK Akatemia,,,notstarted,1783092600,2026-07-01
-15341265,Finland,Ykkosliiga,55,Ykkosliiga,,2026-07-03,10:30,Unknown,13,2255,KTP,2263,Jippo Joensuu,,,notstarted,1783092600,2026-07-01
-15432357,Estonia,Premium Liiga,178,Premium Liiga,,2026-07-03,11:00,Unknown,18,37572,FC Nõmme United,8091,Nõmme Kalju,,,notstarted,1783094400,2026-07-01
-15472528,Latvia,Virsliga,197,Virsliga,,2026-07-03,11:00,Unknown,22,162368,Riga FC,36081,FS Jelgava,,,notstarted,1783094400,2026-07-01
-16273164,Lithuania,TOPLYGA,198,TOPLYGA,,2026-07-03,11:00,Unknown,21,168446,Džiugas Telšiai,80741,FK Kauno Žalgiris,,,notstarted,1783094400,2026-07-01
-15265830,Norway,1st Division,22,1st Division,,2026-07-03,11:00,Unknown,14,672,Kongsvinger,665,Sogndal IL,,,notstarted,1783094400,2026-07-01
-15265834,Norway,1st Division,22,1st Division,,2026-07-03,11:00,Unknown,14,668,Raufoss,885,Strømmen IF,,,notstarted,1783094400,2026-07-01
 15265832,Norway,1st Division,22,1st Division,,2026-07-03,12:00,Unknown,14,659,Odds BK,673,Haugesund,,,postponed,1783098000,2026-07-01
-15265833,Norway,1st Division,22,1st Division,,2026-07-03,12:00,Unknown,14,708,Ranheim IL,1162,Stabæk Fotball,,,notstarted,1783098000,2026-07-01
-15272447,Sweden,Allsvenskan,40,Allsvenskan,,2026-07-03,12:00,Unknown,11,1793,IK Sirius,1783,Mjällby AIF,,,notstarted,1783098000,2026-07-01
-15514299,Estonia,Esiliiga,678,Esiliiga,,2026-07-03,12:30,Unknown,18,7105,Tallinna Kalev,37528,Maardu Linnameeskond,,,notstarted,1783099800,2026-07-01
-12813018,World,"World Championship, Knockout",16,"World Championship, Knockout",,2026-07-03,13:00,Unknown,6,4741,Australia,4758,Egypt,,,notstarted,1783101600,2026-07-01
 15238121,Ireland,Premier Division,192,Premier Division,,2026-07-03,13:45,Unknown,23,3170,Derry City,3194,Waterford FC,,,notstarted,1783104300,2026-07-01
 15238122,Ireland,Premier Division,192,Premier Division,,2026-07-03,13:45,Unknown,23,3180,Drogheda United,3173,Bohemian FC,,,notstarted,1783104300,2026-07-01
 15238123,Ireland,Premier Division,192,Premier Division,,2026-07-03,13:45,Unknown,23,3174,Shelbourne,3179,Dundalk FC,,,notstarted,1783104300,2026-07-01
