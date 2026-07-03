@@ -1,8 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-12813004,World,"World Championship, Knockout",16,"World Championship, Knockout",,2026-07-02,14:00,Unknown,6,4698,Spain,4718,Austria,,,notstarted,1783018800,2026-07-01
-15526166,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-02,18:00,Unknown,16,49202,Cuiabá,1973,América Mineiro,,,notstarted,1783033200,2026-07-01
-12812997,World,"World Championship, Knockout",16,"World Championship, Knockout",,2026-07-02,18:00,Unknown,6,4704,Portugal,4715,Croatia,,,notstarted,1783033200,2026-07-01
-15526162,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-02,19:00,Unknown,16,2020,Fortaleza,1969,Ponte Preta,,,notstarted,1783036800,2026-07-01
 15285485,USA,"USL, League One",13362,"USL, League One",,2026-07-02,20:30,Unknown,,1158834,AC Boise,407748,One Knoxville SC,,,notstarted,1783042200,2026-07-01
 12813019,World,"World Championship, Knockout",16,"World Championship, Knockout",,2026-07-02,22:00,Unknown,6,4699,Switzerland,4691,Algeria,,,notstarted,1783047600,2026-07-01
 15389366,Australia,Queensland NPL,1268,Queensland NPL,,2026-07-02,04:30,Unknown,17,91134,Wynnum Wolves FC,91146,Rochedale Rovers,,,notstarted,1783071000,2026-07-01
