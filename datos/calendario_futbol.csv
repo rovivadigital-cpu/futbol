@@ -1,5 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15389366,Australia,Queensland NPL,1268,Queensland NPL,,2026-07-02,04:30,Unknown,17,91134,Wynnum Wolves FC,91146,Rochedale Rovers,,,notstarted,1783071000,2026-07-01
 15341264,Finland,Ykkosliiga,55,Ykkosliiga,,2026-07-03,10:30,Unknown,13,23422,JäPS,89908,SJK Akatemia,,,notstarted,1783092600,2026-07-01
 15341265,Finland,Ykkosliiga,55,Ykkosliiga,,2026-07-03,10:30,Unknown,13,2255,KTP,2263,Jippo Joensuu,,,notstarted,1783092600,2026-07-01
 15432357,Estonia,Premium Liiga,178,Premium Liiga,,2026-07-03,11:00,Unknown,18,37572,FC Nõmme United,8091,Nõmme Kalju,,,notstarted,1783094400,2026-07-01
