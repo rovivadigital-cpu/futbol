@@ -1,19 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15640264,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-07-04,00:00,Unknown,16,1083016,Queanbeyan City FC,91576,Tuggeranong United,,,postponed,1783141200,2026-07-04
-16390059,New Zealand,Northern League,594,Northern League,,2026-07-03,02:00,Unknown,7,1079629,Auckland FC Reserves,290000,Bay Olympic,,,notstarted,1783148400,2026-07-01
-15640266,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-07-03,02:45,Unknown,16,91574,Monaro Panthers,466742,Brindabella Blues FC,,,notstarted,1783151100,2026-07-01
-15389368,Australia,Queensland NPL,1268,Queensland NPL,,2026-07-03,04:00,Unknown,17,91136,Eastern Suburbs,91144,Peninsula Power,,,notstarted,1783155600,2026-07-01
-15389369,Australia,Queensland NPL,1268,Queensland NPL,,2026-07-03,04:30,Unknown,17,47708,Queensland Lions FC,91928,Olympic FC,,,notstarted,1783157400,2026-07-01
-15373025,South Korea,K League 1,410,K League 1,,2026-07-03,05:30,Unknown,16,7645,Daejeon Hana Citizen,92539,Bucheon FC 1995,,,notstarted,1783161000,2026-07-01
-15373015,South Korea,K League 1,410,K League 1,,2026-07-03,05:30,Unknown,16,32675,FC Anyang,7650,Pohang Steelers,,,notstarted,1783161000,2026-07-01
-15373020,South Korea,K League 1,410,K League 1,,2026-07-03,05:30,Unknown,16,6908,Jeonbuk Hyundai Motors,34220,Gangwon FC,,,notstarted,1783161000,2026-07-01
-15403901,South Korea,K-League 2,777,K-League 2,,2026-07-03,05:30,Unknown,16,248375,Ansan Greeners FC,41261,Suwon FC,,,notstarted,1783161000,2026-07-01
-15403900,South Korea,K-League 2,777,K-League 2,,2026-07-03,05:30,Unknown,16,314293,Cheongju FC,7644,Daegu FC,,,notstarted,1783161000,2026-07-01
-16299965,South Korea,K-League 2,777,K-League 2,,2026-07-03,05:30,Unknown,16,314294,Paju Frontier FC,1236533,Yongin FC,,,notstarted,1783161000,2026-07-01
-15403905,South Korea,K-League 2,777,K-League 2,,2026-07-03,05:30,Unknown,16,7652,Suwon Samsung Bluewings,7651,Seongnam FC,,,notstarted,1783161000,2026-07-01
-15514300,Estonia,Esiliiga,678,Esiliiga,,2026-07-03,07:00,Unknown,18,283728,FC Tallinn,383797,FC Nõmme United U21,,,notstarted,1783166400,2026-07-01
-15272779,Finland,Veikkausliiga,41,Veikkausliiga,,2026-07-03,07:00,Unknown,,2249,FC Lahti,2271,IF Gnistan,,,notstarted,1783166400,2026-07-01
-15265828,Norway,1st Division,22,1st Division,,2026-07-03,07:00,Unknown,14,920,Egersund,662,Moss FK,,,notstarted,1783166400,2026-07-01
 15341266,Finland,Ykkosliiga,55,Ykkosliiga,,2026-07-03,08:00,Unknown,13,22372,EIF,50525,PK-35,,,notstarted,1783170000,2026-07-01
 15481683,Finland,Ykkonen,22020,Ykkonen,,2026-07-03,08:00,Unknown,1,22394,SalPa,283886,VJS,,,notstarted,1783170000,2026-07-01
 15472529,Latvia,Virsliga,197,Virsliga,,2026-07-03,08:00,Unknown,22,41498,BFC Daugavpils,146336,FK Liepaja,,,notstarted,1783170000,2026-07-01
