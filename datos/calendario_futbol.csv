@@ -1,12 +1,5 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16385598,New Zealand,Central League,594,Central League,,2026-07-03,20:00,Unknown,1,182819,Wellington Phoenix Reserve,1176792,FC Western,,,notstarted,1783126800,2026-07-01
-12813011,World,"World Championship, Knockout",16,"World Championship, Knockout",,2026-07-03,20:30,Unknown,6,4820,Colombia,4764,Ghana,,,notstarted,1783128600,2026-07-01
-15388501,USA,NWSL,1690,NWSL,,2026-07-03,20:30,Unknown,1,1165117,Denver Summit FC,377826,Kansas City Current,,,notstarted,1783128600,2026-07-01
-15388504,USA,NWSL,1690,NWSL,,2026-07-03,21:00,Unknown,1,408169,Angel City FC,215083,Orlando Pride,,,notstarted,1783130400,2026-07-01
-15640263,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-07-03,00:00,Unknown,16,1085648,Canberra White Eagles FC,91572,Tigers FC,,,notstarted,1783141200,2026-07-01
-15640264,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-07-03,00:00,Unknown,16,1083016,Queanbeyan City FC,91576,Tuggeranong United,,,notstarted,1783141200,2026-07-01
-15389367,Australia,Queensland NPL,1268,Queensland NPL,,2026-07-03,01:15,Unknown,17,274746,Gold Coast Knights,504568,Moreton City Excelsior FC,,,notstarted,1783145700,2026-07-01
-15640265,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-07-03,01:30,Unknown,16,91564,Belconnen United FC,520573,Canberra Juventus,,,notstarted,1783146600,2026-07-01
+15640264,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-07-04,00:00,Unknown,16,1083016,Queanbeyan City FC,91576,Tuggeranong United,,,postponed,1783141200,2026-07-04
 16390059,New Zealand,Northern League,594,Northern League,,2026-07-03,02:00,Unknown,7,1079629,Auckland FC Reserves,290000,Bay Olympic,,,notstarted,1783148400,2026-07-01
 15640266,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-07-03,02:45,Unknown,16,91574,Monaro Panthers,466742,Brindabella Blues FC,,,notstarted,1783151100,2026-07-01
 15389368,Australia,Queensland NPL,1268,Queensland NPL,,2026-07-03,04:00,Unknown,17,91136,Eastern Suburbs,91144,Peninsula Power,,,notstarted,1783155600,2026-07-01
@@ -153,3 +146,17 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15617687,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-07-05,19:00,Unknown,13,21872,Anápolis,49196,Botafogo-PB,,,notstarted,1783296000,2026-07-03
 12813007,World,"World Championship, Knockout",16,"World Championship, Knockout",,2026-07-05,19:00,Unknown,5,4781,Mexico,4713,England,,,notstarted,1783296000,2026-07-03
 15285490,USA,"USL, League One",13362,"USL, League One",,2026-07-05,22:00,Unknown,,1044343,AV Alta FC,197072,Charlotte Independence,,,notstarted,1783306800,2026-07-03
+16273168,Lithuania,TOPLYGA,198,TOPLYGA,,2026-07-06,10:45,Unknown,21,5343,FK Sūduva Marijampolė,411452,FK Transinvest,,,notstarted,1783352700,2026-07-04
+15472532,Latvia,Virsliga,197,Virsliga,,2026-07-06,11:00,Unknown,22,282126,SK Super Nova,477400,Ogre United,,,notstarted,1783353600,2026-07-04
+15272442,Sweden,Allsvenskan,40,Allsvenskan,,2026-07-06,12:00,Unknown,11,1760,BK Häcken,1759,Djurgårdens IF,,,notstarted,1783357200,2026-07-04
+15272441,Sweden,Allsvenskan,40,Allsvenskan,,2026-07-06,12:00,Unknown,11,1787,IF Brommapojkarna,1786,GAIS,,,notstarted,1783357200,2026-07-04
+12812990,World,"World Championship, Knockout",16,"World Championship, Knockout",,2026-07-06,14:00,Unknown,5,4704,Portugal,4698,Spain,,,notstarted,1783364400,2026-07-04
+16405034,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-06,16:30,Unknown,17,21942,Universidad Católica del Ecuador,134976,Mushuc Runa SC,,,notstarted,1783373400,2026-07-04
+15526158,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-06,17:00,Unknown,16,1979,Botafogo-SP,7315,Avaí,,,notstarted,1783375200,2026-07-04
+15526167,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-06,17:00,Unknown,16,2021,Vila Nova FC,47504,São Bernardo,,,notstarted,1783375200,2026-07-04
+15617686,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-07-06,17:00,Unknown,13,21884,Brusque,1985,Figueirense,,,notstarted,1783375200,2026-07-04
+15617693,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-07-06,19:00,Unknown,13,336664,Amazonas FC,21853,AO Itabaiana,,,notstarted,1783382400,2026-07-04
+16410825,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-06,19:00,Unknown,17,277525,Orense SC,21941,Técnico Universitario,,,notstarted,1783382400,2026-07-04
+12813002,World,"World Championship, Knockout",16,"World Championship, Knockout",,2026-07-06,19:00,Unknown,5,4724,USA,4717,Belgium,,,notstarted,1783382400,2026-07-04
+16411402,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-07-06,04:30,Unknown,3,91574,Monaro Panthers,1083016,Queanbeyan City FC,,,notstarted,1783416600,2026-07-04
+16337073,Australia,Queensland NPL,1268,Queensland NPL,,2026-07-06,04:30,Unknown,12,274746,Gold Coast Knights,47708,Queensland Lions FC,,,notstarted,1783416600,2026-07-04
