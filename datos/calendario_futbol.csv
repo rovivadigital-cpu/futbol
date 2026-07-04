@@ -1,19 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15265832,Norway,1st Division,22,1st Division,,2026-07-03,12:00,Unknown,14,659,Odds BK,673,Haugesund,,,postponed,1783098000,2026-07-01
-15238121,Ireland,Premier Division,192,Premier Division,,2026-07-03,13:45,Unknown,23,3170,Derry City,3194,Waterford FC,,,notstarted,1783104300,2026-07-01
-15238122,Ireland,Premier Division,192,Premier Division,,2026-07-03,13:45,Unknown,23,3180,Drogheda United,3173,Bohemian FC,,,notstarted,1783104300,2026-07-01
-15238123,Ireland,Premier Division,192,Premier Division,,2026-07-03,13:45,Unknown,23,3174,Shelbourne,3179,Dundalk FC,,,notstarted,1783104300,2026-07-01
-15238125,Ireland,Premier Division,192,Premier Division,,2026-07-03,13:45,Unknown,23,3190,Sligo Rovers,3177,Shamrock Rovers,,,notstarted,1783104300,2026-07-01
-15238124,Ireland,Premier Division,192,Premier Division,,2026-07-03,13:45,Unknown,23,3169,St. Patrick's Athletic,137382,Galway United,,,notstarted,1783104300,2026-07-01
-15442490,Iceland,Iceland 1. deild,675,Iceland 1. deild,,2026-07-03,14:15,Unknown,12,70092,Aegir,1896,Fylkir Reykjavík,,,notstarted,1783106100,2026-07-01
-15442491,Iceland,Iceland 1. deild,675,Iceland 1. deild,,2026-07-03,14:15,Unknown,12,41099,Grótta,7121,HK Kópavogur,,,notstarted,1783106100,2026-07-01
-15442493,Iceland,Iceland 1. deild,675,Iceland 1. deild,,2026-07-03,14:15,Unknown,12,283759,UMF Njarðvík,1910,Thróttur Reykjavík,,,notstarted,1783106100,2026-07-01
-15442492,Iceland,Iceland 1. deild,675,Iceland 1. deild,,2026-07-03,14:15,Unknown,12,1907,ÍR Reykjavík,1914,UMF Afturelding,,,notstarted,1783106100,2026-07-01
-12812999,World,"World Championship, Knockout",16,"World Championship, Knockout",,2026-07-03,17:00,Unknown,6,4819,Argentina,4753,Cabo Verde,,,notstarted,1783116000,2026-07-01
-15285487,USA,"USL, League One",13362,"USL, League One",,2026-07-03,18:30,Unknown,,1044341,FC Naples,1044345,Portland Hearts of Pine,,,notstarted,1783121400,2026-07-01
-15285486,USA,"USL, League One",13362,"USL, League One",,2026-07-03,18:30,Unknown,,23841,Richmond Kickers,465623,Sarasota Paradise,,,notstarted,1783121400,2026-07-01
-15388499,USA,NWSL,1690,NWSL,,2026-07-03,19:00,Unknown,1,151012,Washington Spirit,151006,Houston Dash,,,notstarted,1783123200,2026-07-01
-16405026,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-03,19:00,Unknown,17,39723,Independiente del Valle,33561,Manta FC,,,notstarted,1783123200,2026-07-02
 16385598,New Zealand,Central League,594,Central League,,2026-07-03,20:00,Unknown,1,182819,Wellington Phoenix Reserve,1176792,FC Western,,,notstarted,1783126800,2026-07-01
 12813011,World,"World Championship, Knockout",16,"World Championship, Knockout",,2026-07-03,20:30,Unknown,6,4820,Colombia,4764,Ghana,,,notstarted,1783128600,2026-07-01
 15388501,USA,NWSL,1690,NWSL,,2026-07-03,20:30,Unknown,1,1165117,Denver Summit FC,377826,Kansas City Current,,,notstarted,1783128600,2026-07-01
