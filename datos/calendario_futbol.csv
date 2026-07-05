@@ -1,16 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15373017,South Korea,K League 1,410,K League 1,,2026-07-05,05:30,Unknown,16,7646,FC Seoul,7648,Incheon United,,,notstarted,1783247400,2026-07-04
-15373018,South Korea,K League 1,410,K League 1,,2026-07-05,05:30,Unknown,16,7647,Gimcheon Sangmu FC,7649,Jeju SK,,,notstarted,1783247400,2026-07-04
-15373016,South Korea,K League 1,410,K League 1,,2026-07-05,05:30,Unknown,16,48912,Gwangju FC,7653,Ulsan HD,,,notstarted,1783247400,2026-07-04
-15403914,South Korea,K-League 2,777,K-League 2,,2026-07-05,05:30,Unknown,16,41260,Gimhae City FC,189422,Seoul E-Land FC,,,notstarted,1783247400,2026-07-04
-15403904,South Korea,K-League 2,777,K-League 2,,2026-07-05,05:30,Unknown,16,195172,Gimpo FC,339827,Chungnam Asan FC,,,notstarted,1783247400,2026-07-04
-15403903,South Korea,K-League 2,777,K-League 2,,2026-07-05,05:30,Unknown,16,22020,Gyeongnam FC,41263,Cheonan City FC,,,notstarted,1783247400,2026-07-04
-15403907,South Korea,K-League 2,777,K-League 2,,2026-07-05,05:30,Unknown,16,7643,Jeonnam Dragons,7642,Busan I Park,,,notstarted,1783247400,2026-07-04
-15514302,Estonia,Esiliiga,678,Esiliiga,,2026-07-05,07:00,Unknown,18,36074,Flora Tallinn U21,36075,FCI Levadia Tallinn U21,,,notstarted,1783252800,2026-07-04
-15514301,Estonia,Esiliiga,678,Esiliiga,,2026-07-05,07:00,Unknown,18,37570,Nõmme Kalju U21,37534,FC Elva,,,notstarted,1783252800,2026-07-04
-15481684,Finland,Ykkonen,22020,Ykkonen,,2026-07-05,07:00,Unknown,1,2269,TPV,7298,JJK Jyväskylä,,,notstarted,1783252800,2026-07-04
-15272445,Sweden,Allsvenskan,40,Allsvenskan,,2026-07-05,07:00,Unknown,11,1761,IFK Göteborg,1764,AIK,,,notstarted,1783252800,2026-07-04
-15272448,Sweden,Allsvenskan,40,Allsvenskan,,2026-07-05,07:00,Unknown,11,1891,Kalmar FF,1766,Örgryte IS,,,notstarted,1783252800,2026-07-04
 15481687,Finland,Ykkonen,22020,Ykkonen,,2026-07-05,08:00,Unknown,1,2250,RoPS,22393,PK Keski-Uusimaa,,,notstarted,1783256400,2026-07-04
 15472531,Latvia,Virsliga,197,Virsliga,,2026-07-05,08:00,Unknown,22,52220,FK Grobiņa,36080,FK Tukums 2000,,,notstarted,1783256400,2026-07-04
 15617692,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-07-05,09:00,Unknown,13,32766,Ypiranga FC,1997,Paysandu SC,,,notstarted,1783260000,2026-07-04
