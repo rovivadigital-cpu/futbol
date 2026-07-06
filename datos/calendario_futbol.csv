@@ -1,8 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16273168,Lithuania,TOPLYGA,198,TOPLYGA,,2026-07-06,10:45,Unknown,21,5343,FK Sūduva Marijampolė,411452,FK Transinvest,,,notstarted,1783352700,2026-07-04
-15472532,Latvia,Virsliga,197,Virsliga,,2026-07-06,11:00,Unknown,22,282126,SK Super Nova,477400,Ogre United,,,notstarted,1783353600,2026-07-04
-15272442,Sweden,Allsvenskan,40,Allsvenskan,,2026-07-06,12:00,Unknown,11,1760,BK Häcken,1759,Djurgårdens IF,,,notstarted,1783357200,2026-07-04
-15272441,Sweden,Allsvenskan,40,Allsvenskan,,2026-07-06,12:00,Unknown,11,1787,IF Brommapojkarna,1786,GAIS,,,notstarted,1783357200,2026-07-04
 12812990,World,"World Championship, Knockout",16,"World Championship, Knockout",,2026-07-06,14:00,Unknown,5,4704,Portugal,4698,Spain,,,notstarted,1783364400,2026-07-04
 16405034,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-06,16:30,Unknown,17,21942,Universidad Católica del Ecuador,134976,Mushuc Runa SC,,,notstarted,1783373400,2026-07-04
 15526158,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-06,17:00,Unknown,16,1979,Botafogo-SP,7315,Avaí,,,notstarted,1783375200,2026-07-04
@@ -30,6 +26,8 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16389660,Bolivia,División Profesional,16736,División Profesional,,2026-07-07,18:00,Unknown,7,505268,GV San José,335685,CD Real Tomayapo,,,notstarted,1783465200,2026-07-05
 15526160,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-07,18:00,Unknown,16,342775,Athletic Club,39634,Operário-PR,,,notstarted,1783465200,2026-07-05
 16423640,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-07,19:00,Unknown,17,5249,Aucas,188850,Guayaquil City,,,notstarted,1783468800,2026-07-05
+15421073,USA,MLS Next Pro,18641,MLS Next Pro,,2026-07-07,20:00,Unknown,1,217785,Vancouver Whitecaps FC II,153490,Ventura County FC,,,notstarted,1783472400,2026-07-06
+16333958,USA,MLS Next Pro,18641,MLS Next Pro,,2026-07-07,21:00,Unknown,,411519,San Jose Earthquakes II,212570,Sporting Kansas City II,,,notstarted,1783476000,2026-07-06
 15514278,Estonia,Esiliiga,678,Esiliiga,,2026-07-08,04:30,Unknown,14,37528,Maardu Linnameeskond,36074,Flora Tallinn U21,,,postponed,1783503000,2026-07-05
 16343028,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-08,10:00,Unknown,1,5172,Kairat Almaty,6224,FK Sutjeska Nikšić,,,notstarted,1783522800,2026-07-06
 16343034,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-08,11:00,Unknown,1,3346,Flora Tallinn,116312,FC Iberia 1999,,,notstarted,1783526400,2026-07-06
@@ -44,7 +42,9 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16177628,Canada,Canadian Championship,9230,Canadian Championship,,2026-07-08,18:00,Unknown,27,1165894,FC Supra Du Quebec,342076,Atlético Ottawa,,,notstarted,1783551600,2026-07-06
 15285492,USA,"USL, League One",13362,"USL, League One",,2026-07-08,18:00,Unknown,,312633,Greenville Triumph SC,465623,Sarasota Paradise,,,notstarted,1783551600,2026-07-06
 15285491,USA,"USL, League One",13362,"USL, League One",,2026-07-08,18:00,Unknown,,53903,New York Cosmos,1044341,FC Naples,,,notstarted,1783551600,2026-07-06
+15285725,USA,USL Championship,13363,USL Championship,,2026-07-08,18:00,Unknown,1,310968,Hartford Athletic,217781,Orange County SC,,,notstarted,1783551600,2026-07-06
 15285495,USA,"USL, League One",13362,"USL, League One",,2026-07-08,18:30,Unknown,,253417,South Georgia Tormenta FC,1044345,Portland Hearts of Pine,,,canceled,1783553400,2026-07-06
 16389663,Bolivia,División Profesional,16736,División Profesional,,2026-07-08,19:00,Unknown,7,7060,Real Potosí,423188,Academia de Balompié Boliviano,,,notstarted,1783555200,2026-07-06
 16177624,Canada,Canadian Championship,9230,Canadian Championship,,2026-07-08,21:00,Unknown,27,463097,Vancouver FC,22006,CF Montréal,,,notstarted,1783562400,2026-07-06
 16177625,Canada,Canadian Championship,9230,Canadian Championship,,2026-07-08,21:30,Unknown,27,22010,Vancouver Whitecaps,309889,Cavalry FC,,,notstarted,1783564200,2026-07-06
+15285724,USA,USL Championship,13363,USL Championship,,2026-07-08,21:30,Unknown,1,153498,Sacramento Republic FC,502355,Rhode Island FC,,,notstarted,1783564200,2026-07-06
