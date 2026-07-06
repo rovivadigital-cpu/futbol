@@ -1,20 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15275705,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-05,14:00,Unknown,19,255425,CA Mitre,36834,All Boys,,,notstarted,1783278000,2026-07-04
-15275713,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-05,14:00,Unknown,19,270344,Ferrocarril Midland,5292,Gimnasia Jujuy,,,notstarted,1783278000,2026-07-04
-15275721,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-05,14:00,Unknown,19,7772,San Martín de San Juan,3214,Club Atlético Chacarita Juniors,,,notstarted,1783278000,2026-07-04
-15275710,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-05,14:30,Unknown,19,255426,Central Norte de Salta,264945,San Miguel,,,notstarted,1783279800,2026-07-04
-15275718,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-05,14:30,Unknown,19,213042,Deportivo Maipú,265787,Agropecuario Argentino,,,notstarted,1783279800,2026-07-04
-16390587,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-05,15:00,Unknown,17,5249,Aucas,188850,Guayaquil City,,,postponed,1783281600,2026-07-04
-12813006,World,"World Championship, Knockout",16,"World Championship, Knockout",,2026-07-05,15:00,Unknown,5,4748,Brazil,4475,Norway,,,notstarted,1783281600,2026-07-04
-15388502,USA,NWSL,1690,NWSL,,2026-07-05,16:00,Unknown,1,34714,Chicago Stars FC,278067,Utah Royals FC,,,notstarted,1783285200,2026-07-04
-15502837,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-07-05,17:00,Unknown,1,309888,Pacific FC,309892,HFX Wanderers FC,,,notstarted,1783288800,2026-07-04
-16423622,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-05,17:00,Unknown,17,213638,Delfín,5255,Emelec,,,notstarted,1783288800,2026-07-04
-15285493,USA,"USL, League One",13362,"USL, League One",,2026-07-05,18:00,Unknown,,1044342,Westchester SC,1158834,AC Boise,,,notstarted,1783292400,2026-07-04
-15388506,USA,NWSL,1690,NWSL,,2026-07-05,18:00,Unknown,1,151008,Portland Thorns FC,377825,Racing Louisville,,,notstarted,1783292400,2026-07-04
-15526165,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-05,18:30,Unknown,16,2011,Náutico,1980,Juventude,,,notstarted,1783294200,2026-07-04
-15617687,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-07-05,19:00,Unknown,13,21872,Anápolis,49196,Botafogo-PB,,,notstarted,1783296000,2026-07-04
-12813007,World,"World Championship, Knockout",16,"World Championship, Knockout",,2026-07-05,19:00,Unknown,5,4781,Mexico,4713,England,,,notstarted,1783296000,2026-07-04
-15285490,USA,"USL, League One",13362,"USL, League One",,2026-07-05,22:00,Unknown,,1044343,AV Alta FC,197072,Charlotte Independence,,,notstarted,1783306800,2026-07-04
 16273168,Lithuania,TOPLYGA,198,TOPLYGA,,2026-07-06,10:45,Unknown,21,5343,FK Sūduva Marijampolė,411452,FK Transinvest,,,notstarted,1783352700,2026-07-04
 15472532,Latvia,Virsliga,197,Virsliga,,2026-07-06,11:00,Unknown,22,282126,SK Super Nova,477400,Ogre United,,,notstarted,1783353600,2026-07-04
 15272442,Sweden,Allsvenskan,40,Allsvenskan,,2026-07-06,12:00,Unknown,11,1760,BK Häcken,1759,Djurgårdens IF,,,notstarted,1783357200,2026-07-04
