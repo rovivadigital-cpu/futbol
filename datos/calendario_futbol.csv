@@ -1,9 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-12812990,World,"World Championship, Knockout",16,"World Championship, Knockout",,2026-07-06,14:00,Unknown,5,4704,Portugal,4698,Spain,,,notstarted,1783364400,2026-07-04
-16405034,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-06,16:30,Unknown,17,21942,Universidad Católica del Ecuador,134976,Mushuc Runa SC,,,notstarted,1783373400,2026-07-04
-15526158,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-06,17:00,Unknown,16,1979,Botafogo-SP,7315,Avaí,,,notstarted,1783375200,2026-07-04
-15526167,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-06,17:00,Unknown,16,2021,Vila Nova FC,47504,São Bernardo,,,notstarted,1783375200,2026-07-04
-15617686,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-07-06,17:00,Unknown,13,21884,Brusque,1985,Figueirense,,,notstarted,1783375200,2026-07-04
 15617693,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-07-06,19:00,Unknown,13,336664,Amazonas FC,21853,AO Itabaiana,,,notstarted,1783382400,2026-07-04
 16410825,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-06,19:00,Unknown,17,277525,Orense SC,21941,Técnico Universitario,,,notstarted,1783382400,2026-07-04
 12813002,World,"World Championship, Knockout",16,"World Championship, Knockout",,2026-07-06,19:00,Unknown,5,4724,USA,4717,Belgium,,,notstarted,1783382400,2026-07-04
