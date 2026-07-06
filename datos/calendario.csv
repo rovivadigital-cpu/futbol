@@ -1,36 +1,12 @@
 Jugador_Local,Jugador_Visitante,Fecha,Hora_Aprox,Torneo,Torneo_ID_Sofascore,Categoria,Superficie,Ronda,Jugador_Local_ID_Sofascore,Jugador_Visitante_ID_Sofascore,Event_ID_Sofascore,Category_ID,Ranking_Local,Ranking_Visitante,Seed_Local,Seed_Visitante,Estado,Pais_Torneo,Numero_Ronda
-Naomi Osaka,Karolina Muchova,2026-07-07,05:00,Wimbledon,2600,WTA,Unknown,Quarterfinals,66476,85077,16385413,6,14,9,,,notstarted,,27
-Felix Auger-Aliassime,Novak Djokovic,2026-07-07,05:00,Wimbledon,2361,ATP,Unknown,Quarterfinals,192013,14882,16385334,3,4,8,,,notstarted,,27
-Jannik Sinner,Jan-Lennard Struff,2026-07-07,05:00,Wimbledon,2361,ATP,Unknown,Quarterfinals,206570,46391,16385340,3,1,74,,,notstarted,,27
-Jessica Pegula,Coco Gauff,2026-07-07,05:00,Wimbledon,2600,WTA,Unknown,Quarterfinals,44834,264983,16385418,6,4,7,,,notstarted,,27
-Adrian Mannarino,Remy Bertola,2026-07-07,09:00,"ATP Challenger Newport, USA Men Singles",27738,Challenger,Unknown,Round of 32,15894,145108,16451938,72,40,187,,,notstarted,,6
-Alexis Galarneau,Juan Pablo Ficovich,2026-07-07,09:00,"ATP Challenger Newport, USA Men Singles",27738,Challenger,Unknown,Round of 32,187236,113979,16451937,72,179,197,,,notstarted,,6
-Bernard Tomić,Braden Shick,2026-07-07,09:00,"ATP Challenger Newport, USA Men Singles",27738,Challenger,Unknown,Round of 32,17080,385591,16451932,72,204,325,,,notstarted,,6
-Jacob Fearnley,Mark Lajal,2026-07-07,09:00,"ATP Challenger Newport, USA Men Singles",27738,Challenger,Unknown,Round of 32,275948,383991,16451934,72,159,164,,,notstarted,,6
-James McCabe,Rei Sakamoto,2026-07-07,09:00,"ATP Challenger Newport, USA Men Singles",27738,Challenger,Unknown,Round of 32,339452,413296,16451929,72,207,150,,,notstarted,,6
-Murphy Cassone,Darwin Blanch,2026-07-07,09:00,"ATP Challenger Newport, USA Men Singles",27738,Challenger,Unknown,Round of 32,333007,407392,16451935,72,289,224,,,notstarted,,6
-Andre Ilagan,Alex Rybakov,2026-07-07,10:00,"ATP Challenger Newport, USA Men Singles",27738,Challenger,Unknown,Qualification Final,244985,101157,16452188,72,263,432,,,notstarted,,250
-Ozan Baris,Tyler Zink,2026-07-07,10:00,"ATP Challenger Newport, USA Men Singles",27738,Challenger,Unknown,Qualification Final,335630,265147,16452632,72,696,330,,,notstarted,,250
-Stefan Kozlov,Garrett Johns,2026-07-07,10:00,"ATP Challenger Newport, USA Men Singles",27738,Challenger,Unknown,Qualification Final,77007,239967,16453018,72,317,382,,,notstarted,,250
-Alex Hernandez,Nick Hardt,2026-07-07,10:00,"Bogota, Colombia",3577,Challenger,Unknown,Round of 32,258977,186885,16446258,72,422,267,,,notstarted,,6
-Facundo Mena,Alafia Ayeni,2026-07-07,10:00,"Bogota, Colombia",3577,Challenger,Unknown,Round of 32,38180,205313,16446260,72,354,444,,,notstarted,,6
-Juan Sebastian Osorio,Matias Soto,2026-07-07,10:00,"Bogota, Colombia",3577,Challenger,Unknown,Round of 32,135032,241039,16446261,72,840,296,,,notstarted,,6
-Sergio Luis Hernandez Ramirez,Luciano Emanuel Ambrogi,2026-07-07,10:00,"Bogota, Colombia",3577,Challenger,Unknown,Round of 32,169882,333081,16446265,72,1348,320,,,notstarted,,6
-Tristan McCormick,Pedro Sakamoto,2026-07-07,10:00,"Bogota, Colombia",3577,Challenger,Unknown,Round of 32,256802,65576,16446259,72,604,496,,,notstarted,,6
-Connor Huertas Del Pino,Fermin Tenti,2026-07-07,10:00,"Bogota, Colombia",3577,Challenger,Unknown,Qualification Final,161868,221015,16452173,72,641,995,,,notstarted,,250
-Dmitry Popko,Cristian Felipe Sanchez Rojas,2026-07-07,10:00,"Bogota, Colombia",3577,Challenger,Unknown,Qualification Final,50901,1115786,16452757,72,652,,,,notstarted,,250
-Lorenzo Claverie,Christopher Papa,2026-07-07,10:00,"Bogota, Colombia",3577,Challenger,Unknown,Qualification Final,339453,307122,16452915,72,,1072,,,notstarted,,250
-Jason Jung,Hiroki Moriya,2026-07-07,11:10,"ATP Challenger Newport, USA Men Singles",27738,Challenger,Unknown,Qualification Final,63446,32466,16453017,72,1107,472,,,notstarted,,250
-Patrick Maloney,Hayato Matsuoka,2026-07-07,11:10,"ATP Challenger Newport, USA Men Singles",27738,Challenger,Unknown,Qualification Final,251784,420914,16453019,72,781,346,,,notstarted,,250
-Ignacio Monzon,Joao Victor Couto Loureiro,2026-07-07,11:10,"Bogota, Colombia",3577,Challenger,Unknown,Qualification Final,107483,284076,16452327,72,693,846,,,notstarted,,250
-Brandon Perez,Felipe Meligeni Alves,2026-07-07,11:10,"Bogota, Colombia",3577,Challenger,Unknown,Qualification Final,265873,158748,16452982,72,,807,,,notstarted,,250
-Alan Magadan,Johan Alexander Rodriguez Rodriguez,2026-07-07,11:30,"Bogota, Colombia",3577,Challenger,Unknown,Round of 32,272535,315057,16446262,72,632,560,,,notstarted,,6
-August Holmgren,Tristan Schoolkate,2026-07-07,12:20,"ATP Challenger Newport, USA Men Singles",27738,Challenger,Unknown,Round of 32,207089,275471,16451933,72,143,149,,,notstarted,,6
-Daniil Glinka,Yunchaokete Bu,2026-07-07,12:20,"ATP Challenger Newport, USA Men Singles",27738,Challenger,Unknown,Round of 32,210033,254227,16451936,72,168,107,,,notstarted,,6
-Mackenzie McDonald,Adam Walton,2026-07-07,12:20,"ATP Challenger Newport, USA Men Singles",27738,Challenger,Unknown,Round of 32,63438,207575,16451931,72,145,85,,,notstarted,,6
-Federico Zeballos,Lucas Andrade Da Silva,2026-07-07,12:20,"Bogota, Colombia",3577,Challenger,Unknown,Qualification Final,37637,487313,16452983,72,1342,813,,,notstarted,,250
-Juan Sebastian Gomez,Eduardo Ribeiro,2026-07-07,12:40,"Bogota, Colombia",3577,Challenger,Unknown,Round of 32,25726,199488,16446263,72,562,375,,,notstarted,,6
-Valerio Aboian,Luis Carlos Alvarez Valdes,2026-07-07,13:00,"Bogota, Colombia",3577,Challenger,Unknown,Round of 32,297139,406660,16446264,72,442,,,,notstarted,,6
-Aleksandar Vukić,Liam Broady,2026-07-07,13:30,"ATP Challenger Newport, USA Men Singles",27738,Challenger,Unknown,Round of 32,124656,47764,16451930,72,104,209,,,notstarted,,6
-Juan Pablo Varillas,Bruno Fernandez,2026-07-07,14:10,"Bogota, Colombia",3577,Challenger,Unknown,Round of 32,72248,393631,16446149,72,308,628,,,notstarted,,6
-Santiago Rodriguez Taverna,Samuel Alejandro Linde Palacios,2026-07-07,15:00,"Bogota, Colombia",3577,Challenger,Unknown,Round of 32,185434,516077,16446266,72,384,656,,,notstarted,,6
+Adrian Mannarino,Remy Bertola,2026-07-08,09:00,"ATP Challenger Newport, USA Men Singles",27738,Challenger,Unknown,Round of 32,15894,145108,16451938,72,40,187,,,notstarted,,6
+Alexis Galarneau,Juan Pablo Ficovich,2026-07-08,09:00,"ATP Challenger Newport, USA Men Singles",27738,Challenger,Unknown,Round of 32,187236,113979,16451937,72,179,197,,,notstarted,,6
+Bernard Tomić,Braden Shick,2026-07-08,09:00,"ATP Challenger Newport, USA Men Singles",27738,Challenger,Unknown,Round of 32,17080,385591,16451932,72,204,325,,,notstarted,,6
+Jacob Fearnley,Mark Lajal,2026-07-08,09:00,"ATP Challenger Newport, USA Men Singles",27738,Challenger,Unknown,Round of 32,275948,383991,16451934,72,159,164,,,notstarted,,6
+James McCabe,Rei Sakamoto,2026-07-08,09:00,"ATP Challenger Newport, USA Men Singles",27738,Challenger,Unknown,Round of 32,339452,413296,16451929,72,207,150,,,notstarted,,6
+Murphy Cassone,Darwin Blanch,2026-07-08,09:00,"ATP Challenger Newport, USA Men Singles",27738,Challenger,Unknown,Round of 32,333007,407392,16451935,72,289,224,,,notstarted,,6
+Alex Hernandez,Nick Hardt,2026-07-08,10:00,"Bogota, Colombia",3577,Challenger,Unknown,Round of 32,258977,186885,16446258,72,422,267,,,notstarted,,6
+Facundo Mena,Alafia Ayeni,2026-07-08,10:00,"Bogota, Colombia",3577,Challenger,Unknown,Round of 32,38180,205313,16446260,72,354,444,,,notstarted,,6
+Juan Sebastian Osorio,Matias Soto,2026-07-08,10:00,"Bogota, Colombia",3577,Challenger,Unknown,Round of 32,135032,241039,16446261,72,840,296,,,notstarted,,6
+Sergio Luis Hernandez Ramirez,Luciano Emanuel Ambrogi,2026-07-08,10:00,"Bogota, Colombia",3577,Challenger,Unknown,Round of 32,169882,333081,16446265,72,1348,320,,,notstarted,,6
+Tristan McCormick,Pedro Sakamoto,2026-07-08,10:00,"Bogota, Colombia",3577,Challenger,Unknown,Round of 32,256802,65576,16446259,72,604,496,,,notstarted,,6
