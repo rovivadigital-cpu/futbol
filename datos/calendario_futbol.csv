@@ -1,12 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16337073,Australia,Queensland NPL,1268,Queensland NPL,,2026-07-07,04:30,Unknown,12,274746,Gold Coast Knights,47708,Queensland Lions FC,,,notstarted,1783416600,2026-07-04
-16343039,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-07,11:00,Unknown,1,262229,FC Ararat-Armenia,162368,Riga FC,,,notstarted,1783440000,2026-07-05
-16343046,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-07,11:00,Unknown,1,80741,FK Kauno Žalgiris,229755,FC Drita,,,notstarted,1783440000,2026-07-05
-16343030,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-07,11:00,Unknown,1,126304,Lincoln Red Imps,37946,Inter Club d'Escaldes,,,notstarted,1783440000,2026-07-05
-16343037,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-07,11:00,Unknown,1,267828,Sabah FK,4921,The New Saints,,,notstarted,1783440000,2026-07-05
-12812993,World,"World Championship, Knockout",16,"World Championship, Knockout",,2026-07-07,11:00,Unknown,5,4819,Argentina,4758,Egypt,,,notstarted,1783440000,2026-07-05
-16343044,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-07,12:00,Unknown,1,5403,FK Vardar Skopje,2244,Kuopion Palloseura,,,notstarted,1783443600,2026-07-05
-16343575,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-07,12:15,Unknown,1,46353,Una Strassen,37860,La Fiorita,,,notstarted,1783444500,2026-07-05
 16343025,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-07,12:30,Unknown,1,33584,Floriana FC,3177,Shamrock Rovers,,,notstarted,1783445400,2026-07-05
 16343563,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-07,13:00,Unknown,1,403091,AF Elbasani,3350,BATE Borisov,,,notstarted,1783447200,2026-07-05
 16343038,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-07,13:30,Unknown,1,5235,FK Borac Banja Luka,3273,Levski Sofia,,,notstarted,1783449000,2026-07-05
