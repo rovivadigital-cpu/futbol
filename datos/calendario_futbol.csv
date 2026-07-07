@@ -1,5 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16411402,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-07-07,04:30,Unknown,3,91574,Monaro Panthers,1083016,Queanbeyan City FC,,,notstarted,1783416600,2026-07-04
 16337073,Australia,Queensland NPL,1268,Queensland NPL,,2026-07-07,04:30,Unknown,12,274746,Gold Coast Knights,47708,Queensland Lions FC,,,notstarted,1783416600,2026-07-04
 16343039,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-07,11:00,Unknown,1,262229,FC Ararat-Armenia,162368,Riga FC,,,notstarted,1783440000,2026-07-05
 16343046,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-07,11:00,Unknown,1,80741,FK Kauno Žalgiris,229755,FC Drita,,,notstarted,1783440000,2026-07-05
