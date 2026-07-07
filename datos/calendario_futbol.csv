@@ -1,13 +1,5 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16343025,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-07,12:30,Unknown,1,33584,Floriana FC,3177,Shamrock Rovers,,,notstarted,1783445400,2026-07-05
-16343563,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-07,13:00,Unknown,1,403091,AF Elbasani,3350,BATE Borisov,,,notstarted,1783447200,2026-07-05
-16343038,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-07,13:30,Unknown,1,5235,FK Borac Banja Luka,3273,Levski Sofia,,,notstarted,1783449000,2026-07-05
-16343027,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-07,13:30,Unknown,1,36195,SP Tre Fiori,5184,Larne FC,,,notstarted,1783449000,2026-07-05
-16343029,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-07,13:45,Unknown,1,5194,Klaksvíkar Ítróttarfelag,38989,Atert Bissen,,,notstarted,1783449900,2026-07-05
-16343031,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-07,14:00,Unknown,1,1908,Víkingur Reykjavík,1923,ETO FC Győr,,,notstarted,1783450800,2026-07-05
-12812991,World,"World Championship, Knockout",16,"World Championship, Knockout",,2026-07-07,15:00,Unknown,5,4699,Switzerland,4820,Colombia,,,notstarted,1783454400,2026-07-05
 16389660,Bolivia,División Profesional,16736,División Profesional,,2026-07-07,18:00,Unknown,7,505268,GV San José,335685,CD Real Tomayapo,,,notstarted,1783465200,2026-07-05
-15526160,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-07,18:00,Unknown,16,342775,Athletic Club,39634,Operário-PR,,,notstarted,1783465200,2026-07-05
 16423640,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-07,19:00,Unknown,17,5249,Aucas,188850,Guayaquil City,,,notstarted,1783468800,2026-07-05
 15421073,USA,MLS Next Pro,18641,MLS Next Pro,,2026-07-07,20:00,Unknown,1,217785,Vancouver Whitecaps FC II,153490,Ventura County FC,,,notstarted,1783472400,2026-07-06
 16333958,USA,MLS Next Pro,18641,MLS Next Pro,,2026-07-07,21:00,Unknown,,411519,San Jose Earthquakes II,212570,Sporting Kansas City II,,,notstarted,1783476000,2026-07-06
