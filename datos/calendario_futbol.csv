@@ -1,10 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15514278,Estonia,Esiliiga,678,Esiliiga,,2026-07-08,04:30,Unknown,14,37528,Maardu Linnameeskond,36074,Flora Tallinn U21,,,postponed,1783503000,2026-07-05
-16343028,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-08,10:00,Unknown,1,5172,Kairat Almaty,6224,FK Sutjeska Nikšić,,,notstarted,1783522800,2026-07-06
-16343034,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-08,11:00,Unknown,1,3346,Flora Tallinn,116312,FC Iberia 1999,,,notstarted,1783526400,2026-07-06
-16343567,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-08,11:00,Unknown,1,173406,Zirə FK,5419,FC Torpedo Kutaisi,,,notstarted,1783526400,2026-07-06
-16343033,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-08,12:00,Unknown,1,167232,FC Petrocub Hîncesti,264619,KF Egnatia,,,notstarted,1783530000,2026-07-06
-16343026,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-08,12:00,Unknown,1,381792,ML Vitebsk,116223,Universitatea Craiova,,,notstarted,1783530000,2026-07-06
 16343557,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-08,12:30,Unknown,1,4912,Connah's Quay Nomads,230417,KF Ballkani,,,notstarted,1783531800,2026-07-06
 16343562,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-08,12:30,Unknown,1,7605,Differdange FC 03,22386,Ilves,,,notstarted,1783531800,2026-07-06
 16177623,Canada,Canadian Championship,9230,Canadian Championship,,2026-07-08,14:00,Unknown,27,475660,CS Saint-Laurent,313716,Forge FC,,,notstarted,1783537200,2026-07-06
