@@ -1,13 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16343557,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-08,12:30,Unknown,1,4912,Connah's Quay Nomads,230417,KF Ballkani,,,notstarted,1783531800,2026-07-06
-16343562,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-08,12:30,Unknown,1,7605,Differdange FC 03,22386,Ilves,,,notstarted,1783531800,2026-07-06
-16177623,Canada,Canadian Championship,9230,Canadian Championship,,2026-07-08,14:00,Unknown,27,475660,CS Saint-Laurent,313716,Forge FC,,,notstarted,1783537200,2026-07-06
-16389659,Bolivia,División Profesional,16736,División Profesional,,2026-07-08,17:00,Unknown,6,423186,CDT Real Oruro,268082,Club FC Universitario,,,notstarted,1783548000,2026-07-06
-15526168,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-08,18:00,Unknown,17,1969,Ponte Preta,1984,Criciúma,,,notstarted,1783551600,2026-07-06
-16177628,Canada,Canadian Championship,9230,Canadian Championship,,2026-07-08,18:00,Unknown,27,1165894,FC Supra Du Quebec,342076,Atlético Ottawa,,,notstarted,1783551600,2026-07-06
-15285492,USA,"USL, League One",13362,"USL, League One",,2026-07-08,18:00,Unknown,,312633,Greenville Triumph SC,465623,Sarasota Paradise,,,notstarted,1783551600,2026-07-06
-15285491,USA,"USL, League One",13362,"USL, League One",,2026-07-08,18:00,Unknown,,53903,New York Cosmos,1044341,FC Naples,,,notstarted,1783551600,2026-07-06
-15285725,USA,USL Championship,13363,USL Championship,,2026-07-08,18:00,Unknown,1,310968,Hartford Athletic,217781,Orange County SC,,,notstarted,1783551600,2026-07-06
 15285495,USA,"USL, League One",13362,"USL, League One",,2026-07-08,18:30,Unknown,,253417,South Georgia Tormenta FC,1044345,Portland Hearts of Pine,,,canceled,1783553400,2026-07-06
 16389663,Bolivia,División Profesional,16736,División Profesional,,2026-07-08,19:00,Unknown,7,7060,Real Potosí,423188,Academia de Balompié Boliviano,,,notstarted,1783555200,2026-07-06
 16177624,Canada,Canadian Championship,9230,Canadian Championship,,2026-07-08,21:00,Unknown,27,463097,Vancouver FC,22006,CF Montréal,,,notstarted,1783562400,2026-07-06
