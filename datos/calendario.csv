@@ -1,25 +1,3 @@
 Jugador_Local,Jugador_Visitante,Fecha,Hora_Aprox,Torneo,Torneo_ID_Sofascore,Categoria,Superficie,Ronda,Jugador_Local_ID_Sofascore,Jugador_Visitante_ID_Sofascore,Event_ID_Sofascore,Category_ID,Ranking_Local,Ranking_Visitante,Seed_Local,Seed_Visitante,Estado,Pais_Torneo,Numero_Ronda
-Laslo Djere,Daniel Rincon,2026-07-10,04:00,"Braunschweig, Germany",3490,Challenger,Unknown,Quarterfinals,97231,307391,16425310,72,234,261,,,notstarted,,27
-Jan Choinski,Diego Dedura-Palomero,2026-07-10,04:00,"Braunschweig, Germany",3490,Challenger,Unknown,Quarterfinals,105607,484219,16425309,72,100,271,,,notstarted,,27
-Jack Loge,Lorenzo Giustino,2026-07-10,05:00,"ATP Challenger Liege, Belgium Men Singles",35857,Challenger,Unknown,Quarterfinals,425564,48626,16425061,72,426,226,,,notstarted,,27
-Manas Dhamne,Miguel Damas,2026-07-10,05:00,"ATP Challenger Liege, Belgium Men Singles",35857,Challenger,Unknown,Quarterfinals,415528,192862,16425064,72,386,280,,,notstarted,,27
-Clement Chidekh,Ivan Ivanov,2026-07-10,05:00,"ATP Challenger Nottingham 3, Great Britain Men Singles",27679,Challenger,Unknown,Quarterfinals,231620,460276,16425087,72,205,654,,,notstarted,,27
-Yi Zhou,Alastair Gray,2026-07-10,05:00,"ATP Challenger Nottingham 3, Great Britain Men Singles",27679,Challenger,Unknown,Quarterfinals,450685,222958,16425075,72,240,277,,,notstarted,,27
-Lautaro Midon,Zsombor Piros,2026-07-10,05:30,"Iasi, Romania ",15277,Challenger,Unknown,Quarterfinals,397014,205795,16425090,72,230,169,,,notstarted,,27
-Maks Kasnikowski,Jerome Kym,2026-07-10,05:30,"Iasi, Romania ",15277,Challenger,Unknown,Quarterfinals,342835,309071,16425088,72,284,196,,,notstarted,,27
-Lukas Neumayer,Henri Squire,2026-07-10,07:00,"Trieste, Italy",15263,Challenger,Unknown,Quarterfinals,339450,208225,16425164,72,167,235,,,notstarted,,27
-Raul Brancaccio,Matej Dodig,2026-07-10,07:00,"Trieste, Italy",15263,Challenger,Unknown,Quarterfinals,201847,420876,16425163,72,248,208,,,notstarted,,27
-Jannik Sinner,Novak Djokovic,2026-07-10,07:30,Wimbledon,2361,ATP,Unknown,Semifinals,206570,14882,16385331,3,1,8,,,notstarted,,28
-Arthur Fery,Alexander Zverev,2026-07-10,07:30,Wimbledon,2361,ATP,Unknown,Semifinals,321789,57163,16385333,3,114,3,,,notstarted,,28
-Adrian Mannarino,Alexis Galarneau,2026-07-10,10:00,"ATP Challenger Newport, USA Men Singles",27738,Challenger,Unknown,Round of 16,15894,187236,16425110,72,40,179,,,notstarted,,5
-Arthur Gea,Tristan Schoolkate,2026-07-10,10:00,"ATP Challenger Newport, USA Men Singles",27738,Challenger,Unknown,Round of 16,383987,275471,16425106,72,136,149,,,notstarted,,5
-Bernard Tomić,Adam Walton,2026-07-10,10:00,"ATP Challenger Newport, USA Men Singles",27738,Challenger,Unknown,Round of 16,17080,207575,16425112,72,204,85,,,notstarted,,5
-Daniel Milavsky,Yunchaokete Bu,2026-07-10,10:00,"ATP Challenger Newport, USA Men Singles",27738,Challenger,Unknown,Round of 16,335632,254227,16425113,72,367,107,,,notstarted,,5
-Jason Jung,Alex Michelsen,2026-07-10,10:00,"ATP Challenger Newport, USA Men Singles",27738,Challenger,Unknown,Round of 16,63446,406728,16425111,72,1107,46,,,notstarted,,5
-Liam Broady,Andre Ilagan,2026-07-10,10:00,"ATP Challenger Newport, USA Men Singles",27738,Challenger,Unknown,Round of 16,47764,244985,16425104,72,209,263,,,notstarted,,5
-Lorenzo Claverie,Nick Hardt,2026-07-10,10:00,"Bogota, Colombia",3577,Challenger,Unknown,Round of 16,339453,186885,16425034,72,,267,,,notstarted,,5
-Facundo Mena,Tristan McCormick,2026-07-10,10:00,"Bogota, Colombia",3577,Challenger,Unknown,Round of 16,38180,256802,16425030,72,354,604,,,notstarted,,5
-Juan Pablo Varillas,Matheus Pucinelli de Almeida,2026-07-10,10:00,"Bogota, Colombia",3577,Challenger,Unknown,Quarterfinals,72248,264978,16425123,72,308,397,,,notstarted,,27
-Lucas Andrade Da Silva,Matias Soto,2026-07-10,10:00,"Bogota, Colombia",3577,Challenger,Unknown,Quarterfinals,487313,241039,16425120,72,813,296,,,notstarted,,27
-Nicolas Mejia,Santiago Rodriguez Taverna,2026-07-10,12:00,"Bogota, Colombia",3577,Challenger,Unknown,Round of 16,187218,185434,16425029,72,165,384,,,notstarted,,5
-Hernan Casanova,Luciano Emanuel Ambrogi,2026-07-10,13:10,"Bogota, Colombia",3577,Challenger,Unknown,Round of 16,54975,333081,16425033,72,409,320,,,notstarted,,5
+Juan Pablo Varillas,Matheus Pucinelli de Almeida,2026-07-11,10:00,"Bogota, Colombia",3577,Challenger,Unknown,Quarterfinals,72248,264978,16425123,72,308,397,,,notstarted,,27
+Lucas Andrade Da Silva,Matias Soto,2026-07-11,10:00,"Bogota, Colombia",3577,Challenger,Unknown,Quarterfinals,487313,241039,16425120,72,813,296,,,notstarted,,27
