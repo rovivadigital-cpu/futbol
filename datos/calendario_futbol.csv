@@ -1,18 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16343545,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-09,12:30,Unknown,1,4909,Caernarfon Town,3342,FCI Levadia Tallinn,,,notstarted,1783618200,2026-07-07
-16343553,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-09,12:30,Unknown,1,126298,Europa FC,5413,KF Shkëndija,,,notstarted,1783618200,2026-07-07
-16343101,Europe,"UEFA Europa League, Qualification",679,"UEFA Europa League, Qualification",,2026-07-09,13:00,Unknown,1,3275,CSKA Sofia,3170,Derry City,,,notstarted,1783620000,2026-07-07
-16343098,Europe,"UEFA Europa League, Qualification",679,"UEFA Europa League, Qualification",,2026-07-09,13:00,Unknown,1,5150,FK Vojvodina,1925,Ferencváros TC,,,notstarted,1783620000,2026-07-07
-16343102,Europe,"UEFA Europa League, Qualification",679,"UEFA Europa League, Qualification",,2026-07-09,13:00,Unknown,1,2036,HNK Hajduk Split,2402,MŠK Žilina,,,notstarted,1783620000,2026-07-07
-16343544,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-09,13:00,Unknown,1,5418,KF Vllaznia,325494,FC Malisheva,,,notstarted,1783620000,2026-07-07
-16343564,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-09,13:30,Unknown,1,5179,Glentoran FC,68718,RFS,,,notstarted,1783621800,2026-07-07
-16343560,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-09,13:45,Unknown,1,5189,NSÍ Runavík,33583,Ħamrun Spartans FC,,,notstarted,1783622700,2026-07-07
-16343586,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-09,13:45,Unknown,1,6216,OFK Petrovac,5345,FK Žalgiris,,,notstarted,1783622700,2026-07-07
-16343549,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-09,13:45,Unknown,1,115185,Penybont,7711,FC Santa Coloma,,,notstarted,1783622700,2026-07-07
-16343552,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-09,14:00,Unknown,1,5217,Dinamo City,36155,Astana,,,notstarted,1783623600,2026-07-07
-16343555,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-09,14:00,Unknown,1,5237,FK Sarajevo,2247,Inter Turku,,,notstarted,1783623600,2026-07-07
-16343585,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-09,14:00,Unknown,1,1912,Stjarnan Garðabær,5193,Víkingur Gøta,,,notstarted,1783623600,2026-07-07
-12813016,World,"World Championship, Knockout",16,"World Championship, Knockout",,2026-07-09,15:00,Unknown,27,4481,France,4778,Morocco,,,notstarted,1783627200,2026-07-07
 16389661,Bolivia,División Profesional,16736,División Profesional,,2026-07-09,19:00,Unknown,6,47700,Nacional Potosí,33714,Club Aurora,,,notstarted,1783641600,2026-07-07
 15389375,Australia,Queensland NPL,1268,Queensland NPL,,2026-07-10,04:30,Unknown,18,137384,Brisbane Roar Youth,91146,Rochedale Rovers,,,notstarted,1783675800,2026-07-07
 15389373,Australia,Queensland NPL,1268,Queensland NPL,,2026-07-10,04:30,Unknown,18,91144,Peninsula Power,91134,Wynnum Wolves FC,,,notstarted,1783675800,2026-07-07
