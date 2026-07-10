@@ -1,8 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15389375,Australia,Queensland NPL,1268,Queensland NPL,,2026-07-10,04:30,Unknown,18,137384,Brisbane Roar Youth,91146,Rochedale Rovers,,,notstarted,1783675800,2026-07-07
-15389373,Australia,Queensland NPL,1268,Queensland NPL,,2026-07-10,04:30,Unknown,18,91144,Peninsula Power,91134,Wynnum Wolves FC,,,notstarted,1783675800,2026-07-07
-15403911,South Korea,K-League 2,777,K-League 2,,2026-07-10,05:30,Unknown,17,41263,Cheonan City FC,41260,Gimhae City FC,,,notstarted,1783679400,2026-07-07
-15403910,South Korea,K-League 2,777,K-League 2,,2026-07-10,05:30,Unknown,17,41261,Suwon FC,7643,Jeonnam Dragons,,,notstarted,1783679400,2026-07-07
 15481688,Finland,Ykkonen,22020,Ykkonen,,2026-07-10,09:30,Unknown,1,283350,Inter Turku/2,2250,RoPS,,,notstarted,1783693800,2026-07-08
 15341267,Finland,Ykkosliiga,55,Ykkosliiga,,2026-07-10,10:30,Unknown,13,2255,KTP,23422,JäPS,,,notstarted,1783697400,2026-07-08
 15481689,Finland,Ykkonen,22020,Ykkonen,,2026-07-10,10:30,Unknown,1,2241,Tampere United,22394,SalPa,,,notstarted,1783697400,2026-07-08
