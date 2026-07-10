@@ -1,14 +1,2 @@
 Jugador_Local,Jugador_Visitante,Fecha,Hora_Aprox,Torneo,Torneo_ID_Sofascore,Categoria,Superficie,Ronda,Jugador_Local_ID_Sofascore,Jugador_Visitante_ID_Sofascore,Event_ID_Sofascore,Category_ID,Ranking_Local,Ranking_Visitante,Seed_Local,Seed_Visitante,Estado,Pais_Torneo,Numero_Ronda
-Alexis Galarneau,Daniel Milavsky,2026-07-11,10:00,"ATP Challenger Newport, USA Men Singles",27738,Challenger,Unknown,Quarterfinals,187236,335632,16425115,72,179,367,,,notstarted,,27
-Arthur Gea,Adam Walton,2026-07-11,10:00,"ATP Challenger Newport, USA Men Singles",27738,Challenger,Unknown,Quarterfinals,383987,207575,16425103,72,136,85,,,notstarted,,27
-Liam Broady,Alex Michelsen,2026-07-11,10:00,"ATP Challenger Newport, USA Men Singles",27738,Challenger,Unknown,Quarterfinals,47764,406728,16425109,72,209,46,,,notstarted,,27
-Juan Pablo Varillas,Matheus Pucinelli de Almeida,2026-07-11,10:00,"Bogota, Colombia",3577,Challenger,Unknown,Quarterfinals,72248,264978,16425123,72,308,397,,,notstarted,,27
-Lucas Andrade Da Silva,Matias Soto,2026-07-11,10:00,"Bogota, Colombia",3577,Challenger,Unknown,Quarterfinals,487313,241039,16425120,72,813,296,,,notstarted,,27
-Facundo Mena,Lorenzo Claverie,2026-07-11,10:00,"Bogota, Colombia",3577,Challenger,Unknown,Quarterfinals,38180,339453,16425126,72,354,,,,notstarted,,27
-Titouan Droguet,Gustavo Heide,2026-07-11,10:00,"Iasi, Romania ",15277,Challenger,Unknown,Quarterfinals,243925,302582,16425079,72,116,141,,,notstarted,,27
-Nikolas Sanchez Izquierdo,Hugo Dellien,2026-07-11,10:00,"Trieste, Italy",15263,Challenger,Unknown,Quarterfinals,193644,57289,16425146,72,214,162,,,notstarted,,27
-Karolina Muchova,Linda Noskova,2026-07-11,10:00,Wimbledon,2600,WTA,Unknown,Final,85077,274049,16385406,6,9,12,,,notstarted,,29
-Florian Broska,Felix Balshaw,2026-07-11,11:00,"ATP Challenger Liege, Belgium Men Singles",35857,Challenger,Unknown,Quarterfinals,203751,494195,16425062,72,353,259,,,notstarted,,27
-Valentin Royer,Taro Daniel,2026-07-11,11:10,"Iasi, Romania ",15277,Challenger,Unknown,Quarterfinals,255449,48632,16425077,72,75,203,,,notstarted,,27
-Nicolas Mejia,Hernan Casanova,2026-07-11,12:00,"Bogota, Colombia",3577,Challenger,Unknown,Quarterfinals,187218,54975,16425121,72,165,409,,,notstarted,,27
-Henry Bernet,Federico Bondioli,2026-07-11,13:00,"Trieste, Italy",15263,Challenger,Unknown,Quarterfinals,466210,407383,16425157,72,458,363,,,notstarted,,27
+Karolina Muchova,Linda Noskova,2026-07-12,10:00,Wimbledon,2600,WTA,Unknown,Final,85077,274049,16385406,6,9,12,,,notstarted,,29
