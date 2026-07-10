@@ -1,22 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15276305,Argentina,Primera B,1347,Primera B,,2026-07-10,13:00,Unknown,24,199311,Argentino de Merlo,194523,Argentino de Quilmes,,,notstarted,1783706400,2026-07-08
-15276302,Argentina,Primera B,1347,Primera B,,2026-07-10,13:00,Unknown,24,107201,Brown de Adrogué,265447,Ituzaingó,,,notstarted,1783706400,2026-07-08
-15276311,Argentina,Primera B,1347,Primera B,,2026-07-10,13:00,Unknown,24,192841,CSYD Liniers,36843,Sportivo Italiano,,,notstarted,1783706400,2026-07-08
-15276307,Argentina,Primera B,1347,Primera B,,2026-07-10,13:00,Unknown,24,65672,Excursionistas,112501,Club Comunicaciones,,,notstarted,1783706400,2026-07-08
-15276304,Argentina,Primera B,1347,Primera B,,2026-07-10,13:00,Unknown,24,201162,Talleres Remedios de Escalada,112505,CSD Flandria,,,notstarted,1783706400,2026-07-08
-15276309,Argentina,Primera B,1347,Primera B,,2026-07-10,13:00,Unknown,24,112507,UAI Urquiza,36840,Deportivo Merlo,,,notstarted,1783706400,2026-07-08
-15276308,Argentina,Primera B,1347,Primera B,,2026-07-10,13:00,Unknown,24,112509,Villa Dálmine,270405,CS Dock Sud,,,notstarted,1783706400,2026-07-08
-15238126,Ireland,Premier Division,192,Premier Division,,2026-07-10,13:45,Unknown,24,3179,Dundalk FC,3180,Drogheda United,,,notstarted,1783709100,2026-07-08
-15238128,Ireland,Premier Division,192,Premier Division,,2026-07-10,14:00,Unknown,24,3194,Waterford FC,3169,St. Patrick's Athletic,,,notstarted,1783710000,2026-07-08
-12812994,World,"World Championship, Knockout",16,"World Championship, Knockout",,2026-07-10,14:00,Unknown,27,4698,Spain,4717,Belgium,,,notstarted,1783710000,2026-07-08
-15442496,Iceland,Iceland 1. deild,675,Iceland 1. deild,,2026-07-10,14:15,Unknown,13,70092,Aegir,7121,HK Kópavogur,,,notstarted,1783710900,2026-07-08
-15442498,Iceland,Iceland 1. deild,675,Iceland 1. deild,,2026-07-10,14:15,Unknown,13,36057,Leiknir Reykjavík,41099,Grótta,,,notstarted,1783710900,2026-07-08
-15442499,Iceland,Iceland 1. deild,675,Iceland 1. deild,,2026-07-10,14:15,Unknown,13,283759,UMF Njarðvík,1897,UMF Grindavík ,,,notstarted,1783710900,2026-07-08
-15442497,Iceland,Iceland 1. deild,675,Iceland 1. deild,,2026-07-10,14:15,Unknown,13,1907,ÍR Reykjavík,1910,Thróttur Reykjavík,,,notstarted,1783710900,2026-07-08
-15526177,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-10,17:00,Unknown,17,1980,Juventude,2021,Vila Nova FC,,,notstarted,1783720800,2026-07-08
-15502589,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-10,17:00,Unknown,18,388234,Leones del Norte,21942,Universidad Católica del Ecuador,,,notstarted,1783720800,2026-07-08
-16433585,Uruguay,"Liga AUF Uruguaya, Intermedio, Serie B",278,"Liga AUF Uruguaya, Intermedio, Serie B",,2026-07-10,17:00,Unknown,5,3234,Deportivo Maldonado,278204,Albion FC,,,notstarted,1783720800,2026-07-08
-15526175,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-10,18:00,Unknown,17,1959,Sport Recife,1979,Botafogo-SP,,,notstarted,1783724400,2026-07-08
 15388509,USA,NWSL,1690,NWSL,,2026-07-10,19:00,Unknown,1,1165118,Boston Legacy FC,34714,Chicago Stars FC,,,notstarted,1783728000,2026-07-08
 15388507,USA,NWSL,1690,NWSL,,2026-07-10,19:00,Unknown,1,215083,Orlando Pride,377826,Kansas City Current,,,notstarted,1783728000,2026-07-08
 15388508,USA,NWSL,1690,NWSL,,2026-07-10,19:00,Unknown,1,377825,Racing Louisville,505655,Bay FC,,,notstarted,1783728000,2026-07-08
