@@ -1,13 +1,23 @@
 Jugador_Local,Jugador_Visitante,Fecha,Hora_Aprox,Torneo,Torneo_ID_Sofascore,Categoria,Superficie,Ronda,Jugador_Local_ID_Sofascore,Jugador_Visitante_ID_Sofascore,Event_ID_Sofascore,Category_ID,Ranking_Local,Ranking_Visitante,Seed_Local,Seed_Visitante,Estado,Pais_Torneo,Numero_Ronda
-Alexandra Panagiotidou,Anastasia Kulikova,2026-07-12,02:00,"WTA Athens, Greece Women Singles",35974,WTA,Unknown,Qualification Round 1,1127088,165006,16486133,6,,450,,,notstarted,,1
-Artemis Aslanisvili,Madison Sieg,2026-07-12,02:00,"WTA Athens, Greece Women Singles",35974,WTA,Unknown,Qualification Round 1,455196,280202,16486139,6,,397,,,notstarted,,1
-Elena Mićić,Makoto Ninomiya,2026-07-12,02:00,"WTA Athens, Greece Women Singles",35974,WTA,Unknown,Qualification Round 1,353542,60668,16486134,6,310,,,,notstarted,,1
-Maria Rentoumi,Miriana Tona,2026-07-12,02:00,"WTA Athens, Greece Women Singles",35974,WTA,Unknown,Qualification Round 1,1246710,104929,16486137,6,,379,,,notstarted,,1
-Mina Hodzic,Hao-Ching Chan,2026-07-12,02:00,"WTA Athens, Greece Women Singles",35974,WTA,Unknown,Qualification Round 1,222977,48625,16486131,6,333,,,,notstarted,,1
-Qianhui Tang,Elina Nepliy,2026-07-12,02:00,"WTA Athens, Greece Women Singles",35974,WTA,Unknown,Qualification Round 1,191092,111767,16486135,6,1388,502,,,notstarted,,1
-Eleni Tsetsou,Yasmine Mansouri,2026-07-12,08:00,"WTA Athens, Greece Women Singles",35974,WTA,Unknown,Qualification Round 1,935227,208061,16486138,6,,389,,,notstarted,,1
+Elena Mićić,Makoto Ninomiya,2026-07-12,09:10,"WTA Athens, Greece Women Singles",35974,WTA,Unknown,Qualification Round 1,353542,60668,16486134,6,310,,,,notstarted,,1
+Maria Rentoumi,Miriana Tona,2026-07-12,09:10,"WTA Athens, Greece Women Singles",35974,WTA,Unknown,Qualification Round 1,1246710,104929,16486137,6,,379,,,notstarted,,1
 Ekaterina Yashina,Lina Glushko,2026-07-12,09:10,"WTA Athens, Greece Women Singles",35974,WTA,Unknown,Qualification Round 1,41359,195315,16486130,6,554,524,,,notstarted,,1
+Henry Bernet,Hugo Dellien,2026-07-12,09:30,"Trieste, Italy",15263,Challenger,Unknown,Semifinals,466210,57289,16425161,72,458,162,,,notstarted,,28
+Adam Walton,Alex Michelsen,2026-07-12,10:00,"ATP Challenger Newport, USA Men Singles",27738,Challenger,Unknown,Semifinals,207575,406728,16425127,72,85,46,,,notstarted,,28
 Matias Soto,Lorenzo Claverie,2026-07-12,10:00,"Bogota, Colombia",3577,Challenger,Unknown,Semifinals,241039,339453,16425118,72,296,,,,notstarted,,28
+Valentin Royer,Titouan Droguet,2026-07-12,10:00,"Iasi, Romania ",15277,Challenger,Unknown,Semifinals,255449,243925,16425135,72,75,116,,,notstarted,,28
+Luca Nardi,Andrea Guerrieri,2026-07-12,10:00,Umag,2426,ATP,Unknown,Qualification Round 1,289233,190877,16487198,3,166,227,,,notstarted,,1
+Marco Cecchinato,Duje Ajduković,2026-07-12,10:00,Umag,2426,ATP,Unknown,Qualification Round 1,44549,207081,16487195,3,195,281,,,notstarted,,1
+Marko Topo,Pol Martin Tiffon,2026-07-12,10:00,Umag,2426,ATP,Unknown,Qualification Round 1,348701,217448,16487078,3,350,218,,,notstarted,,1
+Noa Vukadin,Genaro Alberto Olivieri,2026-07-12,10:00,Umag,2426,ATP,Unknown,Qualification Round 1,349320,169486,16487197,3,710,201,,,notstarted,,1
 Jannik Sinner,Alexander Zverev,2026-07-12,10:00,"Wimbledon, Men",2361,ATP,Unknown,Final,206570,57163,16385361,3,1,3,,,notstarted,,29
 Karolina Muchova,Linda Noskova,2026-07-12,10:00,"Wimbledon, Women",2600,WTA,Unknown,Final,85077,274049,16385406,6,9,12,,,notstarted,,29
+Alexandra Panagiotidou,Anastasia Kulikova,2026-07-12,10:20,"WTA Athens, Greece Women Singles",35974,WTA,Unknown,Qualification Round 1,1127088,165006,16486133,6,,450,,,notstarted,,1
+Qianhui Tang,Elina Nepliy,2026-07-12,10:20,"WTA Athens, Greece Women Singles",35974,WTA,Unknown,Qualification Round 1,191092,111767,16486135,6,1388,502,,,notstarted,,1
 Viktoria Morvayova,Franziska Sziedat,2026-07-12,10:20,"WTA Athens, Greece Women Singles",35974,WTA,Unknown,Qualification Round 1,193083,204811,16486136,6,303,684,,,notstarted,,1
+Juan Carlos Prado Angelo,Marc Majdandzic,2026-07-12,11:10,Umag,2426,ATP,Unknown,Qualification Round 1,392072,482118,16487200,3,181,819,,,notstarted,,1
+Lukas Neumayer,Mili Poljičak,2026-07-12,11:10,Umag,2426,ATP,Unknown,Qualification Round 1,339450,342975,16487194,3,167,347,,,notstarted,,1
+Norbert Gombos,Nikolas Sanchez Izquierdo,2026-07-12,11:10,Umag,2426,ATP,Unknown,Qualification Round 1,50139,193644,16487199,3,364,214,,,notstarted,,1
+Raul Brancaccio,Federico Agustin Gomez,2026-07-12,11:10,Umag,2426,ATP,Unknown,Qualification Round 1,201847,146040,16487201,3,248,212,,,notstarted,,1
+Nicolas Mejia,Juan Pablo Varillas,2026-07-12,12:00,"Bogota, Colombia",3577,Challenger,Unknown,Semifinals,187218,72248,16425124,72,165,308,,,notstarted,,28
+Alexis Galarneau,Jacob Fearnley,2026-07-12,13:30,"ATP Challenger Newport, USA Men Singles",27738,Challenger,Unknown,Semifinals,187236,275948,16425129,72,179,159,,,notstarted,,28
