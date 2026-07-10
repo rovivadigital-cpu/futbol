@@ -1,14 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15481688,Finland,Ykkonen,22020,Ykkonen,,2026-07-10,09:30,Unknown,1,283350,Inter Turku/2,2250,RoPS,,,notstarted,1783693800,2026-07-08
-15341267,Finland,Ykkosliiga,55,Ykkosliiga,,2026-07-10,10:30,Unknown,13,2255,KTP,23422,JäPS,,,notstarted,1783697400,2026-07-08
-15481689,Finland,Ykkonen,22020,Ykkonen,,2026-07-10,10:30,Unknown,1,2241,Tampere United,22394,SalPa,,,notstarted,1783697400,2026-07-08
-15276310,Argentina,Primera B,1347,Primera B,,2026-07-10,11:00,Unknown,24,266250,Real Pilar,253807,Camioneros,,,notstarted,1783699200,2026-07-08
-15276312,Argentina,Primera B,1347,Primera B,,2026-07-10,11:00,Unknown,24,107199,Villa San Carlos,269780,San Martin de Burzaco,,,notstarted,1783699200,2026-07-08
-15432361,Estonia,Premium Liiga,178,Premium Liiga,,2026-07-10,11:00,Unknown,19,197994,Harju Jalgpallikool,3343,Narva Trans,,,notstarted,1783699200,2026-07-08
-15272783,Finland,Veikkausliiga,41,Veikkausliiga,,2026-07-10,11:00,Unknown,,2246,VPS,22395,SJK,,,notstarted,1783699200,2026-07-08
-15341270,Finland,Ykkosliiga,55,Ykkosliiga,,2026-07-10,11:00,Unknown,14,50525,PK-35,2273,KäPa,,,notstarted,1783699200,2026-07-08
-15276306,Argentina,Primera B,1347,Primera B,,2026-07-10,12:00,Unknown,24,3221,Arsenal de Sarandí,93515,Defensores Unidos,,,notstarted,1783702800,2026-07-08
-15276303,Argentina,Primera B,1347,Primera B,,2026-07-10,12:00,Unknown,24,228062,Deportivo Laferrere,93105,Deportivo Armenio,,,notstarted,1783702800,2026-07-08
 15276305,Argentina,Primera B,1347,Primera B,,2026-07-10,13:00,Unknown,24,199311,Argentino de Merlo,194523,Argentino de Quilmes,,,notstarted,1783706400,2026-07-08
 15276302,Argentina,Primera B,1347,Primera B,,2026-07-10,13:00,Unknown,24,107201,Brown de Adrogué,265447,Ituzaingó,,,notstarted,1783706400,2026-07-08
 15276311,Argentina,Primera B,1347,Primera B,,2026-07-10,13:00,Unknown,24,192841,CSYD Liniers,36843,Sportivo Italiano,,,notstarted,1783706400,2026-07-08
