@@ -1,29 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16388558,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-11,13:00,Unknown,20,36834,All Boys,43740,Almirante Brown,,,notstarted,1783792800,2026-07-09
-16388575,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-11,13:00,Unknown,20,34976,Atlético de Rafaela,213042,Deportivo Maipú,,,notstarted,1783792800,2026-07-09
-15275726,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-11,13:00,Unknown,20,93109,Deportivo Morón,222120,Deportivo Madryn,,,notstarted,1783792800,2026-07-09
-16388564,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-11,13:00,Unknown,20,93107,Estudiantes de Buenos Aires,255425,CA Mitre,,,notstarted,1783792800,2026-07-09
-16388559,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-11,13:00,Unknown,20,112497,Los Andes,340432,Ciudad de Bolivar,,,notstarted,1783792800,2026-07-09
-16388555,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-11,13:00,Unknown,20,264945,San Miguel,36841,Club Ferro Carril Oeste,,,notstarted,1783792800,2026-07-09
-16388553,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-11,13:00,Unknown,20,213361,San Telmo,252726,Chaco For Ever,,,notstarted,1783792800,2026-07-09
-16388569,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-11,13:00,Unknown,20,93513,Tristán Suárez,3200,Nueva Chicago,,,notstarted,1783792800,2026-07-09
-16433578,Uruguay,"Liga AUF Uruguaya, Intermedio, Serie B",278,"Liga AUF Uruguaya, Intermedio, Serie B",,2026-07-11,13:00,Unknown,5,3228,Danubio,3230,Nacional,,,notstarted,1783792800,2026-07-09
-16388568,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-11,14:00,Unknown,20,224646,Güemes,7772,San Martín de San Juan,,,notstarted,1783796400,2026-07-09
-16189832,Bolivia,División Profesional,16736,División Profesional,,2026-07-11,14:00,Unknown,13,423188,Academia de Balompié Boliviano,423186,CDT Real Oruro,,,postponed,1783796400,2026-07-09
-16389928,Bolivia,División Profesional,16736,División Profesional,,2026-07-11,14:00,Unknown,10,423186,CDT Real Oruro,505268,GV San José,,,notstarted,1783796400,2026-07-09
-15502591,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-11,14:10,Unknown,18,134976,Mushuc Runa SC,39723,Independiente del Valle,,,notstarted,1783797000,2026-07-09
-15275748,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-11,15:00,Unknown,21,112491,Acassuso,213361,San Telmo,,,postponed,1783800000,2026-07-09
-15275745,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-11,15:00,Unknown,21,255426,Central Norte de Salta,93109,Deportivo Morón,,,postponed,1783800000,2026-07-09
-15275742,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-11,15:00,Unknown,21,340432,Ciudad de Bolivar,36834,All Boys,,,postponed,1783800000,2026-07-09
-15275746,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-11,15:00,Unknown,21,36841,Club Ferro Carril Oeste,3207,Club Atletico Colón,,,postponed,1783800000,2026-07-09
-15275754,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-11,15:00,Unknown,21,112499,Temperley,34976,Atlético de Rafaela,,,postponed,1783800000,2026-07-09
-12813017,World,"FIFA World Cup, Knockout",16,"FIFA World Cup, Knockout",,2026-07-11,16:00,Unknown,27,4475,Norway,4713,England,,,notstarted,1783803600,2026-07-09
-16433582,Uruguay,"Liga AUF Uruguaya, Intermedio, Serie B",278,"Liga AUF Uruguaya, Intermedio, Serie B",,2026-07-11,16:00,Unknown,5,3240,Montevideo Wanderers,3238,Progreso,,,notstarted,1783803600,2026-07-09
-15388515,USA,NWSL,1690,NWSL,,2026-07-11,17:30,Unknown,1,49787,North Carolina Courage,151012,Washington Spirit,,,notstarted,1783809000,2026-07-09
-15502593,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-11,18:00,Unknown,18,188850,Guayaquil City,213638,Delfín,,,notstarted,1783810800,2026-07-09
-15421076,USA,MLS Next Pro,18641,MLS Next Pro,,2026-07-11,18:00,Unknown,1,277127,Atlanta United 2,411364,Inter Miami CF II,,,notstarted,1783810800,2026-07-09
-15421078,USA,MLS Next Pro,18641,MLS Next Pro,,2026-07-11,18:00,Unknown,1,467299,Crown Legacy FC,411368,New York City FC II,,,notstarted,1783810800,2026-07-09
-15421077,USA,MLS Next Pro,18641,MLS Next Pro,,2026-07-11,18:00,Unknown,1,407234,Houston Dynamo 2,411361,Saint Louis City SC 2,,,notstarted,1783810800,2026-07-09
 15657440,New Zealand,Southern League,594,Southern League,,2026-07-11,19:00,Unknown,13,378303,Coastal Spirit,378137,Nomads United AFC,,,notstarted,1783814400,2026-07-09
 15421082,USA,MLS Next Pro,18641,MLS Next Pro,,2026-07-11,19:00,Unknown,1,411369,Colorado Rapids 2,312635,North Texas SC,,,notstarted,1783814400,2026-07-09
 15388512,USA,NWSL,1690,NWSL,,2026-07-11,19:45,Unknown,1,408170,San Diego Wave FC,408169,Angel City FC,,,notstarted,1783817100,2026-07-09
