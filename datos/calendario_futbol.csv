@@ -1,24 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15388509,USA,NWSL,1690,NWSL,,2026-07-10,19:00,Unknown,1,1165118,Boston Legacy FC,34714,Chicago Stars FC,,,notstarted,1783728000,2026-07-08
-15388507,USA,NWSL,1690,NWSL,,2026-07-10,19:00,Unknown,1,215083,Orlando Pride,377826,Kansas City Current,,,notstarted,1783728000,2026-07-08
-15388508,USA,NWSL,1690,NWSL,,2026-07-10,19:00,Unknown,1,377825,Racing Louisville,505655,Bay FC,,,notstarted,1783728000,2026-07-08
-15502592,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-10,19:15,Unknown,18,21941,Técnico Universitario,6001,Macará,,,notstarted,1783728900,2026-07-08
-15657427,New Zealand,Central League,594,Central League,,2026-07-10,19:30,Unknown,13,411578,Western Suburbs FC,508950,Island Bay United,,,notstarted,1783729800,2026-07-08
-15657428,New Zealand,Southern League,594,Southern League,,2026-07-10,19:45,Unknown,13,389659,Dunedin City Royals FC,379338,Selwyn United FC,,,notstarted,1783730700,2026-07-08
-15657429,New Zealand,Central League,594,Central League,,2026-07-10,20:00,Unknown,13,378944,Wellington Olympic,1176792,FC Western,,,notstarted,1783731600,2026-07-08
-15657433,New Zealand,Northern League,594,Northern League,,2026-07-10,21:00,Unknown,16,508949,Tauranga City AFC,1079629,Auckland FC Reserves,,,notstarted,1783735200,2026-07-08
-15388510,USA,NWSL,1690,NWSL,,2026-07-10,21:00,Unknown,1,278067,Utah Royals FC,34718,NJ/NY Gotham FC,,,notstarted,1783735200,2026-07-08
-15657430,New Zealand,Central League,594,Central League,,2026-07-10,21:30,Unknown,13,261131,Miramar Rangers,182819,Wellington Phoenix Reserve,,,notstarted,1783737000,2026-07-08
-15657431,New Zealand,Central League,594,Central League,,2026-07-10,21:30,Unknown,13,380147,Waterside Karori,379307,FC Petone,,,notstarted,1783737000,2026-07-08
-15657432,New Zealand,Southern League,594,Southern League,,2026-07-10,21:45,Unknown,13,378872,Cashmere Technical,1079631,Wanaka AFC,,,notstarted,1783737900,2026-07-08
-15657434,New Zealand,Northern League,594,Northern League,,2026-07-10,22:00,Unknown,16,284073,Birkenhead United,381039,Auckland United FC,,,notstarted,1783738800,2026-07-08
-15657438,New Zealand,Northern League,594,Northern League,,2026-07-10,22:00,Unknown,16,1079630,Fencibles United FC,288024,East Coast Bays,,,notstarted,1783738800,2026-07-08
-15657435,New Zealand,Northern League,594,Northern League,,2026-07-10,22:00,Unknown,16,382394,Melville United AFC,290000,Bay Olympic,,,notstarted,1783738800,2026-07-08
-15640268,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-07-10,23:30,Unknown,17,91570,Canberra Olympic,1085648,Canberra White Eagles FC,,,notstarted,1783744200,2026-07-08
-15640269,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-07-11,00:00,Unknown,17,91568,Canberra Croatia FC,466742,Brindabella Blues FC,,,notstarted,1783746000,2026-07-08
-15640270,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-07-11,00:00,Unknown,17,520573,Canberra Juventus,408162,O'Connor Knights,,,notstarted,1783746000,2026-07-08
-15640271,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-07-11,00:00,Unknown,17,91576,Tuggeranong United,91564,Belconnen United FC,,,notstarted,1783746000,2026-07-08
-15657437,New Zealand,Northern League,594,Northern League,,2026-07-11,00:30,Unknown,16,381038,Western Springs AFC,234864,Eastern Suburbs,,,notstarted,1783747800,2026-07-08
 15657436,New Zealand,Southern League,594,Southern League,,2026-07-11,01:00,Unknown,13,378136,Christchurch United,378302,Ferrymead Bays FC,,,notstarted,1783749600,2026-07-08
 15657439,New Zealand,Northern League,594,Northern League,,2026-07-11,01:30,Unknown,16,381989,Manukau United FC,6909,Auckland City,,,notstarted,1783751400,2026-07-08
 15640272,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-07-11,03:00,Unknown,17,91572,Tigers FC,1083016,Queanbeyan City FC,,,notstarted,1783756800,2026-07-08
@@ -155,3 +135,17 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16177627,Canada,Canadian Championship,9230,Canadian Championship,,2026-07-12,18:30,Unknown,27,22006,CF Montréal,463097,Vancouver FC,,,notstarted,1783899000,2026-07-10
 15421080,USA,MLS Next Pro,18641,MLS Next Pro,,2026-07-12,19:00,Unknown,1,411519,San Jose Earthquakes II,197062,Tacoma Defiance,,,notstarted,1783900800,2026-07-10
 15421086,USA,MLS Next Pro,18641,MLS Next Pro,,2026-07-12,19:30,Unknown,1,467301,Austin FC II,411366,Minnesota United FC 2,,,notstarted,1783902600,2026-07-10
+16273085,Lithuania,TOPLYGA,198,TOPLYGA,,2026-07-13,10:45,Unknown,22,5345,FK Žalgiris,5343,FK Sūduva Marijampolė,,,postponed,1783957500,2026-07-11
+15514307,Estonia,Esiliiga,678,Esiliiga,,2026-07-13,11:00,Unknown,19,37528,Maardu Linnameeskond,42740,Tartu JK Welco,,,notstarted,1783958400,2026-07-11
+15272449,Sweden,Allsvenskan,40,Allsvenskan,,2026-07-13,12:00,Unknown,12,1759,Djurgårdens IF,1767,Halmstads BK,,,notstarted,1783962000,2026-07-11
+16189856,Bolivia,División Profesional,16736,División Profesional,,2026-07-13,14:00,Unknown,13,268082,Club FC Universitario,7060,Real Potosí,,,postponed,1783969200,2026-07-11
+15442501,Iceland,Iceland 1. deild,675,Iceland 1. deild,,2026-07-13,15:15,Unknown,13,221305,IF Vestri,1896,Fylkir Reykjavík,,,notstarted,1783973700,2026-07-11
+16189855,Bolivia,División Profesional,16736,División Profesional,,2026-07-13,17:00,Unknown,13,505268,GV San José,396625,CD San Antonio,,,postponed,1783980000,2026-07-11
+15526170,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-13,17:00,Unknown,17,1973,América Mineiro,2022,Londrina,,,notstarted,1783980000,2026-07-11
+16433574,Uruguay,"Liga AUF Uruguaya, Intermedio, Serie A",278,"Liga AUF Uruguaya, Intermedio, Serie A",,2026-07-13,17:00,Unknown,5,25009,Cerro Largo,3229,Defensor Sporting,,,notstarted,1783980000,2026-07-11
+15617696,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-07-13,17:30,Unknown,14,21853,AO Itabaiana,21884,Brusque,,,notstarted,1783981800,2026-07-11
+15526172,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-13,18:30,Unknown,17,2001,Ceará,342775,Athletic Club,,,notstarted,1783985400,2026-07-11
+15617697,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-07-13,18:30,Unknown,14,1985,Figueirense,6982,Volta Redonda,,,notstarted,1783985400,2026-07-11
+16388572,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-13,19:00,Unknown,20,53799,Atlanta,112493,Colegiales,,,notstarted,1783987200,2026-07-11
+16189857,Bolivia,División Profesional,16736,División Profesional,,2026-07-13,19:00,Unknown,13,372975,Club Independiente Petrolero,33714,Club Aurora,,,postponed,1783987200,2026-07-11
+16177629,Canada,Canadian Championship,9230,Canadian Championship,,2026-07-13,20:30,Unknown,27,309889,Cavalry FC,22010,Vancouver Whitecaps,,,notstarted,1783992600,2026-07-11
