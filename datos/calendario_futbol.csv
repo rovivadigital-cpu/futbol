@@ -1,29 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15272784,Finland,Veikkausliiga,41,Veikkausliiga,,2026-07-11,07:00,Unknown,,2249,FC Lahti,2242,HJK,,,notstarted,1783771200,2026-07-08
-15260832,Norway,Eliteserien,20,Eliteserien,,2026-07-11,07:00,Unknown,13,687,Fredrikstad FK,664,Lillestrøm SK,,,notstarted,1783771200,2026-07-08
-15341271,Finland,Ykkosliiga,55,Ykkosliiga,,2026-07-11,08:00,Unknown,14,2240,FC Haka,22372,EIF,,,notstarted,1783774800,2026-07-08
-15341269,Finland,Ykkosliiga,55,Ykkosliiga,,2026-07-11,08:00,Unknown,14,89908,SJK Akatemia,5115,MP,,,notstarted,1783774800,2026-07-08
-15481690,Finland,Ykkonen,22020,Ykkonen,,2026-07-11,08:00,Unknown,1,22393,PK Keski-Uusimaa,35395,FC Jazz,,,notstarted,1783774800,2026-07-08
-15272454,Sweden,Allsvenskan,40,Allsvenskan,,2026-07-11,08:00,Unknown,12,1783,Mjällby AIF,1764,AIK,,,notstarted,1783774800,2026-07-08
-16433584,Uruguay,"Liga AUF Uruguaya, Intermedio, Serie B",278,"Liga AUF Uruguaya, Intermedio, Serie B",,2026-07-11,08:00,Unknown,5,3224,Juventud de Las Piedras,174972,Montevideo City Torque,,,notstarted,1783774800,2026-07-08
-15617704,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-07-11,09:00,Unknown,14,2000,Caxias,274286,Floresta,,,notstarted,1783778400,2026-07-09
-15432362,Estonia,Premium Liiga,178,Premium Liiga,,2026-07-11,09:00,Unknown,19,37572,FC Nõmme United,7106,FC Kuressaare,,,notstarted,1783778400,2026-07-09
-15272785,Finland,Veikkausliiga,41,Veikkausliiga,,2026-07-11,09:00,Unknown,,2271,IF Gnistan,5058,IFK Mariehamn,,,notstarted,1783778400,2026-07-09
-15272786,Finland,Veikkausliiga,41,Veikkausliiga,,2026-07-11,09:00,Unknown,,2254,Turun Palloseura,5114,AC Oulu,,,notstarted,1783778400,2026-07-09
-15481693,Finland,Ykkonen,22020,Ykkonen,,2026-07-11,09:00,Unknown,1,7298,JJK Jyväskylä,41819,KuPS Akatemia,,,notstarted,1783778400,2026-07-09
-15481691,Finland,Ykkonen,22020,Ykkonen,,2026-07-11,09:00,Unknown,1,2256,KPV,2269,TPV,,,notstarted,1783778400,2026-07-09
-15481692,Finland,Ykkonen,22020,Ykkonen,,2026-07-11,09:00,Unknown,1,283886,VJS,5116,OLS Oulu,,,notstarted,1783778400,2026-07-09
-15442500,Iceland,Iceland 1. deild,675,Iceland 1. deild,,2026-07-11,09:00,Unknown,13,5372,IF Völsungur,1914,UMF Afturelding,,,notstarted,1783778400,2026-07-09
-15260844,Norway,Eliteserien,20,Eliteserien,,2026-07-11,09:00,Unknown,13,677,Aalesunds FK,661,Molde FK,,,notstarted,1783778400,2026-07-09
-15272453,Sweden,Allsvenskan,40,Allsvenskan,,2026-07-11,10:30,Unknown,12,1766,Örgryte IS,1760,BK Häcken,,,notstarted,1783783800,2026-07-09
-15514304,Estonia,Esiliiga,678,Esiliiga,,2026-07-11,11:00,Unknown,19,36075,FCI Levadia Tallinn U21,7105,Tallinna Kalev,,,notstarted,1783785600,2026-07-09
-15514303,Estonia,Esiliiga,678,Esiliiga,,2026-07-11,11:00,Unknown,19,283728,FC Tallinn,37534,FC Elva,,,notstarted,1783785600,2026-07-09
-16185188,Estonia,Esiliiga,678,Esiliiga,,2026-07-11,11:00,Unknown,19,44459,Viimsi JK,37570,Nõmme Kalju U21,,,notstarted,1783785600,2026-07-09
-15341272,Finland,Ykkosliiga,55,Ykkosliiga,,2026-07-11,11:00,Unknown,14,5918,HJK Klubi 04,2263,Jippo Joensuu,,,notstarted,1783785600,2026-07-09
-15238127,Ireland,Premier Division,192,Premier Division,,2026-07-11,11:00,Unknown,24,137382,Galway United,3190,Sligo Rovers,,,notstarted,1783785600,2026-07-09
-16273089,Lithuania,TOPLYGA,198,TOPLYGA,,2026-07-11,11:00,Unknown,22,80741,FK Kauno Žalgiris,192763,FK Panevėžys,,,notstarted,1783785600,2026-07-09
-15260840,Norway,Eliteserien,20,Eliteserien,,2026-07-11,11:00,Unknown,13,660,Tromsø IL,1165,Vålerenga IF,,,notstarted,1783785600,2026-07-09
-15502594,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-11,12:00,Unknown,18,33561,Manta FC,277525,Orense SC,,,notstarted,1783789200,2026-07-09
 16388558,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-11,13:00,Unknown,20,36834,All Boys,43740,Almirante Brown,,,notstarted,1783792800,2026-07-09
 16388575,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-11,13:00,Unknown,20,34976,Atlético de Rafaela,213042,Deportivo Maipú,,,notstarted,1783792800,2026-07-09
 15275726,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-11,13:00,Unknown,20,93109,Deportivo Morón,222120,Deportivo Madryn,,,notstarted,1783792800,2026-07-09
