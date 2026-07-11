@@ -1,16 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15657436,New Zealand,Southern League,594,Southern League,,2026-07-11,01:00,Unknown,13,378136,Christchurch United,378302,Ferrymead Bays FC,,,notstarted,1783749600,2026-07-08
-15657439,New Zealand,Northern League,594,Northern League,,2026-07-11,01:30,Unknown,16,381989,Manukau United FC,6909,Auckland City,,,notstarted,1783751400,2026-07-08
-15640272,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-07-11,03:00,Unknown,17,91572,Tigers FC,1083016,Queanbeyan City FC,,,notstarted,1783756800,2026-07-08
-15389372,Australia,Queensland NPL,1268,Queensland NPL,,2026-07-11,03:00,Unknown,18,504568,Moreton City Excelsior FC,251786,Magic United TFA,,,notstarted,1783756800,2026-07-08
-15373019,South Korea,K League 1,410,K League 1,,2026-07-11,05:30,Unknown,17,7647,Gimcheon Sangmu FC,92539,Bucheon FC 1995,,,notstarted,1783765800,2026-07-08
-15373023,South Korea,K League 1,410,K League 1,,2026-07-11,05:30,Unknown,17,48912,Gwangju FC,7650,Pohang Steelers,,,notstarted,1783765800,2026-07-08
-15373029,South Korea,K League 1,410,K League 1,,2026-07-11,05:30,Unknown,17,7653,Ulsan HD,6908,Jeonbuk Hyundai Motors,,,notstarted,1783765800,2026-07-08
-15403908,South Korea,K-League 2,777,K-League 2,,2026-07-11,05:30,Unknown,17,248375,Ansan Greeners FC,7652,Suwon Samsung Bluewings,,,notstarted,1783765800,2026-07-08
-15403909,South Korea,K-League 2,777,K-League 2,,2026-07-11,05:30,Unknown,17,7644,Daegu FC,7651,Seongnam FC,,,notstarted,1783765800,2026-07-08
-15403915,South Korea,K-League 2,777,K-League 2,,2026-07-11,05:30,Unknown,17,195174,Hwaseong FC,314294,Paju Frontier FC,,,notstarted,1783765800,2026-07-08
-16303039,South Korea,K-League 2,777,K-League 2,,2026-07-11,05:30,Unknown,17,1236533,Yongin FC,314293,Cheongju FC,,,notstarted,1783765800,2026-07-08
-15432363,Estonia,Premium Liiga,178,Premium Liiga,,2026-07-11,06:30,Unknown,19,247090,Pärnu JK Vaprus,138566,Tartu JK Tammeka,,,notstarted,1783769400,2026-07-08
 15272784,Finland,Veikkausliiga,41,Veikkausliiga,,2026-07-11,07:00,Unknown,,2249,FC Lahti,2242,HJK,,,notstarted,1783771200,2026-07-08
 15260832,Norway,Eliteserien,20,Eliteserien,,2026-07-11,07:00,Unknown,13,687,Fredrikstad FK,664,Lillestrøm SK,,,notstarted,1783771200,2026-07-08
 15341271,Finland,Ykkosliiga,55,Ykkosliiga,,2026-07-11,08:00,Unknown,14,2240,FC Haka,22372,EIF,,,notstarted,1783774800,2026-07-08
