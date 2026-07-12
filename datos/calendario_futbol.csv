@@ -1,11 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15389376,Australia,Queensland NPL,1268,Queensland NPL,,2026-07-12,01:30,Unknown,18,274746,Gold Coast Knights,91920,Brisbane City,,,notstarted,1783837800,2026-07-09
-15389377,Australia,Queensland NPL,1268,Queensland NPL,,2026-07-12,02:00,Unknown,18,47708,Queensland Lions FC,91136,Eastern Suburbs,,,notstarted,1783839600,2026-07-09
-15373024,South Korea,K League 1,410,K League 1,,2026-07-12,05:30,Unknown,17,7646,FC Seoul,34220,Gangwon FC,,,notstarted,1783852200,2026-07-09
-15373026,South Korea,K League 1,410,K League 1,,2026-07-12,05:30,Unknown,17,7648,Incheon United,32675,FC Anyang,,,notstarted,1783852200,2026-07-09
-15373022,South Korea,K League 1,410,K League 1,,2026-07-12,05:30,Unknown,17,7649,Jeju SK,7645,Daejeon Hana Citizen,,,notstarted,1783852200,2026-07-09
-15403919,South Korea,K-League 2,777,K-League 2,,2026-07-12,05:30,Unknown,17,7642,Busan I Park,195172,Gimpo FC,,,notstarted,1783852200,2026-07-09
-15403918,South Korea,K-League 2,777,K-League 2,,2026-07-12,05:30,Unknown,17,339827,Chungnam Asan FC,22020,Gyeongnam FC,,,notstarted,1783852200,2026-07-09
 15272451,Sweden,Allsvenskan,40,Allsvenskan,,2026-07-12,07:00,Unknown,12,1758,Hammarby IF,1891,Kalmar FF,,,notstarted,1783857600,2026-07-09
 15272456,Sweden,Allsvenskan,40,Allsvenskan,,2026-07-12,07:00,Unknown,12,1892,Malmö FF,1761,IFK Göteborg,,,notstarted,1783857600,2026-07-09
 15272457,Sweden,Allsvenskan,40,Allsvenskan,,2026-07-12,07:00,Unknown,12,1775,Västerås SK,1807,Degerfors IF,,,notstarted,1783857600,2026-07-09
