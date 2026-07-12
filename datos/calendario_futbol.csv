@@ -1,22 +1,5 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15272451,Sweden,Allsvenskan,40,Allsvenskan,,2026-07-12,07:00,Unknown,12,1758,Hammarby IF,1891,Kalmar FF,,,notstarted,1783857600,2026-07-09
-15272456,Sweden,Allsvenskan,40,Allsvenskan,,2026-07-12,07:00,Unknown,12,1892,Malmö FF,1761,IFK Göteborg,,,notstarted,1783857600,2026-07-09
-15272457,Sweden,Allsvenskan,40,Allsvenskan,,2026-07-12,07:00,Unknown,12,1775,Västerås SK,1807,Degerfors IF,,,notstarted,1783857600,2026-07-09
-15260834,Norway,Eliteserien,20,Eliteserien,,2026-07-12,07:30,Unknown,13,786,KFUM Oslo,656,Bodø/Glimt,,,notstarted,1783859400,2026-07-09
-15526171,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-12,09:00,Unknown,17,39634,Operário-PR,135514,Grêmio Novorizontino,,,notstarted,1783864800,2026-07-10
-15617700,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-07-12,09:00,Unknown,14,257673,Barra FC,1976,Santa Cruz,,,notstarted,1783864800,2026-07-10
-15617694,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-07-12,09:00,Unknown,14,135526,Inter de Limeira,336664,Amazonas FC,,,notstarted,1783864800,2026-07-10
-15272452,Sweden,Allsvenskan,40,Allsvenskan,,2026-07-12,09:30,Unknown,12,1786,GAIS,1762,IF Elfsborg,,,notstarted,1783866600,2026-07-10
-15272455,Sweden,Allsvenskan,40,Allsvenskan,,2026-07-12,09:30,Unknown,12,1787,IF Brommapojkarna,1793,IK Sirius,,,notstarted,1783866600,2026-07-10
-15260836,Norway,Eliteserien,20,Eliteserien,,2026-07-12,10:00,Unknown,13,1161,Rosenborg BK,957,Kristiansund BK,,,notstarted,1783868400,2026-07-10
-15260829,Norway,Eliteserien,20,Eliteserien,,2026-07-12,10:00,Unknown,13,1159,SK Brann,667,IK Start,,,notstarted,1783868400,2026-07-10
-15260838,Norway,Eliteserien,20,Eliteserien,,2026-07-12,10:00,Unknown,13,676,Sandefjord Fotball,666,HamKam,,,notstarted,1783868400,2026-07-10
-16433575,Uruguay,"Liga AUF Uruguaya, Intermedio, Serie A",278,"Liga AUF Uruguaya, Intermedio, Serie A",,2026-07-12,10:00,Unknown,5,6879,Liverpool UY,22011,CA Cerro,,,notstarted,1783868400,2026-07-10
-16273093,Lithuania,TOPLYGA,198,TOPLYGA,,2026-07-12,10:45,Unknown,22,411452,FK Transinvest,35388,FK Banga Gargždai,,,notstarted,1783871100,2026-07-10
-15514306,Estonia,Esiliiga,678,Esiliiga,,2026-07-12,11:00,Unknown,19,383797,FC Nõmme United U21,36074,Flora Tallinn U21,,,notstarted,1783872000,2026-07-10
 16273082,Lithuania,TOPLYGA,198,TOPLYGA,,2026-07-12,11:00,Unknown,13,312564,Šiauliai FA,171484,FC Hegelmann,,,postponed,1783872000,2026-07-10
-15502595,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-12,12:00,Unknown,18,5257,LDU,394127,Libertad,,,notstarted,1783875600,2026-07-10
-15260839,Norway,Eliteserien,20,Eliteserien,,2026-07-12,12:15,Unknown,13,822,Sarpsborg 08,1164,Viking FK,,,notstarted,1783876500,2026-07-10
 16388563,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-12,13:00,Unknown,20,5292,Gimnasia Jujuy,3214,Club Atlético Chacarita Juniors,,,notstarted,1783879200,2026-07-10
 16433576,Uruguay,"Liga AUF Uruguaya, Intermedio, Serie A",278,"Liga AUF Uruguaya, Intermedio, Serie A",,2026-07-12,13:00,Unknown,5,174970,Boston River,3232,Central Español,,,notstarted,1783879200,2026-07-10
 16388556,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-12,13:30,Unknown,20,3207,Club Atletico Colón,255426,Central Norte de Salta,,,notstarted,1783881000,2026-07-10
