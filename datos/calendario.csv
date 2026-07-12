@@ -1,98 +1,41 @@
 Jugador_Local,Jugador_Visitante,Fecha,Hora_Aprox,Torneo,Torneo_ID_Sofascore,Categoria,Superficie,Ronda,Jugador_Local_ID_Sofascore,Jugador_Visitante_ID_Sofascore,Event_ID_Sofascore,Category_ID,Ranking_Local,Ranking_Visitante,Seed_Local,Seed_Visitante,Estado,Pais_Torneo,Numero_Ronda
-Alvaro Guillen Meza,Federico Bondioli,2026-07-13,03:00,"Cordenons, Italy",3494,Challenger,Unknown,Round of 32,269909,407383,16496719,72,276,363,,,notstarted,,6
-Andrej Nedić,Enrico Dalla Valle,2026-07-13,03:00,"Cordenons, Italy",3494,Challenger,Unknown,Round of 32,316900,106153,16496721,72,250,359,,,notstarted,,6
-Franco Agamenone,Alex Barrena,2026-07-13,03:00,"Cordenons, Italy",3494,Challenger,Unknown,Round of 32,65606,303307,16496713,72,268,253,,,notstarted,,6
-Franco Roncadelli,Lorenzo Giustino,2026-07-13,03:00,"Cordenons, Italy",3494,Challenger,Unknown,Round of 32,240797,48626,16496715,72,245,226,,,notstarted,,6
-Hugo Dellien,Ioannis Xilas,2026-07-13,03:00,"Cordenons, Italy",3494,Challenger,Unknown,Round of 32,57289,317445,16496722,72,162,362,,,notstarted,,6
-Inaki Montes-de la Torre,Lorenzo Angelini,2026-07-13,03:00,"Cordenons, Italy",3494,Challenger,Unknown,Round of 32,290568,384612,16496717,72,269,683,,,notstarted,,6
-Juan Cruz Martin Manzano,Harold Mayot,2026-07-13,03:00,"Cordenons, Italy",3494,Challenger,Unknown,Round of 32,418785,248846,16496712,72,494,199,,,notstarted,,6
-Max Hans Rehberg,Guido Ivan Justo,2026-07-13,03:00,"Cordenons, Italy",3494,Challenger,Unknown,Round of 32,300293,255418,16496718,72,510,238,,,notstarted,,6
-Maxim Mrva,Carlo Alberto Caniato,2026-07-13,03:00,"Cordenons, Italy",3494,Challenger,Unknown,Round of 32,450846,403167,16496716,72,295,380,,,notstarted,,6
-Stefano Napolitano,Felix Balshaw,2026-07-13,03:00,"Cordenons, Italy",3494,Challenger,Unknown,Round of 32,42152,494195,16496714,72,242,259,,,notstarted,,6
-Sumit Nagal,Cezar Cretu,2026-07-13,03:00,"Cordenons, Italy",3494,Challenger,Unknown,Round of 32,131566,196920,16496720,72,219,272,,,notstarted,,6
-Alina Charaeva,Victoria Jimenez Kasintseva,2026-07-13,03:00,Iasi,22980,WTA,Unknown,Round of 32,255445,339456,16496731,6,118,110,,,notstarted,,6
-Anna Bondar,Sara Sorribes Tormo,2026-07-13,03:00,Iasi,22980,WTA,Unknown,Round of 32,150574,60392,16496725,6,74,253,,,notstarted,,6
-Clara Burel,Yulia Putintseva,2026-07-13,03:00,Iasi,22980,WTA,Unknown,Round of 32,206568,45545,16496728,6,702,84,,,notstarted,,6
-Emiliana Arango,Tamara Zidanšek,2026-07-13,03:00,Iasi,22980,WTA,Unknown,Round of 32,198197,110299,16496724,6,97,131,,,notstarted,,6
-Jaqueline Cristian,Leolia Jeanjean,2026-07-13,03:00,Iasi,22980,WTA,Unknown,Round of 32,72758,112957,16496732,6,37,132,,,notstarted,,6
-Kaitlin Quevedo,Elena-Gabriela Ruse,2026-07-13,03:00,Iasi,22980,WTA,Unknown,Round of 32,407597,103901,16496729,6,107,71,,,notstarted,,6
-Katarzyna Kawa,Simona Waltert,2026-07-13,03:00,Iasi,22980,WTA,Unknown,Round of 32,42492,215166,16496727,6,119,90,,,notstarted,,6
-Mayar Sherif,Dalma Galfi,2026-07-13,03:00,Iasi,22980,WTA,Unknown,Round of 32,88310,97995,16496730,6,109,111,,,notstarted,,6
-Nadia Podoroska,Petra Marčinko,2026-07-13,03:00,Iasi,22980,WTA,Unknown,Round of 32,60276,381052,16496723,6,574,47,,,notstarted,,6
-Paula Badosa,Anhelina Kalinina,2026-07-13,03:00,Iasi,22980,WTA,Unknown,Round of 32,69050,90664,16496726,6,141,66,,,notstarted,,6
-Mika Brunold,Buvaysar Gadamauri,2026-07-13,04:00,"ATP Challenger Bunschoten, Netherlands Men Singles",27828,Challenger,Unknown,Round of 32,362612,225214,16496700,72,408,255,,,notstarted,,6
-Alexandre Muller,Aleksandr Shevchenko,2026-07-13,04:00,Gstaad,2416,ATP,Unknown,Round of 32,88992,264344,16495257,3,126,99,,,notstarted,,6
-Dominic Stricker,Jaume Munar,2026-07-13,04:00,Gstaad,2416,ATP,Unknown,Round of 32,296369,126356,16495256,3,343,44,,,notstarted,,6
-Jaime Faria,Stan Wawrinka,2026-07-13,04:00,Gstaad,2416,ATP,Unknown,Round of 32,341818,14548,16495254,3,98,109,,,notstarted,,6
-Juan Manuel Cerundolo,Zdenek Kolar,2026-07-13,04:00,Gstaad,2416,ATP,Unknown,Round of 32,248861,132558,16495255,3,42,154,,,notstarted,,6
-Kilian Feldbausch,Miomir Kecmanović,2026-07-13,04:00,Gstaad,2416,ATP,Unknown,Round of 32,377489,198592,16495251,3,288,50,,,notstarted,,6
-Lorenzo Sonego,Joel Schwaerzler,2026-07-13,04:00,Gstaad,2416,ATP,Unknown,Round of 32,104847,448184,16495253,3,69,177,,,notstarted,,6
-Pedro Martinez,Yannick Hanfmann,2026-07-13,04:00,Gstaad,2416,ATP,Unknown,Round of 32,77223,47975,16495250,3,134,56,,,notstarted,,6
-Stefanos Tsitsipas,Ignacio Buse,2026-07-13,04:00,Gstaad,2416,ATP,Unknown,Round of 32,122366,322082,16495252,3,87,34,,,notstarted,,6
-Anna Blinkova,Aliaksandra Sasnovich,2026-07-13,05:00,"WTA Athens, Greece Women Singles",35974,WTA,Unknown,Round of 32,189995,45902,16495628,6,114,122,,,notstarted,,6
-Barbora Krejčiková,Viktoriya Tomova,2026-07-13,05:00,"WTA Athens, Greece Women Singles",35974,WTA,Unknown,Round of 32,60398,41374,16495635,6,38,174,,,notstarted,,6
-Carole Monnet,Rebeka Masarova,2026-07-13,05:00,"WTA Athens, Greece Women Singles",35974,WTA,Unknown,Round of 32,221362,124804,16495634,6,192,155,,,notstarted,,6
-Clara Tauson,Ajla Tomljanović,2026-07-13,05:00,"WTA Athens, Greece Women Singles",35974,WTA,Unknown,Round of 32,252168,34486,16495636,6,25,94,,,notstarted,,6
-Magda Linette,Mai Hontama,2026-07-13,05:00,"WTA Athens, Greece Women Singles",35974,WTA,Unknown,Round of 32,42289,197535,16495632,6,59,204,,,notstarted,,6
-Maria Timofeeva,Ann Li,2026-07-13,05:00,"WTA Athens, Greece Women Singles",35974,WTA,Unknown,Round of 32,293867,222826,16495627,6,95,29,,,notstarted,,6
-Polina Kudermetova,Maria Sakkari,2026-07-13,05:00,"WTA Athens, Greece Women Singles",35974,WTA,Unknown,Round of 32,293868,65950,16495630,6,113,43,,,notstarted,,6
-Qinwen Zheng,Jessica Bouzas Maneiro,2026-07-13,05:00,"WTA Athens, Greece Women Singles",35974,WTA,Unknown,Round of 32,257784,275105,16495633,6,138,52,,,notstarted,,6
-Tereza Valentová,Sofia Costoulas,2026-07-13,05:00,"WTA Athens, Greece Women Singles",35974,WTA,Unknown,Round of 32,381430,339457,16495629,6,54,156,,,notstarted,,6
-Valentini Grammatikopoulou,Alycia Parks,2026-07-13,05:00,"WTA Athens, Greece Women Singles",35974,WTA,Unknown,Round of 32,82609,221410,16495631,6,499,81,,,notstarted,,6
-Cesar Bouchelaghem,Leo Vithoontien,2026-07-13,09:00,"Granby, Canada",3438,Challenger,Unknown,Qualification Round 1,331349,418094,16497417,72,523,676,,,notstarted,,1
-Eloi Roux,Adhithya Ganesan,2026-07-13,09:00,"Granby, Canada",3438,Challenger,Unknown,Qualification Round 1,455075,406842,16497424,72,,644,,,notstarted,,1
-Volodymyr Gurenko,Guillaume Dalmasso,2026-07-13,09:00,"Granby, Canada",3438,Challenger,Unknown,Qualification Round 1,496087,424742,16497421,72,1459,566,,,notstarted,,1
-Aoi Ito,Yasmine Mansouri,2026-07-13,09:00,"WTA Athens, Greece Women Singles",35974,WTA,Unknown,Qualification Final,297194,208061,16496661,6,228,389,,,notstarted,,250
-Lilli Tagger,Madison Sieg,2026-07-13,09:00,"WTA Athens, Greece Women Singles",35974,WTA,Unknown,Qualification Final,418056,280202,16496657,6,82,397,,,notstarted,,250
-Nao Hibino,Miriana Tona,2026-07-13,09:00,"WTA Athens, Greece Women Singles",35974,WTA,Unknown,Qualification Final,72450,104929,16496658,6,246,379,,,notstarted,,250
-Louis Wessels,Jelle Sels,2026-07-13,10:00,"ATP Challenger Bunschoten, Netherlands Men Singles",27828,Challenger,Unknown,Qualification Round 1,180446,56361,16496681,72,691,490,,,notstarted,,1
-Nicolas Mejia,Matias Soto,2026-07-13,10:00,"Bogota, Colombia",3577,Challenger,Unknown,Final,187218,241039,16425119,72,165,296,,,notstarted,,29
-Andrea Guerrieri,Federico Agustin Gomez,2026-07-13,10:00,Umag,2426,ATP,Unknown,Qualification Final,190877,146040,16496673,3,227,212,,,notstarted,,250
-Juan Carlos Prado Angelo,Nikolas Sanchez Izquierdo,2026-07-13,10:00,Umag,2426,ATP,Unknown,Qualification Final,392072,193644,16496676,3,181,214,,,notstarted,,250
-Lukas Neumayer,Marko Topo,2026-07-13,10:00,Umag,2426,ATP,Unknown,Qualification Final,339450,348701,16496674,3,167,350,,,notstarted,,250
-Marco Cecchinato,Genaro Alberto Olivieri,2026-07-13,10:00,Umag,2426,ATP,Unknown,Qualification Final,44549,169486,16496675,3,195,201,,,notstarted,,250
-Alex Molčan,Valentin Royer,2026-07-13,10:00,Umag,2426,ATP,Unknown,Round of 32,145130,255449,16496447,3,101,75,,,notstarted,,6
-Damir Džumhur,Henrique Rocha,2026-07-13,10:00,Umag,2426,ATP,Unknown,Round of 32,49172,341820,16496440,3,105,122,,,notstarted,,6
-Dušan Lajović,Luca Van Assche,2026-07-13,10:00,Umag,2426,ATP,Unknown,Round of 32,39234,335102,16496443,3,153,80,,,notstarted,,6
-Kyrian Jacquet,Marco Trungelliti,2026-07-13,10:00,Umag,2426,ATP,Unknown,Round of 32,267577,38517,16496446,3,139,94,,,notstarted,,6
-Matej Dodig,Pablo Carreño Busta,2026-07-13,10:00,Umag,2426,ATP,Unknown,Round of 32,420876,40800,16496441,3,208,71,,,notstarted,,6
-Titouan Droguet,Alexander Blockx,2026-07-13,10:00,Umag,2426,ATP,Unknown,Round of 32,243925,390214,16496442,3,116,36,,,notstarted,,6
-Vit Kopřiva,Dino Prižmić,2026-07-13,10:00,Umag,2426,ATP,Unknown,Round of 32,199395,349089,16496444,3,64,89,,,notstarted,,6
-Žiga Šeško,Daniel Merida,2026-07-13,10:00,Umag,2426,ATP,Unknown,Round of 32,522735,338890,16496445,3,939,84,,,notstarted,,6
-Jannik Sinner,Alexander Zverev,2026-07-13,10:00,"Wimbledon, Men",2361,ATP,Unknown,Final,206570,57163,16385361,3,1,3,,,notstarted,,29
-Dan Martin,Mikael Arseneault,2026-07-13,10:10,"Granby, Canada",3438,Challenger,Unknown,Qualification Round 1,215377,457258,16497425,72,497,1190,,,notstarted,,1
-Hunter Heck,Kokoro Isomura,2026-07-13,10:10,"Granby, Canada",3438,Challenger,Unknown,Qualification Round 1,275451,367815,16497427,72,729,557,,,notstarted,,1
-James Trotter,Jared Horwood,2026-07-13,10:10,"Granby, Canada",3438,Challenger,Unknown,Qualification Round 1,255993,252223,16497428,72,420,,,,notstarted,,1
-Elena Mićić,Anastasia Kulikova,2026-07-13,10:10,"WTA Athens, Greece Women Singles",35974,WTA,Unknown,Qualification Final,353542,165006,16496662,6,310,450,,,notstarted,,250
-Mina Hodzic,Ekaterina Yashina,2026-07-13,10:10,"WTA Athens, Greece Women Singles",35974,WTA,Unknown,Qualification Final,222977,41359,16496660,6,333,554,,,notstarted,,250
-Viktoria Morvayova,Elina Nepliy,2026-07-13,10:10,"WTA Athens, Greece Women Singles",35974,WTA,Unknown,Qualification Final,193083,111767,16496659,6,303,502,,,notstarted,,250
-Titouan Droguet,Zsombor Piros,2026-07-13,11:00,"Iasi, Romania ",15277,Challenger,Unknown,Final,243925,205795,16425131,72,116,169,,,notstarted,,29
-Benjamin Thomas George,Alan Magadan,2026-07-13,11:20,"Granby, Canada",3438,Challenger,Unknown,Qualification Round 1,457215,272535,16497422,72,952,632,,,notstarted,,1
-Edward Winter,Justin Roberts,2026-07-13,11:20,"Granby, Canada",3438,Challenger,Unknown,Qualification Round 1,338420,115335,16497419,72,434,966,,,notstarted,,1
-Karl Poling,Matt Kuhar,2026-07-13,11:20,"Granby, Canada",3438,Challenger,Unknown,Qualification Round 1,199453,199448,16497420,72,506,757,,,notstarted,,1
-Akira Santillan,Alejandro Lopez Escribano,2026-07-13,11:30,"Pozoblanco, Spain",3666,Challenger,Unknown,Round of 32,83263,478975,16495953,72,310,,,,notstarted,,6
-Chris Rodesch,Mert Alkaya,2026-07-13,11:30,"Pozoblanco, Spain",3666,Challenger,Unknown,Round of 32,225273,200150,16495951,72,173,332,,,notstarted,,6
-Hugo Grenier,Cyril Vandermeersch,2026-07-13,11:30,"Pozoblanco, Spain",3666,Challenger,Unknown,Round of 32,107357,247962,16495954,72,223,416,,,notstarted,,6
-Luca Castelnuovo,Antoine Ghibaudo,2026-07-13,11:30,"Pozoblanco, Spain",3666,Challenger,Unknown,Round of 32,92667,339606,16495950,72,410,298,,,notstarted,,6
-Pablo Perez Navarro,Oliver Crawford,2026-07-13,11:30,"Pozoblanco, Spain",3666,Challenger,Unknown,Round of 32,516781,213057,16495958,72,,232,,,notstarted,,6
-Paul Inchauspe,Hamish Stewart,2026-07-13,11:30,"Pozoblanco, Spain",3666,Challenger,Unknown,Round of 32,384144,245307,16495955,72,975,300,,,notstarted,,6
-Robin Bertrand,Juan Pablo Ficovich,2026-07-13,11:30,"Pozoblanco, Spain",3666,Challenger,Unknown,Round of 32,340742,113979,16495949,72,324,197,,,notstarted,,6
-Tiago Pereira,Miguel Tobon,2026-07-13,11:30,"Pozoblanco, Spain",3666,Challenger,Unknown,Round of 32,409264,451986,16495956,72,337,463,,,notstarted,,6
-Yanki Erel,Luka Pavlović,2026-07-13,11:30,"Pozoblanco, Spain",3666,Challenger,Unknown,Round of 32,241718,224534,16495952,72,340,217,,,notstarted,,6
-Yi Zhou,Stefan Kozlov,2026-07-13,11:30,"Pozoblanco, Spain",3666,Challenger,Unknown,Round of 32,450685,77007,16495957,72,240,317,,,notstarted,,6
-Aziz Ouakaa,Carlos Ferre,2026-07-13,11:30,"Pozoblanco, Spain",3666,Challenger,Unknown,Qualification Round 1,202557,1247074,16496537,72,524,,,,notstarted,,1
-Massimo Giunta,Alberto Barroso Campos,2026-07-13,11:30,"Pozoblanco, Spain",3666,Challenger,Unknown,Qualification Round 1,142884,111609,16496541,72,473,618,,,notstarted,,1
-Samuel Alejandro Linde Palacios,Mae Malige,2026-07-13,11:30,"Pozoblanco, Spain",3666,Challenger,Unknown,Qualification Round 1,516077,421695,16496534,72,656,546,,,notstarted,,1
-Samuel Heredia,Izan Almazan Valiente,2026-07-13,11:30,"Pozoblanco, Spain",3666,Challenger,Unknown,Qualification Round 1,400534,460287,16496539,72,727,598,,,notstarted,,1
-Jacob Fearnley,Adam Walton,2026-07-13,12:20,"ATP Challenger Newport, USA Men Singles",27738,Challenger,Unknown,Final,275948,207575,16425125,72,159,85,,,notstarted,,29
-Kody Pearson,Strong Kirchheimer,2026-07-13,12:30,"Granby, Canada",3438,Challenger,Unknown,Qualification Round 1,154490,95259,16497418,72,1101,634,,,notstarted,,1
-Renta Tokuda,Alexander Rozin,2026-07-13,12:30,"Granby, Canada",3438,Challenger,Unknown,Qualification Round 1,155684,483566,16497423,72,392,1256,,,notstarted,,1
-Dominik Palan,Adam Martin Espinar,2026-07-13,12:40,"Pozoblanco, Spain",3666,Challenger,Unknown,Qualification Round 1,291263,1247024,16496535,72,500,,,,notstarted,,1
-Pavel Lagutin,Nicolas Tepmahc,2026-07-13,12:40,"Pozoblanco, Spain",3666,Challenger,Unknown,Qualification Round 1,1084374,253330,16496546,72,768,591,,,notstarted,,1
-S D Prajwal Dev,Mario Gonzalez Fernandez,2026-07-13,12:40,"Pozoblanco, Spain",3666,Challenger,Unknown,Qualification Round 1,191056,283488,16496545,72,653,575,,,notstarted,,1
-Takuya Kumasaka,Alejandro Turriziani Alvarez,2026-07-13,12:40,"Pozoblanco, Spain",3666,Challenger,Unknown,Qualification Round 1,248232,368387,16496540,72,509,756,,,notstarted,,1
-Agustin Siancha Borlenghi,Ilya Ivashka,2026-07-13,13:50,"Pozoblanco, Spain",3666,Challenger,Unknown,Qualification Round 1,1247075,89320,16496543,72,,539,,,notstarted,,1
-Arda Azkara,Mitsuki Wei Kang Leong,2026-07-13,13:50,"Pozoblanco, Spain",3666,Challenger,Unknown,Qualification Round 1,271939,422851,16496536,72,697,547,,,notstarted,,1
-John Echeverria,Bernardo Munk Mesa,2026-07-13,13:50,"Pozoblanco, Spain",3666,Challenger,Unknown,Qualification Round 1,234275,406989,16496538,72,532,1264,,,notstarted,,1
-Sergio Callejon Hernando,Iliyan Radulov,2026-07-13,15:00,"Pozoblanco, Spain",3666,Challenger,Unknown,Qualification Round 1,405101,421138,16496542,72,441,642,,,notstarted,,1
-Kenta Miyoshi,Bruno Kuzuhara,2026-07-13,16:00,"Granby, Canada",3438,Challenger,Unknown,Qualification Round 1,191305,328075,16497426,72,764,621,,,notstarted,,1
+Aleksandar Vukić,Liam Broady,2026-07-14,09:00,"Granby, Canada",3438,Challenger,Unknown,Round of 32,124656,47764,16498685,72,104,209,,,notstarted,,6
+August Holmgren,Yosuke Watanuki,2026-07-14,09:00,"Granby, Canada",3438,Challenger,Unknown,Round of 32,207089,157302,16498682,72,143,294,,,notstarted,,6
+Daniel Milavsky,Duncan Chan,2026-07-14,09:00,"Granby, Canada",3438,Challenger,Unknown,Round of 32,335632,455334,16498677,72,367,640,,,notstarted,,6
+Daniil Glinka,Garrett Johns,2026-07-14,09:00,"Granby, Canada",3438,Challenger,Unknown,Round of 32,210033,239967,16498679,72,168,382,,,notstarted,,6
+Fajing Sun,Arthur Gea,2026-07-14,09:00,"Granby, Canada",3438,Challenger,Unknown,Round of 32,163438,383987,16498676,72,270,136,,,notstarted,,6
+Justin Boulais,Zhizhen Zhang,2026-07-14,09:00,"Granby, Canada",3438,Challenger,Unknown,Round of 32,263674,75813,16498680,72,396,161,,,notstarted,,6
+Kaichi Uchida,Alexis Galarneau,2026-07-14,09:00,"Granby, Canada",3438,Challenger,Unknown,Round of 32,82579,187236,16498683,72,257,179,,,notstarted,,6
+Murphy Cassone,Tristan Schoolkate,2026-07-14,09:00,"Granby, Canada",3438,Challenger,Unknown,Round of 32,333007,275471,16498678,72,289,149,,,notstarted,,6
+Nicolas Arseneault,Andres Martin,2026-07-14,09:00,"Granby, Canada",3438,Challenger,Unknown,Round of 32,457262,321862,16498684,72,674,306,,,notstarted,,6
+Yuta Shimizu,Jay Friend,2026-07-14,09:00,"Granby, Canada",3438,Challenger,Unknown,Round of 32,217136,393595,16498681,72,356,407,,,notstarted,,6
+Adam Walton,Sebastian Gorzny,2026-07-14,10:00,"ATP Challenger Lincoln (NE), USA Men Singles",23140,Challenger,Unknown,Round of 32,207575,408344,16498585,72,85,958,,,notstarted,,6
+Coleman Wong,Tung-Lin Wu,2026-07-14,10:00,"ATP Challenger Lincoln (NE), USA Men Singles",23140,Challenger,Unknown,Round of 32,289106,163996,16498582,72,108,345,,,notstarted,,6
+Colton Smith,Andre Ilagan,2026-07-14,10:00,"ATP Challenger Lincoln (NE), USA Men Singles",23140,Challenger,Unknown,Round of 32,391865,244985,16498577,72,186,263,,,notstarted,,6
+Darwin Blanch,Bernard Tomić,2026-07-14,10:00,"ATP Challenger Lincoln (NE), USA Men Singles",23140,Challenger,Unknown,Round of 32,407392,17080,16498583,72,224,204,,,notstarted,,6
+Jack Kennedy,Anton Shepp,2026-07-14,10:00,"ATP Challenger Lincoln (NE), USA Men Singles",23140,Challenger,Unknown,Round of 32,522293,337877,16498581,72,414,511,,,notstarted,,6
+Jeffrey John Wolf,Andrew Fenty,2026-07-14,10:00,"ATP Challenger Lincoln (NE), USA Men Singles",23140,Challenger,Unknown,Round of 32,210479,258983,16498580,72,685,400,,,notstarted,,6
+Mark Lajal,Trevor Svajda,2026-07-14,10:00,"ATP Challenger Lincoln (NE), USA Men Singles",23140,Challenger,Unknown,Round of 32,383991,417424,16498686,72,164,466,,,notstarted,,6
+Masamichi Imamura,James McCabe,2026-07-14,10:00,"ATP Challenger Lincoln (NE), USA Men Singles",23140,Challenger,Unknown,Round of 32,197935,339452,16498584,72,417,207,,,notstarted,,6
+Mitchell Krueger,Alex Martinez,2026-07-14,10:00,"ATP Challenger Lincoln (NE), USA Men Singles",23140,Challenger,Unknown,Round of 32,52276,276766,16498579,72,349,351,,,notstarted,,6
+Rio Noguchi,Charles Broom,2026-07-14,10:00,"ATP Challenger Lincoln (NE), USA Men Singles",23140,Challenger,Unknown,Round of 32,217464,202181,16498578,72,213,285,,,notstarted,,6
+Spencer Johnson,Remy Bertola,2026-07-14,10:00,"ATP Challenger Lincoln (NE), USA Men Singles",23140,Challenger,Unknown,Round of 32,521143,145108,16498687,72,740,187,,,notstarted,,6
+Steve Johnson,Remy Bertola,2026-07-14,10:00,"ATP Challenger Lincoln (NE), USA Men Singles",23140,Challenger,Unknown,Round of 32,38493,145108,16498576,72,,187,,,canceled,,6
+Alex Molčan,Valentin Royer,2026-07-14,10:00,Umag,2426,ATP,Unknown,Round of 32,145130,255449,16496447,3,101,75,,,notstarted,,6
+Damir Džumhur,Henrique Rocha,2026-07-14,10:00,Umag,2426,ATP,Unknown,Round of 32,49172,341820,16496440,3,105,122,,,notstarted,,6
+Dušan Lajović,Luca Van Assche,2026-07-14,10:00,Umag,2426,ATP,Unknown,Round of 32,39234,335102,16496443,3,153,80,,,notstarted,,6
+Kyrian Jacquet,Marco Trungelliti,2026-07-14,10:00,Umag,2426,ATP,Unknown,Round of 32,267577,38517,16496446,3,139,94,,,notstarted,,6
+Matej Dodig,Pablo Carreño Busta,2026-07-14,10:00,Umag,2426,ATP,Unknown,Round of 32,420876,40800,16496441,3,208,71,,,notstarted,,6
+Titouan Droguet,Alexander Blockx,2026-07-14,10:00,Umag,2426,ATP,Unknown,Round of 32,243925,390214,16496442,3,116,36,,,notstarted,,6
+Vit Kopřiva,Dino Prižmić,2026-07-14,10:00,Umag,2426,ATP,Unknown,Round of 32,199395,349089,16496444,3,64,89,,,notstarted,,6
+Žiga Šeško,Daniel Merida,2026-07-14,10:00,Umag,2426,ATP,Unknown,Round of 32,522735,338890,16496445,3,939,84,,,notstarted,,6
+Akira Santillan,Alejandro Lopez Escribano,2026-07-14,11:30,"Pozoblanco, Spain",3666,Challenger,Unknown,Round of 32,83263,478975,16495953,72,310,,,,notstarted,,6
+Chris Rodesch,Mert Alkaya,2026-07-14,11:30,"Pozoblanco, Spain",3666,Challenger,Unknown,Round of 32,225273,200150,16495951,72,173,332,,,notstarted,,6
+Hugo Grenier,Cyril Vandermeersch,2026-07-14,11:30,"Pozoblanco, Spain",3666,Challenger,Unknown,Round of 32,107357,247962,16495954,72,223,416,,,notstarted,,6
+Luca Castelnuovo,Antoine Ghibaudo,2026-07-14,11:30,"Pozoblanco, Spain",3666,Challenger,Unknown,Round of 32,92667,339606,16495950,72,410,298,,,notstarted,,6
+Pablo Perez Navarro,Oliver Crawford,2026-07-14,11:30,"Pozoblanco, Spain",3666,Challenger,Unknown,Round of 32,516781,213057,16495958,72,,232,,,notstarted,,6
+Paul Inchauspe,Hamish Stewart,2026-07-14,11:30,"Pozoblanco, Spain",3666,Challenger,Unknown,Round of 32,384144,245307,16495955,72,975,300,,,notstarted,,6
+Robin Bertrand,Juan Pablo Ficovich,2026-07-14,11:30,"Pozoblanco, Spain",3666,Challenger,Unknown,Round of 32,340742,113979,16495949,72,324,197,,,notstarted,,6
+Tiago Pereira,Miguel Tobon,2026-07-14,11:30,"Pozoblanco, Spain",3666,Challenger,Unknown,Round of 32,409264,451986,16495956,72,337,463,,,notstarted,,6
+Yanki Erel,Luka Pavlović,2026-07-14,11:30,"Pozoblanco, Spain",3666,Challenger,Unknown,Round of 32,241718,224534,16495952,72,340,217,,,notstarted,,6
+Yi Zhou,Stefan Kozlov,2026-07-14,11:30,"Pozoblanco, Spain",3666,Challenger,Unknown,Round of 32,450685,77007,16495957,72,240,317,,,notstarted,,6
