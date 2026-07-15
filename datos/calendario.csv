@@ -1,10 +1,14 @@
 Jugador_Local,Jugador_Visitante,Fecha,Hora_Aprox,Torneo,Torneo_ID_Sofascore,Categoria,Superficie,Ronda,Jugador_Local_ID_Sofascore,Jugador_Visitante_ID_Sofascore,Event_ID_Sofascore,Category_ID,Ranking_Local,Ranking_Visitante,Seed_Local,Seed_Visitante,Estado,Pais_Torneo,Numero_Ronda
+Raphael Collignon,Valentin Vacherot,2026-07-17,03:30,Gstaad,2416,ATP,Unknown,Quarterfinals,355525,158912,16465658,3,42,21,,,notstarted,,27
+Tom Gentzsch,Max Houkes,2026-07-17,04:00,"ATP Challenger Bunschoten, Netherlands Men Singles",27828,Challenger,Unknown,Quarterfinals,380042,277179,16465715,72,212,244,,,notstarted,,27
+Adolfo Daniel Vallejo,Stefano Travaglia,2026-07-17,04:00,Bastad,2413,ATP,Unknown,Quarterfinals,326949,36300,16465446,3,71,150,,,notstarted,,27
+Nuno Borges,Luciano Darderi,2026-07-17,04:00,Bastad,2413,ATP,Unknown,Quarterfinals,125006,308084,16465443,3,52,18,,,notstarted,,27
 Blaise Bicknell,Murphy Cassone,2026-07-17,09:00,"Granby, Canada",3438,Challenger,Unknown,Round of 16,303122,333007,16465860,72,354,287,,,notstarted,,5
 Daniil Glinka,Philip Sekulic,2026-07-17,09:00,"Granby, Canada",3438,Challenger,Unknown,Round of 16,210033,299481,16465867,72,167,317,,,notstarted,,5
 Keegan Rice,Arthur Gea,2026-07-17,09:00,"Granby, Canada",3438,Challenger,Unknown,Round of 16,455350,383987,16465866,72,1262,137,,,notstarted,,5
+Liam Draxl,Daniel Milavsky,2026-07-17,09:00,"Granby, Canada",3438,Challenger,Unknown,Round of 16,223513,335632,16465859,72,223,335,,,notstarted,,5
+Damir Džumhur,Matteo Arnaldi,2026-07-17,09:00,Umag,2426,ATP,Unknown,Quarterfinals,49172,299538,16465686,3,108,34,,,notstarted,,27
 Alina Korneeva,Ann Li,2026-07-17,09:30,"WTA Athens, Greece Women Singles",35974,WTA,Unknown,Round of 16,396293,222826,16465986,6,90,31,,,notstarted,,5
-Barbora Krejčiková,Carole Monnet,2026-07-17,09:30,"WTA Athens, Greece Women Singles",35974,WTA,Unknown,Round of 16,60398,221362,16465992,6,32,205,,,notstarted,,5
-Clara Tauson,Miriana Tona,2026-07-17,09:30,"WTA Athens, Greece Women Singles",35974,WTA,Unknown,Round of 16,252168,104929,16465995,6,30,384,,,notstarted,,5
 Tereza Valentová,Aliaksandra Sasnovich,2026-07-17,09:30,"WTA Athens, Greece Women Singles",35974,WTA,Unknown,Round of 16,381430,45902,16465991,6,49,143,,,notstarted,,5
 Colton Smith,Hayato Matsuoka,2026-07-17,10:00,"ATP Challenger Lincoln (NE), USA Men Singles",23140,Challenger,Unknown,Round of 16,391865,420914,16465884,72,181,347,,,notstarted,,5
 James McCabe,Bernard Tomić,2026-07-17,10:00,"ATP Challenger Lincoln (NE), USA Men Singles",23140,Challenger,Unknown,Round of 16,339452,17080,16465882,72,242,206,,,notstarted,,5
@@ -14,3 +18,5 @@ Dan Added,Antoine Ghibaudo,2026-07-17,11:30,"Pozoblanco, Spain",3666,Challenger,
 Dominik Palan,Izan Almazan Valiente,2026-07-17,11:30,"Pozoblanco, Spain",3666,Challenger,Unknown,Round of 16,291263,460287,16465955,72,498,585,,,notstarted,,5
 Hugo Grenier,Akira Santillan,2026-07-17,11:30,"Pozoblanco, Spain",3666,Challenger,Unknown,Round of 16,107357,83263,16465950,72,221,301,,,notstarted,,5
 Ilya Ivashka,Aziz Ouakaa,2026-07-17,11:30,"Pozoblanco, Spain",3666,Challenger,Unknown,Round of 16,89320,202557,16465951,72,554,525,,,notstarted,,5
+Barbora Krejčiková,Carole Monnet,2026-07-17,11:30,"WTA Athens, Greece Women Singles",35974,WTA,Unknown,Round of 16,60398,221362,16465992,6,32,205,,,notstarted,,5
+Clara Tauson,Miriana Tona,2026-07-17,12:40,"WTA Athens, Greece Women Singles",35974,WTA,Unknown,Round of 16,252168,104929,16465995,6,30,384,,,notstarted,,5
