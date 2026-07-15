@@ -1,9 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16343572,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-15,09:30,Unknown,1,325494,FC Malisheva,5418,KF Vllaznia,,,notstarted,1784125800,2026-07-13
-15341273,Finland,Ykkosliiga,55,Ykkosliiga,,2026-07-15,10:30,Unknown,14,2263,Jippo Joensuu,5115,MP,,,notstarted,1784129400,2026-07-13
-16390453,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-15,12:00,Unknown,19,394127,Libertad,21941,Técnico Universitario,,,notstarted,1784134800,2026-07-13
-16343051,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-15,12:30,Unknown,1,116223,Universitatea Craiova,381792,ML Vitebsk,,,notstarted,1784136600,2026-07-13
-16343050,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-15,13:15,Unknown,1,38989,Atert Bissen,5194,Klaksvíkar Ítróttarfelag,,,notstarted,1784139300,2026-07-13
 16343588,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-15,13:30,Unknown,1,6226,FK Dečić Tuzi,146336,FK Liepaja,,,notstarted,1784140200,2026-07-13
 16343032,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-15,14:00,Unknown,1,6224,FK Sutjeska Nikšić,5172,Kairat Almaty,,,notstarted,1784142000,2026-07-13
 16343040,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-15,14:00,Unknown,1,264619,KF Egnatia,167232,FC Petrocub Hîncesti,,,notstarted,1784142000,2026-07-13
