@@ -1,22 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16343588,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-15,13:30,Unknown,1,6226,FK Dečić Tuzi,146336,FK Liepaja,,,notstarted,1784140200,2026-07-13
-16343032,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-15,14:00,Unknown,1,6224,FK Sutjeska Nikšić,5172,Kairat Almaty,,,notstarted,1784142000,2026-07-13
-16343040,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-15,14:00,Unknown,1,264619,KF Egnatia,167232,FC Petrocub Hîncesti,,,notstarted,1784142000,2026-07-13
-12812996,World,"World Championship, Knockout",16,"World Championship, Knockout",,2026-07-15,14:00,Unknown,28,4713,England,4819,Argentina,,,notstarted,1784142000,2026-07-13
-15502611,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-15,15:00,Unknown,20,5257,LDU,388234,Leones del Norte,,,postponed,1784145600,2026-07-13
-15502609,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-15,15:00,Unknown,20,134976,Mushuc Runa SC,277525,Orense SC,,,postponed,1784145600,2026-07-13
-16389666,Bolivia,División Profesional,16736,División Profesional,,2026-07-15,17:00,Unknown,8,7060,Real Potosí,396625,CD San Antonio,,,notstarted,1784152800,2026-07-13
-15502603,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-15,17:00,Unknown,19,388234,Leones del Norte,5251,Deportivo Cuenca,,,notstarted,1784152800,2026-07-13
-15502598,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-15,17:00,Unknown,19,21942,Universidad Católica del Ecuador,5257,LDU,,,notstarted,1784152800,2026-07-13
-15285499,USA,"USL, League One",13362,"USL, League One",,2026-07-15,17:30,Unknown,,407748,One Knoxville SC,341749,Fort Wayne FC,,,notstarted,1784154600,2026-07-13
-15285729,USA,USL Championship,13363,USL Championship,,2026-07-15,18:00,Unknown,1,460707,Lexington SC,310531,New Mexico United,,,notstarted,1784156400,2026-07-13
-15285731,USA,USL Championship,13363,USL Championship,,2026-07-15,18:00,Unknown,1,218106,Miami FC,148992,Indy Eleven,,,notstarted,1784156400,2026-07-13
-15421088,USA,MLS Next Pro,18641,MLS Next Pro,,2026-07-15,18:00,Unknown,1,338005,New England Revolution II,411365,Columbus Crew 2,,,notstarted,1784156400,2026-07-13
-15285497,USA,"USL, League One",13362,"USL, League One",,2026-07-15,18:00,Unknown,,312631,Chattanooga Red Wolves SC,1044343,AV Alta FC,,,notstarted,1784156400,2026-07-13
-15388517,USA,NWSL,1690,NWSL,,2026-07-15,18:00,Unknown,1,215083,Orlando Pride,1165118,Boston Legacy FC,,,notstarted,1784156400,2026-07-13
-15285730,USA,USL Championship,13363,USL Championship,,2026-07-15,18:30,Unknown,1,1077312,SC Jacksonville,23635,Pittsburgh Riverhounds,,,notstarted,1784158200,2026-07-13
-16389829,Bolivia,División Profesional,16736,División Profesional,,2026-07-15,19:00,Unknown,8,32529,The Strongest,33820,Oriente Petrolero,,,notstarted,1784160000,2026-07-13
-15285498,USA,"USL, League One",13362,"USL, League One",,2026-07-15,19:00,Unknown,,312632,Forward Madison FC,23841,Richmond Kickers,,,notstarted,1784160000,2026-07-13
 15388513,USA,NWSL,1690,NWSL,,2026-07-15,19:00,Unknown,1,34718,NJ/NY Gotham FC,151012,Washington Spirit,,,notstarted,1784160000,2026-07-13
 15502597,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-15,19:30,Unknown,19,5250,Barcelona SC Guayaquil,188850,Guayaquil City,,,notstarted,1784161800,2026-07-13
 16343581,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-16,10:00,Unknown,1,36155,Astana,5217,Dinamo City,,,notstarted,1784214000,2026-07-15
