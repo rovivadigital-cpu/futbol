@@ -1,5 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15657443,New Zealand,Southern League,594,Southern League,,2026-07-17,02:15,Unknown,14,378302,Ferrymead Bays FC,378303,Coastal Spirit,,,notstarted,1784272500,2026-07-15
 16403828,Romania,Superliga,152,Superliga,,2026-07-17,10:30,Unknown,1,44255,FC Voluntari,24798,FC Botoșani,,,notstarted,1784302200,2026-07-15
 16298659,Bulgaria,Parva Liga,247,Parva Liga,,2026-07-17,11:00,Unknown,1,3278,FK Spartak Varna,252080,FC CSKA 1948 Sofia,,,notstarted,1784304000,2026-07-15
 15432364,Estonia,Premium Liiga,178,Premium Liiga,,2026-07-17,11:00,Unknown,20,3346,Flora Tallinn,37572,FC Nõmme United,,,notstarted,1784304000,2026-07-15
@@ -181,7 +180,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15271276,Sweden,Superettan,46,Superettan,,2026-07-19,08:00,Unknown,15,1842,IFK Värnamo,1824,Ljungskile SK,,,notstarted,1784466000,2026-07-16
 15271281,Sweden,Superettan,46,Superettan,,2026-07-19,08:00,Unknown,15,377598,Nordic United FC,1768,Örebro SK,,,notstarted,1784466000,2026-07-16
 16433570,Uruguay,"Liga AUF Uruguaya, Intermedio, Serie A",278,"Liga AUF Uruguaya, Intermedio, Serie A",,2026-07-19,08:00,Unknown,6,3232,Central Español,25009,Cerro Largo,,,notstarted,1784466000,2026-07-16
-16233095,Estonia,Premium Liiga,178,Premium Liiga,,2026-07-19,09:00,Unknown,20,3342,FCI Levadia Tallinn,138566,Tartu JK Tammeka,,,notstarted,1784469600,2026-07-17
+16233095,Estonia,Premium Liiga,178,Premium Liiga,,2026-07-19,09:00,Unknown,20,3342,FCI Levadia Tallinn,138566,Tartu JK Tammeka,,,postponed,1784469600,2026-07-17
 15432367,Estonia,Premium Liiga,178,Premium Liiga,,2026-07-19,09:00,Unknown,20,7106,FC Kuressaare,8091,Nõmme Kalju,,,notstarted,1784469600,2026-07-17
 15472536,Latvia,Virsliga,197,Virsliga,,2026-07-19,09:00,Unknown,23,477400,Ogre United,41498,BFC Daugavpils,,,notstarted,1784469600,2026-07-17
 16403826,Romania,Superliga,152,Superliga,,2026-07-19,09:00,Unknown,1,7734,FC Universitatea Cluj,3294,FCV Farul Constanța,,,notstarted,1784469600,2026-07-17
