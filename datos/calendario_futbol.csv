@@ -1,20 +1,6 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16349555,Europe,"UEFA Europa League, Qualification",679,"UEFA Europa League, Qualification",,2026-07-16,13:15,Unknown,1,1925,Ferencváros TC,5150,FK Vojvodina,,,notstarted,1784225700,2026-07-15
-16349556,Europe,"UEFA Europa League, Qualification",679,"UEFA Europa League, Qualification",,2026-07-16,13:30,Unknown,1,2402,MŠK Žilina,2036,HNK Hajduk Split,,,notstarted,1784226600,2026-07-15
-16343561,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-16,13:45,Unknown,1,36019,FK Mornar Bar,37962,Atlètic Club Escaldes,,,notstarted,1784227500,2026-07-15
-16343569,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-16,13:45,Unknown,1,5272,Linfield FC,8091,Nõmme Kalju,,,notstarted,1784227500,2026-07-15
-16389827,Bolivia,División Profesional,16736,División Profesional,,2026-07-16,14:00,Unknown,8,423188,Academia de Balompié Boliviano,372975,Club Independiente Petrolero,,,notstarted,1784228400,2026-07-15
-16343566,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-16,14:00,Unknown,1,36261,SS Virtus,33819,FC Dila Gori,,,notstarted,1784228400,2026-07-15
-15442502,Iceland,Iceland 1. deild,675,Iceland 1. deild,,2026-07-16,14:15,Unknown,14,1914,UMF Afturelding,36057,Leiknir Reykjavík,,,notstarted,1784229300,2026-07-15
-16349557,Europe,"UEFA Europa League, Qualification",679,"UEFA Europa League, Qualification",,2026-07-16,15:00,Unknown,1,221305,IF Vestri,5962,Qarabağ FK,,,notstarted,1784232000,2026-07-15
-15502599,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-16,16:30,Unknown,19,5249,Aucas,39723,Independiente del Valle,,,notstarted,1784237400,2026-07-15
-15237976,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-07-16,17:30,Unknown,19,1958,Botafogo,1968,Santos,,,notstarted,1784241000,2026-07-15
-15237983,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-07-16,17:30,Unknown,19,1962,Vitória,1974,Vasco da Gama,,,notstarted,1784241000,2026-07-15
-15526186,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-16,18:00,Unknown,18,22032,Clube De Regatas Brasil,2011,Náutico,,,notstarted,1784242800,2026-07-15
 15502838,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-07-16,18:00,Unknown,1,313716,Forge FC,309888,Pacific FC,,,notstarted,1784242800,2026-07-15
-15171592,USA,MLS,242,MLS,,2026-07-16,18:30,Unknown,,22006,CF Montréal,7080,Toronto FC,,,notstarted,1784244600,2026-07-15
-16390454,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-16,19:00,Unknown,19,277525,Orense SC,5255,Emelec,,,notstarted,1784246400,2026-07-15
-15171583,USA,MLS,242,MLS,,2026-07-16,19:30,Unknown,,2505,Chicago Fire,22010,Vancouver Whitecaps,,,notstarted,1784248200,2026-07-15
+15171583,USA,MLS,242,MLS,,2026-07-16,19:30,Unknown,,2505,Chicago Fire,22010,Vancouver Whitecaps,,,postponed,1784248200,2026-07-16
 15171586,USA,MLS,242,MLS,,2026-07-16,19:30,Unknown,,407803,St.Louis City,2509,Sporting Kansas City,,,notstarted,1784248200,2026-07-15
 15171585,USA,MLS,242,MLS,,2026-07-16,21:30,Unknown,,22009,Seattle Sounders FC,22007,Portland Timbers,,,notstarted,1784255400,2026-07-15
 15657443,New Zealand,Southern League,594,Southern League,,2026-07-17,02:15,Unknown,14,378302,Ferrymead Bays FC,378303,Coastal Spirit,,,notstarted,1784272500,2026-07-15
