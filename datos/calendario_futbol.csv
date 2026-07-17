@@ -1,17 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16403828,Romania,Superliga,152,Superliga,,2026-07-17,10:30,Unknown,1,44255,FC Voluntari,24798,FC Botoșani,,,notstarted,1784302200,2026-07-15
-16298659,Bulgaria,Parva Liga,247,Parva Liga,,2026-07-17,11:00,Unknown,1,3278,FK Spartak Varna,252080,FC CSKA 1948 Sofia,,,notstarted,1784304000,2026-07-15
-15432364,Estonia,Premium Liiga,178,Premium Liiga,,2026-07-17,11:00,Unknown,20,3346,Flora Tallinn,37572,FC Nõmme United,,,notstarted,1784304000,2026-07-15
-15341275,Finland,Ykkosliiga,55,Ykkosliiga,,2026-07-17,11:00,Unknown,15,5918,HJK Klubi 04,2240,FC Haka,,,notstarted,1784304000,2026-07-15
-15341276,Finland,Ykkosliiga,55,Ykkosliiga,,2026-07-17,11:00,Unknown,15,2273,KäPa,89908,SJK Akatemia,,,notstarted,1784304000,2026-07-15
-16378694,Slovenia,PrvaLiga,212,PrvaLiga,,2026-07-17,11:00,Unknown,1,2430,NK Nafta Lendava 1903,2417,FC Koper,,,notstarted,1784304000,2026-07-15
-15272461,Sweden,Allsvenskan,40,Allsvenskan,,2026-07-17,12:00,Unknown,13,1761,IFK Göteborg,1787,IF Brommapojkarna,,,notstarted,1784307600,2026-07-15
-15272464,Sweden,Allsvenskan,40,Allsvenskan,,2026-07-17,12:00,Unknown,13,1783,Mjällby AIF,1775,Västerås SK,,,notstarted,1784307600,2026-07-15
-15260841,Norway,Eliteserien,20,Eliteserien,,2026-07-17,12:15,Unknown,14,656,Bodø/Glimt,687,Fredrikstad FK,,,notstarted,1784308500,2026-07-15
-15275741,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-17,13:00,Unknown,21,43740,Almirante Brown,93107,Estudiantes de Buenos Aires,,,notstarted,1784311200,2026-07-15
-15275753,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-17,13:00,Unknown,21,213042,Deportivo Maipú,23950,San Martín de Tucumán,,,notstarted,1784311200,2026-07-15
-16281111,Peru,"Liga 1, Clausura",406,"Liga 1, Clausura",,2026-07-17,13:00,Unknown,1,1082002,FC Cajamarca,511206,CD Juan Pablo II,,,notstarted,1784311200,2026-07-15
-16433581,Uruguay,"Liga AUF Uruguaya, Intermedio, Serie B",278,"Liga AUF Uruguaya, Intermedio, Serie B",,2026-07-17,13:00,Unknown,6,278204,Albion FC,3224,Juventud de Las Piedras,,,notstarted,1784311200,2026-07-15
 16298633,Bulgaria,Parva Liga,247,Parva Liga,,2026-07-17,13:15,Unknown,1,3273,Levski Sofia,3286,FK Dunav Ruse,,,notstarted,1784312100,2026-07-15
 16378693,Slovenia,PrvaLiga,212,PrvaLiga,,2026-07-17,13:15,Unknown,1,2413,NK Celje,213357,NŠ Mura,,,notstarted,1784312100,2026-07-15
 16403845,Romania,Superliga,152,Superliga,,2026-07-17,13:30,Unknown,1,3301,FCSB,116221,FC Argeș Pitești,,,notstarted,1784313000,2026-07-15
