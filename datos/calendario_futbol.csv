@@ -1,31 +1,5 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16298633,Bulgaria,Parva Liga,247,Parva Liga,,2026-07-17,13:15,Unknown,1,3273,Levski Sofia,3286,FK Dunav Ruse,,,notstarted,1784312100,2026-07-15
-16378693,Slovenia,PrvaLiga,212,PrvaLiga,,2026-07-17,13:15,Unknown,1,2413,NK Celje,213357,NŠ Mura,,,notstarted,1784312100,2026-07-15
-16403845,Romania,Superliga,152,Superliga,,2026-07-17,13:30,Unknown,1,3301,FCSB,116221,FC Argeș Pitești,,,notstarted,1784313000,2026-07-15
-15442505,Iceland,Iceland 1. deild,675,Iceland 1. deild,,2026-07-17,14:15,Unknown,14,1896,Fylkir Reykjavík,283759,UMF Njarðvík,,,notstarted,1784315700,2026-07-15
-16281116,Peru,"Liga 1, Clausura",406,"Liga 1, Clausura",,2026-07-17,15:15,Unknown,1,2302,Club Sporting Cristal,458584,Deportivo Garcilaso,,,notstarted,1784319300,2026-07-15
-15275755,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-17,16:00,Unknown,21,3200,Nueva Chicago,265787,Agropecuario Argentino,,,notstarted,1784322000,2026-07-15
-15526180,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-17,17:00,Unknown,18,1973,América Mineiro,2001,Ceará,,,notstarted,1784325600,2026-07-15
-15526187,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-17,17:00,Unknown,18,1980,Juventude,49202,Cuiabá,,,notstarted,1784325600,2026-07-15
-15526179,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-17,17:00,Unknown,18,47504,São Bernardo,7315,Avaí,,,notstarted,1784325600,2026-07-15
-16460444,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-17,17:30,Unknown,21,36841,Club Ferro Carril Oeste,3207,Club Atletico Colón,,,notstarted,1784327400,2026-07-15
-16390771,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-07-17,17:30,Unknown,4,1955,Bahia,21845,Chapecoense,,,notstarted,1784327400,2026-07-15
-16433580,Uruguay,"Liga AUF Uruguaya, Intermedio, Serie B",278,"Liga AUF Uruguaya, Intermedio, Serie B",,2026-07-17,17:30,Unknown,6,3230,Nacional,3240,Montevideo Wanderers,,,notstarted,1784327400,2026-07-15
-16461503,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-17,18:00,Unknown,21,340432,Ciudad de Bolivar,36834,All Boys,,,notstarted,1784329200,2026-07-15
-15237975,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-07-17,18:00,Unknown,19,1961,Fluminense,1999,Red Bull Bragantino,,,notstarted,1784329200,2026-07-15
-15237979,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-07-17,18:00,Unknown,19,21982,Mirassol,5926,Grêmio,,,notstarted,1784329200,2026-07-15
-15502840,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-07-17,18:00,Unknown,1,342076,Atlético Ottawa,309890,Inter Toronto,,,notstarted,1784329200,2026-07-15
-15502839,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-07-17,18:00,Unknown,1,1165894,FC Supra Du Quebec,463097,Vancouver FC,,,notstarted,1784329200,2026-07-15
-15421089,USA,MLS Next Pro,18641,MLS Next Pro,,2026-07-17,18:00,Unknown,1,217784,Toronto FC II,411367,FC Cincinnati 2,,,notstarted,1784329200,2026-07-15
-16461504,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-17,18:30,Unknown,21,112499,Temperley,34976,Atlético de Rafaela,,,notstarted,1784331000,2026-07-15
 15275740,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-17,19:00,Unknown,21,255425,CA Mitre,273657,Racing de Córdoba,,,notstarted,1784332800,2026-07-15
-16389607,Bolivia,División Profesional,16736,División Profesional,,2026-07-17,19:00,Unknown,9,7059,Bolívar,47701,Guabirá,,,notstarted,1784332800,2026-07-15
-15526182,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-17,19:00,Unknown,18,2020,Fortaleza,135514,Grêmio Novorizontino,,,notstarted,1784332800,2026-07-15
-15526181,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-17,19:00,Unknown,18,2022,Londrina,1979,Botafogo-SP,,,notstarted,1784332800,2026-07-15
-15502607,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-17,19:00,Unknown,20,213638,Delfín,6001,Macará,,,notstarted,1784332800,2026-07-15
-15657444,New Zealand,Southern League,594,Southern League,,2026-07-17,19:00,Unknown,14,378137,Nomads United AFC,389659,Dunedin City Royals FC,,,notstarted,1784332800,2026-07-15
-15657447,New Zealand,Southern League,594,Southern League,,2026-07-17,19:00,Unknown,14,379338,Selwyn United FC,378874,Nelson Suburbs FC,,,notstarted,1784332800,2026-07-15
-15388520,USA,NWSL,1690,NWSL,,2026-07-17,19:00,Unknown,1,377826,Kansas City Current,408170,San Diego Wave FC,,,notstarted,1784332800,2026-07-15
 15171589,USA,MLS,242,MLS,,2026-07-17,19:10,Unknown,,337612,Nashville SC,243211,Atlanta United,,,notstarted,1784333400,2026-07-15
 15657448,New Zealand,Southern League,594,Southern League,,2026-07-17,19:45,Unknown,14,1176791,Northern AFC,378872,Cashmere Technical,,,notstarted,1784335500,2026-07-15
 15657445,New Zealand,Central League,594,Central League,,2026-07-17,20:00,Unknown,14,182819,Wellington Phoenix Reserve,261130,Napier City Rovers,,,notstarted,1784336400,2026-07-15
