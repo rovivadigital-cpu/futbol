@@ -1,17 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15389381,Australia,Queensland NPL,1268,Queensland NPL,,2026-07-18,02:00,Unknown,19,91146,Rochedale Rovers,91920,Brisbane City,,,notstarted,1784358000,2026-07-15
-15389382,Australia,Queensland NPL,1268,Queensland NPL,,2026-07-18,03:00,Unknown,19,91136,Eastern Suburbs,251786,Magic United TFA,,,notstarted,1784361600,2026-07-15
-15373032,South Korea,K League 1,410,K League 1,,2026-07-18,05:30,Unknown,18,7645,Daejeon Hana Citizen,7653,Ulsan HD,,,notstarted,1784370600,2026-07-15
-15373027,South Korea,K League 1,410,K League 1,,2026-07-18,05:30,Unknown,18,34220,Gangwon FC,7647,Gimcheon Sangmu FC,,,notstarted,1784370600,2026-07-15
-15373028,South Korea,K League 1,410,K League 1,,2026-07-18,05:30,Unknown,18,7648,Incheon United,6908,Jeonbuk Hyundai Motors,,,notstarted,1784370600,2026-07-15
-15373030,South Korea,K League 1,410,K League 1,,2026-07-18,05:30,Unknown,18,7649,Jeju SK,7650,Pohang Steelers,,,notstarted,1784370600,2026-07-15
-15403916,South Korea,K-League 2,777,K-League 2,,2026-07-18,05:30,Unknown,18,195172,Gimpo FC,7644,Daegu FC,,,notstarted,1784370600,2026-07-15
-15403913,South Korea,K-League 2,777,K-League 2,,2026-07-18,05:30,Unknown,18,7643,Jeonnam Dragons,339827,Chungnam Asan FC,,,notstarted,1784370600,2026-07-15
-15403917,South Korea,K-League 2,777,K-League 2,,2026-07-18,05:30,Unknown,18,7651,Seongnam FC,7642,Busan I Park,,,notstarted,1784370600,2026-07-15
-15403923,South Korea,K-League 2,777,K-League 2,,2026-07-18,05:30,Unknown,18,41261,Suwon FC,189422,Seoul E-Land FC,,,notstarted,1784370600,2026-07-15
-15271269,Sweden,Superettan,46,Superettan,,2026-07-18,06:00,Unknown,15,1860,IK Oddevold,7101,Varbergs BoIS,,,notstarted,1784372400,2026-07-15
-15272787,Finland,Veikkausliiga,41,Veikkausliiga,,2026-07-18,07:00,Unknown,,2242,HJK,2246,VPS,,,notstarted,1784376000,2026-07-15
-15260842,Norway,Eliteserien,20,Eliteserien,,2026-07-18,07:00,Unknown,14,666,HamKam,660,Tromsø IL,,,notstarted,1784376000,2026-07-15
 15341277,Finland,Ykkosliiga,55,Ykkosliiga,,2026-07-18,08:00,Unknown,15,22372,EIF,23422,JäPS,,,notstarted,1784379600,2026-07-15
 15481695,Finland,Ykkonen,22020,Ykkonen,,2026-07-18,08:00,Unknown,1,22393,PK Keski-Uusimaa,5116,OLS Oulu,,,notstarted,1784379600,2026-07-15
 15481694,Finland,Ykkonen,22020,Ykkonen,,2026-07-18,08:00,Unknown,1,2269,TPV,41819,KuPS Akatemia,,,notstarted,1784379600,2026-07-15
