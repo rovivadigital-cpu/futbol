@@ -1,12 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15389383,Australia,Queensland NPL,1268,Queensland NPL,,2026-07-19,01:00,Unknown,19,91928,Olympic FC,137384,Brisbane Roar Youth,,,notstarted,1784440800,2026-07-16
-15373040,South Korea,K League 1,410,K League 1,,2026-07-19,05:30,Unknown,18,92539,Bucheon FC 1995,7646,FC Seoul,,,notstarted,1784457000,2026-07-16
-15373031,South Korea,K League 1,410,K League 1,,2026-07-19,05:30,Unknown,18,32675,FC Anyang,48912,Gwangju FC,,,notstarted,1784457000,2026-07-16
-15403921,South Korea,K-League 2,777,K-League 2,,2026-07-19,05:30,Unknown,18,314293,Cheongju FC,41263,Cheonan City FC,,,notstarted,1784457000,2026-07-16
-15403920,South Korea,K-League 2,777,K-League 2,,2026-07-19,05:30,Unknown,18,22020,Gyeongnam FC,248375,Ansan Greeners FC,,,notstarted,1784457000,2026-07-16
-15403922,South Korea,K-League 2,777,K-League 2,,2026-07-19,05:30,Unknown,18,7652,Suwon Samsung Bluewings,314294,Paju Frontier FC,,,notstarted,1784457000,2026-07-16
-16303040,South Korea,K-League 2,777,K-League 2,,2026-07-19,05:30,Unknown,18,1236533,Yongin FC,195174,Hwaseong FC,,,notstarted,1784457000,2026-07-16
-15271275,Sweden,Superettan,46,Superettan,,2026-07-19,06:00,Unknown,15,1769,IFK Norrköping,1844,Sandvikens IF,,,notstarted,1784458800,2026-07-16
 15271276,Sweden,Superettan,46,Superettan,,2026-07-19,08:00,Unknown,15,1842,IFK Värnamo,1824,Ljungskile SK,,,notstarted,1784466000,2026-07-16
 15271281,Sweden,Superettan,46,Superettan,,2026-07-19,08:00,Unknown,15,377598,Nordic United FC,1768,Örebro SK,,,notstarted,1784466000,2026-07-16
 16433570,Uruguay,"Liga AUF Uruguaya, Intermedio, Serie A",278,"Liga AUF Uruguaya, Intermedio, Serie A",,2026-07-19,08:00,Unknown,6,3232,Central Español,25009,Cerro Largo,,,postponed,1784466000,2026-07-19
