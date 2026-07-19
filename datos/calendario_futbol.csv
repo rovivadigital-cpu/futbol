@@ -1,14 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15272791,Finland,Veikkausliiga,41,Veikkausliiga,,2026-07-19,10:30,Unknown,,2252,FF Jaro,2247,Inter Turku,,,notstarted,1784475000,2026-07-17
-15472537,Latvia,Virsliga,197,Virsliga,,2026-07-19,11:00,Unknown,23,5346,FK Auda,146336,FK Liepaja,,,postponed,1784476800,2026-07-19
-16433573,Uruguay,"Liga AUF Uruguaya, Intermedio, Serie A",278,"Liga AUF Uruguaya, Intermedio, Serie A",,2026-07-19,11:00,Unknown,6,22011,CA Cerro,25010,Racing de Montevideo,,,postponed,1784476800,2026-07-19
-15416248,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-07-19,11:00,Unknown,16,5601,Club Deportes Antofagasta,3154,Rangers de Talca,,,postponed,1784476800,2026-07-18
-15416252,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-07-19,11:00,Unknown,16,89508,Deportes Magallanes,33595,Curicó Unido,,,postponed,1784476800,2026-07-18
-12813005,World,"FIFA World Cup, Knockout",16,"FIFA World Cup, Knockout",,2026-07-19,14:00,Unknown,29,4698,Spain,4819,Argentina,,,notstarted,1784487600,2026-07-17
-15502615,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-19,15:00,Unknown,21,277525,Orense SC,5249,Aucas,,,postponed,1784491200,2026-07-17
-15502608,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-19,16:45,Unknown,20,188850,Guayaquil City,33561,Manta FC,,,notstarted,1784497500,2026-07-17
-15421095,USA,MLS Next Pro,18641,MLS Next Pro,,2026-07-19,17:00,Unknown,1,1166614,Connecticut United,220949,New York Red Bulls II,,,notstarted,1784498400,2026-07-17
-15388527,USA,NWSL,1690,NWSL,,2026-07-19,18:00,Unknown,1,1165118,Boston Legacy FC,151012,Washington Spirit,,,notstarted,1784502000,2026-07-17
 15416249,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-07-19,18:00,Unknown,16,243490,Deportes Santa Cruz,39219,San Marcos de Arica,,,postponed,1784502000,2026-07-18
 15416254,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-07-19,18:00,Unknown,16,39220,San Luis de Quillota,3153,Unión Española,,,postponed,1784502000,2026-07-18
 16281109,Peru,"Liga 1, Clausura",406,"Liga 1, Clausura",,2026-07-19,19:00,Unknown,1,2311,Alianza Lima,33895,Sport Huancayo,,,notstarted,1784505600,2026-07-17
