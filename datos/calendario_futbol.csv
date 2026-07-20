@@ -1,22 +1,10 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16403819,Romania,Superliga,152,Superliga,,2026-07-20,10:30,Unknown,1,148278,FC Corvinul Hunedoara,283972,FK Csíkszereda Miercurea Ciuc,,,notstarted,1784561400,2026-07-18
-15275757,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-20,13:00,Unknown,21,3214,Club Atlético Chacarita Juniors,224646,Güemes,,,postponed,1784570400,2026-07-20
-15275743,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-20,13:00,Unknown,21,52215,Defensores de Belgrano,112497,Los Andes,,,postponed,1784570400,2026-07-20
-15275756,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-20,13:00,Unknown,21,7772,San Martín de San Juan,93513,Tristán Suárez,,,postponed,1784570400,2026-07-18
-16477381,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-20,13:00,Unknown,21,112491,Acassuso,213361,San Telmo,,,postponed,1784570400,2026-07-19
-16298660,Bulgaria,Parva Liga,247,Parva Liga,,2026-07-20,13:30,Unknown,1,5241,Botev Plovdiv,3277,Lokomotiv Sofia,,,notstarted,1784572200,2026-07-18
-16403816,Romania,Superliga,152,Superliga,,2026-07-20,13:30,Unknown,1,295403,FC Rapid București,189789,Sepsi OSK,,,notstarted,1784572200,2026-07-18
-16389599,Bolivia,División Profesional,16736,División Profesional,,2026-07-20,14:00,Unknown,9,396625,CD San Antonio,423188,Academia de Balompié Boliviano,,,notstarted,1784574000,2026-07-18
-16390459,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-20,14:00,Unknown,20,134976,Mushuc Runa SC,277525,Orense SC,,,notstarted,1784574000,2026-07-18
-15442507,Iceland,Iceland 1. deild,675,Iceland 1. deild,,2026-07-20,14:15,Unknown,14,7121,HK Kópavogur,221305,IF Vestri,,,notstarted,1784574900,2026-07-18
-16433583,Uruguay,"Liga AUF Uruguaya, Intermedio, Serie B",278,"Liga AUF Uruguaya, Intermedio, Serie B",,2026-07-20,15:00,Unknown,6,174972,Montevideo City Torque,3228,Danubio,,,postponed,1784577600,2026-07-19
 16530866,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-20,18:00,Unknown,21,112493,Colegiales,270344,Ferrocarril Midland,,,postponed,1784588400,2026-07-18
 15275751,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-20,18:00,Unknown,21,43741,Patronato,53799,Atlanta,,,postponed,1784588400,2026-07-20
-15275749,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-20,18:00,Unknown,21,4936,Quilmes Atlético Club,5292,Gimnasia Jujuy,,,notstarted,1784588400,2026-07-18
-16389606,Bolivia,División Profesional,16736,División Profesional,,2026-07-20,18:00,Unknown,9,47700,Nacional Potosí,423186,CDT Real Oruro,,,notstarted,1784588400,2026-07-18
+15275749,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-20,18:00,Unknown,21,4936,Quilmes Atlético Club,5292,Gimnasia Jujuy,,,postponed,1784588400,2026-07-20
 16433571,Uruguay,"Liga AUF Uruguaya, Intermedio, Serie A",278,"Liga AUF Uruguaya, Intermedio, Serie A",,2026-07-20,18:00,Unknown,6,3229,Defensor Sporting,6879,Liverpool UY,,,postponed,1784588400,2026-07-19
-15275747,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-20,19:00,Unknown,21,252726,Chaco For Ever,264945,San Miguel,,,notstarted,1784592000,2026-07-18
-16460445,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-20,19:30,Unknown,21,255426,Central Norte de Salta,93109,Deportivo Morón,,,notstarted,1784593800,2026-07-18
+15275747,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-20,19:00,Unknown,21,252726,Chaco For Ever,264945,San Miguel,,,postponed,1784592000,2026-07-20
+16460445,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-20,19:30,Unknown,21,255426,Central Norte de Salta,93109,Deportivo Morón,,,postponed,1784593800,2026-07-20
 16426113,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-07-21,04:30,Unknown,7,520573,Canberra Juventus,91568,Canberra Croatia FC,,,notstarted,1784626200,2026-07-18
 15373033,South Korea,K League 1,410,K League 1,,2026-07-21,05:30,Unknown,19,7649,Jeju SK,34220,Gangwon FC,,,notstarted,1784629800,2026-07-18
 15373034,South Korea,K League 1,410,K League 1,,2026-07-21,05:30,Unknown,19,6908,Jeonbuk Hyundai Motors,7645,Daejeon Hana Citizen,,,notstarted,1784629800,2026-07-18
