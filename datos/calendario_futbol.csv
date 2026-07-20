@@ -1,17 +1,7 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15272792,Finland,Veikkausliiga,41,Veikkausliiga,,2026-07-20,10:00,Unknown,,2254,Turun Palloseura,22386,Ilves,,,notstarted,1784559600,2026-07-18
-15472535,Latvia,Virsliga,197,Virsliga,,2026-07-20,10:00,Unknown,23,36081,FS Jelgava,68718,RFS,,,notstarted,1784559600,2026-07-18
-15481699,Finland,Ykkonen,22020,Ykkonen,,2026-07-20,10:30,Unknown,1,2256,KPV,2250,RoPS,,,notstarted,1784561400,2026-07-18
 16403819,Romania,Superliga,152,Superliga,,2026-07-20,10:30,Unknown,1,148278,FC Corvinul Hunedoara,283972,FK Csíkszereda Miercurea Ciuc,,,notstarted,1784561400,2026-07-18
-16273088,Lithuania,TOPLYGA,198,TOPLYGA,,2026-07-20,10:45,Unknown,23,5343,FK Sūduva Marijampolė,171484,FC Hegelmann,,,notstarted,1784562300,2026-07-18
-15272793,Finland,Veikkausliiga,41,Veikkausliiga,,2026-07-20,11:00,Unknown,,5058,IFK Mariehamn,2249,FC Lahti,,,notstarted,1784563200,2026-07-18
-15472538,Latvia,Virsliga,197,Virsliga,,2026-07-20,11:00,Unknown,23,282126,SK Super Nova,52220,FK Grobiņa,,,notstarted,1784563200,2026-07-18
-16298649,Bulgaria,Parva Liga,247,Parva Liga,,2026-07-20,11:15,Unknown,1,3274,Slavia Sofia,3275,CSKA Sofia,,,notstarted,1784564100,2026-07-18
-15272462,Sweden,Allsvenskan,40,Allsvenskan,,2026-07-20,12:00,Unknown,13,1891,Kalmar FF,1892,Malmö FF,,,notstarted,1784566800,2026-07-18
-15272460,Sweden,Allsvenskan,40,Allsvenskan,,2026-07-20,12:00,Unknown,13,1766,Örgryte IS,1759,Djurgårdens IF,,,notstarted,1784566800,2026-07-18
-15271278,Sweden,Superettan,46,Superettan,,2026-07-20,12:00,Unknown,15,1849,Norrby IF,1763,GIF Sundsvall,,,notstarted,1784566800,2026-07-18
-15275757,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-20,13:00,Unknown,21,3214,Club Atlético Chacarita Juniors,224646,Güemes,,,notstarted,1784570400,2026-07-18
-15275743,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-20,13:00,Unknown,21,52215,Defensores de Belgrano,112497,Los Andes,,,notstarted,1784570400,2026-07-18
+15275757,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-20,13:00,Unknown,21,3214,Club Atlético Chacarita Juniors,224646,Güemes,,,postponed,1784570400,2026-07-20
+15275743,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-20,13:00,Unknown,21,52215,Defensores de Belgrano,112497,Los Andes,,,postponed,1784570400,2026-07-20
 15275756,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-20,13:00,Unknown,21,7772,San Martín de San Juan,93513,Tristán Suárez,,,postponed,1784570400,2026-07-18
 16477381,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-20,13:00,Unknown,21,112491,Acassuso,213361,San Telmo,,,postponed,1784570400,2026-07-19
 16298660,Bulgaria,Parva Liga,247,Parva Liga,,2026-07-20,13:30,Unknown,1,5241,Botev Plovdiv,3277,Lokomotiv Sofia,,,notstarted,1784572200,2026-07-18
