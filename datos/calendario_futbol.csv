@@ -1,8 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16426113,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-07-21,04:30,Unknown,7,520573,Canberra Juventus,91568,Canberra Croatia FC,,,notstarted,1784626200,2026-07-18
-15373033,South Korea,K League 1,410,K League 1,,2026-07-21,05:30,Unknown,19,7649,Jeju SK,34220,Gangwon FC,,,notstarted,1784629800,2026-07-18
-15373034,South Korea,K League 1,410,K League 1,,2026-07-21,05:30,Unknown,19,6908,Jeonbuk Hyundai Motors,7645,Daejeon Hana Citizen,,,notstarted,1784629800,2026-07-18
-15373035,South Korea,K League 1,410,K League 1,,2026-07-21,05:30,Unknown,19,7653,Ulsan HD,7648,Incheon United,,,notstarted,1784629800,2026-07-18
 15341279,Finland,Ykkosliiga,55,Ykkosliiga,,2026-07-21,11:00,Unknown,15,2273,KäPa,5918,HJK Klubi 04,,,notstarted,1784649600,2026-07-19
 16350227,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-21,11:00,Unknown,2,262229,FC Ararat-Armenia,3177,Shamrock Rovers,,,notstarted,1784649600,2026-07-19
 16350221,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-21,11:00,Unknown,2,116312,FC Iberia 1999,2404,ŠK Slovan Bratislava,,,notstarted,1784649600,2026-07-19
