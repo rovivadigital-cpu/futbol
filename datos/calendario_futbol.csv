@@ -1,12 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15341279,Finland,Ykkosliiga,55,Ykkosliiga,,2026-07-21,11:00,Unknown,15,2273,KäPa,5918,HJK Klubi 04,,,notstarted,1784649600,2026-07-19
-16350227,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-21,11:00,Unknown,2,262229,FC Ararat-Armenia,3177,Shamrock Rovers,,,notstarted,1784649600,2026-07-19
-16350221,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-21,11:00,Unknown,2,116312,FC Iberia 1999,2404,ŠK Slovan Bratislava,,,notstarted,1784649600,2026-07-19
-16350228,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-21,11:00,Unknown,2,1783,Mjällby AIF,126304,Lincoln Red Imps,,,notstarted,1784649600,2026-07-19
-16526434,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-21,11:00,Unknown,2,267828,Sabah FK,2244,Kuopion Palloseura,,,notstarted,1784649600,2026-07-19
-16350225,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-21,12:00,Unknown,2,1291,AGF,3121,Lech Poznań,,,notstarted,1784653200,2026-07-19
-16351121,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-21,12:00,Unknown,2,1761,IFK Göteborg,3342,FCI Levadia Tallinn,,,notstarted,1784653200,2026-07-19
-15271270,Sweden,Superettan,46,Superettan,,2026-07-21,12:00,Unknown,15,1812,Falkenbergs FF,1890,Helsingborgs IF,,,notstarted,1784653200,2026-07-19
 16357200,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-21,12:30,Unknown,2,33584,Floriana FC,229755,FC Drita,,,notstarted,1784655000,2026-07-19
 16511491,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-21,13:00,Unknown,21,4938,Almagro,222126,Gimnasia y Tiro de Salta,,,postponed,1784656800,2026-07-19
 16350223,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-21,13:00,Unknown,2,2454,FC Thun,2032,GNK Dinamo Zagreb,,,notstarted,1784656800,2026-07-19
