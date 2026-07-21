@@ -1,20 +1,5 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16357200,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-21,12:30,Unknown,2,33584,Floriana FC,229755,FC Drita,,,notstarted,1784655000,2026-07-19
-16511491,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-21,13:00,Unknown,21,4938,Almagro,222126,Gimnasia y Tiro de Salta,,,postponed,1784656800,2026-07-19
-16350223,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-21,13:00,Unknown,2,2454,FC Thun,2032,GNK Dinamo Zagreb,,,notstarted,1784656800,2026-07-19
-16350222,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-21,13:00,Unknown,2,3052,Fenerbahçe,3110,Górnik Zabrze,,,notstarted,1784656800,2026-07-19
-16357195,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-21,13:15,Unknown,2,38989,Atert Bissen,1923,ETO FC Győr,,,notstarted,1784657700,2026-07-19
-16350220,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-21,13:30,Unknown,2,2051,SK Sturm Graz,2353,Heart of Midlothian,,,notstarted,1784658600,2026-07-19
-16350226,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-21,13:45,Unknown,2,5194,Klaksvíkar Ítróttarfelag,80741,FK Kauno Žalgiris,,,notstarted,1784659500,2026-07-19
-16350234,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-21,14:00,Unknown,2,5184,Larne FC,5149,FK Crvena zvezda,,,notstarted,1784660400,2026-07-19
-16350232,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-21,14:00,Unknown,2,1908,Víkingur Reykjavík,5202,Hapoel Be'er Sheva,,,notstarted,1784660400,2026-07-19
-15502618,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-21,16:30,Unknown,21,394127,Libertad,213638,Delfín,,,notstarted,1784669400,2026-07-19
 15275744,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-21,17:00,Unknown,21,222120,Deportivo Madryn,6074,Godoy Cruz,,,postponed,1784671200,2026-07-20
-16251104,South America,"CONMEBOL Sudamericana, Knockout stage",480,"CONMEBOL Sudamericana, Knockout stage",,2026-07-21,17:00,Unknown,636,3230,Nacional,7628,Tigre,,,notstarted,1784671200,2026-07-19
-15237980,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-07-21,17:30,Unknown,19,1977,Atlético Mineiro,1955,Bahia,,,notstarted,1784673000,2026-07-19
-15526194,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-21,17:30,Unknown,19,7315,Avaí,1973,América Mineiro,,,notstarted,1784673000,2026-07-19
-15526189,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-21,17:30,Unknown,19,135514,Grêmio Novorizontino,1984,Criciúma,,,notstarted,1784673000,2026-07-19
-16389605,Bolivia,División Profesional,16736,División Profesional,,2026-07-21,18:00,Unknown,9,372975,Club Independiente Petrolero,7060,Real Potosí,,,notstarted,1784674800,2026-07-19
 15502612,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-21,19:00,Unknown,21,21942,Universidad Católica del Ecuador,5250,Barcelona SC Guayaquil,,,notstarted,1784678400,2026-07-19
 16251102,South America,"CONMEBOL Sudamericana, Knockout stage",480,"CONMEBOL Sudamericana, Knockout stage",,2026-07-21,19:30,Unknown,636,249952,Universidad Central,1968,Santos,,,notstarted,1784680200,2026-07-19
 15526197,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-21,19:35,Unknown,19,2021,Vila Nova FC,2020,Fortaleza,,,notstarted,1784680500,2026-07-19
