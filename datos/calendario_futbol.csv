@@ -1,21 +1,5 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16350231,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-22,12:30,Unknown,2,3273,Levski Sofia,116223,Universitatea Craiova,,,notstarted,1784741400,2026-07-20
-16351129,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-22,12:45,Unknown,2,3086,Başakşehir FK,2247,Inter Turku,,,notstarted,1784742300,2026-07-20
-16526453,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-22,13:00,Unknown,2,5403,FK Vardar Skopje,162368,Riga FC,,,notstarted,1784743200,2026-07-20
-16360153,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-07-22,13:00,Unknown,300,530775,FC Pyunik Yerevan,497615,Wrexham,,,notstarted,1784743200,2026-07-20
-16351141,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-22,13:30,Unknown,2,2406,FC Spartak Trnava,252080,FC CSKA 1948 Sofia,,,notstarted,1784745000,2026-07-20
-15502619,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-22,14:00,Unknown,21,6001,Macará,5251,Deportivo Cuenca,,,notstarted,1784746800,2026-07-20
-16350230,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-22,14:00,Unknown,2,264619,KF Egnatia,2413,NK Celje,,,notstarted,1784746800,2026-07-20
-16351132,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-22,14:00,Unknown,2,282203,FK Železničar Pančevo,2999,Sporting Braga,,,notstarted,1784746800,2026-07-20
 15502616,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-22,16:30,Unknown,21,39723,Independiente del Valle,21941,Técnico Universitario,,,notstarted,1784755800,2026-07-20
-16251105,South America,"CONMEBOL Sudamericana, Knockout stage",480,"CONMEBOL Sudamericana, Knockout stage",,2026-07-22,17:00,Unknown,636,6115,Independiente Medellín,1974,Vasco da Gama,,,notstarted,1784757600,2026-07-20
-15237982,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-07-22,17:30,Unknown,19,1982,Coritiba,1963,Palmeiras,,,notstarted,1784759400,2026-07-20
-15526192,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-22,17:30,Unknown,19,2001,Ceará,22032,Clube De Regatas Brasil,,,notstarted,1784759400,2026-07-20
-15526191,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-22,17:30,Unknown,19,39634,Operário-PR,1969,Ponte Preta,,,notstarted,1784759400,2026-07-20
-15421100,USA,MLS Next Pro,18641,MLS Next Pro,,2026-07-22,17:30,Unknown,1,506673,Carolina Core FC,411364,Inter Miami CF II,,,notstarted,1784759400,2026-07-20
-15285741,USA,USL Championship,13363,USL Championship,,2026-07-22,18:00,Unknown,1,460707,Lexington SC,325107,Oakland Roots SC,,,notstarted,1784761200,2026-07-20
-15285505,USA,"USL, League One",13362,"USL, League One",,2026-07-22,18:00,Unknown,,1044345,Portland Hearts of Pine,338006,Union Omaha SC,,,notstarted,1784761200,2026-07-20
-15285506,USA,"USL, League One",13362,"USL, League One",,2026-07-22,18:00,Unknown,,1044342,Westchester SC,53903,New York Cosmos,,,notstarted,1784761200,2026-07-20
 15526193,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-22,18:30,Unknown,19,1960,Goiás,1959,Sport Recife,,,notstarted,1784763000,2026-07-20
 15171598,USA,MLS,242,MLS,,2026-07-22,18:30,Unknown,,2504,Columbus Crew,187643,New York City FC,,,notstarted,1784763000,2026-07-20
 15171590,USA,MLS,242,MLS,,2026-07-22,18:30,Unknown,,215167,FC Cincinnati,22010,Vancouver Whitecaps,,,notstarted,1784763000,2026-07-20
@@ -173,6 +157,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15657879,China,Chinese League 1,782,Chinese League 1,,2026-07-25,06:00,Unknown,16,34694,Changchun Yatai,369494,Nanjing City,,,notstarted,1784977200,2026-07-22
 15657878,China,Chinese League 1,782,Chinese League 1,,2026-07-25,06:00,Unknown,16,221238,Ningbo FC,510606,Guangdong GZ-Power,,,notstarted,1784977200,2026-07-22
 15657880,China,Chinese League 1,782,Chinese League 1,,2026-07-25,06:00,Unknown,16,510602,Shaanxi Union FC,510603,Shenzhen Juniors FC,,,notstarted,1784977200,2026-07-22
+16362763,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-07-25,06:00,Unknown,300,284974,Spartak Myjava,273211,Mgarr United,,,notstarted,1784977200,2026-07-22
 15657881,China,Chinese League 1,782,Chinese League 1,,2026-07-25,06:30,Unknown,16,508366,Foshan Nanshi,382020,Wuxi Wugou,,,notstarted,1784979000,2026-07-22
 15657882,China,Chinese League 1,782,Chinese League 1,,2026-07-25,06:30,Unknown,16,382024,Shijiazhuang Gongfu,251278,Nantong Zhiyun,,,notstarted,1784979000,2026-07-22
 15552585,China,Chinese Super League,649,Chinese Super League,,2026-07-25,06:35,Unknown,20,221240,Liaoning Tieren FC,369532,Qingdao West Coast,,,notstarted,1784979300,2026-07-22
