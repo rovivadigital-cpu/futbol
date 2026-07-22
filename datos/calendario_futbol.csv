@@ -1,16 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16361267,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-07-22,07:00,Unknown,300,36706,Glentoran Belfast United,556978,Riga FC,,,notstarted,1784721600,2026-07-19
-16360152,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-07-22,09:30,Unknown,300,289908,KFF Mitrovica,1239500,FC Zimbru Chisinau,,,notstarted,1784730600,2026-07-20
-16361266,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-07-22,09:30,Unknown,300,36713,Klaksvíkar Ítrottarfelag,1239588,PFC Ludogorets Razgrad,,,notstarted,1784730600,2026-07-20
-16359674,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-07-22,10:30,Unknown,300,37187,PAOK,372920,Hapoel Jerusalem,,,notstarted,1784734200,2026-07-20
-15481700,Finland,Ykkonen,22020,Ykkonen,,2026-07-22,11:00,Unknown,1,22393,PK Keski-Uusimaa,283886,VJS,,,notstarted,1784736000,2026-07-20
-16351130,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-22,11:00,Unknown,2,5215,Neftçi PFK,3361,Dinamo Minsk,,,notstarted,1784736000,2026-07-20
-16361269,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-07-22,11:00,Unknown,300,230007,Czarni Sosnowiec,292990,WFC Lusso Nike,,,notstarted,1784736000,2026-07-20
-16359677,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-07-22,11:00,Unknown,300,228595,Flora Tallinn Women,273211,Mgarr United,,,notstarted,1784736000,2026-07-20
-16092074,Norway,Eliteserien,20,Eliteserien,,2026-07-22,12:00,Unknown,2,656,Bodø/Glimt,666,HamKam,,,notstarted,1784739600,2026-07-20
-16223962,Norway,Eliteserien,20,Eliteserien,,2026-07-22,12:00,Unknown,11,664,Lillestrøm SK,1164,Viking FK,,,notstarted,1784739600,2026-07-20
-16350224,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-22,12:00,Unknown,2,3395,Omonia Nicosia,5172,Kairat Almaty,,,notstarted,1784739600,2026-07-20
-16357228,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-22,12:00,Unknown,2,3173,Bohemian FC,230417,KF Ballkani,,,notstarted,1784739600,2026-07-20
 16350231,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-07-22,12:30,Unknown,2,3273,Levski Sofia,116223,Universitatea Craiova,,,notstarted,1784741400,2026-07-20
 16351129,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-22,12:45,Unknown,2,3086,Başakşehir FK,2247,Inter Turku,,,notstarted,1784742300,2026-07-20
 16526453,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-22,13:00,Unknown,2,5403,FK Vardar Skopje,162368,Riga FC,,,notstarted,1784743200,2026-07-20
