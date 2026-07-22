@@ -1,11 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16499691,New Zealand,Northern League,594,Northern League,,2026-07-22,02:30,Unknown,20,288024,East Coast Bays,6909,Auckland City,,,notstarted,1784705400,2026-07-19
-16361268,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-07-22,03:00,Unknown,300,837906,Neftchi Baku PFC,349232,ŽFK Budućnost Podgorica,,,notstarted,1784707200,2026-07-19
-16359676,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-07-22,04:00,Unknown,300,355603,Athlone Town FC,201154,ŽFK Skopje 2014,,,notstarted,1784710800,2026-07-19
-16479994,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-07-22,04:30,Unknown,14,91576,Tuggeranong United,1085648,Canberra White Eagles FC,,,notstarted,1784712600,2026-07-19
-15373038,South Korea,K League 1,410,K League 1,,2026-07-22,05:30,Unknown,19,92539,Bucheon FC 1995,32675,FC Anyang,,,notstarted,1784716200,2026-07-19
-15373036,South Korea,K League 1,410,K League 1,,2026-07-22,05:30,Unknown,19,7646,FC Seoul,7650,Pohang Steelers,,,notstarted,1784716200,2026-07-19
-15373037,South Korea,K League 1,410,K League 1,,2026-07-22,05:30,Unknown,19,48912,Gwangju FC,7647,Gimcheon Sangmu FC,,,notstarted,1784716200,2026-07-19
 16361267,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-07-22,07:00,Unknown,300,36706,Glentoran Belfast United,556978,Riga FC,,,notstarted,1784721600,2026-07-19
 16360152,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-07-22,09:30,Unknown,300,289908,KFF Mitrovica,1239500,FC Zimbru Chisinau,,,notstarted,1784730600,2026-07-20
 16361266,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-07-22,09:30,Unknown,300,36713,Klaksvíkar Ítrottarfelag,1239588,PFC Ludogorets Razgrad,,,notstarted,1784730600,2026-07-20
