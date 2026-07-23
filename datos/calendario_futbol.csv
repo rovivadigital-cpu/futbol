@@ -121,6 +121,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15640274,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-07-25,00:00,Unknown,18,466742,Brindabella Blues FC,1085648,Canberra White Eagles FC,,,notstarted,1784955600,2026-07-22
 15640275,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-07-25,01:30,Unknown,18,91564,Belconnen United FC,408162,O'Connor Knights,,,notstarted,1784961000,2026-07-22
 15640276,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-07-25,03:00,Unknown,18,91572,Tigers FC,91576,Tuggeranong United,,,notstarted,1784966400,2026-07-22
+16605105,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-07-25,03:00,Unknown,52,349232,ŽFK Budućnost Podgorica,372920,Hapoel Jerusalem,,,notstarted,1784966400,2026-07-23
 16246065,Australia,Queensland NPL,1268,Queensland NPL,,2026-07-25,03:15,Unknown,9,274746,Gold Coast Knights,35845,Gold Coast United,,,notstarted,1784967300,2026-07-22
 16603487,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-07-25,04:00,Unknown,52,292990,WFC Lusso Nike,201154,ŽFK Skopje 2014,,,notstarted,1784970000,2026-07-23
 15552582,China,Chinese Super League,649,Chinese Super League,,2026-07-25,04:30,Unknown,20,34695,Qingdao Hainiu,3367,Tianjin Jinmen Tiger,,,notstarted,1784971800,2026-07-22
@@ -134,6 +135,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15657878,China,Chinese League 1,782,Chinese League 1,,2026-07-25,06:00,Unknown,16,221238,Ningbo FC,510606,Guangdong GZ-Power,,,notstarted,1784977200,2026-07-22
 15657880,China,Chinese League 1,782,Chinese League 1,,2026-07-25,06:00,Unknown,16,510602,Shaanxi Union FC,510603,Shenzhen Juniors FC,,,notstarted,1784977200,2026-07-22
 16362763,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-07-25,06:00,Unknown,300,284974,Spartak Myjava,273211,Mgarr United,,,notstarted,1784977200,2026-07-22
+16605103,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-07-25,06:00,Unknown,52,36706,Glentoran Belfast United,530775,FC Pyunik Yerevan,,,notstarted,1784977200,2026-07-23
 15657881,China,Chinese League 1,782,Chinese League 1,,2026-07-25,06:30,Unknown,16,508366,Foshan Nanshi,382020,Wuxi Wugou,,,notstarted,1784979000,2026-07-22
 15657882,China,Chinese League 1,782,Chinese League 1,,2026-07-25,06:30,Unknown,16,382024,Shijiazhuang Gongfu,251278,Nantong Zhiyun,,,notstarted,1784979000,2026-07-22
 15552585,China,Chinese Super League,649,Chinese Super League,,2026-07-25,06:35,Unknown,20,221240,Liaoning Tieren FC,369532,Qingdao West Coast,,,notstarted,1784979300,2026-07-22
@@ -170,6 +172,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16280778,Peru,"Liga 1, Clausura",406,"Liga 1, Clausura",,2026-07-25,10:30,Unknown,2,2312,Sport Boys,335557,Asociación Deportiva Tarma,,,notstarted,1784993400,2026-07-23
 16316953,Poland,Ekstraklasa,202,Ekstraklasa,,2026-07-25,10:30,Unknown,1,3110,Górnik Zabrze,3108,Śląsk Wrocław,,,notstarted,1784993400,2026-07-23
 15272471,Sweden,Allsvenskan,40,Allsvenskan,,2026-07-25,10:30,Unknown,14,1891,Kalmar FF,1783,Mjällby AIF,,,notstarted,1784993400,2026-07-23
+16604329,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-07-25,10:30,Unknown,52,37187,PAOK,837906,Neftchi Baku PFC,,,notstarted,1784993400,2026-07-23
 15276338,Argentina,Primera B,1347,Primera B,,2026-07-25,11:00,Unknown,27,270405,CS Dock Sud,192841,CSYD Liniers,,,notstarted,1784995200,2026-07-23
 16298632,Bulgaria,Parva Liga,247,Parva Liga,,2026-07-25,11:00,Unknown,2,252080,FC CSKA 1948 Sofia,36938,Botev Vratsa,,,notstarted,1784995200,2026-07-23
 16278667,Denmark,Danish Superliga,39,Danish Superliga,,2026-07-25,11:00,Unknown,1,1291,AGF,1281,Brøndby IF,,,notstarted,1784995200,2026-07-23
@@ -194,6 +197,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15389418,Africa,"Africa Cup of Nations, Women, Group D",9558,"Africa Cup of Nations, Women, Group D",,2026-07-25,12:00,Unknown,2,7417,Ghana,69218,Cameroon,,,notstarted,1784998800,2026-07-23
 15389419,Africa,"Africa Cup of Nations, Women, Group D",9558,"Africa Cup of Nations, Women, Group D",,2026-07-25,12:00,Unknown,2,132944,Mali,419432,Cabo Verde,,,notstarted,1784998800,2026-07-23
 15389426,Africa,"Africa Cup of Nations, Women, Group D",9558,"Africa Cup of Nations, Women, Group D",,2026-07-25,12:00,Unknown,3,132944,Mali,7417,Ghana,,,notstarted,1784998800,2026-07-23
+16605104,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-07-25,12:00,Unknown,52,556978,Riga FC,497615,Wrexham,,,notstarted,1784998800,2026-07-23
 16384237,Hungary,NB I,187,NB I,,2026-07-25,12:30,Unknown,1,25397,Kisvárda FC,1916,Kispest Honvéd FC,,,notstarted,1785000600,2026-07-23
 16403844,Romania,Superliga,152,Superliga,,2026-07-25,12:30,Unknown,2,3292,FC Dinamo București,116223,Universitatea Craiova,,,notstarted,1785000600,2026-07-23
 16431108,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-07-25,12:45,Unknown,1,266694,Estudiantes de Río Cuarto,7628,Tigre,,,notstarted,1785001500,2026-07-23
@@ -210,6 +214,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16603327,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-07-25,13:00,Unknown,300,289908,KFF Mitrovica,937672,PFC Ludogorets,,,notstarted,1785002400,2026-07-23
 16280781,Peru,"Liga 1, Clausura",406,"Liga 1, Clausura",,2026-07-25,13:00,Unknown,2,33895,Sport Huancayo,282538,Club Atlético Grau,,,notstarted,1785002400,2026-07-23
 16505227,Uruguay,"Liga AUF Uruguaya, Intermedio, Serie A",278,"Liga AUF Uruguaya, Intermedio, Serie A",,2026-07-25,13:00,Unknown,7,3229,Defensor Sporting,22011,CA Cerro,,,notstarted,1785002400,2026-07-23
+15275768,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-25,13:00,Unknown,22,93513,Tristán Suárez,3214,Club Atlético Chacarita Juniors,,,notstarted,1785002400,2026-07-23
 16298624,Bulgaria,Parva Liga,247,Parva Liga,,2026-07-25,13:15,Unknown,2,3277,Lokomotiv Sofia,3273,Levski Sofia,,,notstarted,1785003300,2026-07-23
 16316952,Poland,Ekstraklasa,202,Ekstraklasa,,2026-07-25,13:15,Unknown,1,3121,Lech Poznań,4901,KS Cracovia,,,notstarted,1785003300,2026-07-23
 16378695,Slovenia,PrvaLiga,212,PrvaLiga,,2026-07-25,13:15,Unknown,2,2420,NK Maribor,274937,Brinje Grosuplje,,,notstarted,1785003300,2026-07-23
