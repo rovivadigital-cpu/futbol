@@ -1,30 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16357256,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-23,09:30,Unknown,2,325494,FC Malisheva,2354,Hibernian,,,notstarted,1784817000,2026-07-21
-16357227,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-23,10:00,Unknown,2,67966,FC Alashkert,5287,CFR 1907 Cluj,,,notstarted,1784818800,2026-07-21
-16357209,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-23,10:00,Unknown,2,146336,FK Liepaja,2203,FK Austria Wien,,,notstarted,1784818800,2026-07-21
-15421098,USA,MLS Next Pro,18641,MLS Next Pro,,2026-07-23,10:00,Unknown,1,338005,New England Revolution II,411368,New York City FC II,,,notstarted,1784818800,2026-07-21
-16351123,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-23,10:30,Unknown,2,192763,FK Panevėžys,5362,FC Tobol,,,notstarted,1784820600,2026-07-21
-16350376,Europe,"UEFA Europa League, Qualification",679,"UEFA Europa League, Qualification",,2026-07-23,11:00,Unknown,2,5962,Qarabağ FK,3275,CSKA Sofia,,,notstarted,1784822400,2026-07-21
-16351127,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-23,11:00,Unknown,2,1921,Debreceni VSC,5214,Pyunik Yerevan,,,notstarted,1784822400,2026-07-21
-16357215,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-23,11:00,Unknown,2,33819,FC Dila Gori,3402,Apollon Limassol,,,notstarted,1784822400,2026-07-21
-16357198,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-23,11:00,Unknown,2,3346,Flora Tallinn,4921,The New Saints,,,notstarted,1784822400,2026-07-21
-16351118,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-23,11:00,Unknown,2,2242,HJK,5270,Coleraine FC,,,notstarted,1784822400,2026-07-21
-16357230,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-23,11:00,Unknown,2,32476,Paide Linnameeskond,173406,Zirə FK,,,notstarted,1784822400,2026-07-21
-16351143,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-23,11:30,Unknown,2,3404,AEK Larnaca,5204,Beitar Jerusalem,,,notstarted,1784824200,2026-07-21
-16351128,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-23,11:30,Unknown,2,23833,DAC 1904,6151,FK Velež Mostar,,,notstarted,1784824200,2026-07-21
-16357208,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-23,11:30,Unknown,2,68718,RFS,221305,IF Vestri,,,notstarted,1784824200,2026-07-21
-16351122,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-23,11:30,Unknown,2,35268,Raków Częstochowa,5332,Valletta FC,,,notstarted,1784824200,2026-07-21
-16350371,Europe,"UEFA Europa League, Qualification",679,"UEFA Europa League, Qualification",,2026-07-23,12:00,Unknown,2,3305,Dynamo Kyiv,3251,PAOK,,,notstarted,1784826000,2026-07-21
-16350375,Europe,"UEFA Europa League, Qualification",679,"UEFA Europa League, Qualification",,2026-07-23,12:00,Unknown,2,1758,Hammarby IF,2900,RSC Anderlecht,,,notstarted,1784826000,2026-07-21
-16350370,Europe,"UEFA Europa League, Qualification",679,"UEFA Europa League, Qualification",,2026-07-23,12:00,Unknown,2,5173,Sheriff Tiraspol,5198,Maccabi Tel Aviv,,,notstarted,1784826000,2026-07-21
-16433009,Europe,"UEFA Europa League, Qualification",679,"UEFA Europa League, Qualification",,2026-07-23,12:00,Unknown,2,660,Tromsø IL,2217,FC Hradec Králové,,,notstarted,1784826000,2026-07-21
-16357220,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-23,12:00,Unknown,2,3350,BATE Borisov,2452,FC Sion,,,notstarted,1784826000,2026-07-21
-16357222,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-23,12:00,Unknown,2,5171,Dinamo Tbilisi,5345,FK Žalgiris,,,notstarted,1784826000,2026-07-21
-16357225,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-23,12:00,Unknown,2,7711,FC Santa Coloma,2055,SK Rapid Wien,,,notstarted,1784826000,2026-07-21
-16357216,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-23,12:00,Unknown,2,7734,FC Universitatea Cluj,1159,SK Brann,,,notstarted,1784826000,2026-07-21
-16351124,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-23,12:00,Unknown,2,5265,FC Zimbru Chişinău,262228,FC Noah,,,notstarted,1784826000,2026-07-21
-16351120,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-23,12:00,Unknown,2,1786,GAIS,1292,FC Nordsjælland,,,notstarted,1784826000,2026-07-21
-16357197,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-23,12:00,Unknown,2,381792,ML Vitebsk,6224,FK Sutjeska Nikšić,,,notstarted,1784826000,2026-07-21
 16351142,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-23,12:30,Unknown,2,2463,FC Vaduz,37962,Atlètic Club Escaldes,,,notstarted,1784827800,2026-07-21
 16351116,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-23,12:45,Unknown,2,3301,FCSB,5346,FK Auda,,,notstarted,1784828700,2026-07-21
 16350373,Europe,"UEFA Europa League, Qualification",679,"UEFA Europa League, Qualification",,2026-07-23,13:00,Unknown,2,3050,Beşiktaş JK,1289,FC Midtjylland,,,notstarted,1784829600,2026-07-21
@@ -232,7 +206,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15275783,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-25,15:00,Unknown,23,112491,Acassuso,3207,Club Atletico Colón,,,postponed,1785009600,2026-07-23
 15275788,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-25,15:00,Unknown,23,4938,Almagro,270344,Ferrocarril Midland,,,postponed,1785009600,2026-07-23
 15275773,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-25,15:00,Unknown,22,53799,Atlanta,4938,Almagro,,,postponed,1785009600,2026-07-23
-15275791,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-25,15:00,Unknown,23,3200,Nueva Chicago,23950,San Martín de Tucumán,,,notstarted,1785009600,2026-07-23
+15275791,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-25,15:00,Unknown,23,3200,Nueva Chicago,23950,San Martín de Tucumán,,,postponed,1785009600,2026-07-23
 15275792,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-07-25,15:00,Unknown,23,7772,San Martín de San Juan,34976,Atlético de Rafaela,,,notstarted,1785009600,2026-07-23
 15617702,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-07-25,15:00,Unknown,15,35285,Ferroviária,21858,Maranhão AC,,,notstarted,1785009600,2026-07-23
 15617713,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-07-25,15:00,Unknown,15,1976,Santa Cruz,1985,Figueirense,,,notstarted,1785009600,2026-07-23
@@ -266,6 +240,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15285528,USA,"USL, League One",13362,"USL, League One",,2026-07-25,18:00,Unknown,,312632,Forward Madison FC,1044341,FC Naples,,,notstarted,1785020400,2026-07-23
 15285515,USA,"USL, League One",13362,"USL, League One",,2026-07-25,18:00,Unknown,,53903,New York Cosmos,1158834,AC Boise,,,notstarted,1785020400,2026-07-23
 15285516,USA,"USL, League One",13362,"USL, League One",,2026-07-25,18:00,Unknown,,338006,Union Omaha SC,253417,South Georgia Tormenta FC,,,canceled,1785020400,2026-07-23
+16317903,Costa Rica,"Primera División, Apertura",11535,"Primera División, Apertura",,2026-07-25,18:00,Unknown,1,7044,CS Cartaginés,531301,Inter San Carlos,,,notstarted,1785020400,2026-07-23
 16390651,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-07-25,18:10,Unknown,1,6117,Millonarios,6103,Atlético Bucaramanga,,,notstarted,1785021000,2026-07-23
 15171606,USA,MLS,242,MLS,,2026-07-25,18:15,Unknown,,2504,Columbus Crew,215167,FC Cincinnati,,,notstarted,1785021300,2026-07-23
 16389618,Bolivia,División Profesional,16736,División Profesional,,2026-07-25,18:30,Unknown,11,372975,Club Independiente Petrolero,33820,Oriente Petrolero,,,notstarted,1785022200,2026-07-23
