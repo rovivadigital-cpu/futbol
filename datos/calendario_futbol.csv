@@ -1,11 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16251107,South America,"CONMEBOL Sudamericana, Knockout stage",480,"CONMEBOL Sudamericana, Knockout stage",,2026-07-23,17:00,Unknown,636,7059,Bolívar,5926,Grêmio,,,notstarted,1784844000,2026-07-21
-16431093,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-07-23,17:30,Unknown,1,3203,Club Atlético Belgrano,3217,Rosario Central,,,notstarted,1784845800,2026-07-21
-16431095,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-07-23,17:30,Unknown,1,42338,Sarmiento,3216,Argentinos Juniors,,,notstarted,1784845800,2026-07-21
-16390770,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-07-23,17:30,Unknown,4,1958,Botafogo,1962,Vitória,,,notstarted,1784845800,2026-07-21
-15237978,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-07-23,17:30,Unknown,19,1957,Corinthians,2012,Remo,,,notstarted,1784845800,2026-07-21
-15526190,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-23,17:30,Unknown,19,342775,Athletic Club,47504,São Bernardo,,,notstarted,1784845800,2026-07-21
-15526196,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-23,18:30,Unknown,19,49202,Cuiabá,7314,Atlético Goianiense,,,notstarted,1784849400,2026-07-21
 15502617,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-23,19:00,Unknown,21,5255,Emelec,134976,Mushuc Runa SC,,,notstarted,1784851200,2026-07-21
 15526188,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-07-23,19:30,Unknown,19,1979,Botafogo-SP,1980,Juventude,,,notstarted,1784853000,2026-07-21
 16251101,South America,"CONMEBOL Sudamericana, Knockout stage",480,"CONMEBOL Sudamericana, Knockout stage",,2026-07-23,19:30,Unknown,636,3202,Boca Juniors,3163,O'Higgins,,,notstarted,1784853000,2026-07-21
