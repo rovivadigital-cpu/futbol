@@ -1,6 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15403926,South Korea,K-League 2,777,K-League 2,,2026-07-24,05:30,Unknown,19,41260,Gimhae City FC,314293,Cheongju FC,,,notstarted,1784889000,2026-07-21
-15403925,South Korea,K-League 2,777,K-League 2,,2026-07-24,05:30,Unknown,19,189422,Seoul E-Land FC,41263,Cheonan City FC,,,notstarted,1784889000,2026-07-21
 16403843,Romania,Superliga,152,Superliga,,2026-07-24,10:30,Unknown,2,204657,UTA Arad,3291,SC Oțelul Galați,,,notstarted,1784907000,2026-07-22
 16419784,Bulgaria,Vtora Liga,1135,Vtora Liga,,2026-07-24,10:45,Unknown,1,3281,Beroe Stara Zagora,232494,FK Hebar Pazardzhik,,,notstarted,1784907900,2026-07-22
 16379897,Czech Republic,FNL,205,FNL,,2026-07-24,11:00,Unknown,1,76775,1. SK Prostějov,6068,FK Třinec,,,notstarted,1784908800,2026-07-22
@@ -89,7 +87,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15272795,Finland,Veikkausliiga,41,Veikkausliiga,,2026-07-25,08:30,Unknown,,5058,IFK Mariehamn,5114,AC Oulu,,,notstarted,1784986200,2026-07-22
 16317212,Denmark,Betinia Liga,47,Betinia Liga,,2026-07-25,09:00,Unknown,1,1302,FC Fredericia,36095,HB Køge,,,notstarted,1784988000,2026-07-23
 15272796,Finland,Veikkausliiga,41,Veikkausliiga,,2026-07-25,09:00,Unknown,,2244,Kuopion Palloseura,2246,VPS,,,notstarted,1784988000,2026-07-23
-15442508,Iceland,Iceland 1. deild,675,Iceland 1. deild,,2026-07-25,09:00,Unknown,15,1914,UMF Afturelding,41099,Grótta,,,notstarted,1784988000,2026-07-23
+15442508,Iceland,Iceland 1. deild,675,Iceland 1. deild,,2026-07-25,09:00,Unknown,15,1914,UMF Afturelding,41099,Grótta,,,postponed,1784988000,2026-07-24
 15442509,Iceland,Iceland 1. deild,675,Iceland 1. deild,,2026-07-25,09:00,Unknown,15,1907,ÍR Reykjavík,1896,Fylkir Reykjavík,,,notstarted,1784988000,2026-07-23
 15260852,Norway,Eliteserien,20,Eliteserien,,2026-07-25,09:00,Unknown,15,957,Kristiansund BK,667,IK Start,,,notstarted,1784988000,2026-07-23
 15254077,Sweden,Damallsvenskan,214,Damallsvenskan,,2026-07-25,09:00,Unknown,13,102033,Norrköping DFK,1884,Hammarby IF,,,notstarted,1784988000,2026-07-23
