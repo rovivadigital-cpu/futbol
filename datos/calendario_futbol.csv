@@ -1,20 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16403843,Romania,Superliga,152,Superliga,,2026-07-24,10:30,Unknown,2,204657,UTA Arad,3291,SC Oțelul Galați,,,notstarted,1784907000,2026-07-22
-16419784,Bulgaria,Vtora Liga,1135,Vtora Liga,,2026-07-24,10:45,Unknown,1,3281,Beroe Stara Zagora,232494,FK Hebar Pazardzhik,,,notstarted,1784907900,2026-07-22
-16379897,Czech Republic,FNL,205,FNL,,2026-07-24,11:00,Unknown,1,76775,1. SK Prostějov,6068,FK Třinec,,,notstarted,1784908800,2026-07-22
-16379896,Czech Republic,FNL,205,FNL,,2026-07-24,11:00,Unknown,1,7739,Dukla Praha,37113,Arsenal Česká Lípa,,,notstarted,1784908800,2026-07-22
-16379898,Czech Republic,FNL,205,FNL,,2026-07-24,11:00,Unknown,1,4868,FK VIAGEM Ústí nad Labem,2223,SK Kladno,,,notstarted,1784908800,2026-07-22
-16379908,Czech Republic,FNL,205,FNL,,2026-07-24,11:00,Unknown,1,4865,SK Hanácká Slavia Kroměříž,24782,FC Silon Táborsko,,,notstarted,1784908800,2026-07-22
-16379981,Czech Republic,FNL,205,FNL,,2026-07-24,11:00,Unknown,1,4863,Vysočina Jihlava,2211,FK Viktoria Žižkov,,,notstarted,1784908800,2026-07-22
-16317208,Denmark,Betinia Liga,47,Betinia Liga,,2026-07-24,11:00,Unknown,1,4872,Vejle,203406,AB,,,notstarted,1784908800,2026-07-22
-15272794,Finland,Veikkausliiga,41,Veikkausliiga,,2026-07-24,11:00,Unknown,,2252,FF Jaro,22395,SJK,,,notstarted,1784908800,2026-07-22
-15481701,Finland,Ykkonen,22020,Ykkonen,,2026-07-24,11:00,Unknown,1,35395,FC Jazz,2269,TPV,,,notstarted,1784908800,2026-07-22
-15481702,Finland,Ykkonen,22020,Ykkonen,,2026-07-24,11:00,Unknown,1,2241,Tampere United,283350,Inter Turku/2,,,notstarted,1784908800,2026-07-22
-16465635,Lithuania,TOPLYGA,198,TOPLYGA,,2026-07-24,11:00,Unknown,13,312564,Šiauliai FA,171484,FC Hegelmann,,,notstarted,1784908800,2026-07-22
-16316946,Poland,Ekstraklasa,202,Ekstraklasa,,2026-07-24,11:00,Unknown,1,7295,Radomiak Radom,334956,Wieczysta Kraków,,,notstarted,1784908800,2026-07-22
-16278668,Denmark,Danish Superliga,39,Danish Superliga,,2026-07-24,12:00,Unknown,1,1288,Viborg FF,1286,Odense Boldklub,,,notstarted,1784912400,2026-07-22
-16317207,Denmark,Betinia Liga,47,Betinia Liga,,2026-07-24,12:00,Unknown,1,1290,AaB,1371,Hillerød Fodbold,,,notstarted,1784912400,2026-07-22
-15272474,Sweden,Allsvenskan,40,Allsvenskan,,2026-07-24,12:00,Unknown,14,1775,Västerås SK,1766,Örgryte IS,,,notstarted,1784912400,2026-07-22
 16384239,Hungary,NB I,187,NB I,,2026-07-24,13:00,Unknown,1,5124,Nyiregyháza Spartacus,1924,Újpest,,,notstarted,1784916000,2026-07-22
 15442512,Iceland,Iceland 1. deild,675,Iceland 1. deild,,2026-07-24,13:00,Unknown,15,5372,IF Völsungur,1897,UMF Grindavík ,,,notstarted,1784916000,2026-07-22
 16298645,Bulgaria,Parva Liga,247,Parva Liga,,2026-07-24,13:15,Unknown,2,274971,Arda Kardzhali,3274,Slavia Sofia,,,notstarted,1784916900,2026-07-22
