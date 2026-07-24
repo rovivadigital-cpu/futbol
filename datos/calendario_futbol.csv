@@ -1,26 +1,7 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16384239,Hungary,NB I,187,NB I,,2026-07-24,13:00,Unknown,1,5124,Nyiregyháza Spartacus,1924,Újpest,,,notstarted,1784916000,2026-07-22
-15442512,Iceland,Iceland 1. deild,675,Iceland 1. deild,,2026-07-24,13:00,Unknown,15,5372,IF Völsungur,1897,UMF Grindavík ,,,notstarted,1784916000,2026-07-22
-16298645,Bulgaria,Parva Liga,247,Parva Liga,,2026-07-24,13:15,Unknown,2,274971,Arda Kardzhali,3274,Slavia Sofia,,,notstarted,1784916900,2026-07-22
-16316944,Poland,Ekstraklasa,202,Ekstraklasa,,2026-07-24,13:30,Unknown,1,3117,Pogoń Szczecin,3106,Legia Warszawa,,,notstarted,1784917800,2026-07-22
-16403836,Romania,Superliga,152,Superliga,,2026-07-24,13:30,Unknown,2,116221,FC Argeș Pitești,25856,FC Petrolul Ploiești,,,notstarted,1784917800,2026-07-22
-15238130,Ireland,Premier Division,192,Premier Division,,2026-07-24,14:00,Unknown,25,3169,St. Patrick's Athletic,3179,Dundalk FC,,,notstarted,1784919600,2026-07-22
-15227362,Paraguay,"Primera División, Clausura",11541,"Primera División, Clausura",,2026-07-24,14:00,Unknown,1,5992,CS 2 de Mayo,36438,Rubio Ñu,,,notstarted,1784919600,2026-07-22
-15442511,Iceland,Iceland 1. deild,675,Iceland 1. deild,,2026-07-24,14:15,Unknown,15,283759,UMF Njarðvík,7121,HK Kópavogur,,,notstarted,1784920500,2026-07-22
-16431092,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-07-24,14:45,Unknown,1,188441,Gimnasia y Esgrima Mendoza,65676,Central Córdoba,,,notstarted,1784922300,2026-07-22
-16281126,Peru,"Liga 1, Clausura",406,"Liga 1, Clausura",,2026-07-24,15:00,Unknown,2,2307,Alianza Atlético de Sullana,252254,Los Chankas CYC,,,notstarted,1784923200,2026-07-22
-16459560,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-07-24,16:05,Unknown,1,6110,Deportes Quindío,89366,Boca Juniors de Cali,,,notstarted,1784927100,2026-07-22
 15227361,Paraguay,"Primera División, Clausura",11541,"Primera División, Clausura",,2026-07-24,16:30,Unknown,1,5991,Cerro Porteño,39722,Sportivo Trinidense,,,notstarted,1784928600,2026-07-22
-16431136,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-07-24,17:00,Unknown,1,3215,Racing Club,3205,Gimnasia y Esgrima,,,notstarted,1784930400,2026-07-22
-16431096,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-07-24,17:00,Unknown,1,3208,Vélez Sarsfield,4937,Instituto De Córdoba,,,notstarted,1784930400,2026-07-22
 15353071,Chile,Liga de Primera,11653,Liga de Primera,,2026-07-24,17:00,Unknown,16,48242,Unión La Calera,5032,Everton de Viña del Mar,,,postponed,1784930400,2026-07-23
-15502842,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-07-24,17:00,Unknown,1,309892,HFX Wanderers FC,1165894,FC Supra Du Quebec,,,notstarted,1784930400,2026-07-22
-16603163,Uruguay,"Liga AUF Uruguaya, Intermedio, Serie B",278,"Liga AUF Uruguaya, Intermedio, Serie B",,2026-07-24,17:00,Unknown,6,174972,Montevideo City Torque,3228,Danubio,,,notstarted,1784930400,2026-07-23
 16505216,Uruguay,"Liga AUF Uruguaya, Intermedio, Serie B",278,"Liga AUF Uruguaya, Intermedio, Serie B",,2026-07-24,17:30,Unknown,7,3230,Nacional,3238,Progreso,,,postponed,1784932200,2026-07-23
-16389615,Bolivia,División Profesional,16736,División Profesional,,2026-07-24,18:00,Unknown,11,33714,Club Aurora,423188,Academia de Balompié Boliviano,,,notstarted,1784934000,2026-07-22
-16459554,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-07-24,18:00,Unknown,1,89354,Tigres FC,89362,Leones FC,,,notstarted,1784934000,2026-07-22
-15421103,USA,MLS Next Pro,18641,MLS Next Pro,,2026-07-24,18:00,Unknown,1,220949,New York Red Bulls II,467299,Crown Legacy FC,,,notstarted,1784934000,2026-07-22
-16390647,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-07-24,18:10,Unknown,1,89374,Llaneros FC,6109,Deportivo Pereira,,,notstarted,1784934600,2026-07-22
 15285740,USA,USL Championship,13363,USL Championship,,2026-07-24,19:00,Unknown,1,310967,Birmingham Legion FC,310531,New Mexico United,,,notstarted,1784937600,2026-07-22
 15388522,USA,NWSL,1690,NWSL,,2026-07-24,19:00,Unknown,1,151006,Houston Dash,505655,Bay FC,,,notstarted,1784937600,2026-07-22
 15388529,USA,NWSL,1690,NWSL,,2026-07-24,19:00,Unknown,1,215083,Orlando Pride,34714,Chicago Stars FC,,,notstarted,1784937600,2026-07-22
@@ -241,7 +222,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16317421,Denmark,Betinia Liga,47,Betinia Liga,,2026-07-26,07:00,Unknown,1,1392,Hobro,4874,Aarhus Fremad,,,notstarted,1785067200,2026-07-23
 15272797,Finland,Veikkausliiga,41,Veikkausliiga,,2026-07-26,07:00,Unknown,,22386,Ilves,2249,FC Lahti,,,notstarted,1785067200,2026-07-23
 15272798,Finland,Veikkausliiga,41,Veikkausliiga,,2026-07-26,07:00,Unknown,,2247,Inter Turku,2271,IF Gnistan,,,notstarted,1785067200,2026-07-23
-15472539,Latvia,Virsliga,197,Virsliga,,2026-07-26,07:00,Unknown,24,282126,SK Super Nova,162368,Riga FC,,,notstarted,1785067200,2026-07-23
+15472539,Latvia,Virsliga,197,Virsliga,,2026-07-26,07:00,Unknown,24,282126,SK Super Nova,162368,Riga FC,,,postponed,1785067200,2026-07-24
 15272470,Sweden,Allsvenskan,40,Allsvenskan,,2026-07-26,07:00,Unknown,14,1787,IF Brommapojkarna,1758,Hammarby IF,,,notstarted,1785067200,2026-07-23
 15272472,Sweden,Allsvenskan,40,Allsvenskan,,2026-07-26,07:00,Unknown,14,1793,IK Sirius,1761,IFK Göteborg,,,notstarted,1785067200,2026-07-23
 16357185,Switzerland,Swiss Super League,215,Swiss Super League,,2026-07-26,07:00,Unknown,1,2445,BSC Young Boys,2452,FC Sion,,,notstarted,1785067200,2026-07-23
