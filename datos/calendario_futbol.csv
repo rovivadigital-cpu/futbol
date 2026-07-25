@@ -1,23 +1,5 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15640275,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-07-25,01:30,Unknown,18,91564,Belconnen United FC,408162,O'Connor Knights,,,notstarted,1784961000,2026-07-22
-15640276,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-07-25,03:00,Unknown,18,91572,Tigers FC,91576,Tuggeranong United,,,notstarted,1784966400,2026-07-22
-16605105,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-07-25,03:00,Unknown,52,349232,ŽFK Budućnost Podgorica,372920,Hapoel Jerusalem,,,notstarted,1784966400,2026-07-23
-16246065,Australia,Queensland NPL,1268,Queensland NPL,,2026-07-25,03:15,Unknown,9,274746,Gold Coast Knights,35845,Gold Coast United,,,notstarted,1784967300,2026-07-22
-16603487,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-07-25,04:00,Unknown,52,292990,WFC Lusso Nike,201154,ŽFK Skopje 2014,,,notstarted,1784970000,2026-07-23
-15552582,China,Chinese Super League,649,Chinese Super League,,2026-07-25,04:30,Unknown,20,34695,Qingdao Hainiu,3367,Tianjin Jinmen Tiger,,,notstarted,1784971800,2026-07-22
-15373039,South Korea,K League 1,410,K League 1,,2026-07-25,05:30,Unknown,20,7647,Gimcheon Sangmu FC,7645,Daejeon Hana Citizen,,,notstarted,1784975400,2026-07-22
-15373053,South Korea,K League 1,410,K League 1,,2026-07-25,05:30,Unknown,20,7650,Pohang Steelers,6908,Jeonbuk Hyundai Motors,,,notstarted,1784975400,2026-07-22
-15403927,South Korea,K-League 2,777,K-League 2,,2026-07-25,05:30,Unknown,19,7642,Busan I Park,7652,Suwon Samsung Bluewings,,,notstarted,1784975400,2026-07-22
-15403932,South Korea,K-League 2,777,K-League 2,,2026-07-25,05:30,Unknown,19,7644,Daegu FC,41261,Suwon FC,,,notstarted,1784975400,2026-07-22
-15403931,South Korea,K-League 2,777,K-League 2,,2026-07-25,05:30,Unknown,19,195174,Hwaseong FC,339827,Chungnam Asan FC,,,notstarted,1784975400,2026-07-22
-15403930,South Korea,K-League 2,777,K-League 2,,2026-07-25,05:30,Unknown,19,7643,Jeonnam Dragons,22020,Gyeongnam FC,,,notstarted,1784975400,2026-07-22
-15657879,China,Chinese League 1,782,Chinese League 1,,2026-07-25,06:00,Unknown,16,34694,Changchun Yatai,369494,Nanjing City,,,notstarted,1784977200,2026-07-22
-15657878,China,Chinese League 1,782,Chinese League 1,,2026-07-25,06:00,Unknown,16,221238,Ningbo FC,510606,Guangdong GZ-Power,,,notstarted,1784977200,2026-07-22
-15657880,China,Chinese League 1,782,Chinese League 1,,2026-07-25,06:00,Unknown,16,510602,Shaanxi Union FC,510603,Shenzhen Juniors FC,,,notstarted,1784977200,2026-07-22
 16362763,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-07-25,06:00,Unknown,300,284974,Spartak Myjava,273211,Mgarr United,,,notstarted,1784977200,2026-07-22
-16605103,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-07-25,06:00,Unknown,52,36706,Glentoran Belfast United,530775,FC Pyunik Yerevan,,,notstarted,1784977200,2026-07-23
-15657881,China,Chinese League 1,782,Chinese League 1,,2026-07-25,06:30,Unknown,16,508366,Foshan Nanshi,382020,Wuxi Wugou,,,notstarted,1784979000,2026-07-22
-15657882,China,Chinese League 1,782,Chinese League 1,,2026-07-25,06:30,Unknown,16,382024,Shijiazhuang Gongfu,251278,Nantong Zhiyun,,,notstarted,1784979000,2026-07-22
 15552585,China,Chinese Super League,649,Chinese Super League,,2026-07-25,06:35,Unknown,20,221240,Liaoning Tieren FC,369532,Qingdao West Coast,,,notstarted,1784979300,2026-07-22
 15552589,China,Chinese Super League,649,Chinese Super League,,2026-07-25,06:35,Unknown,20,41537,Shanghai Port,3373,Shanghai Shenhua,,,notstarted,1784979300,2026-07-22
 15552586,China,Chinese Super League,649,Chinese Super League,,2026-07-25,07:00,Unknown,20,295152,Wuhan Three Towns,474989,Chongqing Tonglianglong FC,,,notstarted,1784980800,2026-07-22
@@ -164,6 +146,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15353070,Chile,Liga de Primera,11653,Liga de Primera,,2026-07-25,19:00,Unknown,16,3151,Universidad Católica,5031,Deportes La Serena,,,notstarted,1785024000,2026-07-23
 16459555,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-07-25,19:00,Unknown,1,6119,Real Cartagena,89358,Real Santander,,,notstarted,1785024000,2026-07-23
 15502626,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-07-25,19:00,Unknown,22,21941,Técnico Universitario,33561,Manta FC,,,notstarted,1785024000,2026-07-23
+15285740,USA,USL Championship,13363,USL Championship,,2026-07-25,19:00,Unknown,1,310967,Birmingham Legion FC,310531,New Mexico United,,,notstarted,1785024000,2026-07-25
 16431097,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-07-25,19:30,Unknown,1,3218,CA Lanús,3201,San Lorenzo,,,notstarted,1785025800,2026-07-23
 15171614,USA,MLS,242,MLS,,2026-07-25,19:30,Unknown,,2508,Houston Dynamo,377973,Austin FC,,,notstarted,1785025800,2026-07-23
 15171615,USA,MLS,242,MLS,,2026-07-25,19:30,Unknown,,41618,Minnesota United,22010,Vancouver Whitecaps,,,notstarted,1785025800,2026-07-23
