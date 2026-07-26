@@ -1,17 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15640277,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-07-26,01:30,Unknown,18,520573,Canberra Juventus,91574,Monaro Panthers,,,notstarted,1785047400,2026-07-23
-16379980,Czech Republic,FNL,205,FNL,,2026-07-26,03:15,Unknown,1,324982,SK Slavia Praha B,2213,1.FK Příbram,,,notstarted,1785053700,2026-07-23
-15657883,China,Chinese League 1,782,Chinese League 1,,2026-07-26,05:00,Unknown,16,382025,Yanbian Longding,215186,Meizhou Hakka,,,notstarted,1785060000,2026-07-23
-15373041,South Korea,K League 1,410,K League 1,,2026-07-26,05:30,Unknown,20,32675,FC Anyang,34220,Gangwon FC,,,notstarted,1785061800,2026-07-23
-15373042,South Korea,K League 1,410,K League 1,,2026-07-26,05:30,Unknown,20,7646,FC Seoul,7653,Ulsan HD,,,notstarted,1785061800,2026-07-23
-15373043,South Korea,K League 1,410,K League 1,,2026-07-26,05:30,Unknown,20,48912,Gwangju FC,7649,Jeju SK,,,notstarted,1785061800,2026-07-23
-15373044,South Korea,K League 1,410,K League 1,,2026-07-26,05:30,Unknown,20,7648,Incheon United,92539,Bucheon FC 1995,,,notstarted,1785061800,2026-07-23
-16299959,South Korea,K-League 2,777,K-League 2,,2026-07-26,05:30,Unknown,19,195172,Gimpo FC,41266,Yongin City FC,,,notstarted,1785061800,2026-07-23
-15403929,South Korea,K-League 2,777,K-League 2,,2026-07-26,05:30,Unknown,19,314294,Paju Frontier FC,248375,Ansan Greeners FC,,,notstarted,1785061800,2026-07-23
-15552588,China,Chinese Super League,649,Chinese Super League,,2026-07-26,06:00,Unknown,20,474991,Yunnan Yukun,281331,Shenzhen Peng City,,,notstarted,1785063600,2026-07-23
-15657884,China,Chinese League 1,782,Chinese League 1,,2026-07-26,06:00,Unknown,16,508178,Dalian Kuncheng City,164044,Suzhou Dongwu,,,notstarted,1785063600,2026-07-23
-15271283,Sweden,Superettan,46,Superettan,,2026-07-26,06:00,Unknown,16,1763,GIF Sundsvall,1812,Falkenbergs FF,,,notstarted,1785063600,2026-07-23
-15657885,China,Chinese League 1,782,Chinese League 1,,2026-07-26,06:30,Unknown,16,510605,Guangxi Hengchen FC,196341,Jiangxi Dingnan United,,,notstarted,1785065400,2026-07-23
 15552587,China,Chinese Super League,649,Chinese Super League,,2026-07-26,06:35,Unknown,20,221241,Chengdu Rongcheng,3376,Beijing Guoan,,,notstarted,1785065700,2026-07-23
 15552590,China,Chinese Super League,649,Chinese Super League,,2026-07-26,06:35,Unknown,20,3371,Shandong Taishan,34692,Henan FC,,,notstarted,1785065700,2026-07-23
 15552592,China,Chinese Super League,649,Chinese Super League,,2026-07-26,07:00,Unknown,20,34697,Zhejiang,474992,Dalian Yingbo FC,,,notstarted,1785067200,2026-07-23
