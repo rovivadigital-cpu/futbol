@@ -6047,8 +6047,8 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,round,rou
 16251116,South America,"CONMEBOL Sudamericana, Knockout stage",480,"CONMEBOL Sudamericana, Knockout stage",,2026-07-30,Unknown,,3163,O'Higgins,3202,Boca Juniors,4,4,0,0,,,,,D,2026-07-31,47%,53%,0.69,0.66,2,2,8,10,2,3,2,4,10,5,188,201,2,4,4,2,0,0,139,163,,
 16431113,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-07-31,Unknown,,36842,Independiente Rivadavia,7629,Huracán,2,1,0,0,,,,,H,2026-07-31,28%,72%,1.02,0.52,1,1,8,10,4,3,0,4,9,4,114,285,,,3,5,3,2,73,236,0,1
 15552591,China,Chinese Super League,649,Chinese Super League,,2026-07-31,Unknown,,34692,Henan FC,474992,Dalian Yingbo FC,0,0,0,0,,,,,D,2026-07-31,,,,,,,,,,,,,,,,,,,,,,,,,,
-15389385,Australia,Queensland NPL,1268,Queensland NPL,,2026-07-31,Unknown,,91146,Rochedale Rovers,91136,Eastern Suburbs,0,0,0,0,,,,,D,2026-07-31,,,,,,,,,,,,,,,,,,,,,,,,,,
-15389384,Australia,Queensland NPL,1268,Queensland NPL,,2026-07-31,Unknown,,91134,Wynnum Wolves FC,91920,Brisbane City,0,0,0,0,,,,,D,2026-07-31,,,,,,,,,,,,,,,,,,,,,,,,,,
+15389385,Australia,Queensland NPL,1268,Queensland NPL,,2026-07-31,Unknown,,91146,Rochedale Rovers,91136,Eastern Suburbs,2,1,0,0,,,,,H,2026-07-31,,,,,,,,,,,,,,,,,,,,,,,,,,
+15389384,Australia,Queensland NPL,1268,Queensland NPL,,2026-07-31,Unknown,,91134,Wynnum Wolves FC,91920,Brisbane City,5,2,0,0,,,,,H,2026-07-31,,,,,,,,,,,,,,,,,,,,,,,,,,
 15235414,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-07-31,Unknown,,1977,Atlético Mineiro,1999,Red Bull Bragantino,0,0,0,0,,,,,D,2026-07-31,,,,,,,,,,,,,,,,,,,,,,,,,,
 15235419,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-07-31,Unknown,,1958,Botafogo,5926,Grêmio,0,0,0,0,,,,,D,2026-07-31,,,,,,,,,,,,,,,,,,,,,,,,,,
 15235440,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-07-31,Unknown,,21845,Chapecoense,1974,Vasco da Gama,0,0,0,0,,,,,D,2026-07-31,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -6104,7 +6104,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,round,rou
 16351421,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-07-31,Unknown,,2999,Sporting Braga,282203,FK Železničar Pančevo,4,0,0,0,,,,,H,2026-07-31,,,,,,,,,,,,,,,,,,,,,,,,,,
 16277862,North & Central America,"CONCACAF Central American Cup, Group B",20695,"CONCACAF Central American Cup, Group B",,2026-07-31,Unknown,,7045,Herediano,25355,CD Marathon,0,0,0,0,,,,,D,2026-07-31,,,,,,,,,,,,,,,,,3,3,,,,,,,0,0
 16277877,North & Central America,"CONCACAF Central American Cup, Group D",20695,"CONCACAF Central American Cup, Group D",,2026-07-31,Unknown,,7025,CSD Municipal,7044,CS Cartaginés,1,1,0,0,,,,,D,2026-07-31,,,,,,,,,,,,,,,,,1,1,,,,,,,0,0
-16251112,South America,"CONMEBOL Sudamericana, Knockout stage",480,"CONMEBOL Sudamericana, Knockout stage",,2026-07-31,Unknown,,6230,Caracas F.C.,6116,Independiente Santa Fe,0,3,0,0,,,,,A,2026-07-31,55%,45%,0.41,1.39,0,1,7,5,0,2,3,0,6,4,237,199,1,1,2,2,2,1,204,168,,
+16251112,South America,"CONMEBOL Sudamericana, Knockout stage",480,"CONMEBOL Sudamericana, Knockout stage",,2026-07-31,Unknown,,6230,Caracas F.C.,6116,Independiente Santa Fe,0,3,0,0,,,,,A,2026-07-31,55%,45%,0.41,2.37,0,2,7,6,0,2,3,0,6,4,237,199,1,1,2,3,2,1,204,168,,
 16588780,Paraguay,"Primera División, Clausura",11541,"Primera División, Clausura",,2026-07-31,Unknown,,90972,Sportivo San Lorenzo,5994,Guaraní,0,1,0,0,,,,,A,2026-07-31,47%,53%,,,0,1,0,7,0,0,1,1,4,2,191,213,,,0,2,2,2,150,171,,
 15276348,Argentina,Primera B,1347,Primera B,,2026-07-31,Unknown,,3221,Arsenal de Sarandí,107201,Brown de Adrogué,0,0,0,0,,,,,D,2026-07-31,,,,,,,,,,,,,,,,,,,,,,,,,,
 15276349,Argentina,Primera B,1347,Primera B,,2026-07-31,Unknown,,65672,Excursionistas,93105,Deportivo Armenio,0,0,0,0,,,,,D,2026-07-31,,,,,,,,,,,,,,,,,,,,,,,,,,
