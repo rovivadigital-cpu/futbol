@@ -1,5 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15514317,Estonia,Esiliiga,678,Esiliiga,,2026-08-03,11:00,Unknown,21,44459,Viimsi JK,7105,Tallinna Kalev,,,notstarted,1785772800,2026-08-01
 16419792,Bulgaria,Vtora Liga,1135,Vtora Liga,,2026-08-03,12:00,Unknown,2,200626,Ludogorets II,58951,OFC Lokomotiv Gorna Oryahovitsa,,,notstarted,1785776400,2026-08-01
 16419790,Bulgaria,Vtora Liga,1135,Vtora Liga,,2026-08-03,12:00,Unknown,2,5245,Pirin 22 Blagoevgrad,424112,PFC CSKA II Sofia,,,notstarted,1785776400,2026-08-01
 16398232,Bulgaria,Parva Liga,247,Parva Liga,,2026-08-03,13:15,Unknown,3,3278,FK Spartak Varna,3272,Lokomotiv Plovdiv,,,notstarted,1785780900,2026-08-01
