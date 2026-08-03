@@ -1,5 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16412903,Ukraine,Premier League,218,Premier League,,2026-08-03,07:30,Unknown,1,43336,Bukovyna Chernivtsi,284427,LNZ Cherkasy,,,notstarted,1785760200,2026-07-31
 15442518,Iceland,Iceland 1. deild,675,Iceland 1. deild,,2026-08-03,09:00,Unknown,16,221305,IF Vestri,41099,Grótta,,,notstarted,1785765600,2026-08-01
 15472549,Latvia,Virsliga,197,Virsliga,,2026-08-03,10:00,Unknown,25,5346,FK Auda,477400,Ogre United,,,postponed,1785769200,2026-08-03
 16412900,Ukraine,Premier League,218,Premier League,,2026-08-03,10:00,Unknown,16,316055,Kudrivka,3313,Shakhtar Donetsk,,,postponed,1785769200,2026-08-01
