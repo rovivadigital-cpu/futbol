@@ -1,25 +1,7 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15442518,Iceland,Iceland 1. deild,675,Iceland 1. deild,,2026-08-03,09:00,Unknown,16,221305,IF Vestri,41099,Grótta,,,notstarted,1785765600,2026-08-01
-15472549,Latvia,Virsliga,197,Virsliga,,2026-08-03,10:00,Unknown,25,5346,FK Auda,477400,Ogre United,,,postponed,1785769200,2026-08-03
-16412900,Ukraine,Premier League,218,Premier League,,2026-08-03,10:00,Unknown,16,316055,Kudrivka,3313,Shakhtar Donetsk,,,postponed,1785769200,2026-08-01
-16413030,Ukraine,Premier League,218,Premier League,,2026-08-03,10:00,Unknown,1,3313,Shakhtar Donetsk,316055,Kudrivka,,,notstarted,1785769200,2026-08-02
-16384246,Hungary,NB I,187,NB I,,2026-08-03,10:30,Unknown,2,1922,Zalaegerszegi TE,6059,Paksi FC,,,notstarted,1785771000,2026-08-01
-16403822,Romania,Superliga,152,Superliga,,2026-08-03,10:30,Unknown,3,7734,FC Universitatea Cluj,24798,FC Botoșani,,,notstarted,1785771000,2026-08-01
-16273097,Lithuania,TOPLYGA,198,TOPLYGA,,2026-08-03,10:45,Unknown,25,312564,Šiauliai FA,35388,FK Banga Gargždai,,,notstarted,1785771900,2026-08-01
-16419793,Bulgaria,Vtora Liga,1135,Vtora Liga,,2026-08-03,10:45,Unknown,2,36941,FK Etar Veliko Tarnovo,282589,FK Yantra Gabrovo,,,notstarted,1785771900,2026-08-01
-16446860,Armenia,Fastex Premier League,671,Fastex Premier League,,2026-08-03,11:00,Unknown,1,67966,FC Alashkert,5377,FC Ararat,,,notstarted,1785772800,2026-08-01
 15514317,Estonia,Esiliiga,678,Esiliiga,,2026-08-03,11:00,Unknown,21,44459,Viimsi JK,7105,Tallinna Kalev,,,notstarted,1785772800,2026-08-01
-15272805,Finland,Veikkausliiga,41,Veikkausliiga,,2026-08-03,11:00,Unknown,,22395,SJK,2242,HJK,,,notstarted,1785772800,2026-08-01
-16273075,Lithuania,TOPLYGA,198,TOPLYGA,,2026-08-03,11:30,Unknown,25,192763,FK Panevėžys,168446,Džiugas Telšiai,,,notstarted,1785774600,2026-08-01
-16278685,Denmark,Danish Superliga,39,Danish Superliga,,2026-08-03,12:00,Unknown,2,1286,Odense Boldklub,1295,Sønderjyske Fodbold,,,notstarted,1785776400,2026-08-01
-15265849,Norway,1st Division,22,1st Division,,2026-08-03,12:00,Unknown,16,708,Ranheim IL,673,Haugesund,,,notstarted,1785776400,2026-08-01
-16316955,Poland,Ekstraklasa,202,Ekstraklasa,,2026-08-03,12:00,Unknown,2,4901,KS Cracovia,3117,Pogoń Szczecin,,,notstarted,1785776400,2026-08-01
-15272475,Sweden,Allsvenskan,40,Allsvenskan,,2026-08-03,12:00,Unknown,15,1759,Djurgårdens IF,1775,Västerås SK,,,notstarted,1785776400,2026-08-01
-15272478,Sweden,Allsvenskan,40,Allsvenskan,,2026-08-03,12:00,Unknown,15,1767,Halmstads BK,1793,IK Sirius,,,notstarted,1785776400,2026-08-01
-15254073,Sweden,Damallsvenskan,214,Damallsvenskan,,2026-08-03,12:00,Unknown,12,61572,Vittsjö GIK,1886,Rosengård,,,notstarted,1785776400,2026-08-01
 16419792,Bulgaria,Vtora Liga,1135,Vtora Liga,,2026-08-03,12:00,Unknown,2,200626,Ludogorets II,58951,OFC Lokomotiv Gorna Oryahovitsa,,,notstarted,1785776400,2026-08-01
 16419790,Bulgaria,Vtora Liga,1135,Vtora Liga,,2026-08-03,12:00,Unknown,2,5245,Pirin 22 Blagoevgrad,424112,PFC CSKA II Sofia,,,notstarted,1785776400,2026-08-01
-15271314,Sweden,Superettan,46,Superettan,,2026-08-03,12:05,Unknown,17,1768,Örebro SK,1842,IFK Värnamo,,,notstarted,1785776700,2026-08-01
 16398232,Bulgaria,Parva Liga,247,Parva Liga,,2026-08-03,13:15,Unknown,3,3278,FK Spartak Varna,3272,Lokomotiv Plovdiv,,,notstarted,1785780900,2026-08-01
 16403833,Romania,Superliga,152,Superliga,,2026-08-03,13:30,Unknown,3,3301,FCSB,3294,FCV Farul Constanța,,,notstarted,1785781800,2026-08-01
 16362021,Scotland,Scottish Premiership,36,Scottish Premiership,,2026-08-03,13:30,Unknown,1,2352,Celtic,2357,Dundee FC,,,notstarted,1785781800,2026-08-01
