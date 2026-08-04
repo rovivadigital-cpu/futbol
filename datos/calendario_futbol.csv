@@ -1,22 +1,10 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16359688,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-04,09:00,Unknown,300,38158,Breiðablik Kópavogur,830186,FK Aktobe,,,notstarted,1785852000,2026-08-02
-16578159,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-08-04,11:00,Unknown,3,262229,FC Ararat-Armenia,2413,NK Celje,,,notstarted,1785859200,2026-08-02
-16578168,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-08-04,11:00,Unknown,3,1783,Mjällby AIF,2404,ŠK Slovan Bratislava,,,notstarted,1785859200,2026-08-02
-16585828,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-08-04,11:00,Unknown,3,5346,FK Auda,5217,Dinamo City,,,notstarted,1785859200,2026-08-02
-16578162,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-08-04,12:30,Unknown,3,5202,Hapoel Be'er Sheva,5149,FK Crvena zvezda,,,notstarted,1785864600,2026-08-02
-16578164,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-08-04,12:30,Unknown,3,3273,Levski Sofia,5172,Kairat Almaty,,,notstarted,1785864600,2026-08-02
-16578085,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-08-04,13:00,Unknown,3,2218,AC Sparta Praha,1649,Olympique Lyonnais,,,notstarted,1785866400,2026-08-02
-16578163,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-08-04,13:00,Unknown,3,2032,GNK Dinamo Zagreb,80741,FK Kauno Žalgiris,,,notstarted,1785866400,2026-08-02
-16578084,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-08-04,13:00,Unknown,3,3245,Olympiacos FC,2962,NEC Nijmegen,,,notstarted,1785866400,2026-08-02
-16578083,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-08-04,13:00,Unknown,3,4860,Royale Union Saint-Gilloise,656,Bodø/Glimt,,,notstarted,1785866400,2026-08-02
-16389638,Bolivia,División Profesional,16736,División Profesional,,2026-08-04,14:00,Unknown,13,423188,Academia de Balompié Boliviano,423186,CDT Real Oruro,,,notstarted,1785870000,2026-08-02
-16578782,Europe,"UEFA Europa League, Qualification",679,"UEFA Europa League, Qualification",,2026-08-04,14:00,Unknown,3,5184,Larne FC,116312,FC Iberia 1999,,,notstarted,1785870000,2026-08-02
-16578781,Europe,"UEFA Europa League, Qualification",679,"UEFA Europa League, Qualification",,2026-08-04,14:00,Unknown,3,3177,Shamrock Rovers,264619,KF Egnatia,,,notstarted,1785870000,2026-08-02
 15389422,Africa,"Women's Africa Cup of Nations, Group B",9558,"Women's Africa Cup of Nations, Group B",,2026-08-04,15:00,Unknown,3,316668,Burkina Faso,65336,South Africa,,,notstarted,1785873600,2026-08-02
 15389423,Africa,"Women's Africa Cup of Nations, Group B",9558,"Women's Africa Cup of Nations, Group B",,2026-08-04,15:00,Unknown,3,291680,Tanzania,186328,Côte d'Ivoire,,,notstarted,1785873600,2026-08-02
 16703188,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-08-04,16:00,Unknown,2,6229,Carabobo FC,6235,Trujillanos FC,,,notstarted,1785877200,2026-08-03
 16390667,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-08-04,16:10,Unknown,3,89374,Llaneros FC,89368,Fortaleza FC,,,notstarted,1785877800,2026-08-02
 16389637,Bolivia,División Profesional,16736,División Profesional,,2026-08-04,17:00,Unknown,13,372975,Club Independiente Petrolero,33714,Club Aurora,,,notstarted,1785880800,2026-08-02
+16723424,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-08-04,17:00,Unknown,2,249952,Universidad Central,6233,Monagas,,,notstarted,1785880800,2026-08-04
 16703190,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-08-04,17:30,Unknown,2,6231,Deportivo Táchira,6234,Portuguesa FC,,,notstarted,1785882600,2026-08-03
 16390668,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-08-04,18:15,Unknown,3,6111,Deportes Tolima,6115,Independiente Medellín,,,notstarted,1785885300,2026-08-02
 15679388,North & Central America,"Leagues Cup, Group Stage",13783,"Leagues Cup, Group Stage",,2026-08-04,18:45,Unknown,1,2504,Columbus Crew,1949,Atlas FC,,,notstarted,1785887100,2026-08-02
