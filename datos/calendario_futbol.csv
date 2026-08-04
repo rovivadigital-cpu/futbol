@@ -1,5 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16359686,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-04,02:00,Unknown,300,345429,Dinamo Minsk,305811,Servette FC Chênois Féminin,,,notstarted,1785826800,2026-08-01
 16359688,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-04,09:00,Unknown,300,38158,Breiðablik Kópavogur,830186,FK Aktobe,,,notstarted,1785852000,2026-08-02
 16578159,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-08-04,11:00,Unknown,3,262229,FC Ararat-Armenia,2413,NK Celje,,,notstarted,1785859200,2026-08-02
 16578168,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-08-04,11:00,Unknown,3,1783,Mjällby AIF,2404,ŠK Slovan Bratislava,,,notstarted,1785859200,2026-08-02
