@@ -1,8 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15389422,Africa,"Women's Africa Cup of Nations, Group B",9558,"Women's Africa Cup of Nations, Group B",,2026-08-04,15:00,Unknown,3,316668,Burkina Faso,65336,South Africa,,,notstarted,1785873600,2026-08-02
-15389423,Africa,"Women's Africa Cup of Nations, Group B",9558,"Women's Africa Cup of Nations, Group B",,2026-08-04,15:00,Unknown,3,291680,Tanzania,186328,Côte d'Ivoire,,,notstarted,1785873600,2026-08-02
-16703188,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-08-04,16:00,Unknown,2,6229,Carabobo FC,6235,Trujillanos FC,,,notstarted,1785877200,2026-08-03
-16390667,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-08-04,16:10,Unknown,3,89374,Llaneros FC,89368,Fortaleza FC,,,notstarted,1785877800,2026-08-02
 16389637,Bolivia,División Profesional,16736,División Profesional,,2026-08-04,17:00,Unknown,13,372975,Club Independiente Petrolero,33714,Club Aurora,,,notstarted,1785880800,2026-08-02
 16723424,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-08-04,17:00,Unknown,2,249952,Universidad Central,6233,Monagas,,,notstarted,1785880800,2026-08-04
 16703190,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-08-04,17:30,Unknown,2,6231,Deportivo Táchira,6234,Portuguesa FC,,,notstarted,1785882600,2026-08-03
