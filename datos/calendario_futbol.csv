@@ -1,26 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16359693,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-05,08:30,Unknown,300,36715,Gintra Universitetas,191237,Heart of Midlothian WFC,,,notstarted,1785936600,2026-08-02
-16360151,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-05,08:30,Unknown,300,1884,Hammarby IF,1208296,Fk Apolonia Fier,,,notstarted,1785936600,2026-08-02
-16362760,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-05,09:00,Unknown,300,36709,Apollon Limassol,230007,Czarni Sosnowiec,,,notstarted,1785938400,2026-08-03
-16362759,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-05,09:30,Unknown,300,201156,Ferencváros TC,37187,PAOK,,,notstarted,1785940200,2026-08-03
-16359682,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-05,11:00,Unknown,300,118936,SKN St. Pölten,53371,Young Boys Frauen,,,notstarted,1785945600,2026-08-03
-16359675,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-05,11:00,Unknown,300,38362,ŽNK Mura,530774,FCV Farul Constanța,,,notstarted,1785945600,2026-08-03
-16578161,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-08-05,11:30,Unknown,3,1291,AGF,267828,Sabah FK,,,notstarted,1785947400,2026-08-03
-16585835,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-08-05,12:00,Unknown,3,1159,SK Brann,3402,Apollon Limassol,,,notstarted,1785949200,2026-08-03
-16359678,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-05,12:00,Unknown,300,108685,Eintracht Frankfurt,271437,Omonia Nicosia,,,notstarted,1785949200,2026-08-03
-16362761,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-05,12:00,Unknown,300,333128,HB Køge,556978,Riga FC,,,notstarted,1785949200,2026-08-03
-16359681,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-05,12:00,Unknown,300,369184,Racing FC Union Luxembourg,38132,HJK Helsinki,,,notstarted,1785949200,2026-08-03
-16669925,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-05,13:00,Unknown,21,4938,Almagro,222126,Gimnasia y Tiro de Salta,,,notstarted,1785952800,2026-08-03
-16669894,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-08-05,13:00,Unknown,3,3052,Fenerbahçe,2051,SK Sturm Graz,,,notstarted,1785952800,2026-08-03
-16359685,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-05,13:00,Unknown,300,178246,Oud-Heverlee Leuven,354349,ŽFK TSC,,,notstarted,1785952800,2026-08-03
-16581504,Europe,"UEFA Europa League, Qualification",679,"UEFA Europa League, Qualification",,2026-08-05,13:15,Unknown,3,1925,Ferencváros TC,3110,Górnik Zabrze,,,notstarted,1785953700,2026-08-03
-16682105,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-08-05,13:30,Unknown,3,3248,Panathinaikos FC,252080,FC CSKA 1948 Sofia,,,notstarted,1785954600,2026-08-03
-16362774,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-05,13:30,Unknown,300,168058,KFF Vllaznia,284974,Spartak Myjava,,,notstarted,1785954600,2026-08-03
-16359687,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-05,13:30,Unknown,300,38331,SK Slavia Praha,191232,Rangers LFC,,,notstarted,1785954600,2026-08-03
-16389643,Bolivia,División Profesional,16736,División Profesional,,2026-08-05,14:00,Unknown,13,505268,GV San José,396625,CD San Antonio,,,notstarted,1785956400,2026-08-03
-16359683,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-05,14:00,Unknown,300,269824,Juventus,363052,SCU Torreense,,,notstarted,1785956400,2026-08-03
-15389424,Africa,"Women's Africa Cup of Nations, Group C",9558,"Women's Africa Cup of Nations, Group C",,2026-08-05,15:00,Unknown,3,132930,Egypt,7420,Nigeria,,,notstarted,1785960000,2026-08-03
-15389425,Africa,"Women's Africa Cup of Nations, Group C",9558,"Women's Africa Cup of Nations, Group C",,2026-08-05,15:00,Unknown,3,298498,Malawi,288601,Zambia,,,notstarted,1785960000,2026-08-03
 16713997,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-08-05,15:30,Unknown,2,36437,Deportivo La Guaira,162480,Metropolitanos,,,notstarted,1785961800,2026-08-04
 16431116,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-08-05,17:00,Unknown,2,3202,Boca Juniors,3206,Estudiantes de La Plata,,,notstarted,1785967200,2026-08-03
 16389649,Bolivia,División Profesional,16736,División Profesional,,2026-08-05,17:00,Unknown,13,47700,Nacional Potosí,32529,The Strongest,,,notstarted,1785967200,2026-08-03
@@ -92,7 +70,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16280795,Peru,"Liga 1, Clausura",406,"Liga 1, Clausura",,2026-08-06,15:00,Unknown,4,2307,Alianza Atlético de Sullana,2301,Cienciano,,,notstarted,1786046400,2026-08-04
 16728439,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-08-06,15:00,Unknown,2,7745,Estudiantes de Mérida,6237,Zamora,,,notstarted,1786046400,2026-08-05
 16459570,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-08-06,15:30,Unknown,3,6114,Envigado FC,89376,Unión Magdalena,,,postponed,1786048200,2026-08-05
-16390673,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-08-06,16:00,Unknown,3,6107,Boyacá Chicó FC,504899,Alianza Valledupar FC,,,notstarted,1786050000,2026-08-04
+16390673,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-08-06,16:00,Unknown,3,6107,Boyacá Chicó FC,504899,Alianza Valledupar FC,,,postponed,1786050000,2026-08-05
 16459573,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-08-06,16:00,Unknown,3,89372,Atlético Cali,89358,Real Santander,,,notstarted,1786050000,2026-08-04
 16459568,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-08-06,16:30,Unknown,3,89352,Bogotá FC,89362,Leones FC,,,notstarted,1786051800,2026-08-04
 16431120,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-08-06,17:00,Unknown,2,3204,Club Atlético Unión de Santa Fe,3218,CA Lanús,,,notstarted,1786053600,2026-08-04
