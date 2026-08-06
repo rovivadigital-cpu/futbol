@@ -274,7 +274,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16316776,Netherlands,VriendenLoterij Eredivisie,37,VriendenLoterij Eredivisie,,2026-08-08,09:30,Unknown,1,2962,NEC Nijmegen,2972,SC Telstar,,,notstarted,1786199400,2026-08-06
 16317346,Netherlands,Eerste Divisie,131,Eerste Divisie,,2026-08-08,09:30,Unknown,1,2963,FC Den Bosch,2990,Almere City FC,,,notstarted,1786199400,2026-08-06
 16737110,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-08,09:30,Unknown,300,743,SK Brann Kvinner,37187,PAOK,,,notstarted,1786199400,2026-08-06
-16617302,Armenia,Fastex Premier League,671,Fastex Premier League,,2026-08-08,10:00,Unknown,2,423250,FC Syunik,36059,FC Gandzasar,,,notstarted,1786201200,2026-08-06
+16617302,Armenia,Fastex Premier League,671,Fastex Premier League,,2026-08-08,10:00,Unknown,13,423250,FC Syunik,36059,FC Gandzasar,,,postponed,1786201200,2026-08-06
 16392094,Austria,Austrian Bundesliga,45,Austrian Bundesliga,,2026-08-08,10:00,Unknown,2,2052,Grazer AK 1902,2062,SC Austria Lustenau,,,notstarted,1786201200,2026-08-06
 16275179,Croatia,HNL,170,HNL,,2026-08-08,10:00,Unknown,2,2039,HNK Rijeka,2032,GNK Dinamo Zagreb,,,postponed,1786201200,2026-08-06
 16453920,Czech Republic,Czech First League,172,Czech First League,,2026-08-08,10:00,Unknown,3,2220,FC Zlín,6064,Bohemians Praha 1905,,,notstarted,1786201200,2026-08-06
@@ -284,6 +284,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15388684,Georgia,Erovnuli Liga,704,Erovnuli Liga,,2026-08-08,10:00,Unknown,20,116312,FC Iberia 1999,33819,FC Dila Gori,,,postponed,1786201200,2026-08-06
 15271291,Sweden,Superettan,46,Superettan,,2026-08-08,10:00,Unknown,18,1769,IFK Norrköping,1777,IK Brage,,,notstarted,1786201200,2026-08-06
 16412911,Ukraine,Premier League,218,Premier League,,2026-08-08,10:00,Unknown,2,43336,Bukovyna Chernivtsi,138564,Obolon Kyiv,,,notstarted,1786201200,2026-08-06
+16740766,Armenia,Fastex Premier League,671,Fastex Premier League,,2026-08-08,10:00,Unknown,2,36059,FC Gandzasar,423250,FC Syunik,,,notstarted,1786201200,2026-08-06
 16412015,Austria,2. Liga,135,2. Liga,,2026-08-08,10:30,Unknown,2,43074,Austria Salzburg,2054,First Vienna FC,,,notstarted,1786203000,2026-08-06
 16412020,Austria,2. Liga,135,2. Liga,,2026-08-08,10:30,Unknown,2,7786,Schwarz-Weiß Bregenz,2067,Kapfenberger SV,,,notstarted,1786203000,2026-08-06
 16412023,Austria,2. Liga,135,2. Liga,,2026-08-08,10:30,Unknown,2,2103,Sturm Graz II,7785,Floridsdorfer AC,,,notstarted,1786203000,2026-08-06
