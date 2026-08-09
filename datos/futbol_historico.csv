@@ -6511,9 +6511,6 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,round,rou
 16431115,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-08-04,Unknown,,7628,Tigre,3203,Club Atlético Belgrano,0,0,0,0,,,,,D,2026-08-06,47%,53%,1.92,0.75,7,1,18,15,6,5,4,4,6,19,402,471,1,4,5,6,3,0,324,391,0,1
 16277872,North & Central America,"CONCACAF Central American Cup, Group C",20695,"CONCACAF Central American Cup, Group C",,2026-08-04,Unknown,,6574,Deportivo Saprissa,168798,Alianza FC,2,1,0,0,,,,,H,2026-08-06,62%,38%,2.29,0.28,,,18,6,2,1,9,5,16,10,458,290,3,1,3,3,0,2,394,219,0,0
 16671553,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-08-04,Unknown,,7628,Tigre,3211,River Plate,1,0,0,0,,,,,H,2026-08-09,32%,68%,0.62,0.36,1,0,5,9,1,1,2,4,9,17,301,651,2,3,2,1,1,0,205,566,,
-15275806,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-04,Unknown,,34976,Atlético de Rafaela,3214,Club Atlético Chacarita Juniors,1,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,1,1,,,,,,,0,0
-15416274,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-08-04,Unknown,,119072,Deportes Temuco,89508,Deportes Magallanes,3,4,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,0,2,,,,,,,0,0
-16412009,Austria,2. Liga,135,2. Liga,,2026-08-04,Unknown,,6281,SKU Amstetten,2050,Admira Wacker,2,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 16390194,Bolivia,División Profesional,16736,División Profesional,,2026-08-04,Unknown,,32529,The Strongest,372975,Club Independiente Petrolero,1,2,0,0,,,,,A,2026-08-09,53%,47%,0.00,0.00,1,2,20,9,1,4,3,1,10,14,447,402,2,4,5,3,2,2,397,344,0,1
 16295799,Bulgaria,Parva Liga,247,Parva Liga,,2026-08-04,Unknown,,3286,FK Dunav Ruse,274971,Arda Kardzhali,0,2,0,0,,,,,A,2026-08-09,39%,61%,1.06,2.59,,,8,14,1,2,5,3,12,9,314,555,3,1,2,3,0,1,242,478,1,0
 16390681,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-08-04,Unknown,,6113,Deportivo Pasto,6112,Deportivo Cali,0,2,0,0,,,,,A,2026-08-09,62%,38%,0.55,0.90,1,1,12,20,4,4,6,3,18,20,505,317,4,4,4,6,,,443,251,,
@@ -6524,12 +6521,12 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,round,rou
 15679401,North & Central America,"Leagues Cup, Group Stage",13783,"Leagues Cup, Group Stage",,2026-08-04,Unknown,,1931,CD Toluca,274650,Los Angeles FC,0,1,0,0,,,,,A,2026-08-09,51%,49%,0.00,0.00,0,2,15,10,2,4,5,2,16,12,508,509,2,1,4,3,1,3,438,442,,
 16281127,Peru,"Liga 1, Clausura",406,"Liga 1, Clausura",,2026-08-04,Unknown,,511206,CD Juan Pablo II,282538,Club Atlético Grau,0,0,0,0,,,,,D,2026-08-09,58%,42%,1.98,0.90,1,0,17,9,3,4,9,1,2,16,454,338,0,3,4,3,1,2,348,243,,
 16357088,Switzerland,Swiss Super League,215,Swiss Super League,,2026-08-04,Unknown,,2446,FC Lausanne-Sport,2445,BSC Young Boys,2,2,0,0,,,,,D,2026-08-09,57%,43%,1.54,1.09,3,3,11,17,4,2,3,2,14,13,473,361,3,3,4,6,2,1,390,284,0,1
-16728995,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-08-04,Unknown,,3228,Danubio,22011,CA Cerro,0,1,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 15285777,USA,USL Championship,13363,USL Championship,,2026-08-04,Unknown,,405944,Monterey Bay FC,310531,New Mexico United,2,5,0,0,,,,,A,2026-08-09,45%,55%,3.35,2.52,0,5,26,12,2,6,12,2,12,20,348,453,1,2,8,7,3,2,284,377,,
 15285779,USA,USL Championship,13363,USL Championship,,2026-08-04,Unknown,,217781,Orange County SC,41617,FC Tampa Bay Rowdies,0,3,0,0,,,,,A,2026-08-09,60%,40%,0.00,0.00,1,4,5,11,1,0,1,1,12,18,500,326,3,2,0,4,2,3,429,252,,
 15421143,USA,MLS Next Pro,18641,MLS Next Pro,,2026-08-04,Unknown,,411369,Colorado Rapids 2,411361,Saint Louis City SC 2,1,3,0,0,,,,,A,2026-08-09,49%,51%,1.02,0.73,1,1,12,9,1,2,6,4,13,8,457,492,2,0,3,1,3,2,393,426,,
 15285541,USA,"USL, League One",13362,"USL, League One",,2026-08-04,Unknown,,1158834,AC Boise,312632,Forward Madison FC,2,1,0,0,,,,,H,2026-08-09,48%,52%,0.00,0.00,2,1,13,10,0,2,7,4,12,14,346,386,5,2,4,2,2,0,275,322,0,1
 15388544,USA,NWSL,1690,NWSL,,2026-08-04,Unknown,,1165117,Denver Summit FC,278067,Utah Royals FC,2,1,0,0,,,,,H,2026-08-09,47%,53%,0.00,0.00,2,3,12,18,2,4,8,6,9,11,287,324,1,1,6,3,1,4,209,236,,
+15260865,Norway,Eliteserien,20,Eliteserien,,2026-08-04,Unknown,,957,Kristiansund BK,661,Molde FK,2,1,0,0,,,,,H,2026-08-09,32%,68%,0.66,3.21,2,4,10,30,9,0,1,12,11,10,278,593,2,3,2,10,2,2,201,516,,
 16578159,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-08-05,Unknown,,262229,FC Ararat-Armenia,2413,NK Celje,2,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 16578168,Europe,"UEFA Champions League, Qualification",7,"UEFA Champions League, Qualification",,2026-08-05,Unknown,,1783,Mjällby AIF,2404,ŠK Slovan Bratislava,1,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 16585828,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-08-05,Unknown,,5346,FK Auda,5217,Dinamo City,1,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -6566,10 +6563,16 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,round,rou
 16295793,Bulgaria,Parva Liga,247,Parva Liga,,2026-08-05,Unknown,,3277,Lokomotiv Sofia,252080,FC CSKA 1948 Sofia,1,3,0,0,,,,,A,2026-08-09,55%,45%,1.64,2.54,,,16,17,4,8,7,5,13,7,408,328,3,2,9,7,1,4,316,252,0,0
 15502852,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-08-05,Unknown,,309888,Pacific FC,309890,Inter Toronto,1,1,0,0,,,,,D,2026-08-09,49%,51%,0.00,0.00,3,3,21,19,7,4,5,6,14,15,366,388,3,4,5,8,0,1,296,309,,
 15388677,Georgia,Erovnuli Liga,704,Erovnuli Liga,,2026-08-05,Unknown,,37297,Dinamo Batumi,36865,FC Gagra,2,2,0,0,,,,,D,2026-08-09,63%,37%,2.21,0.80,,,15,6,0,2,6,5,12,13,481,264,0,1,4,2,1,0,412,205,0,0
-16273101,Lithuania,TOPLYGA,198,TOPLYGA,,2026-08-05,Unknown,,80741,FK Kauno Žalgiris,171484,FC Hegelmann,2,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 16588784,Paraguay,"Primera División, Clausura",11541,"Primera División, Clausura",,2026-08-05,Unknown,,323510,Sportivo Ameliano,5991,Cerro Porteño,1,0,0,0,,,,,H,2026-08-09,47%,53%,0.75,1.46,1,1,11,14,5,2,2,9,20,9,323,350,3,1,3,5,2,2,231,248,,
 16316906,Slovakia,Niké Liga,211,Niké Liga,,2026-08-05,Unknown,,2397,MFK Ružomberok,7887,FK Železiarne Podbrezová,1,4,0,0,,,,,A,2026-08-09,39%,61%,0.00,0.00,1,4,10,15,3,1,5,5,13,14,288,466,3,5,2,6,,,217,390,1,0
 16316899,Slovakia,Niké Liga,211,Niké Liga,,2026-08-05,Unknown,,7885,MFK Zemplín Michalovce,189813,KFC Komárno,1,1,0,0,,,,,D,2026-08-09,52%,48%,0.65,1.21,0,1,11,8,2,3,4,7,12,20,400,382,3,3,4,4,2,3,319,288,0,1
+15235420,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-08-05,Unknown,,1955,Bahia,1974,Vasco da Gama,0,0,0,0,,,,,D,2026-08-09,51%,49%,0.53,0.65,,,11,14,3,2,4,6,13,10,383,363,1,2,2,3,3,4,321,299,,
+15235469,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-08-05,Unknown,,1963,Palmeiras,1966,Internacional,0,0,0,0,,,,,D,2026-08-09,62%,38%,1.19,0.24,1,0,22,9,2,2,5,2,11,16,545,343,1,3,3,2,2,2,461,258,,
+15526209,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-08-05,Unknown,,135514,Grêmio Novorizontino,1980,Juventude,0,1,0,0,,,,,A,2026-08-09,54%,46%,0.93,0.52,,,15,10,0,4,8,6,19,17,367,321,1,5,4,1,1,1,290,240,,
+15526215,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-08-05,Unknown,,2011,Náutico,7314,Atlético Goianiense,1,1,0,0,,,,,D,2026-08-09,42%,58%,1.36,1.22,1,2,16,17,5,4,5,5,16,15,279,398,4,2,5,6,1,4,198,328,,
+16275178,Croatia,HNL,170,HNL,,2026-08-05,Unknown,,2042,NK Slaven Belupo,231380,NK Varaždin,1,4,0,0,,,,,A,2026-08-09,57%,43%,0.95,2.49,2,2,12,24,4,5,5,5,8,12,485,372,1,1,6,8,2,1,407,304,,
+16588795,Paraguay,"Primera División, Clausura",11541,"Primera División, Clausura",,2026-08-05,Unknown,,90972,Sportivo San Lorenzo,5998,Sportivo Luqueño,0,2,0,0,,,,,A,2026-08-09,40%,60%,0.00,0.00,0,1,7,16,1,2,2,10,10,5,343,513,2,0,2,4,2,3,250,414,,
+16316966,Poland,Ekstraklasa,202,Ekstraklasa,,2026-08-05,Unknown,,7691,Jagiellonia Białystok,3115,Widzew Łódź,0,2,0,0,,,,,A,2026-08-09,60%,40%,1.08,1.10,2,2,18,16,1,5,8,3,19,14,456,302,4,3,5,5,3,0,353,208,,
 16359689,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-06,Unknown,,262989,Sporting CP,1239478,FC Seasters Odessa,5,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,1,2,,,,,,,0,0
 16359684,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-06,Unknown,,178260,Ajax,1368,Brøndby IF,2,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,0,3,,,,,,,0,0
 16359693,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-06,Unknown,,36715,Gintra Universitetas,191237,Heart of Midlothian WFC,1,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -6630,12 +6633,9 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,round,rou
 16728437,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-08-06,Unknown,,386310,Deportivo Rayo Zuliano,418693,Anzoátegui FC,0,1,0,0,,,,,A,2026-08-09,43%,57%,0.86,1.04,,,10,14,2,2,1,3,19,5,339,451,3,1,2,3,0,1,275,375,,
 16728439,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-08-06,Unknown,,7745,Estudiantes de Mérida,6237,Zamora,1,0,0,0,,,,,H,2026-08-09,58%,42%,0.00,0.00,1,0,12,11,3,3,5,7,14,22,386,286,2,6,5,3,1,1,327,220,,
 16728440,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-08-06,Unknown,,230725,Academia Puerto Cabello,6230,Caracas F.C.,3,1,0,0,,,,,H,2026-08-09,55%,45%,2.74,0.89,8,1,18,10,3,3,7,3,13,20,450,376,2,2,6,4,0,2,392,312,,
-16740766,Armenia,Fastex Premier League,671,Fastex Premier League,,2026-08-06,Unknown,,36059,FC Gandzasar,423250,FC Syunik,3,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 16275175,Croatia,HNL,170,HNL,,2026-08-06,Unknown,,35226,NK Rudeš,2040,NK Osijek,1,6,0,0,,,,,A,2026-08-09,49%,51%,0.60,2.76,0,5,9,21,4,1,4,4,13,13,351,381,0,2,2,10,0,1,286,325,,
-15272808,Finland,Veikkausliiga,41,Veikkausliiga,,2026-08-06,Unknown,,2247,Inter Turku,2249,FC Lahti,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 16316963,Poland,Ekstraklasa,202,Ekstraklasa,,2026-08-06,Unknown,,3108,Śląsk Wrocław,4901,KS Cracovia,0,0,0,0,,,,,D,2026-08-09,44%,56%,0.75,1.48,0,1,12,17,6,1,4,6,8,12,342,453,0,3,1,5,3,0,247,364,1,0
 16316903,Slovakia,Niké Liga,211,Niké Liga,,2026-08-06,Unknown,,2406,FC Spartak Trnava,4503,Dukla Banská Bystrica,3,0,0,0,,,,,H,2026-08-09,63%,37%,3.82,0.56,2,1,20,11,5,6,8,2,14,20,461,279,1,4,10,5,,,391,215,0,1
-15285767,USA,USL Championship,13363,USL Championship,,2026-08-06,Unknown,,197071,FC Tulsa,285642,Detroit City FC,0,1,0,0,,,,,A,2026-08-09,64%,36%,1.51,1.03,0,1,14,5,1,1,6,0,9,15,427,254,2,2,1,2,3,1,329,178,,
 15285771,USA,USL Championship,13363,USL Championship,,2026-08-06,Unknown,,310532,El Paso Locomotive FC,325107,Oakland Roots SC,1,0,0,0,,,,,H,2026-08-09,43%,57%,2.10,1.08,,,17,10,2,5,4,6,12,10,355,485,2,0,6,3,1,4,281,399,,
 15421140,USA,MLS Next Pro,18641,MLS Next Pro,,2026-08-06,Unknown,,506673,Carolina Core FC,467300,Huntsville City FC,2,0,0,0,,,,,H,2026-08-09,49%,51%,2.41,0.58,7,0,18,9,4,2,5,3,15,10,368,393,2,3,4,4,1,0,288,327,0,1
 15421139,USA,MLS Next Pro,18641,MLS Next Pro,,2026-08-06,Unknown,,312635,North Texas SC,197062,Tacoma Defiance,3,1,0,0,,,,,H,2026-08-09,58%,42%,1.70,0.41,2,0,19,7,3,4,7,2,9,16,527,392,1,3,7,4,0,1,472,349,,
@@ -6685,17 +6685,12 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,round,rou
 15416271,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-08-07,Unknown,,243490,Deportes Santa Cruz,3158,Deportes Puerto Montt,0,0,0,0,,,,,D,2026-08-09,47%,53%,1.75,0.92,,,16,14,4,5,5,2,12,12,371,462,2,1,4,4,1,2,262,367,0,0
 15552601,China,Chinese Super League,649,Chinese Super League,,2026-08-07,Unknown,,34695,Qingdao Hainiu,3373,Shanghai Shenhua,0,1,0,0,,,,,A,2026-08-09,51%,49%,1.57,1.99,2,5,15,13,5,1,6,6,13,13,413,399,2,0,1,6,2,0,337,309,,
 15552602,China,Chinese Super League,649,Chinese Super League,,2026-08-07,Unknown,,474992,Dalian Yingbo FC,221240,Liaoning Tieren FC,1,0,0,0,,,,,H,2026-08-09,46%,54%,0.53,0.49,,,12,5,1,3,6,3,18,19,311,359,1,2,4,1,6,1,229,281,,
-15552603,China,Chinese Super League,649,Chinese Super League,,2026-08-07,Unknown,,34697,Zhejiang,295152,Wuhan Three Towns,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 15552604,China,Chinese Super League,649,Chinese Super League,,2026-08-07,Unknown,,474991,Yunnan Yukun,221241,Chengdu Rongcheng,1,0,0,0,,,,,H,2026-08-09,52%,48%,1.28,1.92,3,1,18,13,1,3,7,6,10,16,354,325,0,1,4,1,1,7,274,247,,
 15657894,China,Chinese League 1,782,Chinese League 1,,2026-08-07,Unknown,,164044,Suzhou Dongwu,34694,Changchun Yatai,2,1,0,0,,,,,H,2026-08-09,58%,42%,1.60,0.28,2,0,10,4,2,3,4,2,13,13,451,332,3,0,5,3,1,0,374,258,,
 15657896,China,Chinese League 1,782,Chinese League 1,,2026-08-07,Unknown,,215186,Meizhou Hakka,508366,Foshan Nanshi,3,2,0,0,,,,,H,2026-08-09,47%,53%,1.98,1.57,3,0,8,15,3,0,4,6,14,17,379,428,2,3,3,5,3,3,306,346,,
-15657895,China,Chinese League 1,782,Chinese League 1,,2026-08-07,Unknown,,369494,Nanjing City,251278,Nantong Zhiyun,1,1,0,0,,,,,D,2026-08-09,23%,77%,0.55,1.85,1,5,9,20,3,1,0,9,15,10,160,519,3,2,2,5,1,1,95,455,,
 15657897,China,Chinese League 1,782,Chinese League 1,,2026-08-07,Unknown,,382024,Shijiazhuang Gongfu,510602,Shaanxi Union FC,2,1,0,0,,,,,H,2026-08-09,32%,68%,0.87,0.77,1,2,5,10,2,0,3,2,18,25,207,440,3,3,2,3,1,1,153,365,0,1
 15657898,China,Chinese League 1,782,Chinese League 1,,2026-08-07,Unknown,,196341,Jiangxi Dingnan United,508178,Dalian Kuncheng City,2,1,0,0,,,,,H,2026-08-09,44%,56%,1.30,1.65,3,1,11,23,2,3,5,11,7,10,236,283,1,1,5,3,0,2,164,203,,
-15640283,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-08-07,Unknown,,91570,Canberra Olympic,91572,Tigers FC,2,5,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,0,0
-15640284,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-08-07,Unknown,,466742,Brindabella Blues FC,91576,Tuggeranong United,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 15640285,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-08-07,Unknown,,91568,Canberra Croatia FC,408162,O'Connor Knights,5,4,0,0,,,,,H,2026-08-09,57%,43%,2.14,1.55,,,22,10,2,6,10,2,6,17,487,276,1,3,10,6,2,2,371,189,0,0
-15640286,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-08-07,Unknown,,91574,Monaro Panthers,91564,Belconnen United FC,7,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,0,0
 15368263,Australia,NSW NPL 1,1274,NSW NPL 1,,2026-08-07,Unknown,,313489,University of NSW,2938,Sydney Olympic,1,3,0,0,,,,,A,2026-08-09,39%,61%,3.06,2.05,,,23,13,1,8,8,3,12,9,311,479,2,2,9,4,3,1,239,401,0,0
 15368261,Australia,NSW NPL 1,1274,NSW NPL 1,,2026-08-07,Unknown,,92208,Manly United,2941,Marconi Stallions,3,1,0,0,,,,,H,2026-08-09,45%,55%,1.50,1.21,,,10,15,3,1,1,1,12,14,386,434,1,2,4,4,2,1,282,339,0,0
 15368262,Australia,NSW NPL 1,1274,NSW NPL 1,,2026-08-07,Unknown,,254050,SD Raiders,253150,Western Sydney Wanderers Academy Youth,3,0,0,0,,,,,H,2026-08-09,49%,51%,2.87,0.32,,,24,5,2,8,7,3,11,13,373,371,2,5,11,2,4,2,277,272,0,1
@@ -6711,8 +6706,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,round,rou
 16392100,Austria,Austrian Bundesliga,45,Austrian Bundesliga,,2026-08-07,Unknown,,4856,SCR Altach,5405,WSG Tirol,3,1,0,0,,,,,H,2026-08-09,55%,45%,1.48,0.84,2,2,13,9,1,3,3,5,14,9,452,378,1,1,6,2,4,1,375,295,,
 16412014,Austria,2. Liga,135,2. Liga,,2026-08-07,Unknown,,7790,FC Liefering,291619,FC Hertha Wels,2,3,0,0,,,,,A,2026-08-09,55%,45%,1.09,2.45,,,10,22,5,2,4,10,18,15,390,332,2,4,4,8,3,1,296,240,1,0
 16412010,Austria,2. Liga,135,2. Liga,,2026-08-07,Unknown,,2119,SKN St. Pölten,2108,Young Violets Austria Wien,0,1,0,0,,,,,A,2026-08-09,71%,29%,2.19,2.37,,,19,9,3,8,7,6,10,12,577,218,1,3,8,4,2,0,473,142,0,0
-16412008,Austria,2. Liga,135,2. Liga,,2026-08-07,Unknown,,2113,FC Blau Weiss Linz,2088,FC Wacker Innsbruck,3,0,0,0,,,,,H,2026-08-09,40%,60%,2.47,0.25,,,18,4,2,3,1,0,11,12,378,532,2,0,6,2,3,1,282,429,0,1
-16412022,Austria,2. Liga,135,2. Liga,,2026-08-07,Unknown,,2092,Rapid Wien II,2081,ASK Voitsberg,1,3,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16412022,Austria,2. Liga,135,2. Liga,,2026-08-07,Unknown,,2092,Rapid Wien II,2081,ASK Voitsberg,1,3,0,0,,,,,A,2026-08-09,50%,50%,1.14,3.01,,,7,20,6,4,3,3,15,22,423,422,6,2,5,9,3,3,332,353,0,0
 16361870,Belgium,Pro League,38,Pro League,,2026-08-07,Unknown,,2888,Club Brugge KV,4858,KV Kortrijk,3,0,0,0,,,,,H,2026-08-09,74%,26%,3.85,0.86,5,1,20,9,2,5,6,1,6,10,778,276,1,1,8,3,2,1,701,189,,
 16390187,Bolivia,División Profesional,16736,División Profesional,,2026-08-07,Unknown,,423188,Academia de Balompié Boliviano,47701,Guabirá,0,1,0,0,,,,,A,2026-08-09,57%,43%,0.00,0.00,,,18,4,1,7,9,2,8,7,471,377,0,2,7,2,8,1,417,293,,
 16390190,Bolivia,División Profesional,16736,División Profesional,,2026-08-07,Unknown,,335685,CD Real Tomayapo,423186,CDT Real Oruro,1,2,0,0,,,,,A,2026-08-09,59%,41%,0.00,0.00,2,1,17,15,3,3,9,3,7,13,422,313,0,2,4,5,1,1,339,208,,
@@ -6721,11 +6715,8 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,round,rou
 15526212,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-08-07,Unknown,,2001,Ceará,1969,Ponte Preta,2,0,0,0,,,,,H,2026-08-09,70%,30%,2.08,0.97,3,3,20,7,1,6,3,2,12,16,476,208,1,5,8,1,5,1,424,140,0,1
 16295795,Bulgaria,Parva Liga,247,Parva Liga,,2026-08-07,Unknown,,3273,Levski Sofia,3272,Lokomotiv Plovdiv,2,0,0,0,,,,,H,2026-08-09,76%,24%,1.02,0.64,,,13,5,2,5,6,2,7,15,702,218,1,4,7,2,0,3,650,160,0,0
 15502850,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-08-07,Unknown,,313716,Forge FC,463097,Vancouver FC,0,1,0,0,,,,,A,2026-08-09,57%,43%,2.36,1.11,1,2,22,10,2,7,6,1,14,7,467,354,6,1,7,3,1,0,389,291,,
-16459575,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-08-07,Unknown,,6110,Deportes Quindío,39866,Internacional de Palmira,1,1,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,4,4,,,,,,,0,0
-16317813,Costa Rica,"Primera División, Apertura",11535,"Primera División, Apertura",,2026-08-07,Unknown,,7044,CS Cartaginés,262906,Sporting FC,2,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,3,5,,,,,,,0,0
 16453917,Czech Republic,Czech First League,172,Czech First League,,2026-08-07,Unknown,,2210,FC Zbrojovka Brno,2219,FC Slovan Liberec,0,1,0,0,,,,,A,2026-08-09,47%,53%,0.52,2.75,1,5,8,16,6,4,2,6,11,8,366,400,3,3,4,6,1,1,270,309,,
 16379917,Czech Republic,FNL,205,FNL,,2026-08-07,Unknown,,324982,SK Slavia Praha B,6068,FK Třinec,3,2,0,0,,,,,H,2026-08-09,56%,44%,3.88,1.89,,,17,11,1,2,1,7,9,12,423,311,1,3,5,3,3,0,344,251,0,0
-16379910,Czech Republic,FNL,205,FNL,,2026-08-07,Unknown,,4863,Vysočina Jihlava,2213,1.FK Příbram,1,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 16446364,Czech Republic,FNL,205,FNL,,2026-08-07,Unknown,,76775,1. SK Prostějov,23951,MFK Karviná,1,2,0,0,,,,,A,2026-08-09,51%,49%,0.95,2.78,,,10,15,2,2,7,4,15,16,352,347,2,2,3,4,1,3,256,250,0,0
 16379912,Czech Republic,FNL,205,FNL,,2026-08-07,Unknown,,7739,Dukla Praha,4865,SK Hanácká Slavia Kroměříž,2,0,0,0,,,,,H,2026-08-09,46%,54%,2.27,0.54,,,12,9,2,4,4,4,17,16,347,395,2,3,6,2,1,2,274,300,0,0
 16379907,Czech Republic,FNL,205,FNL,,2026-08-07,Unknown,,36024,FC Sellier & Bellot Vlašim,2211,FK Viktoria Žižkov,4,1,0,0,,,,,H,2026-08-09,47%,53%,1.55,1.92,,,7,12,5,1,3,5,10,17,366,333,3,4,5,6,3,0,296,265,0,1
@@ -6735,10 +6726,6 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,round,rou
 16317224,Denmark,Betinia Liga,47,Betinia Liga,,2026-08-07,Unknown,,4874,Aarhus Fremad,36095,HB Køge,3,1,0,0,,,,,H,2026-08-09,47%,53%,0.00,0.00,2,1,10,12,4,2,1,5,12,17,442,474,0,1,5,4,3,3,357,385,,
 15502639,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-08-07,Unknown,,5257,LDU,39723,Independiente del Valle,0,2,0,0,,,,,A,2026-08-09,71%,29%,0.00,0.00,0,1,14,9,2,3,7,2,,,457,190,1,0,3,4,1,1,395,135,,
 15432374,Estonia,Premium Liiga,178,Premium Liiga,,2026-08-07,Unknown,,7106,FC Kuressaare,197994,Harju Jalgpallikool,3,2,0,0,,,,,H,2026-08-09,43%,57%,1.77,1.29,,,15,15,5,2,7,6,10,18,287,400,1,5,5,6,1,1,216,332,0,0
-16199671,Estonia,Premium Liiga,178,Premium Liiga,,2026-08-07,Unknown,,3346,Flora Tallinn,138566,Tartu JK Tammeka,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15514318,Estonia,Esiliiga,678,Esiliiga,,2026-08-07,Unknown,,37534,FC Elva,42740,Tartu JK Welco,2,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,1,0,,,,,,,0,0
-15514320,Estonia,Esiliiga,678,Esiliiga,,2026-08-07,Unknown,,37528,Maardu Linnameeskond,44459,Viimsi JK,1,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,1,0,,,,,,,0,1
-15514321,Estonia,Esiliiga,678,Esiliiga,,2026-08-07,Unknown,,7105,Tallinna Kalev,283728,FC Tallinn,1,1,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,0,0,,,,,,,0,0
 15272806,Finland,Veikkausliiga,41,Veikkausliiga,,2026-08-07,Unknown,,22395,SJK,2271,IF Gnistan,2,2,0,0,,,,,D,2026-08-09,71%,29%,2.63,1.02,,,16,7,1,4,5,2,15,12,643,221,4,0,6,3,5,0,559,154,0,0
 15341293,Finland,Ykkosliiga,55,Ykkosliiga,,2026-08-07,Unknown,,2240,FC Haka,2263,Jippo Joensuu,3,0,0,0,,,,,H,2026-08-09,51%,49%,2.46,1.54,,,12,10,3,4,3,6,11,10,456,474,1,2,7,3,0,1,389,392,0,0
 15341295,Finland,Ykkosliiga,55,Ykkosliiga,,2026-08-07,Unknown,,23422,JäPS,5115,MP,1,0,0,0,,,,,H,2026-08-09,42%,58%,1.61,0.70,,,10,12,3,1,6,3,11,7,407,555,1,0,2,3,0,2,319,458,0,0
@@ -6748,12 +6735,6 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,round,rou
 16434334,Germany,2. Bundesliga,44,2. Bundesliga,,2026-08-07,Unknown,,2591,1. FC Magdeburg,2557,Eintracht Braunschweig,1,6,0,0,,,,,A,2026-08-09,47%,53%,1.24,3.43,2,5,10,24,7,2,5,5,14,9,441,511,4,1,3,13,0,1,365,440,1,0
 16434330,Germany,2. Bundesliga,44,2. Bundesliga,,2026-08-07,Unknown,,2576,Darmstadt 98,2573,Holstein Kiel,2,2,0,0,,,,,D,2026-08-09,50%,50%,0.74,1.40,0,3,14,11,4,1,8,4,15,16,437,441,2,3,3,6,5,0,361,371,,
 16434335,Germany,2. Bundesliga,44,2. Bundesliga,,2026-08-07,Unknown,,2553,Karlsruher SC,2540,Arminia Bielefeld,2,1,0,0,,,,,H,2026-08-09,56%,44%,1.53,1.17,3,3,24,11,4,5,6,6,15,12,463,346,2,1,7,5,1,2,378,257,,
-16679498,Germany,3. Liga,491,3. Liga,,2026-08-07,Unknown,,2680,SV Waldhof Mannheim,2588,Fortuna Düsseldorf,2,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,4,5,,,,,,,0,0
-16611786,Germany,3. Liga,491,3. Liga,,2026-08-07,Unknown,,5880,FC Ingolstadt 04,23947,FC Würzburger Kickers,2,2,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,2,1,,,,,,,0,0
-16611789,Germany,3. Liga,491,3. Liga,,2026-08-07,Unknown,,53365,FC Viktoria Köln,2567,SSV Jahn Regensburg,2,5,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,2,4,,,,,,,0,0
-16611787,Germany,3. Liga,491,3. Liga,,2026-08-07,Unknown,,2543,MSV Duisburg,5804,SV Meppen,3,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,1,3,,,,,,,0,0
-16611788,Germany,3. Liga,491,3. Liga,,2026-08-07,Unknown,,2597,SV Wehen Wiesbaden,2590,Preußen Münster,1,3,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,4,3,,,,,,,0,0
-16611790,Germany,3. Liga,491,3. Liga,,2026-08-07,Unknown,,7827,TSV Havelse,2522,VfB Stuttgart II U21,2,3,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,3,2,,,,,,,0,0
 16384249,Hungary,NB I,187,NB I,,2026-08-07,Unknown,,1915,MTK Budapest,25596,Puskás Akadémia,2,3,0,0,,,,,A,2026-08-09,58%,42%,1.68,3.62,1,4,17,18,4,7,8,4,10,20,555,400,2,4,9,7,0,1,479,341,,
 16384250,Hungary,NB I,187,NB I,,2026-08-07,Unknown,,1919,Vasas,1922,Zalaegerszegi TE,5,0,0,0,,,,,H,2026-08-09,59%,41%,2.36,0.42,3,0,20,8,0,5,8,6,10,12,538,377,1,2,10,0,4,0,478,318,0,1
 15442521,Iceland,Iceland 1. deild,675,Iceland 1. deild,,2026-08-07,Unknown,,36057,Leiknir Reykjavík,1896,Fylkir Reykjavík,2,0,0,0,,,,,H,2026-08-09,40%,60%,0.95,1.60,,,9,15,6,2,4,2,18,15,323,516,0,1,4,6,1,0,238,430,0,0
@@ -6766,7 +6747,6 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,round,rou
 16331685,Japan,J1 League,196,J1 League,,2026-08-07,Unknown,,3147,FC Tokyo,44409,Machida Zelvia,1,5,0,0,,,,,A,2026-08-09,44%,56%,1.43,2.47,3,3,9,17,3,3,2,5,11,10,415,512,1,1,4,8,1,3,337,443,1,0
 16331684,Japan,J1 League,196,J1 League,,2026-08-07,Unknown,,3140,Kashiwa Reysol,21901,Mito Hollyhock,2,1,0,0,,,,,H,2026-08-09,53%,47%,1.24,2.38,1,1,9,16,2,5,1,5,5,11,582,493,0,1,7,3,1,1,511,416,,
 16331687,Japan,J1 League,196,J1 League,,2026-08-07,Unknown,,3136,Nagoya Grampus,3133,Shimizu S-Pulse,0,1,0,0,,,,,A,2026-08-09,75%,25%,1.51,2.05,0,1,18,14,5,6,13,7,5,14,611,195,0,3,6,6,1,1,531,124,0,1
-16331690,Japan,J1 League,196,J1 League,,2026-08-07,Unknown,,3135,Sanfrecce Hiroshima,3144,JEF United Chiba,3,0,0,0,,,,,H,2026-08-09,54%,46%,3.78,0.57,3,1,23,7,3,4,3,0,5,14,508,438,1,1,8,3,4,1,432,365,,
 16331694,Japan,J.League 2,402,J.League 2,,2026-08-07,Unknown,,3142,Hokkaido Consadole Sapporo,21907,Tokushima Vortis,2,0,0,0,,,,,H,2026-08-09,46%,54%,1.67,0.51,,,13,6,1,3,7,4,13,7,410,459,0,1,5,1,0,3,330,382,0,0
 16331700,Japan,J.League 2,402,J.League 2,,2026-08-07,Unknown,,118500,Fujieda MYFC,3148,Vegalta Sendai,2,0,0,0,,,,,H,2026-08-09,34%,66%,1.91,1.79,,,11,11,2,1,5,5,11,9,241,511,2,0,3,2,0,0,166,410,0,0
 16331695,Japan,J.League 2,402,J.League 2,,2026-08-07,Unknown,,118478,Vanraure Hachinohe,34035,Kataller Toyama,2,0,0,0,,,,,H,2026-08-09,25%,75%,0.56,0.74,,,12,9,2,1,3,7,9,9,223,662,1,2,3,2,3,2,153,553,0,0
@@ -6776,46 +6756,20 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,round,rou
 16331703,Japan,J.League 2,402,J.League 2,,2026-08-07,Unknown,,287058,Tegevajaro Miyazaki,7061,Yokohama FC,0,1,0,0,,,,,A,2026-08-09,54%,46%,0.88,1.96,,,10,21,3,3,3,6,17,8,397,362,1,2,3,4,1,0,314,289,1,0
 16331701,Japan,J.League 2,402,J.League 2,,2026-08-07,Unknown,,21904,Sagan Tosu,5762,Ventforet Kofu,2,0,0,0,,,,,H,2026-08-09,45%,55%,1.90,1.52,,,12,15,4,2,5,7,9,13,349,409,0,1,4,4,1,0,290,321,0,0
 16331752,Japan,J-League 3,2293,J-League 3,,2026-08-07,Unknown,,79883,AC Nagano Parceiro,38146,Renofa Yamaguchi FC,1,0,0,0,,,,,H,2026-08-09,38%,62%,1.00,0.85,,,7,12,4,1,3,6,12,12,258,442,0,1,2,4,2,2,183,348,0,0
-16331758,Japan,J-League 3,2293,J-League 3,,2026-08-07,Unknown,,44528,FC Ryukyu,40029,Giravanz Kitakyushu,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 16331751,Japan,J-League 3,2293,J-League 3,,2026-08-07,Unknown,,189234,SC Sagamihara,21903,Roasso Kumamoto,0,0,0,0,,,,,D,2026-08-09,49%,51%,2.49,0.33,,,22,7,3,2,6,3,6,7,303,346,2,0,2,3,1,0,198,234,0,0
 16331754,Japan,J-League 3,2293,J-League 3,,2026-08-07,Unknown,,38141,Gainare Tottori,205600,FC Osaka,1,1,0,0,,,,,D,2026-08-09,47%,53%,1.20,1.24,,,13,11,4,3,9,2,9,16,330,294,0,4,4,5,4,2,226,197,0,0
 16331757,Japan,J-League 3,2293,J-League 3,,2026-08-07,Unknown,,162632,Kagoshima United,21906,Thespa Gunma,1,0,0,0,,,,,H,2026-08-09,33%,67%,0.98,1.01,,,15,9,2,4,8,6,9,13,209,459,1,2,5,2,6,1,128,364,0,0
 16331756,Japan,J-League 3,2293,J-League 3,,2026-08-07,Unknown,,230706,Kochi United SC,26011,Matsumoto Yamaga FC,0,0,0,0,,,,,D,2026-08-09,54%,46%,0.84,1.01,,,8,13,4,4,5,9,10,18,418,373,1,2,4,4,2,1,334,289,0,0
 15472550,Latvia,Virsliga,197,Virsliga,,2026-08-07,Unknown,,41498,BFC Daugavpils,36080,FK Tukums 2000,2,0,0,0,,,,,H,2026-08-09,62%,38%,1.80,1.61,,,15,7,3,1,4,1,16,8,560,312,2,2,3,3,0,1,463,215,0,0
-15472553,Latvia,Virsliga,197,Virsliga,,2026-08-07,Unknown,,36081,FS Jelgava,5346,FK Auda,0,1,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15472552,Latvia,Virsliga,197,Virsliga,,2026-08-07,Unknown,,282126,SK Super Nova,146336,FK Liepaja,1,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 16316793,Netherlands,VriendenLoterij Eredivisie,37,VriendenLoterij Eredivisie,,2026-08-07,Unknown,,2970,SC Cambuur,2967,Excelsior,0,4,0,0,,,,,A,2026-08-09,47%,53%,0.72,2.87,2,7,11,18,5,1,5,8,6,11,380,429,,,2,9,1,1,317,353,,
 16316779,Netherlands,VriendenLoterij Eredivisie,37,VriendenLoterij Eredivisie,,2026-08-07,Unknown,,2951,FC Groningen,2948,FC Utrecht,2,1,0,0,,,,,H,2026-08-09,59%,41%,1.55,2.27,2,5,16,14,6,3,5,1,12,17,449,306,0,2,5,7,1,4,365,225,,
 16316782,Netherlands,VriendenLoterij Eredivisie,37,VriendenLoterij Eredivisie,,2026-08-07,Unknown,,2971,PEC Zwolle,2953,AFC Ajax,0,2,0,0,,,,,A,2026-08-09,31%,69%,0.59,1.54,1,1,7,26,4,2,2,10,12,10,238,548,2,2,2,6,,,173,482,1,0
 16317342,Netherlands,Eerste Divisie,131,Eerste Divisie,,2026-08-07,Unknown,,2973,FC Dordrecht,46160,Jong Ajax,2,1,0,0,,,,,H,2026-08-09,52%,48%,1.80,2.66,2,3,19,13,5,6,8,3,18,13,371,348,3,4,8,6,0,4,304,279,,
-16317572,Netherlands,Eerste Divisie,131,Eerste Divisie,,2026-08-07,Unknown,,2965,FC Emmen,2954,Roda JC Kerkrade,1,0,0,0,,,,,H,2026-08-09,44%,56%,1.01,1.37,0,1,15,10,3,6,0,2,25,10,362,456,4,0,7,4,1,2,285,363,,
 16317343,Netherlands,Eerste Divisie,131,Eerste Divisie,,2026-08-07,Unknown,,2978,TOP Oss,2947,NAC Breda,1,2,0,0,,,,,A,2026-08-09,29%,71%,2.07,2.04,4,3,14,27,4,3,3,8,12,11,261,622,1,1,4,6,2,1,157,530,,
 16317344,Netherlands,Eerste Divisie,131,Eerste Divisie,,2026-08-07,Unknown,,2980,VVV-Venlo,2977,Heracles Almelo,3,4,0,0,,,,,A,2026-08-09,50%,50%,1.28,3.92,2,7,11,23,4,0,5,5,13,14,382,379,1,2,3,8,2,2,301,303,,
 16317341,Netherlands,Eerste Divisie,131,Eerste Divisie,,2026-08-07,Unknown,,2958,Vitesse,2956,RKC Waalwijk,1,1,0,0,,,,,D,2026-08-09,42%,58%,1.75,1.88,2,3,11,18,4,3,6,2,9,14,339,467,2,3,4,5,3,0,254,404,1,0
-15657477,New Zealand,Central League,594,Central League,,2026-08-07,Unknown,,380147,Waterside Karori,261130,Napier City Rovers,1,3,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15657479,New Zealand,Central League,594,Central League,,2026-08-07,Unknown,,261131,Miramar Rangers,1176792,FC Western,12,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15657484,New Zealand,Central League,594,Central League,,2026-08-07,Unknown,,182819,Wellington Phoenix Reserve,378944,Wellington Olympic,0,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15657485,New Zealand,Central League,594,Central League,,2026-08-07,Unknown,,508950,Island Bay United,1079628,Upper Hutt City FC,4,2,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15657483,New Zealand,Central League,594,Central League,,2026-08-07,Unknown,,379307,FC Petone,411578,Western Suburbs FC,0,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15657481,New Zealand,Northern League,594,Northern League,,2026-08-07,Unknown,,381039,Auckland United FC,508949,Tauranga City AFC,3,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15657482,New Zealand,Northern League,594,Northern League,,2026-08-07,Unknown,,234864,Eastern Suburbs,1079630,Fencibles United FC,4,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15657488,New Zealand,Northern League,594,Northern League,,2026-08-07,Unknown,,284073,Birkenhead United,381989,Manukau United FC,6,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15657487,New Zealand,Northern League,594,Northern League,,2026-08-07,Unknown,,381038,Western Springs AFC,382394,Melville United AFC,0,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15657478,New Zealand,Southern League,594,Southern League,,2026-08-07,Unknown,,1079631,Wanaka AFC,379338,Selwyn United FC,2,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15657480,New Zealand,Southern League,594,Southern League,,2026-08-07,Unknown,,378302,Ferrymead Bays FC,378137,Nomads United AFC,1,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15657486,New Zealand,Southern League,594,Southern League,,2026-08-07,Unknown,,1176791,Northern AFC,389659,Dunedin City Royals FC,4,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 15260874,Norway,Eliteserien,20,Eliteserien,,2026-08-07,Unknown,,676,Sandefjord Fotball,786,KFUM Oslo,0,1,0,0,,,,,A,2026-08-09,50%,50%,1.33,2.25,1,2,19,16,6,4,5,6,11,19,454,456,2,3,4,7,1,2,365,379,1,0
 15260876,Norway,Eliteserien,20,Eliteserien,,2026-08-07,Unknown,,1165,Vålerenga IF,656,Bodø/Glimt,1,2,0,0,,,,,A,2026-08-09,39%,61%,1.30,1.89,3,6,15,14,2,2,8,8,12,9,365,596,1,0,3,4,3,0,296,530,,
-16726689,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-07,Unknown,,305811,Servette FC Chênois Féminin,830186,FK Aktobe,4,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,1,0,,,,,,,0,0
-16737091,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-07,Unknown,,201156,Ferencváros TC,289908,KFF Mitrovica,1,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,2,3,,,,,,,0,0
-16737095,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-07,Unknown,,38362,ŽNK Mura,312025,ŽNK Hajduk,0,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,3,3,,,,,,,1,0
-16737092,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-07,Unknown,,36715,Gintra Universitetas,556978,Riga FC,4,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16737094,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-07,Unknown,,37196,SFK 2000 Sarajevo,369184,Racing FC Union Luxembourg,4,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,1,0,,,,,,,0,0
-16737100,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-07,Unknown,,62202,Vålerenga,271437,Omonia Nicosia,2,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,0,2,,,,,,,0,0
-16737093,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-07,Unknown,,37195,WFC Zhytlobud-1 Kharkiv,354349,ŽFK TSC,3,2,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,2,4,,,,,,,0,0
-16737097,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-07,Unknown,,53371,Young Boys Frauen,1239478,FC Seasters Odessa,1,3,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,3,1,,,,,,,0,0
-16737096,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-07,Unknown,,333128,HB Køge,191237,Heart of Midlothian WFC,2,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16737099,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-07,Unknown,,363052,SCU Torreense,1208296,Fk Apolonia Fier,5,2,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 15679408,North & Central America,"Leagues Cup, Group Stage",13783,"Leagues Cup, Group Stage",,2026-08-07,Unknown,,404108,Charlotte FC,1949,Atlas FC,2,0,0,0,,,,,H,2026-08-09,37%,63%,1.33,1.00,5,3,9,9,4,2,1,8,14,19,333,561,3,3,4,4,0,2,282,512,,
 15679396,North & Central America,"Leagues Cup, Group Stage",13783,"Leagues Cup, Group Stage",,2026-08-07,Unknown,,2504,Columbus Crew,1936,CF Pachuca,2,1,0,0,,,,,H,2026-08-09,49%,51%,3.08,1.37,5,6,11,17,10,3,3,7,13,19,431,428,3,3,5,11,1,2,361,381,0,1
 15679399,North & Central America,"Leagues Cup, Group Stage",13783,"Leagues Cup, Group Stage",,2026-08-07,Unknown,,215167,FC Cincinnati,1933,Pumas UNAM,2,0,0,0,,,,,H,2026-08-09,50%,50%,1.18,2.00,0,3,15,15,4,1,4,6,5,11,451,438,1,0,4,4,1,2,373,376,,
@@ -6830,12 +6784,6 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,round,rou
 16316964,Poland,Ekstraklasa,202,Ekstraklasa,,2026-08-07,Unknown,,7295,Radomiak Radom,3110,Górnik Zabrze,1,3,0,0,,,,,A,2026-08-09,46%,54%,2.24,2.28,4,2,14,21,2,3,2,3,16,7,422,509,4,4,5,6,0,1,352,448,,
 16403842,Romania,Superliga,152,Superliga,,2026-08-07,Unknown,,204657,UTA Arad,295403,FC Rapid București,0,0,0,0,,,,,D,2026-08-09,34%,66%,0.84,1.05,2,1,9,10,4,1,4,8,10,15,305,596,4,3,1,4,,,199,511,,
 16362199,Scotland,Championship,206,Championship,,2026-08-07,Unknown,,2358,Partick Thistle,2356,Livingston,2,0,0,0,,,,,H,2026-08-09,46%,54%,1.64,1.12,,,14,10,1,5,9,9,14,15,320,407,2,2,6,1,4,2,248,319,0,0
-15373052,South Korea,K League 1,410,K League 1,,2026-08-07,Unknown,,34220,Gangwon FC,7648,Incheon United,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15373054,South Korea,K League 1,410,K League 1,,2026-08-07,Unknown,,92539,Bucheon FC 1995,48912,Gwangju FC,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15373050,South Korea,K League 1,410,K League 1,,2026-08-07,Unknown,,32675,FC Anyang,7645,Daejeon Hana Citizen,1,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15373055,South Korea,K League 1,410,K League 1,,2026-08-07,Unknown,,7647,Gimcheon Sangmu FC,7646,FC Seoul,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15373056,South Korea,K League 1,410,K League 1,,2026-08-07,Unknown,,6908,Jeonbuk Hyundai Motors,7649,Jeju SK,1,3,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15373058,South Korea,K League 1,410,K League 1,,2026-08-07,Unknown,,7650,Pohang Steelers,7653,Ulsan HD,0,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 15403947,South Korea,K-League 2,777,K-League 2,,2026-08-07,Unknown,,314294,Paju Frontier FC,41261,Suwon FC,0,1,0,0,,,,,A,2026-08-09,42%,58%,1.46,2.02,,,11,18,5,4,4,2,11,13,329,481,3,1,4,6,4,1,237,408,0,0
 15403948,South Korea,K-League 2,777,K-League 2,,2026-08-07,Unknown,,7651,Seongnam FC,41263,Cheonan City FC,3,2,0,0,,,,,H,2026-08-09,57%,43%,2.06,2.23,,,21,17,2,8,3,4,4,11,466,395,0,1,10,4,1,0,396,311,0,0
 15272484,Sweden,Allsvenskan,40,Allsvenskan,,2026-08-07,Unknown,,1766,Örgryte IS,1764,AIK,3,4,0,0,,,,,A,2026-08-09,38%,62%,2.39,1.96,3,4,8,18,4,0,3,4,9,12,344,548,0,2,3,9,1,0,269,481,1,0
@@ -6843,54 +6791,83 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,round,rou
 15272331,Sweden,Superettan,46,Superettan,,2026-08-07,Unknown,,1812,Falkenbergs FF,377598,Nordic United FC,1,1,0,0,,,,,D,2026-08-09,42%,58%,1.17,1.83,,,8,20,3,0,1,8,18,7,413,577,3,1,1,4,0,6,350,496,0,0
 15271294,Sweden,Superettan,46,Superettan,,2026-08-07,Unknown,,1824,Ljungskile SK,1860,IK Oddevold,0,1,0,0,,,,,A,2026-08-09,65%,35%,1.50,1.73,,,13,17,3,5,5,7,15,15,473,253,3,3,5,4,1,1,395,176,0,1
 15271295,Sweden,Superettan,46,Superettan,,2026-08-07,Unknown,,1781,Östers IF,1772,Landskrona BoIS,0,1,0,0,,,,,A,2026-08-09,44%,56%,1.34,1.29,,,10,12,4,4,3,8,9,14,417,541,1,2,4,5,1,0,321,456,0,0
-15272329,Sweden,Superettan,46,Superettan,,2026-08-07,Unknown,,7101,Varbergs BoIS,1844,Sandvikens IF,0,1,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 15254074,Sweden,Damallsvenskan,214,Damallsvenskan,,2026-08-07,Unknown,,7388,AIK,112697,IF Brommapojkarna,1,0,0,0,,,,,H,2026-08-09,57%,43%,1.86,0.72,,,20,8,4,4,9,4,17,6,380,321,1,1,5,4,0,0,284,205,0,0
 15254080,Sweden,Damallsvenskan,214,Damallsvenskan,,2026-08-07,Unknown,,206340,Växjö DFF,1886,Rosengård,2,0,0,0,,,,,H,2026-08-09,40%,60%,1.67,1.15,,,14,12,3,6,7,8,14,6,351,510,0,1,8,3,1,0,253,373,0,0
-15254075,Sweden,Damallsvenskan,214,Damallsvenskan,,2026-08-07,Unknown,,1878,Djurgårdens IF DFF,258774,IK Uppsala,8,0,0,0,,,,,H,2026-08-09,65%,35%,3.72,1.54,,,23,5,3,3,18,0,1,7,532,304,0,0,10,3,0,0,442,209,0,0
 15254076,Sweden,Damallsvenskan,214,Damallsvenskan,,2026-08-07,Unknown,,112689,Eskilstuna Utd DFF,8086,Kristianstads DFF,1,0,0,0,,,,,H,2026-08-09,39%,61%,0.86,2.16,,,6,17,7,3,1,7,2,7,407,687,0,0,4,7,0,2,322,578,0,0
-16357083,Switzerland,Swiss Super League,215,Swiss Super League,,2026-08-07,Unknown,,2501,Basel,2454,FC Thun,3,0,0,0,,,,,H,2026-08-09,49%,51%,0.73,0.37,2,0,8,9,0,3,0,2,8,6,253,258,0,1,6,0,2,1,204,203,,
+16357083,Switzerland,Swiss Super League,215,Swiss Super League,,2026-08-07,Unknown,,2501,Basel,2454,FC Thun,4,2,0,0,,,,,H,2026-08-09,47%,53%,1.09,0.64,3,1,12,14,0,3,1,5,10,15,390,432,1,3,7,2,3,1,310,346,,
 16357153,Switzerland,Swiss Super League,215,Swiss Super League,,2026-08-07,Unknown,,2452,FC Sion,2463,FC Vaduz,1,2,0,0,,,,,A,2026-08-09,49%,51%,0.93,1.70,3,1,11,9,2,1,3,3,5,7,237,251,2,2,2,4,,,185,204,,
 16357148,Switzerland,Swiss Super League,215,Swiss Super League,,2026-08-07,Unknown,,2442,FC St. Gallen 1879,2453,FC Luzern,1,1,0,0,,,,,D,2026-08-09,60%,40%,1.57,0.65,1,1,10,5,0,5,3,5,5,8,218,138,1,3,6,1,1,1,158,86,,
-16412906,Ukraine,Premier League,218,Premier League,,2026-08-07,Unknown,,3310,Chornomorets Odesa,200776,Kolos Kovalivka,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16412905,Ukraine,Premier League,218,Premier League,,2026-08-07,Unknown,,323552,FC Epicentr Dunaivtsi,3313,Shakhtar Donetsk,0,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16729307,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-08-07,Unknown,,25009,Cerro Largo,3224,Juventud de Las Piedras,1,1,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 15421138,USA,MLS Next Pro,18641,MLS Next Pro,,2026-08-07,Unknown,,411364,Inter Miami CF II,467299,Crown Legacy FC,0,2,0,0,,,,,A,2026-08-09,56%,44%,1.72,0.77,1,1,21,8,0,4,8,3,13,10,435,335,2,1,4,2,3,0,361,271,,
 15421131,USA,MLS Next Pro,18641,MLS Next Pro,,2026-08-07,Unknown,,411366,Minnesota United FC 2,411519,San Jose Earthquakes II,2,4,0,0,,,,,A,2026-08-09,53%,47%,2.23,1.87,5,1,15,15,4,3,3,10,6,14,443,395,2,1,5,5,2,1,371,322,,
 15388546,USA,NWSL,1690,NWSL,,2026-08-07,Unknown,,215083,Orlando Pride,377825,Racing Louisville,1,3,0,0,,,,,A,2026-08-09,52%,48%,2.90,2.05,2,2,18,20,4,5,8,9,8,13,347,323,0,1,6,7,1,3,265,250,,
 15388542,USA,NWSL,1690,NWSL,,2026-08-07,Unknown,,34718,NJ/NY Gotham FC,408170,San Diego Wave FC,1,0,0,0,,,,,H,2026-08-09,56%,44%,1.81,1.25,0,2,15,9,3,2,3,1,8,14,550,425,1,0,3,3,0,2,470,355,,
+16403818,Romania,Superliga,152,Superliga,,2026-08-07,Unknown,,25856,FC Petrolul Ploiești,3291,SC Oțelul Galați,1,0,0,0,,,,,H,2026-08-09,35%,65%,0.00,0.00,2,2,10,8,1,2,4,5,14,12,252,463,3,2,3,1,2,0,182,386,0,1
+16667373,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-08-07,Unknown,,3201,San Lorenzo,7629,Huracán,0,2,0,0,,,,,A,2026-08-09,54%,46%,0.69,1.22,2,3,8,14,3,2,2,4,10,21,413,349,3,3,2,5,3,0,328,263,1,0
+16392090,Austria,Austrian Bundesliga,45,Austrian Bundesliga,,2026-08-07,Unknown,,2203,FK Austria Wien,2058,LASK,0,2,0,0,,,,,A,2026-08-09,43%,57%,0.21,3.71,0,6,6,22,5,1,1,11,13,10,358,478,2,2,1,6,3,3,268,406,1,0
+16740766,Armenia,Fastex Premier League,671,Fastex Premier League,,2026-08-08,Unknown,,36059,FC Gandzasar,423250,FC Syunik,3,1,0,0,,,,,H,2026-08-09,55%,45%,1.21,1.13,,,10,15,2,1,3,5,15,24,403,317,3,3,4,3,0,1,327,234,0,0
+15552603,China,Chinese Super League,649,Chinese Super League,,2026-08-08,Unknown,,34697,Zhejiang,295152,Wuhan Three Towns,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15657895,China,Chinese League 1,782,Chinese League 1,,2026-08-08,Unknown,,369494,Nanjing City,251278,Nantong Zhiyun,1,1,0,0,,,,,D,2026-08-09,23%,77%,0.55,1.85,1,5,9,20,3,1,0,9,15,10,160,519,3,2,2,5,1,1,95,455,,
+15640283,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-08-08,Unknown,,91570,Canberra Olympic,91572,Tigers FC,2,5,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,0,0
+15640284,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-08-08,Unknown,,466742,Brindabella Blues FC,91576,Tuggeranong United,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15640286,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-08-08,Unknown,,91574,Monaro Panthers,91564,Belconnen United FC,7,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,0,0
+16412008,Austria,2. Liga,135,2. Liga,,2026-08-08,Unknown,,2113,FC Blau Weiss Linz,2088,FC Wacker Innsbruck,3,0,0,0,,,,,H,2026-08-09,40%,60%,2.47,0.25,,,18,4,2,3,1,0,11,12,378,532,2,0,6,2,3,1,282,429,0,1
+16459575,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-08-08,Unknown,,6110,Deportes Quindío,39866,Internacional de Palmira,1,1,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,4,4,,,,,,,0,0
+16317813,Costa Rica,"Primera División, Apertura",11535,"Primera División, Apertura",,2026-08-08,Unknown,,7044,CS Cartaginés,262906,Sporting FC,2,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,3,5,,,,,,,0,0
+16379910,Czech Republic,FNL,205,FNL,,2026-08-08,Unknown,,4863,Vysočina Jihlava,2213,1.FK Příbram,1,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16199671,Estonia,Premium Liiga,178,Premium Liiga,,2026-08-08,Unknown,,3346,Flora Tallinn,138566,Tartu JK Tammeka,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16679498,Germany,3. Liga,491,3. Liga,,2026-08-08,Unknown,,2680,SV Waldhof Mannheim,2588,Fortuna Düsseldorf,2,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,4,5,,,,,,,0,0
+16331690,Japan,J1 League,196,J1 League,,2026-08-08,Unknown,,3135,Sanfrecce Hiroshima,3144,JEF United Chiba,3,0,0,0,,,,,H,2026-08-09,54%,46%,3.78,0.57,3,1,23,7,3,4,3,0,5,14,508,438,1,1,8,3,4,1,432,365,,
+16331758,Japan,J-League 3,2293,J-League 3,,2026-08-08,Unknown,,44528,FC Ryukyu,40029,Giravanz Kitakyushu,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16317572,Netherlands,Eerste Divisie,131,Eerste Divisie,,2026-08-08,Unknown,,2965,FC Emmen,2954,Roda JC Kerkrade,1,0,0,0,,,,,H,2026-08-09,44%,56%,1.01,1.37,0,1,15,10,3,6,0,2,25,10,362,456,4,0,7,4,1,2,285,363,,
+15657477,New Zealand,Central League,594,Central League,,2026-08-08,Unknown,,380147,Waterside Karori,261130,Napier City Rovers,1,3,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15657479,New Zealand,Central League,594,Central League,,2026-08-08,Unknown,,261131,Miramar Rangers,1176792,FC Western,12,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15657484,New Zealand,Central League,594,Central League,,2026-08-08,Unknown,,182819,Wellington Phoenix Reserve,378944,Wellington Olympic,0,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15657485,New Zealand,Central League,594,Central League,,2026-08-08,Unknown,,508950,Island Bay United,1079628,Upper Hutt City FC,4,2,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15657483,New Zealand,Central League,594,Central League,,2026-08-08,Unknown,,379307,FC Petone,411578,Western Suburbs FC,0,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15657481,New Zealand,Northern League,594,Northern League,,2026-08-08,Unknown,,381039,Auckland United FC,508949,Tauranga City AFC,3,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15657482,New Zealand,Northern League,594,Northern League,,2026-08-08,Unknown,,234864,Eastern Suburbs,1079630,Fencibles United FC,4,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15657488,New Zealand,Northern League,594,Northern League,,2026-08-08,Unknown,,284073,Birkenhead United,381989,Manukau United FC,6,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15657487,New Zealand,Northern League,594,Northern League,,2026-08-08,Unknown,,381038,Western Springs AFC,382394,Melville United AFC,0,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15657478,New Zealand,Southern League,594,Southern League,,2026-08-08,Unknown,,1079631,Wanaka AFC,379338,Selwyn United FC,2,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15657480,New Zealand,Southern League,594,Southern League,,2026-08-08,Unknown,,378302,Ferrymead Bays FC,378137,Nomads United AFC,1,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15657486,New Zealand,Southern League,594,Southern League,,2026-08-08,Unknown,,1176791,Northern AFC,389659,Dunedin City Royals FC,4,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16726689,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-08,Unknown,,305811,Servette FC Chênois Féminin,830186,FK Aktobe,4,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,1,0,,,,,,,0,0
+16737091,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-08,Unknown,,201156,Ferencváros TC,289908,KFF Mitrovica,1,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,2,3,,,,,,,0,0
+16737095,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-08,Unknown,,38362,ŽNK Mura,312025,ŽNK Hajduk,0,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,3,3,,,,,,,1,0
+16737092,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-08,Unknown,,36715,Gintra Universitetas,556978,Riga FC,4,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16737094,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-08,Unknown,,37196,SFK 2000 Sarajevo,369184,Racing FC Union Luxembourg,4,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,1,0,,,,,,,0,0
+16737100,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-08,Unknown,,62202,Vålerenga,271437,Omonia Nicosia,2,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,0,2,,,,,,,0,0
+16737093,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-08,Unknown,,37195,WFC Zhytlobud-1 Kharkiv,354349,ŽFK TSC,3,2,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,2,4,,,,,,,0,0
+15373052,South Korea,K League 1,410,K League 1,,2026-08-08,Unknown,,34220,Gangwon FC,7648,Incheon United,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15373054,South Korea,K League 1,410,K League 1,,2026-08-08,Unknown,,92539,Bucheon FC 1995,48912,Gwangju FC,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15373050,South Korea,K League 1,410,K League 1,,2026-08-08,Unknown,,32675,FC Anyang,7645,Daejeon Hana Citizen,1,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15373055,South Korea,K League 1,410,K League 1,,2026-08-08,Unknown,,7647,Gimcheon Sangmu FC,7646,FC Seoul,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15373056,South Korea,K League 1,410,K League 1,,2026-08-08,Unknown,,6908,Jeonbuk Hyundai Motors,7649,Jeju SK,1,3,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15373058,South Korea,K League 1,410,K League 1,,2026-08-08,Unknown,,7650,Pohang Steelers,7653,Ulsan HD,0,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16412906,Ukraine,Premier League,218,Premier League,,2026-08-08,Unknown,,3310,Chornomorets Odesa,200776,Kolos Kovalivka,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16729307,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-08-08,Unknown,,25009,Cerro Largo,3224,Juventud de Las Piedras,1,1,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 16667378,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-08-08,Unknown,,36833,Atlético Tucumán,42338,Sarmiento,1,2,0,0,,,,,A,2026-08-09,55%,45%,0.64,1.41,2,2,12,11,3,5,13,4,13,11,303,259,1,2,6,5,4,0,226,171,,
-16667379,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-08-08,Unknown,,189723,Deportivo Riestra,3206,Estudiantes de La Plata,2,0,0,0,,,,,H,2026-08-09,27%,73%,1.83,0.24,3,0,10,9,1,2,2,0,15,13,233,624,3,4,4,1,,,132,519,,
 16667380,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-08-08,Unknown,,3202,Boca Juniors,3208,Vélez Sarsfield,1,1,0,0,,,,,D,2026-08-09,59%,41%,2.18,0.72,5,1,30,8,2,8,5,4,12,10,551,399,2,4,9,4,3,3,462,303,,
 16667384,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-08-08,Unknown,,3209,CA Independiente,36837,Club Atlético Platense,0,1,0,0,,,,,A,2026-08-09,66%,34%,0.95,0.78,1,1,19,8,1,5,13,1,12,17,507,272,2,2,5,2,2,0,400,171,,
 16667382,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-08-08,Unknown,,4937,Instituto De Córdoba,188441,Gimnasia y Esgrima Mendoza,1,0,0,0,,,,,H,2026-08-09,48%,52%,2.28,0.30,5,1,15,5,1,6,4,2,17,12,340,379,4,5,7,1,4,1,244,279,,
 15275805,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-08,Unknown,,265787,Agropecuario Argentino,224646,Güemes,3,0,0,0,,,,,H,2026-08-09,50%,50%,3.39,0.38,,,16,9,2,5,5,4,9,13,413,446,2,2,8,2,1,1,333,346,0,0
 15275803,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-08,Unknown,,43740,Almirante Brown,340432,Ciudad de Bolivar,2,0,0,0,,,,,H,2026-08-09,50%,50%,1.27,1.48,,,13,7,1,2,4,5,7,15,308,352,1,4,4,1,1,7,223,266,0,0
 15275801,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-08,Unknown,,93107,Estudiantes de Buenos Aires,222120,Deportivo Madryn,0,1,0,0,,,,,A,2026-08-09,55%,45%,1.77,0.31,,,23,3,1,8,9,3,13,10,442,309,2,1,8,1,2,3,348,233,1,0
-15275813,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-08,Unknown,,36834,All Boys,3200,Nueva Chicago,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15275818,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-08,Unknown,,93107,Estudiantes de Buenos Aires,3214,Club Atlético Chacarita Juniors,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15275820,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-08,Unknown,,112499,Temperley,112497,Los Andes,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16617302,Armenia,Fastex Premier League,671,Fastex Premier League,,2026-08-08,Unknown,,423250,FC Syunik,36059,FC Gandzasar,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16636540,Armenia,Fastex Premier League,671,Fastex Premier League,,2026-08-08,Unknown,,5214,Pyunik Yerevan,325779,FC Van,3,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16636908,Armenia,Fastex Premier League,671,Fastex Premier League,,2026-08-08,Unknown,,33817,FC Shirak Gyumri,262228,FC Noah,0,1,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 15353099,Chile,Liga de Primera,11653,Liga de Primera,,2026-08-08,Unknown,,3164,Huachipato,5032,Everton de Viña del Mar,1,4,0,0,,,,,A,2026-08-09,45%,55%,0.00,0.00,1,2,7,24,10,0,3,7,11,10,347,425,3,3,1,14,0,3,225,317,,
-15353084,Chile,Liga de Primera,11653,Liga de Primera,,2026-08-08,Unknown,,3165,Coquimbo Unido,5031,Deportes La Serena,1,1,0,0,,,,,D,2026-08-09,60%,40%,0.00,0.00,1,1,15,6,0,5,12,0,16,9,388,280,2,4,6,1,2,2,269,167,1,1
 15416277,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-08-08,Unknown,,3152,Unión San Felipe,284309,Deportes Recoleta,0,0,0,0,,,,,D,2026-08-09,45%,55%,2.06,0.93,,,13,12,3,4,5,6,16,8,360,395,3,4,4,3,0,4,269,304,0,0
-15416276,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-08-08,Unknown,,3150,Santiago Wanderers,39219,San Marcos de Arica,1,1,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,2,4,,,,,,,1,1
 15416272,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-08-08,Unknown,,3159,CD Cobreloa,33596,Deportes Iquique,1,1,0,0,,,,,D,2026-08-09,51%,49%,1.52,1.59,,,9,12,1,3,3,3,5,6,384,431,1,1,4,2,2,3,306,346,0,0
 15552605,China,Chinese Super League,649,Chinese Super League,,2026-08-08,Unknown,,34692,Henan FC,369532,Qingdao West Coast,0,0,0,0,,,,,D,2026-08-09,58%,42%,0.00,0.00,2,0,12,5,0,5,6,3,15,11,470,322,1,2,5,0,1,0,389,235,1,0
 15552606,China,Chinese Super League,649,Chinese Super League,,2026-08-08,Unknown,,474989,Chongqing Tonglianglong FC,41537,Shanghai Port,2,3,0,0,,,,,A,2026-08-09,46%,54%,0.00,0.00,2,3,13,8,2,2,7,4,10,16,377,463,3,0,4,5,3,1,315,397,,
 15552609,China,Chinese Super League,649,Chinese Super League,,2026-08-08,Unknown,,3371,Shandong Taishan,3367,Tianjin Jinmen Tiger,2,1,0,0,,,,,H,2026-08-09,64%,36%,0.00,0.00,2,2,9,9,1,2,5,1,10,6,640,357,2,2,4,2,2,1,555,266,,
 15657899,China,Chinese League 1,782,Chinese League 1,,2026-08-08,Unknown,,382025,Yanbian Longding,510603,Shenzhen Juniors FC,0,1,0,0,,,,,A,2026-08-09,58%,42%,1.08,1.31,0,2,13,5,0,3,6,1,21,35,347,260,3,2,3,1,3,2,258,189,,
-15657900,China,Chinese League 1,782,Chinese League 1,,2026-08-08,Unknown,,382020,Wuxi Wugou,221238,Ningbo FC,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 15657901,China,Chinese League 1,782,Chinese League 1,,2026-08-08,Unknown,,510606,Guangdong GZ-Power,510605,Guangxi Hengchen FC,2,0,0,0,,,,,H,2026-08-09,42%,58%,2.48,0.86,4,0,24,9,1,5,7,3,22,14,288,418,3,2,7,1,1,1,214,332,,
-15640287,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-08-08,Unknown,,520573,Canberra Juventus,1085648,Canberra White Eagles FC,4,2,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,0,0
-15368268,Australia,NSW NPL 1,1274,NSW NPL 1,,2026-08-08,Unknown,,215791,Wollongong Wolves,2939,Sydney United 58,1,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,0,0,,,,,,,0,0
+15640287,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-08-08,Unknown,,520573,Canberra Juventus,1085648,Canberra White Eagles FC,4,2,0,0,,,,,H,2026-08-09,63%,37%,2.54,1.67,,,19,10,4,2,10,1,11,12,527,278,2,2,6,5,1,3,449,199,0,0
+15368268,Australia,NSW NPL 1,1274,NSW NPL 1,,2026-08-08,Unknown,,215791,Wollongong Wolves,2939,Sydney United 58,1,2,0,0,,,,,A,2026-08-09,51%,49%,1.89,2.21,,,18,18,4,5,9,4,13,16,420,401,1,2,5,4,1,3,309,287,0,0
 16392094,Austria,Austrian Bundesliga,45,Austrian Bundesliga,,2026-08-08,Unknown,,2052,Grazer AK 1902,2062,SC Austria Lustenau,2,1,0,0,,,,,H,2026-08-09,56%,44%,1.65,0.56,3,0,13,15,2,4,5,6,12,5,458,360,1,2,6,3,1,1,364,267,,
 16392097,Austria,Austrian Bundesliga,45,Austrian Bundesliga,,2026-08-08,Unknown,,2075,TSV Hartberg,2051,SK Sturm Graz,0,2,0,0,,,,,A,2026-08-09,47%,53%,0.22,2.20,0,4,6,21,4,2,3,9,15,10,332,373,2,1,2,5,2,2,246,299,1,0
 16392089,Austria,Austrian Bundesliga,45,Austrian Bundesliga,,2026-08-08,Unknown,,2049,SV Ried,2055,SK Rapid Wien,0,1,0,0,,,,,A,2026-08-09,43%,57%,0.58,0.31,,,6,6,1,3,1,1,7,4,183,248,,,3,1,0,1,146,217,,
 16392088,Austria,Austrian Bundesliga,45,Austrian Bundesliga,,2026-08-08,Unknown,,2076,Wolfsberger AC,2046,Red Bull Salzburg,0,0,0,0,,,,,D,2026-08-09,29%,71%,0.52,0.91,1,2,4,8,5,0,2,6,6,1,98,251,0,1,0,5,1,3,73,224,,
 16412015,Austria,2. Liga,135,2. Liga,,2026-08-08,Unknown,,43074,Austria Salzburg,2054,First Vienna FC,4,1,0,0,,,,,H,2026-08-09,57%,43%,2.66,1.47,,,15,12,4,1,7,5,12,18,417,333,3,4,5,5,1,2,306,238,0,0
-16412020,Austria,2. Liga,135,2. Liga,,2026-08-08,Unknown,,7786,Schwarz-Weiß Bregenz,2067,Kapfenberger SV,3,2,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 16412023,Austria,2. Liga,135,2. Liga,,2026-08-08,Unknown,,2103,Sturm Graz II,7785,Floridsdorfer AC,4,2,0,0,,,,,H,2026-08-09,48%,52%,2.42,2.43,,,9,14,4,3,3,5,16,12,381,426,1,1,7,6,0,1,302,337,0,0
 16361872,Belgium,Pro League,38,Pro League,,2026-08-08,Unknown,,2901,Standard Liège,2929,Cercle Brugge,2,2,0,0,,,,,D,2026-08-09,56%,44%,2.60,1.47,6,1,20,18,0,2,7,11,9,13,487,368,1,1,6,2,0,1,386,290,,
 16361873,Belgium,Pro League,38,Pro League,,2026-08-08,Unknown,,2893,KVC Westerlo,4860,Royale Union Saint-Gilloise,1,5,0,0,,,,,A,2026-08-09,55%,45%,0.76,1.79,0,4,12,19,4,2,4,5,12,8,532,435,1,2,3,10,0,4,438,343,,
@@ -6901,32 +6878,23 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,round,rou
 16390189,Bolivia,División Profesional,16736,División Profesional,,2026-08-08,Unknown,,396625,CD San Antonio,47700,Nacional Potosí,2,1,0,0,,,,,H,2026-08-09,42%,58%,0.00,0.00,2,1,15,17,2,2,4,3,11,8,336,447,2,2,4,3,2,3,263,383,,
 16390195,Bolivia,División Profesional,16736,División Profesional,,2026-08-08,Unknown,,33714,Club Aurora,7059,Bolívar,2,4,0,0,,,,,A,2026-08-09,45%,55%,0.00,0.00,0,2,11,13,1,4,6,4,15,11,290,363,4,2,6,5,1,2,236,310,,
 16458938,Bosnia & Herzegovina,WWIN Liga BiH,222,WWIN Liga BiH,,2026-08-08,Unknown,,5237,FK Sarajevo,6149,FK Radnik Bijeljina,0,0,0,0,,,,,D,2026-08-09,62%,38%,1.05,1.34,,,11,12,5,4,6,4,25,19,389,222,1,6,4,4,1,2,313,159,0,0
-16458940,Bosnia & Herzegovina,WWIN Liga BiH,222,WWIN Liga BiH,,2026-08-08,Unknown,,5239,NK Široki Brijeg,37064,FK Sloga Doboj,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,2,1,,,,,,,0,0
 15235415,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-08-08,Unknown,,2012,Remo,1977,Atlético Mineiro,2,2,0,0,,,,,D,2026-08-09,41%,59%,0.67,1.07,1,1,12,10,0,2,5,2,13,13,388,562,2,2,4,2,2,1,330,494,,
 15235413,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-08-08,Unknown,,1982,Coritiba,21845,Chapecoense,2,1,0,0,,,,,H,2026-08-09,36%,64%,1.27,0.38,4,0,15,12,2,2,5,6,14,11,277,504,1,1,4,3,1,1,215,429,,
 15235448,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-08-08,Unknown,,1958,Botafogo,1961,Fluminense,1,1,0,0,,,,,D,2026-08-09,41%,59%,1.39,1.00,2,2,22,14,3,6,7,7,16,18,329,474,4,3,7,4,0,1,279,408,1,0
 15235463,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-08-08,Unknown,,1954,Cruzeiro,21982,Mirassol,2,1,0,0,,,,,H,2026-08-09,50%,50%,0.57,1.25,2,2,9,10,2,0,3,1,12,13,311,321,2,1,2,3,0,1,260,276,,
 15526208,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-08-08,Unknown,,1979,Botafogo-SP,1973,América Mineiro,2,1,0,0,,,,,H,2026-08-09,45%,55%,1.27,0.59,2,1,14,9,2,3,4,9,16,21,306,363,1,2,4,3,1,1,223,289,,
 15526210,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-08-08,Unknown,,342775,Athletic Club,1984,Criciúma,2,0,0,0,,,,,H,2026-08-09,34%,66%,0.64,1.49,2,1,5,12,2,0,5,3,12,8,216,429,2,2,2,2,1,1,163,361,,
-15617724,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-08-08,Unknown,,49196,Botafogo-PB,1976,Santa Cruz,2,2,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,3,0,,,,,,,0,0
 15617722,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-08-08,Unknown,,1985,Figueirense,35285,Ferroviária,2,2,0,0,,,,,D,2026-08-09,56%,44%,1.87,1.60,,,17,8,4,7,15,3,17,21,327,242,1,5,5,6,2,1,226,166,0,1
-15617714,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-08-08,Unknown,,135526,Inter de Limeira,6982,Volta Redonda,2,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,0,2,,,,,,,0,0
 15617715,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-08-08,Unknown,,2025,Ituano,257673,Barra FC,2,0,0,0,,,,,H,2026-08-09,52%,48%,1.78,0.98,,,18,11,3,4,12,5,17,20,306,318,0,3,6,1,1,1,237,246,0,0
 15502851,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-08-08,Unknown,,342076,Atlético Ottawa,309892,HFX Wanderers FC,2,1,0,0,,,,,H,2026-08-09,62%,38%,3.07,1.10,3,1,17,4,0,6,6,2,5,12,548,333,1,5,8,1,0,1,499,288,,
 15502853,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-08-08,Unknown,,1165894,FC Supra Du Quebec,309889,Cavalry FC,1,1,0,0,,,,,D,2026-08-09,64%,36%,0.61,0.35,0,1,15,5,1,2,5,3,13,14,569,312,2,3,3,2,0,1,501,242,,
-16390678,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-08-08,Unknown,,6116,Independiente Santa Fe,6107,Boyacá Chicó FC,2,0,0,0,,,,,H,2026-08-09,57%,43%,0.93,0.79,0,2,8,5,1,2,2,0,8,17,524,398,1,1,3,1,0,3,438,322,,
 16390675,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-08-08,Unknown,,89368,Fortaleza FC,6108,Cúcuta Deportivo,2,0,0,0,,,,,H,2026-08-09,54%,46%,0.78,1.38,3,1,13,17,5,5,1,2,13,13,411,355,2,3,7,5,4,2,337,285,,
 16390676,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-08-08,Unknown,,6111,Deportes Tolima,1164534,Internacional de Bogotá,2,1,0,0,,,,,H,2026-08-09,59%,41%,1.02,0.66,1,1,14,14,4,4,8,7,8,8,518,347,2,1,6,5,1,1,437,277,,
-16459574,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-08-08,Unknown,,61504,Patriotas Boyacá,89364,Barranquilla FC,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16658515,Costa Rica,"Primera División, Apertura",11535,"Primera División, Apertura",,2026-08-08,Unknown,,391662,CD Escorpiones Belen,6576,Municipal Pérez Zeledón,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,1,2,,,,,,,0,0
-16317808,Costa Rica,"Primera División, Apertura",11535,"Primera División, Apertura",,2026-08-08,Unknown,,7046,Puntarenas FC,6574,Deportivo Saprissa,0,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,4,1,,,,,,,0,0
-16275179,Croatia,HNL,170,HNL,,2026-08-08,Unknown,,2039,HNK Rijeka,2032,GNK Dinamo Zagreb,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 16275176,Croatia,HNL,170,HNL,,2026-08-08,Unknown,,36246,NK Lokomotiva Zagreb,43917,HNK Gorica,3,1,0,0,,,,,H,2026-08-09,46%,54%,1.13,1.54,1,1,10,15,3,1,9,3,14,10,374,442,5,2,3,4,1,1,304,372,,
 16453916,Czech Republic,Czech First League,172,Czech First League,,2026-08-08,Unknown,,2224,Mladá Boleslav,2218,AC Sparta Praha,2,0,0,0,,,,,H,2026-08-09,33%,67%,1.49,0.77,2,1,11,12,0,2,1,7,14,14,313,608,1,4,4,0,0,1,245,552,,
 16453918,Czech Republic,Czech First League,172,Czech First League,,2026-08-08,Unknown,,2216,SK Slavia Praha,2230,FK Pardubice,2,1,0,0,,,,,H,2026-08-09,74%,26%,2.86,0.66,4,0,33,7,2,3,4,2,6,16,540,195,1,1,5,3,1,1,451,105,,
 16453914,Czech Republic,Czech First League,172,Czech First League,,2026-08-08,Unknown,,2217,FC Hradec Králové,2204,Baník Ostrava,1,0,0,0,,,,,H,2026-08-09,51%,49%,0.61,0.45,2,1,6,8,3,1,2,1,3,4,204,202,1,1,2,3,1,1,172,164,0,1
 16453915,Czech Republic,Czech First League,172,Czech First League,,2026-08-08,Unknown,,2205,FK Jablonec,4871,1. FC Slovácko,0,0,0,0,,,,,D,2026-08-09,74%,26%,0.22,0.10,,,5,2,,,2,1,8,3,293,106,,,0,0,1,1,271,77,0,1
-16379911,Czech Republic,FNL,205,FNL,,2026-08-08,Unknown,,323652,Baník Ostrava B,24782,FC Silon Táborsko,1,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 16278669,Denmark,Danish Superliga,39,Danish Superliga,,2026-08-08,Unknown,,1301,Randers FC,1756,Lyngby,2,0,0,0,,,,,H,2026-08-09,43%,57%,1.58,1.07,4,2,9,9,3,1,3,8,8,15,390,502,0,1,3,4,1,2,301,411,,
 16317233,Denmark,Betinia Liga,47,Betinia Liga,,2026-08-08,Unknown,,1305,Hvidovre,1287,Esbjerg FB,2,1,0,0,,,,,H,2026-08-09,53%,47%,0.00,0.00,2,0,19,10,5,5,10,3,8,10,488,427,0,1,7,6,2,4,395,339,,
 16317231,Denmark,Betinia Liga,47,Betinia Liga,,2026-08-08,Unknown,,1290,AaB,22162,Kolding IF,1,1,0,0,,,,,D,2026-08-09,70%,30%,0.00,0.00,2,3,11,16,6,0,3,6,8,24,679,284,0,1,2,7,3,4,589,200,,
@@ -6934,136 +6902,67 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,round,rou
 16317236,Denmark,Betinia Liga,47,Betinia Liga,,2026-08-08,Unknown,,1302,FC Fredericia,1314,Vendsyssel FF,1,1,0,0,,,,,D,2026-08-09,72%,28%,0.00,0.00,3,0,36,1,1,12,11,2,9,14,688,276,1,2,14,1,1,2,615,206,0,1
 15502644,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-08-08,Unknown,,5249,Aucas,388234,Leones del Norte,3,0,0,0,,,,,H,2026-08-09,49%,51%,0.00,0.00,3,1,9,10,5,1,4,6,12,5,464,465,1,2,4,5,0,1,400,381,,
 15502640,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-08-08,Unknown,,5250,Barcelona SC Guayaquil,6001,Macará,1,2,0,0,,,,,A,2026-08-09,63%,37%,0.00,0.00,0,3,14,13,5,0,6,2,12,7,580,336,1,1,1,7,2,2,481,255,,
-15432375,Estonia,Premium Liiga,178,Premium Liiga,,2026-08-08,Unknown,,32476,Paide Linnameeskond,247090,Pärnu JK Vaprus,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15432376,Estonia,Premium Liiga,178,Premium Liiga,,2026-08-08,Unknown,,3343,Narva Trans,8091,Nõmme Kalju,0,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16226850,Estonia,Esiliiga,678,Esiliiga,,2026-08-08,Unknown,,383797,FC Nõmme United U21,36075,FCI Levadia Tallinn U21,1,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,0,0,,,,,,,0,0
+15432376,Estonia,Premium Liiga,178,Premium Liiga,,2026-08-08,Unknown,,3343,Narva Trans,8091,Nõmme Kalju,0,2,0,0,,,,,A,2026-08-09,35%,65%,0.15,2.18,,,5,14,4,1,3,8,14,11,306,567,2,2,0,4,0,1,235,496,1,0
 15272811,Finland,Veikkausliiga,41,Veikkausliiga,,2026-08-08,Unknown,,2252,FF Jaro,2246,VPS,1,3,0,0,,,,,A,2026-08-09,45%,55%,2.97,1.98,,,17,14,4,5,2,6,8,17,427,456,1,3,6,7,0,2,338,368,0,0
-15272810,Finland,Veikkausliiga,41,Veikkausliiga,,2026-08-08,Unknown,,2244,Kuopion Palloseura,2254,Turun Palloseura,1,1,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15272809,Finland,Veikkausliiga,41,Veikkausliiga,,2026-08-08,Unknown,,22386,Ilves,5058,IFK Mariehamn,1,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 15341297,Finland,Ykkosliiga,55,Ykkosliiga,,2026-08-08,Unknown,,2273,KäPa,22372,EIF,0,1,0,0,,,,,A,2026-08-09,50%,50%,0.59,1.76,,,10,17,5,3,3,8,17,9,456,468,2,0,2,5,2,1,367,385,1,0
 15341299,Finland,Ykkosliiga,55,Ykkosliiga,,2026-08-08,Unknown,,89908,SJK Akatemia,50525,PK-35,0,3,0,0,,,,,A,2026-08-09,59%,41%,1.46,3.16,,,16,15,5,2,7,4,12,7,407,275,2,0,1,8,4,1,322,207,0,0
-15341298,Finland,Ykkosliiga,55,Ykkosliiga,,2026-08-08,Unknown,,5918,HJK Klubi 04,2255,KTP,0,1,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 16386175,France,Ligue 2,182,Ligue 2,,2026-08-08,Unknown,,1680,Clermont Foot,1682,Stade de Reims,0,0,0,0,,,,,D,2026-08-09,48%,52%,0.00,0.00,1,2,3,9,,,3,2,17,11,457,501,1,1,0,0,1,1,397,450,,
 16386174,France,Ligue 2,182,Ligue 2,,2026-08-08,Unknown,,1651,Metz,1654,Guingamp,2,1,0,0,,,,,H,2026-08-09,41%,59%,0.00,0.00,3,2,15,12,6,5,5,3,16,10,377,560,2,1,7,7,0,1,321,492,,
-16386171,France,Ligue 2,182,Ligue 2,,2026-08-08,Unknown,,1642,Montpellier,1686,Dijon,1,1,0,0,,,,,D,2026-08-09,56%,44%,0.00,0.00,2,3,27,12,3,4,4,0,20,17,442,357,3,3,6,4,0,2,351,264,,
 16386167,France,Ligue 2,182,Ligue 2,,2026-08-08,Unknown,,1647,Nantes,52874,Red Star FC,0,1,0,0,,,,,A,2026-08-09,51%,49%,0.00,0.00,2,0,10,13,2,2,4,8,13,13,440,425,2,3,2,3,3,0,350,330,,
 16386237,France,Ligue 2,182,Ligue 2,,2026-08-08,Unknown,,1685,Pau FC,210894,Annecy FC,0,1,0,0,,,,,A,2026-08-09,71%,29%,0.00,0.00,1,1,17,9,2,2,6,4,11,10,585,253,3,0,2,3,4,0,502,182,0,1
 16386238,France,Ligue 2,182,Ligue 2,,2026-08-08,Unknown,,6925,Rodez AF,1673,Stade Lavallois,3,1,0,0,,,,,H,2026-08-09,44%,56%,0.00,0.00,4,1,20,6,0,6,8,4,13,5,382,525,1,1,9,1,1,1,331,441,0,1
 16386236,France,Ligue 2,182,Ligue 2,,2026-08-08,Unknown,,1657,Sochaux,1678,Saint-Étienne,0,3,0,0,,,,,A,2026-08-09,53%,47%,0.00,0.00,0,4,14,14,4,2,6,1,14,10,493,454,0,1,2,7,2,5,423,390,,
 16386168,France,Ligue 2,182,Ligue 2,,2026-08-08,Unknown,,1711,US Boulogne Côte-d'Opale,1675,Nancy,0,0,0,0,,,,,D,2026-08-09,38%,62%,0.00,0.00,,,4,12,2,1,1,6,20,11,319,529,1,0,1,2,3,0,229,422,,
 16386177,France,Ligue 2,182,Ligue 2,,2026-08-08,Unknown,,6918,USL Dunkerque,1671,Grenoble Foot 38,4,2,0,0,,,,,H,2026-08-09,58%,42%,0.00,0.00,4,2,17,9,0,2,10,2,18,9,496,360,2,3,6,2,1,5,406,293,,
-15388684,Georgia,Erovnuli Liga,704,Erovnuli Liga,,2026-08-08,Unknown,,116312,FC Iberia 1999,33819,FC Dila Gori,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15388676,Georgia,Erovnuli Liga,704,Erovnuli Liga,,2026-08-08,Unknown,,37305,Meshakhte Tkibuli,44217,FC Samgurali Tskhaltubo,1,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 16434326,Germany,2. Bundesliga,44,2. Bundesliga,,2026-08-08,Unknown,,2524,VfL Wolfsburg,2675,1. FC Kaiserslautern,0,0,0,0,,,,,D,2026-08-09,63%,37%,1.26,0.87,1,3,19,8,3,4,9,2,17,10,566,330,0,1,5,3,1,2,480,248,,
 16434329,Germany,2. Bundesliga,44,2. Bundesliga,,2026-08-08,Unknown,,2523,1. FC Nürnberg,2595,SG Dynamo Dresden,3,0,0,0,,,,,H,2026-08-09,56%,44%,2.14,1.23,6,1,16,9,1,4,5,5,6,11,496,377,0,2,7,1,1,5,417,310,,
 16434332,Germany,2. Bundesliga,44,2. Bundesliga,,2026-08-08,Unknown,,2532,Energie Cottbus,2541,Hannover 96,3,1,0,0,,,,,H,2026-08-09,45%,55%,1.41,2.72,1,6,12,27,8,1,2,6,11,11,367,428,0,2,4,10,0,2,274,354,,
 16434324,Germany,2. Bundesliga,44,2. Bundesliga,,2026-08-08,Unknown,,2526,FC St. Pauli,2551,SpVgg Greuther Fürth,1,1,0,0,,,,,D,2026-08-09,58%,42%,1.95,1.60,5,3,18,15,6,5,9,2,4,5,516,392,1,0,6,7,7,2,446,327,,
-16520497,Germany,3. Liga,491,3. Liga,,2026-08-08,Unknown,,5894,SG Sonnenhof Großaspach,2683,SC Fortuna Köln,1,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,2,2,,,,,,,0,0
-16520494,Germany,3. Liga,491,3. Liga,,2026-08-08,Unknown,,5887,TSG Hoffenheim II U23,2533,FC Hansa Rostock,2,3,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,1,2,,,,,,,0,0
-16520496,Germany,3. Liga,491,3. Liga,,2026-08-08,Unknown,,2554,1. FC Saarbrücken,2562,Rot-Weiss Essen,2,2,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 16384253,Hungary,NB I,187,NB I,,2026-08-08,Unknown,,25397,Kisvárda FC,1924,Újpest,2,4,0,0,,,,,A,2026-08-09,45%,55%,1.24,2.94,1,9,11,21,7,0,6,4,20,13,308,399,2,0,2,11,1,3,224,327,,
-16384247,Hungary,NB I,187,NB I,,2026-08-08,Unknown,,1923,ETO FC Győr,1925,Ferencváros TC,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 16384251,Hungary,NB I,187,NB I,,2026-08-08,Unknown,,6059,Paksi FC,1916,Kispest Honvéd FC,2,2,0,0,,,,,D,2026-08-09,53%,47%,0.00,0.00,0,2,19,14,5,4,4,4,12,12,424,377,1,2,6,7,0,3,330,262,,
-16384255,Hungary,NB I,187,NB I,,2026-08-08,Unknown,,1921,Debreceni VSC,5124,Nyiregyháza Spartacus,0,0,0,0,,,,,D,2026-08-09,66%,34%,0.00,0.00,,,3,2,1,0,0,1,2,4,103,53,,,0,1,,,86,37,,
 15442522,Iceland,Iceland 1. deild,675,Iceland 1. deild,,2026-08-08,Unknown,,41099,Grótta,1910,Thróttur Reykjavík,1,1,0,0,,,,,D,2026-08-09,50%,50%,1.44,1.79,,,10,18,6,3,1,7,7,11,422,461,2,2,4,6,1,1,342,353,0,0
 15442523,Iceland,Iceland 1. deild,675,Iceland 1. deild,,2026-08-08,Unknown,,283759,UMF Njarðvík,221305,IF Vestri,3,1,0,0,,,,,H,2026-08-09,47%,53%,2.28,0.40,,,10,5,3,2,3,6,11,16,417,410,0,1,5,4,4,2,317,307,0,0
 15238140,Ireland,Premier Division,192,Premier Division,,2026-08-08,Unknown,,3194,Waterford FC,3173,Bohemian FC,3,1,0,0,,,,,H,2026-08-09,31%,69%,1.66,1.25,3,1,16,14,4,2,3,7,14,7,218,494,2,0,6,4,3,0,138,410,,
 16331686,Japan,J1 League,196,J1 League,,2026-08-08,Unknown,,3139,Tokyo Verdy,5127,Kawasaki Frontale,1,1,0,0,,,,,D,2026-08-09,31%,69%,0.00,0.00,3,2,15,16,3,3,4,4,13,9,289,641,0,1,4,4,2,1,208,559,,
 16331692,Japan,J1 League,196,J1 League,,2026-08-08,Unknown,,38154,V-Varen Nagasaki,3149,Kyoto Sanga FC,2,1,0,0,,,,,H,2026-08-09,42%,58%,0.00,0.00,3,1,16,10,2,2,7,4,10,13,327,460,1,3,4,3,0,2,242,379,,
-16331697,Japan,J.League 2,402,J.League 2,,2026-08-08,Unknown,,256899,Iwaki FC,79907,FC Imabari,2,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16331696,Japan,J.League 2,402,J.League 2,,2026-08-08,Unknown,,21902,Montedio Yamagata,56419,Tochigi City FC,2,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16331749,Japan,J-League 3,2293,J-League 3,,2026-08-08,Unknown,,38140,Fukushima United FC,38157,Kamatamare Sanuki,1,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16331753,Japan,J-League 3,2293,J-League 3,,2026-08-08,Unknown,,287054,Reilac Shiga FC,21900,FC Gifu,0,3,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16331755,Japan,J-League 3,2293,J-League 3,,2026-08-08,Unknown,,8060,Ehime FC,38148,Nara Club,4,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16331750,Japan,J-League 3,2293,J-League 3,,2026-08-08,Unknown,,26009,Tochigi SC,38138,Zweigen Kanazawa,3,2,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15472554,Latvia,Virsliga,197,Virsliga,,2026-08-08,Unknown,,162368,Riga FC,477400,Ogre United,3,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16273107,Lithuania,TOPLYGA,198,TOPLYGA,,2026-08-08,Unknown,,312564,Šiauliai FA,168446,Džiugas Telšiai,3,4,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16273094,Lithuania,TOPLYGA,198,TOPLYGA,,2026-08-08,Unknown,,35388,FK Banga Gargždai,5343,FK Sūduva Marijampolė,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 16316776,Netherlands,VriendenLoterij Eredivisie,37,VriendenLoterij Eredivisie,,2026-08-08,Unknown,,2962,NEC Nijmegen,2972,SC Telstar,1,2,0,0,,,,,A,2026-08-09,71%,29%,2.15,1.66,2,2,27,8,1,3,13,3,12,14,552,227,2,2,4,3,2,1,492,159,,
 16316772,Netherlands,VriendenLoterij Eredivisie,37,VriendenLoterij Eredivisie,,2026-08-08,Unknown,,2979,Go Ahead Eagles,2961,Willem II Tilburg,4,1,0,0,,,,,H,2026-08-09,69%,31%,2.43,1.51,2,2,20,13,0,6,6,2,6,14,577,258,2,1,10,1,1,0,506,196,,
-16316792,Netherlands,VriendenLoterij Eredivisie,37,VriendenLoterij Eredivisie,,2026-08-08,Unknown,,2952,PSV Eindhoven,2957,Fortuna Sittard,2,2,0,0,,,,,D,2026-08-09,76%,24%,2.56,0.98,5,1,21,8,4,4,9,0,9,6,758,251,1,1,6,6,0,4,670,165,,
 16316784,Netherlands,VriendenLoterij Eredivisie,37,VriendenLoterij Eredivisie,,2026-08-08,Unknown,,2950,AZ Alkmaar,2966,ADO Den Haag,2,0,0,0,,,,,H,2026-08-09,53%,47%,2.67,0.95,3,0,12,10,1,2,9,7,9,14,470,406,0,1,4,1,4,1,387,327,,
 16316764,Netherlands,VriendenLoterij Eredivisie,37,VriendenLoterij Eredivisie,,2026-08-08,Unknown,,2960,Sparta Rotterdam,2959,Feyenoord,0,1,0,0,,,,,A,2026-08-09,40%,60%,1.01,3.53,3,1,10,22,6,1,5,10,11,8,336,510,3,1,0,6,5,2,257,454,,
-16316767,Netherlands,VriendenLoterij Eredivisie,37,VriendenLoterij Eredivisie,,2026-08-08,Unknown,,2964,SC Heerenveen,2955,FC Twente,0,0,0,0,,,,,D,2026-08-09,45%,55%,0.16,0.71,0,1,4,8,0,2,0,2,3,4,250,302,,,2,0,1,0,216,270,,
 16317346,Netherlands,Eerste Divisie,131,Eerste Divisie,,2026-08-08,Unknown,,2963,FC Den Bosch,2990,Almere City FC,1,1,0,0,,,,,D,2026-08-09,52%,48%,1.61,2.12,2,5,19,22,3,2,7,5,10,8,342,323,0,1,4,4,2,1,243,234,,
 16317349,Netherlands,Eerste Divisie,131,Eerste Divisie,,2026-08-08,Unknown,,2974,Helmond Sport,2949,De Graafschap,1,1,0,0,,,,,D,2026-08-09,36%,64%,1.12,1.57,4,4,11,16,2,3,7,3,12,15,317,579,2,2,4,3,1,2,236,493,,
-16317351,Netherlands,Eerste Divisie,131,Eerste Divisie,,2026-08-08,Unknown,,2976,MVV Maastricht,53067,Jong FC Utrecht,1,1,0,0,,,,,D,2026-08-09,64%,36%,0.82,0.29,1,0,9,6,1,3,2,0,3,8,231,132,1,1,4,2,0,1,185,91,,
-15657489,New Zealand,Southern League,594,Southern League,,2026-08-08,Unknown,,378874,Nelson Suburbs FC,378136,Christchurch United,3,3,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15657490,New Zealand,Southern League,594,Southern League,,2026-08-08,Unknown,,378872,Cashmere Technical,378303,Coastal Spirit,5,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 15260871,Norway,Eliteserien,20,Eliteserien,,2026-08-08,Unknown,,1164,Viking FK,822,Sarpsborg 08,2,1,0,0,,,,,H,2026-08-09,50%,50%,2.83,2.57,4,2,17,25,2,6,11,8,9,11,413,419,2,3,8,3,2,1,342,346,,
 15260868,Norway,Eliteserien,20,Eliteserien,,2026-08-08,Unknown,,667,IK Start,687,Fredrikstad FK,0,1,0,0,,,,,A,2026-08-09,49%,51%,1.77,1.53,1,1,13,14,2,2,6,4,8,5,468,518,,,2,4,2,1,364,411,,
 15260864,Norway,Eliteserien,20,Eliteserien,,2026-08-08,Unknown,,664,Lillestrøm SK,1161,Rosenborg BK,0,2,0,0,,,,,A,2026-08-09,55%,45%,2.25,2.57,3,2,18,17,7,4,8,6,16,26,450,366,1,6,4,9,1,1,345,276,,
 15260862,Norway,Eliteserien,20,Eliteserien,,2026-08-08,Unknown,,666,HamKam,677,Aalesunds FK,0,1,0,0,,,,,A,2026-08-09,56%,44%,0.21,0.18,1,0,5,4,0,2,2,2,6,3,248,190,1,1,2,1,0,2,209,143,,
 15265855,Norway,1st Division,22,1st Division,,2026-08-08,Unknown,,1162,Stabæk Fotball,657,Lyn FK,4,3,0,0,,,,,H,2026-08-09,53%,47%,2.87,1.72,,,18,12,6,5,13,6,13,11,519,546,1,2,8,9,4,1,440,459,0,0
-15265851,Norway,1st Division,22,1st Division,,2026-08-08,Unknown,,673,Haugesund,668,Raufoss,4,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15265853,Norway,1st Division,22,1st Division,,2026-08-08,Unknown,,929,Sandnes Ulf,680,Hødd IL,1,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15265854,Norway,1st Division,22,1st Division,,2026-08-08,Unknown,,665,Sogndal IL,663,Bryne FK,0,1,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15265856,Norway,1st Division,22,1st Division,,2026-08-08,Unknown,,885,Strømmen IF,708,Ranheim IL,0,3,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15265857,Norway,1st Division,22,1st Division,,2026-08-08,Unknown,,1163,Strømsgodset,920,Egersund,0,1,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15265858,Norway,1st Division,22,1st Division,,2026-08-08,Unknown,,682,Åsane,672,Kongsvinger,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16710511,Africa,"Women's Africa Cup of Nations, Knockout stage",9558,"Women's Africa Cup of Nations, Knockout stage",,2026-08-08,Unknown,,186328,Côte d'Ivoire,180004,Algeria,1,2,0,0,,,,,A,2026-08-09,38%,62%,,,,,,,,,5,2,19,21,,,2,2,5,6,2,0,,,1,0
-16710505,Africa,"Women's Africa Cup of Nations, Knockout stage",9558,"Women's Africa Cup of Nations, Knockout stage",,2026-08-08,Unknown,,261908,Morocco,65336,South Africa,2,1,0,0,,,,,H,2026-08-09,48%,52%,,,,,,,,,1,2,16,16,,,1,2,2,2,0,6,,,0,0
-16737098,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-08,Unknown,,168058,KFF Vllaznia,36709,Apollon Limassol,1,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,0,4,,,,,,,0,0
-16737110,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-08,Unknown,,743,SK Brann Kvinner,37187,PAOK,3,2,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16737105,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-08,Unknown,,229911,FK Austria Wien,530774,FCV Farul Constanța,5,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16737106,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-08,Unknown,,118936,SKN St. Pölten,262989,Sporting CP,5,2,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,2,2,,,,,,,0,0
-16737108,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-08,Unknown,,108685,Eintracht Frankfurt,502806,Malmo FF,2,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,0,0,,,,,,,0,0
-16737107,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-08,Unknown,,178262,PSV Eindhoven,38132,HJK Helsinki,3,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,0,2,,,,,,,0,0
-16737109,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-08,Unknown,,178246,Oud-Heverlee Leuven,404349,Fenerbahçe İstanbul,5,3,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,5,0,,,,,,,0,0
-16737103,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-08,Unknown,,178260,Ajax,191232,Rangers LFC,2,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,1,2,,,,,,,0,0
-16737101,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-08,Unknown,,38331,SK Slavia Praha,1368,Brøndby IF,4,6,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16737104,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-08,Unknown,,284974,Spartak Myjava,230007,Czarni Sosnowiec,2,4,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,2,1,,,,,,,0,0
-16737102,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-08,Unknown,,269824,Juventus,1884,Hammarby IF,3,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 15679389,North & Central America,"Leagues Cup, Group Stage",13783,"Leagues Cup, Group Stage",,2026-08-08,Unknown,,52237,Orlando City SC,36534,Club León,1,2,0,0,,,,,A,2026-08-09,54%,46%,0.88,2.86,1,6,12,18,8,2,7,5,10,10,489,424,2,2,3,10,0,3,447,376,,
 15679406,North & Central America,"Leagues Cup, Group Stage",13783,"Leagues Cup, Group Stage",,2026-08-08,Unknown,,1938,CD Guadalajara,2512,FC Dallas,0,1,0,0,,,,,A,2026-08-09,72%,28%,2.00,1.24,0,2,19,10,0,5,9,1,9,12,676,267,0,1,5,1,2,0,591,194,,
 16588787,Paraguay,"Primera División, Clausura",11541,"Primera División, Clausura",,2026-08-08,Unknown,,5992,CS 2 de Mayo,5997,Olimpia,1,0,0,0,,,,,H,2026-08-09,38%,62%,0.59,1.77,1,1,8,15,4,1,3,6,11,4,308,501,3,2,2,4,1,0,221,425,,
 16280788,Peru,"Liga 1, Clausura",406,"Liga 1, Clausura",,2026-08-08,Unknown,,87854,Universidad Técnica de Cajamarca,335557,Asociación Deportiva Tarma,1,1,0,0,,,,,D,2026-08-09,68%,32%,1.58,1.71,1,0,17,15,2,5,7,1,9,12,483,232,3,3,6,3,2,1,421,173,1,1
-16280793,Peru,"Liga 1, Clausura",406,"Liga 1, Clausura",,2026-08-08,Unknown,,2312,Sport Boys,2311,Alianza Lima,1,1,0,0,,,,,D,2026-08-09,37%,63%,0.57,0.79,1,1,6,9,1,1,0,4,14,9,263,450,2,1,2,2,2,1,194,370,,
-16316961,Poland,Ekstraklasa,202,Ekstraklasa,,2026-08-08,Unknown,,3112,GKS Katowice,334956,Wieczysta Kraków,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 16316969,Poland,Ekstraklasa,202,Ekstraklasa,,2026-08-08,Unknown,,3117,Pogoń Szczecin,7915,Motor Lublin,3,1,0,0,,,,,H,2026-08-09,44%,56%,2.35,0.92,4,1,15,16,3,3,2,4,11,9,387,486,1,2,6,4,1,0,319,416,,
-16316959,Poland,Ekstraklasa,202,Ekstraklasa,,2026-08-08,Unknown,,5065,MKS Korona Kielce,3106,Legia Warszawa,1,1,0,0,,,,,D,2026-08-09,61%,39%,0.73,0.69,1,2,14,6,0,2,6,0,17,19,558,348,1,1,3,1,1,1,465,276,,
-16316960,Poland,Ekstraklasa,202,Ekstraklasa,,2026-08-08,Unknown,,35268,Raków Częstochowa,3113,Zagłębie Lubin,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16316968,Poland,Ekstraklasa,202,Ekstraklasa,,2026-08-08,Unknown,,3121,Lech Poznań,7918,Piast Gliwice,0,0,0,0,,,,,D,2026-08-09,57%,43%,0.13,0.11,,,2,3,,,2,0,2,3,102,79,,,0,0,1,0,83,67,,
 16403846,Romania,Superliga,152,Superliga,,2026-08-08,Unknown,,3294,FCV Farul Constanța,283972,FK Csíkszereda Miercurea Ciuc,3,2,0,0,,,,,H,2026-08-09,55%,45%,1.21,0.55,3,2,11,3,0,3,1,3,10,16,591,479,1,5,6,2,2,0,534,404,,
 16403824,Romania,Superliga,152,Superliga,,2026-08-08,Unknown,,3292,FC Dinamo București,44255,FC Voluntari,4,0,0,0,,,,,H,2026-08-09,62%,38%,0.00,0.00,6,0,22,5,2,2,3,3,9,6,549,334,1,2,6,2,1,2,465,244,,
-16403818,Romania,Superliga,152,Superliga,,2026-08-08,Unknown,,25856,FC Petrolul Ploiești,3291,SC Oțelul Galați,0,0,0,0,,,,,D,2026-08-09,32%,68%,0.00,0.00,1,0,1,1,,,,,2,1,49,102,1,0,0,0,1,0,36,87,,
 16361995,Scotland,Scottish Premiership,36,Scottish Premiership,,2026-08-08,Unknown,,2357,Dundee FC,2355,Aberdeen,2,0,0,0,,,,,H,2026-08-09,47%,53%,2.22,0.70,5,1,18,9,3,5,5,4,9,12,362,410,1,3,7,3,0,2,255,290,,
 16362162,Scotland,Scottish Premiership,36,Scottish Premiership,,2026-08-08,Unknown,,2359,St. Mirren,2348,St. Johnstone,1,0,0,0,,,,,H,2026-08-09,52%,48%,1.36,1.13,3,2,13,9,2,3,5,2,11,8,462,413,2,1,4,2,2,1,362,333,,
 16361998,Scotland,Scottish Premiership,36,Scottish Premiership,,2026-08-08,Unknown,,2347,Kilmarnock,2352,Celtic,1,5,0,0,,,,,A,2026-08-09,36%,64%,0.86,5.64,1,10,10,33,11,4,5,7,12,10,370,661,1,0,6,16,1,0,301,601,,
 16362034,Scotland,Scottish Premiership,36,Scottish Premiership,,2026-08-08,Unknown,,2353,Heart of Midlothian,2349,Dundee United,4,0,0,0,,,,,H,2026-08-09,42%,58%,2.12,0.54,4,0,12,10,0,3,7,2,11,11,333,478,1,2,7,0,4,1,255,387,,
 16362010,Scotland,Scottish Premiership,36,Scottish Premiership,,2026-08-08,Unknown,,2346,Motherwell,2363,Falkirk FC,0,0,0,0,,,,,D,2026-08-09,57%,43%,0.89,0.43,2,0,11,10,1,1,2,2,17,16,549,404,2,2,1,1,1,1,463,302,,
 16362002,Scotland,Scottish Premiership,36,Scottish Premiership,,2026-08-08,Unknown,,2351,Rangers,2354,Hibernian,0,1,0,0,,,,,A,2026-08-09,73%,27%,0.95,1.05,2,1,8,3,0,2,3,2,7,5,328,119,1,0,3,1,,,296,84,,
-16362200,Scotland,Championship,206,Championship,,2026-08-08,Unknown,,2366,Arbroath,2362,Inverness Caledonian Thistle,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16362202,Scotland,Championship,206,Championship,,2026-08-08,Unknown,,2350,Dunfermline Athletic,2364,Ayr United,1,1,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16362204,Scotland,Championship,206,Championship,,2026-08-08,Unknown,,2379,Queen's Park FC,2361,Raith Rovers,1,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16362203,Scotland,Championship,206,Championship,,2026-08-08,Unknown,,2370,Stenhousemuir,2374,Greenock Morton,2,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16362413,Scotland,League One,207,League One,,2026-08-08,Unknown,,2367,Airdrieonians,170622,East Kilbride,1,1,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16362408,Scotland,League One,207,League One,,2026-08-08,Unknown,,2382,East Fife,8062,Cove Rangers,2,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16362410,Scotland,League One,207,League One,,2026-08-08,Unknown,,2376,Hamilton Academical,2369,Alloa Athletic,1,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16362409,Scotland,League One,207,League One,,2026-08-08,Unknown,,2368,Queen of The South,2385,Peterhead,0,1,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16362412,Scotland,League One,207,League One,,2026-08-08,Unknown,,2365,Ross County,2386,Montrose,2,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16316898,Slovakia,Niké Liga,211,Niké Liga,,2026-08-08,Unknown,,2398,AS Trenčín,2404,ŠK Slovan Bratislava,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16362202,Scotland,Championship,206,Championship,,2026-08-08,Unknown,,2350,Dunfermline Athletic,2364,Ayr United,1,1,0,0,,,,,D,2026-08-09,62%,38%,1.44,1.32,,,12,6,1,3,12,6,8,7,595,348,1,0,4,2,2,1,498,263,0,0
+16362204,Scotland,Championship,206,Championship,,2026-08-08,Unknown,,2379,Queen's Park FC,2361,Raith Rovers,1,2,0,0,,,,,A,2026-08-09,48%,52%,1.40,1.82,,,9,9,2,4,4,2,14,13,447,460,2,2,5,4,2,3,362,370,0,0
+16362203,Scotland,Championship,206,Championship,,2026-08-08,Unknown,,2370,Stenhousemuir,2374,Greenock Morton,2,0,0,0,,,,,H,2026-08-09,54%,46%,1.32,1.94,,,15,10,2,3,9,4,16,7,337,283,1,1,5,2,1,1,253,209,0,0
 16316905,Slovakia,Niké Liga,211,Niké Liga,,2026-08-08,Unknown,,2402,MŠK Žilina,111061,MFK Skalica,0,1,0,0,,,,,A,2026-08-09,71%,29%,0.00,0.00,2,0,14,5,1,3,6,1,6,7,297,120,0,1,3,2,0,1,261,83,,
-16378711,Slovenia,PrvaLiga,212,PrvaLiga,,2026-08-08,Unknown,,2413,NK Celje,2416,NK Olimpija Ljubljana,1,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16378705,Slovenia,PrvaLiga,212,PrvaLiga,,2026-08-08,Unknown,,2424,NK Aluminij Kidričevo,2430,NK Nafta Lendava 1903,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 15272480,Sweden,Allsvenskan,40,Allsvenskan,,2026-08-08,Unknown,,1783,Mjällby AIF,1762,IF Elfsborg,0,1,0,0,,,,,A,2026-08-09,46%,54%,1.87,3.47,2,2,12,24,7,7,2,5,9,10,453,545,1,0,7,8,0,6,364,476,,
 15272477,Sweden,Allsvenskan,40,Allsvenskan,,2026-08-08,Unknown,,1758,Hammarby IF,1760,BK Häcken,3,0,0,0,,,,,H,2026-08-09,64%,36%,0.00,0.00,4,0,15,2,0,6,12,2,13,17,625,349,1,1,9,0,2,3,552,281,,
 15272479,Sweden,Allsvenskan,40,Allsvenskan,,2026-08-08,Unknown,,1892,Malmö FF,1807,Degerfors IF,1,2,0,0,,,,,A,2026-08-09,74%,26%,0.00,0.00,2,1,16,5,1,3,5,4,17,18,659,227,1,3,4,3,0,5,577,147,,
 15272491,Sweden,Allsvenskan,40,Allsvenskan,,2026-08-08,Unknown,,1767,Halmstads BK,1786,GAIS,0,0,0,0,,,,,D,2026-08-09,38%,62%,0.00,0.00,0,2,9,9,4,4,6,4,6,6,237,398,0,1,4,3,0,1,192,352,,
-15272482,Sweden,Allsvenskan,40,Allsvenskan,,2026-08-08,Unknown,,1761,IFK Göteborg,1891,Kalmar FF,1,1,0,0,,,,,D,2026-08-09,55%,45%,0.00,0.00,0,1,11,5,0,6,12,0,6,9,378,315,1,2,5,1,2,1,325,268,,
 15271291,Sweden,Superettan,46,Superettan,,2026-08-08,Unknown,,1769,IFK Norrköping,1777,IK Brage,3,0,0,0,,,,,H,2026-08-09,53%,47%,1.42,0.94,,,15,6,1,4,6,7,13,11,440,374,0,2,7,1,4,2,369,294,0,0
-15254078,Sweden,Damallsvenskan,214,Damallsvenskan,,2026-08-08,Unknown,,32871,Piteå IF,1889,BK Häcken FF,1,4,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 16357091,Switzerland,Swiss Super League,215,Swiss Super League,,2026-08-08,Unknown,,2448,Servette FC,2449,Grasshopper Club Zürich,2,1,0,0,,,,,H,2026-08-09,53%,47%,2.15,0.97,3,1,17,11,2,7,7,5,11,11,405,358,2,5,9,3,,,319,262,0,1
 16357118,Switzerland,Swiss Super League,215,Swiss Super League,,2026-08-08,Unknown,,2443,FC Lugano,2450,FC Zürich,5,0,0,0,,,,,H,2026-08-09,62%,38%,2.46,0.87,4,3,16,9,1,3,5,2,12,14,559,336,0,3,8,1,2,1,503,289,,
 16412908,Ukraine,Premier League,218,Premier League,,2026-08-08,Unknown,,388209,FC Livyi Bereh Kyiv,316055,Kudrivka,0,0,0,0,,,,,D,2026-08-09,49%,51%,1.14,0.67,,,11,9,4,1,2,4,13,17,391,400,0,4,1,4,3,2,305,311,0,0
 16412911,Ukraine,Premier League,218,Premier League,,2026-08-08,Unknown,,43336,Bukovyna Chernivtsi,138564,Obolon Kyiv,0,0,0,0,,,,,D,2026-08-09,63%,37%,3.27,0.04,,,28,5,0,9,13,1,7,14,446,250,0,2,8,0,1,2,363,173,0,0
-16412909,Ukraine,Premier League,218,Premier League,,2026-08-08,Unknown,,312677,Zoria Luhansk,294048,FC Kryvbas Kryvyi Rih,1,3,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16412910,Ukraine,Premier League,218,Premier League,,2026-08-08,Unknown,,200773,NK Veres Rivne,3305,Dynamo Kyiv,0,1,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16729313,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-08-08,Unknown,,3232,Central Español,3238,Progreso,1,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16729306,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-08-08,Unknown,,6879,Liverpool UY,278204,Albion FC,1,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16728987,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-08-08,Unknown,,174972,Montevideo City Torque,3227,Peñarol,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 15710573,USA,MLS,242,MLS,,2026-08-08,Unknown,,2511,New England Revolution,2508,Houston Dynamo,0,2,0,0,,,,,A,2026-08-09,48%,52%,0.40,0.83,0,1,9,13,5,2,9,4,10,10,494,552,1,1,2,7,0,1,428,494,,
-15285772,USA,USL Championship,13363,USL Championship,,2026-08-08,Unknown,,1158835,Brooklyn FC,310967,Birmingham Legion FC,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 15285773,USA,USL Championship,13363,USL Championship,,2026-08-08,Unknown,,460707,Lexington SC,154018,Phoenix Rising FC,1,0,0,0,,,,,H,2026-08-09,55%,45%,1.96,0.45,2,1,16,12,0,5,7,7,8,11,435,363,1,1,6,0,3,1,381,298,0,1
 15285775,USA,USL Championship,13363,USL Championship,,2026-08-08,Unknown,,310969,Loudoun United FC,22004,Charleston Battery,0,1,0,0,,,,,A,2026-08-09,45%,55%,0.00,0.00,3,1,13,6,1,4,6,5,12,11,403,505,1,2,5,2,1,1,331,440,,
 15285774,USA,USL Championship,13363,USL Championship,,2026-08-08,Unknown,,218106,Miami FC,276898,Las Vegas Lights,0,1,0,0,,,,,A,2026-08-09,47%,53%,1.80,1.36,1,1,16,10,2,5,5,2,17,18,404,461,1,3,6,3,2,1,340,402,,
@@ -7077,81 +6976,189 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,round,rou
 15421142,USA,MLS Next Pro,18641,MLS Next Pro,,2026-08-08,Unknown,,407234,Houston Dynamo 2,197064,Real Monarchs SLC,3,0,0,0,,,,,H,2026-08-09,65%,35%,1.92,1.05,2,2,16,6,3,4,7,2,24,13,581,306,3,0,7,3,2,1,530,256,0,2
 15285535,USA,"USL, League One",13362,"USL, League One",,2026-08-08,Unknown,,197072,Charlotte Independence,312633,Greenville Triumph SC,1,0,0,0,,,,,H,2026-08-09,64%,36%,2.67,1.71,3,2,23,10,1,4,9,2,11,16,482,269,2,7,5,1,1,2,412,200,0,1
 15285534,USA,"USL, League One",13362,"USL, League One",,2026-08-08,Unknown,,312631,Chattanooga Red Wolves SC,338006,Union Omaha SC,1,3,0,0,,,,,A,2026-08-09,25%,75%,0.76,2.52,1,2,4,19,3,0,4,8,10,9,237,754,3,1,1,6,0,2,182,698,1,0
-15285538,USA,"USL, League One",13362,"USL, League One",,2026-08-08,Unknown,,53903,New York Cosmos,502354,Spokane Velocity FC,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 15285539,USA,"USL, League One",13362,"USL, League One",,2026-08-08,Unknown,,1044345,Portland Hearts of Pine,284113,Corpus Christi FC,0,2,0,0,,,,,A,2026-08-09,60%,40%,0.80,1.95,0,2,12,13,4,1,6,6,15,12,395,262,3,4,1,6,0,2,311,184,,
-15285536,USA,"USL, League One",13362,"USL, League One",,2026-08-08,Unknown,,407748,One Knoxville SC,465623,Sarasota Paradise,2,1,0,0,,,,,H,2026-08-09,52%,48%,2.18,2.82,3,4,14,20,2,6,0,14,9,13,362,327,1,1,8,4,,,278,246,,
-15285537,USA,"USL, League One",13362,"USL, League One",,2026-08-08,Unknown,,253417,South Georgia Tormenta FC,1044342,Westchester SC,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 15285533,USA,"USL, League One",13362,"USL, League One",,2026-08-08,Unknown,,1044343,AV Alta FC,341749,Fort Wayne FC,3,0,0,0,,,,,H,2026-08-09,44%,56%,0.00,0.00,3,1,12,22,8,2,3,13,8,13,329,402,2,3,6,9,4,1,266,325,,
 15388545,USA,NWSL,1690,NWSL,,2026-08-08,Unknown,,151012,Washington Spirit,49787,North Carolina Courage,3,4,0,0,,,,,A,2026-08-09,58%,42%,0.00,0.00,4,5,20,9,1,3,7,2,5,17,480,354,1,3,8,5,3,5,395,269,,
 16735758,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-08-08,Unknown,,6233,Monagas,6229,Carabobo FC,1,0,0,0,,,,,H,2026-08-09,42%,58%,0.00,0.00,2,4,10,15,5,2,3,9,17,10,314,441,4,3,3,5,2,2,226,365,,
+15679405,North & Central America,"Leagues Cup, Group Stage",13783,"Leagues Cup, Group Stage",,2026-08-08,Unknown,,22009,Seattle Sounders FC,1951,Querétaro FC,3,0,0,0,,,,,H,2026-08-09,63%,37%,0.00,0.00,3,1,8,8,3,1,2,3,4,10,448,254,1,1,5,3,,,399,207,,
+16280790,Peru,"Liga 1, Clausura",406,"Liga 1, Clausura",,2026-08-08,Unknown,,2308,Melgar,1082002,FC Cajamarca,1,1,0,0,,,,,D,2026-08-09,71%,29%,0.00,0.00,1,2,11,5,1,1,6,2,2,10,223,90,0,2,2,2,1,2,190,62,,
+15421141,USA,MLS Next Pro,18641,MLS Next Pro,,2026-08-08,Unknown,,1166614,Connecticut United,338005,New England Revolution II,1,2,0,0,,,,,A,2026-08-09,49%,51%,1.02,0.94,2,2,8,13,2,1,1,3,8,7,282,291,2,1,2,3,1,4,235,252,,
+15388549,USA,NWSL,1690,NWSL,,2026-08-08,Unknown,,1165118,Boston Legacy FC,151008,Portland Thorns FC,2,4,0,0,,,,,A,2026-08-09,52%,48%,0.00,0.00,0,5,6,9,3,1,4,2,3,7,248,229,0,1,3,7,3,2,195,186,,
+16735762,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-08-08,Unknown,,6235,Trujillanos FC,6231,Deportivo Táchira,1,2,0,0,,,,,A,2026-08-09,36%,64%,0.00,0.00,1,3,7,11,2,3,1,1,7,9,197,361,,,4,4,,,141,313,,
+16735759,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-08-08,Unknown,,6237,Zamora,230725,Academia Puerto Cabello,0,0,0,0,,,,,D,2026-08-09,39%,61%,0.00,0.00,,,4,7,2,3,1,1,8,14,238,359,1,2,3,2,,,184,304,,
+15275806,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-09,Unknown,,34976,Atlético de Rafaela,3214,Club Atlético Chacarita Juniors,1,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,1,1,,,,,,,0,0
+15416274,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-08-09,Unknown,,119072,Deportes Temuco,89508,Deportes Magallanes,3,4,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,0,2,,,,,,,0,0
+16412009,Austria,2. Liga,135,2. Liga,,2026-08-09,Unknown,,6281,SKU Amstetten,2050,Admira Wacker,2,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16728995,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-08-09,Unknown,,3228,Danubio,22011,CA Cerro,0,1,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16273101,Lithuania,TOPLYGA,198,TOPLYGA,,2026-08-09,Unknown,,80741,FK Kauno Žalgiris,171484,FC Hegelmann,2,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15272808,Finland,Veikkausliiga,41,Veikkausliiga,,2026-08-09,Unknown,,2247,Inter Turku,2249,FC Lahti,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15285767,USA,USL Championship,13363,USL Championship,,2026-08-09,Unknown,,197071,FC Tulsa,285642,Detroit City FC,0,1,0,0,,,,,A,2026-08-09,64%,36%,1.42,1.06,0,1,14,5,1,1,6,0,9,15,427,254,2,2,1,2,3,1,329,178,,
+15514318,Estonia,Esiliiga,678,Esiliiga,,2026-08-09,Unknown,,37534,FC Elva,42740,Tartu JK Welco,2,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,1,0,,,,,,,0,0
+15514320,Estonia,Esiliiga,678,Esiliiga,,2026-08-09,Unknown,,37528,Maardu Linnameeskond,44459,Viimsi JK,1,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,1,0,,,,,,,0,1
+15514321,Estonia,Esiliiga,678,Esiliiga,,2026-08-09,Unknown,,7105,Tallinna Kalev,283728,FC Tallinn,1,1,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,0,0,,,,,,,0,0
+16611786,Germany,3. Liga,491,3. Liga,,2026-08-09,Unknown,,5880,FC Ingolstadt 04,23947,FC Würzburger Kickers,2,2,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,2,1,,,,,,,0,0
+16611789,Germany,3. Liga,491,3. Liga,,2026-08-09,Unknown,,53365,FC Viktoria Köln,2567,SSV Jahn Regensburg,2,5,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,2,4,,,,,,,0,0
+16611787,Germany,3. Liga,491,3. Liga,,2026-08-09,Unknown,,2543,MSV Duisburg,5804,SV Meppen,3,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,1,3,,,,,,,0,0
+16611788,Germany,3. Liga,491,3. Liga,,2026-08-09,Unknown,,2597,SV Wehen Wiesbaden,2590,Preußen Münster,1,3,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,4,3,,,,,,,0,0
+16611790,Germany,3. Liga,491,3. Liga,,2026-08-09,Unknown,,7827,TSV Havelse,2522,VfB Stuttgart II U21,2,3,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,3,2,,,,,,,0,0
+15472553,Latvia,Virsliga,197,Virsliga,,2026-08-09,Unknown,,36081,FS Jelgava,5346,FK Auda,0,1,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15472552,Latvia,Virsliga,197,Virsliga,,2026-08-09,Unknown,,282126,SK Super Nova,146336,FK Liepaja,1,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16737097,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-09,Unknown,,53371,Young Boys Frauen,1239478,FC Seasters Odessa,1,3,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,3,1,,,,,,,0,0
+16737096,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-09,Unknown,,333128,HB Køge,191237,Heart of Midlothian WFC,2,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16737099,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-09,Unknown,,363052,SCU Torreense,1208296,Fk Apolonia Fier,5,2,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15272329,Sweden,Superettan,46,Superettan,,2026-08-09,Unknown,,7101,Varbergs BoIS,1844,Sandvikens IF,0,1,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15254075,Sweden,Damallsvenskan,214,Damallsvenskan,,2026-08-09,Unknown,,1878,Djurgårdens IF DFF,258774,IK Uppsala,8,0,0,0,,,,,H,2026-08-09,65%,35%,3.72,1.54,,,23,5,3,3,18,0,1,7,532,304,0,0,10,3,0,0,442,209,0,0
+16412905,Ukraine,Premier League,218,Premier League,,2026-08-09,Unknown,,323552,FC Epicentr Dunaivtsi,3313,Shakhtar Donetsk,0,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16667379,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-08-09,Unknown,,189723,Deportivo Riestra,3206,Estudiantes de La Plata,2,0,0,0,,,,,H,2026-08-09,27%,73%,1.83,0.24,3,0,10,9,1,2,2,0,15,13,233,624,3,4,4,1,,,132,519,,
+15275813,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-09,Unknown,,36834,All Boys,3200,Nueva Chicago,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15275818,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-09,Unknown,,93107,Estudiantes de Buenos Aires,3214,Club Atlético Chacarita Juniors,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15275820,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-09,Unknown,,112499,Temperley,112497,Los Andes,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16617302,Armenia,Fastex Premier League,671,Fastex Premier League,,2026-08-09,Unknown,,423250,FC Syunik,36059,FC Gandzasar,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16636540,Armenia,Fastex Premier League,671,Fastex Premier League,,2026-08-09,Unknown,,5214,Pyunik Yerevan,325779,FC Van,3,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16636908,Armenia,Fastex Premier League,671,Fastex Premier League,,2026-08-09,Unknown,,33817,FC Shirak Gyumri,262228,FC Noah,3,4,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15353084,Chile,Liga de Primera,11653,Liga de Primera,,2026-08-09,Unknown,,3165,Coquimbo Unido,5031,Deportes La Serena,1,1,0,0,,,,,D,2026-08-09,60%,40%,0.00,0.00,1,1,15,6,0,5,12,0,16,9,388,280,2,4,6,1,2,2,269,167,1,1
+15416276,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-08-09,Unknown,,3150,Santiago Wanderers,39219,San Marcos de Arica,1,1,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,2,4,,,,,,,1,1
+15657900,China,Chinese League 1,782,Chinese League 1,,2026-08-09,Unknown,,382020,Wuxi Wugou,221238,Ningbo FC,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16412020,Austria,2. Liga,135,2. Liga,,2026-08-09,Unknown,,7786,Schwarz-Weiß Bregenz,2067,Kapfenberger SV,3,2,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16458940,Bosnia & Herzegovina,WWIN Liga BiH,222,WWIN Liga BiH,,2026-08-09,Unknown,,5239,NK Široki Brijeg,37064,FK Sloga Doboj,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,2,1,,,,,,,0,0
+15617724,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-08-09,Unknown,,49196,Botafogo-PB,1976,Santa Cruz,2,2,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,3,0,,,,,,,0,0
+15617714,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-08-09,Unknown,,135526,Inter de Limeira,6982,Volta Redonda,2,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,0,2,,,,,,,0,0
+16390678,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-08-09,Unknown,,6116,Independiente Santa Fe,6107,Boyacá Chicó FC,2,0,0,0,,,,,H,2026-08-09,57%,43%,0.93,0.79,0,2,8,5,1,2,2,0,8,17,524,398,1,1,3,1,0,3,438,322,,
+16459574,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-08-09,Unknown,,61504,Patriotas Boyacá,89364,Barranquilla FC,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16658515,Costa Rica,"Primera División, Apertura",11535,"Primera División, Apertura",,2026-08-09,Unknown,,391662,CD Escorpiones Belen,6576,Municipal Pérez Zeledón,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,1,2,,,,,,,0,0
+16317808,Costa Rica,"Primera División, Apertura",11535,"Primera División, Apertura",,2026-08-09,Unknown,,7046,Puntarenas FC,6574,Deportivo Saprissa,0,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,4,1,,,,,,,0,0
+16275179,Croatia,HNL,170,HNL,,2026-08-09,Unknown,,2039,HNK Rijeka,2032,GNK Dinamo Zagreb,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16379911,Czech Republic,FNL,205,FNL,,2026-08-09,Unknown,,323652,Baník Ostrava B,24782,FC Silon Táborsko,1,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15432375,Estonia,Premium Liiga,178,Premium Liiga,,2026-08-09,Unknown,,32476,Paide Linnameeskond,247090,Pärnu JK Vaprus,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16226850,Estonia,Esiliiga,678,Esiliiga,,2026-08-09,Unknown,,383797,FC Nõmme United U21,36075,FCI Levadia Tallinn U21,1,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,0,0,,,,,,,0,0
+15272810,Finland,Veikkausliiga,41,Veikkausliiga,,2026-08-09,Unknown,,2244,Kuopion Palloseura,2254,Turun Palloseura,1,1,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15272809,Finland,Veikkausliiga,41,Veikkausliiga,,2026-08-09,Unknown,,22386,Ilves,5058,IFK Mariehamn,2,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15341298,Finland,Ykkosliiga,55,Ykkosliiga,,2026-08-09,Unknown,,5918,HJK Klubi 04,2255,KTP,0,1,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16386171,France,Ligue 2,182,Ligue 2,,2026-08-09,Unknown,,1642,Montpellier,1686,Dijon,1,1,0,0,,,,,D,2026-08-09,56%,44%,0.00,0.00,2,3,27,12,3,4,4,0,20,17,442,357,2,3,6,4,0,2,351,264,,
+15388684,Georgia,Erovnuli Liga,704,Erovnuli Liga,,2026-08-09,Unknown,,116312,FC Iberia 1999,33819,FC Dila Gori,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15388676,Georgia,Erovnuli Liga,704,Erovnuli Liga,,2026-08-09,Unknown,,37305,Meshakhte Tkibuli,44217,FC Samgurali Tskhaltubo,1,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16520497,Germany,3. Liga,491,3. Liga,,2026-08-09,Unknown,,5894,SG Sonnenhof Großaspach,2683,SC Fortuna Köln,1,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,2,2,,,,,,,0,0
+16520494,Germany,3. Liga,491,3. Liga,,2026-08-09,Unknown,,5887,TSG Hoffenheim II U23,2533,FC Hansa Rostock,2,3,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,1,2,,,,,,,0,0
+16520496,Germany,3. Liga,491,3. Liga,,2026-08-09,Unknown,,2554,1. FC Saarbrücken,2562,Rot-Weiss Essen,5,2,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,2,5,,,,,,,0,0
+16384247,Hungary,NB I,187,NB I,,2026-08-09,Unknown,,1923,ETO FC Győr,1925,Ferencváros TC,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16384255,Hungary,NB I,187,NB I,,2026-08-09,Unknown,,1921,Debreceni VSC,5124,Nyiregyháza Spartacus,1,0,0,0,,,,,H,2026-08-09,53%,47%,0.00,0.00,3,0,9,15,2,2,2,5,19,16,356,322,3,3,3,2,1,2,276,235,0,1
+16331697,Japan,J.League 2,402,J.League 2,,2026-08-09,Unknown,,256899,Iwaki FC,79907,FC Imabari,2,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16331696,Japan,J.League 2,402,J.League 2,,2026-08-09,Unknown,,21902,Montedio Yamagata,56419,Tochigi City FC,2,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16331749,Japan,J-League 3,2293,J-League 3,,2026-08-09,Unknown,,38140,Fukushima United FC,38157,Kamatamare Sanuki,1,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16331753,Japan,J-League 3,2293,J-League 3,,2026-08-09,Unknown,,287054,Reilac Shiga FC,21900,FC Gifu,0,3,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16331755,Japan,J-League 3,2293,J-League 3,,2026-08-09,Unknown,,8060,Ehime FC,38148,Nara Club,4,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16331750,Japan,J-League 3,2293,J-League 3,,2026-08-09,Unknown,,26009,Tochigi SC,38138,Zweigen Kanazawa,3,2,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15472554,Latvia,Virsliga,197,Virsliga,,2026-08-09,Unknown,,162368,Riga FC,477400,Ogre United,4,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16273107,Lithuania,TOPLYGA,198,TOPLYGA,,2026-08-09,Unknown,,312564,Šiauliai FA,168446,Džiugas Telšiai,3,4,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16273094,Lithuania,TOPLYGA,198,TOPLYGA,,2026-08-09,Unknown,,35388,FK Banga Gargždai,5343,FK Sūduva Marijampolė,0,3,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16316792,Netherlands,VriendenLoterij Eredivisie,37,VriendenLoterij Eredivisie,,2026-08-09,Unknown,,2952,PSV Eindhoven,2957,Fortuna Sittard,2,2,0,0,,,,,D,2026-08-09,76%,24%,2.56,0.98,5,1,21,8,4,4,9,0,9,6,758,251,1,1,6,6,0,4,670,165,,
+16316767,Netherlands,VriendenLoterij Eredivisie,37,VriendenLoterij Eredivisie,,2026-08-09,Unknown,,2964,SC Heerenveen,2955,FC Twente,1,0,0,0,,,,,H,2026-08-09,46%,54%,0.39,1.78,0,3,7,18,3,3,4,8,7,7,474,533,2,1,4,3,2,2,395,459,,
+16317351,Netherlands,Eerste Divisie,131,Eerste Divisie,,2026-08-09,Unknown,,2976,MVV Maastricht,53067,Jong FC Utrecht,2,1,0,0,,,,,H,2026-08-09,57%,43%,1.27,0.96,3,2,13,16,2,5,3,5,12,12,424,312,1,1,7,3,3,3,333,212,,
+15657489,New Zealand,Southern League,594,Southern League,,2026-08-09,Unknown,,378874,Nelson Suburbs FC,378136,Christchurch United,3,3,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15657490,New Zealand,Southern League,594,Southern League,,2026-08-09,Unknown,,378872,Cashmere Technical,378303,Coastal Spirit,5,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15265851,Norway,1st Division,22,1st Division,,2026-08-09,Unknown,,673,Haugesund,668,Raufoss,7,2,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15265853,Norway,1st Division,22,1st Division,,2026-08-09,Unknown,,929,Sandnes Ulf,680,Hødd IL,3,4,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15265854,Norway,1st Division,22,1st Division,,2026-08-09,Unknown,,665,Sogndal IL,663,Bryne FK,0,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15265856,Norway,1st Division,22,1st Division,,2026-08-09,Unknown,,885,Strømmen IF,708,Ranheim IL,1,4,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15265857,Norway,1st Division,22,1st Division,,2026-08-09,Unknown,,1163,Strømsgodset,920,Egersund,0,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15265858,Norway,1st Division,22,1st Division,,2026-08-09,Unknown,,682,Åsane,672,Kongsvinger,1,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16710511,Africa,"Women's Africa Cup of Nations, Knockout stage",9558,"Women's Africa Cup of Nations, Knockout stage",,2026-08-09,Unknown,,186328,Côte d'Ivoire,180004,Algeria,1,2,0,0,,,,,A,2026-08-09,38%,62%,,,,,,,,,5,2,19,21,,,2,2,5,6,2,0,,,1,0
+16710505,Africa,"Women's Africa Cup of Nations, Knockout stage",9558,"Women's Africa Cup of Nations, Knockout stage",,2026-08-09,Unknown,,261908,Morocco,65336,South Africa,2,1,0,0,,,,,H,2026-08-09,48%,52%,,,,,,,,,1,2,16,16,,,1,2,2,2,0,6,,,0,0
+16737098,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-09,Unknown,,168058,KFF Vllaznia,36709,Apollon Limassol,1,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,0,4,,,,,,,0,0
+16737110,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-09,Unknown,,743,SK Brann Kvinner,37187,PAOK,3,2,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16737105,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-09,Unknown,,229911,FK Austria Wien,530774,FCV Farul Constanța,5,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16737106,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-09,Unknown,,118936,SKN St. Pölten,262989,Sporting CP,5,2,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,2,2,,,,,,,0,0
+16737108,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-09,Unknown,,108685,Eintracht Frankfurt,502806,Malmo FF,2,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,0,0,,,,,,,0,0
+16737107,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-09,Unknown,,178262,PSV Eindhoven,38132,HJK Helsinki,3,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,0,2,,,,,,,0,0
+16737109,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-09,Unknown,,178246,Oud-Heverlee Leuven,404349,Fenerbahçe İstanbul,5,3,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,5,0,,,,,,,0,0
+16737103,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-09,Unknown,,178260,Ajax,191232,Rangers LFC,2,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,1,2,,,,,,,0,0
+16737101,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-09,Unknown,,38331,SK Slavia Praha,1368,Brøndby IF,4,6,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16737104,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-09,Unknown,,284974,Spartak Myjava,230007,Czarni Sosnowiec,2,4,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,2,1,,,,,,,0,0
+16737102,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-09,Unknown,,269824,Juventus,1884,Hammarby IF,3,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16280793,Peru,"Liga 1, Clausura",406,"Liga 1, Clausura",,2026-08-09,Unknown,,2312,Sport Boys,2311,Alianza Lima,1,1,0,0,,,,,D,2026-08-09,37%,63%,0.57,0.79,1,1,6,9,1,1,0,4,14,9,263,450,2,1,2,2,2,1,194,370,,
+16316961,Poland,Ekstraklasa,202,Ekstraklasa,,2026-08-09,Unknown,,3112,GKS Katowice,334956,Wieczysta Kraków,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16316959,Poland,Ekstraklasa,202,Ekstraklasa,,2026-08-09,Unknown,,5065,MKS Korona Kielce,3106,Legia Warszawa,1,1,0,0,,,,,D,2026-08-09,61%,39%,0.73,0.69,1,2,14,6,0,2,6,0,17,19,558,348,1,1,3,1,1,1,465,276,,
+16316960,Poland,Ekstraklasa,202,Ekstraklasa,,2026-08-09,Unknown,,35268,Raków Częstochowa,3113,Zagłębie Lubin,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16316968,Poland,Ekstraklasa,202,Ekstraklasa,,2026-08-09,Unknown,,3121,Lech Poznań,7918,Piast Gliwice,3,0,0,0,,,,,H,2026-08-09,47%,53%,3.12,1.06,7,1,19,12,3,4,6,3,17,16,392,450,1,2,7,3,1,1,313,377,,
+16362200,Scotland,Championship,206,Championship,,2026-08-09,Unknown,,2366,Arbroath,2362,Inverness Caledonian Thistle,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16362413,Scotland,League One,207,League One,,2026-08-09,Unknown,,2367,Airdrieonians,170622,East Kilbride,1,1,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16362408,Scotland,League One,207,League One,,2026-08-09,Unknown,,2382,East Fife,8062,Cove Rangers,2,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16362410,Scotland,League One,207,League One,,2026-08-09,Unknown,,2376,Hamilton Academical,2369,Alloa Athletic,1,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16362409,Scotland,League One,207,League One,,2026-08-09,Unknown,,2368,Queen of The South,2385,Peterhead,0,1,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16362412,Scotland,League One,207,League One,,2026-08-09,Unknown,,2365,Ross County,2386,Montrose,2,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16316898,Slovakia,Niké Liga,211,Niké Liga,,2026-08-09,Unknown,,2398,AS Trenčín,2404,ŠK Slovan Bratislava,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16378711,Slovenia,PrvaLiga,212,PrvaLiga,,2026-08-09,Unknown,,2413,NK Celje,2416,NK Olimpija Ljubljana,1,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16378705,Slovenia,PrvaLiga,212,PrvaLiga,,2026-08-09,Unknown,,2424,NK Aluminij Kidričevo,2430,NK Nafta Lendava 1903,1,1,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15272482,Sweden,Allsvenskan,40,Allsvenskan,,2026-08-09,Unknown,,1761,IFK Göteborg,1891,Kalmar FF,3,2,0,0,,,,,H,2026-08-09,52%,48%,0.00,0.00,1,1,20,9,1,5,13,1,6,16,504,469,1,2,7,3,2,1,428,394,,
+15254078,Sweden,Damallsvenskan,214,Damallsvenskan,,2026-08-09,Unknown,,32871,Piteå IF,1889,BK Häcken FF,1,4,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16412909,Ukraine,Premier League,218,Premier League,,2026-08-09,Unknown,,312677,Zoria Luhansk,294048,FC Kryvbas Kryvyi Rih,1,3,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16412910,Ukraine,Premier League,218,Premier League,,2026-08-09,Unknown,,200773,NK Veres Rivne,3305,Dynamo Kyiv,1,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16729313,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-08-09,Unknown,,3232,Central Español,3238,Progreso,1,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16729306,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-08-09,Unknown,,6879,Liverpool UY,278204,Albion FC,1,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16728987,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-08-09,Unknown,,174972,Montevideo City Torque,3227,Peñarol,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15285772,USA,USL Championship,13363,USL Championship,,2026-08-09,Unknown,,1158835,Brooklyn FC,310967,Birmingham Legion FC,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15285538,USA,"USL, League One",13362,"USL, League One",,2026-08-09,Unknown,,53903,New York Cosmos,502354,Spokane Velocity FC,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15285536,USA,"USL, League One",13362,"USL, League One",,2026-08-09,Unknown,,407748,One Knoxville SC,465623,Sarasota Paradise,2,1,0,0,,,,,H,2026-08-09,52%,48%,2.18,2.82,3,4,14,20,2,6,0,14,9,13,362,327,1,1,8,4,,,278,246,,
+15285537,USA,"USL, League One",13362,"USL, League One",,2026-08-09,Unknown,,253417,South Georgia Tormenta FC,1044342,Westchester SC,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 15657476,New Zealand,Northern League,594,Northern League,,2026-08-09,Unknown,,1079629,Auckland FC Reserves,288024,East Coast Bays,2,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16667373,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-08-09,Unknown,,3201,San Lorenzo,7629,Huracán,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16667377,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-08-09,Unknown,,36839,Defensa y Justicia,3212,Newell's Old Boys,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16671558,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-08-09,Unknown,,3205,Gimnasia y Esgrima,65668,Barracas Central,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16667377,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-08-09,Unknown,,36839,Defensa y Justicia,3212,Newell's Old Boys,1,0,0,0,,,,,H,2026-08-09,54%,46%,0.90,0.38,1,1,6,7,2,2,0,4,6,5,143,112,0,2,3,2,2,0,110,79,0,1
+16671558,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-08-09,Unknown,,3205,Gimnasia y Esgrima,65668,Barracas Central,0,0,0,0,,,,,D,2026-08-09,59%,41%,0.22,0.06,,,3,5,2,0,0,1,1,7,232,160,1,1,0,2,2,1,183,113,,
 16667383,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-08-09,Unknown,,3216,Argentinos Juniors,3215,Racing Club,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15275809,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-09,Unknown,,53799,Atlanta,112499,Temperley,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15275799,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-09,Unknown,,112497,Los Andes,36841,Club Ferro Carril Oeste,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15275812,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-09,Unknown,,112493,Colegiales,43741,Patronato,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15275797,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-09,Unknown,,93109,Deportivo Morón,112491,Acassuso,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15275796,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-09,Unknown,,3207,Club Atletico Colón,213361,San Telmo,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15275802,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-09,Unknown,,255425,CA Mitre,52215,Defensores de Belgrano,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15275795,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-09,Unknown,,273657,Racing de Córdoba,264945,San Miguel,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15275798,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-09,Unknown,,6074,Godoy Cruz,252726,Chaco For Ever,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15275809,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-09,Unknown,,53799,Atlanta,112499,Temperley,1,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,4,4,,,,,,,0,0
+15275799,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-09,Unknown,,112497,Los Andes,36841,Club Ferro Carril Oeste,1,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,1,3,,,,,,,0,0
+15275812,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-09,Unknown,,112493,Colegiales,43741,Patronato,2,2,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,2,1,,,,,,,0,0
+15275797,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-09,Unknown,,93109,Deportivo Morón,112491,Acassuso,4,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,2,5,,,,,,,0,1
+15275796,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-09,Unknown,,3207,Club Atletico Colón,213361,San Telmo,1,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,2,6,,,,,,,0,0
+15275802,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-09,Unknown,,255425,CA Mitre,52215,Defensores de Belgrano,2,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,5,3,,,,,,,0,0
+15275795,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-09,Unknown,,273657,Racing de Córdoba,264945,San Miguel,1,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,1,1,,,,,,,0,0
+15275798,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-09,Unknown,,6074,Godoy Cruz,252726,Chaco For Ever,2,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 15275811,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-09,Unknown,,4936,Quilmes Atlético Club,4938,Almagro,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15275808,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-09,Unknown,,222126,Gimnasia y Tiro de Salta,3200,Nueva Chicago,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15275808,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-09,Unknown,,222126,Gimnasia y Tiro de Salta,3200,Nueva Chicago,1,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 15275807,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-09,Unknown,,23950,San Martín de Tucumán,7772,San Martín de San Juan,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15353090,Chile,Liga de Primera,11653,Liga de Primera,,2026-08-09,Unknown,,3160,Deportes Concepción,5034,Universidad de Concepción,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15353087,Chile,Liga de Primera,11653,Liga de Primera,,2026-08-09,Unknown,,3163,O'Higgins,331131,Deportes Limache,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15353090,Chile,Liga de Primera,11653,Liga de Primera,,2026-08-09,Unknown,,3160,Deportes Concepción,5034,Universidad de Concepción,1,0,0,0,,,,,H,2026-08-09,38%,62%,0.00,0.00,1,1,8,11,4,1,4,3,13,14,283,475,4,5,2,4,,,209,391,1,0
+15353087,Chile,Liga de Primera,11653,Liga de Primera,,2026-08-09,Unknown,,3163,O'Higgins,331131,Deportes Limache,1,3,0,0,,,,,A,2026-08-09,67%,33%,0.00,0.00,0,3,20,14,4,7,9,9,11,13,473,226,4,2,8,7,2,1,396,159,,
 15353086,Chile,Liga de Primera,11653,Liga de Primera,,2026-08-09,Unknown,,48242,Unión La Calera,3155,Colo-Colo,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 15353083,Chile,Liga de Primera,11653,Liga de Primera,,2026-08-09,Unknown,,3161,Universidad de Chile,3157,Palestino,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15416273,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-08-09,Unknown,,89506,Deportes Copiapó,39220,San Luis de Quillota,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15416275,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-08-09,Unknown,,3154,Rangers de Talca,33595,Curicó Unido,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16392090,Austria,Austrian Bundesliga,45,Austrian Bundesliga,,2026-08-09,Unknown,,2203,FK Austria Wien,2058,LASK,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16361877,Belgium,Pro League,38,Pro League,,2026-08-09,Unknown,,2900,RSC Anderlecht,368506,RAAL La Louvière,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16361878,Belgium,Pro League,38,Pro League,,2026-08-09,Unknown,,2889,Royal Antwerp FC,4859,SK Beveren,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16390198,Bolivia,División Profesional,16736,División Profesional,,2026-08-09,Unknown,,505268,GV San José,268083,Club Always Ready,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16390196,Bolivia,División Profesional,16736,División Profesional,,2026-08-09,Unknown,,7060,Real Potosí,6968,Blooming,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15416273,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-08-09,Unknown,,89506,Deportes Copiapó,39220,San Luis de Quillota,1,1,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,2,3,,,,,,,0,0
+15416275,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-08-09,Unknown,,3154,Rangers de Talca,33595,Curicó Unido,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,2,4,,,,,,,0,1
+16361877,Belgium,Pro League,38,Pro League,,2026-08-09,Unknown,,2900,RSC Anderlecht,368506,RAAL La Louvière,2,1,0,0,,,,,H,2026-08-09,74%,26%,3.05,0.74,4,2,32,5,1,5,10,1,12,12,686,239,2,3,7,2,0,2,605,158,0,1
+16361878,Belgium,Pro League,38,Pro League,,2026-08-09,Unknown,,2889,Royal Antwerp FC,4859,SK Beveren,2,1,0,0,,,,,H,2026-08-09,50%,50%,2.20,0.96,3,1,19,11,3,5,5,3,15,7,475,481,2,4,7,4,1,1,379,376,,
+16390198,Bolivia,División Profesional,16736,División Profesional,,2026-08-09,Unknown,,505268,GV San José,268083,Club Always Ready,2,3,0,0,,,,,A,2026-08-09,30%,70%,0.00,0.00,0,3,7,19,4,1,6,4,16,10,175,418,3,2,3,7,7,1,114,366,,
+16390196,Bolivia,División Profesional,16736,División Profesional,,2026-08-09,Unknown,,7060,Real Potosí,6968,Blooming,0,0,0,0,,,,,D,2026-08-09,65%,35%,0.00,0.00,,,1,0,0,2,1,0,1,1,43,24,,,1,0,,,33,16,,
 16390199,Bolivia,División Profesional,16736,División Profesional,,2026-08-09,Unknown,,33820,Oriente Petrolero,268082,Club FC Universitario,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16458941,Bosnia & Herzegovina,WWIN Liga BiH,222,WWIN Liga BiH,,2026-08-09,Unknown,,5235,FK Borac Banja Luka,6151,FK Velež Mostar,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16458939,Bosnia & Herzegovina,WWIN Liga BiH,222,WWIN Liga BiH,,2026-08-09,Unknown,,5178,HŠK Zrinjski Mostar,6146,NK Čelik Zenica,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15235420,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-08-09,Unknown,,1955,Bahia,1974,Vasco da Gama,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15235469,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-08-09,Unknown,,1963,Palmeiras,1966,Internacional,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16458941,Bosnia & Herzegovina,WWIN Liga BiH,222,WWIN Liga BiH,,2026-08-09,Unknown,,5235,FK Borac Banja Luka,6151,FK Velež Mostar,3,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,0,3,,,,,,,0,0
+16458939,Bosnia & Herzegovina,WWIN Liga BiH,222,WWIN Liga BiH,,2026-08-09,Unknown,,5178,HŠK Zrinjski Mostar,6146,NK Čelik Zenica,2,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,1,0,,,,,,,0,0
 15235407,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-08-09,Unknown,,1999,Red Bull Bragantino,1957,Corinthians,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 15235464,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-08-09,Unknown,,1968,Santos,1967,Athletico,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 15235460,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-08-09,Unknown,,5981,Flamengo,1962,Vitória,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15526209,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-08-09,Unknown,,135514,Grêmio Novorizontino,1980,Juventude,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15526215,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-08-09,Unknown,,2011,Náutico,7314,Atlético Goianiense,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15526216,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-08-09,Unknown,,49202,Cuiabá,2020,Fortaleza,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15617719,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-08-09,Unknown,,135324,Maringá FC,336664,Amazonas FC,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15617720,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-08-09,Unknown,,32766,Ypiranga FC,274286,Floresta,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15526216,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-08-09,Unknown,,49202,Cuiabá,2020,Fortaleza,1,0,0,0,,,,,H,2026-08-09,39%,61%,0.66,0.08,1,0,3,3,,,0,1,1,1,121,194,0,1,1,0,,,98,178,,
+15617719,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-08-09,Unknown,,135324,Maringá FC,336664,Amazonas FC,0,3,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,2,3,,,,,,,0,0
+15617720,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-08-09,Unknown,,32766,Ypiranga FC,274286,Floresta,4,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,2,4,,,,,,,0,0
 15617716,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-08-09,Unknown,,21853,AO Itabaiana,2000,Caxias,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 15617717,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-08-09,Unknown,,21858,Maranhão AC,21884,Brusque,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16295801,Bulgaria,Parva Liga,247,Parva Liga,,2026-08-09,Unknown,,3280,Cherno More Varna,43840,Ludogorets,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16295882,Bulgaria,Parva Liga,247,Parva Liga,,2026-08-09,Unknown,,201203,FK Septemvri Sofia,3275,CSKA Sofia,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16390682,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-08-09,Unknown,,504899,Alianza Valledupar FC,6103,Atlético Bucaramanga,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16295801,Bulgaria,Parva Liga,247,Parva Liga,,2026-08-09,Unknown,,3280,Cherno More Varna,43840,Ludogorets,2,3,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16295882,Bulgaria,Parva Liga,247,Parva Liga,,2026-08-09,Unknown,,201203,FK Septemvri Sofia,3275,CSKA Sofia,0,3,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16390682,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-08-09,Unknown,,504899,Alianza Valledupar FC,6103,Atlético Bucaramanga,0,1,0,0,,,,,A,2026-08-09,41%,59%,0.06,0.18,,,3,1,,,,,2,4,90,132,,,0,1,,,76,116,,
 16390680,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-08-09,Unknown,,89370,Jaguares de Córdoba,6118,Once Caldas,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 16390677,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-08-09,Unknown,,6102,América de Cali,6106,Atlético Nacional,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 16459580,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-08-09,Unknown,,89366,Boca Juniors de Cali,89376,Unión Magdalena,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16317812,Costa Rica,"Primera División, Apertura",11535,"Primera División, Apertura",,2026-08-09,Unknown,,531301,Inter San Carlos,7047,San Carlos,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16317812,Costa Rica,"Primera División, Apertura",11535,"Primera División, Apertura",,2026-08-09,Unknown,,531301,Inter San Carlos,7047,San Carlos,1,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 16317810,Costa Rica,"Primera División, Apertura",11535,"Primera División, Apertura",,2026-08-09,Unknown,,6575,Municipal Liberia,6576,Municipal Pérez Zeledón,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 16317807,Costa Rica,"Primera División, Apertura",11535,"Primera División, Apertura",,2026-08-09,Unknown,,7045,Herediano,6572,LD Alajuelense,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16275178,Croatia,HNL,170,HNL,,2026-08-09,Unknown,,2042,NK Slaven Belupo,231380,NK Varaždin,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16275177,Croatia,HNL,170,HNL,,2026-08-09,Unknown,,2036,HNK Hajduk Split,25529,NK Istra 1961,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16453912,Czech Republic,Czech First League,172,Czech First League,,2026-08-09,Unknown,,35264,SK Artis Brno,2207,SK Sigma Olomouc,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16278674,Denmark,Danish Superliga,39,Danish Superliga,,2026-08-09,Unknown,,1297,AC Horsens,1281,Brøndby IF,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15502643,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-08-09,Unknown,,213638,Delfín,277525,Orense SC,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16275177,Croatia,HNL,170,HNL,,2026-08-09,Unknown,,2036,HNK Hajduk Split,25529,NK Istra 1961,2,2,0,0,,,,,D,2026-08-09,61%,39%,1.67,0.94,1,2,17,7,0,6,6,5,15,17,528,322,2,2,8,2,1,2,462,264,,
+16453912,Czech Republic,Czech First League,172,Czech First League,,2026-08-09,Unknown,,35264,SK Artis Brno,2207,SK Sigma Olomouc,1,2,0,0,,,,,A,2026-08-09,27%,73%,1.40,0.83,3,0,6,15,5,0,2,5,7,14,239,676,0,2,1,7,5,2,174,606,,
+16278674,Denmark,Danish Superliga,39,Danish Superliga,,2026-08-09,Unknown,,1297,AC Horsens,1281,Brøndby IF,0,2,0,0,,,,,A,2026-08-09,52%,48%,0.45,0.68,0,2,10,9,1,3,3,6,18,9,461,421,2,2,3,2,3,2,386,345,,
+15502643,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-08-09,Unknown,,213638,Delfín,277525,Orense SC,1,0,0,0,,,,,H,2026-08-09,45%,55%,0.00,0.00,0,1,3,3,1,0,1,0,3,2,72,89,,,1,1,,,46,71,,
 15502637,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-08-09,Unknown,,188850,Guayaquil City,5255,Emelec,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 15432377,Estonia,Premium Liiga,178,Premium Liiga,,2026-08-09,Unknown,,138566,Tartu JK Tammeka,3346,Flora Tallinn,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15432378,Estonia,Premium Liiga,178,Premium Liiga,,2026-08-09,Unknown,,3342,FCI Levadia Tallinn,37572,FC Nõmme United,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15272807,Finland,Veikkausliiga,41,Veikkausliiga,,2026-08-09,Unknown,,5114,AC Oulu,2242,HJK,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15388680,Georgia,Erovnuli Liga,704,Erovnuli Liga,,2026-08-09,Unknown,,307794,FC Spaeri,5171,Dinamo Tbilisi,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16520500,Germany,3. Liga,491,3. Liga,,2026-08-09,Unknown,,2546,Alemannia Aachen,2593,SC Verl,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15442524,Iceland,Iceland 1. deild,675,Iceland 1. deild,,2026-08-09,Unknown,,5372,IF Völsungur,7121,HK Kópavogur,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15238139,Ireland,Premier Division,192,Premier Division,,2026-08-09,Unknown,,3174,Shelbourne,3169,St. Patrick's Athletic,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15260865,Norway,Eliteserien,20,Eliteserien,,2026-08-09,Unknown,,957,Kristiansund BK,661,Molde FK,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16710512,Africa,"Women's Africa Cup of Nations, Knockout stage",9558,"Women's Africa Cup of Nations, Knockout stage",,2026-08-09,Unknown,,69218,Cameroon,7420,Nigeria,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16710506,Africa,"Women's Africa Cup of Nations, Knockout stage",9558,"Women's Africa Cup of Nations, Knockout stage",,2026-08-09,Unknown,,298498,Malawi,7417,Ghana,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15679405,North & Central America,"Leagues Cup, Group Stage",13783,"Leagues Cup, Group Stage",,2026-08-09,Unknown,,22009,Seattle Sounders FC,1951,Querétaro FC,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15432378,Estonia,Premium Liiga,178,Premium Liiga,,2026-08-09,Unknown,,3342,FCI Levadia Tallinn,37572,FC Nõmme United,5,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15272807,Finland,Veikkausliiga,41,Veikkausliiga,,2026-08-09,Unknown,,5114,AC Oulu,2242,HJK,0,1,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15388680,Georgia,Erovnuli Liga,704,Erovnuli Liga,,2026-08-09,Unknown,,307794,FC Spaeri,5171,Dinamo Tbilisi,1,2,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16520500,Germany,3. Liga,491,3. Liga,,2026-08-09,Unknown,,2546,Alemannia Aachen,2593,SC Verl,4,1,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,0,2,,,,,,,0,0
+15442524,Iceland,Iceland 1. deild,675,Iceland 1. deild,,2026-08-09,Unknown,,5372,IF Völsungur,7121,HK Kópavogur,3,2,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,2,3,,,,,,,0,0
+15238139,Ireland,Premier Division,192,Premier Division,,2026-08-09,Unknown,,3174,Shelbourne,3169,St. Patrick's Athletic,1,2,0,0,,,,,A,2026-08-09,60%,40%,1.12,3.15,2,5,15,11,1,2,5,5,8,11,506,342,4,4,3,3,2,3,420,257,1,0
+16710512,Africa,"Women's Africa Cup of Nations, Knockout stage",9558,"Women's Africa Cup of Nations, Knockout stage",,2026-08-09,Unknown,,69218,Cameroon,7420,Nigeria,1,0,0,0,,,,,H,2026-08-09,40%,60%,,,,,,,,,2,5,17,18,,,2,1,3,9,1,0,,,0,0
+16710506,Africa,"Women's Africa Cup of Nations, Knockout stage",9558,"Women's Africa Cup of Nations, Knockout stage",,2026-08-09,Unknown,,298498,Malawi,7417,Ghana,1,1,0,0,,,,,D,2026-08-09,47%,53%,,,,,,,,,2,2,13,7,,,0,2,3,1,2,2,,,0,0
 15679400,North & Central America,"Leagues Cup, Group Stage",13783,"Leagues Cup, Group Stage",,2026-08-09,Unknown,,39833,Philadelphia Union,1944,Club Necaxa,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 15679392,North & Central America,"Leagues Cup, Group Stage",13783,"Leagues Cup, Group Stage",,2026-08-09,Unknown,,1947,Cruz Azul,187643,New York City FC,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 15679417,North & Central America,"Leagues Cup, Group Stage",13783,"Leagues Cup, Group Stage",,2026-08-09,Unknown,,2505,Chicago Fire,1948,Santos Laguna,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -7159,25 +7166,18 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,round,rou
 15679419,North & Central America,"Leagues Cup, Group Stage",13783,"Leagues Cup, Group Stage",,2026-08-09,Unknown,,377973,Austin FC,1941,Club Puebla,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 15679416,North & Central America,"Leagues Cup, Group Stage",13783,"Leagues Cup, Group Stage",,2026-08-09,Unknown,,1043961,San Diego FC,36525,Club Tijuana,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 15679422,North & Central America,"Leagues Cup, Group Stage",13783,"Leagues Cup, Group Stage",,2026-08-09,Unknown,,1939,Club América,22007,Portland Timbers,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16588795,Paraguay,"Primera División, Clausura",11541,"Primera División, Clausura",,2026-08-09,Unknown,,90972,Sportivo San Lorenzo,5998,Sportivo Luqueño,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16588789,Paraguay,"Primera División, Clausura",11541,"Primera División, Clausura",,2026-08-09,Unknown,,33001,Nacional Asunción,5994,Guaraní,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16280782,Peru,"Liga 1, Clausura",406,"Liga 1, Clausura",,2026-08-09,Unknown,,458584,Deportivo Garcilaso,492848,CD Moquegua,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16280790,Peru,"Liga 1, Clausura",406,"Liga 1, Clausura",,2026-08-09,Unknown,,2308,Melgar,1082002,FC Cajamarca,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16316966,Poland,Ekstraklasa,202,Ekstraklasa,,2026-08-09,Unknown,,7691,Jagiellonia Białystok,3115,Widzew Łódź,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16403847,Romania,Superliga,152,Superliga,,2026-08-09,Unknown,,116223,Universitatea Craiova,116221,FC Argeș Pitești,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16588789,Paraguay,"Primera División, Clausura",11541,"Primera División, Clausura",,2026-08-09,Unknown,,33001,Nacional Asunción,5994,Guaraní,0,0,0,0,,,,,D,2026-08-09,48%,52%,0.00,0.00,,,1,0,,,,,1,1,13,14,,,0,0,,,7,10,,
+16280782,Peru,"Liga 1, Clausura",406,"Liga 1, Clausura",,2026-08-09,Unknown,,458584,Deportivo Garcilaso,492848,CD Moquegua,2,0,0,0,,,,,H,2026-08-09,46%,54%,0.00,0.00,1,0,10,9,1,1,5,4,15,10,343,405,0,3,3,1,2,1,275,349,,
+16403847,Romania,Superliga,152,Superliga,,2026-08-09,Unknown,,116223,Universitatea Craiova,116221,FC Argeș Pitești,0,1,0,0,,,,,A,2026-08-09,80%,20%,0.00,0.00,3,0,27,11,0,4,12,1,12,9,614,162,3,3,4,1,1,2,518,75,,
 16316904,Slovakia,Niké Liga,211,Niké Liga,,2026-08-09,Unknown,,168476,FC Košice,23833,DAC 1904,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16378708,Slovenia,PrvaLiga,212,PrvaLiga,,2026-08-09,Unknown,,261800,NK Bravo,274937,Brinje Grosuplje,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16378702,Slovenia,PrvaLiga,212,PrvaLiga,,2026-08-09,Unknown,,2420,NK Maribor,2417,FC Koper,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16378708,Slovenia,PrvaLiga,212,PrvaLiga,,2026-08-09,Unknown,,261800,NK Bravo,274937,Brinje Grosuplje,1,1,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16378702,Slovenia,PrvaLiga,212,PrvaLiga,,2026-08-09,Unknown,,2420,NK Maribor,2417,FC Koper,2,0,0,0,,,,,H,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 16412904,Ukraine,Premier League,218,Premier League,,2026-08-09,Unknown,,258536,Polissya Zhytomyr,266889,FC Kharkiv,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16729000,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-08-09,Unknown,,3229,Defensor Sporting,3240,Montevideo Wanderers,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16729000,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-08-09,Unknown,,3229,Defensor Sporting,3240,Montevideo Wanderers,0,1,0,0,,,,,A,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 16729001,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-08-09,Unknown,,3230,Nacional,174970,Boston River,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15285784,USA,USL Championship,13363,USL Championship,,2026-08-09,Unknown,,148992,Indy Eleven,310968,Hartford Athletic,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15421141,USA,MLS Next Pro,18641,MLS Next Pro,,2026-08-09,Unknown,,1166614,Connecticut United,338005,New England Revolution II,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+15285784,USA,USL Championship,13363,USL Championship,,2026-08-09,Unknown,,148992,Indy Eleven,310968,Hartford Athletic,1,0,0,0,,,,,H,2026-08-09,52%,48%,0.00,0.00,,,2,5,,,0,1,3,4,91,88,1,0,1,0,0,2,68,62,,
 15421145,USA,MLS Next Pro,18641,MLS Next Pro,,2026-08-09,Unknown,,467301,Austin FC II,212570,Sporting Kansas City II,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-15388549,USA,NWSL,1690,NWSL,,2026-08-09,Unknown,,1165118,Boston Legacy FC,151008,Portland Thorns FC,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 15388548,USA,NWSL,1690,NWSL,,2026-08-09,Unknown,,34714,Chicago Stars FC,505655,Bay FC,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
 15388552,USA,NWSL,1690,NWSL,,2026-08-09,Unknown,,151010,Seattle Reign FC,408169,Angel City FC,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16738047,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-08-09,Unknown,,418693,Anzoátegui FC,6234,Portuguesa FC,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16735762,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-08-09,Unknown,,6235,Trujillanos FC,6231,Deportivo Táchira,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
-16735759,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-08-09,Unknown,,6237,Zamora,230725,Academia Puerto Cabello,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
+16738047,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-08-09,Unknown,,418693,Anzoátegui FC,6234,Portuguesa FC,3,4,0,0,,,,,A,2026-08-09,42%,58%,0.00,0.00,0,4,19,12,2,3,2,5,7,10,295,419,3,2,6,6,2,1,253,349,,
 16735760,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-08-09,Unknown,,162480,Metropolitanos,249952,Universidad Central,0,0,0,0,,,,,D,2026-08-09,,,,,,,,,,,,,,,,,,,,,,,,,,
