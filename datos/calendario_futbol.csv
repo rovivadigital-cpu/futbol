@@ -1,6 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16746795,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-08-12,03:30,Unknown,20,466742,Brindabella Blues FC,91576,Tuggeranong United,,,notstarted,1786523400,2026-08-09
-16654878,Asia,"AFC Challenge League, Preliminary Stage",22795,"AFC Challenge League, Preliminary Stage",,2026-08-12,05:00,Unknown,300,373629,Maziya SC,86348,Regar-TadAZ,,,notstarted,1786528800,2026-08-12
 16434430,Asia,"AFC Champions League Two, Qualification",668,"AFC Champions League Two, Qualification",,2026-08-12,07:00,Unknown,300,64289,Persib Bandung,512469,Manila Digger FC,,,notstarted,1786536000,2026-08-09
 16434429,Asia,"AFC Champions League Two, Qualification",668,"AFC Champions League Two, Qualification",,2026-08-12,08:30,Unknown,300,40655,East Bengal FC,35892,Al Arabi SC Kuwait,,,notstarted,1786541400,2026-08-09
 16434428,Asia,"AFC Champions League Two, Qualification",668,"AFC Champions League Two, Qualification",,2026-08-12,10:00,Unknown,300,469420,Arkadag FK,174594,FC Goa,,,notstarted,1786546800,2026-08-10
@@ -178,7 +176,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15526218,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-08-14,17:30,Unknown,22,1969,Ponte Preta,2011,Náutico,,,notstarted,1786746600,2026-08-12
 15526219,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-08-14,17:30,Unknown,22,47504,São Bernardo,1979,Botafogo-SP,,,notstarted,1786746600,2026-08-12
 15353095,Chile,Liga de Primera,11653,Liga de Primera,,2026-08-14,18:00,Unknown,19,5034,Universidad de Concepción,5031,Deportes La Serena,,,notstarted,1786748400,2026-08-12
-16390685,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-08-14,18:00,Unknown,5,89374,Llaneros FC,6111,Deportes Tolima,,,postponed,1786748400,2026-08-12
+16390685,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-08-14,18:00,Unknown,5,89374,Llaneros FC,6111,Deportes Tolima,,,notstarted,1786748400,2026-08-12
 16280796,Peru,"Liga 1, Clausura",406,"Liga 1, Clausura",,2026-08-14,18:00,Unknown,5,63760,Cusco FC,511206,CD Juan Pablo II,,,notstarted,1786748400,2026-08-12
 15421148,USA,MLS Next Pro,18641,MLS Next Pro,,2026-08-14,18:00,Unknown,1,407234,Houston Dynamo 2,153490,Ventura County FC,,,notstarted,1786748400,2026-08-12
 15421146,USA,MLS Next Pro,18641,MLS Next Pro,,2026-08-14,18:00,Unknown,1,217784,Toronto FC II,153486,Chattanooga FC,,,notstarted,1786748400,2026-08-12
