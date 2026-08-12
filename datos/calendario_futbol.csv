@@ -1,18 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16434430,Asia,"AFC Champions League Two, Qualification",668,"AFC Champions League Two, Qualification",,2026-08-12,07:00,Unknown,300,64289,Persib Bandung,512469,Manila Digger FC,,,notstarted,1786536000,2026-08-09
-16434429,Asia,"AFC Champions League Two, Qualification",668,"AFC Champions League Two, Qualification",,2026-08-12,08:30,Unknown,300,40655,East Bengal FC,35892,Al Arabi SC Kuwait,,,notstarted,1786541400,2026-08-09
-16434428,Asia,"AFC Champions League Two, Qualification",668,"AFC Champions League Two, Qualification",,2026-08-12,10:00,Unknown,300,469420,Arkadag FK,174594,FC Goa,,,notstarted,1786546800,2026-08-10
-16585849,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-08-12,11:00,Unknown,3,1284,FC København,1921,Debreceni VSC,,,notstarted,1786550400,2026-08-10
-16585844,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-08-12,11:00,Unknown,3,3112,GKS Katowice,5396,Hapoel Tel Aviv,,,notstarted,1786550400,2026-08-10
-16585850,Europe,"UEFA Conference League, Qualification",17015,"UEFA Conference League, Qualification",,2026-08-12,11:00,Unknown,3,2055,SK Rapid Wien,32476,Paide Linnameeskond,,,notstarted,1786550400,2026-08-10
-16710507,Africa,"Women's Africa Cup of Nations, Knockout stage",9558,"Women's Africa Cup of Nations, Knockout stage",,2026-08-12,12:00,Unknown,28,180004,Algeria,298498,Malawi,,,notstarted,1786554000,2026-08-10
-16671418,South Africa,Premiership,358,Premiership,,2026-08-12,12:30,Unknown,2,7655,AmaZulu FC,7668,Orlando Pirates,,,notstarted,1786555800,2026-08-10
-16671399,South Africa,Premiership,358,Premiership,,2026-08-12,12:30,Unknown,2,829159,Durban City FC,7664,Lamontville Golden Arrows,,,notstarted,1786555800,2026-08-10
-16671404,South Africa,Premiership,358,Premiership,,2026-08-12,12:30,Unknown,2,7663,Kaizer Chiefs,371341,Sekhukhune United,,,notstarted,1786555800,2026-08-10
-16671411,South Africa,Premiership,358,Premiership,,2026-08-12,12:30,Unknown,2,215399,Milford FC,1113108,Siwelele FC,,,notstarted,1786555800,2026-08-10
-15416283,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-08-12,14:00,Unknown,20,89508,Deportes Magallanes,3159,CD Cobreloa,,,notstarted,1786561200,2026-08-10
-16260286,Europe,UEFA Super Cup,465,UEFA Super Cup,,2026-08-12,14:00,Unknown,29,1644,Paris Saint-Germain,40,Aston Villa,,,notstarted,1786561200,2026-08-10
-16710508,Africa,"Women's Africa Cup of Nations, Knockout stage",9558,"Women's Africa Cup of Nations, Knockout stage",,2026-08-12,15:00,Unknown,28,261908,Morocco,69218,Cameroon,,,notstarted,1786564800,2026-08-10
 15416284,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-08-12,17:00,Unknown,20,284309,Deportes Recoleta,3154,Rangers de Talca,,,notstarted,1786572000,2026-08-10
 16253168,South America,"CONMEBOL Libertadores, Knockout stage",384,"CONMEBOL Libertadores, Knockout stage",,2026-08-12,17:00,Unknown,5,36837,Club Atlético Platense,3165,Coquimbo Unido,,,notstarted,1786572000,2026-08-10
 16253170,South America,"CONMEBOL Libertadores, Knockout stage",384,"CONMEBOL Libertadores, Knockout stage",,2026-08-12,17:00,Unknown,5,1963,Palmeiras,5991,Cerro Porteño,,,notstarted,1786572000,2026-08-10
@@ -196,7 +182,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15640288,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-08-15,00:00,Unknown,21,466742,Brindabella Blues FC,91572,Tigers FC,,,notstarted,1786770000,2026-08-12
 15640289,Australia,Capital NPL 1,1260,Capital NPL 1,,2026-08-15,00:00,Unknown,21,408162,O'Connor Knights,1085648,Canberra White Eagles FC,,,notstarted,1786770000,2026-08-12
 15368270,Australia,NSW NPL 1,1274,NSW NPL 1,,2026-08-15,00:00,Unknown,28,253150,Western Sydney Wanderers Academy Youth,138216,St George Saints FC,,,notstarted,1786770000,2026-08-12
-15657494,New Zealand,Northern League,594,Northern League,,2026-08-15,01:30,Unknown,20,1079630,Fencibles United FC,381039,Auckland United FC,,,notstarted,1786775400,2026-08-12
+15657494,New Zealand,Northern League,594,Northern League,,2026-08-15,01:30,Unknown,20,1079630,Fencibles United FC,381039,Auckland United FC,,,postponed,1786775400,2026-08-12
 15657495,New Zealand,Northern League,594,Northern League,,2026-08-15,01:30,Unknown,20,381989,Manukau United FC,381038,Western Springs AFC,,,notstarted,1786775400,2026-08-12
 15368272,Australia,NSW NPL 1,1274,NSW NPL 1,,2026-08-15,02:00,Unknown,28,92208,Manly United,413852,North West Sydney Spirit,,,notstarted,1786777200,2026-08-12
 15368271,Australia,NSW NPL 1,1274,NSW NPL 1,,2026-08-15,02:00,Unknown,28,2938,Sydney Olympic,2939,Sydney United 58,,,notstarted,1786777200,2026-08-12
