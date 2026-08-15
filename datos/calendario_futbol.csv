@@ -2,7 +2,6 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16691005,Armenia,Fastex Premier League,671,Fastex Premier League,,2026-08-15,07:00,Unknown,14,325779,FC Van,262229,FC Ararat-Armenia,,,postponed,1786795200,2026-08-14
 15388685,Georgia,Erovnuli Liga,704,Erovnuli Liga,,2026-08-15,08:00,Unknown,21,36865,FC Gagra,307794,FC Spaeri,,,postponed,1786798800,2026-08-12
 15254083,Sweden,Damallsvenskan,214,Damallsvenskan,,2026-08-15,08:00,Unknown,14,1884,Hammarby IF,32871,Piteå IF,,,postponed,1786798800,2026-08-15
-16454755,Netherlands,Tweede Divisie,11402,Tweede Divisie,,2026-08-15,08:15,Unknown,1,34729,Amsterdamsche FC,2988,VV Kloetinge,,,notstarted,1786799700,2026-08-12
 16454758,Netherlands,Tweede Divisie,11402,Tweede Divisie,,2026-08-15,08:30,Unknown,1,390131,Almere City U21,6490,Rijnsburgse Boys,,,notstarted,1786800600,2026-08-12
 16391136,England,Championship,18,Championship,,2026-08-15,09:00,Unknown,1,58,Bristol City,25,Millwall,,,notstarted,1786802400,2026-08-13
 16391137,England,Championship,18,Championship,,2026-08-15,09:00,Unknown,1,47,Charlton Athletic,27,Derby County,,,notstarted,1786802400,2026-08-13
@@ -282,7 +281,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15341308,Finland,Ykkosliiga,55,Ykkosliiga,,2026-08-16,09:00,Unknown,19,5115,MP,22372,EIF,,,notstarted,1786888800,2026-08-14
 16767554,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-08-16,09:00,Unknown,2,3238,Progreso,3234,Deportivo Maldonado,,,notstarted,1786888800,2026-08-14
 16439326,United Arab Emirates,Pro League,971,Pro League,,2026-08-16,09:10,Unknown,1,227791,Hatta,8090,Al-Jazira,,,notstarted,1786889400,2026-08-14
-16691012,Armenia,Fastex Premier League,671,Fastex Premier League,,2026-08-16,09:30,Unknown,3,1108829,Sardarapat FC,5214,Pyunik Yerevan,,,notstarted,1786890600,2026-08-14
+16691012,Armenia,Fastex Premier League,671,Fastex Premier League,,2026-08-16,09:30,Unknown,3,1108829,Sardarapat FC,5214,Pyunik Yerevan,,,postponed,1786890600,2026-08-15
 16672720,Germany,3. Liga,491,3. Liga,,2026-08-16,09:30,Unknown,2,2567,SSV Jahn Regensburg,2554,1. FC Saarbrücken,,,notstarted,1786890600,2026-08-14
 16384257,Hungary,NB I,187,NB I,,2026-08-16,09:30,Unknown,4,1921,Debreceni VSC,1923,ETO FC Győr,,,notstarted,1786890600,2026-08-14
 15272490,Sweden,Allsvenskan,40,Allsvenskan,,2026-08-16,09:30,Unknown,17,1786,GAIS,1892,Malmö FF,,,notstarted,1786890600,2026-08-14
