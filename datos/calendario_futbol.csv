@@ -1,125 +1,12 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16361885,Belgium,Pro League,38,Pro League,,2026-08-16,09:00,Unknown,2,368506,RAAL La Louvière,2903,KAA Gent,,,notstarted,1786888800,2026-08-14
-16380091,Belgium,Challenger Pro League,9,Challenger Pro League,,2026-08-16,09:00,Unknown,1,169260,K. Beerschot V.A.,76451,KAA Gent Reserve U23,,,notstarted,1786888800,2026-08-14
-15235427,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-08-16,09:00,Unknown,23,21845,Chapecoense,1955,Bahia,,,notstarted,1786888800,2026-08-14
-15526221,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-08-16,09:00,Unknown,22,39634,Operário-PR,7315,Avaí,,,notstarted,1786888800,2026-08-14
-16278680,Denmark,Danish Superliga,39,Danish Superliga,,2026-08-16,09:00,Unknown,4,1756,Lyngby,1289,FC Midtjylland,,,notstarted,1786888800,2026-08-14
-15432381,Estonia,Premium Liiga,178,Premium Liiga,,2026-08-16,09:00,Unknown,23,3343,Narva Trans,32476,Paide Linnameeskond,,,notstarted,1786888800,2026-08-14
-15432380,Estonia,Premium Liiga,178,Premium Liiga,,2026-08-16,09:00,Unknown,23,8091,Nõmme Kalju,247090,Pärnu JK Vaprus,,,notstarted,1786888800,2026-08-14
-15272814,Finland,Veikkausliiga,41,Veikkausliiga,,2026-08-16,09:00,Unknown,,5114,AC Oulu,2247,Inter Turku,,,notstarted,1786888800,2026-08-14
-15272813,Finland,Veikkausliiga,41,Veikkausliiga,,2026-08-16,09:00,Unknown,,2249,FC Lahti,2244,Kuopion Palloseura,,,notstarted,1786888800,2026-08-14
-15341308,Finland,Ykkosliiga,55,Ykkosliiga,,2026-08-16,09:00,Unknown,19,5115,MP,22372,EIF,,,notstarted,1786888800,2026-08-14
-16767554,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-08-16,09:00,Unknown,2,3238,Progreso,3234,Deportivo Maldonado,,,notstarted,1786888800,2026-08-14
-16439326,United Arab Emirates,Pro League,971,Pro League,,2026-08-16,09:10,Unknown,1,227791,Hatta,8090,Al-Jazira,,,notstarted,1786889400,2026-08-14
-16691012,Armenia,Fastex Premier League,671,Fastex Premier League,,2026-08-16,09:30,Unknown,3,1108829,Sardarapat FC,5214,Pyunik Yerevan,,,postponed,1786890600,2026-08-15
-16672720,Germany,3. Liga,491,3. Liga,,2026-08-16,09:30,Unknown,2,2567,SSV Jahn Regensburg,2554,1. FC Saarbrücken,,,notstarted,1786890600,2026-08-14
-16384257,Hungary,NB I,187,NB I,,2026-08-16,09:30,Unknown,4,1921,Debreceni VSC,1923,ETO FC Győr,,,notstarted,1786890600,2026-08-14
-15272490,Sweden,Allsvenskan,40,Allsvenskan,,2026-08-16,09:30,Unknown,17,1786,GAIS,1892,Malmö FF,,,notstarted,1786890600,2026-08-14
-15271350,Sweden,Allsvenskan,40,Allsvenskan,,2026-08-16,09:30,Unknown,17,1891,Kalmar FF,1758,Hammarby IF,,,notstarted,1786890600,2026-08-14
-16843785,Armenia,Fastex Premier League,671,Fastex Premier League,,2026-08-16,09:30,Unknown,3,5214,Pyunik Yerevan,1108829,Sardarapat FC,,,notstarted,1786890600,2026-08-16
-16316781,Netherlands,VriendenLoterij Eredivisie,37,VriendenLoterij Eredivisie,,2026-08-16,09:45,Unknown,2,2953,AFC Ajax,2964,SC Heerenveen,,,notstarted,1786891500,2026-08-14
-16391144,England,Championship,18,Championship,,2026-08-16,10:00,Unknown,1,6,Burnley,37,West Ham United,,,notstarted,1786892400,2026-08-14
-16421061,Spain,LaLiga,8,LaLiga,,2026-08-16,10:00,Unknown,1,2835,Real Racing Club,2819,Villarreal,,,notstarted,1786892400,2026-08-14
-16418267,Spain,LaLiga 2,54,LaLiga 2,,2026-08-16,10:00,Unknown,1,2839,Eibar,2822,CD Tenerife,,,notstarted,1786892400,2026-08-14
-16392102,Austria,Austrian Bundesliga,45,Austrian Bundesliga,,2026-08-16,10:00,Unknown,3,2075,TSV Hartberg,2203,FK Austria Wien,,,notstarted,1786892400,2026-08-14
-16392086,Austria,Austrian Bundesliga,45,Austrian Bundesliga,,2026-08-16,10:00,Unknown,3,5405,WSG Tirol,2046,Red Bull Salzburg,,,notstarted,1786892400,2026-08-14
-16458943,Bosnia & Herzegovina,WWIN Liga BiH,222,WWIN Liga BiH,,2026-08-16,10:00,Unknown,2,37161,FK BSK Banja Luka,6151,FK Velež Mostar,,,notstarted,1786892400,2026-08-14
-16453922,Czech Republic,Czech First League,172,Czech First League,,2026-08-16,10:00,Unknown,4,6064,Bohemians Praha 1905,2205,FK Jablonec,,,postponed,1786892400,2026-08-14
-16453923,Czech Republic,Czech First League,172,Czech First League,,2026-08-16,10:00,Unknown,4,2210,FC Zbrojovka Brno,2217,FC Hradec Králové,,,postponed,1786892400,2026-08-14
-15388683,Georgia,Erovnuli Liga,704,Erovnuli Liga,,2026-08-16,10:00,Unknown,21,33819,FC Dila Gori,37305,Meshakhte Tkibuli,,,notstarted,1786892400,2026-08-14
-15260878,Norway,Eliteserien,20,Eliteserien,,2026-08-16,10:00,Unknown,18,661,Molde FK,660,Tromsø IL,,,notstarted,1786892400,2026-08-14
-15260875,Norway,Eliteserien,20,Eliteserien,,2026-08-16,10:00,Unknown,18,1159,SK Brann,666,HamKam,,,notstarted,1786892400,2026-08-14
-15260881,Norway,Eliteserien,20,Eliteserien,,2026-08-16,10:00,Unknown,18,822,Sarpsborg 08,676,Sandefjord Fotball,,,notstarted,1786892400,2026-08-14
-15265860,Norway,1st Division,22,1st Division,,2026-08-16,10:00,Unknown,18,920,Egersund,1162,Stabæk Fotball,,,notstarted,1786892400,2026-08-14
-15265861,Norway,1st Division,22,1st Division,,2026-08-16,10:00,Unknown,18,680,Hødd IL,885,Strømmen IF,,,notstarted,1786892400,2026-08-14
-15265862,Norway,1st Division,22,1st Division,,2026-08-16,10:00,Unknown,18,672,Kongsvinger,673,Haugesund,,,notstarted,1786892400,2026-08-14
-15265865,Norway,1st Division,22,1st Division,,2026-08-16,10:00,Unknown,18,668,Raufoss,682,Åsane,,,notstarted,1786892400,2026-08-14
-15265866,Norway,1st Division,22,1st Division,,2026-08-16,10:00,Unknown,18,665,Sogndal IL,929,Sandnes Ulf,,,notstarted,1786892400,2026-08-14
-16316907,Slovakia,Niké Liga,211,Niké Liga,,2026-08-16,10:00,Unknown,4,2406,FC Spartak Trnava,7885,MFK Zemplín Michalovce,,,notstarted,1786892400,2026-08-14
-16412919,Ukraine,Premier League,218,Premier League,,2026-08-16,10:00,Unknown,3,3305,Dynamo Kyiv,200776,Kolos Kovalivka,,,notstarted,1786892400,2026-08-14
-16384254,Hungary,NB I,187,NB I,,2026-08-16,10:30,Unknown,4,25596,Puskás Akadémia,6059,Paksi FC,,,notstarted,1786894200,2026-08-14
-16316971,Poland,Ekstraklasa,202,Ekstraklasa,,2026-08-16,10:30,Unknown,4,4901,KS Cracovia,35268,Raków Częstochowa,,,notstarted,1786894200,2026-08-14
-16403854,Romania,Superliga,152,Superliga,,2026-08-16,10:30,Unknown,5,3291,SC Oțelul Galați,116223,Universitatea Craiova,,,notstarted,1786894200,2026-08-14
-16378709,Slovenia,PrvaLiga,212,PrvaLiga,,2026-08-16,10:30,Unknown,5,37737,Kalcer Radomlje,2424,NK Aluminij Kidričevo,,,notstarted,1786894200,2026-08-14
-16671424,South Africa,Premiership,358,Premiership,,2026-08-16,10:30,Unknown,3,295408,TS Galaxy,7664,Lamontville Golden Arrows,,,notstarted,1786894200,2026-08-14
-16273104,Lithuania,TOPLYGA,198,TOPLYGA,,2026-08-16,10:45,Unknown,27,80741,FK Kauno Žalgiris,411452,FK Transinvest,,,notstarted,1786895100,2026-08-14
-16295806,Bulgaria,Parva Liga,247,Parva Liga,,2026-08-16,11:00,Unknown,5,3275,CSKA Sofia,36938,Botev Vratsa,,,notstarted,1786896000,2026-08-14
-15502856,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-08-16,11:00,Unknown,1,1165894,FC Supra Du Quebec,342076,Atlético Ottawa,,,notstarted,1786896000,2026-08-14
-16278693,Denmark,Danish Superliga,39,Danish Superliga,,2026-08-16,11:00,Unknown,4,1301,Randers FC,1284,FC København,,,notstarted,1786896000,2026-08-14
-15432383,Estonia,Premium Liiga,178,Premium Liiga,,2026-08-16,11:00,Unknown,23,3346,Flora Tallinn,7106,FC Kuressaare,,,notstarted,1786896000,2026-08-14
-15432382,Estonia,Premium Liiga,178,Premium Liiga,,2026-08-16,11:00,Unknown,23,197994,Harju Jalgpallikool,3342,FCI Levadia Tallinn,,,notstarted,1786896000,2026-08-14
-16280806,Peru,"Liga 1, Clausura",406,"Liga 1, Clausura",,2026-08-16,11:00,Unknown,5,2302,Club Sporting Cristal,33895,Sport Huancayo,,,notstarted,1786896000,2026-08-14
-16378716,Slovenia,PrvaLiga,212,PrvaLiga,,2026-08-16,11:00,Unknown,5,274937,Brinje Grosuplje,213357,NŠ Mura,,,notstarted,1786896000,2026-08-14
-16483707,Turkey,Trendyol Süper Lig,52,Trendyol Süper Lig,,2026-08-16,11:00,Unknown,1,3086,Başakşehir FK,3065,Kocaelispor,,,notstarted,1786896000,2026-08-14
-15353097,Chile,Liga de Primera,11653,Liga de Primera,,2026-08-16,11:30,Unknown,19,7029,Ñublense,48242,Unión La Calera,,,notstarted,1786897800,2026-08-14
-15416292,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-08-16,11:30,Unknown,21,3150,Santiago Wanderers,3158,Deportes Puerto Montt,,,notstarted,1786897800,2026-08-14
-16361886,Belgium,Pro League,38,Pro League,,2026-08-16,11:30,Unknown,2,5044,KV Mechelen,2901,Standard Liège,,,notstarted,1786897800,2026-08-14
-16275181,Croatia,HNL,170,HNL,,2026-08-16,11:30,Unknown,3,231380,NK Varaždin,2039,HNK Rijeka,,,notstarted,1786897800,2026-08-14
-16273103,Lithuania,TOPLYGA,198,TOPLYGA,,2026-08-16,11:30,Unknown,27,5345,FK Žalgiris,35388,FK Banga Gargždai,,,notstarted,1786897800,2026-08-14
-16439187,United Arab Emirates,Pro League,971,Pro League,,2026-08-16,11:45,Unknown,1,58689,Baniyas,37082,Al-Ain,,,notstarted,1786898700,2026-08-14
-16421053,Spain,LaLiga,8,LaLiga,,2026-08-16,12:00,Unknown,1,2814,Espanyol,2849,Levante UD,,,notstarted,1786899600,2026-08-14
-16418266,Spain,LaLiga 2,54,LaLiga 2,,2026-08-16,12:00,Unknown,1,2854,Burgos Club de Fútbol,2850,Córdoba,,,notstarted,1786899600,2026-08-14
-16418268,Spain,LaLiga 2,54,LaLiga 2,,2026-08-16,12:00,Unknown,1,24264,Girona FC,2845,Leganés,,,notstarted,1786899600,2026-08-14
-16392092,Austria,Austrian Bundesliga,45,Austrian Bundesliga,,2026-08-16,12:00,Unknown,3,2055,SK Rapid Wien,2052,Grazer AK 1902,,,notstarted,1786899600,2026-08-14
-15388695,Georgia,Erovnuli Liga,704,Erovnuli Liga,,2026-08-16,12:00,Unknown,21,44217,FC Samgurali Tskhaltubo,37297,Dinamo Batumi,,,notstarted,1786899600,2026-08-14
-16316908,Slovakia,Niké Liga,211,Niké Liga,,2026-08-16,12:00,Unknown,4,189813,KFC Komárno,23833,DAC 1904,,,notstarted,1786899600,2026-08-14
-16361887,Belgium,Pro League,38,Pro League,,2026-08-16,12:15,Unknown,2,5046,Lommel SK,2898,RC Sporting Charleroi,,,notstarted,1786900500,2026-08-14
-15260870,Norway,Eliteserien,20,Eliteserien,,2026-08-16,12:15,Unknown,18,687,Fredrikstad FK,957,Kristiansund BK,,,notstarted,1786900500,2026-08-14
-16672723,Germany,3. Liga,491,3. Liga,,2026-08-16,12:30,Unknown,2,2522,VfB Stuttgart II U21,53365,FC Viktoria Köln,,,notstarted,1786901400,2026-08-14
-16667391,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-08-16,13:00,Unknown,5,42338,Sarmiento,7629,Huracán,,,notstarted,1786903200,2026-08-14
-15275822,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-16,13:00,Unknown,25,93513,Tristán Suárez,43740,Almirante Brown,,,notstarted,1786903200,2026-08-14
-16453925,Czech Republic,Czech First League,172,Czech First League,,2026-08-16,13:00,Unknown,4,2219,FC Slovan Liberec,2216,SK Slavia Praha,,,notstarted,1786903200,2026-08-14
-16767552,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-08-16,13:00,Unknown,2,3229,Defensor Sporting,6879,Liverpool UY,,,notstarted,1786903200,2026-08-14
-16295792,Bulgaria,Parva Liga,247,Parva Liga,,2026-08-16,13:15,Unknown,5,3272,Lokomotiv Plovdiv,3286,FK Dunav Ruse,,,notstarted,1786904100,2026-08-14
-16281134,Peru,"Liga 1, Clausura",406,"Liga 1, Clausura",,2026-08-16,13:15,Unknown,5,492848,CD Moquegua,2312,Sport Boys,,,notstarted,1786904100,2026-08-14
-16316977,Poland,Ekstraklasa,202,Ekstraklasa,,2026-08-16,13:15,Unknown,4,3110,Górnik Zabrze,3111,Wisła Kraków,,,notstarted,1786904100,2026-08-14
-16378714,Slovenia,PrvaLiga,212,PrvaLiga,,2026-08-16,13:15,Unknown,5,2417,FC Koper,261800,NK Bravo,,,notstarted,1786904100,2026-08-14
-16403849,Romania,Superliga,152,Superliga,,2026-08-16,13:30,Unknown,5,148278,FC Corvinul Hunedoara,5287,CFR 1907 Cluj,,,notstarted,1786905000,2026-08-14
-16483634,Turkey,Trendyol Süper Lig,52,Trendyol Süper Lig,,2026-08-16,13:30,Unknown,1,207011,Amed Sportif Faaliyetler,55603,Erzurumspor FK,,,notstarted,1786905000,2026-08-14
-16483640,Turkey,Trendyol Süper Lig,52,Trendyol Süper Lig,,2026-08-16,13:30,Unknown,1,3050,Beşiktaş JK,7040,Eyüpspor,,,notstarted,1786905000,2026-08-14
-15275816,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-16,14:00,Unknown,25,5292,Gimnasia Y Esgrima De Jujuy,252726,Chaco For Ever,,,notstarted,1786906800,2026-08-14
-15353092,Chile,Liga de Primera,11653,Liga de Primera,,2026-08-16,14:00,Unknown,19,3167,Cobresal,3160,Deportes Concepción,,,notstarted,1786906800,2026-08-14
-15416293,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-08-16,14:00,Unknown,21,3152,Unión San Felipe,3159,CD Cobreloa,,,notstarted,1786906800,2026-08-14
-16739319,Bolivia,División Profesional,16736,División Profesional,,2026-08-16,14:00,Unknown,15,268083,Club Always Ready,7060,Real Potosí,,,notstarted,1786906800,2026-08-14
-16458946,Bosnia & Herzegovina,WWIN Liga BiH,222,WWIN Liga BiH,,2026-08-16,14:00,Unknown,2,6149,FK Radnik Bijeljina,5178,HŠK Zrinjski Mostar,,,notstarted,1786906800,2026-08-14
-15235431,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-08-16,14:00,Unknown,23,1977,Atlético Mineiro,5926,Grêmio,,,notstarted,1786906800,2026-08-14
-15235421,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-08-16,14:00,Unknown,23,1974,Vasco da Gama,1968,Santos,,,notstarted,1786906800,2026-08-14
-15617730,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-08-16,14:00,Unknown,17,2000,Caxias,1985,Figueirense,,,notstarted,1786906800,2026-08-14
-15617734,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-08-16,14:00,Unknown,17,274286,Floresta,21872,Anápolis FC,,,notstarted,1786906800,2026-08-14
-16461232,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-08-16,14:00,Unknown,5,484422,Real Cundinamarca,89358,Real Santander,,,postponed,1786906800,2026-08-14
-16275183,Croatia,HNL,170,HNL,,2026-08-16,14:00,Unknown,3,43917,HNK Gorica,2036,HNK Hajduk Split,,,notstarted,1786906800,2026-08-14
-15502650,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-08-16,14:00,Unknown,25,277525,Orense SC,5251,Deportivo Cuenca,,,notstarted,1786906800,2026-08-14
-16710509,Africa,"Women's Africa Cup of Nations, Knockout stage",9558,"Women's Africa Cup of Nations, Knockout stage",,2026-08-16,14:00,Unknown,29,69218,Cameroon,298498,Malawi,,,notstarted,1786906800,2026-08-14
-16588802,Paraguay,"Primera División, Clausura",11541,"Primera División, Clausura",,2026-08-16,14:00,Unknown,5,5998,Sportivo Luqueño,5996,Libertad,,,notstarted,1786906800,2026-08-14
-16421057,Spain,LaLiga,8,LaLiga,,2026-08-16,14:30,Unknown,1,2821,Celta Vigo,2820,Osasuna,,,postponed,1786908600,2026-08-14
-16418274,Spain,LaLiga 2,54,LaLiga 2,,2026-08-16,14:30,Unknown,1,6577,UD Las Palmas,2848,Albacete Balompié,,,notstarted,1786908600,2026-08-14
-15275826,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-16,15:00,Unknown,25,255426,Central Norte de Salta,222126,Gimnasia y Tiro de Salta,,,notstarted,1786910400,2026-08-14
-15275819,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-16,15:00,Unknown,25,273657,Racing de Córdoba,7772,San Martín de San Juan,,,notstarted,1786910400,2026-08-14
-15502857,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-08-16,15:00,Unknown,1,309890,Inter Toronto,309892,HFX Wanderers FC,,,notstarted,1786910400,2026-08-14
 16459589,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-08-16,15:00,Unknown,5,6114,Envigado FC,39866,Internacional de Palmira,,,postponed,1786910400,2026-08-14
 16773218,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-08-16,15:00,Unknown,5,418693,Anzoátegui FC,6235,Trujillanos FC,,,postponed,1786910400,2026-08-16
 16773220,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-08-16,15:00,Unknown,5,386310,Deportivo Rayo Zuliano,36437,Deportivo La Guaira,,,postponed,1786910400,2026-08-16
 16773221,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-08-16,15:00,Unknown,5,162480,Metropolitanos,6231,Deportivo Táchira,,,postponed,1786910400,2026-08-15
 16773223,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-08-16,15:00,Unknown,5,6233,Monagas,6234,Portuguesa FC,,,postponed,1786910400,2026-08-16
 16773219,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-08-16,15:00,Unknown,5,6237,Zamora,249952,Universidad Central,,,postponed,1786910400,2026-08-14
-16281124,Peru,"Liga 1, Clausura",406,"Liga 1, Clausura",,2026-08-16,15:30,Unknown,5,1082002,FC Cajamarca,2305,Universitario de Deportes,,,notstarted,1786912200,2026-08-14
-16667390,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-08-16,16:00,Unknown,5,3211,River Plate,3216,Argentinos Juniors,,,notstarted,1786914000,2026-08-14
-15275815,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-16,16:00,Unknown,25,23950,San Martín de Tucumán,222120,Deportivo Madryn,,,notstarted,1786914000,2026-08-14
-16703870,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-16,16:00,Unknown,25,112499,Temperley,112497,Los Andes,,,notstarted,1786914000,2026-08-14
 16390688,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-08-16,16:00,Unknown,5,6109,Deportivo Pereira,89370,Jaguares de Córdoba,,,postponed,1786914000,2026-08-14
 16317797,Costa Rica,"Primera División, Apertura",11535,"Primera División, Apertura",,2026-08-16,16:00,Unknown,4,262906,Sporting FC,6575,Municipal Liberia,,,canceled,1786914000,2026-08-14
-16795959,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-08-16,16:00,Unknown,4,6231,Deportivo Táchira,6233,Monagas,,,notstarted,1786914000,2026-08-14
-16739316,Bolivia,División Profesional,16736,División Profesional,,2026-08-16,16:15,Unknown,15,47700,Nacional Potosí,423188,Academia de Balompié Boliviano,,,notstarted,1786914900,2026-08-14
-15502648,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-08-16,16:15,Unknown,25,5255,Emelec,21941,Técnico Universitario,,,notstarted,1786914900,2026-08-14
-15353093,Chile,Liga de Primera,11653,Liga de Primera,,2026-08-16,16:30,Unknown,19,3155,Colo-Colo,3163,O'Higgins,,,notstarted,1786915800,2026-08-14
-15235426,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-08-16,16:30,Unknown,23,21982,Mirassol,5981,Flamengo,,,notstarted,1786915800,2026-08-14
-15235443,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-08-16,16:30,Unknown,23,1962,Vitória,1958,Botafogo,,,notstarted,1786915800,2026-08-14
-15526220,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-08-16,16:30,Unknown,22,1973,América Mineiro,342775,Athletic Club,,,notstarted,1786915800,2026-08-14
-15526226,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-08-16,16:30,Unknown,22,22032,Clube De Regatas Brasil,135514,Grêmio Novorizontino,,,notstarted,1786915800,2026-08-14
-15617728,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-08-16,16:30,Unknown,17,257673,Barra FC,21853,AO Itabaiana,,,notstarted,1786915800,2026-08-14
-15617727,Brazil,Brasileirão Série C,1281,Brasileirão Série C,,2026-08-16,16:30,Unknown,17,2017,Confiança,135324,Maringá FC,,,notstarted,1786915800,2026-08-14
-16588800,Paraguay,"Primera División, Clausura",11541,"Primera División, Clausura",,2026-08-16,16:30,Unknown,5,5997,Olimpia,323510,Sportivo Ameliano,,,notstarted,1786915800,2026-08-14
-16767553,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-08-16,16:30,Unknown,2,3227,Peñarol,3232,Central Español,,,notstarted,1786915800,2026-08-14
 16459591,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-08-16,17:00,Unknown,5,89376,Unión Magdalena,89362,Leones FC,,,postponed,1786917600,2026-08-14
 16317793,Costa Rica,"Primera División, Apertura",11535,"Primera División, Apertura",,2026-08-16,17:00,Unknown,4,6576,Municipal Pérez Zeledón,531301,Inter San Carlos,,,notstarted,1786917600,2026-08-14
 15171649,USA,MLS,242,MLS,,2026-08-16,17:00,Unknown,,2505,Chicago Fire,22007,Portland Timbers,,,notstarted,1786917600,2026-08-14
