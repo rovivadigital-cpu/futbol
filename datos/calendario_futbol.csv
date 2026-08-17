@@ -47,6 +47,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15416290,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-08-17,19:30,Unknown,21,119072,Deportes Temuco,284309,Deportes Recoleta,,,notstarted,1787013000,2026-08-15
 16459590,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-08-17,19:30,Unknown,5,89364,Barranquilla FC,6110,Deportes Quindío,,,notstarted,1787013000,2026-08-15
 16604065,Costa Rica,"Primera División, Apertura",11535,"Primera División, Apertura",,2026-08-17,21:00,Unknown,4,262906,Sporting FC,391662,CD Escorpiones Belen,,,notstarted,1787018400,2026-08-15
+16851672,China,Chinese Super League,649,Chinese Super League,,2026-08-18,06:35,Unknown,18,3373,Shanghai Shenhua,3376,Beijing Guoan,,,notstarted,1787052900,2026-08-17
 15421162,USA,MLS Next Pro,18641,MLS Next Pro,,2026-08-18,10:00,Unknown,1,277127,Atlanta United 2,411363,Chicago Fire FC II,,,notstarted,1787065200,2026-08-16
 16707704,Europe,"UEFA Champions League, Playoff Round",7,"UEFA Champions League, Playoff Round",,2026-08-18,14:00,Unknown,636,3052,Fenerbahçe,1649,Olympique Lyonnais,,,notstarted,1787079600,2026-08-16
 16707702,Europe,"UEFA Champions League, Playoff Round",7,"UEFA Champions League, Playoff Round",,2026-08-18,14:00,Unknown,636,2032,GNK Dinamo Zagreb,1164,Viking FK,,,notstarted,1787079600,2026-08-16
@@ -64,6 +65,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16277860,North & Central America,"CONCACAF Central American Cup, Group B",20695,"CONCACAF Central American Cup, Group B",,2026-08-18,22:00,Unknown,4,25353,Real Estelí,7045,Herediano,,,notstarted,1787108400,2026-08-16
 16809020,New Zealand,Northern League,594,Northern League,,2026-08-19,02:30,Unknown,20,1079630,Fencibles United FC,381039,Auckland United FC,,,notstarted,1787124600,2026-08-16
 16349542,Japan,J-League 3,2293,J-League 3,,2026-08-19,05:00,Unknown,37,162632,Kagoshima United,38146,Renofa Yamaguchi FC,,,notstarted,1787133600,2026-08-16
+16851577,China,Chinese Super League,649,Chinese Super League,,2026-08-19,06:35,Unknown,18,41537,Shanghai Port,474992,Dalian Yingbo FC,,,notstarted,1787139300,2026-08-17
 16207314,Estonia,Premium Liiga,178,Premium Liiga,,2026-08-19,11:00,Unknown,22,138566,Tartu JK Tammeka,3346,Flora Tallinn,,,postponed,1787155200,2026-08-17
 16671405,South Africa,Premiership,358,Premiership,,2026-08-19,12:30,Unknown,1,7665,Mamelodi Sundowns,263077,Marumo Gallants FC,,,notstarted,1787160600,2026-08-17
 16611054,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-19,13:00,Unknown,21,3214,Club Atlético Chacarita Juniors,224646,Güemes,,,notstarted,1787162400,2026-08-17
