@@ -1,8 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15421162,USA,MLS Next Pro,18641,MLS Next Pro,,2026-08-18,10:00,Unknown,1,277127,Atlanta United 2,411363,Chicago Fire FC II,,,notstarted,1787065200,2026-08-16
-16707704,Europe,"UEFA Champions League, Playoff Round",7,"UEFA Champions League, Playoff Round",,2026-08-18,14:00,Unknown,636,3052,Fenerbahçe,1649,Olympique Lyonnais,,,notstarted,1787079600,2026-08-16
-16707702,Europe,"UEFA Champions League, Playoff Round",7,"UEFA Champions League, Playoff Round",,2026-08-18,14:00,Unknown,636,2032,GNK Dinamo Zagreb,1164,Viking FK,,,notstarted,1787079600,2026-08-16
-16707695,Europe,"UEFA Champions League, Playoff Round",7,"UEFA Champions League, Playoff Round",,2026-08-18,14:00,Unknown,636,3273,Levski Sofia,3250,AEK Athens,,,notstarted,1787079600,2026-08-16
 16253163,South America,"CONMEBOL Libertadores, Knockout stage",384,"CONMEBOL Libertadores, Knockout stage",,2026-08-18,17:00,Unknown,5,36842,Independiente Rivadavia,1961,Fluminense,,,notstarted,1787090400,2026-08-16
 16253371,South America,"CONMEBOL Sudamericana, Knockout stage",480,"CONMEBOL Sudamericana, Knockout stage",,2026-08-18,17:00,Unknown,5,292595,Recoleta FC,3202,Boca Juniors,,,notstarted,1787090400,2026-08-16
 15526231,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-08-18,17:30,Unknown,23,2022,Londrina,7314,Atlético Goianiense,,,notstarted,1787092200,2026-08-16
