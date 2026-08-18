@@ -1,5 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16851672,China,Chinese Super League,649,Chinese Super League,,2026-08-18,06:35,Unknown,18,3373,Shanghai Shenhua,3376,Beijing Guoan,,,notstarted,1787052900,2026-08-17
 15421162,USA,MLS Next Pro,18641,MLS Next Pro,,2026-08-18,10:00,Unknown,1,277127,Atlanta United 2,411363,Chicago Fire FC II,,,notstarted,1787065200,2026-08-16
 16707704,Europe,"UEFA Champions League, Playoff Round",7,"UEFA Champions League, Playoff Round",,2026-08-18,14:00,Unknown,636,3052,Fenerbahçe,1649,Olympique Lyonnais,,,notstarted,1787079600,2026-08-16
 16707702,Europe,"UEFA Champions League, Playoff Round",7,"UEFA Champions League, Playoff Round",,2026-08-18,14:00,Unknown,636,2032,GNK Dinamo Zagreb,1164,Viking FK,,,notstarted,1787079600,2026-08-16
