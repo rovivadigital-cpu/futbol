@@ -1,16 +1,5 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16207314,Estonia,Premium Liiga,178,Premium Liiga,,2026-08-19,11:00,Unknown,22,138566,Tartu JK Tammeka,3346,Flora Tallinn,,,postponed,1787155200,2026-08-17
-16671405,South Africa,Premiership,358,Premiership,,2026-08-19,12:30,Unknown,1,7665,Mamelodi Sundowns,263077,Marumo Gallants FC,,,notstarted,1787160600,2026-08-17
-16611054,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-19,13:00,Unknown,21,3214,Club Atlético Chacarita Juniors,224646,Güemes,,,notstarted,1787162400,2026-08-17
-16421055,Spain,LaLiga,8,LaLiga,,2026-08-19,14:00,Unknown,1,2836,Atlético Madrid,2830,Málaga CF,,,notstarted,1787166000,2026-08-17
-16836327,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-08-19,14:00,Unknown,4,89354,Tigres FC,6114,Envigado FC,,,notstarted,1787166000,2026-08-17
-16707698,Europe,"UEFA Champions League, Playoff Round",7,"UEFA Champions League, Playoff Round",,2026-08-19,14:00,Unknown,636,2352,Celtic,2058,LASK,,,notstarted,1787166000,2026-08-17
-16707694,Europe,"UEFA Champions League, Playoff Round",7,"UEFA Champions League, Playoff Round",,2026-08-19,14:00,Unknown,636,5202,Hapoel Be'er Sheva,267828,Sabah FK,,,notstarted,1787166000,2026-08-17
-16707697,Europe,"UEFA Champions League, Playoff Round",7,"UEFA Champions League, Playoff Round",,2026-08-19,14:00,Unknown,636,2962,NEC Nijmegen,656,Bodø/Glimt,,,notstarted,1787166000,2026-08-17
-16707699,Europe,"UEFA Champions League, Playoff Round",7,"UEFA Champions League, Playoff Round",,2026-08-19,14:00,Unknown,636,2404,ŠK Slovan Bratislava,2413,NK Celje,,,notstarted,1787166000,2026-08-17
 16726641,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-08-19,15:00,Unknown,3,213490,Orsomarso SC,89354,Tigres FC,,,postponed,1787169600,2026-08-17
-16834932,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-08-19,16:00,Unknown,4,48244,Rionegro Águilas Doradas,89374,Llaneros FC,,,notstarted,1787173200,2026-08-17
-15421160,USA,MLS Next Pro,18641,MLS Next Pro,,2026-08-19,16:00,Unknown,1,411368,New York City FC II,411367,FC Cincinnati 2,,,notstarted,1787173200,2026-08-17
 16253171,South America,"CONMEBOL Libertadores, Knockout stage",384,"CONMEBOL Libertadores, Knockout stage",,2026-08-19,17:00,Unknown,5,5991,Cerro Porteño,1963,Palmeiras,,,notstarted,1787176800,2026-08-17
 16253169,South America,"CONMEBOL Libertadores, Knockout stage",384,"CONMEBOL Libertadores, Knockout stage",,2026-08-19,17:00,Unknown,5,3165,Coquimbo Unido,36837,Club Atlético Platense,,,notstarted,1787176800,2026-08-17
 16253372,South America,"CONMEBOL Sudamericana, Knockout stage",480,"CONMEBOL Sudamericana, Knockout stage",,2026-08-19,17:00,Unknown,5,1977,Atlético Mineiro,1999,Red Bull Bragantino,,,notstarted,1787176800,2026-08-17
