@@ -1,7 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16809020,New Zealand,Northern League,594,Northern League,,2026-08-19,02:30,Unknown,20,1079630,Fencibles United FC,381039,Auckland United FC,,,notstarted,1787124600,2026-08-16
-16349542,Japan,J-League 3,2293,J-League 3,,2026-08-19,05:00,Unknown,37,162632,Kagoshima United,38146,Renofa Yamaguchi FC,,,notstarted,1787133600,2026-08-16
-16851577,China,Chinese Super League,649,Chinese Super League,,2026-08-19,06:35,Unknown,18,41537,Shanghai Port,474992,Dalian Yingbo FC,,,notstarted,1787139300,2026-08-17
 16207314,Estonia,Premium Liiga,178,Premium Liiga,,2026-08-19,11:00,Unknown,22,138566,Tartu JK Tammeka,3346,Flora Tallinn,,,postponed,1787155200,2026-08-17
 16671405,South Africa,Premiership,358,Premiership,,2026-08-19,12:30,Unknown,1,7665,Mamelodi Sundowns,263077,Marumo Gallants FC,,,notstarted,1787160600,2026-08-17
 16611054,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-19,13:00,Unknown,21,3214,Club Atlético Chacarita Juniors,224646,Güemes,,,notstarted,1787162400,2026-08-17
@@ -177,6 +174,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16317370,Netherlands,Eerste Divisie,131,Eerste Divisie,,2026-08-21,13:00,Unknown,3,2976,MVV Maastricht,2968,FC Volendam,,,notstarted,1787335200,2026-08-19
 16317371,Netherlands,Eerste Divisie,131,Eerste Divisie,,2026-08-21,13:00,Unknown,3,2958,Vitesse,2990,Almere City FC,,,notstarted,1787335200,2026-08-19
 16629425,Saudi Arabia,Saudi Pro League,955,Saudi Pro League,,2026-08-21,13:00,Unknown,2,56027,Al-Qadsiah,34315,Al-Ittihad,,,notstarted,1787335200,2026-08-19
+16629424,Saudi Arabia,Saudi Pro League,955,Saudi Pro League,,2026-08-21,13:00,Unknown,2,56035,Al Faisaly,530631,Neom SC,,,notstarted,1787335200,2026-08-19
 16295807,Bulgaria,Parva Liga,247,Parva Liga,,2026-08-21,13:15,Unknown,6,3280,Cherno More Varna,3286,FK Dunav Ruse,,,notstarted,1787336100,2026-08-19
 16378720,Slovenia,PrvaLiga,212,PrvaLiga,,2026-08-21,13:15,Unknown,6,2416,NK Olimpija Ljubljana,2430,NK Nafta Lendava 1903,,,notstarted,1787336100,2026-08-19
 15275839,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-21,13:30,Unknown,26,213361,San Telmo,93109,Deportivo Morón,,,notstarted,1787337000,2026-08-19
@@ -203,6 +201,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16390695,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-08-21,16:05,Unknown,6,89370,Jaguares de Córdoba,6107,Boyacá Chicó FC,,,notstarted,1787346300,2026-08-19
 16588830,Paraguay,"Primera División, Clausura",11541,"Primera División, Clausura",,2026-08-21,16:30,Unknown,6,36438,Rubio Ñu,39722,Sportivo Trinidense,,,notstarted,1787347800,2026-08-19
 16828540,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-08-21,17:00,Unknown,3,6879,Liverpool UY,22011,CA Cerro,,,notstarted,1787349600,2026-08-19
+15275834,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-21,17:00,Unknown,26,222120,Deportivo Madryn,255425,CA Mitre,,,notstarted,1787349600,2026-08-19
 16748589,Bolivia,División Profesional,16736,División Profesional,,2026-08-21,17:30,Unknown,16,32529,The Strongest,268082,Club FC Universitario,,,notstarted,1787351400,2026-08-19
 16671570,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-08-21,18:00,Unknown,6,266694,Estudiantes de Río Cuarto,3201,San Lorenzo,,,notstarted,1787353200,2026-08-19
 16758364,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-08-21,18:00,Unknown,5,6230,Caracas F.C.,6229,Carabobo FC,,,notstarted,1787353200,2026-08-19
