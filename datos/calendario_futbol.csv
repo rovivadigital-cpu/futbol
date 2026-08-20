@@ -1,10 +1,5 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15514328,Estonia,Esiliiga,678,Esiliiga,,2026-08-20,04:30,Unknown,24,37534,FC Elva,37528,Maardu Linnameeskond,,,notstarted,1787218200,2026-08-17
 16773923,Armenia,Fastex Premier League,671,Fastex Premier League,,2026-08-20,07:00,Unknown,4,423250,FC Syunik,325779,FC Van,,,postponed,1787227200,2026-08-17
-16835684,Armenia,Fastex Premier League,671,Fastex Premier League,,2026-08-20,07:00,Unknown,4,325779,FC Van,423250,FC Syunik,,,notstarted,1787227200,2026-08-17
-15514329,Estonia,Esiliiga,678,Esiliiga,,2026-08-20,07:00,Unknown,24,283728,FC Tallinn,383797,FC Nõmme United U21,,,notstarted,1787227200,2026-08-17
-15514330,Estonia,Esiliiga,678,Esiliiga,,2026-08-20,07:00,Unknown,24,37570,Nõmme Kalju U21,7105,Tallinna Kalev,,,notstarted,1787227200,2026-08-17
-15514331,Estonia,Esiliiga,678,Esiliiga,,2026-08-20,07:00,Unknown,24,42740,Tartu JK Welco,36075,FCI Levadia Tallinn U21,,,notstarted,1787227200,2026-08-17
 15341320,Finland,Ykkosliiga,55,Ykkosliiga,,2026-08-20,10:00,Unknown,20,2273,KäPa,2263,Jippo Joensuu,,,notstarted,1787238000,2026-08-18
 16708136,Europe,"UEFA Europa League, Playoff Round",679,"UEFA Europa League, Playoff Round",,2026-08-20,10:00,Unknown,636,5172,Kairat Almaty,2900,RSC Anderlecht,,,notstarted,1787238000,2026-08-18
 16708138,Europe,"UEFA Europa League, Playoff Round",679,"UEFA Europa League, Playoff Round",,2026-08-20,11:00,Unknown,636,7691,Jagiellonia Białystok,116312,FC Iberia 1999,,,notstarted,1787241600,2026-08-18
@@ -376,6 +371,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16392106,Austria,Austrian Bundesliga,45,Austrian Bundesliga,,2026-08-22,12:30,Unknown,4,2051,SK Sturm Graz,2062,SC Austria Lustenau,,,notstarted,1787419800,2026-08-20
 16392103,Austria,Austrian Bundesliga,45,Austrian Bundesliga,,2026-08-22,12:30,Unknown,4,2076,Wolfsberger AC,2058,LASK,,,postponed,1787419800,2026-08-20
 16364227,Israel,Premier League,266,Premier League,,2026-08-22,12:30,Unknown,1,5197,Maccabi Haifa,7385,Hapoel Ramat Gan Givataim,,,notstarted,1787419800,2026-08-20
+16875688,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-08-22,12:30,Unknown,5,386310,Deportivo Rayo Zuliano,36437,Deportivo La Guaira,,,notstarted,1787419800,2026-08-20
 15275851,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-22,13:00,Unknown,26,93513,Tristán Suárez,265787,Agropecuario Argentino,,,notstarted,1787421600,2026-08-20
 16380098,Belgium,Challenger Pro League,9,Challenger Pro League,,2026-08-22,13:00,Unknown,2,116075,Koninklijke Lierse Sportkring,35076,Patro Eisden Maasmechelen,,,notstarted,1787421600,2026-08-20
 15502860,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-08-22,13:00,Unknown,1,309892,HFX Wanderers FC,463097,Vancouver FC,,,notstarted,1787421600,2026-08-20
@@ -385,6 +381,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16629429,Saudi Arabia,Saudi Pro League,955,Saudi Pro League,,2026-08-22,13:00,Unknown,2,34469,Al-Ahli,168090,Abha,,,notstarted,1787421600,2026-08-20
 16629428,Saudi Arabia,Saudi Pro League,955,Saudi Pro League,,2026-08-22,13:00,Unknown,2,167228,Al-Khaleej,34313,Al-Shabab,,,notstarted,1787421600,2026-08-20
 16828544,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-08-22,13:00,Unknown,3,25009,Cerro Largo,3229,Defensor Sporting,,,notstarted,1787421600,2026-08-20
+16875689,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-08-22,13:00,Unknown,5,6233,Monagas,6234,Portuguesa FC,,,notstarted,1787421600,2026-08-20
 16295808,Bulgaria,Parva Liga,247,Parva Liga,,2026-08-22,13:15,Unknown,6,3273,Levski Sofia,3278,FK Spartak Varna,,,notstarted,1787422500,2026-08-20
 16280797,Peru,"Liga 1, Clausura",406,"Liga 1, Clausura",,2026-08-22,13:15,Unknown,6,87854,Universidad Técnica de Cajamarca,213609,Comerciantes Unidos,,,notstarted,1787422500,2026-08-20
 16316987,Poland,Ekstraklasa,202,Ekstraklasa,,2026-08-22,13:15,Unknown,5,3108,Śląsk Wrocław,3115,Widzew Łódź,,,notstarted,1787422500,2026-08-20
