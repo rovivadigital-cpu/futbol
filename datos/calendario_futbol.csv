@@ -1,9 +1,5 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15368277,Australia,NSW NPL 1,1274,NSW NPL 1,,2026-08-21,04:30,Unknown,29,248825,Sydney FC Academy Youth,92210,Rockdale Ilinden,,,notstarted,1787304600,2026-08-18
-16348533,Japan,J1 League,196,J1 League,,2026-08-21,05:00,Unknown,3,3140,Kashiwa Reysol,38154,V-Varen Nagasaki,,,notstarted,1787306400,2026-08-18
-16348552,Japan,J1 League,196,J1 League,,2026-08-21,05:30,Unknown,3,3147,FC Tokyo,3144,JEF United Chiba,,,notstarted,1787308200,2026-08-18
 16773922,Armenia,Fastex Premier League,671,Fastex Premier League,,2026-08-21,07:00,Unknown,4,67966,FC Alashkert,36059,FC Gandzasar,,,notstarted,1787313600,2026-08-18
-15388688,Georgia,Erovnuli Liga,704,Erovnuli Liga,,2026-08-21,08:00,Unknown,22,37305,Meshakhte Tkibuli,37297,Dinamo Batumi,,,notstarted,1787317200,2026-08-18
 16738923,Egypt,Egyptian Premier League,808,Egyptian Premier League,,2026-08-21,09:00,Unknown,1,43568,Wadi Degla,373168,ZED FC,,,notstarted,1787320800,2026-08-19
 16598769,United Arab Emirates,Pro League,971,Pro League,,2026-08-21,09:00,Unknown,2,55705,Al-Ittihad Kalba,47674,Al Wasl,,,notstarted,1787320800,2026-08-19
 16773926,Armenia,Fastex Premier League,671,Fastex Premier League,,2026-08-21,10:00,Unknown,4,5377,FC Ararat,5214,Pyunik Yerevan,,,notstarted,1787324400,2026-08-19
@@ -255,7 +251,6 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16828542,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-08-22,09:00,Unknown,3,3232,Central Español,3224,Juventud de Las Piedras,,,notstarted,1787407200,2026-08-20
 16316763,Netherlands,VriendenLoterij Eredivisie,37,VriendenLoterij Eredivisie,,2026-08-22,09:30,Unknown,3,2957,Fortuna Sittard,2950,AZ Alkmaar,,,notstarted,1787409000,2026-08-20
 16317340,Netherlands,Eerste Divisie,131,Eerste Divisie,,2026-08-22,09:30,Unknown,3,2947,NAC Breda,46160,Jong Ajax,,,notstarted,1787409000,2026-08-20
-16357147,Switzerland,Swiss Super League,215,Swiss Super League,,2026-08-22,09:30,Unknown,4,2454,FC Thun,2448,Servette FC,,,postponed,1787409000,2026-08-20
 16416301,Spain,LaLiga,8,LaLiga,,2026-08-22,10:00,Unknown,2,2825,Athletic Club,2833,Sevilla,,,notstarted,1787410800,2026-08-20
 16418276,Spain,LaLiga 2,54,LaLiga 2,,2026-08-22,10:00,Unknown,2,2851,Real Oviedo,2845,Leganés,,,notstarted,1787410800,2026-08-20
 16392105,Austria,Austrian Bundesliga,45,Austrian Bundesliga,,2026-08-22,10:00,Unknown,4,4856,SCR Altach,2075,TSV Hartberg,,,notstarted,1787410800,2026-08-20
@@ -509,6 +504,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16357152,Switzerland,Swiss Super League,215,Swiss Super League,,2026-08-23,09:30,Unknown,4,2449,Grasshopper Club Zürich,2452,FC Sion,,,postponed,1787495400,2026-08-21
 16316773,Netherlands,VriendenLoterij Eredivisie,37,VriendenLoterij Eredivisie,,2026-08-23,09:45,Unknown,3,2970,SC Cambuur,2959,Feyenoord,,,notstarted,1787496300,2026-08-21
 16317345,Netherlands,Eerste Divisie,131,Eerste Divisie,,2026-08-23,09:45,Unknown,3,2980,VVV-Venlo,2949,De Graafschap,,,notstarted,1787496300,2026-08-21
+16357147,Switzerland,Swiss Super League,215,Swiss Super League,,2026-08-23,10:00,Unknown,4,2454,FC Thun,2448,Servette FC,,,notstarted,1787497200,2026-08-21
 16416302,Spain,LaLiga,8,LaLiga,,2026-08-23,10:00,Unknown,2,2836,Atlético Madrid,2819,Villarreal,,,notstarted,1787497200,2026-08-21
 16418277,Spain,LaLiga 2,54,LaLiga 2,,2026-08-23,10:00,Unknown,2,2839,Eibar,2831,Real Valladolid,,,notstarted,1787497200,2026-08-21
 16392107,Austria,Austrian Bundesliga,45,Austrian Bundesliga,,2026-08-23,10:00,Unknown,4,2203,FK Austria Wien,5405,WSG Tirol,,,postponed,1787497200,2026-08-21
