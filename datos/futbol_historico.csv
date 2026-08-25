@@ -7696,7 +7696,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,round,rou
 16390701,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-08-23,Unknown,,6113,Deportivo Pasto,89374,Llaneros FC,0,1,0,0,,,,,A,2026-08-24,finished,51%,49%,0.61,0.60,1,0,5,9,,,5,5,19,9,306,302,4,5,0,1,2,5,230,225,2,1
 16280803,Peru,"Liga 1, Clausura",406,"Liga 1, Clausura",,2026-08-23,Unknown,,2308,Melgar,2311,Alianza Lima,1,1,0,0,,,,,D,2026-08-24,finished,53%,47%,0.00,0.00,1,0,13,15,7,3,3,2,12,8,452,406,3,1,6,8,3,0,377,324,,
 15254092,Sweden,Damallsvenskan,214,Damallsvenskan,,2026-08-23,Unknown,,8086,Kristianstads DFF,1886,Rosengård,1,1,0,0,,,,,D,2026-08-25,finished,58%,42%,0.95,0.80,,,5,4,3,1,6,0,9,12,532,389,0,0,2,4,0,5,437,303,0,0
-15171686,USA,MLS,242,MLS,,2026-08-23,Unknown,,274650,Los Angeles FC,22007,Portland Timbers,1,1,0,0,,,,,D,2026-08-25,finished,61%,39%,2.30,0.89,2,1,33,8,1,11,12,0,10,15,630,415,2,3,12,2,0,3,558,362,0,1
+15171686,USA,MLS,242,MLS,,2026-08-23,Unknown,,274650,Los Angeles FC,22007,Portland Timbers,1,1,0,0,,,,,D,2026-08-25,finished,61%,39%,2.60,0.86,2,1,33,8,1,11,12,0,10,15,630,415,2,3,12,2,0,3,558,362,0,1
 15526246,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-08-23,Unknown,,49202,Cuiabá,1960,Goiás,1,1,0,0,,,,,D,2026-08-25,finished,55%,45%,2.81,0.73,2,1,28,5,1,6,9,0,10,14,504,438,1,2,7,2,1,1,443,362,,
 16875688,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-08-23,Unknown,,386310,Deportivo Rayo Zuliano,36437,Deportivo La Guaira,1,4,0,0,,,,,A,2026-08-25,finished,33%,67%,1.66,3.16,2,6,6,18,7,2,,,25,13,233,466,6,5,3,11,2,3,157,409,1,0
 15416300,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-08-23,Unknown,,284309,Deportes Recoleta,89506,Deportes Copiapó,2,1,0,0,,,,,H,2026-08-25,finished,,,,,,,,,,,,,,,,,1,2,,,,,,,0,0
@@ -7799,6 +7799,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,round,rou
 16378718,Slovenia,PrvaLiga,212,PrvaLiga,,2026-08-23,Unknown,,2420,NK Maribor,261800,NK Bravo,3,1,0,0,,,,,H,2026-08-25,finished,67%,33%,1.51,0.94,,,12,8,5,4,10,1,11,11,621,255,0,3,6,6,1,1,537,189,0,1
 16828545,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-08-23,Unknown,,174972,Montevideo City Torque,3240,Montevideo Wanderers,5,1,0,0,,,,,H,2026-08-25,finished,45%,55%,1.55,0.73,,,12,12,4,1,2,7,13,11,362,440,2,1,6,5,3,2,261,327,0,0
 15432387,Estonia,Premium Liiga,178,Premium Liiga,,2026-08-23,Unknown,,32476,Paide Linnameeskond,37572,FC Nõmme United,4,1,0,0,,,,,H,2026-08-25,finished,58%,42%,1.70,0.80,,,25,13,4,6,8,2,17,7,479,343,1,1,9,5,3,0,398,276,0,1
+15472562,Latvia,Virsliga,197,Virsliga,,2026-08-23,Unknown,,68718,RFS,162368,Riga FC,3,3,0,0,,,,,D,2026-08-25,finished,47%,53%,0.68,2.08,,,6,12,4,0,4,3,10,25,366,441,1,3,3,6,0,2,279,354,0,0
 15421182,USA,MLS Next Pro,18641,MLS Next Pro,,2026-08-24,Unknown,,197062,Tacoma Defiance,212570,Sporting Kansas City II,4,0,0,0,,,,,H,2026-08-25,finished,43%,57%,1.42,0.79,2,1,14,13,6,4,5,2,13,8,401,527,1,1,8,6,1,0,325,460,,
 15353105,Chile,Liga de Primera,11653,Liga de Primera,,2026-08-24,Unknown,,3163,O'Higgins,3157,Palestino,0,1,0,0,,,,,A,2026-08-25,finished,34%,66%,1.07,1.90,,,8,22,2,3,0,3,9,15,303,556,3,2,3,3,,,204,469,1,0
 16295816,Bulgaria,Parva Liga,247,Parva Liga,,2026-08-24,Unknown,,201203,FK Septemvri Sofia,252080,FC CSKA 1948 Sofia,1,0,0,0,,,,,H,2026-08-24,finished,45%,55%,0.49,1.03,,,4,10,3,1,2,4,15,10,364,436,5,1,2,3,1,1,295,350,0,0
@@ -7828,6 +7829,9 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,round,rou
 16822787,Bulgaria,Parva Liga,247,Parva Liga,,2026-08-24,Unknown,,36938,Botev Vratsa,5241,Botev Plovdiv,1,0,0,0,,,,,H,2026-08-25,finished,41%,59%,0.54,0.77,,,9,8,4,2,4,3,10,20,309,360,4,3,3,4,0,0,216,273,0,0
 15514335,Estonia,Esiliiga,678,Esiliiga,,2026-08-24,Unknown,,37534,FC Elva,36074,Flora Tallinn U21,0,0,0,0,,,,,D,2026-08-25,finished,51%,49%,1.58,0.83,,,17,9,3,7,8,1,17,10,366,373,2,1,7,3,1,2,270,274,0,1
 15272328,Sweden,Superettan,46,Superettan,,2026-08-24,Unknown,,1769,IFK Norrköping,1812,Falkenbergs FF,2,1,0,0,,,,,H,2026-08-25,finished,53%,47%,2.08,0.97,,,15,10,3,3,7,5,13,6,587,456,2,0,5,4,0,0,499,381,0,0
+15514337,Estonia,Esiliiga,678,Esiliiga,,2026-08-24,Unknown,,44459,Viimsi JK,383797,FC Nõmme United U21,4,1,0,0,,,,,H,2026-08-25,finished,63%,37%,3.06,0.31,,,30,8,1,11,10,3,15,12,538,250,3,1,14,2,1,0,455,187,0,1
+15272355,Sweden,Superettan,46,Superettan,,2026-08-24,Unknown,,1842,IFK Värnamo,1772,Landskrona BoIS,1,1,0,0,,,,,D,2026-08-25,finished,32%,68%,1.45,1.44,,,7,16,6,2,4,5,18,17,312,629,2,3,3,7,1,0,235,548,0,0
+15272333,Sweden,Superettan,46,Superettan,,2026-08-24,Unknown,,1836,Östersunds FK,1824,Ljungskile SK,0,0,0,0,,,,,D,2026-08-25,finished,59%,41%,2.64,0.52,,,17,9,1,4,10,5,12,8,542,384,2,0,4,1,1,0,438,291,0,0
 16459599,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-08-25,Unknown,,39866,Internacional de Palmira,89364,Barranquilla FC,1,0,0,0,,,,,H,2026-08-25,finished,,,,,,,,,,,,,,,,,2,2,,,,,,,0,0
 15275836,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-25,Unknown,,36841,Club Ferro Carril Oeste,36834,All Boys,1,0,0,0,,,,,H,2026-08-25,finished,,,,,,,,,,,,,,,,,2,4,,,,,,,1,0
 16836735,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-08-25,Unknown,,89362,Leones FC,6119,Real Cartagena,1,6,0,0,,,,,A,2026-08-25,finished,,,,,,,,,,,,,,,,,2,3,,,,,,,0,0
@@ -7838,7 +7842,6 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,round,rou
 16364221,Israel,Premier League,266,Premier League,,2026-08-25,Unknown,,5395,Maccabi Netanya,5392,Bnei Sakhnin,0,0,0,0,,,,,D,2026-08-25,finished,70%,30%,0.00,0.00,2,0,18,6,0,5,16,0,25,9,596,272,5,1,5,0,2,0,543,205,,
 15275850,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-25,Unknown,,224646,Güemes,34976,Atlético de Rafaela,0,0,0,0,,,,,D,2026-08-25,finished,,,,,,,,,,,,,,,,,0,2,,,,,,,0,0
 15514336,Estonia,Esiliiga,678,Esiliiga,,2026-08-25,Unknown,,7105,Tallinna Kalev,37528,Maardu Linnameeskond,1,3,0,0,,,,,A,2026-08-25,finished,,,,,,,,,,,,,,,,,1,1,,,,,,,1,0
-15514337,Estonia,Esiliiga,678,Esiliiga,,2026-08-25,Unknown,,44459,Viimsi JK,383797,FC Nõmme United U21,4,1,0,0,,,,,H,2026-08-25,finished,,,,,,,,,,,,,,,,,0,0,,,,,,,0,1
 16459596,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-08-25,Unknown,,89354,Tigres FC,89376,Unión Magdalena,1,0,0,0,,,,,H,2026-08-25,finished,,,,,,,,,,,,,,,,,1,3,,,,,,,0,0
 16836731,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-08-25,Unknown,,89358,Real Santander,1166437,Independiente Yumbo,1,0,0,0,,,,,H,2026-08-25,finished,,,,,,,,,,,,,,,,,3,0,,,,,,,0,0
 15285796,USA,USL Championship,13363,USL Championship,,2026-08-25,Unknown,,22004,Charleston Battery,218106,Miami FC,5,0,0,0,,,,,H,2026-08-25,finished,64%,36%,0.00,0.00,5,0,23,2,1,6,2,0,13,16,582,323,2,2,11,1,3,1,537,269,0,1
