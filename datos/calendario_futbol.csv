@@ -1,23 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16571086,Latvia,Virsliga,197,Virsliga,,2026-08-25,11:00,Unknown,23,5346,FK Auda,146336,FK Liepaja,,,notstarted,1787673600,2026-08-23
-16792534,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-25,11:00,Unknown,300,743,SK Brann Kvinner,229911,FK Austria Wien,,,notstarted,1787673600,2026-08-23
-16629432,Saudi Arabia,Saudi Pro League,955,Saudi Pro League,,2026-08-25,11:05,Unknown,3,168090,Abha,167228,Al-Khaleej,,,notstarted,1787673900,2026-08-23
-16629433,Saudi Arabia,Saudi Pro League,955,Saudi Pro League,,2026-08-25,11:10,Unknown,3,56021,Al-Taawoun,168094,Al-Fayha,,,notstarted,1787674200,2026-08-23
-16707696,Europe,"UEFA Champions League, Playoff Round",7,"UEFA Champions League, Playoff Round",,2026-08-25,11:45,Unknown,636,267828,Sabah FK,5202,Hapoel Be'er Sheva,,,notstarted,1787676300,2026-08-23
-15272330,Sweden,Superettan,46,Superettan,,2026-08-25,12:00,Unknown,20,1768,Örebro SK,7101,Varbergs BoIS,,,notstarted,1787677200,2026-08-23
-15272339,Sweden,Superettan,46,Superettan,,2026-08-25,12:00,Unknown,20,1781,Östers IF,1763,GIF Sundsvall,,,notstarted,1787677200,2026-08-23
-16671402,South Africa,Premiership,358,Premiership,,2026-08-25,12:30,Unknown,4,828831,Kruger United,829159,Durban City FC,,,notstarted,1787679000,2026-08-23
-16671414,South Africa,Premiership,358,Premiership,,2026-08-25,12:30,Unknown,4,263077,Marumo Gallants FC,295408,TS Galaxy,,,notstarted,1787679000,2026-08-23
-16671420,South Africa,Premiership,358,Premiership,,2026-08-25,12:30,Unknown,4,7668,Orlando Pirates,371341,Sekhukhune United,,,notstarted,1787679000,2026-08-23
-16671428,South Africa,Premiership,358,Premiership,,2026-08-25,12:30,Unknown,4,1113108,Siwelele FC,70946,Chippa United,,,notstarted,1787679000,2026-08-23
-16629434,Saudi Arabia,Saudi Pro League,955,Saudi Pro League,,2026-08-25,13:00,Unknown,3,34318,Al-Ettifaq,23400,Al-Nassr,,,notstarted,1787680800,2026-08-23
-16629435,Saudi Arabia,Saudi Pro League,955,Saudi Pro League,,2026-08-25,13:00,Unknown,3,34313,Al-Shabab,168088,Al-Riyadh,,,notstarted,1787680800,2026-08-23
-16421049,Spain,LaLiga,8,LaLiga,,2026-08-25,14:00,Unknown,1,2828,Valencia,2816,Real Betis,,,notstarted,1787684400,2026-08-23
-16748571,Bolivia,División Profesional,16736,División Profesional,,2026-08-25,14:00,Unknown,17,505268,GV San José,33820,Oriente Petrolero,,,notstarted,1787684400,2026-08-23
-16707701,Europe,"UEFA Champions League, Playoff Round",7,"UEFA Champions League, Playoff Round",,2026-08-25,14:00,Unknown,636,656,Bodø/Glimt,2962,NEC Nijmegen,,,notstarted,1787684400,2026-08-23
-16707700,Europe,"UEFA Champions League, Playoff Round",7,"UEFA Champions League, Playoff Round",,2026-08-25,14:00,Unknown,636,2058,LASK,2352,Celtic,,,notstarted,1787684400,2026-08-23
-16614945,Iceland,Iceland 1. deild,675,Iceland 1. deild,,2026-08-25,14:15,Unknown,15,1914,UMF Afturelding,41099,Grótta,,,notstarted,1787685300,2026-08-23
-16459598,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-08-25,15:30,Unknown,6,89366,Boca Juniors de Cali,89352,Bogotá FC,,,notstarted,1787689800,2026-08-23
 16588839,Paraguay,"Primera División, Clausura",11541,"Primera División, Clausura",,2026-08-25,16:30,Unknown,6,5992,CS 2 de Mayo,5994,Guaraní,,,notstarted,1787693400,2026-08-23
 16614412,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-25,17:00,Unknown,21,222120,Deportivo Madryn,6074,Godoy Cruz,,,notstarted,1787695200,2026-08-23
 15526243,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-08-25,17:30,Unknown,24,7314,Atlético Goianiense,1979,Botafogo-SP,,,notstarted,1787697000,2026-08-23
