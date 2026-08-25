@@ -1,7 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15373073,South Korea,K League 1,410,K League 1,,2026-08-25,05:30,Unknown,25,7646,FC Seoul,92539,Bucheon FC 1995,,,notstarted,1787653800,2026-08-22
-15373070,South Korea,K League 1,410,K League 1,,2026-08-25,05:30,Unknown,25,7647,Gimcheon Sangmu FC,6908,Jeonbuk Hyundai Motors,,,notstarted,1787653800,2026-08-22
-15373071,South Korea,K League 1,410,K League 1,,2026-08-25,05:30,Unknown,25,7649,Jeju SK,7650,Pohang Steelers,,,notstarted,1787653800,2026-08-22
 16571086,Latvia,Virsliga,197,Virsliga,,2026-08-25,11:00,Unknown,23,5346,FK Auda,146336,FK Liepaja,,,notstarted,1787673600,2026-08-23
 16792534,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-25,11:00,Unknown,300,743,SK Brann Kvinner,229911,FK Austria Wien,,,notstarted,1787673600,2026-08-23
 16629432,Saudi Arabia,Saudi Pro League,955,Saudi Pro League,,2026-08-25,11:05,Unknown,3,168090,Abha,167228,Al-Khaleej,,,notstarted,1787673900,2026-08-23
