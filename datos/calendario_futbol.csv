@@ -1,21 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16588832,Paraguay,"Primera División, Clausura",11541,"Primera División, Clausura",,2026-08-24,16:30,Unknown,6,5996,Libertad,90972,Sportivo San Lorenzo,,,notstarted,1787607000,2026-08-22
-16671573,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-08-24,17:00,Unknown,6,7628,Tigre,65676,Central Córdoba,,,notstarted,1787608800,2026-08-22
-16836735,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-08-24,17:00,Unknown,6,89362,Leones FC,6119,Real Cartagena,,,notstarted,1787608800,2026-08-22
-16459600,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-08-24,17:00,Unknown,6,213490,Orsomarso SC,484422,Real Cundinamarca,,,notstarted,1787608800,2026-08-22
-15526240,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-08-24,17:30,Unknown,24,342775,Athletic Club,135514,Grêmio Novorizontino,,,notstarted,1787610600,2026-08-22
-15526245,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-08-24,17:30,Unknown,24,1959,Sport Recife,1973,América Mineiro,,,notstarted,1787610600,2026-08-22
-16836734,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-08-24,17:30,Unknown,6,61504,Patriotas Boyacá,89372,Atlético Cali,,,notstarted,1787610600,2026-08-22
-15285796,USA,USL Championship,13363,USL Championship,,2026-08-24,18:00,Unknown,1,22004,Charleston Battery,218106,Miami FC,,,postponed,1787612400,2026-08-23
-15275836,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-24,18:00,Unknown,26,36841,Club Ferro Carril Oeste,36834,All Boys,,,notstarted,1787612400,2026-08-22
-15235432,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-08-24,18:00,Unknown,24,1958,Botafogo,1967,Athletico,,,notstarted,1787612400,2026-08-22
-15353101,Chile,Liga de Primera,11653,Liga de Primera,,2026-08-24,18:30,Unknown,20,5032,Everton de Viña del Mar,5034,Universidad de Concepción,,,notstarted,1787614200,2026-08-22
-15416301,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-08-24,18:30,Unknown,22,39220,San Luis de Quillota,3150,Santiago Wanderers,,,notstarted,1787614200,2026-08-22
-15502657,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-08-24,19:00,Unknown,26,394127,Libertad FC,6001,Macará,,,notstarted,1787616000,2026-08-22
-16667401,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-08-24,19:15,Unknown,6,3218,CA Lanús,3216,Argentinos Juniors,,,notstarted,1787616900,2026-08-22
-16667400,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-08-24,19:15,Unknown,6,3210,CA Talleres,3217,Rosario Central,,,notstarted,1787616900,2026-08-22
-16459599,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-08-24,19:45,Unknown,6,39866,Internacional de Palmira,89364,Barranquilla FC,,,notstarted,1787618700,2026-08-22
-15421182,USA,MLS Next Pro,18641,MLS Next Pro,,2026-08-24,21:00,Unknown,1,197062,Tacoma Defiance,212570,Sporting Kansas City II,,,notstarted,1787623200,2026-08-22
 15373073,South Korea,K League 1,410,K League 1,,2026-08-25,05:30,Unknown,25,7646,FC Seoul,92539,Bucheon FC 1995,,,notstarted,1787653800,2026-08-22
 15373070,South Korea,K League 1,410,K League 1,,2026-08-25,05:30,Unknown,25,7647,Gimcheon Sangmu FC,6908,Jeonbuk Hyundai Motors,,,notstarted,1787653800,2026-08-22
 15373071,South Korea,K League 1,410,K League 1,,2026-08-25,05:30,Unknown,25,7649,Jeju SK,7650,Pohang Steelers,,,notstarted,1787653800,2026-08-22
