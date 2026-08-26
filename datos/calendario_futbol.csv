@@ -1,7 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15373072,South Korea,K League 1,410,K League 1,,2026-08-26,05:30,Unknown,25,7645,Daejeon Hana Citizen,7653,Ulsan HD,,,notstarted,1787740200,2026-08-23
-15373074,South Korea,K League 1,410,K League 1,,2026-08-26,05:30,Unknown,25,32675,FC Anyang,7648,Incheon United,,,notstarted,1787740200,2026-08-23
-15373076,South Korea,K League 1,410,K League 1,,2026-08-26,05:30,Unknown,25,34220,Gangwon FC,48912,Gwangju FC,,,notstarted,1787740200,2026-08-23
 16738930,Egypt,Egyptian Premier League,808,Egyptian Premier League,,2026-08-26,09:00,Unknown,2,43563,Smouha,270807,Asyut Petroleum,,,notstarted,1787752800,2026-08-24
 16469380,Estonia,Premium Liiga,178,Premium Liiga,,2026-08-26,11:00,Unknown,13,138566,Tartu JK Tammeka,3346,Flora Tallinn,,,notstarted,1787760000,2026-08-24
 15265872,Norway,1st Division,22,1st Division,,2026-08-26,11:00,Unknown,19,885,Strømmen IF,668,Raufoss,,,notstarted,1787760000,2026-08-24
@@ -145,7 +142,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16392108,Austria,Austrian Bundesliga,45,Austrian Bundesliga,,2026-08-28,12:30,Unknown,5,2062,SC Austria Lustenau,5405,WSG Tirol,,,notstarted,1787938200,2026-08-26
 16380105,Belgium,Challenger Pro League,9,Challenger Pro League,,2026-08-28,13:00,Unknown,3,371484,KSC Lokeren,421124,Jong KRC Genk U23,,,notstarted,1787940000,2026-08-26
 16384052,Belgium,Challenger Pro League,9,Challenger Pro League,,2026-08-28,13:00,Unknown,3,391532,Koninklijke Sporting Hasselt,76451,KAA Gent Reserve U23,,,notstarted,1787940000,2026-08-26
-16458955,Bosnia & Herzegovina,WWIN Liga BiH,222,WWIN Liga BiH,,2026-08-28,13:00,Unknown,4,6149,FK Radnik Bijeljina,5235,FK Borac Banja Luka,,,notstarted,1787940000,2026-08-26
+16458955,Bosnia & Herzegovina,WWIN Liga BiH,222,WWIN Liga BiH,,2026-08-28,13:00,Unknown,4,6149,FK Radnik Bijeljina,5235,FK Borac Banja Luka,,,postponed,1787940000,2026-08-26
 16458954,Bosnia & Herzegovina,WWIN Liga BiH,222,WWIN Liga BiH,,2026-08-28,13:00,Unknown,4,6146,NK Čelik Zenica,6151,FK Velež Mostar,,,notstarted,1787940000,2026-08-26
 16386263,France,Ligue 2,182,Ligue 2,,2026-08-28,13:00,Unknown,4,1680,Clermont Foot,1657,Sochaux,,,notstarted,1787940000,2026-08-26
 16386260,France,Ligue 2,182,Ligue 2,,2026-08-28,13:00,Unknown,4,1642,Montpellier,1711,US Boulogne Côte-d'Opale,,,notstarted,1787940000,2026-08-26
