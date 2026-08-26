@@ -1,23 +1,5 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16738930,Egypt,Egyptian Premier League,808,Egyptian Premier League,,2026-08-26,09:00,Unknown,2,43563,Smouha,270807,Asyut Petroleum,,,notstarted,1787752800,2026-08-24
-16469380,Estonia,Premium Liiga,178,Premium Liiga,,2026-08-26,11:00,Unknown,13,138566,Tartu JK Tammeka,3346,Flora Tallinn,,,notstarted,1787760000,2026-08-24
-15265872,Norway,1st Division,22,1st Division,,2026-08-26,11:00,Unknown,19,885,Strømmen IF,668,Raufoss,,,notstarted,1787760000,2026-08-24
-16792545,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-26,11:00,Unknown,300,5556,VfL Wolfsburg,325685,Inter,,,notstarted,1787760000,2026-08-24
-16629436,Saudi Arabia,Saudi Pro League,955,Saudi Pro League,,2026-08-26,11:00,Unknown,3,56035,Al Faisaly,56023,Al-Fateh,,,notstarted,1787760000,2026-08-24
-16792539,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-26,11:30,Unknown,300,38255,Sparta Prague,305811,Servette FC Chênois Féminin,,,notstarted,1787761800,2026-08-24
-16809018,Europe,"UEFA Europa Conference League, Qualification Playoff",17015,"UEFA Europa Conference League, Qualification Playoff",,2026-08-26,11:45,Unknown,636,2055,SK Rapid Wien,2353,Heart of Midlothian,,,notstarted,1787762700,2026-08-24
-16738931,Egypt,Egyptian Premier League,808,Egyptian Premier League,,2026-08-26,12:00,Unknown,2,266626,National Bank of Egypt,42368,Zamalek SC,,,notstarted,1787763600,2026-08-24
-16738941,Egypt,Egyptian Premier League,808,Egyptian Premier League,,2026-08-26,12:00,Unknown,2,43567,Suez Petrojet FC,43561,Tala'ea El-Gaish,,,notstarted,1787763600,2026-08-24
-15265867,Norway,1st Division,22,1st Division,,2026-08-26,12:00,Unknown,19,673,Haugesund,920,Egersund,,,notstarted,1787763600,2026-08-24
-15265868,Norway,1st Division,22,1st Division,,2026-08-26,12:00,Unknown,19,662,Moss FK,665,Sogndal IL,,,notstarted,1787763600,2026-08-24
-15265869,Norway,1st Division,22,1st Division,,2026-08-26,12:00,Unknown,19,659,Odds BK,672,Kongsvinger,,,notstarted,1787763600,2026-08-24
-15265871,Norway,1st Division,22,1st Division,,2026-08-26,12:00,Unknown,19,1162,Stabæk Fotball,708,Ranheim IL,,,notstarted,1787763600,2026-08-24
-15265873,Norway,1st Division,22,1st Division,,2026-08-26,12:00,Unknown,19,1163,Strømsgodset,680,Hødd IL,,,notstarted,1787763600,2026-08-24
-15265874,Norway,1st Division,22,1st Division,,2026-08-26,12:00,Unknown,19,682,Åsane,657,Lyn FK,,,notstarted,1787763600,2026-08-24
-16792550,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-26,12:00,Unknown,300,230007,Czarni Sosnowiec,178246,Oud-Heverlee Leuven,,,notstarted,1787763600,2026-08-24
-16792540,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-26,12:00,Unknown,300,108685,Eintracht Frankfurt,55505,Paris Saint-Germain,,,notstarted,1787763600,2026-08-24
 16792536,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-26,12:00,Unknown,300,178246,Oud-Heverlee Leuven,230007,Czarni Sosnowiec,,,postponed,1787763600,2026-08-24
-16792533,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-26,12:00,Unknown,300,178262,PSV Eindhoven,333128,HB Køge,,,notstarted,1787763600,2026-08-24
 16792537,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-08-26,12:30,Unknown,300,178260,Ajax,305051,Real Madrid,,,notstarted,1787765400,2026-08-24
 16671413,South Africa,Premiership,358,Premiership,,2026-08-26,12:30,Unknown,4,7664,Lamontville Golden Arrows,43555,Stellenbosch,,,notstarted,1787765400,2026-08-24
 16671416,South Africa,Premiership,358,Premiership,,2026-08-26,12:30,Unknown,4,7665,Mamelodi Sundowns,7655,AmaZulu FC,,,notstarted,1787765400,2026-08-24
