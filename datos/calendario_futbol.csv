@@ -1,24 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16708160,Europe,"UEFA Europa League, Playoff Round",679,"UEFA Europa League, Playoff Round",,2026-08-27,13:00,Unknown,636,1291,AGF,3006,Benfica,,,notstarted,1787853600,2026-08-25
-16708163,Europe,"UEFA Europa League, Playoff Round",679,"UEFA Europa League, Playoff Round",,2026-08-27,13:00,Unknown,636,3275,CSKA Sofia,3241,OFI Crete,,,notstarted,1787853600,2026-08-25
-16708166,Europe,"UEFA Europa League, Playoff Round",679,"UEFA Europa League, Playoff Round",,2026-08-27,13:00,Unknown,636,2454,FC Thun,3121,Lech Poznań,,,notstarted,1787853600,2026-08-25
-16823112,Europe,"UEFA Europa Conference League, Qualification Playoff",17015,"UEFA Europa Conference League, Qualification Playoff",,2026-08-27,13:00,Unknown,636,2953,AFC Ajax,2452,FC Sion,,,notstarted,1787853600,2026-08-25
-16823073,Europe,"UEFA Europa Conference League, Qualification Playoff",17015,"UEFA Europa Conference League, Qualification Playoff",,2026-08-27,13:00,Unknown,636,2442,FC St. Gallen 1879,1292,FC Nordsjælland,,,notstarted,1787853600,2026-08-25
-16717088,Europe,"UEFA Europa Conference League, Qualification Playoff",17015,"UEFA Europa Conference League, Qualification Playoff",,2026-08-27,13:00,Unknown,636,5396,Hapoel Tel Aviv,2686,Atalanta,,,notstarted,1787853600,2026-08-25
-16815992,Spain,LaLiga,8,LaLiga,,2026-08-27,13:30,Unknown,1,2821,Celta Vigo,2820,Osasuna,,,notstarted,1787855400,2026-08-25
-16708143,Europe,"UEFA Europa League, Playoff Round",679,"UEFA Europa League, Playoff Round",,2026-08-27,13:30,Unknown,636,1925,Ferencváros TC,3051,Trabzonspor,,,notstarted,1787855400,2026-08-25
-16708162,Europe,"UEFA Europa League, Playoff Round",679,"UEFA Europa League, Playoff Round",,2026-08-27,13:30,Unknown,636,2900,RSC Anderlecht,5172,Kairat Almaty,,,notstarted,1787855400,2026-08-25
-16823061,Europe,"UEFA Europa Conference League, Qualification Playoff",17015,"UEFA Europa Conference League, Qualification Playoff",,2026-08-27,13:30,Unknown,636,30,Brighton & Hove Albion,660,Tromsø IL,,,notstarted,1787855400,2026-08-25
-16717100,Europe,"UEFA Europa Conference League, Qualification Playoff",17015,"UEFA Europa Conference League, Qualification Playoff",,2026-08-27,13:30,Unknown,636,2203,FK Austria Wien,2999,Sporting Braga,,,notstarted,1787855400,2026-08-25
-16717243,Europe,"UEFA Europa Conference League, Qualification Playoff",17015,"UEFA Europa Conference League, Qualification Playoff",,2026-08-27,13:30,Unknown,636,5235,FK Borac Banja Luka,1908,Víkingur Reykjavík,,,notstarted,1787855400,2026-08-25
-16821980,Europe,"UEFA Europa Conference League, Qualification Playoff",17015,"UEFA Europa Conference League, Qualification Playoff",,2026-08-27,13:45,Unknown,636,2039,HNK Rijeka,1289,FC Midtjylland,,,notstarted,1787856300,2026-08-25
-16421059,Spain,LaLiga,8,LaLiga,,2026-08-27,14:00,Unknown,1,2817,FC Barcelona,2825,Athletic Club,,,notstarted,1787857200,2026-08-25
-16748570,Bolivia,División Profesional,16736,División Profesional,,2026-08-27,14:00,Unknown,17,268083,Club Always Ready,33714,Club Aurora,,,notstarted,1787857200,2026-08-25
-16717101,Europe,"UEFA Europa Conference League, Qualification Playoff",17015,"UEFA Europa Conference League, Qualification Playoff",,2026-08-27,14:00,Unknown,636,5152,FK Partizan,2859,Getafe,,,notstarted,1787857200,2026-08-25
-16823068,Europe,"UEFA Europa Conference League, Qualification Playoff",17015,"UEFA Europa Conference League, Qualification Playoff",,2026-08-27,14:00,Unknown,636,2354,Hibernian,2903,KAA Gent,,,notstarted,1787857200,2026-08-25
-16796039,Europe,"UEFA Europa Conference League, Qualification Playoff",17015,"UEFA Europa Conference League, Qualification Playoff",,2026-08-27,14:00,Unknown,636,5184,Larne FC,126304,Lincoln Red Imps,,,notstarted,1787857200,2026-08-25
-16748566,Bolivia,División Profesional,16736,División Profesional,,2026-08-27,17:30,Unknown,17,372975,Club Independiente Petrolero,47701,Guabirá,,,notstarted,1787869800,2026-08-25
-16390711,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-08-27,18:10,Unknown,7,89374,Llaneros FC,6117,Millonarios,,,notstarted,1787872200,2026-08-25
 16748572,Bolivia,División Profesional,16736,División Profesional,,2026-08-27,19:30,Unknown,17,7059,Bolívar,423188,Academia de Balompié Boliviano,,,notstarted,1787877000,2026-08-25
 16390708,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-08-27,20:15,Unknown,7,1164534,Internacional de Bogotá,6113,Deportivo Pasto,,,notstarted,1787879700,2026-08-25
 16390712,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-08-27,20:15,Unknown,7,6118,Once Caldas,6111,Deportes Tolima,,,postponed,1787879700,2026-08-25
@@ -409,7 +389,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16671592,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-08-29,15:00,Unknown,7,3217,Rosario Central,3205,Gimnasia y Esgrima,,,notstarted,1788033600,2026-08-27
 15275859,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-29,15:00,Unknown,27,255425,CA Mitre,255426,Central Norte de Salta,,,notstarted,1788033600,2026-08-27
 15275873,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-29,15:00,Unknown,28,222120,Deportivo Madryn,340432,Ciudad de Bolivar,,,postponed,1788033600,2026-08-27
-16854186,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-29,15:00,Unknown,27,5292,Gimnasia Y Esgrima De Jujuy,265787,Agropecuario Argentino,,,notstarted,1788033600,2026-08-27
+16854186,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-29,15:00,Unknown,27,5292,Gimnasia Y Esgrima De Jujuy,265787,Agropecuario Argentino,,,postponed,1788033600,2026-08-27
 15275887,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-29,15:00,Unknown,28,224646,Güemes,222126,Gimnasia y Tiro de Salta,,,postponed,1788033600,2026-08-27
 15275856,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-29,15:00,Unknown,27,112497,Los Andes,112491,Acassuso,,,notstarted,1788033600,2026-08-27
 15275871,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-29,15:00,Unknown,27,43741,Patronato,4938,Almagro,,,notstarted,1788033600,2026-08-27
