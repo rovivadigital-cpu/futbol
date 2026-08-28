@@ -1,36 +1,5 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15552624,China,Chinese Super League,649,Chinese Super League,,2026-08-28,06:35,Unknown,25,474992,Dalian Yingbo FC,3376,Beijing Guoan,,,notstarted,1787916900,2026-08-25
-15552629,China,Chinese Super League,649,Chinese Super League,,2026-08-28,06:35,Unknown,25,3373,Shanghai Shenhua,3371,Shandong Taishan,,,notstarted,1787916900,2026-08-25
-15552625,China,Chinese Super League,649,Chinese Super League,,2026-08-28,07:00,Unknown,25,281331,Shenzhen Peng City,41537,Shanghai Port,,,notstarted,1787918400,2026-08-25
-16667909,Germany,3. Liga,491,3. Liga,,2026-08-28,07:00,Unknown,3,53365,FC Viktoria Köln,2590,Preußen Münster,,,postponed,1787918400,2026-08-25
-16667905,Germany,3. Liga,491,3. Liga,,2026-08-28,07:00,Unknown,3,7827,TSV Havelse,2680,SV Waldhof Mannheim,,,postponed,1787918400,2026-08-25
-16412922,Ukraine,Premier League,218,Premier League,,2026-08-28,07:30,Unknown,4,200776,Kolos Kovalivka,138564,Obolon Kyiv,,,notstarted,1787920200,2026-08-25
-16599278,United Arab Emirates,Pro League,971,Pro League,,2026-08-28,08:55,Unknown,3,477045,United,55705,Al-Ittihad Kalba,,,notstarted,1787925300,2026-08-25
-16738946,Egypt,Egyptian Premier League,808,Egyptian Premier League,,2026-08-28,09:00,Unknown,2,134190,Canal SC,43565,El Gouna FC,,,notstarted,1787925600,2026-08-26
-16738936,Egypt,Egyptian Premier League,808,Egyptian Premier League,,2026-08-28,09:00,Unknown,2,43564,El-Sharkia Enppi FC,43568,Wadi Degla,,,notstarted,1787925600,2026-08-26
-16403870,Romania,Superliga,152,Superliga,,2026-08-28,10:00,Unknown,7,44255,FC Voluntari,3291,SC Oțelul Galați,,,notstarted,1787929200,2026-08-26
 15341323,Finland,Ykkosliiga,55,Ykkosliiga,,2026-08-28,10:30,Unknown,21,23422,JäPS,2273,KäPa,,,notstarted,1787931000,2026-08-26
-15341322,Finland,Ykkosliiga,55,Ykkosliiga,,2026-08-28,10:30,Unknown,21,2255,KTP,2240,FC Haka,,,notstarted,1787931000,2026-08-26
-16629438,Saudi Arabia,Saudi Pro League,955,Saudi Pro League,,2026-08-28,10:50,Unknown,4,168088,Al-Riyadh,530631,Neom SC,,,notstarted,1787932200,2026-08-26
-16858453,Armenia,Fastex Premier League,671,Fastex Premier League,,2026-08-28,11:00,Unknown,5,5225,Urartu,67966,FC Alashkert,,,notstarted,1787932800,2026-08-26
-16295809,Bulgaria,Parva Liga,247,Parva Liga,,2026-08-28,11:00,Unknown,7,3274,Slavia Sofia,201203,FK Septemvri Sofia,,,notstarted,1787932800,2026-08-26
-16379939,Czech Republic,FNL,205,FNL,,2026-08-28,11:00,Unknown,6,7739,Dukla Praha,4863,Vysočina Jihlava,,,notstarted,1787932800,2026-08-26
-16316996,Poland,Ekstraklasa,202,Ekstraklasa,,2026-08-28,11:00,Unknown,6,3122,Wisła Płock,5065,MKS Korona Kielce,,,notstarted,1787932800,2026-08-26
-16629439,Saudi Arabia,Saudi Pro League,955,Saudi Pro League,,2026-08-28,11:00,Unknown,4,168094,Al-Fayha,168090,Abha,,,notstarted,1787932800,2026-08-26
-16412033,Austria,2. Liga,135,2. Liga,,2026-08-28,11:30,Unknown,5,2081,ASK Voitsberg,7790,FC Liefering,,,notstarted,1787934600,2026-08-26
-16412026,Austria,2. Liga,135,2. Liga,,2026-08-28,11:30,Unknown,5,2054,First Vienna FC,6281,SKU Amstetten,,,notstarted,1787934600,2026-08-26
-16412030,Austria,2. Liga,135,2. Liga,,2026-08-28,11:30,Unknown,5,2067,Kapfenberger SV,2113,FC Blau Weiss Linz,,,notstarted,1787934600,2026-08-26
-16412024,Austria,2. Liga,135,2. Liga,,2026-08-28,11:30,Unknown,5,2119,SKN St. Pölten,43074,Austria Salzburg,,,notstarted,1787934600,2026-08-26
-16434349,Germany,2. Bundesliga,44,2. Bundesliga,,2026-08-28,11:30,Unknown,3,2557,Eintracht Braunschweig,2528,Hertha BSC,,,notstarted,1787934600,2026-08-26
-16434350,Germany,2. Bundesliga,44,2. Bundesliga,,2026-08-28,11:30,Unknown,3,2542,VfL Bochum 1848,2581,VfL Osnabrück,,,notstarted,1787934600,2026-08-26
-16598782,United Arab Emirates,Pro League,971,Pro League,,2026-08-28,11:30,Unknown,3,47674,Al Wasl,264111,Shabab Al-Ahli Dubai,,,notstarted,1787934600,2026-08-26
-16416304,Spain,LaLiga,8,LaLiga,,2026-08-28,12:00,Unknown,3,2835,Real Racing Club,2846,Elche,,,notstarted,1787936400,2026-08-26
-16439333,Spain,"Primera Federacion, Group 1",17073,"Primera Federacion, Group 1",,2026-08-28,12:00,Unknown,1,77397,Real Avilés,4941,Pontevedra CF,,,notstarted,1787936400,2026-08-26
-16278695,Denmark,Danish Superliga,39,Danish Superliga,,2026-08-28,12:00,Unknown,6,1297,AC Horsens,1288,Viborg FF,,,notstarted,1787936400,2026-08-26
-16738942,Egypt,Egyptian Premier League,808,Egyptian Premier League,,2026-08-28,12:00,Unknown,2,35187,Al-Ittihad Alexandria,371622,Cleopatra FC,,,notstarted,1787936400,2026-08-26
-16738948,Egypt,Egyptian Premier League,808,Egyptian Premier League,,2026-08-28,12:00,Unknown,2,373168,ZED FC,6910,Al Ahly FC,,,notstarted,1787936400,2026-08-26
-16596606,Germany,3. Liga,491,3. Liga,,2026-08-28,12:00,Unknown,3,2588,Fortuna Düsseldorf,2522,VfB Stuttgart II U21,,,notstarted,1787936400,2026-08-26
-15254101,Sweden,Damallsvenskan,214,Damallsvenskan,,2026-08-28,12:00,Unknown,16,258774,IK Uppsala,112689,Eskilstuna Utd DFF,,,notstarted,1787936400,2026-08-26
 16392108,Austria,Austrian Bundesliga,45,Austrian Bundesliga,,2026-08-28,12:30,Unknown,5,2062,SC Austria Lustenau,5405,WSG Tirol,,,notstarted,1787938200,2026-08-26
 16380105,Belgium,Challenger Pro League,9,Challenger Pro League,,2026-08-28,13:00,Unknown,3,371484,KSC Lokeren,421124,Jong KRC Genk U23,,,notstarted,1787940000,2026-08-26
 16384052,Belgium,Challenger Pro League,9,Challenger Pro League,,2026-08-28,13:00,Unknown,3,391532,Koninklijke Sporting Hasselt,76451,KAA Gent Reserve U23,,,notstarted,1787940000,2026-08-26
