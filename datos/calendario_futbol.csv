@@ -1,6 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15403969,South Korea,K-League 2,777,K-League 2,,2026-08-28,05:30,Unknown,24,248375,Ansan Greeners FC,7644,Daegu FC,,,notstarted,1787913000,2026-08-25
-15403963,South Korea,K-League 2,777,K-League 2,,2026-08-28,05:30,Unknown,24,7643,Jeonnam Dragons,41263,Cheonan City FC,,,notstarted,1787913000,2026-08-25
 15552624,China,Chinese Super League,649,Chinese Super League,,2026-08-28,06:35,Unknown,25,474992,Dalian Yingbo FC,3376,Beijing Guoan,,,notstarted,1787916900,2026-08-25
 15552629,China,Chinese Super League,649,Chinese Super League,,2026-08-28,06:35,Unknown,25,3373,Shanghai Shenhua,3371,Shandong Taishan,,,notstarted,1787916900,2026-08-25
 15552625,China,Chinese Super League,649,Chinese Super League,,2026-08-28,07:00,Unknown,25,281331,Shenzhen Peng City,41537,Shanghai Port,,,notstarted,1787918400,2026-08-25
@@ -275,7 +273,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16418226,Spain,LaLiga 2,54,LaLiga 2,,2026-08-29,10:00,Unknown,3,24335,CE Sabadell,2858,Almería,,,notstarted,1788015600,2026-08-27
 16611205,Spain,"Primera Federacion, Group 1",17073,"Primera Federacion, Group 1",,2026-08-29,10:00,Unknown,1,295552,Unión Deportiva Ourense,6195,SD Ponferradina,,,notstarted,1788015600,2026-08-27
 16392111,Austria,Austrian Bundesliga,45,Austrian Bundesliga,,2026-08-29,10:00,Unknown,5,2052,Grazer AK 1902,2076,Wolfsberger AC,,,notstarted,1788015600,2026-08-27
-16453929,Czech Republic,Czech First League,172,Czech First League,,2026-08-29,10:00,Unknown,6,6064,Bohemians Praha 1905,2224,Mladá Boleslav,,,notstarted,1788015600,2026-08-27
+16453929,Czech Republic,Czech First League,172,Czech First League,,2026-08-29,10:00,Unknown,6,6064,Bohemians Praha 1905,2224,Mladá Boleslav,,,postponed,1788015600,2026-08-28
 16453930,Czech Republic,Czech First League,172,Czech First League,,2026-08-29,10:00,Unknown,6,2210,FC Zbrojovka Brno,2220,FC Zlín,,,notstarted,1788015600,2026-08-27
 16453931,Czech Republic,Czech First League,172,Czech First League,,2026-08-29,10:00,Unknown,6,2230,FK Pardubice,35264,SK Artis Brno,,,notstarted,1788015600,2026-08-27
 16446363,Czech Republic,FNL,205,FNL,,2026-08-29,10:00,Unknown,6,2213,1.FK Příbram,23951,MFK Karviná,,,notstarted,1788015600,2026-08-27
