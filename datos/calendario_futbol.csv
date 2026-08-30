@@ -1,35 +1,5 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16867403,Australia,"Queensland NPL, Final Round",1268,"Queensland NPL, Final Round",,2026-08-30,02:00,Unknown,28,47708,Lions FC,91144,Peninsula Power,,,notstarted,1788073200,2026-08-27
-16379938,Czech Republic,FNL,205,FNL,,2026-08-30,03:15,Unknown,6,324982,SK Slavia Praha B,2215,Slezský FC Opava,,,notstarted,1788077700,2026-08-27
-16412032,Austria,2. Liga,135,2. Liga,,2026-08-30,03:30,Unknown,5,2103,Sturm Graz II,2092,Rapid Wien II,,,notstarted,1788078600,2026-08-27
-16349205,Japan,J-League 3,2293,J-League 3,,2026-08-30,04:00,Unknown,4,79883,AC Nagano Parceiro,21906,Thespa Gunma,,,notstarted,1788080400,2026-08-27
-16349213,Japan,J-League 3,2293,J-League 3,,2026-08-30,04:00,Unknown,4,40029,Giravanz Kitakyushu,26011,Matsumoto Yamaga FC,,,notstarted,1788080400,2026-08-27
-16349208,Japan,J-League 3,2293,J-League 3,,2026-08-30,04:30,Unknown,4,287054,Reilac Shiga FC,38141,Gainare Tottori,,,notstarted,1788082200,2026-08-27
-16349210,Japan,J-League 3,2293,J-League 3,,2026-08-30,05:00,Unknown,4,230706,Kochi United SC,21903,Roasso Kumamoto,,,notstarted,1788084000,2026-08-27
-16349211,Japan,J-League 3,2293,J-League 3,,2026-08-30,05:00,Unknown,4,38146,Renofa Yamaguchi FC,205600,FC Osaka,,,notstarted,1788084000,2026-08-27
-16349206,Japan,J-League 3,2293,J-League 3,,2026-08-30,05:00,Unknown,4,38138,Zweigen Kanazawa,8060,Ehime FC,,,notstarted,1788084000,2026-08-27
-16412924,Ukraine,Premier League,218,Premier League,,2026-08-30,05:00,Unknown,4,3310,Chornomorets Odesa,294048,FC Kryvbas Kryvyi Rih,,,notstarted,1788084000,2026-08-27
-16316795,Netherlands,VriendenLoterij Eredivisie,37,VriendenLoterij Eredivisie,,2026-08-30,05:15,Unknown,4,2948,FC Utrecht,2952,PSV Eindhoven,,,notstarted,1788084900,2026-08-27
-16317376,Netherlands,Eerste Divisie,131,Eerste Divisie,,2026-08-30,05:15,Unknown,4,2994,FC Eindhoven,2977,Heracles Almelo,,,notstarted,1788084900,2026-08-27
-15373077,South Korea,K League 1,410,K League 1,,2026-08-30,05:30,Unknown,26,48912,Gwangju FC,7646,FC Seoul,,,notstarted,1788085800,2026-08-27
-15373081,South Korea,K League 1,410,K League 1,,2026-08-30,05:30,Unknown,26,7648,Incheon United,6908,Jeonbuk Hyundai Motors,,,notstarted,1788085800,2026-08-27
-15373080,South Korea,K League 1,410,K League 1,,2026-08-30,05:30,Unknown,26,7649,Jeju SK,7645,Daejeon Hana Citizen,,,notstarted,1788085800,2026-08-27
 15373079,South Korea,K League 1,410,K League 1,,2026-08-30,05:30,Unknown,26,7650,Pohang Steelers,34220,Gangwon FC,,,notstarted,1788085800,2026-08-27
-16299969,South Korea,K-League 2,777,K-League 2,,2026-08-30,05:30,Unknown,24,41260,Gimhae City FC,41266,Yongin City FC,,,notstarted,1788085800,2026-08-27
-15403970,South Korea,K-League 2,777,K-League 2,,2026-08-30,05:30,Unknown,24,41261,Suwon FC,7642,Busan I Park,,,notstarted,1788085800,2026-08-27
-16933021,South Korea,K League 1,410,K League 1,,2026-08-30,05:30,Unknown,26,34220,Gangwon FC,7650,Pohang Steelers,,,notstarted,1788085800,2026-08-27
-15657923,China,Chinese League 1,782,Chinese League 1,,2026-08-30,06:00,Unknown,21,508178,Dalian Kuncheng City,251278,Nantong Zhiyun,,,notstarted,1788087600,2026-08-27
-15657924,China,Chinese League 1,782,Chinese League 1,,2026-08-30,06:00,Unknown,21,221238,Ningbo FC,215186,Meizhou Hakka,,,notstarted,1788087600,2026-08-27
-16317234,Denmark,Betinia Liga,47,Betinia Liga,,2026-08-30,06:00,Unknown,6,1371,Hillerød Fodbold,1392,Hobro,,,notstarted,1788087600,2026-08-27
-16317230,Denmark,Betinia Liga,47,Betinia Liga,,2026-08-30,06:00,Unknown,6,1305,Hvidovre,1302,FC Fredericia,,,notstarted,1788087600,2026-08-27
-16362140,Scotland,Scottish Premiership,36,Scottish Premiership,,2026-08-30,06:00,Unknown,4,2355,Aberdeen,2351,Rangers,,,notstarted,1788087600,2026-08-27
-15657925,China,Chinese League 1,782,Chinese League 1,,2026-08-30,06:30,Unknown,21,510606,Guangdong GZ-Power,34694,Changchun Yatai,,,notstarted,1788089400,2026-08-27
-16361901,Belgium,Pro League,38,Pro League,,2026-08-30,06:30,Unknown,4,2903,KAA Gent,2888,Club Brugge KV,,,notstarted,1788089400,2026-08-27
-15432392,Estonia,Premium Liiga,178,Premium Liiga,,2026-08-30,06:30,Unknown,25,8091,Nõmme Kalju,3342,FCI Levadia Tallinn,,,notstarted,1788089400,2026-08-27
-16434347,Germany,2. Bundesliga,44,2. Bundesliga,,2026-08-30,06:30,Unknown,3,2591,1. FC Magdeburg,2573,Holstein Kiel,,,notstarted,1788089400,2026-08-27
-16434345,Germany,2. Bundesliga,44,2. Bundesliga,,2026-08-30,06:30,Unknown,3,2576,Darmstadt 98,2541,Hannover 96,,,notstarted,1788089400,2026-08-27
-16434342,Germany,2. Bundesliga,44,2. Bundesliga,,2026-08-30,06:30,Unknown,3,2526,FC St. Pauli,2675,1. FC Kaiserslautern,,,notstarted,1788089400,2026-08-27
-16666626,Germany,3. Liga,491,3. Liga,,2026-08-30,06:30,Unknown,3,2554,1. FC Saarbrücken,2533,FC Hansa Rostock,,,notstarted,1788089400,2026-08-27
 16278697,Denmark,Danish Superliga,39,Danish Superliga,,2026-08-30,07:00,Unknown,6,1756,Lyngby,1286,Odense Boldklub,,,notstarted,1788091200,2026-08-27
 16278696,Denmark,Danish Superliga,39,Danish Superliga,,2026-08-30,07:00,Unknown,6,1285,Silkeborg IF,1289,FC Midtjylland,,,notstarted,1788091200,2026-08-27
 16317222,Denmark,Betinia Liga,47,Betinia Liga,,2026-08-30,07:00,Unknown,6,4874,Aarhus Fremad,4872,Vejle,,,notstarted,1788091200,2026-08-27
@@ -200,6 +170,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15502664,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-08-30,15:30,Unknown,27,277525,Orense SC,6001,Macará,,,notstarted,1788121800,2026-08-28
 16280815,Peru,"Liga 1, Clausura",406,"Liga 1, Clausura",,2026-08-30,15:30,Unknown,7,2312,Sport Boys,2302,Club Sporting Cristal,,,notstarted,1788121800,2026-08-28
 16770413,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-08-30,15:30,Unknown,6,6235,Trujillanos FC,6233,Monagas,,,notstarted,1788121800,2026-08-28
+15168347,USA,MLS,242,MLS,,2026-08-30,15:30,Unknown,,2504,Columbus Crew,2511,New England Revolution,,,notstarted,1788121800,2026-08-30
 15275855,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-08-30,16:00,Unknown,27,6074,Godoy Cruz,213361,San Telmo,,,notstarted,1788123600,2026-08-28
 15526256,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-08-30,16:00,Unknown,25,22032,Clube De Regatas Brasil,1984,Criciúma,,,notstarted,1788123600,2026-08-28
 16317815,Costa Rica,"Primera División, Apertura",11535,"Primera División, Apertura",,2026-08-30,16:00,Unknown,6,6574,Deportivo Saprissa,6575,Municipal Liberia,,,canceled,1788123600,2026-08-28
