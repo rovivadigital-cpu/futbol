@@ -1,10 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16738952,Egypt,Egyptian Premier League,808,Egyptian Premier League,,2026-09-01,09:00,Unknown,3,58319,Ghazl El Mahalla FC,43564,El-Sharkia Enppi FC,,,notstarted,1788271200,2026-08-30
-16738947,Egypt,Egyptian Premier League,808,Egyptian Premier League,,2026-09-01,09:00,Unknown,3,43561,Tala'ea El-Gaish,373168,ZED FC,,,notstarted,1788271200,2026-08-30
-16792552,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-09-01,11:00,Unknown,300,229911,FK Austria Wien,743,SK Brann Kvinner,,,notstarted,1788278400,2026-08-30
-16458962,Bosnia & Herzegovina,WWIN Liga BiH,222,WWIN Liga BiH,,2026-09-01,11:30,Unknown,5,37064,FK Sloga Doboj,6146,NK Čelik Zenica,,,notstarted,1788280200,2026-08-31
-16738944,Egypt,Egyptian Premier League,808,Egyptian Premier League,,2026-09-01,12:00,Unknown,3,43568,Wadi Degla,134190,Canal SC,,,notstarted,1788282000,2026-08-30
-15272346,Sweden,Superettan,46,Superettan,,2026-09-01,12:00,Unknown,21,1890,Helsingborgs IF,1768,Örebro SK,,,notstarted,1788282000,2026-08-30
 16734926,Austria,Austrian Bundesliga,45,Austrian Bundesliga,,2026-09-01,12:30,Unknown,4,2076,Wolfsberger AC,2058,LASK,,,notstarted,1788283800,2026-08-30
 16671409,South Africa,Premiership,358,Premiership,,2026-09-01,12:30,Unknown,5,829159,Durban City FC,43555,Stellenbosch,,,notstarted,1788283800,2026-08-30
 16671410,South Africa,Premiership,358,Premiership,,2026-09-01,12:30,Unknown,5,828831,Kruger United,7668,Orlando Pirates,,,notstarted,1788283800,2026-08-30
@@ -48,6 +42,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15502674,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-09-01,19:00,Unknown,28,5257,LDU,134976,Mushuc Runa SC,,,notstarted,1788307200,2026-08-30
 16390722,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-01,20:00,Unknown,8,89368,Fortaleza FC,6118,Once Caldas,,,notstarted,1788310800,2026-08-30
 15657520,New Zealand,Northern League,594,Northern League,,2026-09-02,02:15,Unknown,22,290000,Bay Olympic,284073,Birkenhead United,,,notstarted,1788333300,2026-08-31
+16976452,New Zealand,Northern League,594,Northern League,,2026-09-02,02:15,Unknown,,290000,Bay Olympic,284073,Birkenhead United,,,notstarted,1788333300,2026-09-01
 16962762,Australia,"NSW NPL, Playoffs",1274,"NSW NPL, Playoffs",,2026-09-02,04:30,Unknown,29,2941,Marconi Stallions,413852,North West Sydney Spirit,,,notstarted,1788341400,2026-08-31
 16962763,Australia,"NSW NPL, Playoffs",1274,"NSW NPL, Playoffs",,2026-09-02,04:30,Unknown,29,92214,Sutherland Sharks,92208,Manly United,,,notstarted,1788341400,2026-08-31
 16348567,Japan,J1 League,196,J1 League,,2026-09-02,05:00,Unknown,5,3143,Avispa Fukuoka,3145,Urawa Red Diamonds,,,notstarted,1788343200,2026-08-30
