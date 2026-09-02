@@ -1,10 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16671465,South Africa,Premiership,358,Premiership,,2026-09-02,12:30,Unknown,10,7665,Mamelodi Sundowns,215399,Milford FC,,,notstarted,1788370200,2026-08-31
-16831437,Czech Republic,Czech First League,172,Czech First League,,2026-09-02,13:00,Unknown,4,6064,Bohemians Praha 1905,2205,FK Jablonec,,,notstarted,1788372000,2026-08-31
-16278683,Denmark,Danish Superliga,39,Danish Superliga,,2026-09-02,13:00,Unknown,3,1291,AGF,1289,FC Midtjylland,,,notstarted,1788372000,2026-08-31
-16851127,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-09-02,13:00,Unknown,300,178246,Oud-Heverlee Leuven,230007,Czarni Sosnowiec,,,notstarted,1788372000,2026-08-31
-16792541,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-09-02,13:00,Unknown,300,305051,Real Madrid,178260,Ajax,,,notstarted,1788372000,2026-08-31
-16857326,Slovenia,PrvaLiga,212,PrvaLiga,,2026-09-02,13:00,Unknown,2,2424,NK Aluminij Kidričevo,2413,NK Celje,,,notstarted,1788372000,2026-08-31
 16830011,Austria,Austrian Bundesliga,45,Austrian Bundesliga,,2026-09-02,13:30,Unknown,4,2046,Red Bull Salzburg,2055,SK Rapid Wien,,,notstarted,1788373800,2026-08-31
 16358520,Belgium,Pro League,38,Pro League,,2026-09-02,13:30,Unknown,3,2895,Sint-Truidense VV,4860,Royale Union Saint-Gilloise,,,notstarted,1788373800,2026-08-31
 16792544,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-09-02,13:30,Unknown,300,269824,Juventus,118936,SKN St. Pölten,,,notstarted,1788373800,2026-08-31
