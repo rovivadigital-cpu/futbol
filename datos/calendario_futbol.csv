@@ -1,18 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15657520,New Zealand,Northern League,594,Northern League,,2026-09-02,02:15,Unknown,22,290000,Bay Olympic,284073,Birkenhead United,,,notstarted,1788333300,2026-08-31
-16976452,New Zealand,Northern League,594,Northern League,,2026-09-02,02:15,Unknown,,290000,Bay Olympic,284073,Birkenhead United,,,notstarted,1788333300,2026-09-01
-16962762,Australia,"NSW NPL, Playoffs",1274,"NSW NPL, Playoffs",,2026-09-02,04:30,Unknown,29,2941,Marconi Stallions,413852,North West Sydney Spirit,,,notstarted,1788341400,2026-08-31
-16962763,Australia,"NSW NPL, Playoffs",1274,"NSW NPL, Playoffs",,2026-09-02,04:30,Unknown,29,92214,Sutherland Sharks,92208,Manly United,,,notstarted,1788341400,2026-08-31
-16348567,Japan,J1 League,196,J1 League,,2026-09-02,05:00,Unknown,5,3143,Avispa Fukuoka,3145,Urawa Red Diamonds,,,notstarted,1788343200,2026-08-30
-16348565,Japan,J1 League,196,J1 League,,2026-09-02,05:00,Unknown,5,3141,Cerezo Osaka,3140,Kashiwa Reysol,,,notstarted,1788343200,2026-08-30
-16348562,Japan,J1 League,196,J1 League,,2026-09-02,05:00,Unknown,5,3144,JEF United Chiba,34034,Fagiano Okayama,,,notstarted,1788343200,2026-08-30
-16348564,Japan,J1 League,196,J1 League,,2026-09-02,05:00,Unknown,5,44409,Machida Zelvia,5127,Kawasaki Frontale,,,notstarted,1788343200,2026-08-30
-16348561,Japan,J1 League,196,J1 League,,2026-09-02,05:00,Unknown,5,21901,Mito Hollyhock,3134,Kashima Antlers,,,notstarted,1788343200,2026-08-30
-16348573,Japan,J1 League,196,J1 League,,2026-09-02,05:00,Unknown,5,3135,Sanfrecce Hiroshima,3136,Nagoya Grampus,,,notstarted,1788343200,2026-08-30
-16348569,Japan,J1 League,196,J1 League,,2026-09-02,05:00,Unknown,5,3133,Shimizu S-Pulse,3147,FC Tokyo,,,notstarted,1788343200,2026-08-30
-16348571,Japan,J1 League,196,J1 League,,2026-09-02,05:00,Unknown,5,3139,Tokyo Verdy,3146,Vissel Kobe,,,notstarted,1788343200,2026-08-30
-16348563,Japan,J1 League,196,J1 League,,2026-09-02,05:00,Unknown,5,38154,V-Varen Nagasaki,3138,Gamba Osaka,,,notstarted,1788343200,2026-08-30
-16348568,Japan,J1 League,196,J1 League,,2026-09-02,05:00,Unknown,5,3137,Yokohama F. Marinos,3149,Kyoto Sanga FC,,,notstarted,1788343200,2026-08-30
 16738937,Egypt,Egyptian Premier League,808,Egyptian Premier League,,2026-09-02,09:00,Unknown,3,43565,El Gouna FC,42365,Arab Contractors FC,,,notstarted,1788357600,2026-08-31
 16800401,Czech Republic,Czech First League,172,Czech First League,,2026-09-02,11:00,Unknown,4,2210,FC Zbrojovka Brno,2217,FC Hradec Králové,,,notstarted,1788364800,2026-08-31
 16727754,Estonia,Premium Liiga,178,Premium Liiga,,2026-09-02,11:00,Unknown,22,3346,Flora Tallinn,138566,Tartu JK Tammeka,,,notstarted,1788364800,2026-08-31
@@ -71,6 +57,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16854115,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-09-02,18:00,Unknown,21,112493,Colegiales,270344,Ferrocarril Midland,,,notstarted,1788390000,2026-08-31
 15285824,USA,USL Championship,13363,USL Championship,,2026-09-02,18:00,Unknown,1,22004,Charleston Battery,310968,Hartford Athletic,,,notstarted,1788390000,2026-08-31
 15285579,USA,"USL, League One",13362,"USL, League One",,2026-09-02,18:00,Unknown,,1044342,Westchester SC,312631,Chattanooga Red Wolves SC,,,notstarted,1788390000,2026-08-31
+16979706,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-02,18:20,Unknown,,6108,Cúcuta Deportivo,1164534,Internacional de Bogotá,,,notstarted,1788391200,2026-09-02
 15285569,USA,"USL, League One",13362,"USL, League One",,2026-09-02,18:30,Unknown,,197072,Charlotte Independence,1044345,Portland Hearts of Pine,,,notstarted,1788391800,2026-08-31
 15285573,USA,"USL, League One",13362,"USL, League One",,2026-09-02,18:30,Unknown,,341749,Fort Wayne FC,23841,Richmond Kickers,,,notstarted,1788391800,2026-08-31
 15285572,USA,"USL, League One",13362,"USL, League One",,2026-09-02,18:30,Unknown,,53903,New York Cosmos,465623,Sarasota Paradise,,,notstarted,1788391800,2026-08-31
