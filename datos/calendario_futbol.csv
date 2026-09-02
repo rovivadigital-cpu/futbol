@@ -1,18 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16738937,Egypt,Egyptian Premier League,808,Egyptian Premier League,,2026-09-02,09:00,Unknown,3,43565,El Gouna FC,42365,Arab Contractors FC,,,notstarted,1788357600,2026-08-31
-16800401,Czech Republic,Czech First League,172,Czech First League,,2026-09-02,11:00,Unknown,4,2210,FC Zbrojovka Brno,2217,FC Hradec Králové,,,notstarted,1788364800,2026-08-31
-16727754,Estonia,Premium Liiga,178,Premium Liiga,,2026-09-02,11:00,Unknown,22,3346,Flora Tallinn,138566,Tartu JK Tammeka,,,notstarted,1788364800,2026-08-31
-16458961,Bosnia & Herzegovina,WWIN Liga BiH,222,WWIN Liga BiH,,2026-09-02,11:00,Unknown,5,6151,FK Velež Mostar,6149,FK Radnik Bijeljina,,,notstarted,1788364800,2026-08-31
-16830012,Austria,Austrian Bundesliga,45,Austrian Bundesliga,,2026-09-02,11:30,Unknown,4,2203,FK Austria Wien,5405,WSG Tirol,,,notstarted,1788366600,2026-08-31
-16794986,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-09-02,11:30,Unknown,300,325685,Inter,5556,VfL Wolfsburg,,,notstarted,1788366600,2026-08-31
-16792543,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-09-02,11:30,Unknown,300,55505,Paris Saint-Germain,108685,Eintracht Frankfurt,,,notstarted,1788366600,2026-08-31
-16792553,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-09-02,11:45,Unknown,300,305811,Servette FC Chênois Féminin,38255,Sparta Prague,,,notstarted,1788367500,2026-08-31
-16806289,Bulgaria,Parva Liga,247,Parva Liga,,2026-09-02,12:00,Unknown,5,3274,Slavia Sofia,3273,Levski Sofia,,,notstarted,1788368400,2026-08-31
-16738951,Egypt,Egyptian Premier League,808,Egyptian Premier League,,2026-09-02,12:00,Unknown,3,276648,Abu Qir Fertilizers SC,35187,Al-Ittihad Alexandria,,,notstarted,1788368400,2026-08-31
-16738950,Egypt,Egyptian Premier League,808,Egyptian Premier League,,2026-09-02,12:00,Unknown,3,371622,Cleopatra FC,265830,Modern Sport FC,,,notstarted,1788368400,2026-08-31
-16364303,Israel,Premier League,266,Premier League,,2026-09-02,12:00,Unknown,1,5202,Hapoel Be'er Sheva,5201,Hapoel Haifa,,,notstarted,1788368400,2026-08-31
-16792551,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-09-02,12:00,Unknown,300,333128,HB Køge,178262,PSV Eindhoven,,,notstarted,1788368400,2026-08-31
-16792542,Europe,"UEFA Champions League, Women, Qualification",696,"UEFA Champions League, Women, Qualification",,2026-09-02,12:00,Unknown,300,77897,Real Sociedad,66768,Chelsea FC,,,notstarted,1788368400,2026-08-31
 16671465,South Africa,Premiership,358,Premiership,,2026-09-02,12:30,Unknown,10,7665,Mamelodi Sundowns,215399,Milford FC,,,notstarted,1788370200,2026-08-31
 16831437,Czech Republic,Czech First League,172,Czech First League,,2026-09-02,13:00,Unknown,4,6064,Bohemians Praha 1905,2205,FK Jablonec,,,notstarted,1788372000,2026-08-31
 16278683,Denmark,Danish Superliga,39,Danish Superliga,,2026-09-02,13:00,Unknown,3,1291,AGF,1289,FC Midtjylland,,,notstarted,1788372000,2026-08-31
