@@ -1,8 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16774402,Indonesia,Indonesia Super League,1015,Indonesia Super League,,2026-09-04,03:30,Unknown,1,47465,Arema FC,409975,Isen Mulang FC,,,notstarted,1788510600,2026-09-01
-16412937,Ukraine,Premier League,218,Premier League,,2026-09-04,05:00,Unknown,5,3310,Chornomorets Odesa,388209,FC Livyi Bereh Kyiv,,,notstarted,1788516000,2026-09-01
-15403972,South Korea,K-League 2,777,K-League 2,,2026-09-04,05:30,Unknown,25,314293,Cheongju FC,189422,Seoul E-Land FC,,,notstarted,1788517800,2026-09-01
-15403980,South Korea,K-League 2,777,K-League 2,,2026-09-04,05:30,Unknown,25,314294,Paju Frontier FC,7644,Daegu FC,,,notstarted,1788517800,2026-09-01
 16892695,Armenia,Fastex Premier League,671,Fastex Premier League,,2026-09-04,07:00,Unknown,6,423250,FC Syunik,5214,Pyunik Yerevan,,,notstarted,1788523200,2026-09-01
 16667916,Germany,3. Liga,491,3. Liga,,2026-09-04,07:00,Unknown,4,2683,SC Fortuna Köln,2588,Fortuna Düsseldorf,,,postponed,1788523200,2026-09-01
 16667913,Germany,3. Liga,491,3. Liga,,2026-09-04,07:00,Unknown,4,5894,SG Sonnenhof Großaspach,5887,TSG Hoffenheim II U23,,,postponed,1788523200,2026-09-01
@@ -705,7 +701,6 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16774707,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-09-06,15:00,Unknown,9,230725,Academia Puerto Cabello,6229,Carabobo FC,,,notstarted,1788724800,2026-09-04
 16774706,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-09-06,15:00,Unknown,9,418693,Anzoátegui FC,162480,Metropolitanos,,,postponed,1788724800,2026-09-04
 16774710,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-09-06,15:00,Unknown,9,6230,Caracas F.C.,6233,Monagas,,,postponed,1788724800,2026-09-04
-16774705,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-09-06,15:00,Unknown,9,36437,Deportivo La Guaira,249952,Universidad Central,,,notstarted,1788724800,2026-09-04
 16774703,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-09-06,15:00,Unknown,9,386310,Deportivo Rayo Zuliano,6234,Portuguesa FC,,,postponed,1788724800,2026-09-04
 16774704,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-09-06,15:00,Unknown,9,7745,Estudiantes de Mérida,6231,Deportivo Táchira,,,postponed,1788724800,2026-09-04
 16774702,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-09-06,15:00,Unknown,9,6237,Zamora,6235,Trujillanos FC,,,postponed,1788724800,2026-09-04
@@ -728,6 +723,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15235457,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-09-06,17:30,Unknown,26,1957,Corinthians,21845,Chapecoense,,,notstarted,1788733800,2026-09-04
 16938460,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-09-06,17:30,Unknown,5,6879,Liverpool UY,174970,Boston River,,,notstarted,1788733800,2026-09-04
 16774697,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-09-06,17:30,Unknown,8,6231,Deportivo Táchira,386310,Deportivo Rayo Zuliano,,,notstarted,1788733800,2026-09-04
+16774705,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-09-06,18:00,Unknown,9,36437,Deportivo La Guaira,249952,Universidad Central,,,postponed,1788735600,2026-09-04
 16999807,USA,MLS Next Pro,18641,MLS Next Pro,,2026-09-06,18:00,Unknown,,407234,Houston Dynamo 2,467301,Austin FC II,,,notstarted,1788735600,2026-09-04
 15385459,USA,NWSL,1690,NWSL,,2026-09-06,18:00,Unknown,1,215083,Orlando Pride,151006,Houston Dash,,,notstarted,1788735600,2026-09-04
 16390732,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-06,18:10,Unknown,9,6109,Deportivo Pereira,6117,Millonarios,,,notstarted,1788736200,2026-09-04
