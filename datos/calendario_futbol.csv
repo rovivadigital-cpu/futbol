@@ -1,14 +1,10 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16774701,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-09-06,16:00,Unknown,8,6233,Monagas,162480,Metropolitanos,,,notstarted,1788728400,2026-09-04
 16774705,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-09-06,18:00,Unknown,9,36437,Deportivo La Guaira,249952,Universidad Central,,,postponed,1788735600,2026-09-04
 16999807,USA,MLS Next Pro,18641,MLS Next Pro,,2026-09-06,18:00,Unknown,,407234,Houston Dynamo 2,467301,Austin FC II,,,notstarted,1788735600,2026-09-04
-15385459,USA,NWSL,1690,NWSL,,2026-09-06,18:00,Unknown,1,215083,Orlando Pride,151006,Houston Dash,,,notstarted,1788735600,2026-09-04
-16390732,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-06,18:10,Unknown,9,6109,Deportivo Pereira,6117,Millonarios,,,notstarted,1788736200,2026-09-04
-16280821,Peru,"Liga 1, Clausura",406,"Liga 1, Clausura",,2026-09-06,18:30,Unknown,8,2308,Melgar,335557,Asociación Deportiva Tarma,,,notstarted,1788737400,2026-09-04
+15385459,USA,NWSL,1690,NWSL,,2026-09-06,18:00,Unknown,1,215083,Orlando Pride,151006,Houston Dash,,,delayed,1788735600,2026-09-06
 16748569,Bolivia,División Profesional,16736,División Profesional,,2026-09-06,19:00,Unknown,18,47700,Nacional Potosí,6968,Blooming,,,notstarted,1788739200,2026-09-04
 15502677,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-09-06,19:00,Unknown,29,5249,Aucas,5250,Barcelona SC Guayaquil,,,notstarted,1788739200,2026-09-04
 15502683,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-09-06,19:00,Unknown,29,5251,Deportivo Cuenca,394127,Libertad FC,,,notstarted,1788739200,2026-09-04
-16774693,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-09-06,19:00,Unknown,8,36437,Deportivo La Guaira,418693,Anzoátegui FC,,,notstarted,1788739200,2026-09-04
 16671604,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-09-06,19:30,Unknown,8,3215,Racing Club,36833,Atlético Tucumán,,,notstarted,1788741000,2026-09-04
 16317821,Costa Rica,"Primera División, Apertura",11535,"Primera División, Apertura",,2026-09-06,20:00,Unknown,7,7047,San Carlos,262906,Sporting FC,,,notstarted,1788742800,2026-09-04
 15385456,USA,NWSL,1690,NWSL,,2026-09-06,20:00,Unknown,1,151010,Seattle Reign FC,408170,San Diego Wave FC,,,notstarted,1788742800,2026-09-04
@@ -55,6 +51,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16588850,Paraguay,"Primera División, Clausura",11541,"Primera División, Clausura",,2026-09-07,14:00,Unknown,9,5994,Guaraní,292595,Recoleta FC,,,notstarted,1788807600,2026-09-05
 16416319,Spain,LaLiga,8,LaLiga,,2026-09-07,14:30,Unknown,4,2846,Elche,2824,Real Sociedad,,,notstarted,1788809400,2026-09-05
 15275884,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-09-07,15:00,Unknown,28,3200,Nueva Chicago,4936,Quilmes Atlético Club,,,notstarted,1788811200,2026-09-05
+15421210,USA,MLS Next Pro,18641,MLS Next Pro,,2026-09-07,15:00,Unknown,1,197063,Portland Timbers II,217785,Vancouver Whitecaps FC II,,,notstarted,1788811200,2026-09-06
 16969971,Brazil,"Brasileirão Série C, Group C",1281,"Brasileirão Série C, Group C",,2026-09-07,16:00,Unknown,1,1997,Paysandu SC,21884,Brusque,,,notstarted,1788814800,2026-09-05
 16588869,Paraguay,"Primera División, Clausura",11541,"Primera División, Clausura",,2026-09-07,16:30,Unknown,9,5991,Cerro Porteño,33001,Nacional Asunción,,,notstarted,1788816600,2026-09-05
 16671601,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-09-07,17:00,Unknown,8,65668,Barracas Central,3216,Argentinos Juniors,,,notstarted,1788818400,2026-09-05
