@@ -1,28 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16273121,Lithuania,TOPLYGA,198,TOPLYGA,,2026-09-07,10:45,Unknown,30,171484,FC Hegelmann,192763,FK Panevėžys,,,notstarted,1788795900,2026-09-05
-16317386,Netherlands,Eerste Divisie,131,Eerste Divisie,,2026-09-07,13:00,Unknown,5,53067,Jong FC Utrecht,2994,FC Eindhoven,,,notstarted,1788804000,2026-09-05
-16317387,Netherlands,Eerste Divisie,131,Eerste Divisie,,2026-09-07,13:00,Unknown,5,46168,Jong PSV Eindhoven,2963,FC Den Bosch,,,notstarted,1788804000,2026-09-05
-16629481,Saudi Arabia,Saudi Pro League,955,Saudi Pro League,,2026-09-07,13:00,Unknown,6,21895,Al-Hilal,530631,Neom SC,,,notstarted,1788804000,2026-09-05
-16938463,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-09-07,13:00,Unknown,5,278204,Albion FC,3238,Progreso,,,notstarted,1788804000,2026-09-05
-16418278,Spain,LaLiga 2,54,LaLiga 2,,2026-09-07,13:30,Unknown,4,24335,CE Sabadell,2850,Córdoba,,,notstarted,1788805800,2026-09-05
-16607573,Italy,Serie B,53,Serie B,,2026-09-07,13:30,Unknown,3,2715,Palermo,2711,Sampdoria,,,notstarted,1788805800,2026-09-05
-16317002,Poland,Ekstraklasa,202,Ekstraklasa,,2026-09-07,13:30,Unknown,7,3117,Pogoń Szczecin,3122,Wisła Płock,,,notstarted,1788805800,2026-09-05
-16473662,France,Ligue 2,182,Ligue 2,,2026-09-07,13:45,Unknown,5,1647,Nantes,1675,Nancy,,,notstarted,1788806700,2026-09-05
-16285006,Italy,Serie A,23,Serie A,,2026-09-07,13:45,Unknown,3,2695,Udinese,2699,Lazio,,,notstarted,1788806700,2026-09-05
-16443226,England,League One,24,League One,,2026-09-07,14:00,Unknown,5,180,Bromley,23957,AFC Wimbledon,,,notstarted,1788807600,2026-09-05
-15502871,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-09-07,14:00,Unknown,1,309892,Halifax Wanderers FC,309889,Cavalry FC,,,notstarted,1788807600,2026-09-05
-16588850,Paraguay,"Primera División, Clausura",11541,"Primera División, Clausura",,2026-09-07,14:00,Unknown,9,5994,Guaraní,292595,Recoleta FC,,,notstarted,1788807600,2026-09-05
-16416319,Spain,LaLiga,8,LaLiga,,2026-09-07,14:30,Unknown,4,2846,Elche,2824,Real Sociedad,,,notstarted,1788809400,2026-09-05
-15275884,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-09-07,15:00,Unknown,28,3200,Nueva Chicago,4936,Quilmes Atlético Club,,,notstarted,1788811200,2026-09-05
-15421210,USA,MLS Next Pro,18641,MLS Next Pro,,2026-09-07,15:00,Unknown,1,197063,Portland Timbers II,217785,Vancouver Whitecaps FC II,,,notstarted,1788811200,2026-09-06
-16969971,Brazil,"Brasileirão Série C, Group C",1281,"Brasileirão Série C, Group C",,2026-09-07,16:00,Unknown,1,1997,Paysandu SC,21884,Brusque,,,notstarted,1788814800,2026-09-05
-16588869,Paraguay,"Primera División, Clausura",11541,"Primera División, Clausura",,2026-09-07,16:30,Unknown,9,5991,Cerro Porteño,33001,Nacional Asunción,,,notstarted,1788816600,2026-09-05
-16671601,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-09-07,17:00,Unknown,8,65668,Barracas Central,3216,Argentinos Juniors,,,notstarted,1788818400,2026-09-05
-16774694,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-09-07,17:00,Unknown,8,6229,Carabobo FC,7745,Estudiantes de Mérida,,,notstarted,1788818400,2026-09-05
-15353118,Chile,Liga de Primera,11653,Liga de Primera,,2026-09-07,18:00,Unknown,22,331131,Deportes Limache,3167,Cobresal,,,notstarted,1788822000,2026-09-05
-15235465,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-09-07,18:00,Unknown,26,1962,Vitória,5926,Grêmio,,,notstarted,1788822000,2026-09-05
-16977580,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-07,18:00,Unknown,5,89374,Llaneros FC,6111,Deportes Tolima,,,notstarted,1788822000,2026-09-05
-16774700,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-09-07,18:00,Unknown,8,249952,Universidad Central,230725,Academia Puerto Cabello,,,notstarted,1788822000,2026-09-05
 15502682,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-09-07,19:00,Unknown,29,5255,Emelec,33561,Manta FC,,,notstarted,1788825600,2026-09-05
 15502684,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-09-07,19:00,Unknown,29,134976,Mushuc Runa SC,388234,Leones del Norte,,,notstarted,1788825600,2026-09-05
 15502678,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-09-07,19:00,Unknown,29,277525,Orense SC,188850,Guayaquil City,,,notstarted,1788825600,2026-09-05
