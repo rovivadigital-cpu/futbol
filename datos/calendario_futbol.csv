@@ -1,31 +1,5 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16738954,Egypt,Egyptian Premier League,808,Egyptian Premier League,,2026-09-07,09:00,Unknown,4,35187,Al-Ittihad Alexandria,270807,Asyut Petroleum,,,notstarted,1788789600,2026-09-05
-16738953,Egypt,Egyptian Premier League,808,Egyptian Premier League,,2026-09-07,09:00,Unknown,4,134190,Canal SC,43561,Tala'ea El-Gaish,,,notstarted,1788789600,2026-09-05
-16403875,Romania,Superliga,152,Superliga,,2026-09-07,09:30,Unknown,8,44255,FC Voluntari,116221,FC Argeș Pitești,,,notstarted,1788791400,2026-09-05
-16560027,Greece,Stoiximan Super League,185,Stoiximan Super League,,2026-09-07,10:00,Unknown,3,6342,Asteras Aktor,81751,POT Iraklis,,,notstarted,1788793200,2026-09-05
-16629480,Saudi Arabia,Saudi Pro League,955,Saudi Pro League,,2026-09-07,10:30,Unknown,6,167228,Al-Khaleej,168088,Al-Riyadh,,,notstarted,1788795000,2026-09-05
 16273121,Lithuania,TOPLYGA,198,TOPLYGA,,2026-09-07,10:45,Unknown,30,171484,FC Hegelmann,192763,FK Panevėžys,,,notstarted,1788795900,2026-09-05
-15341329,Finland,Ykkosliiga,55,Ykkosliiga,,2026-09-07,11:00,Unknown,22,5918,HJK Klubi 04,2273,KäPa,,,notstarted,1788796800,2026-09-05
-15472581,Latvia,Virsliga,197,Virsliga,,2026-09-07,11:00,Unknown,29,68718,RFS,146336,FK Liepaja,,,notstarted,1788796800,2026-09-05
-15472580,Latvia,Virsliga,197,Virsliga,,2026-09-07,11:00,Unknown,29,162368,Riga FC,41498,BFC Daugavpils,,,notstarted,1788796800,2026-09-05
-16316999,Poland,Ekstraklasa,202,Ekstraklasa,,2026-09-07,11:00,Unknown,7,334956,Wieczysta Kraków,3113,Zagłębie Lubin,,,notstarted,1788796800,2026-09-05
-16284997,Italy,Serie A,23,Serie A,,2026-09-07,11:30,Unknown,3,2719,Cagliari,2689,Lecce,,,notstarted,1788798600,2026-09-05
-16364234,Israel,Premier League,266,Premier League,,2026-09-07,11:45,Unknown,3,5395,Maccabi Netanya,5201,Hapoel Haifa,,,notstarted,1788799500,2026-09-05
-16416348,Spain,LaLiga,8,LaLiga,,2026-09-07,12:00,Unknown,4,2859,Getafe,2821,Celta Vigo,,,notstarted,1788800400,2026-09-05
-16278703,Denmark,Danish Superliga,39,Danish Superliga,,2026-09-07,12:00,Unknown,7,1289,FC Midtjylland,1292,FC Nordsjælland,,,notstarted,1788800400,2026-09-05
-16738957,Egypt,Egyptian Premier League,808,Egyptian Premier League,,2026-09-07,12:00,Unknown,4,266626,National Bank of Egypt,58319,Ghazl El Mahalla FC,,,notstarted,1788800400,2026-09-05
-16738956,Egypt,Egyptian Premier League,808,Egyptian Premier League,,2026-09-07,12:00,Unknown,4,43567,Suez Petrojet FC,43560,Al-Masry,,,notstarted,1788800400,2026-09-05
-16364232,Israel,Premier League,266,Premier League,,2026-09-07,12:00,Unknown,3,5396,Hapoel Tel Aviv,7385,Hapoel Ramat Gan Givataim,,,notstarted,1788800400,2026-09-05
-15272516,Sweden,Allsvenskan,40,Allsvenskan,,2026-09-07,12:00,Unknown,20,1891,Kalmar FF,1759,Djurgårdens IF,,,notstarted,1788800400,2026-09-05
-15272512,Sweden,Allsvenskan,40,Allsvenskan,,2026-09-07,12:00,Unknown,20,1892,Malmö FF,1764,AIK,,,notstarted,1788800400,2026-09-05
-15272511,Sweden,Allsvenskan,40,Allsvenskan,,2026-09-07,12:00,Unknown,20,1783,Mjällby AIF,1761,IFK Göteborg,,,notstarted,1788800400,2026-09-05
-16483658,Turkey,Trendyol Süper Lig,52,Trendyol Süper Lig,,2026-09-07,12:00,Unknown,4,3054,Göztepe,5138,Gaziantep FK,,,notstarted,1788800400,2026-09-05
-16483644,Turkey,Trendyol Süper Lig,52,Trendyol Süper Lig,,2026-09-07,12:00,Unknown,4,3064,Çaykur Rizespor,6362,Alanyaspor,,,notstarted,1788800400,2026-09-05
-15272358,Sweden,Superettan,46,Superettan,,2026-09-07,12:05,Unknown,22,1768,Örebro SK,1836,Östersunds FK,,,notstarted,1788800700,2026-09-05
-16364238,Israel,Premier League,266,Premier League,,2026-09-07,12:15,Unknown,3,5392,Bnei Sakhnin,5204,Beitar Jerusalem,,,notstarted,1788801300,2026-09-05
-16295818,Bulgaria,Parva Liga,247,Parva Liga,,2026-09-07,12:30,Unknown,8,3286,FK Dunav Ruse,3274,Slavia Sofia,,,notstarted,1788802200,2026-09-05
-16364235,Israel,Premier League,266,Premier League,,2026-09-07,12:30,Unknown,3,5202,Hapoel Be'er Sheva,5198,Maccabi Tel Aviv,,,notstarted,1788802200,2026-09-05
-16403876,Romania,Superliga,152,Superliga,,2026-09-07,12:30,Unknown,8,116223,Universitatea Craiova,7734,FC Universitatea Cluj,,,notstarted,1788802200,2026-09-05
 16317386,Netherlands,Eerste Divisie,131,Eerste Divisie,,2026-09-07,13:00,Unknown,5,53067,Jong FC Utrecht,2994,FC Eindhoven,,,notstarted,1788804000,2026-09-05
 16317387,Netherlands,Eerste Divisie,131,Eerste Divisie,,2026-09-07,13:00,Unknown,5,46168,Jong PSV Eindhoven,2963,FC Den Bosch,,,notstarted,1788804000,2026-09-05
 16629481,Saudi Arabia,Saudi Pro League,955,Saudi Pro League,,2026-09-07,13:00,Unknown,6,21895,Al-Hilal,530631,Neom SC,,,notstarted,1788804000,2026-09-05
