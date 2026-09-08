@@ -1,27 +1,6 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16629485,Saudi Arabia,Saudi Pro League,955,Saudi Pro League,,2026-09-08,13:00,Unknown,6,34315,Al-Ittihad,168094,Al-Fayha,,,notstarted,1788890400,2026-09-06
-16629484,Saudi Arabia,Saudi Pro League,955,Saudi Pro League,,2026-09-08,13:00,Unknown,6,56027,Al-Qadsiah,34469,Al-Ahli,,,notstarted,1788890400,2026-09-06
-15421209,USA,MLS Next Pro,18641,MLS Next Pro,,2026-09-08,13:00,Unknown,1,277127,Atlanta United 2,1166614,Connecticut United,,,notstarted,1788890400,2026-09-06
-16391657,England,Championship,18,Championship,,2026-09-08,13:45,Unknown,6,46,Blackburn Rovers,15,Sheffield United,,,notstarted,1788893100,2026-09-06
-16391661,England,Championship,18,Championship,,2026-09-08,13:45,Unknown,6,61,Cardiff City,29,Stoke City,,,notstarted,1788893100,2026-09-06
-16391663,England,Championship,18,Championship,,2026-09-08,13:45,Unknown,6,45,Southampton,74,Swansea City,,,notstarted,1788893100,2026-09-06
-16391664,England,Championship,18,Championship,,2026-09-08,13:45,Unknown,6,24,Watford,21,Preston North End,,,notstarted,1788893100,2026-09-06
-16391669,England,Championship,18,Championship,,2026-09-08,13:45,Unknown,6,64,Wrexham,6,Burnley,,,notstarted,1788893100,2026-09-06
-16439935,England,League One,24,League One,,2026-09-08,13:45,Unknown,3,95,Oxford United,28,Reading,,,postponed,1788893100,2026-09-06
-16391659,England,Championship,18,Championship,,2026-09-08,14:00,Unknown,6,5,Bolton Wanderers,37,West Ham United,,,notstarted,1788894000,2026-09-06
-16938848,Europe,UEFA Champions League,7,UEFA Champions League,,2026-09-08,14:00,Unknown,1,2673,Borussia Dortmund,2819,Villarreal,,,notstarted,1788894000,2026-09-06
-16938854,Europe,UEFA Champions League,7,UEFA Champions League,,2026-09-08,14:00,Unknown,1,3002,FC Porto,17,Manchester City,,,notstarted,1788894000,2026-09-06
-16938991,Europe,UEFA Champions League,7,UEFA Champions League,,2026-09-08,14:00,Unknown,1,1643,Lille,2816,Real Betis,,,notstarted,1788894000,2026-09-06
-16938768,Europe,UEFA Champions League,7,UEFA Champions League,,2026-09-08,14:00,Unknown,1,2829,Real Madrid,2697,Inter,,,notstarted,1788894000,2026-09-06
-16585929,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-09-08,16:00,Unknown,25,3158,Deportes Puerto Montt,3154,Rangers de Talca,,,notstarted,1788901200,2026-09-06
-16585988,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-09-08,16:00,Unknown,25,3152,Unión San Felipe,39220,San Luis de Quillota,,,postponed,1788901200,2026-09-06
-16872384,South America,"CONMEBOL Libertadores, Knockout stage",384,"CONMEBOL Libertadores, Knockout stage",,2026-09-08,17:00,Unknown,27,1961,Fluminense,36837,Club Atlético Platense,,,notstarted,1788904800,2026-09-06
-16932219,South America,"CONMEBOL Sudamericana, Knockout stage",480,"CONMEBOL Sudamericana, Knockout stage",,2026-09-08,17:00,Unknown,27,6116,Independiente Santa Fe,1974,Vasco da Gama,,,notstarted,1788904800,2026-09-06
 15421212,USA,MLS Next Pro,18641,MLS Next Pro,,2026-09-08,18:00,Unknown,1,411368,New York City FC II,220949,New York Red Bulls II,,,notstarted,1788908400,2026-09-06
 16999810,USA,MLS Next Pro,18641,MLS Next Pro,,2026-09-08,18:00,Unknown,,217784,Toronto FC II,411365,Columbus Crew 2,,,notstarted,1788908400,2026-09-06
-16585979,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-09-08,18:30,Unknown,25,33595,Curicó Unido,3153,Unión Española,,,notstarted,1788910200,2026-09-06
-16585998,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-09-08,18:30,Unknown,25,119072,Deportes Temuco,3150,Santiago Wanderers,,,notstarted,1788910200,2026-09-06
-15526276,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-09-08,18:30,Unknown,27,49202,Cuiabá,342775,Athletic Club,,,notstarted,1788910200,2026-09-06
 15526274,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-09-08,19:30,Unknown,27,1984,Criciúma,1980,Juventude,,,notstarted,1788913800,2026-09-06
 16459586,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-09-08,19:30,Unknown,4,39866,Internacional de Palmira,89372,Atlético Cali,,,notstarted,1788913800,2026-09-06
 16872336,South America,"CONMEBOL Sudamericana, Knockout stage",480,"CONMEBOL Sudamericana, Knockout stage",,2026-09-08,19:30,Unknown,27,3202,Boca Juniors,1981,São Paulo,,,notstarted,1788913800,2026-09-06
@@ -34,6 +13,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15373093,South Korea,K League 1,410,K League 1,,2026-09-09,05:30,Unknown,28,7650,Pohang Steelers,7647,Gimcheon Sangmu FC,,,notstarted,1788949800,2026-09-06
 17009774,Armenia,Fastex Premier League,671,Fastex Premier League,,2026-09-09,07:00,Unknown,3,1108829,Sardarapat FC,5214,Pyunik Yerevan,,,notstarted,1788955200,2026-09-06
 16990423,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-09,07:00,Unknown,1,42465,Napoli U19,90120,Arsenal U19,,,notstarted,1788955200,2026-09-06
+17045020,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-09,07:00,Unknown,1,829592,Napoli U20,90120,Arsenal U19,,,notstarted,1788955200,2026-09-08
 16990412,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-09,07:30,Unknown,1,90138,Paris Saint-Germain U19,110757,ŠK Slovan Bratislava U19,,,notstarted,1788957000,2026-09-06
 16990416,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-09,08:00,Unknown,1,78151,Sporting U19,120868,Galatasaray U19,,,notstarted,1788958800,2026-09-06
 16738961,Egypt,Egyptian Premier League,808,Egyptian Premier League,,2026-09-09,09:00,Unknown,4,265830,Modern Sport FC,43568,Wadi Degla,,,notstarted,1788962400,2026-09-07
@@ -116,6 +96,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16990408,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-10,07:00,Unknown,1,44163,Slavia Praha U19,296210,Lens U19,,,notstarted,1789041600,2026-09-07
 16990411,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-10,08:00,Unknown,1,206254,Como U20,136294,RB Leipzig U19,,,notstarted,1789045200,2026-09-07
 16990418,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-10,08:00,Unknown,1,120848,Manchester United U19,931005,Sabah U19,,,notstarted,1789045200,2026-09-07
+17045021,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-10,08:00,Unknown,1,206254,Como U20,136294,RB Leipzig U19,,,notstarted,1789045200,2026-09-08
 16883743,United Arab Emirates,Pro League,971,Pro League,,2026-09-10,08:40,Unknown,5,8090,Al-Jazira,46332,Al-Nasr Dubai,,,notstarted,1789047600,2026-09-07
 16883742,United Arab Emirates,Pro League,971,Pro League,,2026-09-10,08:40,Unknown,5,477045,United,264111,Shabab Al-Ahli Dubai,,,notstarted,1789047600,2026-09-07
 16990409,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-10,09:00,Unknown,1,43728,FC Bayern München U19,295469,Bodo/Glimt U19,,,notstarted,1789048800,2026-09-08
