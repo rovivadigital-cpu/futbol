@@ -1,8 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16990406,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-08,04:00,Unknown,1,297065,AEK Athens U19,1271520,LASK Linz U19,,,notstarted,1788858000,2026-09-05
-15373085,South Korea,K League 1,410,K League 1,,2026-09-08,05:30,Unknown,28,7648,Incheon United,92539,Bucheon FC 1995,,,notstarted,1788863400,2026-09-05
-15373088,South Korea,K League 1,410,K League 1,,2026-09-08,05:30,Unknown,28,7653,Ulsan HD,7646,FC Seoul,,,notstarted,1788863400,2026-09-05
-16990415,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-08,06:00,Unknown,1,78117,FC Porto U19,120856,Manchester City U19,,,notstarted,1788865200,2026-09-05
 16990407,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-08,07:00,Unknown,1,231976,Club Brugge U19,90122,Aston Villa U19,,,notstarted,1788868800,2026-09-05
 16990420,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-08,08:00,Unknown,1,296213,Lille U19,275789,Real Betis U19,,,notstarted,1788872400,2026-09-05
 16990410,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-08,09:00,Unknown,1,43719,Borussia Dortmund U19,206355,Villarreal U19,,,notstarted,1788876000,2026-09-06
@@ -82,6 +78,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15272364,Sweden,Superettan,46,Superettan,,2026-09-09,12:00,Unknown,23,1824,Ljungskile SK,1849,Norrby IF,,,notstarted,1788973200,2026-09-07
 15272369,Sweden,Superettan,46,Superettan,,2026-09-09,12:00,Unknown,23,377598,Nordic United FC,1842,IFK Värnamo,,,notstarted,1788973200,2026-09-07
 15272366,Sweden,Superettan,46,Superettan,,2026-09-09,12:00,Unknown,23,1844,Sandvikens IF,1860,IK Oddevold,,,notstarted,1788973200,2026-09-07
+17036732,Iceland,"Iceland 1. deild, Promotion Playoff",675,"Iceland 1. deild, Promotion Playoff",,2026-09-09,12:00,Unknown,,283759,UMF Njarðvík,1910,Thróttur Reykjavík,,,notstarted,1788973200,2026-09-08
 16671432,South Africa,Premiership,358,Premiership,,2026-09-09,12:30,Unknown,6,7665,Mamelodi Sundowns,1113108,Siwelele FC,,,notstarted,1788975000,2026-09-07
 16629487,Saudi Arabia,Saudi Pro League,955,Saudi Pro League,,2026-09-09,13:00,Unknown,6,56023,Al-Fateh,853574,Diriyah,,,notstarted,1788976800,2026-09-07
 16629488,Saudi Arabia,Saudi Pro League,955,Saudi Pro League,,2026-09-09,13:00,Unknown,6,23400,Al-Nassr,168090,Abha,,,notstarted,1788976800,2026-09-07
@@ -96,6 +93,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16938985,Europe,UEFA Champions League,7,UEFA Champions League,,2026-09-09,14:00,Unknown,1,2714,SSC Napoli,42,Arsenal,,,notstarted,1788980400,2026-09-07
 16938888,Europe,UEFA Champions League,7,UEFA Champions League,,2026-09-09,14:00,Unknown,1,3001,Sporting CP,3061,Galatasaray,,,notstarted,1788980400,2026-09-07
 16956658,Scotland,Scottish Premiership,36,Scottish Premiership,,2026-09-09,14:00,Unknown,3,2348,St. Johnstone,2352,Celtic,,,notstarted,1788980400,2026-09-07
+17036733,Iceland,"Iceland 1. deild, Promotion Playoff",675,"Iceland 1. deild, Promotion Playoff",,2026-09-09,14:15,Unknown,,7121,HK Kópavogur,1896,Fylkir Reykjavík,,,notstarted,1788981300,2026-09-08
 16459588,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-09-09,15:30,Unknown,4,1166437,Independiente Yumbo,6110,Deportes Quindío,,,notstarted,1788985800,2026-09-07
 16588818,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-09-09,16:00,Unknown,25,284309,Deportes Recoleta,39219,San Marcos de Arica,,,notstarted,1788987600,2026-09-07
 16881449,South America,"CONMEBOL Libertadores, Knockout stage",384,"CONMEBOL Libertadores, Knockout stage",,2026-09-09,17:00,Unknown,27,1963,Palmeiras,5257,LDU,,,notstarted,1788991200,2026-09-07
