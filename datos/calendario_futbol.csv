@@ -1,9 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15502682,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-09-07,19:00,Unknown,29,5255,Emelec,33561,Manta FC,,,notstarted,1788825600,2026-09-05
-15502684,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-09-07,19:00,Unknown,29,134976,Mushuc Runa SC,388234,Leones del Norte,,,notstarted,1788825600,2026-09-05
-15502678,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-09-07,19:00,Unknown,29,277525,Orense SC,188850,Guayaquil City,,,notstarted,1788825600,2026-09-05
-16671597,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-09-07,19:15,Unknown,8,3204,Club Atlético Unión de Santa Fe,4937,Instituto De Córdoba,,,notstarted,1788826500,2026-09-05
-16390734,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-07,20:00,Unknown,9,89374,Llaneros FC,6112,Deportivo Cali,,,postponed,1788829200,2026-09-05
 16990406,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-08,04:00,Unknown,1,297065,AEK Athens U19,1271520,LASK Linz U19,,,notstarted,1788858000,2026-09-05
 15373085,South Korea,K League 1,410,K League 1,,2026-09-08,05:30,Unknown,28,7648,Incheon United,92539,Bucheon FC 1995,,,notstarted,1788863400,2026-09-05
 15373088,South Korea,K League 1,410,K League 1,,2026-09-08,05:30,Unknown,28,7653,Ulsan HD,7646,FC Seoul,,,notstarted,1788863400,2026-09-05
@@ -142,3 +137,52 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16990418,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-10,08:00,Unknown,1,120848,Manchester United U19,931005,Sabah U19,,,notstarted,1789045200,2026-09-07
 16883743,United Arab Emirates,Pro League,971,Pro League,,2026-09-10,08:40,Unknown,5,8090,Al-Jazira,46332,Al-Nasr Dubai,,,notstarted,1789047600,2026-09-07
 16883742,United Arab Emirates,Pro League,971,Pro League,,2026-09-10,08:40,Unknown,5,477045,United,264111,Shabab Al-Ahli Dubai,,,notstarted,1789047600,2026-09-07
+16990409,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-10,09:00,Unknown,1,43728,FC Bayern München U19,295469,Bodo/Glimt U19,,,notstarted,1789048800,2026-09-08
+15514350,Estonia,Esiliiga,678,Esiliiga,,2026-09-10,09:30,Unknown,28,383797,FC Nõmme United U21,7105,Tallinna Kalev,,,notstarted,1789050600,2026-09-08
+15514348,Estonia,Esiliiga,678,Esiliiga,,2026-09-10,09:30,Unknown,28,283728,FC Tallinn,37528,Maardu Linnameeskond,,,notstarted,1789050600,2026-09-08
+15514349,Estonia,Esiliiga,678,Esiliiga,,2026-09-10,09:30,Unknown,28,37570,Nõmme Kalju U21,36074,Flora Tallinn U21,,,notstarted,1789050600,2026-09-08
+15388700,Georgia,Erovnuli Liga,704,Erovnuli Liga,,2026-09-10,10:00,Unknown,25,5171,Dinamo Tbilisi,37305,Meshakhte Tkibuli,,,notstarted,1789052400,2026-09-08
+16803790,Africa,"CAF Confederations Cup, Qualification",1115,"CAF Confederations Cup, Qualification",,2026-09-10,10:00,Unknown,1,262795,ASPAC FC,1164153,The Panthers CF,,,postponed,1789052400,2026-09-08
+16803765,Africa,"CAF Confederations Cup, Qualification",1115,"CAF Confederations Cup, Qualification",,2026-09-10,10:00,Unknown,1,1164153,The Panthers CF,262795,ASPAC FC,,,postponed,1789052400,2026-09-08
+17017660,Africa,"CAF Confederations Cup, Qualification",1115,"CAF Confederations Cup, Qualification",,2026-09-10,10:00,Unknown,1,1164153,The Panthers CF,262795,ASPAC FC,,,notstarted,1789052400,2026-09-08
+15514351,Estonia,Esiliiga,678,Esiliiga,,2026-09-10,11:00,Unknown,28,36075,FCI Levadia Tallinn U21,42740,Tartu JK Welco,,,notstarted,1789056000,2026-09-08
+15514352,Estonia,Esiliiga,678,Esiliiga,,2026-09-10,11:00,Unknown,28,44459,Viimsi JK,37534,FC Elva,,,notstarted,1789056000,2026-09-08
+15472582,Latvia,Virsliga,197,Virsliga,,2026-09-10,11:00,Unknown,30,282126,SK Super Nova,36080,FK Tukums 2000,,,notstarted,1789056000,2026-09-08
+16883744,United Arab Emirates,Pro League,971,Pro League,,2026-09-10,11:15,Unknown,5,37082,Al-Ain,47674,Al Wasl,,,notstarted,1789056900,2026-09-08
+16938963,Europe,UEFA Champions League,7,UEFA Champions League,,2026-09-10,11:45,Unknown,1,3052,Fenerbahçe,2702,AS Roma,,,notstarted,1789058700,2026-09-08
+16938896,Europe,UEFA Champions League,7,UEFA Champions League,,2026-09-10,11:45,Unknown,1,2952,PSV Eindhoven,3313,Shakhtar Donetsk,,,notstarted,1789058700,2026-09-08
+15388706,Georgia,Erovnuli Liga,704,Erovnuli Liga,,2026-09-10,12:00,Unknown,25,36865,FC Gagra,5419,FC Torpedo Kutaisi,,,notstarted,1789059600,2026-09-08
+15272368,Sweden,Superettan,46,Superettan,,2026-09-10,12:00,Unknown,23,1812,Falkenbergs FF,1781,Östers IF,,,notstarted,1789059600,2026-09-08
+15272362,Sweden,Superettan,46,Superettan,,2026-09-10,12:00,Unknown,23,1763,GIF Sundsvall,1768,Örebro SK,,,notstarted,1789059600,2026-09-08
+15272367,Sweden,Superettan,46,Superettan,,2026-09-10,12:00,Unknown,23,7101,Varbergs BoIS,1769,IFK Norrköping,,,notstarted,1789059600,2026-09-08
+15272365,Sweden,Superettan,46,Superettan,,2026-09-10,12:00,Unknown,23,1836,Östersunds FK,1777,IK Brage,,,notstarted,1789059600,2026-09-08
+16653093,Saudi Arabia,Saudi Pro League,955,Saudi Pro League,,2026-09-10,13:00,Unknown,7,168088,Al-Riyadh,269199,Al-Kholood,,,postponed,1789063200,2026-09-08
+16653098,Saudi Arabia,Saudi Pro League,955,Saudi Pro League,,2026-09-10,13:00,Unknown,7,853574,Diriyah,168090,Abha,,,postponed,1789063200,2026-09-08
+16653109,Saudi Arabia,Saudi Pro League,955,Saudi Pro League,,2026-09-10,13:00,Unknown,7,530631,Neom SC,56023,Al-Fateh,,,postponed,1789063200,2026-09-08
+16921256,Greece,Stoiximan Super League,185,Stoiximan Super League,,2026-09-10,13:15,Unknown,1,3248,Panathinaikos FC,120224,AE Kifisia,,,notstarted,1789064100,2026-09-08
+16395437,England,League One,24,League One,,2026-09-10,14:00,Unknown,6,133,Stevenage,72,Luton Town,,,notstarted,1789066800,2026-09-08
+16939034,Europe,UEFA Champions League,7,UEFA Champions League,,2026-09-10,14:00,Unknown,1,2704,Como,36360,RB Leipzig,,,notstarted,1789066800,2026-09-08
+16938858,Europe,UEFA Champions League,7,UEFA Champions League,,2026-09-10,14:00,Unknown,1,2672,FC Bayern München,656,Bodø/Glimt,,,notstarted,1789066800,2026-09-08
+16938880,Europe,UEFA Champions League,7,UEFA Champions League,,2026-09-10,14:00,Unknown,1,35,Manchester United,267828,Sabah FK,,,notstarted,1789066800,2026-09-08
+16939012,Europe,UEFA Champions League,7,UEFA Champions League,,2026-09-10,14:00,Unknown,1,2216,SK Slavia Praha,1648,RC Lens,,,notstarted,1789066800,2026-09-08
+17000895,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-09-10,17:00,Unknown,3,213490,Orsomarso SC,89354,Tigres FC,,,notstarted,1789077600,2026-09-08
+16726643,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-09-10,17:00,Unknown,3,61504,Patriotas Boyacá,89364,Barranquilla FC,,,notstarted,1789077600,2026-09-08
+15526269,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-09-10,17:30,Unknown,27,47504,São Bernardo,2022,Londrina,,,notstarted,1789079400,2026-09-08
+15526277,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-09-10,17:30,Unknown,27,2021,Vila Nova FC,1960,Goiás,,,notstarted,1789079400,2026-09-08
+16585928,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-09-10,18:00,Unknown,25,5601,Club Deportes Antofagasta,3159,CD Cobreloa,,,notstarted,1789081200,2026-09-08
+15526275,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-09-10,19:30,Unknown,27,1959,Sport Recife,1969,Ponte Preta,,,notstarted,1789086600,2026-09-08
+16922857,South America,"CONMEBOL Libertadores, Knockout stage",384,"CONMEBOL Libertadores, Knockout stage",,2026-09-10,19:30,Unknown,27,39723,Independiente del Valle,5981,Flamengo,,,notstarted,1789086600,2026-09-08
+16881608,South America,"CONMEBOL Sudamericana, Knockout stage",480,"CONMEBOL Sudamericana, Knockout stage",,2026-09-10,19:30,Unknown,27,2301,Cienciano,174972,Montevideo City Torque,,,notstarted,1789086600,2026-09-08
+16977581,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-10,20:00,Unknown,5,6117,Millonarios,6112,Deportivo Cali,,,notstarted,1789088400,2026-09-08
+16951505,North & Central America,"CONCACAF Central American Cup, Knockout Stage",20695,"CONCACAF Central American Cup, Knockout Stage",,2026-09-10,20:06,Unknown,27,25355,CD Marathon,6572,LD Alajuelense,,,notstarted,1789088760,2026-09-08
+16951502,North & Central America,"CONCACAF Central American Cup, Knockout Stage",20695,"CONCACAF Central American Cup, Knockout Stage",,2026-09-10,22:06,Unknown,27,24388,CD Luis Ángel Firpo,25358,CD Olimpia,,,notstarted,1789095960,2026-09-08
+16774408,Indonesia,Indonesia Super League,1015,Indonesia Super League,,2026-09-11,03:30,Unknown,2,1126756,Garudayaksa FC,135866,Persik Kediri,,,notstarted,1789115400,2026-09-08
+16348586,Japan,J1 League,196,J1 League,,2026-09-11,05:00,Unknown,7,3149,Kyoto Sanga FC,3140,Kashiwa Reysol,,,notstarted,1789120800,2026-09-08
+16348595,Japan,J1 League,196,J1 League,,2026-09-11,05:00,Unknown,7,3146,Vissel Kobe,3134,Kashima Antlers,,,notstarted,1789120800,2026-09-08
+16893311,Armenia,Fastex Premier League,671,Fastex Premier League,,2026-09-11,07:00,Unknown,7,325779,FC Van,325785,BKMA Yerevan,,,notstarted,1789128000,2026-09-08
+16598596,Germany,3. Liga,491,3. Liga,,2026-09-11,07:00,Unknown,5,2597,SV Wehen Wiesbaden,2680,SV Waldhof Mannheim,,,postponed,1789128000,2026-09-08
+16598598,Germany,3. Liga,491,3. Liga,,2026-09-11,07:00,Unknown,5,5887,TSG Hoffenheim II U23,2683,SC Fortuna Köln,,,postponed,1789128000,2026-09-08
+16774404,Indonesia,Indonesia Super League,1015,Indonesia Super League,,2026-09-11,07:00,Unknown,2,383891,Dewa United FC,220867,Bhayangkara Presisi Lampung FC,,,notstarted,1789128000,2026-09-08
+16412942,Ukraine,Premier League,218,Premier League,,2026-09-11,07:30,Unknown,6,200776,Kolos Kovalivka,3316,Karpaty Lviv,,,notstarted,1789129800,2026-09-08
+16883745,United Arab Emirates,Pro League,971,Pro League,,2026-09-11,08:40,Unknown,5,227791,Hatta,81305,Al-Dhafra,,,notstarted,1789134000,2026-09-08
+16883746,United Arab Emirates,Pro League,971,Pro League,,2026-09-11,08:40,Unknown,5,234227,Khor Fakkan,58689,Baniyas,,,notstarted,1789134000,2026-09-08
