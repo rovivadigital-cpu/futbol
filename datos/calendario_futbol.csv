@@ -1,11 +1,5 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16754535,Japan,J-League 3,2293,J-League 3,,2026-09-09,05:00,Unknown,1,44528,FC Ryukyu,40029,Giravanz Kitakyushu,,,notstarted,1788948000,2026-09-06
 16990417,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-09,05:00,Unknown,1,90128,Barcelona U19,197177,Feyenoord U19,,,notstarted,1788948000,2026-09-06
-16990413,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-09,05:30,Unknown,1,43732,VfB Stuttgart U19,262177,Viking FK U19,,,notstarted,1788949800,2026-09-06
-15373091,South Korea,K League 1,410,K League 1,,2026-09-09,05:30,Unknown,28,7645,Daejeon Hana Citizen,32675,FC Anyang,,,notstarted,1788949800,2026-09-06
-15373092,South Korea,K League 1,410,K League 1,,2026-09-09,05:30,Unknown,28,34220,Gangwon FC,6908,Jeonbuk Hyundai Motors,,,notstarted,1788949800,2026-09-06
-15373090,South Korea,K League 1,410,K League 1,,2026-09-09,05:30,Unknown,28,48912,Gwangju FC,7649,Jeju SK,,,notstarted,1788949800,2026-09-06
-15373093,South Korea,K League 1,410,K League 1,,2026-09-09,05:30,Unknown,28,7650,Pohang Steelers,7647,Gimcheon Sangmu FC,,,notstarted,1788949800,2026-09-06
 17009774,Armenia,Fastex Premier League,671,Fastex Premier League,,2026-09-09,07:00,Unknown,3,1108829,Sardarapat FC,5214,Pyunik Yerevan,,,notstarted,1788955200,2026-09-06
 16990423,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-09,07:00,Unknown,1,42465,Napoli U19,90120,Arsenal U19,,,notstarted,1788955200,2026-09-06
 17045020,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-09,07:00,Unknown,1,829592,Napoli U20,90120,Arsenal U19,,,notstarted,1788955200,2026-09-08
@@ -347,6 +341,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15272515,Sweden,Allsvenskan,40,Allsvenskan,,2026-09-12,08:00,Unknown,21,1764,AIK,1775,Västerås SK,,,notstarted,1789218000,2026-09-09
 15254114,Sweden,Damallsvenskan,214,Damallsvenskan,,2026-09-12,08:00,Unknown,18,502806,Malmo FF,112689,Eskilstuna Utd DFF,,,notstarted,1789218000,2026-09-09
 15254112,Sweden,Damallsvenskan,214,Damallsvenskan,,2026-09-12,08:00,Unknown,18,1886,Rosengård,258774,IK Uppsala,,,notstarted,1789218000,2026-09-09
+16803721,Africa,"CAF Champions League, Qualification",1054,"CAF Champions League, Qualification",,2026-09-12,08:00,Unknown,1,69322,Al-Hilal Omdurman,271294,Aigle Noir CS,,,notstarted,1789218000,2026-09-09
 16454783,Netherlands,Tweede Divisie,11402,Tweede Divisie,,2026-09-12,08:15,Unknown,5,34729,Amsterdamsche FC,6480,HHC Hardenberg,,,notstarted,1789218900,2026-09-09
 16412037,Austria,2. Liga,135,2. Liga,,2026-09-12,08:30,Unknown,6,43074,Austria Salzburg,2103,Sturm Graz II,,,notstarted,1789219800,2026-09-09
 16412034,Austria,2. Liga,135,2. Liga,,2026-09-12,08:30,Unknown,6,7786,Schwarz-Weiß Bregenz,7785,Floridsdorfer AC,,,notstarted,1789219800,2026-09-09
