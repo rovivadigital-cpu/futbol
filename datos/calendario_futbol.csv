@@ -1,33 +1,5 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16629487,Saudi Arabia,Saudi Pro League,955,Saudi Pro League,,2026-09-09,13:00,Unknown,6,56023,Al-Fateh,853574,Diriyah,,,notstarted,1788976800,2026-09-07
-16629488,Saudi Arabia,Saudi Pro League,955,Saudi Pro League,,2026-09-09,13:00,Unknown,6,23400,Al-Nassr,168090,Abha,,,notstarted,1788976800,2026-09-07
-16854090,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-09-09,13:30,Unknown,21,52215,Defensores de Belgrano,112497,Los Andes,,,notstarted,1788978600,2026-09-07
-16391667,England,Championship,18,Championship,,2026-09-09,13:45,Unknown,6,27,Derby County,8,West Bromwich Albion,,,notstarted,1788979500,2026-09-07
-16391668,England,Championship,18,Championship,,2026-09-09,13:45,Unknown,6,263,Norwich City,9,Birmingham City,,,notstarted,1788979500,2026-09-07
-16391665,England,Championship,18,Championship,,2026-09-09,13:45,Unknown,6,3,Wolverhampton,2,Portsmouth,,,postponed,1788979500,2026-09-07
-16950225,Scotland,Scottish Premiership,36,Scottish Premiership,,2026-09-09,13:45,Unknown,3,2351,Rangers,2359,St. Mirren,,,notstarted,1788979500,2026-09-07
-16391666,England,Championship,18,Championship,,2026-09-09,14:00,Unknown,6,47,Charlton Athletic,1,Queens Park Rangers,,,notstarted,1788980400,2026-09-07
-16938798,Europe,UEFA Champions League,7,UEFA Champions League,,2026-09-09,14:00,Unknown,1,44,Liverpool FC,2836,Atlético Madrid,,,notstarted,1788980400,2026-09-07
-16938796,Europe,UEFA Champions League,7,UEFA Champions League,,2026-09-09,14:00,Unknown,1,1644,Paris Saint-Germain,2404,ŠK Slovan Bratislava,,,notstarted,1788980400,2026-09-07
-16938985,Europe,UEFA Champions League,7,UEFA Champions League,,2026-09-09,14:00,Unknown,1,2714,SSC Napoli,42,Arsenal,,,notstarted,1788980400,2026-09-07
-16938888,Europe,UEFA Champions League,7,UEFA Champions League,,2026-09-09,14:00,Unknown,1,3001,Sporting CP,3061,Galatasaray,,,notstarted,1788980400,2026-09-07
-16956658,Scotland,Scottish Premiership,36,Scottish Premiership,,2026-09-09,14:00,Unknown,3,2348,St. Johnstone,2352,Celtic,,,notstarted,1788980400,2026-09-07
-17036733,Iceland,"Iceland 1. deild, Promotion Playoff",675,"Iceland 1. deild, Promotion Playoff",,2026-09-09,14:15,Unknown,,7121,HK Kópavogur,1896,Fylkir Reykjavík,,,notstarted,1788981300,2026-09-08
-16459588,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-09-09,15:30,Unknown,4,1166437,Independiente Yumbo,6110,Deportes Quindío,,,notstarted,1788985800,2026-09-07
-16588818,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-09-09,16:00,Unknown,25,284309,Deportes Recoleta,39219,San Marcos de Arica,,,notstarted,1788987600,2026-09-07
-16881449,South America,"CONMEBOL Libertadores, Knockout stage",384,"CONMEBOL Libertadores, Knockout stage",,2026-09-09,17:00,Unknown,27,1963,Palmeiras,5257,LDU,,,notstarted,1788991200,2026-09-07
-16881448,South America,"CONMEBOL Sudamericana, Knockout stage",480,"CONMEBOL Sudamericana, Knockout stage",,2026-09-09,17:00,Unknown,27,1968,Santos,1977,Atlético Mineiro,,,notstarted,1788991200,2026-09-07
-15526268,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-09-09,17:30,Unknown,27,1979,Botafogo-SP,135514,Grêmio Novorizontino,,,notstarted,1788993000,2026-09-07
-15526272,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-09-09,17:30,Unknown,27,2020,Fortaleza,7315,Avaí,,,notstarted,1788993000,2026-09-07
-16585972,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-09-09,18:30,Unknown,25,89506,Deportes Copiapó,89508,Deportes Magallanes,,,notstarted,1788996600,2026-09-07
-16585987,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-09-09,18:30,Unknown,25,33596,Deportes Iquique,243490,Deportes Santa Cruz,,,notstarted,1788996600,2026-09-07
-15526270,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-09-09,18:30,Unknown,27,1973,América Mineiro,2011,Náutico,,,notstarted,1788996600,2026-09-07
-15526271,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-09-09,18:30,Unknown,27,39634,Operário-PR,22032,Clube De Regatas Brasil,,,notstarted,1788996600,2026-09-07
 15502872,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-09-09,18:30,Unknown,1,309890,Inter Toronto,309888,Pacific FC,,,notstarted,1788996600,2026-09-07
-15168367,USA,MLS,242,MLS,,2026-09-09,18:30,Unknown,,243211,Atlanta United,52237,Orlando City SC,,,notstarted,1788996600,2026-09-07
-15168368,USA,MLS,242,MLS,,2026-09-09,18:30,Unknown,,22006,CF Montréal,404108,Charlotte FC,,,notstarted,1788996600,2026-09-07
-15168369,USA,MLS,242,MLS,,2026-09-09,18:30,Unknown,,2502,DC United,2504,Columbus Crew,,,notstarted,1788996600,2026-09-07
-15168372,USA,MLS,242,MLS,,2026-09-09,18:30,Unknown,,7080,Toronto FC,337612,Nashville SC,,,notstarted,1788996600,2026-09-07
 15168370,USA,MLS,242,MLS,,2026-09-09,18:45,Unknown,,39833,Philadelphia Union,215167,FC Cincinnati,,,notstarted,1788997500,2026-09-07
 15168371,USA,MLS,242,MLS,,2026-09-09,19:00,Unknown,,187643,New York City FC,2511,New England Revolution,,,notstarted,1788998400,2026-09-07
 15421213,USA,MLS Next Pro,18641,MLS Next Pro,,2026-09-09,19:00,Unknown,1,467300,Huntsville City FC,153486,Chattanooga FC,,,notstarted,1788998400,2026-09-07
@@ -47,6 +19,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15168379,USA,MLS,242,MLS,,2026-09-09,21:30,Unknown,,22009,Seattle Sounders FC,2509,Sporting Kansas City,,,postponed,1789007400,2026-09-07
 15168381,USA,MLS,242,MLS,,2026-09-09,21:30,Unknown,,22010,Vancouver Whitecaps,2513,LA Galaxy,,,notstarted,1789007400,2026-09-07
 16951503,North & Central America,"CONCACAF Central American Cup, Knockout Stage",20695,"CONCACAF Central American Cup, Knockout Stage",,2026-09-09,22:06,Unknown,27,22047,FC Motagua,24383,Alianza FC,,,notstarted,1789009560,2026-09-07
+16990417,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-10,02:30,Unknown,1,90128,Barcelona U19,197177,Feyenoord U19,,,notstarted,1789025400,2026-09-09
 16990419,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-10,06:00,Unknown,1,243800,Fenerbahçe U19,42731,Roma U19,,,notstarted,1789038000,2026-09-07
 17039756,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-10,06:00,Unknown,1,243800,Fenerbahçe U19,826818,Roma U20,,,notstarted,1789038000,2026-09-08
 16990422,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-10,07:00,Unknown,1,90140,PSV Eindhoven U19,107723,Shakhtar Donetsk U19,,,notstarted,1789041600,2026-09-07
