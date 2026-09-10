@@ -1,7 +1,5 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16990417,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-10,02:30,Unknown,1,90128,Barcelona U19,197177,Feyenoord U19,,,notstarted,1789025400,2026-09-09
 16990419,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-10,06:00,Unknown,1,243800,Fenerbahçe U19,42731,Roma U19,,,notstarted,1789038000,2026-09-07
-17039756,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-10,06:00,Unknown,1,243800,Fenerbahçe U19,826818,Roma U20,,,notstarted,1789038000,2026-09-08
 16990422,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-10,07:00,Unknown,1,90140,PSV Eindhoven U19,107723,Shakhtar Donetsk U19,,,notstarted,1789041600,2026-09-07
 16990408,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-10,07:00,Unknown,1,44163,Slavia Praha U19,296210,Lens U19,,,notstarted,1789041600,2026-09-07
 16990411,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-10,08:00,Unknown,1,206254,Como U20,136294,RB Leipzig U19,,,notstarted,1789045200,2026-09-07
@@ -140,7 +138,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16667183,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-09-11,15:00,Unknown,9,3212,Newell's Old Boys,3208,Vélez Sarsfield,,,notstarted,1789156800,2026-09-09
 16280822,Peru,"Liga 1, Clausura",406,"Liga 1, Clausura",,2026-09-11,15:00,Unknown,9,87854,Universidad Técnica de Cajamarca,511206,ACD Juan Pablo II,,,notstarted,1789156800,2026-09-09
 16748560,Bolivia,División Profesional,16736,División Profesional,,2026-09-11,17:00,Unknown,19,396625,CD San Antonio,33714,Club Aurora,,,notstarted,1789164000,2026-09-09
-17034017,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-09-11,17:00,Unknown,5,89376,Unión Magdalena,89362,Leones FC,,,notstarted,1789164000,2026-09-09
+17034017,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-09-11,17:00,Unknown,5,89376,Unión Magdalena,89362,Leones FC,,,postponed,1789164000,2026-09-10
 16671610,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-09-11,17:15,Unknown,9,36839,Defensa y Justicia,188441,Gimnasia y Esgrima Mendoza,,,notstarted,1789164900,2026-09-09
 15385461,USA,NWSL,1690,NWSL,,2026-09-11,17:30,Unknown,1,377825,Racing Louisville,34718,NJ/NY Gotham FC,,,notstarted,1789165800,2026-09-09
 16390735,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-11,18:15,Unknown,10,89370,Jaguares de Córdoba,89368,Fortaleza FC,,,notstarted,1789168500,2026-09-09
@@ -453,6 +451,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15235472,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-09-12,16:30,Unknown,27,1963,Palmeiras,1981,São Paulo,,,notstarted,1789248600,2026-09-10
 15502689,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-09-12,16:30,Unknown,30,188850,Guayaquil City,134976,Mushuc Runa SC,,,notstarted,1789248600,2026-09-10
 17047302,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-09-12,16:30,Unknown,9,36437,Deportivo La Guaira,249952,Universidad Central,,,notstarted,1789248600,2026-09-10
+16588883,Paraguay,"Primera División, Clausura",11541,"Primera División, Clausura",,2026-09-12,16:30,Unknown,10,292595,Recoleta FC,39722,Sportivo Trinidense,,,notstarted,1789248600,2026-09-10
 15285590,USA,"USL, League One",13362,"USL, League One",,2026-09-12,17:00,Unknown,,312632,Forward Madison FC,465623,Sarasota Paradise,,,notstarted,1789250400,2026-09-10
 15285595,USA,"USL, League One",13362,"USL, League One",,2026-09-12,17:00,Unknown,,23841,Richmond Kickers,312631,Chattanooga Red Wolves SC,,,notstarted,1789250400,2026-09-10
 16969953,Brazil,"Brasileirão Série C, Group B",1281,"Brasileirão Série C, Group B",,2026-09-12,17:30,Unknown,2,135324,Maringá FC,1976,Santa Cruz,,,notstarted,1789252200,2026-09-10
