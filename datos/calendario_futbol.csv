@@ -1,32 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16990419,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-10,06:00,Unknown,1,243800,Fenerbahçe U19,42731,Roma U19,,,notstarted,1789038000,2026-09-07
-16990422,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-10,07:00,Unknown,1,90140,PSV Eindhoven U19,107723,Shakhtar Donetsk U19,,,notstarted,1789041600,2026-09-07
-16990408,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-10,07:00,Unknown,1,44163,Slavia Praha U19,296210,Lens U19,,,notstarted,1789041600,2026-09-07
-16990411,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-10,08:00,Unknown,1,206254,Como U20,136294,RB Leipzig U19,,,notstarted,1789045200,2026-09-07
-16990418,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-10,08:00,Unknown,1,120848,Manchester United U19,931005,Sabah U19,,,notstarted,1789045200,2026-09-07
-17045021,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-10,08:00,Unknown,1,206254,Como U20,136294,RB Leipzig U19,,,notstarted,1789045200,2026-09-08
-16883743,United Arab Emirates,Pro League,971,Pro League,,2026-09-10,08:40,Unknown,5,8090,Al-Jazira,46332,Al-Nasr Dubai,,,notstarted,1789047600,2026-09-07
-16883742,United Arab Emirates,Pro League,971,Pro League,,2026-09-10,08:40,Unknown,5,477045,United,264111,Shabab Al-Ahli Dubai,,,notstarted,1789047600,2026-09-07
-16990409,Europe,UEFA Youth League,2132,UEFA Youth League,,2026-09-10,09:00,Unknown,1,43728,FC Bayern München U19,295469,Bodo/Glimt U19,,,notstarted,1789048800,2026-09-08
-15514350,Estonia,Esiliiga,678,Esiliiga,,2026-09-10,09:30,Unknown,28,383797,FC Nõmme United U21,7105,Tallinna Kalev,,,notstarted,1789050600,2026-09-08
-15514348,Estonia,Esiliiga,678,Esiliiga,,2026-09-10,09:30,Unknown,28,283728,FC Tallinn,37528,Maardu Linnameeskond,,,notstarted,1789050600,2026-09-08
-15514349,Estonia,Esiliiga,678,Esiliiga,,2026-09-10,09:30,Unknown,28,37570,Nõmme Kalju U21,36074,Flora Tallinn U21,,,notstarted,1789050600,2026-09-08
-15388700,Georgia,Erovnuli Liga,704,Erovnuli Liga,,2026-09-10,10:00,Unknown,25,5171,Dinamo Tbilisi,37305,Meshakhte Tkibuli,,,notstarted,1789052400,2026-09-08
-16803790,Africa,"CAF Confederations Cup, Qualification",1115,"CAF Confederations Cup, Qualification",,2026-09-10,10:00,Unknown,1,262795,ASPAC FC,1164153,The Panthers CF,,,postponed,1789052400,2026-09-08
-16803765,Africa,"CAF Confederations Cup, Qualification",1115,"CAF Confederations Cup, Qualification",,2026-09-10,10:00,Unknown,1,1164153,The Panthers CF,262795,ASPAC FC,,,postponed,1789052400,2026-09-08
-17017660,Africa,"CAF Confederations Cup, Qualification",1115,"CAF Confederations Cup, Qualification",,2026-09-10,10:00,Unknown,1,1164153,The Panthers CF,262795,ASPAC FC,,,notstarted,1789052400,2026-09-08
-16803758,Africa,"CAF Champions League, Qualification",1054,"CAF Champions League, Qualification",,2026-09-10,10:00,Unknown,1,403430,Foresters FC,326543,Wiliete SC,,,notstarted,1789052400,2026-09-09
-15514351,Estonia,Esiliiga,678,Esiliiga,,2026-09-10,11:00,Unknown,28,36075,FCI Levadia Tallinn U21,42740,Tartu JK Welco,,,notstarted,1789056000,2026-09-08
-15514352,Estonia,Esiliiga,678,Esiliiga,,2026-09-10,11:00,Unknown,28,44459,Viimsi JK,37534,FC Elva,,,notstarted,1789056000,2026-09-08
-15472582,Latvia,Virsliga,197,Virsliga,,2026-09-10,11:00,Unknown,30,282126,SK Super Nova,36080,FK Tukums 2000,,,notstarted,1789056000,2026-09-08
-16883744,United Arab Emirates,Pro League,971,Pro League,,2026-09-10,11:15,Unknown,5,37082,Al-Ain,47674,Al Wasl,,,notstarted,1789056900,2026-09-08
-16938963,Europe,UEFA Champions League,7,UEFA Champions League,,2026-09-10,11:45,Unknown,1,3052,Fenerbahçe,2702,AS Roma,,,notstarted,1789058700,2026-09-08
-16938896,Europe,UEFA Champions League,7,UEFA Champions League,,2026-09-10,11:45,Unknown,1,2952,PSV Eindhoven,3313,Shakhtar Donetsk,,,notstarted,1789058700,2026-09-08
-15388706,Georgia,Erovnuli Liga,704,Erovnuli Liga,,2026-09-10,12:00,Unknown,25,36865,FC Gagra,5419,FC Torpedo Kutaisi,,,notstarted,1789059600,2026-09-08
-15272368,Sweden,Superettan,46,Superettan,,2026-09-10,12:00,Unknown,23,1812,Falkenbergs FF,1781,Östers IF,,,notstarted,1789059600,2026-09-08
-15272362,Sweden,Superettan,46,Superettan,,2026-09-10,12:00,Unknown,23,1763,GIF Sundsvall,1768,Örebro SK,,,notstarted,1789059600,2026-09-08
-15272367,Sweden,Superettan,46,Superettan,,2026-09-10,12:00,Unknown,23,7101,Varbergs BoIS,1769,IFK Norrköping,,,notstarted,1789059600,2026-09-08
-15272365,Sweden,Superettan,46,Superettan,,2026-09-10,12:00,Unknown,23,1836,Östersunds FK,1777,IK Brage,,,notstarted,1789059600,2026-09-08
 16653093,Saudi Arabia,Saudi Pro League,955,Saudi Pro League,,2026-09-10,13:00,Unknown,7,168088,Al-Riyadh,269199,Al-Kholood,,,postponed,1789063200,2026-09-08
 16653098,Saudi Arabia,Saudi Pro League,955,Saudi Pro League,,2026-09-10,13:00,Unknown,7,853574,Diriyah,168090,Abha,,,postponed,1789063200,2026-09-08
 16653109,Saudi Arabia,Saudi Pro League,955,Saudi Pro League,,2026-09-10,13:00,Unknown,7,530631,Neom SC,56023,Al-Fateh,,,postponed,1789063200,2026-09-08
@@ -436,7 +408,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16588872,Paraguay,"Primera División, Clausura",11541,"Primera División, Clausura",,2026-09-12,14:00,Unknown,10,5994,Guaraní,5991,Cerro Porteño,,,notstarted,1789239600,2026-09-10
 16988878,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-09-12,14:30,Unknown,6,3240,Montevideo Wanderers,3230,Nacional,,,notstarted,1789241400,2026-09-10
 15275926,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-09-12,15:00,Unknown,30,34976,Atlético de Rafaela,23950,San Martín de Tucumán,,,notstarted,1789243200,2026-09-10
-15275915,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-09-12,15:00,Unknown,30,3207,Club Atletico Colón,112497,Los Andes,,,notstarted,1789243200,2026-09-10
+15275915,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-09-12,15:00,Unknown,30,3207,Club Atletico Colón,112497,Los Andes,,,postponed,1789243200,2026-09-10
 15275904,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-09-12,15:00,Unknown,29,4936,Quilmes Atlético Club,7772,San Martín de San Juan,,,notstarted,1789243200,2026-09-10
 15235480,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-09-12,15:00,Unknown,27,21845,Chapecoense,1966,Internacional,,,notstarted,1789243200,2026-09-10
 16969960,Brazil,"Brasileirão Série C, Group B",1281,"Brasileirão Série C, Group B",,2026-09-12,15:00,Unknown,2,49196,Botafogo-PB,274286,Floresta,,,notstarted,1789243200,2026-09-10
