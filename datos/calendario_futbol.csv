@@ -1,18 +1,5 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16653093,Saudi Arabia,Saudi Pro League,955,Saudi Pro League,,2026-09-10,13:00,Unknown,7,168088,Al-Riyadh,269199,Al-Kholood,,,postponed,1789063200,2026-09-08
-16653098,Saudi Arabia,Saudi Pro League,955,Saudi Pro League,,2026-09-10,13:00,Unknown,7,853574,Diriyah,168090,Abha,,,postponed,1789063200,2026-09-08
-16653109,Saudi Arabia,Saudi Pro League,955,Saudi Pro League,,2026-09-10,13:00,Unknown,7,530631,Neom SC,56023,Al-Fateh,,,postponed,1789063200,2026-09-08
-16921256,Greece,Stoiximan Super League,185,Stoiximan Super League,,2026-09-10,13:15,Unknown,1,3248,Panathinaikos FC,120224,AE Kifisia,,,notstarted,1789064100,2026-09-08
-16395437,England,League One,24,League One,,2026-09-10,14:00,Unknown,6,133,Stevenage,72,Luton Town,,,notstarted,1789066800,2026-09-08
-16939034,Europe,UEFA Champions League,7,UEFA Champions League,,2026-09-10,14:00,Unknown,1,2704,Como,36360,RB Leipzig,,,notstarted,1789066800,2026-09-08
-16938858,Europe,UEFA Champions League,7,UEFA Champions League,,2026-09-10,14:00,Unknown,1,2672,FC Bayern München,656,Bodø/Glimt,,,notstarted,1789066800,2026-09-08
-16938880,Europe,UEFA Champions League,7,UEFA Champions League,,2026-09-10,14:00,Unknown,1,35,Manchester United,267828,Sabah FK,,,notstarted,1789066800,2026-09-08
-16939012,Europe,UEFA Champions League,7,UEFA Champions League,,2026-09-10,14:00,Unknown,1,2216,SK Slavia Praha,1648,RC Lens,,,notstarted,1789066800,2026-09-08
-17000895,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-09-10,17:00,Unknown,3,213490,Orsomarso SC,89354,Tigres FC,,,notstarted,1789077600,2026-09-08
-16726643,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-09-10,17:00,Unknown,3,61504,Patriotas Boyacá,89364,Barranquilla FC,,,notstarted,1789077600,2026-09-08
 15526269,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-09-10,17:30,Unknown,27,47504,São Bernardo,2022,Londrina,,,notstarted,1789079400,2026-09-08
-15526277,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-09-10,17:30,Unknown,27,2021,Vila Nova FC,1960,Goiás,,,notstarted,1789079400,2026-09-08
-16585928,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-09-10,18:00,Unknown,25,5601,Club Deportes Antofagasta,3159,CD Cobreloa,,,notstarted,1789081200,2026-09-08
 15526275,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-09-10,19:30,Unknown,27,1959,Sport Recife,1969,Ponte Preta,,,notstarted,1789086600,2026-09-08
 16922857,South America,"CONMEBOL Libertadores, Knockout stage",384,"CONMEBOL Libertadores, Knockout stage",,2026-09-10,19:30,Unknown,27,39723,Independiente del Valle,5981,Flamengo,,,notstarted,1789086600,2026-09-08
 16881608,South America,"CONMEBOL Sudamericana, Knockout stage",480,"CONMEBOL Sudamericana, Knockout stage",,2026-09-10,19:30,Unknown,27,2301,Cienciano,174972,Montevideo City Torque,,,notstarted,1789086600,2026-09-08
