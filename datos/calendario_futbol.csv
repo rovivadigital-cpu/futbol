@@ -1,58 +1,5 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15373096,South Korea,K League 1,410,K League 1,,2026-09-12,02:30,Unknown,29,92539,Bucheon FC 1995,7649,Jeju SK,,,notstarted,1789198200,2026-09-09
-15373094,South Korea,K League 1,410,K League 1,,2026-09-12,02:30,Unknown,29,6908,Jeonbuk Hyundai Motors,7646,FC Seoul,,,notstarted,1789198200,2026-09-09
-15373095,South Korea,K League 1,410,K League 1,,2026-09-12,02:30,Unknown,29,7653,Ulsan HD,7648,Incheon United,,,notstarted,1789198200,2026-09-09
-16299960,South Korea,K-League 2,777,K-League 2,,2026-09-12,02:30,Unknown,26,7644,Daegu FC,41266,Yongin City FC,,,notstarted,1789198200,2026-09-09
-15403982,South Korea,K-League 2,777,K-League 2,,2026-09-12,02:30,Unknown,26,189422,Seoul E-Land FC,7652,Suwon Samsung Bluewings,,,notstarted,1789198200,2026-09-09
-16973567,Australia,"NSW NPL, Rel/Prom Playoff",1274,"NSW NPL, Rel/Prom Playoff",,2026-09-12,03:30,Unknown,29,138216,St George Saints FC,286097,Northern Tigers,,,notstarted,1789201800,2026-09-09
-16774413,Indonesia,Indonesia Super League,1015,Indonesia Super League,,2026-09-12,03:30,Unknown,2,204733,PSS Sleman,86578,Madura United FC,,,notstarted,1789201800,2026-09-09
-16774396,Indonesia,Indonesia Super League,1015,Indonesia Super League,,2026-09-12,03:30,Unknown,2,64295,Persija Jakarta,64289,Persib Bandung,,,notstarted,1789201800,2026-09-09
-17018047,Australia,"Queensland NPL, Final Round",1268,"Queensland NPL, Final Round",,2026-09-12,04:00,Unknown,29,47708,Lions FC,91144,Peninsula Power,,,notstarted,1789203600,2026-09-09
-16348582,Japan,J1 League,196,J1 League,,2026-09-12,04:00,Unknown,7,21901,Mito Hollyhock,5127,Kawasaki Frontale,,,notstarted,1789203600,2026-09-09
-16348847,Japan,J.League 2,402,J.League 2,,2026-09-12,04:00,Unknown,6,44523,Blaublitz Akita,21907,Tokushima Vortis,,,notstarted,1789203600,2026-09-09
-16348848,Japan,J.League 2,402,J.League 2,,2026-09-12,04:00,Unknown,6,256899,Iwaki FC,7061,Yokohama FC,,,notstarted,1789203600,2026-09-09
-16349226,Japan,J-League 3,2293,J-League 3,,2026-09-12,04:00,Unknown,6,38140,Fukushima United FC,21903,Roasso Kumamoto,,,notstarted,1789203600,2026-09-09
-16349231,Japan,J-League 3,2293,J-League 3,,2026-09-12,04:00,Unknown,6,40029,Giravanz Kitakyushu,38141,Gainare Tottori,,,notstarted,1789203600,2026-09-09
-16349229,Japan,J-League 3,2293,J-League 3,,2026-09-12,04:00,Unknown,6,38148,Nara Club,21900,FC Gifu,,,notstarted,1789203600,2026-09-09
-16348583,Japan,J1 League,196,J1 League,,2026-09-12,04:30,Unknown,7,3133,Shimizu S-Pulse,3143,Avispa Fukuoka,,,notstarted,1789205400,2026-09-09
-16348852,Japan,J.League 2,402,J.League 2,,2026-09-12,04:30,Unknown,6,34035,Kataller Toyama,56419,Tochigi City FC,,,notstarted,1789205400,2026-09-09
-16348845,Japan,J.League 2,402,J.League 2,,2026-09-12,04:30,Unknown,6,118478,Vanraure Hachinohe,21905,Shonan Bellmare,,,notstarted,1789205400,2026-09-09
-16348606,Japan,J1 League,196,J1 League,,2026-09-12,05:00,Unknown,7,3138,Gamba Osaka,3147,FC Tokyo,,,notstarted,1789207200,2026-09-09
-16348581,Japan,J1 League,196,J1 League,,2026-09-12,05:00,Unknown,7,44409,Machida Zelvia,3137,Yokohama F. Marinos,,,notstarted,1789207200,2026-09-09
-16348587,Japan,J1 League,196,J1 League,,2026-09-12,05:00,Unknown,7,3135,Sanfrecce Hiroshima,3141,Cerezo Osaka,,,notstarted,1789207200,2026-09-09
-16348588,Japan,J1 League,196,J1 League,,2026-09-12,05:00,Unknown,7,38154,V-Varen Nagasaki,3136,Nagoya Grampus,,,notstarted,1789207200,2026-09-09
-16348854,Japan,J.League 2,402,J.League 2,,2026-09-12,05:00,Unknown,6,79907,FC Imabari,21904,Sagan Tosu,,,notstarted,1789207200,2026-09-09
-16348850,Japan,J.League 2,402,J.League 2,,2026-09-12,05:00,Unknown,6,5130,RB Omiya Ardija,5129,Oita Trinita,,,notstarted,1789207200,2026-09-09
-16348855,Japan,J.League 2,402,J.League 2,,2026-09-12,05:00,Unknown,6,287058,Tegevajaro Miyazaki,118500,Fujieda MYFC,,,notstarted,1789207200,2026-09-09
-16348851,Japan,J.League 2,402,J.League 2,,2026-09-12,05:00,Unknown,6,5762,Ventforet Kofu,3132,Jubilo Iwata,,,notstarted,1789207200,2026-09-09
-16349230,Japan,J-League 3,2293,J-League 3,,2026-09-12,05:00,Unknown,6,38146,Renofa Yamaguchi FC,21906,Thespa Gunma,,,notstarted,1789207200,2026-09-09
-15373100,South Korea,K League 1,410,K League 1,,2026-09-12,05:00,Unknown,29,7645,Daejeon Hana Citizen,7650,Pohang Steelers,,,notstarted,1789207200,2026-09-09
-15403981,South Korea,K-League 2,777,K-League 2,,2026-09-12,05:00,Unknown,26,248375,Ansan Greeners FC,195174,Hwaseong FC,,,notstarted,1789207200,2026-09-09
-15403984,South Korea,K-League 2,777,K-League 2,,2026-09-12,05:00,Unknown,26,339827,Chungnam Asan FC,314293,Cheongju FC,,,notstarted,1789207200,2026-09-09
 16412938,Ukraine,Premier League,218,Premier League,,2026-09-12,05:00,Unknown,6,294048,FC Kryvbas Kryvyi Rih,266889,FC Kharkiv,,,notstarted,1789207200,2026-09-09
-16412943,Ukraine,Premier League,218,Premier League,,2026-09-12,05:00,Unknown,6,284427,LNZ Cherkasy,138564,Obolon Kyiv,,,notstarted,1789207200,2026-09-09
-17047314,China,Chinese Super League,649,Chinese Super League,,2026-09-12,06:00,Unknown,18,3367,Tianjin Jinmen Tiger,221240,Liaoning Tieren FC,,,notstarted,1789210800,2026-09-09
-15657936,China,Chinese League 1,782,Chinese League 1,,2026-09-12,06:00,Unknown,23,34694,Changchun Yatai,196341,Jiangxi Dingnan United,,,notstarted,1789210800,2026-09-09
-15657934,China,Chinese League 1,782,Chinese League 1,,2026-09-12,06:00,Unknown,23,221238,Ningbo FC,510602,Shaanxi Union FC,,,notstarted,1789210800,2026-09-09
-15657935,China,Chinese League 1,782,Chinese League 1,,2026-09-12,06:00,Unknown,23,164044,Suzhou Dongwu,508366,Foshan Nanshi,,,notstarted,1789210800,2026-09-09
-16599834,Spain,"Primera Federacion, Group 2",17073,"Primera Federacion, Group 2",,2026-09-12,06:00,Unknown,3,217210,CDA Águilas FC,5069,Real Madrid Castilla U21,,,notstarted,1789210800,2026-09-09
-16317254,Denmark,Betinia Liga,47,Betinia Liga,,2026-09-12,06:00,Unknown,8,1371,Hillerød Fodbold,203406,AB,,,notstarted,1789210800,2026-09-09
-16434367,Germany,2. Bundesliga,44,2. Bundesliga,,2026-09-12,06:00,Unknown,5,2591,1. FC Magdeburg,2675,1. FC Kaiserslautern,,,notstarted,1789210800,2026-09-09
-16434369,Germany,2. Bundesliga,44,2. Bundesliga,,2026-09-12,06:00,Unknown,5,2557,Eintracht Braunschweig,2595,SG Dynamo Dresden,,,notstarted,1789210800,2026-09-09
-16434365,Germany,2. Bundesliga,44,2. Bundesliga,,2026-09-12,06:00,Unknown,5,2542,VfL Bochum 1848,2551,SpVgg Greuther Fürth,,,notstarted,1789210800,2026-09-09
-15472583,Latvia,Virsliga,197,Virsliga,,2026-09-12,06:00,Unknown,30,52220,FK Grobiņa,36081,FS Jelgava,,,notstarted,1789210800,2026-09-09
-16391671,England,Championship,18,Championship,,2026-09-12,06:30,Unknown,7,5,Bolton Wanderers,61,Cardiff City,,,notstarted,1789212600,2026-09-09
-16391673,England,Championship,18,Championship,,2026-09-12,06:30,Unknown,7,27,Derby County,9,Birmingham City,,,notstarted,1789212600,2026-09-09
-16391681,England,Championship,18,Championship,,2026-09-12,06:30,Unknown,7,8,West Bromwich Albion,1,Queens Park Rangers,,,notstarted,1789212600,2026-09-09
-16395430,England,League One,24,League One,,2026-09-12,06:30,Unknown,6,83,Leyton Orient,62,Wycombe Wanderers,,,notstarted,1789212600,2026-09-09
-16395432,England,League One,24,League One,,2026-09-12,06:30,Unknown,6,56,Notts County,22,Bradford City,,,notstarted,1789212600,2026-09-09
-16395857,England,League Two,25,League Two,,2026-09-12,06:30,Unknown,6,4875,Crawley Town,69,Cheltenham Town,,,notstarted,1789212600,2026-09-09
-16395860,England,League Two,25,League Two,,2026-09-12,06:30,Unknown,6,18,Grimsby Town,76,Bristol Rovers,,,notstarted,1789212600,2026-09-09
-15657937,China,Chinese League 1,782,Chinese League 1,,2026-09-12,06:30,Unknown,23,510606,Guangdong GZ-Power,508178,Dalian Kuncheng City,,,notstarted,1789212600,2026-09-09
-15657938,China,Chinese League 1,782,Chinese League 1,,2026-09-12,06:30,Unknown,23,510605,Guangxi Hengchen FC,382025,Yanbian Longding,,,notstarted,1789212600,2026-09-09
-15432405,Estonia,Premium Liiga,178,Premium Liiga,,2026-09-12,06:30,Unknown,28,3342,FCI Levadia Tallinn,247090,Pärnu JK Vaprus,,,notstarted,1789212600,2026-09-09
-15432404,Estonia,Premium Liiga,178,Premium Liiga,,2026-09-12,06:30,Unknown,28,8091,Nõmme Kalju,3343,Narva Trans,,,notstarted,1789212600,2026-09-09
-17040294,China,Chinese Super League,649,Chinese Super League,,2026-09-12,06:35,Unknown,18,295152,Wuhan Three Towns,34692,Henan FC,,,notstarted,1789212900,2026-09-09
 16416328,Spain,LaLiga,8,LaLiga,,2026-09-12,07:00,Unknown,5,2835,Real Racing Club,2885,Deportivo Alavés,,,notstarted,1789214400,2026-09-09
 16418279,Spain,LaLiga 2,54,LaLiga 2,,2026-09-12,07:00,Unknown,5,324871,FC Andorra,24360,Real Sociedad B,,,notstarted,1789214400,2026-09-09
 16379948,Czech Republic,FNL,205,FNL,,2026-09-12,07:00,Unknown,8,37113,Arsenal Česká Lípa,76775,1. SK Prostějov,,,notstarted,1789214400,2026-09-09
@@ -565,6 +512,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15235467,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-09-13,15:30,Unknown,27,5981,Flamengo,1957,Corinthians,,,notstarted,1789331400,2026-09-11
 16459620,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-09-13,15:30,Unknown,9,89366,Boca Juniors de Cali,89358,Real Santander,,,notstarted,1789331400,2026-09-11
 15502685,Ecuador,"LigaPro Serie A, Primera Etapa",240,"LigaPro Serie A, Primera Etapa",,2026-09-13,15:30,Unknown,30,6001,Macará,5255,Emelec,,,notstarted,1789331400,2026-09-11
+17081141,Jamaica,Premier League,1892,Premier League,,2026-09-13,15:30,Unknown,,173734,Tivoli Gardens,173722,Humble Lions FC,,,notstarted,1789331400,2026-09-12
 15275891,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-09-13,16:00,Unknown,29,6074,Godoy Cruz,3207,Club Atletico Colón,,,notstarted,1789333200,2026-09-11
 15526287,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-09-13,16:00,Unknown,28,1980,Juventude,342775,Athletic Club,,,notstarted,1789333200,2026-09-11
 16317827,Costa Rica,"Primera División, Apertura",11535,"Primera División, Apertura",,2026-09-13,16:00,Unknown,8,6575,Municipal Liberia,7045,Herediano,,,canceled,1789333200,2026-09-11
