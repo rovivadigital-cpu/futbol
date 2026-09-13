@@ -1,49 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15373097,South Korea,K League 1,410,K League 1,,2026-09-13,02:30,Unknown,29,7647,Gimcheon Sangmu FC,34220,Gangwon FC,,,notstarted,1789284600,2026-09-10
-15403986,South Korea,K-League 2,777,K-League 2,,2026-09-13,02:30,Unknown,26,22020,Gyeongnam FC,7651,Seongnam FC,,,notstarted,1789284600,2026-09-10
-15403985,South Korea,K-League 2,777,K-League 2,,2026-09-13,02:30,Unknown,26,7643,Jeonnam Dragons,195172,Gimpo FC,,,notstarted,1789284600,2026-09-10
-16379953,Czech Republic,FNL,205,FNL,,2026-09-13,03:15,Unknown,8,324982,SK Slavia Praha B,2211,FK Viktoria Žižkov,,,notstarted,1789287300,2026-09-10
-16412031,Austria,2. Liga,135,2. Liga,,2026-09-13,03:30,Unknown,6,7790,FC Liefering,2119,SKN St. Pölten,,,notstarted,1789288200,2026-09-10
-16774393,Indonesia,Indonesia Super League,1015,Indonesia Super League,,2026-09-13,03:30,Unknown,2,135864,PSM Makassar,47465,Arema FC,,,notstarted,1789288200,2026-09-10
-16774400,Indonesia,Indonesia Super League,1015,Indonesia Super League,,2026-09-13,03:30,Unknown,2,86576,Persita Tangerang,491968,Java United FC,,,notstarted,1789288200,2026-09-10
-17024592,Australia,"Capital NPL, Playoffs",1260,"Capital NPL, Playoffs",,2026-09-13,04:00,Unknown,29,91568,Canberra Croatia FC,91572,Tigers FC,,,notstarted,1789290000,2026-09-10
-16348584,Japan,J1 League,196,J1 League,,2026-09-13,04:00,Unknown,7,3139,Tokyo Verdy,3144,JEF United Chiba,,,notstarted,1789290000,2026-09-10
-16348853,Japan,J.League 2,402,J.League 2,,2026-09-13,04:00,Unknown,6,5128,Albirex Niigata,21902,Montedio Yamagata,,,notstarted,1789290000,2026-09-10
-16348846,Japan,J.League 2,402,J.League 2,,2026-09-13,04:00,Unknown,6,3148,Vegalta Sendai,3142,Hokkaido Consadole Sapporo,,,notstarted,1789290000,2026-09-10
-16349232,Japan,J-League 3,2293,J-League 3,,2026-09-13,04:00,Unknown,6,44528,FC Ryukyu,38157,Kamatamare Sanuki,,,notstarted,1789290000,2026-09-10
-16349227,Japan,J-League 3,2293,J-League 3,,2026-09-13,04:00,Unknown,6,26011,Matsumoto Yamaga FC,189234,SC Sagamihara,,,notstarted,1789290000,2026-09-10
-15514356,Estonia,Esiliiga,678,Esiliiga,,2026-09-13,04:30,Unknown,29,383797,FC Nõmme United U21,44459,Viimsi JK,,,notstarted,1789291800,2026-09-10
-15514353,Estonia,Esiliiga,678,Esiliiga,,2026-09-13,04:30,Unknown,29,283728,FC Tallinn,36075,FCI Levadia Tallinn U21,,,notstarted,1789291800,2026-09-10
-15514354,Estonia,Esiliiga,678,Esiliiga,,2026-09-13,04:30,Unknown,29,36074,Flora Tallinn U21,37534,FC Elva,,,notstarted,1789291800,2026-09-10
-15514355,Estonia,Esiliiga,678,Esiliiga,,2026-09-13,04:30,Unknown,29,37528,Maardu Linnameeskond,7105,Tallinna Kalev,,,postponed,1789291800,2026-09-11
-16348585,Japan,J1 League,196,J1 League,,2026-09-13,04:30,Unknown,7,3145,Urawa Red Diamonds,34034,Fagiano Okayama,,,notstarted,1789291800,2026-09-10
-16349225,Japan,J-League 3,2293,J-League 3,,2026-09-13,04:30,Unknown,6,287054,Reilac Shiga FC,162632,Kagoshima United,,,notstarted,1789291800,2026-09-10
-16439355,Spain,"Primera Federacion, Group 1",17073,"Primera Federacion, Group 1",,2026-09-13,05:00,Unknown,3,202071,Arenas Club,24379,Zamora CF,,,notstarted,1789293600,2026-09-10
-16439358,Spain,"Primera Federacion, Group 1",17073,"Primera Federacion, Group 1",,2026-09-13,05:00,Unknown,3,2843,Racing de Ferrol,2881,Real Unión Club,,,notstarted,1789293600,2026-09-10
-16599875,Spain,"Primera Federacion, Group 2",17073,"Primera Federacion, Group 2",,2026-09-13,05:00,Unknown,3,24265,Huesca,24338,Villarreal B U23,,,notstarted,1789293600,2026-09-10
-16349224,Japan,J-League 3,2293,J-League 3,,2026-09-13,05:00,Unknown,6,79883,AC Nagano Parceiro,26009,Tochigi SC,,,notstarted,1789293600,2026-09-10
-16349233,Japan,J-League 3,2293,J-League 3,,2026-09-13,05:00,Unknown,6,230706,Kochi United SC,38138,Zweigen Kanazawa,,,notstarted,1789293600,2026-09-10
-15373098,South Korea,K League 1,410,K League 1,,2026-09-13,05:00,Unknown,29,48912,Gwangju FC,32675,FC Anyang,,,notstarted,1789293600,2026-09-10
-15403990,South Korea,K-League 2,777,K-League 2,,2026-09-13,05:00,Unknown,26,7642,Busan I Park,41260,Gimhae City FC,,,notstarted,1789293600,2026-09-10
-15403992,South Korea,K-League 2,777,K-League 2,,2026-09-13,05:00,Unknown,26,41261,Suwon FC,41263,Cheonan City FC,,,notstarted,1789293600,2026-09-10
-16316817,Netherlands,VriendenLoterij Eredivisie,37,VriendenLoterij Eredivisie,,2026-09-13,05:15,Unknown,6,2967,Excelsior,2948,FC Utrecht,,,notstarted,1789294500,2026-09-10
-16317017,Poland,Ekstraklasa,202,Ekstraklasa,,2026-09-13,05:15,Unknown,8,3122,Wisła Płock,4901,KS Cracovia,,,notstarted,1789294500,2026-09-10
-16391676,England,Championship,18,Championship,,2026-09-13,06:00,Unknown,7,15,Sheffield United,3,Wolverhampton,,,notstarted,1789297200,2026-09-10
-15657939,China,Chinese League 1,782,Chinese League 1,,2026-09-13,06:00,Unknown,23,382020,Wuxi Wugou,251278,Nantong Zhiyun,,,notstarted,1789297200,2026-09-10
-16453822,Czech Republic,Czech First League,172,Czech First League,,2026-09-13,06:00,Unknown,8,2204,Baník Ostrava,2230,FK Pardubice,,,notstarted,1789297200,2026-09-10
-15472585,Latvia,Virsliga,197,Virsliga,,2026-09-13,06:00,Unknown,30,41498,BFC Daugavpils,68718,RFS,,,notstarted,1789297200,2026-09-10
-16803795,Africa,"CAF Confederations Cup, Qualification",1115,"CAF Confederations Cup, Qualification",,2026-09-13,06:00,Unknown,1,506386,Inate FC Rouge,191734,Red Arrows,,,notstarted,1789297200,2026-09-10
-15254110,Sweden,Damallsvenskan,214,Damallsvenskan,,2026-09-13,06:00,Unknown,18,1889,BK Häcken FF,61572,Vittsjö GIK,,,notstarted,1789297200,2026-09-10
-15254111,Sweden,Damallsvenskan,214,Damallsvenskan,,2026-09-13,06:00,Unknown,18,1878,Djurgårdens IF DFF,8086,Kristianstads DFF,,,notstarted,1789297200,2026-09-10
-15657940,China,Chinese League 1,782,Chinese League 1,,2026-09-13,06:30,Unknown,23,215186,Meizhou Hakka,369494,Nanjing City,,,notstarted,1789299000,2026-09-10
-15657941,China,Chinese League 1,782,Chinese League 1,,2026-09-13,06:30,Unknown,23,382024,Shijiazhuang Gongfu,510603,Shenzhen Juniors FC,,,notstarted,1789299000,2026-09-10
-16361919,Belgium,Pro League,38,Pro League,,2026-09-13,06:30,Unknown,6,2888,Club Brugge KV,2889,Royal Antwerp FC,,,notstarted,1789299000,2026-09-10
-15432407,Estonia,Premium Liiga,178,Premium Liiga,,2026-09-13,06:30,Unknown,28,32476,Paide Linnameeskond,197994,Harju Jalgpallikool,,,notstarted,1789299000,2026-09-10
-16434362,Germany,2. Bundesliga,44,2. Bundesliga,,2026-09-13,06:30,Unknown,5,5885,1. FC Heidenheim,2573,Holstein Kiel,,,notstarted,1789299000,2026-09-10
-16434366,Germany,2. Bundesliga,44,2. Bundesliga,,2026-09-13,06:30,Unknown,5,2553,Karlsruher SC,2532,Energie Cottbus,,,notstarted,1789299000,2026-09-10
-16434368,Germany,2. Bundesliga,44,2. Bundesliga,,2026-09-13,06:30,Unknown,5,2581,VfL Osnabrück,2528,Hertha BSC,,,notstarted,1789299000,2026-09-10
-16598597,Germany,3. Liga,491,3. Liga,,2026-09-13,06:30,Unknown,5,2522,VfB Stuttgart II U21,2590,Preußen Münster,,,notstarted,1789299000,2026-09-10
-16273125,Lithuania,TOPLYGA,198,TOPLYGA,,2026-09-13,06:30,Unknown,31,192763,FK Panevėžys,80741,FK Kauno Žalgiris,,,notstarted,1789299000,2026-09-10
 16893308,Armenia,Fastex Premier League,671,Fastex Premier League,,2026-09-13,07:00,Unknown,7,1108829,Sardarapat FC,67966,FC Alashkert,,,notstarted,1789300800,2026-09-10
 16416347,Spain,LaLiga,8,LaLiga,,2026-09-13,07:00,Unknown,5,2821,Celta Vigo,2830,Málaga CF,,,notstarted,1789300800,2026-09-10
 16418292,Spain,LaLiga 2,54,LaLiga 2,,2026-09-13,07:00,Unknown,5,2852,Sporting Gijón,47321,CD Eldense,,,notstarted,1789300800,2026-09-10
