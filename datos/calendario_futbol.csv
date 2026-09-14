@@ -1,5 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16349228,Japan,J-League 3,2293,J-League 3,,2026-09-14,05:00,Unknown,6,205600,FC Osaka,8060,Ehime FC,,,notstarted,1789380000,2026-09-11
 15388709,Georgia,Erovnuli Liga,704,Erovnuli Liga,,2026-09-14,07:00,Unknown,26,37305,Meshakhte Tkibuli,7703,FC Rustavi,,,notstarted,1789387200,2026-09-11
 16412940,Ukraine,Premier League,218,Premier League,,2026-09-14,07:30,Unknown,6,3305,Dynamo Kyiv,323552,FC Epicentr Dunaivtsi,,,notstarted,1789389000,2026-09-11
 16863569,Asia,"AFC Champions League Elite, West Region",463,"AFC Champions League Elite, West Region",,2026-09-14,08:45,Unknown,1,36256,Neftchi Fergana,213877,Al-Quwa Al-Jawiya,,,notstarted,1789393500,2026-09-11
@@ -122,6 +121,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15526286,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-09-15,19:00,Unknown,28,22032,Clube De Regatas Brasil,1959,Sport Recife,,,notstarted,1789516800,2026-09-13
 16736576,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-15,19:30,Unknown,3,6107,Boyacá Chicó FC,504899,Alianza Valledupar FC,,,notstarted,1789518600,2026-09-13
 16872361,South America,"CONMEBOL Sudamericana, Knockout stage",480,"CONMEBOL Sudamericana, Knockout stage",,2026-09-15,19:30,Unknown,27,1981,São Paulo,3202,Boca Juniors,,,notstarted,1789518600,2026-09-13
+17093847,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-09-15,22:00,Unknown,10,6229,Carabobo FC,36437,Deportivo La Guaira,,,notstarted,1789527600,2026-09-14
 16774412,Indonesia,Indonesia Super League,1015,Indonesia Super League,,2026-09-16,03:30,Unknown,3,189945,Borneo FC Samarinda,383891,Dewa United FC,,,notstarted,1789547400,2026-09-13
 16863673,Asia,"AFC Champions League Elite, East Region",463,"AFC Champions League Elite, East Region",,2026-09-16,05:00,Unknown,1,6908,Jeonbuk Hyundai Motors,3140,Kashiwa Reysol,,,notstarted,1789552800,2026-09-13
 16873593,Asia,"AFC Champions League Two, Group E",668,"AFC Champions League Two, Group E",,2026-09-16,05:00,Unknown,1,7646,FC Seoul,64289,Persib Bandung,,,notstarted,1789552800,2026-09-13
@@ -200,8 +200,10 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15285600,USA,"USL, League One",13362,"USL, League One",,2026-09-16,20:00,Unknown,,1158834,AC Boise,197072,Charlotte Independence,,,notstarted,1789606800,2026-09-14
 16390790,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-16,20:20,Unknown,13,1164534,Internacional de Bogotá,6106,Atlético Nacional,,,notstarted,1789608000,2026-09-14
 15385470,USA,NWSL,1690,NWSL,,2026-09-16,20:30,Unknown,1,1165117,Denver Summit FC,505655,Bay FC,,,notstarted,1789608600,2026-09-14
+17093893,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-09-16,20:30,Unknown,10,6233,Monagas,6237,Zamora,,,notstarted,1789608600,2026-09-14
 15385471,USA,NWSL,1690,NWSL,,2026-09-16,21:00,Unknown,1,408169,Angel City FC,151010,Seattle Reign FC,,,notstarted,1789610400,2026-09-14
 16951514,North & Central America,"CONCACAF Central American Cup, Knockout Stage",20695,"CONCACAF Central American Cup, Knockout Stage",,2026-09-16,22:15,Unknown,27,24383,Alianza FC,22047,FC Motagua,,,notstarted,1789614900,2026-09-14
+17093892,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-09-16,23:00,Unknown,10,162480,Metropolitanos,6230,Caracas F.C.,,,notstarted,1789617600,2026-09-14
 16864024,Asia,"AFC Champions League Two, Group F",668,"AFC Champions League Two, Group F",,2026-09-17,05:00,Unknown,1,2946,Adelaide United,40662,Tai Po,,,notstarted,1789639200,2026-09-14
 16864094,Asia,"AFC Champions League Two, Group F",668,"AFC Champions League Two, Group F",,2026-09-17,05:00,Unknown,1,3041,Lion City Sailors,35607,BG Pathum United,,,notstarted,1789639200,2026-09-14
 16864127,Asia,"AFC Champions League Two, Group G",668,"AFC Champions League Two, Group G",,2026-09-17,05:00,Unknown,1,44409,Machida Zelvia,153474,Preah Khan Reach Svay Rieng FC,,,notstarted,1789639200,2026-09-14
