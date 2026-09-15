@@ -1,8 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16863668,Asia,"AFC Champions League Elite, East Region",463,"AFC Champions League Elite, East Region",,2026-09-15,05:00,Unknown,1,7645,Daejeon Hana Citizen,3149,Kyoto Sanga FC,,,notstarted,1789466400,2026-09-12
-16863669,Asia,"AFC Champions League Elite, East Region",463,"AFC Champions League Elite, East Region",,2026-09-15,05:00,Unknown,1,3138,Gamba Osaka,193616,Công An Hà Nội,,,notstarted,1789466400,2026-09-12
-16863672,Asia,"AFC Champions League Elite, East Region",463,"AFC Champions League Elite, East Region",,2026-09-15,05:00,Unknown,1,3134,Kashima Antlers,2934,Newcastle Jets,,,notstarted,1789466400,2026-09-12
-16863670,Asia,"AFC Champions League Elite, East Region",463,"AFC Champions League Elite, East Region",,2026-09-15,05:00,Unknown,1,85743,Ratchaburi,41537,Shanghai Port,,,notstarted,1789466400,2026-09-12
 16863671,Asia,"AFC Champions League Elite, East Region",463,"AFC Champions League Elite, East Region",,2026-09-15,07:15,Unknown,1,3376,Beijing Guoan,7650,Pohang Steelers,,,notstarted,1789474500,2026-09-12
 16863667,Asia,"AFC Champions League Elite, East Region",463,"AFC Champions League Elite, East Region",,2026-09-15,07:15,Unknown,1,3327,Johor Darul Ta'zim,34218,Buriram United,,,notstarted,1789474500,2026-09-12
 16867441,Asia,"AFC Champions League Two, Group B",668,"AFC Champions League Two, Group B",,2026-09-15,08:45,Unknown,1,469420,Arkadag FK,45474,Al-Muharraq SC,,,notstarted,1789479900,2026-09-12
@@ -51,6 +47,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16774709,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-09-15,17:30,Unknown,10,6231,Deportivo Táchira,230725,Academia Puerto Cabello,,,postponed,1789511400,2026-09-13
 16478174,USA,USL Championship,13363,USL Championship,,2026-09-15,18:00,Unknown,,148992,Indy Eleven,1158835,Brooklyn FC,,,notstarted,1789513200,2026-09-13
 15416334,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-09-15,18:30,Unknown,26,3153,Unión Española,119072,Deportes Temuco,,,notstarted,1789515000,2026-09-13
+16774714,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-09-15,18:30,Unknown,10,249952,Universidad Central,418693,Anzoátegui FC,,,notstarted,1789515000,2026-09-15
 15526286,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-09-15,19:00,Unknown,28,22032,Clube De Regatas Brasil,1959,Sport Recife,,,notstarted,1789516800,2026-09-13
 16736576,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-15,19:30,Unknown,3,6107,Boyacá Chicó FC,504899,Alianza Valledupar FC,,,notstarted,1789518600,2026-09-13
 16872361,South America,"CONMEBOL Sudamericana, Knockout stage",480,"CONMEBOL Sudamericana, Knockout stage",,2026-09-15,19:30,Unknown,27,1981,São Paulo,3202,Boca Juniors,,,notstarted,1789518600,2026-09-13
