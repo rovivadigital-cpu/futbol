@@ -1,28 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16863671,Asia,"AFC Champions League Elite, East Region",463,"AFC Champions League Elite, East Region",,2026-09-15,07:15,Unknown,1,3376,Beijing Guoan,7650,Pohang Steelers,,,notstarted,1789474500,2026-09-12
-16863667,Asia,"AFC Champions League Elite, East Region",463,"AFC Champions League Elite, East Region",,2026-09-15,07:15,Unknown,1,3327,Johor Darul Ta'zim,34218,Buriram United,,,notstarted,1789474500,2026-09-12
-16867441,Asia,"AFC Champions League Two, Group B",668,"AFC Champions League Two, Group B",,2026-09-15,08:45,Unknown,1,469420,Arkadag FK,45474,Al-Muharraq SC,,,notstarted,1789479900,2026-09-12
-16864010,Asia,"AFC Champions League Two, Group B",668,"AFC Champions League Two, Group B",,2026-09-15,08:45,Unknown,1,275525,Gol Gohar Sirjan,8090,Al-Jazira,,,notstarted,1789479900,2026-09-12
-16738968,Egypt,Egyptian Premier League,808,Egyptian Premier League,,2026-09-15,09:00,Unknown,5,270807,Asyut Petroleum,265830,Modern Sport FC,,,notstarted,1789480800,2026-09-13
-16738967,Egypt,Egyptian Premier League,808,Egyptian Premier League,,2026-09-15,09:00,Unknown,5,43568,Wadi Degla,42365,Arab Contractors FC,,,notstarted,1789480800,2026-09-13
-16990429,Europe,"UEFA Youth League, Knockout stage",2132,"UEFA Youth League, Knockout stage",,2026-09-15,09:00,Unknown,1,1271525,OFK Mladost U19,232531,Kairat Almaty U19,,,notstarted,1789480800,2026-09-13
-17040718,Latvia,Virsliga,197,Virsliga,,2026-09-15,11:00,Unknown,24,282126,SK Super Nova,162368,Riga FC,,,notstarted,1789488000,2026-09-13
-16863571,Asia,"AFC Champions League Elite, West Region",463,"AFC Champions League Elite, West Region",,2026-09-15,11:00,Unknown,1,37082,Al-Ain,23400,Al-Nassr,,,notstarted,1789488000,2026-09-13
-16929420,Poland,Ekstraklasa,202,Ekstraklasa,,2026-09-15,11:00,Unknown,3,35268,Raków Częstochowa,3113,Zagłębie Lubin,,,notstarted,1789488000,2026-09-13
-16364241,Israel,Premier League,266,Premier League,,2026-09-15,11:30,Unknown,4,61702,Ironi Dorot Tiberias,86406,Hapoel Jerusalem,,,notstarted,1789489800,2026-09-13
-16416345,Spain,LaLiga,8,LaLiga,,2026-09-15,12:00,Unknown,6,2818,Rayo Vallecano,2814,Espanyol,,,notstarted,1789491600,2026-09-13
-16738963,Egypt,Egyptian Premier League,808,Egyptian Premier League,,2026-09-15,12:00,Unknown,5,43560,Al-Masry,35187,Al-Ittihad Alexandria,,,notstarted,1789491600,2026-09-13
-16738969,Egypt,Egyptian Premier League,808,Egyptian Premier League,,2026-09-15,12:00,Unknown,5,6910,Al Ahly FC,276648,Abu Qir Fertilizers SC,,,notstarted,1789491600,2026-09-13
-16596631,Germany,3. Liga,491,3. Liga,,2026-09-15,12:00,Unknown,6,23947,FC Würzburger Kickers,2546,Alemannia Aachen,,,notstarted,1789491600,2026-09-13
-16596619,Germany,3. Liga,491,3. Liga,,2026-09-15,12:00,Unknown,6,2543,MSV Duisburg,7827,TSV Havelse,,,notstarted,1789491600,2026-09-13
-16596630,Germany,3. Liga,491,3. Liga,,2026-09-15,12:00,Unknown,6,5894,SG Sonnenhof Großaspach,2593,SC Verl,,,notstarted,1789491600,2026-09-13
-16596627,Germany,3. Liga,491,3. Liga,,2026-09-15,12:00,Unknown,6,2567,SSV Jahn Regensburg,2588,Fortuna Düsseldorf,,,notstarted,1789491600,2026-09-13
-16596629,Germany,3. Liga,491,3. Liga,,2026-09-15,12:00,Unknown,6,5804,SV Meppen,53365,FC Viktoria Köln,,,notstarted,1789491600,2026-09-13
-16364243,Israel,Premier League,266,Premier League,,2026-09-15,12:00,Unknown,4,5204,Beitar Jerusalem,5333,Maccabi Petach Tikva,,,notstarted,1789491600,2026-09-13
-15272373,Sweden,Superettan,46,Superettan,,2026-09-15,12:00,Unknown,24,1842,IFK Värnamo,1781,Östers IF,,,notstarted,1789491600,2026-09-13
-15272371,Sweden,Superettan,46,Superettan,,2026-09-15,12:00,Unknown,24,1777,IK Brage,1844,Sandvikens IF,,,notstarted,1789491600,2026-09-13
-15272370,Sweden,Superettan,46,Superettan,,2026-09-15,12:00,Unknown,24,1772,Landskrona BoIS,1763,GIF Sundsvall,,,notstarted,1789491600,2026-09-13
-17014201,Switzerland,Swiss Super League,215,Swiss Super League,,2026-09-15,12:00,Unknown,4,2449,Grasshopper Club Zürich,2452,FC Sion,,,notstarted,1789491600,2026-09-13
 16416334,Spain,LaLiga,8,LaLiga,,2026-09-15,13:00,Unknown,6,2885,Deportivo Alavés,2828,Valencia,,,notstarted,1789495200,2026-09-13
 16316775,Netherlands,VriendenLoterij Eredivisie,37,VriendenLoterij Eredivisie,,2026-09-15,13:00,Unknown,3,2953,AFC Ajax,2961,Willem II Tilburg,,,notstarted,1789495200,2026-09-13
 16863573,Asia,"AFC Champions League Elite, West Region",463,"AFC Champions League Elite, West Region",,2026-09-15,13:15,Unknown,1,21895,Al-Hilal,34312,Al-Gharafa,,,notstarted,1789496100,2026-09-13
