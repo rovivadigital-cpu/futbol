@@ -1,33 +1,7 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16416334,Spain,LaLiga,8,LaLiga,,2026-09-15,13:00,Unknown,6,2885,Deportivo Alavés,2828,Valencia,,,notstarted,1789495200,2026-09-13
-16316775,Netherlands,VriendenLoterij Eredivisie,37,VriendenLoterij Eredivisie,,2026-09-15,13:00,Unknown,3,2953,AFC Ajax,2961,Willem II Tilburg,,,notstarted,1789495200,2026-09-13
-16863573,Asia,"AFC Champions League Elite, West Region",463,"AFC Champions League Elite, West Region",,2026-09-15,13:15,Unknown,1,21895,Al-Hilal,34312,Al-Gharafa,,,notstarted,1789496100,2026-09-13
-16906465,Poland,Ekstraklasa,202,Ekstraklasa,,2026-09-15,13:30,Unknown,2,5065,MKS Korona Kielce,3110,Górnik Zabrze,,,notstarted,1789497000,2026-09-13
-16391660,England,Championship,18,Championship,,2026-09-15,13:45,Unknown,6,58,Bristol City,92,Lincoln City,,,notstarted,1789497900,2026-09-13
-16391662,England,Championship,18,Championship,,2026-09-15,13:45,Unknown,6,36,Middlesbrough,25,Millwall,,,notstarted,1789497900,2026-09-13
-16890990,Scotland,Scottish Premiership,36,Scottish Premiership,,2026-09-15,13:45,Unknown,3,2363,Falkirk FC,2353,Heart of Midlothian,,,notstarted,1789497900,2026-09-13
-16890989,Scotland,Scottish Premiership,36,Scottish Premiership,,2026-09-15,13:45,Unknown,3,2354,Hibernian,2347,Kilmarnock,,,notstarted,1789497900,2026-09-13
-16890991,Scotland,Scottish Premiership,36,Scottish Premiership,,2026-09-15,13:45,Unknown,3,2346,Motherwell,2355,Aberdeen,,,notstarted,1789497900,2026-09-13
-16362225,Scotland,Championship,206,Championship,,2026-09-15,13:45,Unknown,6,2370,Stenhousemuir,2358,Partick Thistle,,,notstarted,1789497900,2026-09-13
-16707341,Scotland,League One,207,League One,,2026-09-15,13:45,Unknown,3,2365,Ross County,2368,Queen of The South,,,notstarted,1789497900,2026-09-13
-16748593,Bolivia,División Profesional,16736,División Profesional,,2026-09-15,14:00,Unknown,20,423186,CDT Real Oruro,7060,Real Potosí,,,notstarted,1789498800,2026-09-13
-16416342,Spain,LaLiga,8,LaLiga,,2026-09-15,14:30,Unknown,6,2846,Elche,2829,Real Madrid,,,notstarted,1789500600,2026-09-13
-16678775,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-15,15:00,Unknown,3,6109,Deportivo Pereira,6116,Independiente Santa Fe,,,postponed,1789502400,2026-09-13
-15416332,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-09-15,16:00,Unknown,26,39220,San Luis de Quillota,5601,Club Deportes Antofagasta,,,notstarted,1789506000,2026-09-13
-16748595,Bolivia,División Profesional,16736,División Profesional,,2026-09-15,16:15,Unknown,20,423188,Academia de Balompié Boliviano,32529,The Strongest,,,notstarted,1789506900,2026-09-13
-16459621,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-09-15,17:00,Unknown,9,89364,Barranquilla FC,1166437,Independiente Yumbo,,,notstarted,1789509600,2026-09-13
-16872385,South America,"CONMEBOL Libertadores, Knockout stage",384,"CONMEBOL Libertadores, Knockout stage",,2026-09-15,17:00,Unknown,27,36837,Club Atlético Platense,1961,Fluminense,,,notstarted,1789509600,2026-09-13
-16932220,South America,"CONMEBOL Sudamericana, Knockout stage",480,"CONMEBOL Sudamericana, Knockout stage",,2026-09-15,17:00,Unknown,27,1974,Vasco da Gama,6116,Independiente Santa Fe,,,notstarted,1789509600,2026-09-13
-15526281,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-09-15,17:30,Unknown,28,2022,Londrina,1969,Ponte Preta,,,notstarted,1789511400,2026-09-13
-15526285,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-09-15,17:30,Unknown,28,2011,Náutico,39634,Operário-PR,,,notstarted,1789511400,2026-09-13
-16774709,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-09-15,17:30,Unknown,10,6231,Deportivo Táchira,230725,Academia Puerto Cabello,,,postponed,1789511400,2026-09-13
-16478174,USA,USL Championship,13363,USL Championship,,2026-09-15,18:00,Unknown,,148992,Indy Eleven,1158835,Brooklyn FC,,,notstarted,1789513200,2026-09-13
-15416334,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-09-15,18:30,Unknown,26,3153,Unión Española,119072,Deportes Temuco,,,notstarted,1789515000,2026-09-13
-16774714,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-09-15,18:30,Unknown,10,249952,Universidad Central,418693,Anzoátegui FC,,,notstarted,1789515000,2026-09-15
 15526286,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-09-15,19:00,Unknown,28,22032,Clube De Regatas Brasil,1959,Sport Recife,,,notstarted,1789516800,2026-09-13
 16736576,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-15,19:30,Unknown,3,6107,Boyacá Chicó FC,504899,Alianza Valledupar FC,,,notstarted,1789518600,2026-09-13
 16872361,South America,"CONMEBOL Sudamericana, Knockout stage",480,"CONMEBOL Sudamericana, Knockout stage",,2026-09-15,19:30,Unknown,27,1981,São Paulo,3202,Boca Juniors,,,notstarted,1789518600,2026-09-13
-17093847,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-09-15,22:00,Unknown,10,6229,Carabobo FC,36437,Deportivo La Guaira,,,notstarted,1789527600,2026-09-14
 16774412,Indonesia,Indonesia Super League,1015,Indonesia Super League,,2026-09-16,03:30,Unknown,3,189945,Borneo FC Samarinda,383891,Dewa United FC,,,notstarted,1789547400,2026-09-13
 16863673,Asia,"AFC Champions League Elite, East Region",463,"AFC Champions League Elite, East Region",,2026-09-16,05:00,Unknown,1,6908,Jeonbuk Hyundai Motors,3140,Kashiwa Reysol,,,notstarted,1789552800,2026-09-13
 16873593,Asia,"AFC Champions League Two, Group E",668,"AFC Champions League Two, Group E",,2026-09-16,05:00,Unknown,1,7646,FC Seoul,64289,Persib Bandung,,,notstarted,1789552800,2026-09-13
