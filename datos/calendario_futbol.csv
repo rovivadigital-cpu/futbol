@@ -1,7 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16774412,Indonesia,Indonesia Super League,1015,Indonesia Super League,,2026-09-16,03:30,Unknown,3,189945,Borneo FC Samarinda,383891,Dewa United FC,,,notstarted,1789547400,2026-09-13
-16863673,Asia,"AFC Champions League Elite, East Region",463,"AFC Champions League Elite, East Region",,2026-09-16,05:00,Unknown,1,6908,Jeonbuk Hyundai Motors,3140,Kashiwa Reysol,,,notstarted,1789552800,2026-09-13
-16873593,Asia,"AFC Champions League Two, Group E",668,"AFC Champions League Two, Group E",,2026-09-16,05:00,Unknown,1,7646,FC Seoul,64289,Persib Bandung,,,notstarted,1789552800,2026-09-13
 16863677,Asia,"AFC Champions League Elite, East Region",463,"AFC Champions League Elite, East Region",,2026-09-16,07:15,Unknown,1,40661,Port FC,3146,Vissel Kobe,,,notstarted,1789560900,2026-09-13
 16864111,Asia,"AFC Champions League Two, Group E",668,"AFC Champions League Two, Group E",,2026-09-16,07:15,Unknown,1,231270,Thể Công - Viettel,5970,Melbourne Victory,,,notstarted,1789560900,2026-09-13
 16738970,Egypt,Egyptian Premier League,808,Egyptian Premier League,,2026-09-16,09:00,Unknown,5,43565,El Gouna FC,43567,Suez Petrojet FC,,,notstarted,1789567200,2026-09-14
