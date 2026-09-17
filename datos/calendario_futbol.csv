@@ -1,7 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16864024,Asia,"AFC Champions League Two, Group F",668,"AFC Champions League Two, Group F",,2026-09-17,05:00,Unknown,1,2946,Adelaide United,40662,Tai Po,,,notstarted,1789639200,2026-09-14
-16864094,Asia,"AFC Champions League Two, Group F",668,"AFC Champions League Two, Group F",,2026-09-17,05:00,Unknown,1,3041,Lion City Sailors,35607,BG Pathum United,,,notstarted,1789639200,2026-09-14
-16864127,Asia,"AFC Champions League Two, Group G",668,"AFC Champions League Two, Group G",,2026-09-17,05:00,Unknown,1,44409,Machida Zelvia,153474,Preah Khan Reach Svay Rieng FC,,,notstarted,1789639200,2026-09-14
 16864092,Asia,"AFC Champions League Two, Group G",668,"AFC Champions League Two, Group G",,2026-09-17,07:15,Unknown,1,3373,Shanghai Shenhua,3043,Tampines Rovers,,,notstarted,1789647300,2026-09-14
 16864135,Asia,"AFC Champions League Two, Group H",668,"AFC Champions League Two, Group H",,2026-09-17,07:15,Unknown,1,42199,Kitchee SC,34220,Gangwon FC,,,notstarted,1789647300,2026-09-14
 16864138,Asia,"AFC Champions League Two, Group H",668,"AFC Champions League Two, Group H",,2026-09-17,07:15,Unknown,1,35605,Phnom Penh Crown,338334,Kuching City,,,notstarted,1789647300,2026-09-14
@@ -341,6 +338,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16364248,Israel,Premier League,266,Premier League,,2026-09-19,11:30,Unknown,5,5392,Bnei Sakhnin,7385,Hapoel Ramat Gan Givataim,,,notstarted,1789835400,2026-09-17
 16364246,Israel,Premier League,266,Premier League,,2026-09-19,11:30,Unknown,5,5333,Maccabi Petach Tikva,86406,Hapoel Jerusalem,,,notstarted,1789835400,2026-09-17
 16273130,Lithuania,TOPLYGA,198,TOPLYGA,,2026-09-19,11:30,Unknown,32,411452,FK Transinvest,5345,FK Žalgiris,,,notstarted,1789835400,2026-09-17
+17102456,Ecuador,"Serie A, Qualifying Round",240,"Serie A, Qualifying Round",,2026-09-19,11:30,Unknown,1,188850,Guayaquil City,388234,Leones del Norte,,,notstarted,1789835400,2026-09-17
 16439359,Spain,"Primera Federacion, Group 1",17073,"Primera Federacion, Group 1",,2026-09-19,11:45,Unknown,4,263806,CD Coria,77397,Real Avilés,,,notstarted,1789836300,2026-09-17
 16439364,Spain,"Primera Federacion, Group 1",17073,"Primera Federacion, Group 1",,2026-09-19,11:45,Unknown,4,2881,Real Unión Club,35092,Mirandés,,,notstarted,1789836300,2026-09-17
 16439369,Spain,"Primera Federacion, Group 1",17073,"Primera Federacion, Group 1",,2026-09-19,11:45,Unknown,4,6195,SD Ponferradina,24351,Mérida AD,,,notstarted,1789836300,2026-09-17
