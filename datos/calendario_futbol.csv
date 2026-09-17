@@ -1,15 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16395440,England,League One,24,League One,,2026-09-17,14:00,Unknown,7,23957,AFC Wimbledon,4,Milton Keynes Dons,,,notstarted,1789671600,2026-09-15
-16945539,Europe,UEFA Europa League,679,UEFA Europa League,,2026-09-17,14:00,Unknown,1,3050,Beşiktaş JK,1641,Olympique de Marseille,,,notstarted,1789671600,2026-09-15
-16945009,Europe,UEFA Europa League,679,UEFA Europa League,,2026-09-17,14:00,Unknown,1,2352,Celtic,1925,Ferencváros TC,,,notstarted,1789671600,2026-09-15
-16945038,Europe,UEFA Europa League,679,UEFA Europa League,,2026-09-17,14:00,Unknown,1,7,Crystal Palace,3121,Lech Poznań,,,notstarted,1789671600,2026-09-15
-16944993,Europe,UEFA Europa League,679,UEFA Europa League,,2026-09-17,14:00,Unknown,1,4502,FC Viktoria Plzeň,4860,Royale Union Saint-Gilloise,,,notstarted,1789671600,2026-09-15
-16943956,Europe,UEFA Europa League,679,UEFA Europa League,,2026-09-17,14:00,Unknown,1,2687,Juventus,2962,NEC Nijmegen,,,notstarted,1789671600,2026-09-15
-16945565,Europe,UEFA Europa League,679,UEFA Europa League,,2026-09-17,14:00,Unknown,1,664,Lillestrøm SK,25787,Torreense,,,notstarted,1789671600,2026-09-15
-16944484,Europe,UEFA Europa League,679,UEFA Europa League,,2026-09-17,14:00,Unknown,1,2824,Real Sociedad,60,Bournemouth,,,notstarted,1789671600,2026-09-15
-16416338,Spain,LaLiga,8,LaLiga,,2026-09-17,14:30,Unknown,6,2830,Málaga CF,2819,Villarreal,,,notstarted,1789673400,2026-09-15
-16461222,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-09-17,15:30,Unknown,13,6114,Envigado FC,89358,Real Santander,,,postponed,1789677000,2026-09-15
-16748596,Bolivia,División Profesional,16736,División Profesional,,2026-09-17,17:30,Unknown,20,335685,CD Real Tomayapo,33820,Oriente Petrolero,,,notstarted,1789684200,2026-09-15
 16390776,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-17,18:00,Unknown,9,6103,Atlético Bucaramanga,6115,Independiente Medellín,,,notstarted,1789686000,2026-09-15
 17034008,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-17,18:00,Unknown,7,6103,Atlético Bucaramanga,48244,Rionegro Águilas Doradas,,,postponed,1789686000,2026-09-15
 16461229,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-09-17,18:00,Unknown,13,39866,Internacional de Palmira,213490,Orsomarso SC,,,postponed,1789686000,2026-09-15
@@ -377,6 +366,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16390750,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-19,14:00,Unknown,11,6117,Millonarios,6107,Boyacá Chicó FC,,,notstarted,1789844400,2026-09-17
 16316836,Netherlands,VriendenLoterij Eredivisie,37,VriendenLoterij Eredivisie,,2026-09-19,14:00,Unknown,7,2961,Willem II Tilburg,2957,Fortuna Sittard,,,notstarted,1789844400,2026-09-17
 16588877,Paraguay,"Primera División, Clausura",11541,"Primera División, Clausura",,2026-09-19,14:00,Unknown,11,5996,Libertad,323510,Sportivo Ameliano,,,notstarted,1789844400,2026-09-17
+17102430,Ecuador,"Serie A, Relegation Round",240,"Serie A, Relegation Round",,2026-09-19,14:00,Unknown,1,33561,Manta FC,277525,Orense SC,,,postponed,1789844400,2026-09-17
 15526295,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-09-19,14:30,Unknown,29,1959,Sport Recife,1980,Juventude,,,notstarted,1789846200,2026-09-17
 16774717,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-09-19,14:30,Unknown,11,386310,Deportivo Rayo Zuliano,6233,Monagas,,,notstarted,1789846200,2026-09-17
 16667325,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-09-19,14:45,Unknown,10,3204,Club Atlético Unión de Santa Fe,3209,CA Independiente,,,notstarted,1789847100,2026-09-17
