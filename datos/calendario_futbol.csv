@@ -1,12 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16774392,Indonesia,Indonesia Super League,1015,Indonesia Super League,,2026-09-18,03:30,Unknown,3,47465,Arema FC,135866,Persik Kediri,,,notstarted,1789720200,2026-09-15
-15657942,China,Chinese League 1,782,Chinese League 1,,2026-09-18,05:00,Unknown,24,382025,Yanbian Longding,510606,Guangdong GZ-Power,,,notstarted,1789725600,2026-09-15
-16349241,Japan,J-League 3,2293,J-League 3,,2026-09-18,05:00,Unknown,7,205600,FC Osaka,38140,Fukushima United FC,,,notstarted,1789725600,2026-09-15
-16349242,Japan,J-League 3,2293,J-League 3,,2026-09-18,05:00,Unknown,7,21903,Roasso Kumamoto,26011,Matsumoto Yamaga FC,,,notstarted,1789725600,2026-09-15
-16412949,Ukraine,Premier League,218,Premier League,,2026-09-18,05:00,Unknown,7,3310,Chornomorets Odesa,138564,Obolon Kyiv,,,notstarted,1789725600,2026-09-15
-15657943,China,Chinese League 1,782,Chinese League 1,,2026-09-18,06:00,Unknown,24,508178,Dalian Kuncheng City,221238,Ningbo FC,,,notstarted,1789729200,2026-09-15
-15657944,China,Chinese League 1,782,Chinese League 1,,2026-09-18,06:30,Unknown,24,251278,Nantong Zhiyun,510605,Guangxi Hengchen FC,,,notstarted,1789731000,2026-09-15
-17040296,China,Chinese Super League,649,Chinese Super League,,2026-09-18,06:35,Unknown,22,34697,Zhejiang,295152,Wuhan Three Towns,,,notstarted,1789731300,2026-09-15
 16667928,Germany,3. Liga,491,3. Liga,,2026-09-18,07:00,Unknown,7,2680,SV Waldhof Mannheim,2590,Preußen Münster,,,postponed,1789732800,2026-09-15
 16774394,Indonesia,Indonesia Super League,1015,Indonesia Super League,,2026-09-18,07:00,Unknown,3,86578,Madura United FC,75653,PSIM Yogyakarta,,,notstarted,1789732800,2026-09-15
 16412951,Ukraine,Premier League,218,Premier League,,2026-09-18,07:30,Unknown,7,258536,Polissya Zhytomyr,294048,FC Kryvbas Kryvyi Rih,,,notstarted,1789734600,2026-09-15
@@ -283,7 +275,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16295830,Bulgaria,Parva Liga,247,Parva Liga,,2026-09-19,11:00,Unknown,10,274971,Arda Kardzhali,3280,Cherno More Varna,,,notstarted,1789833600,2026-09-17
 16453836,Czech Republic,Czech First League,172,Czech First League,,2026-09-19,11:00,Unknown,9,4871,1. FC Slovácko,2204,Baník Ostrava,,,notstarted,1789833600,2026-09-17
 16278716,Denmark,Danish Superliga,39,Danish Superliga,,2026-09-19,11:00,Unknown,9,1286,Odense Boldklub,1289,FC Midtjylland,,,notstarted,1789833600,2026-09-17
-15514360,Estonia,Esiliiga,678,Esiliiga,,2026-09-19,11:00,Unknown,30,36075,FCI Levadia Tallinn U21,37528,Maardu Linnameeskond,,,notstarted,1789833600,2026-09-17
+15514360,Estonia,Esiliiga,678,Esiliiga,,2026-09-19,11:00,Unknown,30,36075,FCI Levadia Tallinn U21,37528,Maardu Linnameeskond,,,postponed,1789833600,2026-09-18
 15388711,Georgia,Erovnuli Liga,704,Erovnuli Liga,,2026-09-19,11:00,Unknown,27,44217,FC Samgurali Tskhaltubo,5171,Dinamo Tbilisi,,,notstarted,1789833600,2026-09-17
 16559905,Greece,Stoiximan Super League,185,Stoiximan Super League,,2026-09-19,11:00,Unknown,5,5062,APS Atromitos Athinon,120224,AE Kifisia,,,notstarted,1789833600,2026-09-17
 17091836,Iceland,"Iceland 1. deild, Promotion Playoff",675,"Iceland 1. deild, Promotion Playoff",,2026-09-19,11:00,Unknown,29,1910,Thróttur Reykjavík,1896,Fylkir Reykjavík,,,notstarted,1789833600,2026-09-17
@@ -383,6 +375,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16667327,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-09-19,17:00,Unknown,10,3211,River Plate,7629,Huracán,,,notstarted,1789855200,2026-09-17
 15285605,USA,"USL, League One",13362,"USL, League One",,2026-09-19,17:00,Unknown,,23841,Richmond Kickers,197072,Charlotte Independence,,,notstarted,1789855200,2026-09-17
 16774720,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-09-19,17:00,Unknown,11,230725,Academia Puerto Cabello,6234,Portuguesa FC,,,notstarted,1789855200,2026-09-17
+15275920,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-09-19,17:00,Unknown,30,3200,Nueva Chicago,43741,Patronato,,,notstarted,1789855200,2026-09-18
 15285602,USA,"USL, League One",13362,"USL, League One",,2026-09-19,17:30,Unknown,,253417,South Georgia Tormenta FC,284113,Corpus Christi FC,,,canceled,1789857000,2026-09-17
 15385476,USA,NWSL,1690,NWSL,,2026-09-19,17:30,Unknown,1,49787,North Carolina Courage,34718,NJ/NY Gotham FC,,,notstarted,1789857000,2026-09-17
 16604075,Costa Rica,"Primera División, Apertura",11535,"Primera División, Apertura",,2026-09-19,18:00,Unknown,9,7046,Puntarenas FC,391662,CD Escorpiones Belen,,,notstarted,1789858800,2026-09-17
