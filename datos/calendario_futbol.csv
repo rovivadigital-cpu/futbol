@@ -1,40 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16667928,Germany,3. Liga,491,3. Liga,,2026-09-18,07:00,Unknown,7,2680,SV Waldhof Mannheim,2590,Preußen Münster,,,postponed,1789732800,2026-09-15
-16774394,Indonesia,Indonesia Super League,1015,Indonesia Super League,,2026-09-18,07:00,Unknown,3,86578,Madura United FC,75653,PSIM Yogyakarta,,,notstarted,1789732800,2026-09-15
-16412951,Ukraine,Premier League,218,Premier League,,2026-09-18,07:30,Unknown,7,258536,Polissya Zhytomyr,294048,FC Kryvbas Kryvyi Rih,,,notstarted,1789734600,2026-09-15
-16364250,Israel,Premier League,266,Premier League,,2026-09-18,07:45,Unknown,5,5396,Hapoel Tel Aviv,5199,Hapoel Petach Tikva,,,notstarted,1789735500,2026-09-15
-16893312,Armenia,Fastex Premier League,671,Fastex Premier League,,2026-09-18,09:00,Unknown,8,36059,FC Gandzasar,5225,Urartu,,,notstarted,1789740000,2026-09-16
-15514361,Estonia,Esiliiga,678,Esiliiga,,2026-09-18,09:30,Unknown,30,7105,Tallinna Kalev,36074,Flora Tallinn U21,,,notstarted,1789741800,2026-09-16
-17090308,Jamaica,"Premier League, Playoffs",1892,"Premier League, Playoffs",,2026-09-18,09:30,Unknown,,460785,Bel Air FC,403430,Foresters FC,,,notstarted,1789741800,2026-09-16
-16985897,Finland,"Veikkausliiga, Relegation Round",41,"Veikkausliiga, Relegation Round",,2026-09-18,10:00,Unknown,,2249,FC Lahti,2252,FF Jaro,,,notstarted,1789743600,2026-09-16
-16985913,Finland,"Veikkausliiga, Relegation Round",41,"Veikkausliiga, Relegation Round",,2026-09-18,10:00,Unknown,,22395,SJK,5058,IFK Mariehamn,,,notstarted,1789743600,2026-09-16
-16403894,Romania,Superliga,152,Superliga,,2026-09-18,10:00,Unknown,10,204657,UTA Arad,189789,Sepsi OSK Sfântu Gheorghe,,,notstarted,1789743600,2026-09-16
-15341336,Finland,Ykkosliiga,55,Ykkosliiga,,2026-09-18,10:30,Unknown,24,2240,FC Haka,5918,HJK Klubi 04,,,notstarted,1789745400,2026-09-16
-15341340,Finland,Ykkosliiga,55,Ykkosliiga,,2026-09-18,10:30,Unknown,24,23422,JäPS,22372,EIF,,,notstarted,1789745400,2026-09-16
-16893314,Armenia,Fastex Premier League,671,Fastex Premier League,,2026-09-18,11:00,Unknown,8,262228,FC Noah,325779,FC Van,,,notstarted,1789747200,2026-09-16
-16379962,Czech Republic,FNL,205,FNL,,2026-09-18,11:00,Unknown,9,76775,1. SK Prostějov,7739,Dukla Praha,,,notstarted,1789747200,2026-09-16
-16446366,Czech Republic,FNL,205,FNL,,2026-09-18,11:00,Unknown,9,23951,MFK Karviná,4865,SK Hanácká Slavia Kroměříž,,,notstarted,1789747200,2026-09-16
-16379966,Czech Republic,FNL,205,FNL,,2026-09-18,11:00,Unknown,9,2215,Slezský FC Opava,37113,Arsenal Česká Lípa,,,notstarted,1789747200,2026-09-16
-16379960,Czech Republic,FNL,205,FNL,,2026-09-18,11:00,Unknown,9,4863,Vysočina Jihlava,324982,SK Slavia Praha B,,,notstarted,1789747200,2026-09-16
-15432409,Estonia,Premium Liiga,178,Premium Liiga,,2026-09-18,11:00,Unknown,29,197994,Harju Jalgpallikool,7106,FC Kuressaare,,,notstarted,1789747200,2026-09-16
-16985910,Finland,"Veikkausliiga, Championship Round",41,"Veikkausliiga, Championship Round",,2026-09-18,11:00,Unknown,,5114,AC Oulu,2247,Inter Turku,,,notstarted,1789747200,2026-09-16
-16985915,Finland,"Veikkausliiga, Championship Round",41,"Veikkausliiga, Championship Round",,2026-09-18,11:00,Unknown,,2271,IF Gnistan,2242,HJK,,,notstarted,1789747200,2026-09-16
-16317020,Poland,Ekstraklasa,202,Ekstraklasa,,2026-09-18,11:00,Unknown,9,3115,Widzew Łódź,334956,Wieczysta Kraków,,,notstarted,1789747200,2026-09-16
-16412043,Austria,2. Liga,135,2. Liga,,2026-09-18,11:30,Unknown,7,291619,FC Hertha Wels,2054,First Vienna FC,,,notstarted,1789749000,2026-09-16
-16412042,Austria,2. Liga,135,2. Liga,,2026-09-18,11:30,Unknown,7,7785,Floridsdorfer AC,7790,FC Liefering,,,notstarted,1789749000,2026-09-16
-16412045,Austria,2. Liga,135,2. Liga,,2026-09-18,11:30,Unknown,7,2067,Kapfenberger SV,6281,SKU Amstetten,,,notstarted,1789749000,2026-09-16
-16429238,Germany,2. Bundesliga,44,2. Bundesliga,,2026-09-18,11:30,Unknown,6,2551,SpVgg Greuther Fürth,2591,1. FC Magdeburg,,,notstarted,1789749000,2026-09-16
-16429229,Germany,2. Bundesliga,44,2. Bundesliga,,2026-09-18,11:30,Unknown,6,2524,VfL Wolfsburg,2576,Darmstadt 98,,,notstarted,1789749000,2026-09-16
-16295842,Bulgaria,Parva Liga,247,Parva Liga,,2026-09-18,12:00,Unknown,10,3274,Slavia Sofia,252080,FC CSKA 1948 Sofia,,,notstarted,1789750800,2026-09-16
-16278714,Denmark,Danish Superliga,39,Danish Superliga,,2026-09-18,12:00,Unknown,9,1756,Lyngby,1285,Silkeborg IF,,,notstarted,1789750800,2026-09-16
-16317256,Denmark,Betinia Liga,47,Betinia Liga,,2026-09-18,12:00,Unknown,9,22162,Kolding IF,1371,Hillerød Fodbold,,,notstarted,1789750800,2026-09-16
-16596633,Germany,3. Liga,491,3. Liga,,2026-09-18,12:00,Unknown,7,2593,SC Verl,23947,FC Würzburger Kickers,,,notstarted,1789750800,2026-09-16
-15260913,Norway,Eliteserien,20,Eliteserien,,2026-09-18,12:00,Unknown,22,822,Sarpsborg 08,786,KFUM Oslo,,,notstarted,1789750800,2026-09-16
-15271308,Sweden,Superettan,46,Superettan,,2026-09-18,12:00,Unknown,25,1812,Falkenbergs FF,1836,Östersunds FK,,,notstarted,1789750800,2026-09-16
-15254123,Sweden,Damallsvenskan,214,Damallsvenskan,,2026-09-18,12:00,Unknown,19,502806,Malmo FF,1878,Djurgårdens IF DFF,,,notstarted,1789750800,2026-09-16
-16483674,Turkey,Trendyol Süper Lig,52,Trendyol Süper Lig,,2026-09-18,12:00,Unknown,6,6063,Kasımpaşa,3085,Konyaspor,,,notstarted,1789750800,2026-09-16
-16392119,Austria,Austrian Bundesliga,45,Austrian Bundesliga,,2026-09-18,12:30,Unknown,7,2055,SK Rapid Wien,5405,WSG Tirol,,,notstarted,1789752600,2026-09-16
-16384286,Hungary,OTP Bank Liga,187,OTP Bank Liga,,2026-09-18,12:30,Unknown,8,25596,Puskás Akadémia,1916,Kispest Honvéd FC,,,notstarted,1789752600,2026-09-16
 16384069,Belgium,Challenger Pro League,9,Challenger Pro League,,2026-09-18,13:00,Unknown,6,76445,Club NXT U23,76451,KAA Gent Reserve U23,,,notstarted,1789754400,2026-09-16
 16384073,Belgium,Challenger Pro League,9,Challenger Pro League,,2026-09-18,13:00,Unknown,6,328498,Royal Francs Borains,421120,RSCA Futures U23,,,notstarted,1789754400,2026-09-16
 17029332,Bosnia & Herzegovina,WWIN Liga BiH,222,WWIN Liga BiH,,2026-09-18,13:00,Unknown,8,5240,FK Željezničar,6146,NK Čelik Zenica,,,notstarted,1789754400,2026-09-16
