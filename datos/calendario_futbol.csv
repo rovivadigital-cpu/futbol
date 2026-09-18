@@ -1,13 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16390776,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-17,18:00,Unknown,9,6103,Atlético Bucaramanga,6115,Independiente Medellín,,,notstarted,1789686000,2026-09-15
-17034008,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-17,18:00,Unknown,7,6103,Atlético Bucaramanga,48244,Rionegro Águilas Doradas,,,postponed,1789686000,2026-09-15
-16461229,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-09-17,18:00,Unknown,13,39866,Internacional de Palmira,213490,Orsomarso SC,,,postponed,1789686000,2026-09-15
-16748600,Bolivia,División Profesional,16736,División Profesional,,2026-09-17,19:30,Unknown,20,7059,Bolívar,505268,GV San José,,,notstarted,1789691400,2026-09-15
-16951515,North & Central America,"CONCACAF Central American Cup, Knockout Stage",20695,"CONCACAF Central American Cup, Knockout Stage",,2026-09-17,19:30,Unknown,27,6572,LD Alajuelense,25355,CD Marathon,,,notstarted,1789691400,2026-09-15
-16924719,South America,"CONMEBOL Libertadores, Knockout stage",384,"CONMEBOL Libertadores, Knockout stage",,2026-09-17,19:30,Unknown,27,5981,Flamengo,39723,Independiente del Valle,,,notstarted,1789691400,2026-09-15
-16883041,South America,"CONMEBOL Sudamericana, Knockout stage",480,"CONMEBOL Sudamericana, Knockout stage",,2026-09-17,19:30,Unknown,27,174972,Montevideo City Torque,2301,Cienciano,,,notstarted,1789691400,2026-09-15
-16951516,North & Central America,"CONCACAF Central American Cup, Knockout Stage",20695,"CONCACAF Central American Cup, Knockout Stage",,2026-09-17,22:15,Unknown,27,25358,CD Olimpia,24388,CD Luis Ángel Firpo,,,notstarted,1789701300,2026-09-15
-16348856,Japan,J.League 2,402,J.League 2,,2026-09-17,23:00,Unknown,7,118478,Vanraure Hachinohe,287058,Tegevajaro Miyazaki,,,notstarted,1789704000,2026-09-15
 16774392,Indonesia,Indonesia Super League,1015,Indonesia Super League,,2026-09-18,03:30,Unknown,3,47465,Arema FC,135866,Persik Kediri,,,notstarted,1789720200,2026-09-15
 15657942,China,Chinese League 1,782,Chinese League 1,,2026-09-18,05:00,Unknown,24,382025,Yanbian Longding,510606,Guangdong GZ-Power,,,notstarted,1789725600,2026-09-15
 16349241,Japan,J-League 3,2293,J-League 3,,2026-09-18,05:00,Unknown,7,205600,FC Osaka,38140,Fukushima United FC,,,notstarted,1789725600,2026-09-15
@@ -418,6 +409,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15502878,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-09-19,19:00,Unknown,1,309888,Pacific FC,463097,Vancouver FC,,,notstarted,1789862400,2026-09-17
 15285610,USA,"USL, League One",13362,"USL, League One",,2026-09-19,19:00,Unknown,,338006,Union Omaha SC,407748,One Knoxville SC,,,notstarted,1789862400,2026-09-17
 16774722,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-09-19,19:00,Unknown,11,36437,Deportivo La Guaira,6231,Deportivo Táchira,,,notstarted,1789862400,2026-09-17
+17102454,Ecuador,"Serie A, Qualifying Round",240,"Serie A, Qualifying Round",,2026-09-19,19:00,Unknown,1,5255,Emelec,394127,Libertad FC,,,notstarted,1789862400,2026-09-18
 16667333,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-09-19,19:15,Unknown,10,4937,Instituto De Córdoba,3210,CA Talleres,,,notstarted,1789863300,2026-09-17
 15168403,USA,MLS,242,MLS,,2026-09-19,19:30,Unknown,,2512,FC Dallas,377973,Austin FC,,,notstarted,1789864200,2026-09-17
 15168399,USA,MLS,242,MLS,,2026-09-19,19:30,Unknown,,2508,Houston Dynamo,215167,FC Cincinnati,,,notstarted,1789864200,2026-09-17
@@ -517,4 +509,167 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15271297,Sweden,Superettan,46,Superettan,,2026-09-20,08:00,Unknown,25,1890,Helsingborgs IF,1849,Norrby IF,,,notstarted,1789909200,2026-09-17
 15254119,Sweden,Damallsvenskan,214,Damallsvenskan,,2026-09-20,08:00,Unknown,19,102033,Norrköping DFK,1886,Rosengård,,,notstarted,1789909200,2026-09-17
 17109034,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-09-20,08:00,Unknown,7,278204,Albion FC,3224,Juventud de Las Piedras,,,notstarted,1789909200,2026-09-17
+16512942,Lithuania,TOPLYGA,198,TOPLYGA,,2026-09-20,08:00,Unknown,32,312564,Šiauliai FA,80741,FK Kauno Žalgiris,,,notstarted,1789909200,2026-09-18
 16434033,Germany,Bundesliga,35,Bundesliga,,2026-09-20,08:30,Unknown,4,2681,Bayer 04 Leverkusen,36360,RB Leipzig,,,notstarted,1789911000,2026-09-17
+16893316,Armenia,Fastex Premier League,671,Fastex Premier League,,2026-09-20,09:00,Unknown,8,33817,FC Shirak Gyumri,262229,FC Ararat-Armenia,,,notstarted,1789912800,2026-09-18
+16361929,Belgium,Pro League,38,Pro League,,2026-09-20,09:00,Unknown,7,2895,Sint-Truidense VV,2893,KVC Westerlo,,,notstarted,1789912800,2026-09-18
+16384075,Belgium,Challenger Pro League,9,Challenger Pro League,,2026-09-20,09:00,Unknown,6,371484,KSC Lokeren,2931,Royal Excelsior Virton,,,notstarted,1789912800,2026-09-18
+15235483,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-09-20,09:00,Unknown,28,5926,Grêmio,1963,Palmeiras,,,notstarted,1789912800,2026-09-18
+15526288,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-09-20,09:00,Unknown,29,1969,Ponte Preta,22032,Clube De Regatas Brasil,,,notstarted,1789912800,2026-09-18
+16278717,Denmark,Danish Superliga,39,Danish Superliga,,2026-09-20,09:00,Unknown,9,1297,AC Horsens,1291,AGF,,,notstarted,1789912800,2026-09-18
+15432413,Estonia,Premium Liiga,178,Premium Liiga,,2026-09-20,09:00,Unknown,29,3343,Narva Trans,3342,FCI Levadia Tallinn,,,notstarted,1789912800,2026-09-18
+16559934,Greece,Stoiximan Super League,185,Stoiximan Super League,,2026-09-20,09:00,Unknown,5,5063,APO Levadiakos,3245,Olympiacos FC,,,notstarted,1789912800,2026-09-18
+16483683,Turkey,Trendyol Süper Lig,52,Trendyol Süper Lig,,2026-09-20,09:00,Unknown,6,55603,Erzurumspor FK,3053,Samsunspor,,,notstarted,1789912800,2026-09-18
+16483681,Turkey,Trendyol Süper Lig,52,Trendyol Süper Lig,,2026-09-20,09:00,Unknown,6,3052,Fenerbahçe,7040,Eyüpspor,,,notstarted,1789912800,2026-09-18
+16416339,Spain,LaLiga,8,LaLiga,,2026-09-20,09:15,Unknown,7,2836,Atlético Madrid,2829,Real Madrid,,,notstarted,1789913700,2026-09-18
+16418300,Spain,LaLiga 2,54,LaLiga 2,,2026-09-20,09:15,Unknown,6,2869,AD Ceuta,2831,Real Valladolid,,,notstarted,1789913700,2026-09-18
+16379959,Czech Republic,FNL,205,FNL,,2026-09-20,09:30,Unknown,9,36024,FC Sellier & Bellot Vlašim,24782,FC Silon Táborsko,,,notstarted,1789914600,2026-09-18
+16667927,Germany,3. Liga,491,3. Liga,,2026-09-20,09:30,Unknown,7,2680,SV Waldhof Mannheim,2590,Preußen Münster,,,notstarted,1789914600,2026-09-18
+15272527,Sweden,Allsvenskan,40,Allsvenskan,,2026-09-20,09:30,Unknown,22,1807,Degerfors IF,1758,Hammarby IF,,,notstarted,1789914600,2026-09-18
+15272530,Sweden,Allsvenskan,40,Allsvenskan,,2026-09-20,09:30,Unknown,22,1783,Mjällby AIF,1786,GAIS,,,notstarted,1789914600,2026-09-18
+16357099,Switzerland,Swiss Super League,215,Swiss Super League,,2026-09-20,09:30,Unknown,9,2501,Basel,2442,FC St. Gallen 1879,,,notstarted,1789914600,2026-09-18
+16357097,Switzerland,Swiss Super League,215,Swiss Super League,,2026-09-20,09:30,Unknown,9,2446,FC Lausanne-Sport,2443,FC Lugano,,,notstarted,1789914600,2026-09-18
+16295835,Bulgaria,Parva Liga,247,Parva Liga,,2026-09-20,09:45,Unknown,10,3272,Lokomotiv Plovdiv,3275,CSKA Sofia,,,notstarted,1789915500,2026-09-18
+16316820,Netherlands,VriendenLoterij Eredivisie,37,VriendenLoterij Eredivisie,,2026-09-20,09:45,Unknown,7,2962,NEC Nijmegen,2979,Go Ahead Eagles,,,notstarted,1789915500,2026-09-18
+16317406,Netherlands,Eerste Divisie,131,Eerste Divisie,,2026-09-20,09:45,Unknown,7,2949,De Graafschap,2947,NAC Breda,,,notstarted,1789915500,2026-09-18
+16599919,Spain,"Primera Federacion, Group 2",17073,"Primera Federacion, Group 2",,2026-09-20,10:00,Unknown,4,24363,UE Sant Andreu,5069,Real Madrid Castilla U21,,,postponed,1789916400,2026-09-18
+16392122,Austria,Austrian Bundesliga,45,Austrian Bundesliga,,2026-09-20,10:00,Unknown,7,2046,Red Bull Salzburg,2051,SK Sturm Graz,,,notstarted,1789916400,2026-09-18
+17029338,Bosnia & Herzegovina,WWIN Liga BiH,222,WWIN Liga BiH,,2026-09-20,10:00,Unknown,8,5239,NK Široki Brijeg,5235,FK Borac Banja Luka,,,notstarted,1789916400,2026-09-18
+16275208,Croatia,HNL,170,HNL,,2026-09-20,10:00,Unknown,8,2039,HNK Rijeka,2036,HNK Hajduk Split,,,notstarted,1789916400,2026-09-18
+16559931,Greece,Stoiximan Super League,185,Stoiximan Super League,,2026-09-20,10:00,Unknown,5,267459,NPS Volos,3250,AEK Athens,,,notstarted,1789916400,2026-09-18
+16384283,Hungary,OTP Bank Liga,187,OTP Bank Liga,,2026-09-20,10:00,Unknown,8,1924,Újpest,1922,Zalaegerszegi TE,,,notstarted,1789916400,2026-09-18
+15472587,Latvia,Virsliga,197,Virsliga,,2026-09-20,10:00,Unknown,31,5346,FK Auda,68718,RFS,,,notstarted,1789916400,2026-09-18
+15260909,Norway,Eliteserien,20,Eliteserien,,2026-09-20,10:00,Unknown,22,676,Sandefjord Fotball,667,IK Start,,,notstarted,1789916400,2026-09-18
+15260912,Norway,Eliteserien,20,Eliteserien,,2026-09-20,10:00,Unknown,22,660,Tromsø IL,666,HamKam,,,notstarted,1789916400,2026-09-18
+15260910,Norway,Eliteserien,20,Eliteserien,,2026-09-20,10:00,Unknown,22,1164,Viking FK,664,Lillestrøm SK,,,notstarted,1789916400,2026-09-18
+15265900,Norway,1st Division,22,1st Division,,2026-09-20,10:00,Unknown,23,673,Haugesund,885,Strømmen IF,,,notstarted,1789916400,2026-09-18
+15265901,Norway,1st Division,22,1st Division,,2026-09-20,10:00,Unknown,23,672,Kongsvinger,680,Hødd IL,,,notstarted,1789916400,2026-09-18
+15265902,Norway,1st Division,22,1st Division,,2026-09-20,10:00,Unknown,23,657,Lyn FK,708,Ranheim IL,,,notstarted,1789916400,2026-09-18
+15265903,Norway,1st Division,22,1st Division,,2026-09-20,10:00,Unknown,23,659,Odds BK,920,Egersund,,,notstarted,1789916400,2026-09-18
+15265904,Norway,1st Division,22,1st Division,,2026-09-20,10:00,Unknown,23,668,Raufoss,1163,Strømsgodset,,,notstarted,1789916400,2026-09-18
+15265905,Norway,1st Division,22,1st Division,,2026-09-20,10:00,Unknown,23,929,Sandnes Ulf,662,Moss FK,,,notstarted,1789916400,2026-09-18
+15265906,Norway,1st Division,22,1st Division,,2026-09-20,10:00,Unknown,23,1162,Stabæk Fotball,665,Sogndal IL,,,notstarted,1789916400,2026-09-18
+16316945,Slovakia,Niké Liga,211,Niké Liga,,2026-09-20,10:00,Unknown,9,111061,MFK Skalica,7887,FK Železiarne Podbrezová,,,notstarted,1789916400,2026-09-18
+17029496,Tunisia,Ligue 1,984,Ligue 1,,2026-09-20,10:00,Unknown,4,44463,CS Sfaxien,59618,CA Bizertin,,,notstarted,1789916400,2026-09-18
+17029494,Tunisia,Ligue 1,984,Ligue 1,,2026-09-20,10:00,Unknown,4,39618,Club Africain,59630,ES Zarzis,,,notstarted,1789916400,2026-09-18
+17096973,Tunisia,Ligue 1,984,Ligue 1,,2026-09-20,10:00,Unknown,1,148874,US Ben Guerdane,59620,CS Hammam-Lif,,,notstarted,1789916400,2026-09-18
+16412950,Ukraine,Premier League,218,Premier League,,2026-09-20,10:00,Unknown,7,3313,Shakhtar Donetsk,284427,LNZ Cherkasy,,,notstarted,1789916400,2026-09-18
+16310962,France,Ligue 1,34,Ligue 1,,2026-09-20,10:15,Unknown,5,1661,Nice,1643,Lille,,,notstarted,1789917300,2026-09-18
+16607591,Italy,Serie B,53,Serie B,,2026-09-20,10:15,Unknown,5,2770,Mantova,2737,Pisa,,,notstarted,1789917300,2026-09-18
+16363652,England,Premier League,17,Premier League,,2026-09-20,10:30,Unknown,5,43,Fulham,35,Manchester United,,,notstarted,1789918200,2026-09-18
+16434051,Germany,Bundesliga,35,Bundesliga,,2026-09-20,10:30,Unknown,4,2530,FC Schalke 04,2598,SV 07 Elversberg,,,notstarted,1789918200,2026-09-18
+16317023,Poland,Ekstraklasa,202,Ekstraklasa,,2026-09-20,10:30,Unknown,9,7691,Jagiellonia Białystok,3106,Legia Warszawa,,,notstarted,1789918200,2026-09-18
+16378736,Slovenia,PrvaLiga,212,PrvaLiga,,2026-09-20,10:30,Unknown,10,213357,NŠ Mura,2413,NK Celje,,,notstarted,1789918200,2026-09-18
+16671446,South Africa,Premiership,358,Premiership,,2026-09-20,10:30,Unknown,7,295408,TS Galaxy,70946,Chippa United,,,notstarted,1789918200,2026-09-18
+15502879,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-09-20,11:00,Unknown,1,342076,Atlético Ottawa,1165894,FC Supra Du Quebec,,,notstarted,1789920000,2026-09-18
+16453831,Czech Republic,Czech First League,172,Czech First League,,2026-09-20,11:00,Unknown,9,2216,SK Slavia Praha,4502,FC Viktoria Plzeň,,,notstarted,1789920000,2026-09-18
+16278725,Denmark,Danish Superliga,39,Danish Superliga,,2026-09-20,11:00,Unknown,9,1288,Viborg FF,1292,FC Nordsjælland,,,notstarted,1789920000,2026-09-18
+15432410,Estonia,Premium Liiga,178,Premium Liiga,,2026-09-20,11:00,Unknown,29,3346,Flora Tallinn,247090,Pärnu JK Vaprus,,,notstarted,1789920000,2026-09-18
+15388718,Georgia,Erovnuli Liga,704,Erovnuli Liga,,2026-09-20,11:00,Unknown,27,37297,Dinamo Batumi,5419,FC Torpedo Kutaisi,,,notstarted,1789920000,2026-09-18
+16559933,Greece,Stoiximan Super League,185,Stoiximan Super League,,2026-09-20,11:00,Unknown,5,3241,OFI Crete,6342,Asteras Aktor,,,notstarted,1789920000,2026-09-18
+16285022,Italy,Serie A,23,Serie A,,2026-09-20,11:00,Unknown,5,2687,Juventus,2686,Atalanta,,,notstarted,1789920000,2026-09-18
+17109032,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-09-20,11:00,Unknown,7,3228,Danubio,3240,Montevideo Wanderers,,,notstarted,1789920000,2026-09-18
+16439368,Spain,"Primera Federacion, Group 1",17073,"Primera Federacion, Group 1",,2026-09-20,11:15,Unknown,4,24379,Zamora CF,24332,CD Lugo,,,notstarted,1789920900,2026-09-18
+16416313,Spain,LaLiga,8,LaLiga,,2026-09-20,11:30,Unknown,7,2832,Deportivo de A Coruña,2816,Real Betis,,,notstarted,1789921800,2026-09-18
+16416294,Spain,LaLiga,8,LaLiga,,2026-09-20,11:30,Unknown,7,2819,Villarreal,2849,Levante UD,,,notstarted,1789921800,2026-09-18
+16418296,Spain,LaLiga 2,54,LaLiga 2,,2026-09-20,11:30,Unknown,6,2858,Almería,24336,Celta Fortuna,,,notstarted,1789921800,2026-09-18
+16418304,Spain,LaLiga 2,54,LaLiga 2,,2026-09-20,11:30,Unknown,6,6577,UD Las Palmas,2854,Burgos Club de Fútbol,,,notstarted,1789921800,2026-09-18
+16361930,Belgium,Pro League,38,Pro League,,2026-09-20,11:30,Unknown,7,2888,Club Brugge KV,2890,KRC Genk,,,notstarted,1789921800,2026-09-18
+16559932,Greece,Stoiximan Super League,185,Stoiximan Super League,,2026-09-20,11:30,Unknown,5,412056,PS Kalamata,3248,Panathinaikos FC,,,notstarted,1789921800,2026-09-18
+16439360,Spain,"Primera Federacion, Group 1",17073,"Primera Federacion, Group 1",,2026-09-20,11:45,Unknown,4,2878,CP Cacereño,202071,Arenas Club,,,notstarted,1789922700,2026-09-18
+16316938,Slovakia,Niké Liga,211,Niké Liga,,2026-09-20,12:00,Unknown,9,23833,DAC 1904,2406,FC Spartak Trnava,,,notstarted,1789923600,2026-09-18
+16483678,Turkey,Trendyol Süper Lig,52,Trendyol Süper Lig,,2026-09-20,12:00,Unknown,6,207011,Amed Sportif Faaliyetler,3050,Beşiktaş JK,,,notstarted,1789923600,2026-09-18
+16483682,Turkey,Trendyol Süper Lig,52,Trendyol Süper Lig,,2026-09-20,12:00,Unknown,6,3054,Göztepe,3064,Çaykur Rizespor,,,notstarted,1789923600,2026-09-18
+16361931,Belgium,Pro League,38,Pro League,,2026-09-20,12:15,Unknown,7,4858,KV Kortrijk,4859,SK Beveren,,,notstarted,1789924500,2026-09-18
+16384076,Belgium,Challenger Pro League,9,Challenger Pro League,,2026-09-20,12:15,Unknown,6,389232,FCV Dender,35076,Patro Eisden Maasmechelen,,,notstarted,1789924500,2026-09-18
+15260905,Norway,Eliteserien,20,Eliteserien,,2026-09-20,12:15,Unknown,22,1159,SK Brann,656,Bodø/Glimt,,,notstarted,1789924500,2026-09-18
+16295834,Bulgaria,Parva Liga,247,Parva Liga,,2026-09-20,12:30,Unknown,10,3273,Levski Sofia,43840,Ludogorets,,,postponed,1789925400,2026-09-18
+16434052,Germany,Bundesliga,35,Bundesliga,,2026-09-20,12:30,Unknown,4,2561,SC Paderborn 07,2569,TSG Hoffenheim,,,notstarted,1789925400,2026-09-18
+16749370,Germany,3. Liga,491,3. Liga,,2026-09-20,12:30,Unknown,7,2597,SV Wehen Wiesbaden,2543,MSV Duisburg,,,notstarted,1789925400,2026-09-18
+16384282,Hungary,OTP Bank Liga,187,OTP Bank Liga,,2026-09-20,12:30,Unknown,8,5124,Nyiregyháza Spartacus,1925,Ferencváros TC,,,notstarted,1789925400,2026-09-18
+16607592,Italy,Serie B,53,Serie B,,2026-09-20,12:30,Unknown,5,2706,Modena,2705,Empoli,,,notstarted,1789925400,2026-09-18
+16403888,Romania,Superliga,152,Superliga,,2026-09-20,12:30,Unknown,10,3292,FC Dinamo București,3294,FCV Farul Constanța,,,notstarted,1789925400,2026-09-18
+16667340,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-09-20,12:45,Unknown,10,3201,San Lorenzo,3202,Boca Juniors,,,notstarted,1789926300,2026-09-18
+15275925,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-09-20,13:00,Unknown,30,265787,Agropecuario Argentino,222126,Gimnasia y Tiro de Salta,,,notstarted,1789927200,2026-09-18
+15275922,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-09-20,13:00,Unknown,30,3214,Club Atlético Chacarita Juniors,4936,Quilmes Atlético Club,,,notstarted,1789927200,2026-09-18
+15275916,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-09-20,13:00,Unknown,30,93109,Deportivo Morón,6074,Godoy Cruz,,,notstarted,1789927200,2026-09-18
+16439362,Spain,"Primera Federacion, Group 1",17073,"Primera Federacion, Group 1",,2026-09-20,13:00,Unknown,4,852868,CD Extremadura,2868,Cultural Leonesa,,,notstarted,1789927200,2026-09-18
+17029331,Bosnia & Herzegovina,WWIN Liga BiH,222,WWIN Liga BiH,,2026-09-20,13:00,Unknown,8,5237,FK Sarajevo,37064,FK Sloga Doboj,,,notstarted,1789927200,2026-09-18
+16275209,Croatia,HNL,170,HNL,,2026-09-20,13:00,Unknown,8,2032,GNK Dinamo Zagreb,36246,NK Lokomotiva Zagreb,,,notstarted,1789927200,2026-09-18
+16559935,Greece,Stoiximan Super League,185,Stoiximan Super League,,2026-09-20,13:00,Unknown,5,7004,GFS Panetolikos,3251,PAOK,,,notstarted,1789927200,2026-09-18
+16280838,Peru,"Liga 1, Clausura",406,"Liga 1, Clausura",,2026-09-20,13:00,Unknown,10,33895,Sport Huancayo,87854,Universidad Técnica de Cajamarca,,,notstarted,1789927200,2026-09-18
+15421229,USA,MLS Next Pro,18641,MLS Next Pro,,2026-09-20,13:00,Unknown,1,411363,Chicago Fire FC II,153486,Chattanooga FC,,,notstarted,1789927200,2026-09-18
+15421231,USA,MLS Next Pro,18641,MLS Next Pro,,2026-09-20,13:00,Unknown,1,411365,Columbus Crew 2,506673,Carolina Core FC,,,notstarted,1789927200,2026-09-18
+15421233,USA,MLS Next Pro,18641,MLS Next Pro,,2026-09-20,13:00,Unknown,1,1166614,Connecticut United,411364,Inter Miami CF II,,,notstarted,1789927200,2026-09-18
+15421232,USA,MLS Next Pro,18641,MLS Next Pro,,2026-09-20,13:00,Unknown,1,411367,FC Cincinnati 2,467299,Crown Legacy FC,,,notstarted,1789927200,2026-09-18
+15421234,USA,MLS Next Pro,18641,MLS Next Pro,,2026-09-20,13:00,Unknown,1,220949,New York Red Bulls II,467300,Huntsville City FC,,,notstarted,1789927200,2026-09-18
+15421236,USA,MLS Next Pro,18641,MLS Next Pro,,2026-09-20,13:00,Unknown,1,220945,Orlando City B,277127,Atlanta United 2,,,notstarted,1789927200,2026-09-18
+15421237,USA,MLS Next Pro,18641,MLS Next Pro,,2026-09-20,13:00,Unknown,1,221835,Philadelphia Union II,411368,New York City FC II,,,notstarted,1789927200,2026-09-18
+15421238,USA,MLS Next Pro,18641,MLS Next Pro,,2026-09-20,13:00,Unknown,1,217784,Toronto FC II,338005,New England Revolution II,,,notstarted,1789927200,2026-09-18
+15385474,USA,NWSL,1690,NWSL,,2026-09-20,13:00,Unknown,1,1165118,Boston Legacy FC,151006,Houston Dash,,,notstarted,1789927200,2026-09-18
+16317024,Poland,Ekstraklasa,202,Ekstraklasa,,2026-09-20,13:15,Unknown,9,3121,Lech Poznań,7295,Radomiak Radom,,,notstarted,1789928100,2026-09-18
+16378739,Slovenia,PrvaLiga,212,PrvaLiga,,2026-09-20,13:15,Unknown,10,274937,Brinje Grosuplje,37737,Kalcer Radomlje,,,notstarted,1789928100,2026-09-18
+16599912,Spain,"Primera Federacion, Group 2",17073,"Primera Federacion, Group 2",,2026-09-20,13:30,Unknown,4,2877,Hércules CF,263407,Juventud Torremolinos CF,,,notstarted,1789929000,2026-09-18
+16599923,Spain,"Primera Federacion, Group 2",17073,"Primera Federacion, Group 2",,2026-09-20,13:30,Unknown,4,2815,Real Zaragoza,24329,FC Cartagena,,,notstarted,1789929000,2026-09-18
+17102435,Ecuador,"Serie A, Relegation Round",240,"Serie A, Relegation Round",,2026-09-20,13:30,Unknown,1,21941,Técnico Universitario,213638,Delfín,,,notstarted,1789929000,2026-09-18
+16310960,France,Ligue 1,34,Ligue 1,,2026-09-20,13:45,Unknown,5,1641,Olympique de Marseille,1644,Paris Saint-Germain,,,notstarted,1789929900,2026-09-18
+16285023,Italy,Serie A,23,Serie A,,2026-09-20,13:45,Unknown,5,2692,AC Milan,2689,Lecce,,,notstarted,1789929900,2026-09-18
+15275908,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-09-20,14:00,Unknown,30,222120,Deportivo Madryn,273657,Racing de Córdoba,,,notstarted,1789930800,2026-09-18
+16416297,Spain,LaLiga,8,LaLiga,,2026-09-20,14:00,Unknown,7,2828,Valencia,2824,Real Sociedad,,,notstarted,1789930800,2026-09-18
+16418301,Spain,LaLiga 2,54,LaLiga 2,,2026-09-20,14:00,Unknown,6,2845,Leganés,33779,Granada,,,notstarted,1789930800,2026-09-18
+15235484,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-09-20,14:00,Unknown,28,1957,Corinthians,1961,Fluminense,,,notstarted,1789930800,2026-09-18
+15237988,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-09-20,14:00,Unknown,28,1962,Vitória,1954,Cruzeiro,,,notstarted,1789930800,2026-09-18
+15526293,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-09-20,14:00,Unknown,29,1960,Goiás,7315,Avaí,,,notstarted,1789930800,2026-09-18
+16969951,Brazil,"Brasileirão Série C, Group B",1281,"Brasileirão Série C, Group B",,2026-09-20,14:00,Unknown,3,1976,Santa Cruz,274286,Floresta,,,notstarted,1789930800,2026-09-18
+15502880,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-09-20,14:00,Unknown,1,309892,Halifax Wanderers FC,309890,Inter Toronto,,,notstarted,1789930800,2026-09-18
+16390751,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-20,14:00,Unknown,11,89368,Fortaleza FC,6105,Junior Barranquilla,,,notstarted,1789930800,2026-09-18
+16588878,Paraguay,"Primera División, Clausura",11541,"Primera División, Clausura",,2026-09-20,14:00,Unknown,11,90972,Sportivo San Lorenzo,5997,Olimpia,,,notstarted,1789930800,2026-09-18
+17062120,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-09-20,14:30,Unknown,30,3207,Club Atletico Colón,112497,Los Andes,,,notstarted,1789932600,2026-09-18
+15275918,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-09-20,14:30,Unknown,30,213042,Deportivo Maipú,5292,Gimnasia Y Esgrima De Jujuy,,,notstarted,1789932600,2026-09-18
+17109027,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-09-20,14:30,Unknown,7,3230,Nacional,3229,Defensor Sporting,,,notstarted,1789932600,2026-09-18
+16667330,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-09-20,15:00,Unknown,10,36837,Club Atlético Platense,3212,Newell's Old Boys,,,notstarted,1789934400,2026-09-18
+16667332,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-09-20,15:00,Unknown,10,3217,Rosario Central,3216,Argentinos Juniors,,,notstarted,1789934400,2026-09-18
+15275909,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-09-20,15:00,Unknown,30,255426,Central Norte de Salta,52215,Defensores de Belgrano,,,notstarted,1789934400,2026-09-18
+15275911,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-09-20,15:00,Unknown,30,252726,Chaco For Ever,43740,Almirante Brown,,,notstarted,1789934400,2026-09-18
+15275923,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-09-20,15:00,Unknown,30,224646,Güemes,270344,Ferrocarril Midland,,,notstarted,1789934400,2026-09-18
+15275921,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-09-20,15:00,Unknown,30,7772,San Martín de San Juan,112493,Colegiales,,,notstarted,1789934400,2026-09-18
+16774721,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-09-20,15:00,Unknown,11,418693,Anzoátegui FC,6230,Caracas F.C.,,,notstarted,1789934400,2026-09-18
+17095593,Jamaica,Premier League,1892,Premier League,,2026-09-20,15:30,Unknown,2,173720,Cavalier FC,124528,Portmore United FC,,,notstarted,1789936200,2026-09-18
+17095594,Jamaica,Premier League,1892,Premier League,,2026-09-20,15:30,Unknown,2,455021,Chapelton Maroons FC,327921,Molynes United FC,,,notstarted,1789936200,2026-09-18
+17095592,Jamaica,Premier League,1892,Premier League,,2026-09-20,15:30,Unknown,2,173724,Montego Bay United FC,1279198,Tru-Juice FC,,,notstarted,1789936200,2026-09-18
+17095596,Jamaica,Premier League,1892,Premier League,,2026-09-20,15:30,Unknown,2,298573,Mount Pleasant FA,925387,Racing United FC,,,notstarted,1789936200,2026-09-18
+17095595,Jamaica,Premier League,1892,Premier League,,2026-09-20,15:30,Unknown,2,496048,Treasure Beach FC,173734,Tivoli Gardens,,,notstarted,1789936200,2026-09-18
+16281139,Peru,"Liga 1, Clausura",406,"Liga 1, Clausura",,2026-09-20,15:30,Unknown,10,511206,ACD Juan Pablo II,492848,CD Moquegua,,,notstarted,1789936200,2026-09-18
+16317830,Costa Rica,"Primera División, Apertura",11535,"Primera División, Apertura",,2026-09-20,16:00,Unknown,9,7046,Puntarenas FC,6575,Municipal Liberia,,,canceled,1789938000,2026-09-18
+17102434,Ecuador,"Serie A, Relegation Round",240,"Serie A, Relegation Round",,2026-09-20,16:00,Unknown,1,5251,Deportivo Cuenca,134976,Mushuc Runa SC,,,notstarted,1789938000,2026-09-18
+15285854,USA,USL Championship,13363,USL Championship,,2026-09-20,16:00,Unknown,1,148992,Indy Eleven,325107,Oakland Roots SC,,,notstarted,1789938000,2026-09-18
+15421241,USA,MLS Next Pro,18641,MLS Next Pro,,2026-09-20,16:00,Unknown,1,411369,Colorado Rapids 2,312635,North Texas SC,,,notstarted,1789938000,2026-09-18
+15421239,USA,MLS Next Pro,18641,MLS Next Pro,,2026-09-20,16:00,Unknown,1,407234,Houston Dynamo 2,212570,Sporting Kansas City II,,,notstarted,1789938000,2026-09-18
+16340067,USA,MLS Next Pro,18641,MLS Next Pro,,2026-09-20,16:00,Unknown,,411366,Minnesota United FC 2,467298,Los Angeles FC 2,,,notstarted,1789938000,2026-09-18
+15421243,USA,MLS Next Pro,18641,MLS Next Pro,,2026-09-20,16:00,Unknown,1,197064,Real Monarchs SLC,153490,Ventura County FC,,,notstarted,1789938000,2026-09-18
+15421247,USA,MLS Next Pro,18641,MLS Next Pro,,2026-09-20,16:00,Unknown,1,411361,Saint Louis City SC 2,467301,Austin FC II,,,notstarted,1789938000,2026-09-18
+15421245,USA,MLS Next Pro,18641,MLS Next Pro,,2026-09-20,16:00,Unknown,1,197062,Tacoma Defiance,197063,Portland Timbers II,,,notstarted,1789938000,2026-09-18
+15421244,USA,MLS Next Pro,18641,MLS Next Pro,,2026-09-20,16:00,Unknown,1,217785,Vancouver Whitecaps FC II,411519,San Jose Earthquakes II,,,notstarted,1789938000,2026-09-18
+15385475,USA,NWSL,1690,NWSL,,2026-09-20,16:00,Unknown,1,34714,Chicago Stars FC,151012,Washington Spirit,,,notstarted,1789938000,2026-09-18
+16774719,Venezuela,"Primera Division, Clausura",231,"Primera Division, Clausura",,2026-09-20,16:00,Unknown,11,7745,Estudiantes de Mérida,6235,Trujillanos FC,,,notstarted,1789938000,2026-09-18
+16390752,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-20,16:05,Unknown,11,6103,Atlético Bucaramanga,1164534,Internacional de Bogotá,,,notstarted,1789938300,2026-09-18
+15235478,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-09-20,16:30,Unknown,28,5981,Flamengo,1999,Red Bull Bragantino,,,notstarted,1789939800,2026-09-18
+15526291,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-09-20,16:30,Unknown,29,2022,Londrina,2020,Fortaleza,,,notstarted,1789939800,2026-09-18
+16969959,Brazil,"Brasileirão Série C, Group C",1281,"Brasileirão Série C, Group C",,2026-09-20,16:30,Unknown,3,35285,Ferroviária,21884,Brusque,,,notstarted,1789939800,2026-09-18
+16969967,Brazil,"Brasileirão Série C, Group C",1281,"Brasileirão Série C, Group C",,2026-09-20,16:30,Unknown,3,1997,Paysandu SC,135526,Inter de Limeira,,,notstarted,1789939800,2026-09-18
+16588875,Paraguay,"Primera División, Clausura",11541,"Primera División, Clausura",,2026-09-20,16:30,Unknown,11,5998,Sportivo Luqueño,292595,Recoleta FC,,,notstarted,1789939800,2026-09-18
+16667326,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-09-20,17:15,Unknown,10,3203,Club Atlético Belgrano,266694,Estudiantes de Río Cuarto,,,notstarted,1789942500,2026-09-18
+15237987,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-09-20,17:30,Unknown,28,1967,Athletico,1955,Bahia,,,notstarted,1789943400,2026-09-18
+17109031,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-09-20,17:30,Unknown,7,6879,Liverpool UY,25010,Racing de Montevideo,,,notstarted,1789943400,2026-09-18
+16317829,Costa Rica,"Primera División, Apertura",11535,"Primera División, Apertura",,2026-09-20,18:00,Unknown,9,6572,LD Alajuelense,531301,Inter San Carlos,,,notstarted,1789945200,2026-09-18
+16280848,Peru,"Liga 1, Clausura",406,"Liga 1, Clausura",,2026-09-20,18:00,Unknown,10,2301,Cienciano,252254,Los Chankas CYC,,,postponed,1789945200,2026-09-18
+15168410,USA,MLS,242,MLS,,2026-09-20,18:00,Unknown,,337602,Inter Miami CF,1043961,San Diego FC,,,notstarted,1789945200,2026-09-18
+15285858,USA,USL Championship,13363,USL Championship,,2026-09-20,18:00,Unknown,1,153498,Sacramento Republic FC,217134,San Antonio FC,,,notstarted,1789945200,2026-09-18
+15285626,USA,"USL, League One",13362,"USL, League One",,2026-09-20,18:00,Unknown,,502354,Spokane Velocity FC,1158834,AC Boise,,,notstarted,1789945200,2026-09-18
+15388582,USA,NWSL,1690,NWSL,,2026-09-20,18:00,Unknown,1,505655,Bay FC,377825,Racing Louisville,,,notstarted,1789945200,2026-09-18
+15385477,USA,NWSL,1690,NWSL,,2026-09-20,18:00,Unknown,1,278067,Utah Royals FC,408169,Angel City FC,,,notstarted,1789945200,2026-09-18
+16390753,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-20,18:10,Unknown,11,6111,Deportes Tolima,6102,América de Cali,,,notstarted,1789945800,2026-09-18
+17102416,Ecuador,"Serie A, Championship Round",240,"Serie A, Championship Round",,2026-09-20,18:30,Unknown,1,5257,LDU,21942,Universidad Católica del Ecuador,,,notstarted,1789947000,2026-09-18
+16671623,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-09-20,19:30,Unknown,10,3208,Vélez Sarsfield,7628,Tigre,,,notstarted,1789950600,2026-09-18
+16317832,Costa Rica,"Primera División, Apertura",11535,"Primera División, Apertura",,2026-09-20,20:00,Unknown,9,7047,San Carlos,7044,CS Cartaginés,,,notstarted,1789952400,2026-09-18
+16390754,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-20,20:15,Unknown,11,89374,Llaneros FC,6106,Atlético Nacional,,,notstarted,1789953300,2026-09-18
