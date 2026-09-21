@@ -1,15 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15275924,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-09-21,13:00,Unknown,30,93513,Tristán Suárez,53799,Atlanta,,,notstarted,1790013600,2026-09-19
-16403885,Romania,Superliga,152,Superliga,,2026-09-21,13:00,Unknown,10,25856,FC Petrolul Ploiești,283972,FK Csíkszereda Miercurea Ciuc,,,notstarted,1790013600,2026-09-19
-17102430,Ecuador,"Serie A, Relegation Round",240,"Serie A, Relegation Round",,2026-09-21,14:00,Unknown,1,33561,Manta FC,277525,Orense SC,,,postponed,1790017200,2026-09-20
-16459623,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-09-21,15:30,Unknown,10,89352,Bogotá FC,89364,Barranquilla FC,,,notstarted,1790022600,2026-09-19
-17123329,Ecuador,"Serie A, Relegation Round",240,"Serie A, Relegation Round",,2026-09-21,16:00,Unknown,1,33561,Manta FC,277525,Orense SC,,,canceled,1790024400,2026-09-19
-16667331,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-09-21,17:00,Unknown,10,65668,Barracas Central,36842,Independiente Rivadavia,,,notstarted,1790028000,2026-09-19
-16461233,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-09-21,17:00,Unknown,10,484422,Real Cundinamarca,6110,Deportes Quindío,,,notstarted,1790028000,2026-09-19
-15275920,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-09-21,17:00,Unknown,30,3200,Nueva Chicago,43741,Patronato,,,notstarted,1790028000,2026-09-20
-17095631,Jamaica,Premier League,1892,Premier League,,2026-09-21,17:05,Unknown,2,173722,Humble Lions FC,173736,Waterhouse FC,,,notstarted,1790028300,2026-09-19
-15526294,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-09-21,17:30,Unknown,29,1984,Criciúma,39634,Operário-PR,,,notstarted,1790029800,2026-09-19
-17109028,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-09-21,17:30,Unknown,7,3232,Central Español,174972,Montevideo City Torque,,,notstarted,1790029800,2026-09-19
 16667337,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-09-21,19:15,Unknown,10,3218,CA Lanús,3206,Estudiantes de La Plata,,,notstarted,1790036100,2026-09-19
 15526296,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-09-21,19:30,Unknown,29,49202,Cuiabá,2011,Náutico,,,notstarted,1790037000,2026-09-19
 16459622,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-09-21,19:30,Unknown,10,6119,Real Cartagena,6114,Envigado FC,,,notstarted,1790037000,2026-09-19
@@ -23,6 +12,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16459627,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-09-22,16:00,Unknown,10,89372,Atlético Cali,89354,Tigres FC,,,notstarted,1790110800,2026-09-20
 16459630,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-09-22,16:00,Unknown,10,1166437,Independiente Valle del Cauca,39866,Internacional de Palmira,,,notstarted,1790110800,2026-09-20
 16459625,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-09-22,16:00,Unknown,10,89358,Real Santander,213490,Orsomarso SC,,,notstarted,1790110800,2026-09-20
+15526294,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-09-22,17:30,Unknown,29,1984,Criciúma,39634,Operário-PR,,,postponed,1790116200,2026-09-21
 17098610,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-22,18:00,Unknown,11,6115,Independiente Medellín,89370,Jaguares de Córdoba,,,notstarted,1790118000,2026-09-20
 16390755,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-22,20:00,Unknown,12,6116,Independiente Santa Fe,6112,Deportivo Cali,,,notstarted,1790125200,2026-09-20
 15285859,USA,USL Championship,13363,USL Championship,,2026-09-23,11:00,Unknown,1,310967,Birmingham Legion FC,1158835,Brooklyn FC,,,notstarted,1790179200,2026-09-21
