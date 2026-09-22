@@ -1,12 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-17018513,Europe,"UEFA Champions League, Women",696,"UEFA Champions League, Women",,2026-09-22,14:00,Unknown,1,26243,Arsenal,333128,HB Køge,,,notstarted,1790103600,2026-09-20
-17025170,Europe,"UEFA Champions League, Women",696,"UEFA Champions League, Women",,2026-09-22,14:00,Unknown,1,269824,Juventus,297853,Benfica,,,notstarted,1790103600,2026-09-20
-17018497,Europe,"UEFA Champions League, Women",696,"UEFA Champions League, Women",,2026-09-22,14:00,Unknown,1,305051,Real Madrid,55505,Paris Saint-Germain,,,notstarted,1790103600,2026-09-20
-16459627,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-09-22,16:00,Unknown,10,89372,Atlético Cali,89354,Tigres FC,,,notstarted,1790110800,2026-09-20
-16459630,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-09-22,16:00,Unknown,10,1166437,Independiente Valle del Cauca,39866,Internacional de Palmira,,,notstarted,1790110800,2026-09-20
-16459625,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-09-22,16:00,Unknown,10,89358,Real Santander,213490,Orsomarso SC,,,notstarted,1790110800,2026-09-20
-15526294,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-09-22,17:30,Unknown,29,1984,Criciúma,39634,Operário-PR,,,postponed,1790116200,2026-09-21
-17098610,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-22,18:00,Unknown,11,6115,Independiente Medellín,89370,Jaguares de Córdoba,,,notstarted,1790118000,2026-09-20
 16390755,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-22,20:00,Unknown,12,6116,Independiente Santa Fe,6112,Deportivo Cali,,,notstarted,1790125200,2026-09-20
 15285859,USA,USL Championship,13363,USL Championship,,2026-09-23,11:00,Unknown,1,310967,Birmingham Legion FC,1158835,Brooklyn FC,,,notstarted,1790179200,2026-09-21
 17018501,Europe,"UEFA Champions League, Women",696,"UEFA Champions League, Women",,2026-09-23,11:45,Unknown,1,178246,Oud-Heverlee Leuven,301414,AS Roma,,,notstarted,1790181900,2026-09-21
