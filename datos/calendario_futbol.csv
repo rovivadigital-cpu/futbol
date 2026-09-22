@@ -1,9 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16667337,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-09-21,19:15,Unknown,10,3218,CA Lanús,3206,Estudiantes de La Plata,,,notstarted,1790036100,2026-09-19
-15526296,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-09-21,19:30,Unknown,29,49202,Cuiabá,2011,Náutico,,,notstarted,1790037000,2026-09-19
-16459622,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-09-21,19:30,Unknown,10,6119,Real Cartagena,6114,Envigado FC,,,notstarted,1790037000,2026-09-19
-17102402,Ecuador,"Serie A, Championship Round",240,"Serie A, Championship Round",,2026-09-21,19:30,Unknown,1,5250,Barcelona SC Guayaquil,39723,Independiente del Valle,,,postponed,1790037000,2026-09-19
-17095632,Jamaica,Premier League,1892,Premier League,,2026-09-21,20:00,Unknown,2,173716,Arnett Gardens,298574,Dunbeholden FC,,,notstarted,1790038800,2026-09-19
 17018517,Europe,"UEFA Champions League, Women",696,"UEFA Champions League, Women",,2026-09-22,11:45,Unknown,1,5543,FC Bayern München,142658,Manchester City,,,notstarted,1790095500,2026-09-20
 17018508,Europe,"UEFA Champions League, Women",696,"UEFA Champions League, Women",,2026-09-22,11:45,Unknown,1,325685,Inter,1889,BK Häcken FF,,,notstarted,1790095500,2026-09-20
 17018513,Europe,"UEFA Champions League, Women",696,"UEFA Champions League, Women",,2026-09-22,14:00,Unknown,1,26243,Arsenal,333128,HB Køge,,,notstarted,1790103600,2026-09-20
