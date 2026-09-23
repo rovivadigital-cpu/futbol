@@ -1,7 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15285859,USA,USL Championship,13363,USL Championship,,2026-09-23,11:00,Unknown,1,310967,Birmingham Legion FC,1158835,Brooklyn FC,,,notstarted,1790179200,2026-09-21
-17018501,Europe,"UEFA Champions League, Women",696,"UEFA Champions League, Women",,2026-09-23,11:45,Unknown,1,178246,Oud-Heverlee Leuven,301414,AS Roma,,,notstarted,1790181900,2026-09-21
-17018519,Europe,"UEFA Champions League, Women",696,"UEFA Champions League, Women",,2026-09-23,11:45,Unknown,1,305811,Servette FC Chênois Féminin,26245,OL Lyonnes,,,notstarted,1790181900,2026-09-21
 16278737,Denmark,Danish Superliga,39,Danish Superliga,,2026-09-23,12:00,Unknown,12,1301,Randers FC,1281,Brøndby IF,,,notstarted,1790182800,2026-09-21
 16969545,Spain,"Primera Federacion, Group 2",17073,"Primera Federacion, Group 2",,2026-09-23,14:00,Unknown,4,24363,UE Sant Andreu,5069,Real Madrid Castilla U21,,,notstarted,1790190000,2026-09-21
 17018504,Europe,"UEFA Champions League, Women",696,"UEFA Champions League, Women",,2026-09-23,14:00,Unknown,1,66768,Chelsea FC,229911,FK Austria Wien,,,notstarted,1790190000,2026-09-21
