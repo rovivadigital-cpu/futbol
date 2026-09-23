@@ -1,12 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16278737,Denmark,Danish Superliga,39,Danish Superliga,,2026-09-23,12:00,Unknown,12,1301,Randers FC,1281,Brøndby IF,,,notstarted,1790182800,2026-09-21
-16969545,Spain,"Primera Federacion, Group 2",17073,"Primera Federacion, Group 2",,2026-09-23,14:00,Unknown,4,24363,UE Sant Andreu,5069,Real Madrid Castilla U21,,,notstarted,1790190000,2026-09-21
-17018504,Europe,"UEFA Champions League, Women",696,"UEFA Champions League, Women",,2026-09-23,14:00,Unknown,1,66768,Chelsea FC,229911,FK Austria Wien,,,notstarted,1790190000,2026-09-21
-17018515,Europe,"UEFA Champions League, Women",696,"UEFA Champions League, Women",,2026-09-23,14:00,Unknown,1,77889,Fútbol Club Barcelona,264964,Paris FC,,,notstarted,1790190000,2026-09-21
-16654758,North & Central America,"CONCACAF Nations League, League C, Group A",14100,"CONCACAF Nations League, League C, Group A",,2026-09-23,14:00,Unknown,1,21823,Turks and Caicos Islands,21815,Montserrat,,,notstarted,1790190000,2026-09-21
-16654761,North & Central America,"CONCACAF Nations League, League C, Group C",14100,"CONCACAF Nations League, League C, Group C",,2026-09-23,15:00,Unknown,1,21807,Bahamas,33812,Saint Martin,,,notstarted,1790193600,2026-09-21
-17059625,Peru,"Liga 1, Clausura",406,"Liga 1, Clausura",,2026-09-23,15:00,Unknown,9,335557,Asociación Deportiva Tarma,2301,Cienciano,,,notstarted,1790193600,2026-09-21
-16654759,North & Central America,"CONCACAF Nations League, League C, Group B",14100,"CONCACAF Nations League, League C, Group B",,2026-09-23,18:00,Unknown,1,21806,Aruba,21805,Antigua and Barbuda,,,notstarted,1790204400,2026-09-21
 16390756,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-23,19:30,Unknown,12,6102,América de Cali,48244,Rionegro Águilas Doradas,,,notstarted,1790209800,2026-09-21
 15956784,USA,MLS,242,MLS,,2026-09-23,20:30,Unknown,,22009,Seattle Sounders FC,5133,Real Salt Lake,,,notstarted,1790213400,2026-09-21
 15502881,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-09-23,21:00,Unknown,1,463097,Vancouver FC,309890,Inter Toronto,,,notstarted,1790215200,2026-09-21
