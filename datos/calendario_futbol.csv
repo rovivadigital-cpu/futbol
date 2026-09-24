@@ -1,9 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-17018570,Africa,"Africa Cup of Nations, Qualification, Group G",1848,"Africa Cup of Nations, Qualification, Group G",,2026-09-24,08:00,Unknown,1,4832,Namibia,8040,Congo Republic,,,notstarted,1790254800,2026-09-21
-17018596,Africa,"Africa Cup of Nations, Qualification, Group E",1848,"Africa Cup of Nations, Qualification, Group E",,2026-09-24,11:00,Unknown,1,4823,DR Congo,8032,Equatorial Guinea,,,notstarted,1790265600,2026-09-22
-17018571,Africa,"Africa Cup of Nations, Qualification, Group F",1848,"Africa Cup of Nations, Qualification, Group F",,2026-09-24,11:00,Unknown,1,4779,Mauritania,23470,Central African Republic,,,notstarted,1790265600,2026-09-22
-17018590,Africa,"Africa Cup of Nations, Qualification, Group H",1848,"Africa Cup of Nations, Qualification, Group H",,2026-09-24,11:00,Unknown,1,4775,Libya,4747,Botswana,,,notstarted,1790265600,2026-09-22
-15537726,Europe,"UEFA Nations League, League D, Gr. 1",10783,"UEFA Nations League, League D, Gr. 1",,2026-09-24,11:00,Unknown,1,4818,Andorra,4483,Malta,,,notstarted,1790265600,2026-09-22
 15534057,Europe,"UEFA Nations League, League A, Gr. 2",10783,"UEFA Nations League, League A, Gr. 2",,2026-09-24,13:45,Unknown,1,4705,Netherlands,4711,Germany,,,notstarted,1790275500,2026-09-22
 15534071,Europe,"UEFA Nations League, League A, Gr. 2",10783,"UEFA Nations League, League A, Gr. 2",,2026-09-24,13:45,Unknown,1,6355,Serbia,4710,Greece,,,notstarted,1790275500,2026-09-22
 15534100,Europe,"UEFA Nations League, League A, Gr. 4",10783,"UEFA Nations League, League A, Gr. 4",,2026-09-24,13:45,Unknown,1,4475,Norway,4476,Denmark,,,notstarted,1790275500,2026-09-22
@@ -102,7 +97,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16349244,Japan,J-League 3,2293,J-League 3,,2026-09-26,03:00,Unknown,8,26009,Tochigi SC,26011,Matsumoto Yamaga FC,,,notstarted,1790409600,2026-09-23
 16439370,Spain,"Primera Federacion, Group 1",17073,"Primera Federacion, Group 1",,2026-09-26,06:00,Unknown,5,852868,CD Extremadura,24379,Zamora CF,,,notstarted,1790420400,2026-09-23
 15254132,Sweden,Damallsvenskan,214,Damallsvenskan,,2026-09-26,06:00,Unknown,20,8086,Kristianstads DFF,61572,Vittsjö GIK,,,notstarted,1790420400,2026-09-23
-16395902,England,League Two,25,League Two,,2026-09-26,06:30,Unknown,8,4875,Crawley Town,77,Barnet,,,notstarted,1790422200,2026-09-23
+16395902,England,League Two,25,League Two,,2026-09-26,06:30,Unknown,8,4875,Crawley Town,77,Barnet,,,postponed,1790422200,2026-09-24
 17131740,China,Chinese League 1,782,Chinese League 1,,2026-09-26,06:30,Unknown,14,251278,Nantong Zhiyun,34694,Changchun Yatai,,,notstarted,1790422200,2026-09-23
 16421022,Spain,LaLiga 2,54,LaLiga 2,,2026-09-26,07:00,Unknown,7,2869,AD Ceuta,24360,Real Sociedad B,,,notstarted,1790424000,2026-09-23
 15341344,Finland,Ykkosliiga,55,Ykkosliiga,,2026-09-26,07:00,Unknown,25,22372,EIF,89908,SJK Akatemia,,,notstarted,1790424000,2026-09-23
