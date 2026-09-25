@@ -1,5 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16980130,China,Chinese League 1,782,Chinese League 1,,2026-09-25,06:00,Unknown,14,382020,Wuxi Wugou,510605,Guangxi Hengchen FC,,,notstarted,1790334000,2026-09-22
 17018603,Africa,"Africa Cup of Nations, Qualification, Group J",1848,"Africa Cup of Nations, Qualification, Group J",,2026-09-25,08:00,Unknown,1,4739,Senegal,4783,Mozambique,,,canceled,1790341200,2026-09-24
 17018574,Africa,"Africa Cup of Nations, Qualification, Group L",1848,"Africa Cup of Nations, Qualification, Group L",,2026-09-25,08:00,Unknown,1,4835,Tanzania,23478,Guinea-Bissau,,,notstarted,1790341200,2026-09-22
 17181254,Africa,"Africa Cup of Nations, Qualification, Group J",1848,"Africa Cup of Nations, Qualification, Group J",,2026-09-25,08:00,Unknown,1,4783,Mozambique,4739,Senegal,,,notstarted,1790341200,2026-09-25
