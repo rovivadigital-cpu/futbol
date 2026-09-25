@@ -1,20 +1,5 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-17018603,Africa,"Africa Cup of Nations, Qualification, Group J",1848,"Africa Cup of Nations, Qualification, Group J",,2026-09-25,08:00,Unknown,1,4739,Senegal,4783,Mozambique,,,canceled,1790341200,2026-09-24
-17018574,Africa,"Africa Cup of Nations, Qualification, Group L",1848,"Africa Cup of Nations, Qualification, Group L",,2026-09-25,08:00,Unknown,1,4835,Tanzania,23478,Guinea-Bissau,,,notstarted,1790341200,2026-09-22
-17181254,Africa,"Africa Cup of Nations, Qualification, Group J",1848,"Africa Cup of Nations, Qualification, Group J",,2026-09-25,08:00,Unknown,1,4783,Mozambique,4739,Senegal,,,notstarted,1790341200,2026-09-25
-17018553,Africa,"Africa Cup of Nations, Qualification, Group A",1848,"Africa Cup of Nations, Qualification, Group A",,2026-09-25,10:00,Unknown,1,8031,Niger,8033,Lesotho,,,notstarted,1790348400,2026-09-23
-15341338,Finland,Ykkosliiga,55,Ykkosliiga,,2026-09-25,10:30,Unknown,25,2255,KTP,5115,MP,,,notstarted,1790350200,2026-09-23
-15341343,Finland,Ykkosliiga,55,Ykkosliiga,,2026-09-25,11:00,Unknown,25,2273,KäPa,2240,FC Haka,,,notstarted,1790352000,2026-09-23
-17018562,Africa,"Africa Cup of Nations, Qualification, Group B",1848,"Africa Cup of Nations, Qualification, Group B",,2026-09-25,11:00,Unknown,1,8043,Malawi,88508,South Sudan,,,notstarted,1790352000,2026-09-23
-17018563,Africa,"Africa Cup of Nations, Qualification, Group C",1848,"Africa Cup of Nations, Qualification, Group C",,2026-09-25,11:00,Unknown,1,4762,Gambia,23472,Somalia,,,notstarted,1790352000,2026-09-23
-17018551,Africa,"Africa Cup of Nations, Qualification, Group I",1848,"Africa Cup of Nations, Qualification, Group I",,2026-09-25,11:00,Unknown,1,4836,Togo,4750,Burundi,,,notstarted,1790352000,2026-09-23
 17018599,Africa,"Africa Cup of Nations, Qualification, Group J",1848,"Africa Cup of Nations, Qualification, Group J",,2026-09-25,11:00,Unknown,1,4734,Sudan,8036,Ethiopia,,,notstarted,1790352000,2026-09-23
-16873777,Africa,"Africa Cup of Nations, Qualification, Group K",1848,"Africa Cup of Nations, Qualification, Group K",,2026-09-25,11:00,Unknown,1,8037,Rwanda,8034,Liberia,,,notstarted,1790352000,2026-09-23
-17018573,Africa,"Africa Cup of Nations, Qualification, Group L",1848,"Africa Cup of Nations, Qualification, Group L",,2026-09-25,11:00,Unknown,1,4785,Nigeria,8035,Madagascar,,,notstarted,1790352000,2026-09-23
-15534138,Europe,"UEFA Nations League, League B, Gr. 2",10783,"UEFA Nations League, League B, Gr. 2",,2026-09-25,11:00,Unknown,1,4763,Georgia,4786,Northern Ireland,,,notstarted,1790352000,2026-09-23
-15537760,Europe,"UEFA Nations League, League C, Gr. 2",10783,"UEFA Nations League, League C, Gr. 2",,2026-09-25,11:00,Unknown,1,4740,Armenia,4706,Latvia,,,notstarted,1790352000,2026-09-23
-16599951,Spain,"Primera Federacion, Group 2",17073,"Primera Federacion, Group 2",,2026-09-25,12:00,Unknown,5,24326,Atlético Madrileño,24338,Villarreal B U23,,,notstarted,1790355600,2026-09-23
-16596636,Germany,3. Liga,491,3. Liga,,2026-09-25,12:00,Unknown,7,7827,TSV Havelse,2683,SC Fortuna Köln,,,notstarted,1790355600,2026-09-23
 16421024,Spain,LaLiga 2,54,LaLiga 2,,2026-09-25,13:30,Unknown,7,24264,Girona FC,2848,Albacete Balompié,,,notstarted,1790361000,2026-09-23
 17105386,Ireland,Premier Division,192,Premier Division,,2026-09-25,13:45,Unknown,11,137382,Galway United,3174,Shelbourne,,,notstarted,1790361900,2026-09-23
 15534037,Europe,"UEFA Nations League, League A, Gr. 1",10783,"UEFA Nations League, League A, Gr. 1",,2026-09-25,13:45,Unknown,1,4707,Italy,4717,Belgium,,,notstarted,1790361900,2026-09-23
