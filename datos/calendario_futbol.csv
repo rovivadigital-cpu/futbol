@@ -1,36 +1,5 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-17018599,Africa,"Africa Cup of Nations, Qualification, Group J",1848,"Africa Cup of Nations, Qualification, Group J",,2026-09-25,11:00,Unknown,1,4734,Sudan,8036,Ethiopia,,,notstarted,1790352000,2026-09-23
-16421024,Spain,LaLiga 2,54,LaLiga 2,,2026-09-25,13:30,Unknown,7,24264,Girona FC,2848,Albacete Balompié,,,notstarted,1790361000,2026-09-23
-17105386,Ireland,Premier Division,192,Premier Division,,2026-09-25,13:45,Unknown,11,137382,Galway United,3174,Shelbourne,,,notstarted,1790361900,2026-09-23
-15534037,Europe,"UEFA Nations League, League A, Gr. 1",10783,"UEFA Nations League, League A, Gr. 1",,2026-09-25,13:45,Unknown,1,4707,Italy,4717,Belgium,,,notstarted,1790361900,2026-09-23
-15534031,Europe,"UEFA Nations League, League A, Gr. 1",10783,"UEFA Nations League, League A, Gr. 1",,2026-09-25,13:45,Unknown,1,4700,Türkiye,4481,France,,,notstarted,1790361900,2026-09-23
-15534128,Europe,"UEFA Nations League, League B, Gr. 2",10783,"UEFA Nations League, League B, Gr. 2",,2026-09-25,13:45,Unknown,1,4709,Hungary,4701,Ukraine,,,notstarted,1790361900,2026-09-23
-15534167,Europe,"UEFA Nations League, League B, Gr. 4",10783,"UEFA Nations League, League B, Gr. 4",,2026-09-25,13:45,Unknown,1,4703,Poland,4479,Bosnia & Herzegovina,,,notstarted,1790361900,2026-09-23
-15534178,Europe,"UEFA Nations League, League B, Gr. 4",10783,"UEFA Nations League, League B, Gr. 4",,2026-09-25,13:45,Unknown,1,4688,Sweden,4477,Romania,,,notstarted,1790361900,2026-09-23
-15534183,Europe,"UEFA Nations League, League C, Gr. 2",10783,"UEFA Nations League, League C, Gr. 2",,2026-09-25,13:45,Unknown,1,7139,Montenegro,4482,Cyprus,,,notstarted,1790361900,2026-09-23
-16362229,Scotland,Championship,206,Championship,,2026-09-25,13:45,Unknown,8,2366,Arbroath,2379,Queen's Park FC,,,notstarted,1790361900,2026-09-23
-16362231,Scotland,Championship,206,Championship,,2026-09-25,13:45,Unknown,8,2364,Ayr United,2370,Stenhousemuir,,,notstarted,1790361900,2026-09-23
-16362232,Scotland,Championship,206,Championship,,2026-09-25,13:45,Unknown,8,2350,Dunfermline Athletic,2358,Partick Thistle,,,postponed,1790361900,2026-09-23
-16362233,Scotland,Championship,206,Championship,,2026-09-25,13:45,Unknown,8,2362,Inverness Caledonian Thistle,2374,Greenock Morton,,,notstarted,1790361900,2026-09-23
-16362234,Scotland,Championship,206,Championship,,2026-09-25,13:45,Unknown,8,2361,Raith Rovers,2356,Livingston,,,notstarted,1790361900,2026-09-23
-16317410,Netherlands,Eerste Divisie,131,Eerste Divisie,,2026-09-25,14:00,Unknown,8,2973,FC Dordrecht,2990,Almere City FC,,,notstarted,1790362800,2026-09-23
-17018552,Africa,"Africa Cup of Nations, Qualification, Group A",1848,"Africa Cup of Nations, Qualification, Group A",,2026-09-25,14:00,Unknown,1,4778,Morocco,4761,Gabon,,,notstarted,1790362800,2026-09-23
-17018557,Africa,"Africa Cup of Nations, Qualification, Group B",1848,"Africa Cup of Nations, Qualification, Group B",,2026-09-25,14:00,Unknown,1,4758,Egypt,4692,Angola,,,notstarted,1790362800,2026-09-23
-17018569,Africa,"Africa Cup of Nations, Qualification, Group F",1848,"Africa Cup of Nations, Qualification, Group F",,2026-09-25,14:00,Unknown,1,4749,Burkina Faso,4744,Benin,,,notstarted,1790362800,2026-09-23
-17018550,Africa,"Africa Cup of Nations, Qualification, Group I",1848,"Africa Cup of Nations, Qualification, Group I",,2026-09-25,14:00,Unknown,1,4691,Algeria,4720,Zambia,,,notstarted,1790362800,2026-09-23
-17018556,Africa,"Africa Cup of Nations, Qualification, Group K",1848,"Africa Cup of Nations, Qualification, Group K",,2026-09-25,14:00,Unknown,1,4831,Mali,4753,Cabo Verde,,,notstarted,1790362800,2026-09-23
-16654771,North & Central America,"CONCACAF Nations League, League B, Group B",14100,"CONCACAF Nations League, League B, Group B",,2026-09-25,14:00,Unknown,1,4745,Bermuda,7299,Guadeloupe,,,notstarted,1790362800,2026-09-23
-16599962,Spain,"Primera Federacion, Group 2",17073,"Primera Federacion, Group 2",,2026-09-25,14:15,Unknown,5,24368,UD Ibiza,2815,Real Zaragoza,,,notstarted,1790363700,2026-09-23
-16588879,Paraguay,"Primera División, Clausura",11541,"Primera División, Clausura",,2026-09-25,14:30,Unknown,12,5998,Sportivo Luqueño,5994,Guaraní,,,notstarted,1790364600,2026-09-23
-16654774,North & Central America,"CONCACAF Nations League, League B, Group C",14100,"CONCACAF Nations League, League B, Group C",,2026-09-25,16:00,Unknown,1,21814,Grenada,4824,Cuba,,,notstarted,1790370000,2026-09-23
-16588887,Paraguay,"Primera División, Clausura",11541,"Primera División, Clausura",,2026-09-25,17:00,Unknown,12,33001,Nacional Asunción,323510,Sportivo Ameliano,,,notstarted,1790373600,2026-09-23
-15526299,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-09-25,17:30,Unknown,30,135514,Grêmio Novorizontino,47504,São Bernardo,,,notstarted,1790375400,2026-09-23
-15385480,USA,NWSL,1690,NWSL,,2026-09-25,17:30,Unknown,1,377825,Racing Louisville,408170,San Diego Wave FC,,,notstarted,1790375400,2026-09-23
 16280852,Peru,"Liga 1, Clausura",406,"Liga 1, Clausura",,2026-09-25,18:00,Unknown,13,458584,Deportivo Garcilaso,252254,Los Chankas CYC,,,postponed,1790377200,2026-09-23
-15285860,USA,USL Championship,13363,USL Championship,,2026-09-25,18:00,Unknown,1,310968,Hartford Athletic,197070,Louisville City FC,,,notstarted,1790377200,2026-09-23
-16390758,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-25,18:10,Unknown,12,6107,Boyacá Chicó FC,6113,Deportivo Pasto,,,notstarted,1790377800,2026-09-23
-15526307,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-09-25,18:30,Unknown,30,2021,Vila Nova FC,2022,Londrina,,,notstarted,1790379000,2026-09-23
-15285870,USA,USL Championship,13363,USL Championship,,2026-09-25,18:30,Unknown,1,1077312,SC Jacksonville,310969,Loudoun United FC,,,notstarted,1790379000,2026-09-23
 16654770,North & Central America,"CONCACAF Nations League, League A, Group B",14100,"CONCACAF Nations League, League A, Group B",,2026-09-25,19:00,Unknown,1,4769,Jamaica,5163,Guatemala,,,notstarted,1790380800,2026-09-23
 16654772,North & Central America,"CONCACAF Nations League, League B, Group B",14100,"CONCACAF Nations League, League B, Group B",,2026-09-25,19:00,Unknown,1,21808,Barbados,21820,Saint Lucia,,,notstarted,1790380800,2026-09-23
 16654775,North & Central America,"CONCACAF Nations League, League B, Group C",14100,"CONCACAF Nations League, League B, Group C",,2026-09-25,19:00,Unknown,1,180236,Bonaire,21819,Saint Kitts and Nevis,,,notstarted,1790380800,2026-09-23
