@@ -1,13 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16439379,Spain,"Primera Federacion, Group 1",17073,"Primera Federacion, Group 1",,2026-09-27,05:00,Unknown,5,2879,Barakaldo CF,77397,Real Avilés,,,notstarted,1790503200,2026-09-24
-16611218,Spain,"Primera Federacion, Group 1",17073,"Primera Federacion, Group 1",,2026-09-27,05:00,Unknown,5,295552,Unión Deportiva Ourense,2878,CP Cacereño,,,notstarted,1790503200,2026-09-24
-16654982,South Korea,K League 1,410,K League 1,,2026-09-27,05:00,Unknown,22,34220,Gangwon FC,7648,Incheon United,,,notstarted,1790503200,2026-09-24
-15794168,China,Chinese League 1,782,Chinese League 1,,2026-09-27,06:00,Unknown,2,510602,Shaanxi Union FC,508178,Dalian Kuncheng City,,,notstarted,1790506800,2026-09-24
-15254128,Sweden,Damallsvenskan,214,Damallsvenskan,,2026-09-27,06:00,Unknown,20,112697,IF Brommapojkarna,502806,Malmo FF,,,notstarted,1790506800,2026-09-24
-15254126,Sweden,Damallsvenskan,214,Damallsvenskan,,2026-09-27,06:00,Unknown,20,1886,Rosengård,32871,Piteå IF,,,notstarted,1790506800,2026-09-24
-16418363,Spain,LaLiga 2,54,LaLiga 2,,2026-09-27,07:00,Unknown,7,2831,Real Valladolid,2850,Córdoba,,,notstarted,1790510400,2026-09-24
-16317416,Netherlands,Eerste Divisie,131,Eerste Divisie,,2026-09-27,07:30,Unknown,8,2949,De Graafschap,2963,FC Den Bosch,,,notstarted,1790512200,2026-09-24
-15534242,Europe,"UEFA Nations League, League D, Gr. 2",10783,"UEFA Nations League, League D, Gr. 2",,2026-09-27,08:00,Unknown,2,4776,Lithuania,4742,Azerbaijan,,,notstarted,1790514000,2026-09-24
 16439371,Spain,"Primera Federacion, Group 1",17073,"Primera Federacion, Group 1",,2026-09-27,09:00,Unknown,5,35092,Mirandés,254151,Unionistas de Salamanca CF,,,notstarted,1790517600,2026-09-25
 16599960,Spain,"Primera Federacion, Group 2",17073,"Primera Federacion, Group 2",,2026-09-27,09:00,Unknown,5,135672,CE Europa,202074,Rayo Majadahonda,,,notstarted,1790517600,2026-09-25
 15526304,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-09-27,09:00,Unknown,30,1984,Criciúma,7315,Avaí,,,notstarted,1790517600,2026-09-25
