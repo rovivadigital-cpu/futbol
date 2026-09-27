@@ -1,12 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-17141819,New Zealand,National League,594,National League,,2026-09-26,21:00,Unknown,1,284073,Birkenhead United,378872,Cashmere Technical,,,notstarted,1790474400,2026-09-24
-16654777,North & Central America,"CONCACAF Nations League, League B, Group D",14100,"CONCACAF Nations League, League B, Group D",,2026-09-26,21:00,Unknown,1,298263,Sint Maarten,21809,Belize,,,notstarted,1790474400,2026-09-24
-15285866,USA,USL Championship,13363,USL Championship,,2026-09-26,21:00,Unknown,1,405944,Monterey Bay FC,460707,Lexington SC,,,notstarted,1790474400,2026-09-24
-15285867,USA,USL Championship,13363,USL Championship,,2026-09-26,21:00,Unknown,1,325107,Oakland Roots SC,154018,Phoenix Rising FC,,,notstarted,1790474400,2026-09-24
-15285869,USA,USL Championship,13363,USL Championship,,2026-09-26,21:00,Unknown,1,217781,Orange County SC,23635,Pittsburgh Riverhounds,,,notstarted,1790474400,2026-09-24
-15168429,USA,MLS,242,MLS,,2026-09-26,21:30,Unknown,,2513,LA Galaxy,2510,Colorado Rapids,,,notstarted,1790476200,2026-09-24
-15168424,USA,MLS,242,MLS,,2026-09-26,21:30,Unknown,,21825,San Jose Earthquakes,22007,Portland Timbers,,,notstarted,1790476200,2026-09-24
-15168426,USA,MLS,242,MLS,,2026-09-26,21:30,Unknown,,22010,Vancouver Whitecaps,2502,DC United,,,notstarted,1790476200,2026-09-24
 16439379,Spain,"Primera Federacion, Group 1",17073,"Primera Federacion, Group 1",,2026-09-27,05:00,Unknown,5,2879,Barakaldo CF,77397,Real Avilés,,,notstarted,1790503200,2026-09-24
 16611218,Spain,"Primera Federacion, Group 1",17073,"Primera Federacion, Group 1",,2026-09-27,05:00,Unknown,5,295552,Unión Deportiva Ourense,2878,CP Cacereño,,,notstarted,1790503200,2026-09-24
 16654982,South Korea,K League 1,410,K League 1,,2026-09-27,05:00,Unknown,22,34220,Gangwon FC,7648,Incheon United,,,notstarted,1790503200,2026-09-24
@@ -51,6 +43,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15275944,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-09-27,14:30,Unknown,31,213042,Deportivo Maipú,112499,Temperley,,,notstarted,1790537400,2026-09-25
 17065599,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-09-27,14:30,Unknown,31,270344,Ferrocarril Midland,93513,Tristán Suárez,,,notstarted,1790537400,2026-09-25
 15275927,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-09-27,15:00,Unknown,31,273657,Racing de Córdoba,6074,Godoy Cruz,,,notstarted,1790539200,2026-09-25
+15285604,USA,"USL, League One",13362,"USL, League One",,2026-09-27,15:00,Unknown,,53903,New York Cosmos,23841,Richmond Kickers,,,notstarted,1790539200,2026-09-27
 17095637,Jamaica,Premier League,1892,Premier League,,2026-09-27,15:30,Unknown,3,173720,Cavalier FC,173716,Arnett Gardens,,,notstarted,1790541000,2026-09-25
 17095636,Jamaica,Premier League,1892,Premier League,,2026-09-27,15:30,Unknown,3,298574,Dunbeholden FC,298573,Mount Pleasant FA,,,notstarted,1790541000,2026-09-25
 17095633,Jamaica,Premier League,1892,Premier League,,2026-09-27,15:30,Unknown,3,327921,Molynes United FC,1279198,Tru-Juice FC,,,notstarted,1790541000,2026-09-25
@@ -110,3 +103,33 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 17018602,Africa,"Africa Cup of Nations, Qualification, Group J",1848,"Africa Cup of Nations, Qualification, Group J",,2026-09-29,08:00,Unknown,2,8036,Ethiopia,4739,Senegal,,,notstarted,1790686800,2026-09-26
 17018598,Africa,"Africa Cup of Nations, Qualification, Group J",1848,"Africa Cup of Nations, Qualification, Group J",,2026-09-29,08:00,Unknown,2,4783,Mozambique,4734,Sudan,,,notstarted,1790686800,2026-09-26
 17018588,Africa,"Africa Cup of Nations, Qualification, Group L",1848,"Africa Cup of Nations, Qualification, Group L",,2026-09-29,08:00,Unknown,2,8035,Madagascar,4835,Tanzania,,,notstarted,1790686800,2026-09-26
+17018594,Africa,"Africa Cup of Nations, Qualification, Group C",1848,"Africa Cup of Nations, Qualification, Group C",,2026-09-29,11:00,Unknown,2,4764,Ghana,4762,Gambia,,,notstarted,1790697600,2026-09-27
+17018577,Africa,"Africa Cup of Nations, Qualification, Group H",1848,"Africa Cup of Nations, Qualification, Group H",,2026-09-29,11:00,Unknown,2,4726,Uganda,4775,Libya,,,notstarted,1790697600,2026-09-27
+16964036,Africa,"Africa Cup of Nations, Qualification, Group I",1848,"Africa Cup of Nations, Qualification, Group I",,2026-09-29,11:00,Unknown,2,4720,Zambia,4836,Togo,,,notstarted,1790697600,2026-09-27
+16873797,Africa,"Africa Cup of Nations, Qualification, Group K",1848,"Africa Cup of Nations, Qualification, Group K",,2026-09-29,11:00,Unknown,1,4753,Cabo Verde,8037,Rwanda,,,notstarted,1790697600,2026-09-27
+17018580,Africa,"Africa Cup of Nations, Qualification, Group L",1848,"Africa Cup of Nations, Qualification, Group L",,2026-09-29,11:00,Unknown,2,23478,Guinea-Bissau,4785,Nigeria,,,notstarted,1790697600,2026-09-27
+15534150,Europe,"UEFA Nations League, League C, Gr. 1",10783,"UEFA Nations League, League C, Gr. 1",,2026-09-29,11:00,Unknown,2,4712,Finland,4743,Belarus,,,notstarted,1790697600,2026-09-27
+15534199,Europe,"UEFA Nations League, League C, Gr. 3",10783,"UEFA Nations League, League C, Gr. 3",,2026-09-29,11:00,Unknown,2,4782,Moldova,4760,Faroe Islands,,,notstarted,1790697600,2026-09-27
+15534092,Europe,"UEFA Nations League, League A, Gr. 3",10783,"UEFA Nations League, League A, Gr. 3",,2026-09-29,13:45,Unknown,2,4714,Czechia,4713,England,,,notstarted,1790707500,2026-09-27
+15534081,Europe,"UEFA Nations League, League A, Gr. 3",10783,"UEFA Nations League, League A, Gr. 3",,2026-09-29,13:45,Unknown,2,4698,Spain,4715,Croatia,,,notstarted,1790707500,2026-09-27
+15534106,Europe,"UEFA Nations League, League B, Gr. 1",10783,"UEFA Nations League, League B, Gr. 1",,2026-09-29,13:45,Unknown,2,4695,Scotland,4699,Switzerland,,,notstarted,1790707500,2026-09-27
+15534116,Europe,"UEFA Nations League, League B, Gr. 1",10783,"UEFA Nations League, League B, Gr. 1",,2026-09-29,13:45,Unknown,2,4484,Slovenia,4777,North Macedonia,,,notstarted,1790707500,2026-09-27
+15534147,Europe,"UEFA Nations League, League C, Gr. 1",10783,"UEFA Nations League, League C, Gr. 1",,2026-09-29,13:45,Unknown,2,4833,San Marino,4690,Albania,,,notstarted,1790707500,2026-09-27
+15534191,Europe,"UEFA Nations League, League C, Gr. 3",10783,"UEFA Nations League, League C, Gr. 3",,2026-09-29,13:45,Unknown,2,4697,Slovakia,4772,Kazakhstan,,,notstarted,1790707500,2026-09-27
+15534235,Europe,"UEFA Nations League, League C, Gr. 4",10783,"UEFA Nations League, League C, Gr. 4",,2026-09-29,13:45,Unknown,2,4716,Bulgaria,4759,Estonia,,,notstarted,1790707500,2026-09-27
+15537765,Europe,"UEFA Nations League, League C, Gr. 4",10783,"UEFA Nations League, League C, Gr. 4",,2026-09-29,13:45,Unknown,2,4478,Luxembourg,4708,Iceland,,,notstarted,1790707500,2026-09-27
+17018561,Africa,"Africa Cup of Nations, Qualification, Group A",1848,"Africa Cup of Nations, Qualification, Group A",,2026-09-29,14:00,Unknown,2,4761,Gabon,8031,Niger,,,notstarted,1790708400,2026-09-27
+17018591,Africa,"Africa Cup of Nations, Qualification, Group C",1848,"Africa Cup of Nations, Qualification, Group C",,2026-09-29,14:00,Unknown,2,23472,Somalia,4768,Côte d'Ivoire,,,notstarted,1790708400,2026-09-27
+17018593,Africa,"Africa Cup of Nations, Qualification, Group F",1848,"Africa Cup of Nations, Qualification, Group F",,2026-09-29,14:00,Unknown,2,4744,Benin,4779,Mauritania,,,notstarted,1790708400,2026-09-27
+17018597,Africa,"Africa Cup of Nations, Qualification, Group G",1848,"Africa Cup of Nations, Qualification, Group G",,2026-09-29,14:00,Unknown,2,8040,Congo Republic,4751,Cameroon,,,notstarted,1790708400,2026-09-27
+17018558,Africa,"Africa Cup of Nations, Qualification, Group K",1848,"Africa Cup of Nations, Qualification, Group K",,2026-09-29,14:00,Unknown,2,8034,Liberia,4831,Mali,,,notstarted,1790708400,2026-09-27
+16654796,North & Central America,"CONCACAF Nations League, League C, Group A",14100,"CONCACAF Nations League, League C, Group A",,2026-09-29,14:00,Unknown,2,21810,British Virgin Islands,21823,Turks and Caicos Islands,,,notstarted,1790708400,2026-09-27
+16679268,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-29,15:00,Unknown,3,6107,Boyacá Chicó FC,504899,Alianza Valledupar FC,,,notstarted,1790712000,2026-09-27
+16654799,North & Central America,"CONCACAF Nations League, League C, Group C",14100,"CONCACAF Nations League, League C, Group C",,2026-09-29,15:00,Unknown,2,21803,US Virgin Islands,21807,Bahamas,,,notstarted,1790712000,2026-09-27
+17047326,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-29,15:30,Unknown,3,6109,Deportivo Pereira,6116,Independiente Santa Fe,,,notstarted,1790713800,2026-09-27
+16654794,North & Central America,"CONCACAF Nations League, League B, Group D",14100,"CONCACAF Nations League, League B, Group D",,2026-09-29,16:00,Unknown,2,52906,French Guiana,298263,Sint Maarten,,,notstarted,1790715600,2026-09-27
+15526298,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-09-29,17:30,Unknown,30,1979,Botafogo-SP,1969,Ponte Preta,,,notstarted,1790721000,2026-09-27
+16459637,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-09-29,18:00,Unknown,11,89376,Unión Magdalena,6119,Real Cartagena,,,notstarted,1790722800,2026-09-27
+16654798,North & Central America,"CONCACAF Nations League, League C, Group B",14100,"CONCACAF Nations League, League C, Group B",,2026-09-29,18:00,Unknown,2,21804,Anguilla,21806,Aruba,,,notstarted,1790722800,2026-09-27
+17033994,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-29,20:05,Unknown,4,6115,Independiente Medellín,6117,Millonarios,,,notstarted,1790730300,2026-09-27
+16654795,North & Central America,"CONCACAF Nations League, League B, Group D",14100,"CONCACAF Nations League, League B, Group D",,2026-09-29,21:00,Unknown,2,21809,Belize,21821,Saint Vincent and the Grenadines,,,notstarted,1790733600,2026-09-27
