@@ -1,18 +1,5 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-17018565,Africa,"Africa Cup of Nations, Qualification, Group E",1848,"Africa Cup of Nations, Qualification, Group E",,2026-09-28,11:00,Unknown,2,8032,Equatorial Guinea,4737,Sierra Leone,,,notstarted,1790611200,2026-09-26
-17018587,Africa,"Africa Cup of Nations, Qualification, Group E",1848,"Africa Cup of Nations, Qualification, Group E",,2026-09-28,11:00,Unknown,2,4719,Zimbabwe,4823,DR Congo,,,notstarted,1790611200,2026-09-26
-17018568,Africa,"Africa Cup of Nations, Qualification, Group F",1848,"Africa Cup of Nations, Qualification, Group F",,2026-09-28,11:00,Unknown,2,23470,Central African Republic,4749,Burkina Faso,,,notstarted,1790611200,2026-09-26
-15534135,Europe,"UEFA Nations League, League B, Gr. 2",10783,"UEFA Nations League, League B, Gr. 2",,2026-09-28,11:00,Unknown,2,4763,Georgia,4701,Ukraine,,,notstarted,1790611200,2026-09-26
-15534181,Europe,"UEFA Nations League, League C, Gr. 2",10783,"UEFA Nations League, League C, Gr. 2",,2026-09-28,11:00,Unknown,2,4740,Armenia,7139,Montenegro,,,notstarted,1790611200,2026-09-26
-15537764,Europe,"UEFA Nations League, League C, Gr. 2",10783,"UEFA Nations League, League C, Gr. 2",,2026-09-28,11:00,Unknown,2,4706,Latvia,4482,Cyprus,,,notstarted,1790611200,2026-09-26
-16418358,Spain,LaLiga 2,54,LaLiga 2,,2026-09-28,13:30,Unknown,7,2845,Leganés,5067,CD Castellón,,,notstarted,1790620200,2026-09-26
-15534026,Europe,"UEFA Nations League, League A, Gr. 1",10783,"UEFA Nations League, League A, Gr. 1",,2026-09-28,13:45,Unknown,2,4717,Belgium,4481,France,,,notstarted,1790621100,2026-09-26
-15534051,Europe,"UEFA Nations League, League A, Gr. 1",10783,"UEFA Nations League, League A, Gr. 1",,2026-09-28,13:45,Unknown,2,4700,Türkiye,4707,Italy,,,notstarted,1790621100,2026-09-26
-15534133,Europe,"UEFA Nations League, League B, Gr. 2",10783,"UEFA Nations League, League B, Gr. 2",,2026-09-28,13:45,Unknown,2,4786,Northern Ireland,4709,Hungary,,,notstarted,1790621100,2026-09-26
-15534174,Europe,"UEFA Nations League, League B, Gr. 4",10783,"UEFA Nations League, League B, Gr. 4",,2026-09-28,13:45,Unknown,2,4477,Romania,4479,Bosnia & Herzegovina,,,notstarted,1790621100,2026-09-26
-15534172,Europe,"UEFA Nations League, League B, Gr. 4",10783,"UEFA Nations League, League B, Gr. 4",,2026-09-28,13:45,Unknown,2,4688,Sweden,4703,Poland,,,notstarted,1790621100,2026-09-26
 17018575,Africa,"Africa Cup of Nations, Qualification, Group H",1848,"Africa Cup of Nations, Qualification, Group H",,2026-09-28,14:00,Unknown,2,4747,Botswana,4729,Tunisia,,,canceled,1790622000,2026-09-28
-16654789,North & Central America,"CONCACAF Nations League, League B, Group B",14100,"CONCACAF Nations League, League B, Group B",,2026-09-28,14:00,Unknown,2,7299,Guadeloupe,21808,Barbados,,,notstarted,1790622000,2026-09-26
 16588886,Paraguay,"Primera División, Clausura",11541,"Primera División, Clausura",,2026-09-28,14:30,Unknown,12,90972,Sportivo San Lorenzo,292595,Recoleta FC,,,notstarted,1790623800,2026-09-26
 16459632,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-09-28,15:30,Unknown,11,1166437,Independiente Valle del Cauca,213490,Orsomarso SC,,,notstarted,1790627400,2026-09-26
 16459635,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-09-28,16:00,Unknown,11,39866,Internacional de Palmira,89362,Leones FC,,,notstarted,1790629200,2026-09-26
