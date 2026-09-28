@@ -1,33 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16599956,Spain,"Primera Federacion, Group 2",17073,"Primera Federacion, Group 2",,2026-09-27,13:30,Unknown,5,24329,FC Cartagena,4487,Real Murcia,,,postponed,1790533800,2026-09-25
-15275944,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-09-27,14:30,Unknown,31,213042,Deportivo Maipú,112499,Temperley,,,notstarted,1790537400,2026-09-25
-17065599,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-09-27,14:30,Unknown,31,270344,Ferrocarril Midland,93513,Tristán Suárez,,,notstarted,1790537400,2026-09-25
-15275927,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-09-27,15:00,Unknown,31,273657,Racing de Córdoba,6074,Godoy Cruz,,,notstarted,1790539200,2026-09-25
-15285604,USA,"USL, League One",13362,"USL, League One",,2026-09-27,15:00,Unknown,,53903,New York Cosmos,23841,Richmond Kickers,,,notstarted,1790539200,2026-09-27
-17095637,Jamaica,Premier League,1892,Premier League,,2026-09-27,15:30,Unknown,3,173720,Cavalier FC,173716,Arnett Gardens,,,notstarted,1790541000,2026-09-25
-17095636,Jamaica,Premier League,1892,Premier League,,2026-09-27,15:30,Unknown,3,298574,Dunbeholden FC,298573,Mount Pleasant FA,,,notstarted,1790541000,2026-09-25
-17095633,Jamaica,Premier League,1892,Premier League,,2026-09-27,15:30,Unknown,3,327921,Molynes United FC,1279198,Tru-Juice FC,,,notstarted,1790541000,2026-09-25
-17095638,Jamaica,Premier League,1892,Premier League,,2026-09-27,15:30,Unknown,3,124528,Portmore United FC,173722,Humble Lions FC,,,notstarted,1790541000,2026-09-25
-17095634,Jamaica,Premier League,1892,Premier League,,2026-09-27,15:30,Unknown,3,173734,Tivoli Gardens,455021,Chapelton Maroons FC,,,notstarted,1790541000,2026-09-25
-15275937,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-09-27,16:00,Unknown,31,222126,Gimnasia y Tiro de Salta,34976,Atlético de Rafaela,,,notstarted,1790542800,2026-09-25
-16390763,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-27,16:00,Unknown,12,89370,Jaguares de Córdoba,504899,Alianza Valledupar FC,,,notstarted,1790542800,2026-09-25
-17159160,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-09-27,16:00,Unknown,8,3229,Defensor Sporting,3228,Danubio,,,notstarted,1790542800,2026-09-25
-15388577,USA,NWSL,1690,NWSL,,2026-09-27,16:00,Unknown,1,505655,Bay FC,215083,Orlando Pride,,,notstarted,1790542800,2026-09-25
-15526302,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-09-27,16:30,Unknown,30,2020,Fortaleza,342775,Athletic Club,,,notstarted,1790544600,2026-09-25
-16969964,Brazil,"Brasileirão Série C, Group C",1281,"Brasileirão Série C, Group C",,2026-09-27,16:30,Unknown,4,21884,Brusque,35285,Ferroviária,,,notstarted,1790544600,2026-09-25
-16459636,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-09-27,17:00,Unknown,11,89364,Barranquilla FC,484422,Real Cundinamarca,,,notstarted,1790546400,2026-09-25
-17095639,Jamaica,Premier League,1892,Premier League,,2026-09-27,17:05,Unknown,3,925387,Racing United FC,173724,Montego Bay United FC,,,notstarted,1790546700,2026-09-25
-16654781,North & Central America,"CONCACAF Nations League, League A, Group A",14100,"CONCACAF Nations League, League A, Group A",,2026-09-27,18:00,Unknown,2,7229,Haiti,4756,Costa Rica,,,notstarted,1790550000,2026-09-25
-15168422,USA,MLS,242,MLS,,2026-09-27,18:00,Unknown,,2504,Columbus Crew,337602,Inter Miami CF,,,notstarted,1790550000,2026-09-25
-15285621,USA,"USL, League One",13362,"USL, League One",,2026-09-27,18:00,Unknown,,407748,One Knoxville SC,1044342,Westchester SC,,,notstarted,1790550000,2026-09-25
-15385479,USA,NWSL,1690,NWSL,,2026-09-27,18:00,Unknown,1,278067,Utah Royals FC,49787,North Carolina Courage,,,notstarted,1790550000,2026-09-25
-16390764,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-27,18:05,Unknown,12,89368,Fortaleza FC,6111,Deportes Tolima,,,notstarted,1790550300,2026-09-25
-17098240,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-09-27,19:00,Unknown,31,5292,Gimnasia Y Esgrima De Jujuy,23950,San Martín de Tucumán,,,notstarted,1790553600,2026-09-25
-16654782,North & Central America,"CONCACAF Nations League, League A, Group A",14100,"CONCACAF Nations League, League A, Group A",,2026-09-27,19:00,Unknown,2,55827,Curaçao,21817,Nicaragua,,,notstarted,1790553600,2026-09-25
-16654785,North & Central America,"CONCACAF Nations League, League B, Group A",14100,"CONCACAF Nations League, League B, Group A",,2026-09-27,19:00,Unknown,2,21812,Dominica,21818,Puerto Rico,,,notstarted,1790553600,2026-09-25
-17095640,Jamaica,Premier League,1892,Premier League,,2026-09-27,20:00,Unknown,3,173736,Waterhouse FC,496048,Treasure Beach FC,,,notstarted,1790557200,2026-09-25
-16654783,North & Central America,"CONCACAF Nations League, League A, Group A",14100,"CONCACAF Nations League, League A, Group A",,2026-09-27,20:00,Unknown,2,5162,Trinidad and Tobago,21813,Dominican Republic,,,notstarted,1790557200,2026-09-25
-16698225,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-27,20:10,Unknown,3,6112,Deportivo Cali,48244,Rionegro Águilas Doradas,,,notstarted,1790557800,2026-09-25
 17018565,Africa,"Africa Cup of Nations, Qualification, Group E",1848,"Africa Cup of Nations, Qualification, Group E",,2026-09-28,11:00,Unknown,2,8032,Equatorial Guinea,4737,Sierra Leone,,,notstarted,1790611200,2026-09-26
 17018587,Africa,"Africa Cup of Nations, Qualification, Group E",1848,"Africa Cup of Nations, Qualification, Group E",,2026-09-28,11:00,Unknown,2,4719,Zimbabwe,4823,DR Congo,,,notstarted,1790611200,2026-09-26
 17018568,Africa,"Africa Cup of Nations, Qualification, Group F",1848,"Africa Cup of Nations, Qualification, Group F",,2026-09-28,11:00,Unknown,2,23470,Central African Republic,4749,Burkina Faso,,,notstarted,1790611200,2026-09-26
