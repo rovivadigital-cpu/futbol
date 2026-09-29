@@ -1,26 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-17018588,Africa,"Africa Cup of Nations, Qualification, Group L",1848,"Africa Cup of Nations, Qualification, Group L",,2026-09-29,08:00,Unknown,2,8035,Madagascar,4835,Tanzania,,,notstarted,1790686800,2026-09-26
-17018594,Africa,"Africa Cup of Nations, Qualification, Group C",1848,"Africa Cup of Nations, Qualification, Group C",,2026-09-29,11:00,Unknown,2,4764,Ghana,4762,Gambia,,,notstarted,1790697600,2026-09-27
-17018577,Africa,"Africa Cup of Nations, Qualification, Group H",1848,"Africa Cup of Nations, Qualification, Group H",,2026-09-29,11:00,Unknown,2,4726,Uganda,4775,Libya,,,notstarted,1790697600,2026-09-27
-16964036,Africa,"Africa Cup of Nations, Qualification, Group I",1848,"Africa Cup of Nations, Qualification, Group I",,2026-09-29,11:00,Unknown,2,4720,Zambia,4836,Togo,,,notstarted,1790697600,2026-09-27
-16873797,Africa,"Africa Cup of Nations, Qualification, Group K",1848,"Africa Cup of Nations, Qualification, Group K",,2026-09-29,11:00,Unknown,1,4753,Cabo Verde,8037,Rwanda,,,notstarted,1790697600,2026-09-27
-17018580,Africa,"Africa Cup of Nations, Qualification, Group L",1848,"Africa Cup of Nations, Qualification, Group L",,2026-09-29,11:00,Unknown,2,23478,Guinea-Bissau,4785,Nigeria,,,notstarted,1790697600,2026-09-27
-15534150,Europe,"UEFA Nations League, League C, Gr. 1",10783,"UEFA Nations League, League C, Gr. 1",,2026-09-29,11:00,Unknown,2,4712,Finland,4743,Belarus,,,notstarted,1790697600,2026-09-27
-15534199,Europe,"UEFA Nations League, League C, Gr. 3",10783,"UEFA Nations League, League C, Gr. 3",,2026-09-29,11:00,Unknown,2,4782,Moldova,4760,Faroe Islands,,,notstarted,1790697600,2026-09-27
-15534092,Europe,"UEFA Nations League, League A, Gr. 3",10783,"UEFA Nations League, League A, Gr. 3",,2026-09-29,13:45,Unknown,2,4714,Czechia,4713,England,,,notstarted,1790707500,2026-09-27
-15534081,Europe,"UEFA Nations League, League A, Gr. 3",10783,"UEFA Nations League, League A, Gr. 3",,2026-09-29,13:45,Unknown,2,4698,Spain,4715,Croatia,,,notstarted,1790707500,2026-09-27
-15534106,Europe,"UEFA Nations League, League B, Gr. 1",10783,"UEFA Nations League, League B, Gr. 1",,2026-09-29,13:45,Unknown,2,4695,Scotland,4699,Switzerland,,,notstarted,1790707500,2026-09-27
-15534116,Europe,"UEFA Nations League, League B, Gr. 1",10783,"UEFA Nations League, League B, Gr. 1",,2026-09-29,13:45,Unknown,2,4484,Slovenia,4777,North Macedonia,,,notstarted,1790707500,2026-09-27
-15534147,Europe,"UEFA Nations League, League C, Gr. 1",10783,"UEFA Nations League, League C, Gr. 1",,2026-09-29,13:45,Unknown,2,4833,San Marino,4690,Albania,,,notstarted,1790707500,2026-09-27
-15534191,Europe,"UEFA Nations League, League C, Gr. 3",10783,"UEFA Nations League, League C, Gr. 3",,2026-09-29,13:45,Unknown,2,4697,Slovakia,4772,Kazakhstan,,,notstarted,1790707500,2026-09-27
-15534235,Europe,"UEFA Nations League, League C, Gr. 4",10783,"UEFA Nations League, League C, Gr. 4",,2026-09-29,13:45,Unknown,2,4716,Bulgaria,4759,Estonia,,,notstarted,1790707500,2026-09-27
-15537765,Europe,"UEFA Nations League, League C, Gr. 4",10783,"UEFA Nations League, League C, Gr. 4",,2026-09-29,13:45,Unknown,2,4478,Luxembourg,4708,Iceland,,,notstarted,1790707500,2026-09-27
-17018561,Africa,"Africa Cup of Nations, Qualification, Group A",1848,"Africa Cup of Nations, Qualification, Group A",,2026-09-29,14:00,Unknown,2,4761,Gabon,8031,Niger,,,notstarted,1790708400,2026-09-27
-17018591,Africa,"Africa Cup of Nations, Qualification, Group C",1848,"Africa Cup of Nations, Qualification, Group C",,2026-09-29,14:00,Unknown,2,23472,Somalia,4768,Côte d'Ivoire,,,notstarted,1790708400,2026-09-27
-17018593,Africa,"Africa Cup of Nations, Qualification, Group F",1848,"Africa Cup of Nations, Qualification, Group F",,2026-09-29,14:00,Unknown,2,4744,Benin,4779,Mauritania,,,notstarted,1790708400,2026-09-27
-17018597,Africa,"Africa Cup of Nations, Qualification, Group G",1848,"Africa Cup of Nations, Qualification, Group G",,2026-09-29,14:00,Unknown,2,8040,Congo Republic,4751,Cameroon,,,notstarted,1790708400,2026-09-27
-17018558,Africa,"Africa Cup of Nations, Qualification, Group K",1848,"Africa Cup of Nations, Qualification, Group K",,2026-09-29,14:00,Unknown,2,8034,Liberia,4831,Mali,,,notstarted,1790708400,2026-09-27
-16654796,North & Central America,"CONCACAF Nations League, League C, Group A",14100,"CONCACAF Nations League, League C, Group A",,2026-09-29,14:00,Unknown,2,21810,British Virgin Islands,21823,Turks and Caicos Islands,,,notstarted,1790708400,2026-09-27
 16679268,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-29,15:00,Unknown,3,6107,Boyacá Chicó FC,504899,Alianza Valledupar FC,,,notstarted,1790712000,2026-09-27
 16654799,North & Central America,"CONCACAF Nations League, League C, Group C",14100,"CONCACAF Nations League, League C, Group C",,2026-09-29,15:00,Unknown,2,21803,US Virgin Islands,21807,Bahamas,,,notstarted,1790712000,2026-09-27
 17047326,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-29,15:30,Unknown,3,6109,Deportivo Pereira,6116,Independiente Santa Fe,,,notstarted,1790713800,2026-09-27
