@@ -1,11 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16981139,China,Chinese League 1,782,Chinese League 1,,2026-09-29,06:00,Unknown,18,382020,Wuxi Wugou,221238,Ningbo FC,,,notstarted,1790679600,2026-09-26
-17018572,Africa,"Africa Cup of Nations, Qualification, Group G",1848,"Africa Cup of Nations, Qualification, Group G",,2026-09-29,06:00,Unknown,2,23494,Comoros,4832,Namibia,,,notstarted,1790679600,2026-09-26
-17018554,Africa,"Africa Cup of Nations, Qualification, Group A",1848,"Africa Cup of Nations, Qualification, Group A",,2026-09-29,08:00,Unknown,2,8033,Lesotho,4778,Morocco,,,notstarted,1790686800,2026-09-26
-17018559,Africa,"Africa Cup of Nations, Qualification, Group B",1848,"Africa Cup of Nations, Qualification, Group B",,2026-09-29,08:00,Unknown,2,88508,South Sudan,4758,Egypt,,,notstarted,1790686800,2026-09-26
-17018555,Africa,"Africa Cup of Nations, Qualification, Group I",1848,"Africa Cup of Nations, Qualification, Group I",,2026-09-29,08:00,Unknown,2,4750,Burundi,4691,Algeria,,,notstarted,1790686800,2026-09-26
-17018602,Africa,"Africa Cup of Nations, Qualification, Group J",1848,"Africa Cup of Nations, Qualification, Group J",,2026-09-29,08:00,Unknown,2,8036,Ethiopia,4739,Senegal,,,notstarted,1790686800,2026-09-26
-17018598,Africa,"Africa Cup of Nations, Qualification, Group J",1848,"Africa Cup of Nations, Qualification, Group J",,2026-09-29,08:00,Unknown,2,4783,Mozambique,4734,Sudan,,,notstarted,1790686800,2026-09-26
 17018588,Africa,"Africa Cup of Nations, Qualification, Group L",1848,"Africa Cup of Nations, Qualification, Group L",,2026-09-29,08:00,Unknown,2,8035,Madagascar,4835,Tanzania,,,notstarted,1790686800,2026-09-26
 17018594,Africa,"Africa Cup of Nations, Qualification, Group C",1848,"Africa Cup of Nations, Qualification, Group C",,2026-09-29,11:00,Unknown,2,4764,Ghana,4762,Gambia,,,notstarted,1790697600,2026-09-27
 17018577,Africa,"Africa Cup of Nations, Qualification, Group H",1848,"Africa Cup of Nations, Qualification, Group H",,2026-09-29,11:00,Unknown,2,4726,Uganda,4775,Libya,,,notstarted,1790697600,2026-09-27
