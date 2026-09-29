@@ -1,5 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16654788,North & Central America,"CONCACAF Nations League, League A, Group B",14100,"CONCACAF Nations League, League A, Group B",,2026-09-28,21:00,Unknown,2,5163,Guatemala,4825,El Salvador,,,notstarted,1790647200,2026-09-26
 16981139,China,Chinese League 1,782,Chinese League 1,,2026-09-29,06:00,Unknown,18,382020,Wuxi Wugou,221238,Ningbo FC,,,notstarted,1790679600,2026-09-26
 17018572,Africa,"Africa Cup of Nations, Qualification, Group G",1848,"Africa Cup of Nations, Qualification, Group G",,2026-09-29,06:00,Unknown,2,23494,Comoros,4832,Namibia,,,notstarted,1790679600,2026-09-26
 17018554,Africa,"Africa Cup of Nations, Qualification, Group A",1848,"Africa Cup of Nations, Qualification, Group A",,2026-09-29,08:00,Unknown,2,8033,Lesotho,4778,Morocco,,,notstarted,1790686800,2026-09-26
@@ -57,3 +56,30 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15285872,USA,USL Championship,13363,USL Championship,,2026-09-30,19:00,Unknown,1,197071,FC Tulsa,310531,New Mexico United,,,notstarted,1790812800,2026-09-28
 16390765,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-30,20:00,Unknown,3,6106,Atlético Nacional,6105,Junior Barranquilla,,,notstarted,1790816400,2026-09-28
 15285877,USA,USL Championship,13363,USL Championship,,2026-09-30,21:00,Unknown,1,153498,Sacramento Republic FC,276898,Las Vegas Lights,,,notstarted,1790820000,2026-09-28
+17018601,Africa,"Africa Cup of Nations, Qualification, Group D",1848,"Africa Cup of Nations, Qualification, Group D",,2026-10-01,11:00,Unknown,2,4826,Guinea,4773,Kenya,,,notstarted,1790870400,2026-09-29
+15534238,Europe,"UEFA Nations League, League D, Gr. 2",10783,"UEFA Nations League, League D, Gr. 2",,2026-10-01,11:00,Unknown,3,4742,Azerbaijan,4830,Liechtenstein,,,notstarted,1790870400,2026-09-29
+17018516,Europe,"UEFA Champions League, Women",696,"UEFA Champions League, Women",,2026-10-01,11:45,Unknown,2,229911,FK Austria Wien,325685,Inter,,,notstarted,1790873100,2026-09-29
+17018510,Europe,"UEFA Champions League, Women",696,"UEFA Champions League, Women",,2026-10-01,11:45,Unknown,2,333128,HB Køge,305811,Servette FC Chênois Féminin,,,notstarted,1790873100,2026-09-29
+15534058,Europe,"UEFA Nations League, League A, Gr. 2",10783,"UEFA Nations League, League A, Gr. 2",,2026-10-01,13:45,Unknown,3,4711,Germany,6355,Serbia,,,notstarted,1790880300,2026-09-29
+15534070,Europe,"UEFA Nations League, League A, Gr. 2",10783,"UEFA Nations League, League A, Gr. 2",,2026-10-01,13:45,Unknown,3,4710,Greece,4705,Netherlands,,,notstarted,1790880300,2026-09-29
+15534094,Europe,"UEFA Nations League, League A, Gr. 4",10783,"UEFA Nations League, League A, Gr. 4",,2026-10-01,13:45,Unknown,3,4476,Denmark,4704,Portugal,,,notstarted,1790880300,2026-09-29
+15534104,Europe,"UEFA Nations League, League A, Gr. 4",10783,"UEFA Nations League, League A, Gr. 4",,2026-10-01,13:45,Unknown,3,4702,Wales,4475,Norway,,,notstarted,1790880300,2026-09-29
+15534161,Europe,"UEFA Nations League, League B, Gr. 3",10783,"UEFA Nations League, League B, Gr. 3",,2026-10-01,13:45,Unknown,3,4693,Ireland,4718,Austria,,,notstarted,1790880300,2026-09-29
+15534158,Europe,"UEFA Nations League, League B, Gr. 3",10783,"UEFA Nations League, League B, Gr. 3",,2026-10-01,13:45,Unknown,3,4480,Israel,154426,Kosovo,,,notstarted,1790880300,2026-09-29
+15537766,Europe,"UEFA Nations League, League D, Gr. 1",10783,"UEFA Nations League, League D, Gr. 1",,2026-10-01,13:45,Unknown,3,4483,Malta,129264,Gibraltar,,,notstarted,1790880300,2026-09-29
+17018522,Europe,"UEFA Champions League, Women",696,"UEFA Champions League, Women",,2026-10-01,14:00,Unknown,2,142658,Manchester City,305051,Real Madrid,,,notstarted,1790881200,2026-09-29
+17018500,Europe,"UEFA Champions League, Women",696,"UEFA Champions League, Women",,2026-10-01,14:00,Unknown,2,55505,Paris Saint-Germain,178246,Oud-Heverlee Leuven,,,notstarted,1790881200,2026-09-29
+16654806,North & Central America,"CONCACAF Nations League, League C, Group A",14100,"CONCACAF Nations League, League C, Group A",,2026-10-01,14:00,Unknown,2,21810,British Virgin Islands,21815,Montserrat,,,notstarted,1790881200,2026-09-29
+16654808,North & Central America,"CONCACAF Nations League, League C, Group C",14100,"CONCACAF Nations League, League C, Group C",,2026-10-01,15:00,Unknown,2,21803,US Virgin Islands,33812,Saint Martin,,,notstarted,1790884800,2026-09-29
+16836732,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-10-01,15:30,Unknown,7,6114,Envigado FC,213490,Orsomarso SC,,,notstarted,1790886600,2026-09-29
+16654804,North & Central America,"CONCACAF Nations League, League B, Group A",14100,"CONCACAF Nations League, League B, Group A",,2026-10-01,16:00,Unknown,3,21812,Dominica,22113,Guyana,,,notstarted,1790888400,2026-09-29
+16654802,North & Central America,"CONCACAF Nations League, League A, Group A",14100,"CONCACAF Nations League, League A, Group A",,2026-10-01,17:00,Unknown,3,55827,Curaçao,5162,Trinidad and Tobago,,,notstarted,1790892000,2026-09-29
+16654807,North & Central America,"CONCACAF Nations League, League C, Group B",14100,"CONCACAF Nations League, League C, Group B",,2026-10-01,18:00,Unknown,2,21804,Anguilla,21805,Antigua and Barbuda,,,notstarted,1790895600,2026-09-29
+15526312,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-10-01,18:30,Unknown,31,342775,Athletic Club,1959,Sport Recife,,,notstarted,1790897400,2026-09-29
+15526319,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-10-01,19:00,Unknown,31,135514,Grêmio Novorizontino,1960,Goiás,,,notstarted,1790899200,2026-09-29
+16654803,North & Central America,"CONCACAF Nations League, League A, Group A",14100,"CONCACAF Nations League, League A, Group A",,2026-10-01,19:00,Unknown,3,21813,Dominican Republic,7229,Haiti,,,notstarted,1790899200,2026-09-29
+16654805,North & Central America,"CONCACAF Nations League, League B, Group A",14100,"CONCACAF Nations League, League B, Group A",,2026-10-01,19:00,Unknown,3,21811,Cayman Islands,21818,Puerto Rico,,,notstarted,1790899200,2026-09-29
+16390813,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-10-01,20:00,Unknown,17,1164534,Internacional de Bogotá,6118,Once Caldas,,,notstarted,1790902800,2026-09-29
+16275102,USA,MLS,242,MLS,,2026-10-01,20:30,Unknown,,22009,Seattle Sounders FC,2509,Sporting Kansas City,,,notstarted,1790904600,2026-09-29
+16654800,North & Central America,"CONCACAF Nations League, League A, Group A",14100,"CONCACAF Nations League, League A, Group A",,2026-10-01,21:00,Unknown,3,21817,Nicaragua,4756,Costa Rica,,,notstarted,1790906400,2026-09-29
+16349258,Japan,J-League 3,2293,J-League 3,,2026-10-02,05:00,Unknown,9,287054,Reilac Shiga FC,21903,Roasso Kumamoto,,,notstarted,1790935200,2026-09-29
