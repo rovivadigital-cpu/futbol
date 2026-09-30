@@ -1,12 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16679268,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-29,15:00,Unknown,3,6107,Boyacá Chicó FC,504899,Alianza Valledupar FC,,,notstarted,1790712000,2026-09-27
-16654799,North & Central America,"CONCACAF Nations League, League C, Group C",14100,"CONCACAF Nations League, League C, Group C",,2026-09-29,15:00,Unknown,2,21803,US Virgin Islands,21807,Bahamas,,,notstarted,1790712000,2026-09-27
-17047326,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-29,15:30,Unknown,3,6109,Deportivo Pereira,6116,Independiente Santa Fe,,,notstarted,1790713800,2026-09-27
-16654794,North & Central America,"CONCACAF Nations League, League B, Group D",14100,"CONCACAF Nations League, League B, Group D",,2026-09-29,16:00,Unknown,2,52906,French Guiana,298263,Sint Maarten,,,notstarted,1790715600,2026-09-27
-15526298,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-09-29,17:30,Unknown,30,1979,Botafogo-SP,1969,Ponte Preta,,,notstarted,1790721000,2026-09-27
-16459637,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-09-29,18:00,Unknown,11,89376,Unión Magdalena,6119,Real Cartagena,,,notstarted,1790722800,2026-09-27
-16654798,North & Central America,"CONCACAF Nations League, League C, Group B",14100,"CONCACAF Nations League, League C, Group B",,2026-09-29,18:00,Unknown,2,21804,Anguilla,21806,Aruba,,,notstarted,1790722800,2026-09-27
-17033994,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-09-29,20:05,Unknown,4,6115,Independiente Medellín,6117,Millonarios,,,notstarted,1790730300,2026-09-27
 16654795,North & Central America,"CONCACAF Nations League, League B, Group D",14100,"CONCACAF Nations League, League B, Group D",,2026-09-29,21:00,Unknown,2,21809,Belize,21821,Saint Vincent and the Grenadines,,,notstarted,1790733600,2026-09-27
 17018604,Africa,"Africa Cup of Nations, Qualification, Group D",1848,"Africa Cup of Nations, Qualification, Group D",,2026-09-30,11:00,Unknown,2,8041,Eritrea,4736,South Africa,,,notstarted,1790784000,2026-09-28
 17018505,Europe,"UEFA Champions League, Women",696,"UEFA Champions League, Women",,2026-09-30,11:45,Unknown,2,301414,AS Roma,77889,Fútbol Club Barcelona,,,notstarted,1790786700,2026-09-28
