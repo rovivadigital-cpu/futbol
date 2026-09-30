@@ -1,10 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-17018604,Africa,"Africa Cup of Nations, Qualification, Group D",1848,"Africa Cup of Nations, Qualification, Group D",,2026-09-30,11:00,Unknown,2,8041,Eritrea,4736,South Africa,,,notstarted,1790784000,2026-09-28
-17018505,Europe,"UEFA Champions League, Women",696,"UEFA Champions League, Women",,2026-09-30,11:45,Unknown,2,301414,AS Roma,77889,Fútbol Club Barcelona,,,notstarted,1790786700,2026-09-28
-17018496,Europe,"UEFA Champions League, Women",696,"UEFA Champions League, Women",,2026-09-30,11:45,Unknown,2,1889,BK Häcken FF,269824,Juventus,,,notstarted,1790786700,2026-09-28
-17018518,Europe,"UEFA Champions League, Women",696,"UEFA Champions League, Women",,2026-09-30,11:45,Unknown,2,264964,Paris FC,26243,Arsenal,,,notstarted,1790786700,2026-09-28
-17025171,Europe,"UEFA Champions League, Women",696,"UEFA Champions League, Women",,2026-09-30,14:00,Unknown,2,297853,Benfica,5543,FC Bayern München,,,notstarted,1790794800,2026-09-28
-17018506,Europe,"UEFA Champions League, Women",696,"UEFA Champions League, Women",,2026-09-30,14:00,Unknown,2,26245,OL Lyonnes,66768,Chelsea FC,,,notstarted,1790794800,2026-09-28
 16978897,Peru,"Liga 1, Clausura",406,"Liga 1, Clausura",,2026-09-30,15:00,Unknown,10,2301,Cienciano,252254,Los Chankas CYC,,,notstarted,1790798400,2026-09-28
 17018581,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-09-30,16:00,Unknown,25,3152,Unión San Felipe,39220,San Luis de Quillota,,,notstarted,1790802000,2026-09-28
 15502886,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-09-30,18:00,Unknown,1,342076,Atlético Ottawa,309889,Cavalry FC,,,notstarted,1790809200,2026-09-28
