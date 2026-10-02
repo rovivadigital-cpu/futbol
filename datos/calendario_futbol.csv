@@ -1,16 +1,5 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16654806,North & Central America,"CONCACAF Nations League, League C, Group A",14100,"CONCACAF Nations League, League C, Group A",,2026-10-01,14:00,Unknown,2,21810,British Virgin Islands,21815,Montserrat,,,notstarted,1790881200,2026-09-29
-16654808,North & Central America,"CONCACAF Nations League, League C, Group C",14100,"CONCACAF Nations League, League C, Group C",,2026-10-01,15:00,Unknown,2,21803,US Virgin Islands,33812,Saint Martin,,,notstarted,1790884800,2026-09-29
-16836732,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-10-01,15:30,Unknown,7,6114,Envigado FC,213490,Orsomarso SC,,,notstarted,1790886600,2026-09-29
-16654804,North & Central America,"CONCACAF Nations League, League B, Group A",14100,"CONCACAF Nations League, League B, Group A",,2026-10-01,16:00,Unknown,3,21812,Dominica,22113,Guyana,,,notstarted,1790888400,2026-09-29
-16654802,North & Central America,"CONCACAF Nations League, League A, Group A",14100,"CONCACAF Nations League, League A, Group A",,2026-10-01,17:00,Unknown,3,55827,Curaçao,5162,Trinidad and Tobago,,,notstarted,1790892000,2026-09-29
-16654807,North & Central America,"CONCACAF Nations League, League C, Group B",14100,"CONCACAF Nations League, League C, Group B",,2026-10-01,18:00,Unknown,2,21804,Anguilla,21805,Antigua and Barbuda,,,notstarted,1790895600,2026-09-29
-15526312,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-10-01,18:30,Unknown,31,342775,Athletic Club,1959,Sport Recife,,,notstarted,1790897400,2026-09-29
-15526319,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-10-01,19:00,Unknown,31,135514,Grêmio Novorizontino,1960,Goiás,,,notstarted,1790899200,2026-09-29
-16654803,North & Central America,"CONCACAF Nations League, League A, Group A",14100,"CONCACAF Nations League, League A, Group A",,2026-10-01,19:00,Unknown,3,21813,Dominican Republic,7229,Haiti,,,notstarted,1790899200,2026-09-29
-16654805,North & Central America,"CONCACAF Nations League, League B, Group A",14100,"CONCACAF Nations League, League B, Group A",,2026-10-01,19:00,Unknown,3,21811,Cayman Islands,21818,Puerto Rico,,,notstarted,1790899200,2026-09-29
-16390813,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-10-01,20:00,Unknown,17,1164534,Internacional de Bogotá,6118,Once Caldas,,,notstarted,1790902800,2026-09-29
-16275102,USA,MLS,242,MLS,,2026-10-01,20:30,Unknown,,22009,Seattle Sounders FC,2509,Sporting Kansas City,,,notstarted,1790904600,2026-09-29
+16390813,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-10-01,20:00,Unknown,17,1164534,Internacional de Bogotá,6118,Once Caldas,,,postponed,1790902800,2026-10-01
 16654800,North & Central America,"CONCACAF Nations League, League A, Group A",14100,"CONCACAF Nations League, League A, Group A",,2026-10-01,21:00,Unknown,3,21817,Nicaragua,4756,Costa Rica,,,notstarted,1790906400,2026-09-29
 16349258,Japan,J-League 3,2293,J-League 3,,2026-10-02,05:00,Unknown,9,287054,Reilac Shiga FC,21903,Roasso Kumamoto,,,notstarted,1790935200,2026-09-29
 15534190,Europe,"UEFA Nations League, League C, Gr. 3",10783,"UEFA Nations League, League C, Gr. 3",,2026-10-02,09:00,Unknown,3,4772,Kazakhstan,4782,Moldova,,,notstarted,1790949600,2026-09-30
