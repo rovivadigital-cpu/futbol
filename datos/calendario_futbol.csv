@@ -1,5 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16349258,Japan,J-League 3,2293,J-League 3,,2026-10-02,05:00,Unknown,9,287054,Reilac Shiga FC,21903,Roasso Kumamoto,,,notstarted,1790935200,2026-09-29
 15534190,Europe,"UEFA Nations League, League C, Gr. 3",10783,"UEFA Nations League, League C, Gr. 3",,2026-10-02,09:00,Unknown,3,4772,Kazakhstan,4782,Moldova,,,notstarted,1790949600,2026-09-30
 15534185,Europe,"UEFA Nations League, League C, Gr. 2",10783,"UEFA Nations League, League C, Gr. 2",,2026-10-02,11:00,Unknown,3,4482,Cyprus,4740,Armenia,,,notstarted,1790956800,2026-09-30
 15537767,Europe,"UEFA Nations League, League C, Gr. 2",10783,"UEFA Nations League, League C, Gr. 2",,2026-10-02,11:00,Unknown,3,4706,Latvia,7139,Montenegro,,,notstarted,1790956800,2026-09-30
