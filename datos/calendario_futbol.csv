@@ -1,20 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15534185,Europe,"UEFA Nations League, League C, Gr. 2",10783,"UEFA Nations League, League C, Gr. 2",,2026-10-02,11:00,Unknown,3,4482,Cyprus,4740,Armenia,,,notstarted,1790956800,2026-09-30
-15537767,Europe,"UEFA Nations League, League C, Gr. 2",10783,"UEFA Nations League, League C, Gr. 2",,2026-10-02,11:00,Unknown,3,4706,Latvia,7139,Montenegro,,,notstarted,1790956800,2026-09-30
-16439382,Spain,"Primera Federacion, Group 1",17073,"Primera Federacion, Group 1",,2026-10-02,12:00,Unknown,6,77397,Real Avilés,24332,CD Lugo,,,notstarted,1790960400,2026-09-30
-15265912,Norway,1st Division,22,1st Division,,2026-10-02,12:00,Unknown,24,708,Ranheim IL,920,Egersund,,,notstarted,1790960400,2026-09-30
-16418371,Spain,LaLiga 2,54,LaLiga 2,,2026-10-02,13:30,Unknown,8,47321,CD Eldense,2851,Real Oviedo,,,notstarted,1790965800,2026-09-30
-15238168,Ireland,Premier Division,192,Premier Division,,2026-10-02,13:45,Unknown,33,3179,Dundalk FC,3173,Bohemian FC,,,notstarted,1790966700,2026-09-30
-15534040,Europe,"UEFA Nations League, League A, Gr. 1",10783,"UEFA Nations League, League A, Gr. 1",,2026-10-02,13:45,Unknown,3,4717,Belgium,4700,Türkiye,,,notstarted,1790966700,2026-09-30
-15534028,Europe,"UEFA Nations League, League A, Gr. 1",10783,"UEFA Nations League, League A, Gr. 1",,2026-10-02,13:45,Unknown,3,4481,France,4707,Italy,,,notstarted,1790966700,2026-09-30
-15534130,Europe,"UEFA Nations League, League B, Gr. 2",10783,"UEFA Nations League, League B, Gr. 2",,2026-10-02,13:45,Unknown,3,4709,Hungary,4763,Georgia,,,notstarted,1790966700,2026-09-30
-15534136,Europe,"UEFA Nations League, League B, Gr. 2",10783,"UEFA Nations League, League B, Gr. 2",,2026-10-02,13:45,Unknown,3,4701,Ukraine,4786,Northern Ireland,,,notstarted,1790966700,2026-09-30
-15534175,Europe,"UEFA Nations League, League B, Gr. 4",10783,"UEFA Nations League, League B, Gr. 4",,2026-10-02,13:45,Unknown,3,4479,Bosnia & Herzegovina,4688,Sweden,,,notstarted,1790966700,2026-09-30
-15534169,Europe,"UEFA Nations League, League B, Gr. 4",10783,"UEFA Nations League, League B, Gr. 4",,2026-10-02,13:45,Unknown,3,4703,Poland,4477,Romania,,,notstarted,1790966700,2026-09-30
-15534195,Europe,"UEFA Nations League, League C, Gr. 3",10783,"UEFA Nations League, League C, Gr. 3",,2026-10-02,13:45,Unknown,3,4760,Faroe Islands,4697,Slovakia,,,notstarted,1790966700,2026-09-30
-16317420,Netherlands,Eerste Divisie,131,Eerste Divisie,,2026-10-02,14:00,Unknown,9,2974,Helmond Sport,2977,Heracles Almelo,,,notstarted,1790967600,2026-09-30
-16654812,North & Central America,"CONCACAF Nations League, League B, Group B",14100,"CONCACAF Nations League, League B, Group B",,2026-10-02,14:00,Unknown,3,21820,Saint Lucia,7299,Guadeloupe,,,notstarted,1790967600,2026-09-30
-16599792,Spain,"Primera Federacion, Group 2",17073,"Primera Federacion, Group 2",,2026-10-02,14:15,Unknown,6,5069,Real Madrid Castilla U21,24326,Atlético Madrileño,,,notstarted,1790968500,2026-09-30
 16390811,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-10-02,15:05,Unknown,17,48244,Rionegro Águilas Doradas,89368,Fortaleza FC,,,postponed,1790971500,2026-09-30
 16654814,North & Central America,"CONCACAF Nations League, League B, Group C",14100,"CONCACAF Nations League, League B, Group C",,2026-10-02,16:00,Unknown,3,21819,Saint Kitts and Nevis,4824,Cuba,,,notstarted,1790974800,2026-09-30
 15275946,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-10-02,17:00,Unknown,32,36841,Club Ferro Carril Oeste,222120,Deportivo Madryn,,,notstarted,1790978400,2026-09-30
