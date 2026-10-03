@@ -1,28 +1,5 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16348884,Japan,J.League 2,402,J.League 2,,2026-10-03,03:00,Unknown,9,5129,Oita Trinita,21902,Montedio Yamagata,,,notstarted,1791014400,2026-09-30
-16348880,Japan,J.League 2,402,J.League 2,,2026-10-03,03:00,Unknown,9,56419,Tochigi City FC,79907,FC Imabari,,,notstarted,1791014400,2026-09-30
-16349264,Japan,J-League 3,2293,J-League 3,,2026-10-03,03:00,Unknown,9,44528,FC Ryukyu,38138,Zweigen Kanazawa,,,notstarted,1791014400,2026-09-30
-16349261,Japan,J-League 3,2293,J-League 3,,2026-10-03,03:00,Unknown,9,40029,Giravanz Kitakyushu,230706,Kochi United SC,,,notstarted,1791014400,2026-09-30
-16349252,Japan,J-League 3,2293,J-League 3,,2026-10-03,03:00,Unknown,9,189234,SC Sagamihara,205600,FC Osaka,,,notstarted,1791014400,2026-09-30
-17163506,Ukraine,Premier League,218,Premier League,,2026-10-03,05:00,Unknown,6,200773,NK Veres Rivne,316055,Kudrivka,,,notstarted,1791021600,2026-09-30
-16599748,Spain,"Primera Federacion, Group 2",17073,"Primera Federacion, Group 2",,2026-10-03,06:00,Unknown,6,2877,Hércules CF,2841,Real Jaén,,,notstarted,1791025200,2026-09-30
-15254137,Sweden,Damallsvenskan,214,Damallsvenskan,,2026-10-03,06:00,Unknown,21,32871,Piteå IF,102033,Norrköping DFK,,,notstarted,1791025200,2026-09-30
-15254138,Sweden,Damallsvenskan,214,Damallsvenskan,,2026-10-03,06:00,Unknown,21,61572,Vittsjö GIK,112689,Eskilstuna Utd DFF,,,notstarted,1791025200,2026-09-30
-16395924,England,League Two,25,League Two,,2026-10-03,06:30,Unknown,9,68,Chesterfield,51,Tranmere Rovers,,,notstarted,1791027000,2026-09-30
-16418359,Spain,LaLiga 2,54,LaLiga 2,,2026-10-03,07:00,Unknown,8,2848,Albacete Balompié,2839,Eibar,,,notstarted,1791028800,2026-09-30
-16454808,Netherlands,Tweede Divisie,11402,Tweede Divisie,,2026-10-03,07:00,Unknown,8,203213,Koninklijke HFC,8055,Quick Boys,,,notstarted,1791028800,2026-09-30
 17093747,Africa,"CAF Champions League, Qualification",1054,"CAF Champions League, Qualification",,2026-10-03,07:00,Unknown,1,325649,Fomboni FC,550481,FC 15 de Agosto de Akonibe,,,notstarted,1791028800,2026-09-30
-16454810,Netherlands,Tweede Divisie,11402,Tweede Divisie,,2026-10-03,07:30,Unknown,8,6480,HHC Hardenberg,6482,VV IJsselmeervogels,,,notstarted,1791030600,2026-09-30
-16454811,Netherlands,Tweede Divisie,11402,Tweede Divisie,,2026-10-03,07:30,Unknown,8,35040,HSV Hoek,6475,De Treffers,,,notstarted,1791030600,2026-09-30
-16454814,Netherlands,Tweede Divisie,11402,Tweede Divisie,,2026-10-03,07:30,Unknown,8,297890,RKAV Volendam,390131,Almere City U21,,,notstarted,1791030600,2026-09-30
-16454815,Netherlands,Tweede Divisie,11402,Tweede Divisie,,2026-10-03,07:30,Unknown,8,6490,Rijnsburgse Boys,2988,VV Kloetinge,,,notstarted,1791030600,2026-09-30
-15265914,Norway,1st Division,22,1st Division,,2026-10-03,07:30,Unknown,24,885,Strømmen IF,929,Sandnes Ulf,,,notstarted,1791030600,2026-09-30
-16454809,Netherlands,Tweede Divisie,11402,Tweede Divisie,,2026-10-03,08:00,Unknown,8,37800,BVV Barendrecht,46170,Jong Sparta Rotterdam,,,notstarted,1791032400,2026-09-30
-16454816,Netherlands,Tweede Divisie,11402,Tweede Divisie,,2026-10-03,08:00,Unknown,8,477423,RKSV Rohda Raalte,25383,GVVV,,,notstarted,1791032400,2026-09-30
-16454822,Netherlands,Tweede Divisie,11402,Tweede Divisie,,2026-10-03,08:00,Unknown,8,2985,SV Spakenburg,34729,Amsterdamsche FC,,,notstarted,1791032400,2026-09-30
-16454813,Netherlands,Tweede Divisie,11402,Tweede Divisie,,2026-10-03,08:00,Unknown,8,44343,VV Katwijk,6487,Kozakken Boys,,,notstarted,1791032400,2026-09-30
-15534146,Europe,"UEFA Nations League, League C, Gr. 1",10783,"UEFA Nations League, League C, Gr. 1",,2026-10-03,08:00,Unknown,3,4712,Finland,4690,Albania,,,notstarted,1791032400,2026-09-30
-15254139,Sweden,Damallsvenskan,214,Damallsvenskan,,2026-10-03,08:00,Unknown,21,206340,Växjö DFF,8086,Kristianstads DFF,,,notstarted,1791032400,2026-09-30
 16395471,England,League One,24,League One,,2026-10-03,09:00,Unknown,9,23957,AFC Wimbledon,133,Stevenage,,,postponed,1791036000,2026-10-01
 16395463,England,League One,24,League One,,2026-10-03,09:00,Unknown,9,23,Barnsley,4,Milton Keynes Dons,,,postponed,1791036000,2026-10-01
 16395468,England,League One,24,League One,,2026-10-03,09:00,Unknown,9,67,Blackpool,31,Leicester City,,,postponed,1791036000,2026-10-01
