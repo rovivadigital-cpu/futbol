@@ -1,25 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16390811,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-10-02,15:05,Unknown,17,48244,Rionegro Águilas Doradas,89368,Fortaleza FC,,,postponed,1790971500,2026-09-30
-16654814,North & Central America,"CONCACAF Nations League, League B, Group C",14100,"CONCACAF Nations League, League B, Group C",,2026-10-02,16:00,Unknown,3,21819,Saint Kitts and Nevis,4824,Cuba,,,notstarted,1790974800,2026-09-30
-15275946,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-10-02,17:00,Unknown,32,36841,Club Ferro Carril Oeste,222120,Deportivo Madryn,,,notstarted,1790978400,2026-09-30
-16459639,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-10-02,17:00,Unknown,12,89372,Atlético Cali,484422,Real Cundinamarca,,,notstarted,1790978400,2026-09-30
-16654810,North & Central America,"CONCACAF Nations League, League A, Group B",14100,"CONCACAF Nations League, League A, Group B",,2026-10-02,17:00,Unknown,3,21822,Suriname,5163,Guatemala,,,notstarted,1790978400,2026-09-30
-16667339,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-10-02,17:15,Unknown,11,3209,CA Independiente,4937,Instituto De Córdoba,,,notstarted,1790979300,2026-09-30
-15526311,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-10-02,17:30,Unknown,31,47504,São Bernardo,22032,CRB,,,notstarted,1790980200,2026-09-30
-17075314,Chile,Liga de Primera,11653,Liga de Primera,,2026-10-02,18:00,Unknown,23,5034,Universidad de Concepción,3164,Huachipato,,,notstarted,1790982000,2026-09-30
-17108375,Brazil,Brasileirão Betano,325,Brasileirão Betano,,2026-10-02,18:00,Unknown,21,1981,São Paulo,1968,Santos,,,notstarted,1790982000,2026-09-30
-15526315,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-10-02,18:30,Unknown,31,2022,Londrina,1984,Criciúma,,,notstarted,1790983800,2026-09-30
-15526321,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-10-02,18:45,Unknown,31,1980,Juventude,39634,Operário-PR,,,notstarted,1790984700,2026-09-30
-16654809,North & Central America,"CONCACAF Nations League, League A, Group B",14100,"CONCACAF Nations League, League A, Group B",,2026-10-02,19:00,Unknown,3,45485,Martinique,4827,Honduras,,,notstarted,1790985600,2026-09-30
-16654813,North & Central America,"CONCACAF Nations League, League B, Group B",14100,"CONCACAF Nations League, League B, Group B",,2026-10-02,19:00,Unknown,3,21808,Barbados,4745,Bermuda,,,notstarted,1790985600,2026-09-30
-16654816,North & Central America,"CONCACAF Nations League, League B, Group C",14100,"CONCACAF Nations League, League B, Group C",,2026-10-02,19:00,Unknown,3,180236,Bonaire,21814,Grenada,,,notstarted,1790985600,2026-09-30
-15385483,USA,NWSL,1690,NWSL,,2026-10-02,19:00,Unknown,1,215083,Orlando Pride,408170,San Diego Wave FC,,,notstarted,1790985600,2026-09-30
-16667343,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-10-02,19:30,Unknown,11,3202,Boca Juniors,3204,Club Atlético Unión de Santa Fe,,,notstarted,1790987400,2026-09-30
-16667348,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-10-02,19:30,Unknown,11,36842,Independiente Rivadavia,3205,Gimnasia y Esgrima,,,notstarted,1790987400,2026-09-30
-15526316,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-10-02,19:35,Unknown,31,2020,Fortaleza,2011,Náutico,,,notstarted,1790987700,2026-09-30
-16390767,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-10-02,19:45,Unknown,13,6112,Deportivo Cali,504899,Alianza Valledupar FC,,,notstarted,1790988300,2026-09-30
-17141808,New Zealand,National League,594,National League,,2026-10-02,20:00,Unknown,2,261131,Miramar Rangers,1079629,Auckland FC Reserves,,,notstarted,1790989200,2026-09-30
-17141815,New Zealand,National League,594,National League,,2026-10-02,20:00,Unknown,2,378944,Wellington Olympic,378302,Ferrymead Bays FC,,,notstarted,1790989200,2026-09-30
 16654811,North & Central America,"CONCACAF Nations League, League A, Group B",14100,"CONCACAF Nations League, League A, Group B",,2026-10-02,21:00,Unknown,3,4825,El Salvador,4769,Jamaica,,,notstarted,1790992800,2026-09-30
 15385482,USA,NWSL,1690,NWSL,,2026-10-02,21:00,Unknown,1,151010,Seattle Reign FC,49787,North Carolina Courage,,,notstarted,1790992800,2026-09-30
 16348883,Japan,J.League 2,402,J.League 2,,2026-10-03,00:00,Unknown,9,5128,Albirex Niigata,21907,Tokushima Vortis,,,notstarted,1791003600,2026-09-30
