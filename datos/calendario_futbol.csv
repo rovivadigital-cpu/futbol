@@ -1,29 +1,5 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15285624,USA,"USL, League One",13362,"USL, League One",,2026-10-04,14:00,Unknown,,253417,South Georgia Tormenta FC,338006,Union Omaha SC,,,canceled,1791140400,2026-10-02
-16667334,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-10-04,15:00,Unknown,11,3210,CA Talleres,3203,Club Atlético Belgrano,,,notstarted,1791144000,2026-10-02
-15275947,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-10-04,15:00,Unknown,32,252726,Chaco For Ever,52215,Defensores de Belgrano,,,notstarted,1791144000,2026-10-02
-15275958,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-10-04,15:00,Unknown,32,224646,Güemes,112493,Colegiales,,,notstarted,1791144000,2026-10-02
-15275956,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-10-04,15:00,Unknown,32,7772,San Martín de San Juan,4938,Almagro,,,notstarted,1791144000,2026-10-02
-15502889,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-10-04,15:00,Unknown,1,1165894,FC Supra Du Quebec,309888,Pacific FC,,,notstarted,1791144000,2026-10-02
-16654824,North & Central America,"CONCACAF Nations League, League C, Group A",14100,"CONCACAF Nations League, League C, Group A",,2026-10-04,15:00,Unknown,3,21823,Turks and Caicos Islands,21810,British Virgin Islands,,,notstarted,1791144000,2026-10-02
-16654826,North & Central America,"CONCACAF Nations League, League C, Group C",14100,"CONCACAF Nations League, League C, Group C",,2026-10-04,15:00,Unknown,3,21807,Bahamas,21803,US Virgin Islands,,,notstarted,1791144000,2026-10-02
-15385487,USA,NWSL,1690,NWSL,,2026-10-04,15:00,Unknown,1,34714,Chicago Stars FC,1165117,Denver Summit FC,,,notstarted,1791144000,2026-10-02
-15275961,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-10-04,15:30,Unknown,32,34976,Atlético de Rafaela,53799,Atlanta,,,notstarted,1791145800,2026-10-02
-17098476,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-10-04,15:30,Unknown,16,39220,San Luis de Quillota,3153,Unión Española,,,notstarted,1791145800,2026-10-02
-17095644,Jamaica,Premier League,1892,Premier League,,2026-10-04,15:30,Unknown,4,173724,Montego Bay United FC,298574,Dunbeholden FC,,,notstarted,1791145800,2026-10-02
-17095642,Jamaica,Premier League,1892,Premier League,,2026-10-04,15:30,Unknown,4,496048,Treasure Beach FC,173722,Humble Lions FC,,,notstarted,1791145800,2026-10-02
-17095645,Jamaica,Premier League,1892,Premier League,,2026-10-04,15:30,Unknown,4,1279198,Tru-Juice FC,173734,Tivoli Gardens,,,notstarted,1791145800,2026-10-02
-15275953,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-10-04,16:00,Unknown,32,6074,Godoy Cruz,112497,Los Andes,,,notstarted,1791147600,2026-10-02
-16459642,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-10-04,16:00,Unknown,12,89354,Tigres FC,39866,Internacional de Palmira,,,notstarted,1791147600,2026-10-02
 15285888,USA,USL Championship,13363,USL Championship,,2026-10-04,16:00,Unknown,1,1077312,SC Jacksonville,197070,Louisville City FC,,,postponed,1791147600,2026-10-02
-16390773,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-10-04,16:05,Unknown,13,6108,Cúcuta Deportivo,6109,Deportivo Pereira,,,notstarted,1791147900,2026-10-02
-17233693,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-10-04,16:05,Unknown,17,1164534,Internacional de Bogotá,6118,Once Caldas,,,notstarted,1791147900,2026-10-02
-15275962,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-10-04,16:30,Unknown,32,23950,San Martín de Tucumán,222126,Gimnasia y Tiro de Salta,,,notstarted,1791149400,2026-10-02
-17095641,Jamaica,Premier League,1892,Premier League,,2026-10-04,17:00,Unknown,4,327921,Molynes United FC,925387,Racing United FC,,,notstarted,1791151200,2026-10-02
-16654820,North & Central America,"CONCACAF Nations League, League A, Group A",14100,"CONCACAF Nations League, League A, Group A",,2026-10-04,17:00,Unknown,4,5162,Trinidad and Tobago,55827,Curaçao,,,notstarted,1791151200,2026-10-02
-16654823,North & Central America,"CONCACAF Nations League, League B, Group A",14100,"CONCACAF Nations League, League B, Group A",,2026-10-04,17:00,Unknown,4,21818,Puerto Rico,21811,Cayman Islands,,,notstarted,1791151200,2026-10-02
-15285887,USA,USL Championship,13363,USL Championship,,2026-10-04,17:00,Unknown,1,310531,New Mexico United,154018,Phoenix Rising FC,,,notstarted,1791151200,2026-10-02
-16667353,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-10-04,17:15,Unknown,11,3216,Argentinos Juniors,7628,Tigre,,,notstarted,1791152100,2026-10-02
 17171109,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-10-04,17:30,Unknown,9,25010,Racing de Montevideo,3227,Club Atlético Peñarol,,,notstarted,1791153000,2026-10-02
 16667350,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-10-04,17:45,Unknown,11,42338,Sarmiento,3211,River Plate,,,postponed,1791153900,2026-10-02
 16654825,North & Central America,"CONCACAF Nations League, League C, Group B",14100,"CONCACAF Nations League, League C, Group B",,2026-10-04,18:00,Unknown,3,21806,Aruba,21804,Anguilla,,,notstarted,1791154800,2026-10-02
