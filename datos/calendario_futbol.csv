@@ -1,9 +1,5 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15285888,USA,USL Championship,13363,USL Championship,,2026-10-04,16:00,Unknown,1,1077312,SC Jacksonville,197070,Louisville City FC,,,postponed,1791147600,2026-10-02
 16667350,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-10-04,17:45,Unknown,11,42338,Sarmiento,3211,River Plate,,,postponed,1791153900,2026-10-02
-16654825,North & Central America,"CONCACAF Nations League, League C, Group B",14100,"CONCACAF Nations League, League C, Group B",,2026-10-04,18:00,Unknown,3,21806,Aruba,21804,Anguilla,,,notstarted,1791154800,2026-10-02
-15385488,USA,NWSL,1690,NWSL,,2026-10-04,18:00,Unknown,1,151006,Houston Dash,151012,Washington Spirit,,,notstarted,1791154800,2026-10-02
-16390774,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-10-04,18:10,Unknown,13,6103,Atlético Bucaramanga,6105,Junior Barranquilla,,,notstarted,1791155400,2026-10-02
 16654819,North & Central America,"CONCACAF Nations League, League A, Group A",14100,"CONCACAF Nations League, League A, Group A",,2026-10-04,19:00,Unknown,4,4756,Costa Rica,7229,Haiti,,,notstarted,1791158400,2026-10-02
 16667352,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-10-04,19:30,Unknown,11,266694,Estudiantes de Río Cuarto,3215,Racing Club,,,notstarted,1791160200,2026-10-02
 17095643,Jamaica,Premier League,1892,Premier League,,2026-10-04,19:30,Unknown,4,298573,Mount Pleasant FA,173720,Cavalier FC,,,notstarted,1791160200,2026-10-02
