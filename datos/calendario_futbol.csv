@@ -1,36 +1,6 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16418373,Spain,LaLiga 2,54,LaLiga 2,,2026-10-04,09:15,Unknown,8,2852,Sporting Gijón,24336,Celta Fortuna,,,notstarted,1791123300,2026-10-02
-16439386,Spain,"Primera Federacion, Group 1",17073,"Primera Federacion, Group 1",,2026-10-04,09:30,Unknown,6,6195,SD Ponferradina,35092,Mirandés,,,notstarted,1791124200,2026-10-02
-16439390,Spain,"Primera Federacion, Group 1",17073,"Primera Federacion, Group 1",,2026-10-04,09:30,Unknown,6,24379,Zamora CF,263806,CD Coria,,,notstarted,1791124200,2026-10-02
-16880285,Georgia,Erovnuli Liga,704,Erovnuli Liga,,2026-10-04,10:00,Unknown,22,116312,FC Iberia 1999,5171,Dinamo Tbilisi,,,notstarted,1791126000,2026-10-02
-17098466,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-10-04,10:30,Unknown,16,5601,Club Deportes Antofagasta,3154,Rangers de Talca,,,notstarted,1791127800,2026-10-02
-15534163,Europe,"UEFA Nations League, League B, Gr. 3",10783,"UEFA Nations League, League B, Gr. 3",,2026-10-04,11:00,Unknown,4,154426,Kosovo,4718,Austria,,,notstarted,1791129600,2026-10-02
-15537769,Europe,"UEFA Nations League, League D, Gr. 1",10783,"UEFA Nations League, League D, Gr. 1",,2026-10-04,11:00,Unknown,4,4483,Malta,4818,Andorra,,,notstarted,1791129600,2026-10-02
-17171108,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-10-04,11:00,Unknown,9,174970,Boston River,3224,Juventud de Las Piedras,,,notstarted,1791129600,2026-10-02
-16418367,Spain,LaLiga 2,54,LaLiga 2,,2026-10-04,11:30,Unknown,8,5067,CD Castellón,2869,AD Ceuta,,,notstarted,1791131400,2026-10-02
-16418364,Spain,LaLiga 2,54,LaLiga 2,,2026-10-04,11:30,Unknown,8,6577,UD Las Palmas,2831,Real Valladolid,,,notstarted,1791131400,2026-10-02
-16439381,Spain,"Primera Federacion, Group 1",17073,"Primera Federacion, Group 1",,2026-10-04,11:45,Unknown,6,24351,Mérida AD,2878,CP Cacereño,,,notstarted,1791132300,2026-10-02
-16599724,Spain,"Primera Federacion, Group 2",17073,"Primera Federacion, Group 2",,2026-10-04,11:45,Unknown,6,4489,Algeciras CF,202074,Rayo Majadahonda,,,notstarted,1791132300,2026-10-02
-15385486,USA,NWSL,1690,NWSL,,2026-10-04,12:00,Unknown,1,34718,NJ/NY Gotham FC,408169,Angel City FC,,,notstarted,1791133200,2026-10-02
-16667346,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-10-04,12:45,Unknown,11,7629,Huracán,36836,Aldosivi,,,notstarted,1791135900,2026-10-02
-15275960,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-10-04,13:00,Unknown,32,265787,Agropecuario Argentino,270344,Ferrocarril Midland,,,notstarted,1791136800,2026-10-02
-17098458,Chile,Liga de Ascenso,1240,Liga de Ascenso,,2026-10-04,13:00,Unknown,16,3152,Unión San Felipe,33596,Deportes Iquique,,,notstarted,1791136800,2026-10-02
-15275957,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-10-04,13:30,Unknown,32,3214,Club Atlético Chacarita Juniors,43741,Patronato,,,notstarted,1791138600,2026-10-02
-15275949,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-10-04,13:30,Unknown,32,213361,San Telmo,43740,Almirante Brown,,,notstarted,1791138600,2026-10-02
-15534061,Europe,"UEFA Nations League, League A, Gr. 2",10783,"UEFA Nations League, League A, Gr. 2",,2026-10-04,13:45,Unknown,4,4710,Greece,4711,Germany,,,notstarted,1791139500,2026-10-02
-15534067,Europe,"UEFA Nations League, League A, Gr. 2",10783,"UEFA Nations League, League A, Gr. 2",,2026-10-04,13:45,Unknown,4,4705,Netherlands,6355,Serbia,,,notstarted,1791139500,2026-10-02
-15534095,Europe,"UEFA Nations League, League A, Gr. 4",10783,"UEFA Nations League, League A, Gr. 4",,2026-10-04,13:45,Unknown,4,4704,Portugal,4475,Norway,,,notstarted,1791139500,2026-10-02
-15534102,Europe,"UEFA Nations League, League A, Gr. 4",10783,"UEFA Nations League, League A, Gr. 4",,2026-10-04,13:45,Unknown,4,4702,Wales,4476,Denmark,,,notstarted,1791139500,2026-10-02
-15534157,Europe,"UEFA Nations League, League B, Gr. 3",10783,"UEFA Nations League, League B, Gr. 3",,2026-10-04,13:45,Unknown,4,4693,Ireland,4480,Israel,,,notstarted,1791139500,2026-10-02
-16418378,Spain,LaLiga 2,54,LaLiga 2,,2026-10-04,14:00,Unknown,8,24264,Girona FC,2826,Mallorca,,,notstarted,1791140400,2026-10-02
-16599833,Spain,"Primera Federacion, Group 2",17073,"Primera Federacion, Group 2",,2026-10-04,14:00,Unknown,6,2815,Real Zaragoza,43751,CD Teruel,,,notstarted,1791140400,2026-10-02
-16390772,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-10-04,14:00,Unknown,13,6113,Deportivo Pasto,89368,Fortaleza FC,,,notstarted,1791140400,2026-10-02
-16654822,North & Central America,"CONCACAF Nations League, League B, Group A",14100,"CONCACAF Nations League, League B, Group A",,2026-10-04,14:00,Unknown,4,22113,Guyana,21812,Dominica,,,notstarted,1791140400,2026-10-02
-17171112,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-10-04,14:00,Unknown,9,22011,CA Cerro,3240,Montevideo Wanderers,,,notstarted,1791140400,2026-10-02
 15285624,USA,"USL, League One",13362,"USL, League One",,2026-10-04,14:00,Unknown,,253417,South Georgia Tormenta FC,338006,Union Omaha SC,,,canceled,1791140400,2026-10-02
-16418370,Spain,LaLiga 2,54,LaLiga 2,,2026-10-04,14:00,Unknown,8,24335,CE Sabadell,324871,FC Andorra,,,postponed,1791140400,2026-10-04
 16667334,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-10-04,15:00,Unknown,11,3210,CA Talleres,3203,Club Atlético Belgrano,,,notstarted,1791144000,2026-10-02
-15275945,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-10-04,15:00,Unknown,32,255426,Central Norte de Salta,273657,Racing de Córdoba,,,notstarted,1791144000,2026-10-02
 15275947,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-10-04,15:00,Unknown,32,252726,Chaco For Ever,52215,Defensores de Belgrano,,,notstarted,1791144000,2026-10-02
 15275958,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-10-04,15:00,Unknown,32,224646,Güemes,112493,Colegiales,,,notstarted,1791144000,2026-10-02
 15275956,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-10-04,15:00,Unknown,32,7772,San Martín de San Juan,4938,Almagro,,,notstarted,1791144000,2026-10-02
