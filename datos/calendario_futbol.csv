@@ -1,20 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16349266,Japan,J-League 3,2293,J-League 3,,2026-10-04,04:00,Unknown,9,162632,Kagoshima United,38140,Fukushima United FC,,,notstarted,1791104400,2026-10-01
-16439376,Spain,"Primera Federacion, Group 1",17073,"Primera Federacion, Group 1",,2026-10-04,05:00,Unknown,6,24324,Athletic Club B U21,852868,CD Extremadura,,,notstarted,1791108000,2026-10-01
-16439385,Spain,"Primera Federacion, Group 1",17073,"Primera Federacion, Group 1",,2026-10-04,05:00,Unknown,6,37057,UD Logroñés,24342,Deportivo Fabril,,,notstarted,1791108000,2026-10-01
-16599779,Spain,"Primera Federacion, Group 2",17073,"Primera Federacion, Group 2",,2026-10-04,05:00,Unknown,6,4487,Real Murcia,2840,Gimnàstic de Tarragona,,,notstarted,1791108000,2026-10-01
-16599822,Spain,"Primera Federacion, Group 2",17073,"Primera Federacion, Group 2",,2026-10-04,05:00,Unknown,6,24338,Villarreal B U23,24368,UD Ibiza,,,notstarted,1791108000,2026-10-01
-16348886,Japan,J.League 2,402,J.League 2,,2026-10-04,05:00,Unknown,9,287058,Tegevajaro Miyazaki,5130,RB Omiya Ardija,,,notstarted,1791108000,2026-10-01
-16418366,Spain,LaLiga 2,54,LaLiga 2,,2026-10-04,07:00,Unknown,8,24360,Real Sociedad B,33779,Granada,,,notstarted,1791115200,2026-10-01
-15254134,Sweden,Damallsvenskan,214,Damallsvenskan,,2026-10-04,07:00,Unknown,21,1878,Djurgårdens IF DFF,7388,AIK,,,notstarted,1791115200,2026-10-01
-16599763,Spain,"Primera Federacion, Group 2",17073,"Primera Federacion, Group 2",,2026-10-04,07:15,Unknown,6,24265,Huesca,135672,CE Europa,,,notstarted,1791116100,2026-10-01
-16317429,Netherlands,Eerste Divisie,131,Eerste Divisie,,2026-10-04,07:30,Unknown,9,2980,VVV-Venlo,2954,Roda JC Kerkrade,,,notstarted,1791117000,2026-10-01
-15265908,Norway,1st Division,22,1st Division,,2026-10-04,07:30,Unknown,24,663,Bryne FK,657,Lyn FK,,,notstarted,1791117000,2026-10-01
-15534239,Europe,"UEFA Nations League, League D, Gr. 2",10783,"UEFA Nations League, League D, Gr. 2",,2026-10-04,08:00,Unknown,4,4742,Azerbaijan,4776,Lithuania,,,notstarted,1791118800,2026-10-01
-15254133,Sweden,Damallsvenskan,214,Damallsvenskan,,2026-10-04,08:00,Unknown,21,1889,BK Häcken FF,258774,IK Uppsala,,,notstarted,1791118800,2026-10-01
-15254135,Sweden,Damallsvenskan,214,Damallsvenskan,,2026-10-04,08:00,Unknown,21,1884,Hammarby IF,112697,IF Brommapojkarna,,,notstarted,1791118800,2026-10-01
-15254136,Sweden,Damallsvenskan,214,Damallsvenskan,,2026-10-04,08:00,Unknown,21,502806,Malmo FF,1886,Rosengård,,,notstarted,1791118800,2026-10-01
-17171107,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-10-04,08:00,Unknown,9,3228,Danubio,25009,Cerro Largo,,,notstarted,1791118800,2026-10-01
 16418373,Spain,LaLiga 2,54,LaLiga 2,,2026-10-04,09:15,Unknown,8,2852,Sporting Gijón,24336,Celta Fortuna,,,notstarted,1791123300,2026-10-02
 16439386,Spain,"Primera Federacion, Group 1",17073,"Primera Federacion, Group 1",,2026-10-04,09:30,Unknown,6,6195,SD Ponferradina,35092,Mirandés,,,notstarted,1791124200,2026-10-02
 16439390,Spain,"Primera Federacion, Group 1",17073,"Primera Federacion, Group 1",,2026-10-04,09:30,Unknown,6,24379,Zamora CF,263806,CD Coria,,,notstarted,1791124200,2026-10-02
@@ -44,6 +28,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16654822,North & Central America,"CONCACAF Nations League, League B, Group A",14100,"CONCACAF Nations League, League B, Group A",,2026-10-04,14:00,Unknown,4,22113,Guyana,21812,Dominica,,,notstarted,1791140400,2026-10-02
 17171112,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-10-04,14:00,Unknown,9,22011,CA Cerro,3240,Montevideo Wanderers,,,notstarted,1791140400,2026-10-02
 15285624,USA,"USL, League One",13362,"USL, League One",,2026-10-04,14:00,Unknown,,253417,South Georgia Tormenta FC,338006,Union Omaha SC,,,canceled,1791140400,2026-10-02
+16418370,Spain,LaLiga 2,54,LaLiga 2,,2026-10-04,14:00,Unknown,8,24335,CE Sabadell,324871,FC Andorra,,,postponed,1791140400,2026-10-04
 16667334,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-10-04,15:00,Unknown,11,3210,CA Talleres,3203,Club Atlético Belgrano,,,notstarted,1791144000,2026-10-02
 15275945,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-10-04,15:00,Unknown,32,255426,Central Norte de Salta,273657,Racing de Córdoba,,,notstarted,1791144000,2026-10-02
 15275947,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-10-04,15:00,Unknown,32,252726,Chaco For Ever,52215,Defensores de Belgrano,,,notstarted,1791144000,2026-10-02
