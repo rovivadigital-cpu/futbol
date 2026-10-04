@@ -1,6 +1,5 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
 15285888,USA,USL Championship,13363,USL Championship,,2026-10-04,16:00,Unknown,1,1077312,SC Jacksonville,197070,Louisville City FC,,,postponed,1791147600,2026-10-02
-17171109,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-10-04,17:30,Unknown,9,25010,Racing de Montevideo,3227,Club Atlético Peñarol,,,notstarted,1791153000,2026-10-02
 16667350,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-10-04,17:45,Unknown,11,42338,Sarmiento,3211,River Plate,,,postponed,1791153900,2026-10-02
 16654825,North & Central America,"CONCACAF Nations League, League C, Group B",14100,"CONCACAF Nations League, League C, Group B",,2026-10-04,18:00,Unknown,3,21806,Aruba,21804,Anguilla,,,notstarted,1791154800,2026-10-02
 15385488,USA,NWSL,1690,NWSL,,2026-10-04,18:00,Unknown,1,151006,Houston Dash,151012,Washington Spirit,,,notstarted,1791154800,2026-10-02
