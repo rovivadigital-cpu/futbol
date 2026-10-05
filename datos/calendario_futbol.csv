@@ -74,9 +74,10 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15526328,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-10-07,17:30,Unknown,32,7315,Avaí,2022,Londrina,,,notstarted,1791412200,2026-10-05
 15526325,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-10-07,17:30,Unknown,32,39634,Operário-PR,1979,Botafogo-SP,,,notstarted,1791412200,2026-10-05
 15237998,Brazil,Campeonato Brasileiro Série A,325,Campeonato Brasileiro Série A,,2026-10-07,18:00,Unknown,29,1962,Vitória,21845,Chapecoense,,,notstarted,1791414000,2026-10-05
-15502900,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-10-07,18:00,Unknown,1,309888,Pacific FC,313716,Forge FC,,,notstarted,1791414000,2026-10-05
+15502900,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-10-07,18:00,Unknown,1,309888,Pacific FC,313716,Forge FC,,,postponed,1791414000,2026-10-05
 15285630,USA,"USL, League One",13362,"USL, League One",,2026-10-07,18:00,Unknown,,1044341,FC Naples,23841,Richmond Kickers,,,notstarted,1791414000,2026-10-05
 15285629,USA,"USL, League One",13362,"USL, League One",,2026-10-07,18:00,Unknown,,407748,One Knoxville SC,312631,Chattanooga Red Wolves SC,,,notstarted,1791414000,2026-10-05
+17258203,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-10-07,18:00,Unknown,1,313716,Forge FC,309888,Pacific FC,,,notstarted,1791414000,2026-10-05
 15237991,Brazil,Campeonato Brasileiro Série A,325,Campeonato Brasileiro Série A,,2026-10-07,18:30,Unknown,29,1958,Botafogo,1974,Vasco da Gama,,,notstarted,1791415800,2026-10-05
 15526324,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-10-07,18:30,Unknown,32,1973,América Mineiro,2020,Fortaleza,,,notstarted,1791415800,2026-10-05
 15526330,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-10-07,18:30,Unknown,32,22032,CRB,7314,Atlético Goianiense,,,notstarted,1791415800,2026-10-05
