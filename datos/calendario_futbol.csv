@@ -1,26 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15537770,Europe,"UEFA Nations League, League C, Gr. 2",10783,"UEFA Nations League, League C, Gr. 2",,2026-10-05,11:00,Unknown,4,4482,Cyprus,4706,Latvia,,,notstarted,1791216000,2026-10-03
-15265911,Norway,1st Division,22,1st Division,,2026-10-05,12:00,Unknown,24,662,Moss FK,672,Kongsvinger,,,notstarted,1791219600,2026-10-03
-16418369,Spain,LaLiga 2,54,LaLiga 2,,2026-10-05,13:30,Unknown,8,2850,Córdoba,2822,CD Tenerife,,,notstarted,1791225000,2026-10-03
-15534027,Europe,"UEFA Nations League, League A, Gr. 1",10783,"UEFA Nations League, League A, Gr. 1",,2026-10-05,13:45,Unknown,4,4481,France,4717,Belgium,,,notstarted,1791225900,2026-10-03
-15534050,Europe,"UEFA Nations League, League A, Gr. 1",10783,"UEFA Nations League, League A, Gr. 1",,2026-10-05,13:45,Unknown,4,4707,Italy,4700,Türkiye,,,notstarted,1791225900,2026-10-03
-15534139,Europe,"UEFA Nations League, League B, Gr. 2",10783,"UEFA Nations League, League B, Gr. 2",,2026-10-05,13:45,Unknown,4,4786,Northern Ireland,4763,Georgia,,,notstarted,1791225900,2026-10-03
-15534129,Europe,"UEFA Nations League, League B, Gr. 2",10783,"UEFA Nations League, League B, Gr. 2",,2026-10-05,13:45,Unknown,4,4701,Ukraine,4709,Hungary,,,notstarted,1791225900,2026-10-03
-15534168,Europe,"UEFA Nations League, League B, Gr. 4",10783,"UEFA Nations League, League B, Gr. 4",,2026-10-05,13:45,Unknown,4,4479,Bosnia & Herzegovina,4703,Poland,,,notstarted,1791225900,2026-10-03
-15534177,Europe,"UEFA Nations League, League B, Gr. 4",10783,"UEFA Nations League, League B, Gr. 4",,2026-10-05,13:45,Unknown,4,4477,Romania,4688,Sweden,,,notstarted,1791225900,2026-10-03
-15534182,Europe,"UEFA Nations League, League C, Gr. 2",10783,"UEFA Nations League, League C, Gr. 2",,2026-10-05,13:45,Unknown,4,7139,Montenegro,4740,Armenia,,,notstarted,1791225900,2026-10-03
-17029018,North & Central America,"CONCACAF Nations League, League B, Group B",14100,"CONCACAF Nations League, League B, Group B",,2026-10-05,14:00,Unknown,4,7299,Guadeloupe,21820,Saint Lucia,,,notstarted,1791226800,2026-10-03
-16667344,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-10-05,14:45,Unknown,11,189723,Deportivo Riestra,65676,Central Córdoba,,,notstarted,1791229500,2026-10-03
-15275955,Argentina,Primera B Nacional,703,Primera B Nacional,,2026-10-05,15:00,Unknown,32,3200,Nueva Chicago,213042,Deportivo Maipú,,,notstarted,1791230400,2026-10-03
-16588924,Paraguay,"Primera División, Clausura",11541,"Primera División, Clausura",,2026-10-05,15:00,Unknown,13,39722,Sportivo Trinidense,5998,Sportivo Luqueño,,,notstarted,1791230400,2026-10-03
-16654832,North & Central America,"CONCACAF Nations League, League B, Group C",14100,"CONCACAF Nations League, League B, Group C",,2026-10-05,16:00,Unknown,4,4824,Cuba,21819,Saint Kitts and Nevis,,,notstarted,1791234000,2026-10-03
-16667345,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-10-05,17:00,Unknown,11,3206,Estudiantes de La Plata,188441,Gimnasia y Esgrima Mendoza,,,notstarted,1791237600,2026-10-03
-16667351,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-10-05,17:00,Unknown,11,3208,Vélez Sarsfield,36837,Club Atlético Platense,,,notstarted,1791237600,2026-10-03
-16461224,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-10-05,17:00,Unknown,12,89352,Bogotá FC,6114,Envigado FC,,,notstarted,1791237600,2026-10-03
-16654829,North & Central America,"CONCACAF Nations League, League A, Group B",14100,"CONCACAF Nations League, League A, Group B",,2026-10-05,17:00,Unknown,4,45485,Martinique,4825,El Salvador,,,notstarted,1791237600,2026-10-03
-17095646,Jamaica,Premier League,1892,Premier League,,2026-10-05,17:05,Unknown,4,455021,Chapelton Maroons FC,173736,Waterhouse FC,,,notstarted,1791237900,2026-10-03
-16588927,Paraguay,"Primera División, Clausura",11541,"Primera División, Clausura",,2026-10-05,17:15,Unknown,13,5991,Cerro Porteño,5992,CS 2 de Mayo,,,notstarted,1791238500,2026-10-03
-17171106,Uruguay,"Liga AUF Uruguaya, Clausura",278,"Liga AUF Uruguaya, Clausura",,2026-10-05,18:00,Unknown,9,3230,Nacional,174972,Montevideo City Torque,,,notstarted,1791241200,2026-10-03
 16390769,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-10-05,19:00,Unknown,13,6115,Independiente Medellín,6116,Independiente Santa Fe,,,notstarted,1791244800,2026-10-03
 16654828,North & Central America,"CONCACAF Nations League, League A, Group B",14100,"CONCACAF Nations League, League A, Group B",,2026-10-05,19:00,Unknown,4,5163,Guatemala,21822,Suriname,,,notstarted,1791244800,2026-10-03
 17029019,North & Central America,"CONCACAF Nations League, League B, Group B",14100,"CONCACAF Nations League, League B, Group B",,2026-10-05,19:00,Unknown,4,4745,Bermuda,21808,Barbados,,,notstarted,1791244800,2026-10-03
@@ -64,7 +42,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 17118209,Spain,"Primera Federacion, Group 2",17073,"Primera Federacion, Group 2",,2026-10-07,13:30,Unknown,5,24329,FC Cartagena,4487,Real Murcia,,,notstarted,1791397800,2026-10-05
 16461220,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-10-07,15:30,Unknown,13,89366,Boca Juniors de Cali,89372,Atlético Cali,,,postponed,1791405000,2026-10-05
 17161975,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-10-07,16:00,Unknown,12,89362,Leones FC,89364,Barranquilla FC,,,notstarted,1791406800,2026-10-05
-17255665,Bolivia,División Profesional,16736,División Profesional,,2026-10-07,16:15,Unknown,22,268082,Club FC Universitario,396625,CD San Antonio,,,notstarted,1791407700,2026-10-05
+17255665,Bolivia,División Profesional,16736,División Profesional,,2026-10-07,16:15,Unknown,22,268082,Club FC Universitario,396625,CD San Antonio,,,postponed,1791407700,2026-10-05
 17034012,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-10-07,17:00,Unknown,4,89366,Boca Juniors de Cali,89376,Unión Magdalena,,,notstarted,1791410400,2026-10-05
 16461226,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-10-07,17:00,Unknown,13,89376,Unión Magdalena,1166437,Independiente Valle del Cauca,,,postponed,1791410400,2026-10-05
 17135972,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-10-07,17:30,Unknown,11,42338,Sarmiento,3211,River Plate,,,postponed,1791412200,2026-10-05
