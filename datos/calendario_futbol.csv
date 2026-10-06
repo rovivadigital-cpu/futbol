@@ -1,8 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15657953,China,Chinese League 1,782,Chinese League 1,,2026-10-06,06:30,Unknown,25,196341,Jiangxi Dingnan United,215186,Meizhou Hakka,,,notstarted,1791286200,2026-10-03
-15657952,China,Chinese League 1,782,Chinese League 1,,2026-10-06,06:30,Unknown,25,251278,Nantong Zhiyun,221238,Ningbo FC,,,notstarted,1791286200,2026-10-03
-15657954,China,Chinese League 1,782,Chinese League 1,,2026-10-06,06:30,Unknown,25,382024,Shijiazhuang Gongfu,508178,Dalian Kuncheng City,,,notstarted,1791286200,2026-10-03
-15534189,Europe,"UEFA Nations League, League C, Gr. 3",10783,"UEFA Nations League, League C, Gr. 3",,2026-10-06,09:00,Unknown,4,4772,Kazakhstan,4760,Faroe Islands,,,notstarted,1791295200,2026-10-04
 15534082,Europe,"UEFA Nations League, League A, Gr. 3",10783,"UEFA Nations League, League A, Gr. 3",,2026-10-06,13:45,Unknown,4,4715,Croatia,4698,Spain,,,notstarted,1791312300,2026-10-04
 15534091,Europe,"UEFA Nations League, League A, Gr. 3",10783,"UEFA Nations League, League A, Gr. 3",,2026-10-06,13:45,Unknown,4,4713,England,4714,Czechia,,,notstarted,1791312300,2026-10-04
 15534108,Europe,"UEFA Nations League, League B, Gr. 1",10783,"UEFA Nations League, League B, Gr. 1",,2026-10-06,13:45,Unknown,4,4695,Scotland,4484,Slovenia,,,notstarted,1791312300,2026-10-04
