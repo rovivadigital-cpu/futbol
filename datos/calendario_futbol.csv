@@ -1,12 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-16390769,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-10-05,19:00,Unknown,13,6115,Independiente Medellín,6116,Independiente Santa Fe,,,notstarted,1791244800,2026-10-03
-16654828,North & Central America,"CONCACAF Nations League, League A, Group B",14100,"CONCACAF Nations League, League A, Group B",,2026-10-05,19:00,Unknown,4,5163,Guatemala,21822,Suriname,,,notstarted,1791244800,2026-10-03
-17029019,North & Central America,"CONCACAF Nations League, League B, Group B",14100,"CONCACAF Nations League, League B, Group B",,2026-10-05,19:00,Unknown,4,4745,Bermuda,21808,Barbados,,,notstarted,1791244800,2026-10-03
-16654833,North & Central America,"CONCACAF Nations League, League B, Group C",14100,"CONCACAF Nations League, League B, Group C",,2026-10-05,19:00,Unknown,4,21814,Grenada,180236,Bonaire,,,notstarted,1791244800,2026-10-03
-16667349,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-10-05,19:15,Unknown,11,3219,Banfield,3217,Rosario Central,,,notstarted,1791245700,2026-10-03
-16461215,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-10-05,19:30,Unknown,12,213490,Orsomarso SC,6110,Deportes Quindío,,,notstarted,1791246600,2026-10-03
-17095647,Jamaica,Premier League,1892,Premier League,,2026-10-05,20:00,Unknown,4,173716,Arnett Gardens,124528,Portmore United FC,,,notstarted,1791248400,2026-10-03
-16654827,North & Central America,"CONCACAF Nations League, League A, Group B",14100,"CONCACAF Nations League, League A, Group B",,2026-10-05,21:00,Unknown,4,4827,Honduras,4769,Jamaica,,,notstarted,1791252000,2026-10-03
 15657951,China,Chinese League 1,782,Chinese League 1,,2026-10-06,06:00,Unknown,25,34694,Changchun Yatai,382025,Yanbian Longding,,,notstarted,1791284400,2026-10-03
 15657950,China,Chinese League 1,782,Chinese League 1,,2026-10-06,06:00,Unknown,25,382020,Wuxi Wugou,164044,Suzhou Dongwu,,,notstarted,1791284400,2026-10-03
 15657953,China,Chinese League 1,782,Chinese League 1,,2026-10-06,06:30,Unknown,25,196341,Jiangxi Dingnan United,215186,Meizhou Hakka,,,notstarted,1791286200,2026-10-03
@@ -63,3 +55,38 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15237995,Brazil,Campeonato Brasileiro Série A,325,Campeonato Brasileiro Série A,,2026-10-07,19:30,Unknown,29,1954,Cruzeiro,1981,São Paulo,,,notstarted,1791419400,2026-10-05
 15285628,USA,"USL, League One",13362,"USL, League One",,2026-10-07,19:30,Unknown,,284113,Corpus Christi FC,341749,Fort Wayne FC,,,notstarted,1791419400,2026-10-05
 16390777,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-10-07,20:20,Unknown,9,6106,Atlético Nacional,6111,Deportes Tolima,,,notstarted,1791422400,2026-10-05
+16985923,Finland,"Veikkausliiga, Championship Round",41,"Veikkausliiga, Championship Round",,2026-10-08,10:00,Unknown,,2242,HJK,2246,VPS,,,notstarted,1791471600,2026-10-06
+16985918,Finland,"Veikkausliiga, Championship Round",41,"Veikkausliiga, Championship Round",,2026-10-08,11:00,Unknown,,2244,Kuopion Palloseura,5114,AC Oulu,,,notstarted,1791475200,2026-10-06
+16721914,Romania,Superliga,152,Superliga,,2026-10-08,12:30,Unknown,4,5287,CFR 1907 Cluj,7734,FC Universitatea Cluj,,,notstarted,1791480600,2026-10-06
+16281142,Peru,"Liga 1, Clausura",406,"Liga 1, Clausura",,2026-10-08,13:00,Unknown,11,492848,CD Moquegua,2301,Cienciano,,,notstarted,1791482400,2026-10-06
+15238171,Ireland,Premier Division,192,Premier Division,,2026-10-08,14:00,Unknown,33,3177,Shamrock Rovers,3180,Drogheda United,,,notstarted,1791486000,2026-10-06
+17034021,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-10-08,15:30,Unknown,5,1166437,Independiente Valle del Cauca,89354,Tigres FC,,,notstarted,1791491400,2026-10-06
+16461230,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-10-08,15:30,Unknown,13,89362,Leones FC,61504,Patriotas Boyacá,,,postponed,1791491400,2026-10-06
+17164477,Jamaica,Premier League,1892,Premier League,,2026-10-08,15:30,Unknown,1,124528,Portmore United FC,173736,Waterhouse FC,,,notstarted,1791491400,2026-10-06
+16280839,Peru,"Liga 1, Clausura",406,"Liga 1, Clausura",,2026-10-08,15:30,Unknown,11,282538,Club Atlético Grau,252254,Los Chankas CYC,,,notstarted,1791491400,2026-10-06
+15237992,Brazil,Campeonato Brasileiro Série A,325,Campeonato Brasileiro Série A,,2026-10-08,17:30,Unknown,29,1968,Santos,5981,Flamengo,,,notstarted,1791498600,2026-10-06
+15526326,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-10-08,17:30,Unknown,32,2001,Ceará,1984,Criciúma,,,notstarted,1791498600,2026-10-06
+15526329,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-10-08,17:30,Unknown,32,2011,Náutico,135514,Grêmio Novorizontino,,,notstarted,1791498600,2026-10-06
+17034013,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-10-08,17:45,Unknown,5,89372,Atlético Cali,6119,Real Cartagena,,,notstarted,1791499500,2026-10-06
+15237997,Brazil,Campeonato Brasileiro Série A,325,Campeonato Brasileiro Série A,,2026-10-08,18:00,Unknown,29,1967,Athletico,1977,Atlético Mineiro,,,notstarted,1791500400,2026-10-06
+15237990,Brazil,Campeonato Brasileiro Série A,325,Campeonato Brasileiro Série A,,2026-10-08,19:30,Unknown,29,1961,Fluminense,1982,Coritiba,,,notstarted,1791505800,2026-10-06
+15237993,Brazil,Campeonato Brasileiro Série A,325,Campeonato Brasileiro Série A,,2026-10-08,19:30,Unknown,29,1963,Palmeiras,1955,Bahia,,,notstarted,1791505800,2026-10-06
+16390779,Colombia,"Liga DIMAYOR, Finalizacion",11539,"Liga DIMAYOR, Finalizacion",,2026-10-08,20:10,Unknown,14,89368,Fortaleza FC,6117,Millonarios,,,notstarted,1791508200,2026-10-06
+16317836,Costa Rica,"Primera División, Apertura",11535,"Primera División, Apertura",,2026-10-08,21:00,Unknown,10,531301,Inter San Carlos,6576,Municipal Pérez Zeledón,,,notstarted,1791511200,2026-10-06
+15373104,South Korea,K League 1,410,K League 1,,2026-10-09,00:00,Unknown,31,7645,Daejeon Hana Citizen,6908,Jeonbuk Hyundai Motors,,,notstarted,1791522000,2026-10-06
+15404002,South Korea,K-League 2,777,K-League 2,,2026-10-09,00:00,Unknown,28,41261,Suwon FC,195174,Hwaseong FC,,,notstarted,1791522000,2026-10-06
+15373103,South Korea,K League 1,410,K League 1,,2026-10-09,02:30,Unknown,31,34220,Gangwon FC,92539,Bucheon FC 1995,,,notstarted,1791531000,2026-10-06
+15373108,South Korea,K League 1,410,K League 1,,2026-10-09,02:30,Unknown,31,7648,Incheon United,7650,Pohang Steelers,,,notstarted,1791531000,2026-10-06
+15404000,South Korea,K-League 2,777,K-League 2,,2026-10-09,02:30,Unknown,28,314293,Cheongju FC,7651,Seongnam FC,,,notstarted,1791531000,2026-10-06
+15404003,South Korea,K-League 2,777,K-League 2,,2026-10-09,02:30,Unknown,28,195172,Gimpo FC,189422,Seoul E-Land FC,,,notstarted,1791531000,2026-10-06
+16774410,Indonesia,Indonesia Super League,1015,Indonesia Super League,,2026-10-09,03:30,Unknown,4,135866,Persik Kediri,86578,Madura United FC,,,notstarted,1791534600,2026-10-06
+16349271,Japan,J-League 3,2293,J-League 3,,2026-10-09,04:30,Unknown,10,189234,SC Sagamihara,38157,Kamatamare Sanuki,,,notstarted,1791538200,2026-10-06
+16348593,Japan,J1 League,196,J1 League,,2026-10-09,05:00,Unknown,9,3134,Kashima Antlers,3138,Gamba Osaka,,,notstarted,1791540000,2026-10-06
+16348603,Japan,J1 League,196,J1 League,,2026-10-09,05:00,Unknown,9,3140,Kashiwa Reysol,3146,Vissel Kobe,,,notstarted,1791540000,2026-10-06
+16349268,Japan,J-League 3,2293,J-League 3,,2026-10-09,05:00,Unknown,10,205600,FC Osaka,38138,Zweigen Kanazawa,,,notstarted,1791540000,2026-10-06
+15552642,China,Chinese Super League,649,Chinese Super League,,2026-10-09,06:35,Unknown,27,34695,Qingdao Hainiu,3376,Beijing Guoan,,,notstarted,1791545700,2026-10-06
+15552637,China,Chinese Super League,649,Chinese Super League,,2026-10-09,06:35,Unknown,27,281331,Shenzhen Peng City,34692,Henan FC,,,notstarted,1791545700,2026-10-06
+15552639,China,Chinese Super League,649,Chinese Super League,,2026-10-09,07:00,Unknown,27,34697,Zhejiang,41537,Shanghai Port,,,notstarted,1791547200,2026-10-06
+16774419,Indonesia,Indonesia Super League,1015,Indonesia Super League,,2026-10-09,07:00,Unknown,4,409975,Isenmulang Kalteng FC,76319,Persebaya Surabaya,,,notstarted,1791547200,2026-10-06
+16412957,Ukraine,Premier League,218,Premier League,,2026-10-09,07:30,Unknown,8,200773,NK Veres Rivne,3313,Shakhtar Donetsk,,,notstarted,1791549000,2026-10-06
+16653102,Saudi Arabia,Saudi Pro League,955,Saudi Pro League,,2026-10-09,08:50,Unknown,8,269199,Al-Kholood,56027,Al-Qadsiah,,,notstarted,1791553800,2026-10-06
