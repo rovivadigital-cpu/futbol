@@ -1,21 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15534082,Europe,"UEFA Nations League, League A, Gr. 3",10783,"UEFA Nations League, League A, Gr. 3",,2026-10-06,13:45,Unknown,4,4715,Croatia,4698,Spain,,,notstarted,1791312300,2026-10-04
-15534091,Europe,"UEFA Nations League, League A, Gr. 3",10783,"UEFA Nations League, League A, Gr. 3",,2026-10-06,13:45,Unknown,4,4713,England,4714,Czechia,,,notstarted,1791312300,2026-10-04
-15534108,Europe,"UEFA Nations League, League B, Gr. 1",10783,"UEFA Nations League, League B, Gr. 1",,2026-10-06,13:45,Unknown,4,4695,Scotland,4484,Slovenia,,,notstarted,1791312300,2026-10-04
-15534114,Europe,"UEFA Nations League, League B, Gr. 1",10783,"UEFA Nations League, League B, Gr. 1",,2026-10-06,13:45,Unknown,4,4699,Switzerland,4777,North Macedonia,,,notstarted,1791312300,2026-10-04
-15534144,Europe,"UEFA Nations League, League C, Gr. 1",10783,"UEFA Nations League, League C, Gr. 1",,2026-10-06,13:45,Unknown,4,4690,Albania,4833,San Marino,,,notstarted,1791312300,2026-10-04
-15534148,Europe,"UEFA Nations League, League C, Gr. 1",10783,"UEFA Nations League, League C, Gr. 1",,2026-10-06,13:45,Unknown,4,4743,Belarus,4712,Finland,,,notstarted,1791312300,2026-10-04
-15534198,Europe,"UEFA Nations League, League C, Gr. 3",10783,"UEFA Nations League, League C, Gr. 3",,2026-10-06,13:45,Unknown,4,4782,Moldova,4697,Slovakia,,,notstarted,1791312300,2026-10-04
-15534236,Europe,"UEFA Nations League, League C, Gr. 4",10783,"UEFA Nations League, League C, Gr. 4",,2026-10-06,13:45,Unknown,4,4759,Estonia,4708,Iceland,,,notstarted,1791312300,2026-10-04
-15537771,Europe,"UEFA Nations League, League C, Gr. 4",10783,"UEFA Nations League, League C, Gr. 4",,2026-10-06,13:45,Unknown,4,4478,Luxembourg,4716,Bulgaria,,,notstarted,1791312300,2026-10-04
-17018560,Africa,"Africa Cup of Nations, Qualification, Group B",1848,"Africa Cup of Nations, Qualification, Group B",,2026-10-06,14:00,Unknown,2,4692,Angola,8043,Malawi,,,notstarted,1791313200,2026-10-04
-16654836,North & Central America,"CONCACAF Nations League, League C, Group A",14100,"CONCACAF Nations League, League C, Group A",,2026-10-06,15:00,Unknown,3,21815,Montserrat,21823,Turks and Caicos Islands,,,notstarted,1791316800,2026-10-04
-16654838,North & Central America,"CONCACAF Nations League, League C, Group C",14100,"CONCACAF Nations League, League C, Group C",,2026-10-06,15:00,Unknown,3,33812,Saint Martin,21807,Bahamas,,,notstarted,1791316800,2026-10-04
-16588942,Paraguay,"Primera División, Clausura",11541,"Primera División, Clausura",,2026-10-06,15:00,Unknown,13,323510,Sportivo Ameliano,36438,Rubio Ñu,,,notstarted,1791316800,2026-10-04
-16654835,North & Central America,"CONCACAF Nations League, League B, Group D",14100,"CONCACAF Nations League, League B, Group D",,2026-10-06,16:00,Unknown,4,21821,Saint Vincent and the Grenadines,298263,Sint Maarten,,,notstarted,1791320400,2026-10-04
-16588922,Paraguay,"Primera División, Clausura",11541,"Primera División, Clausura",,2026-10-06,17:15,Unknown,13,5997,Olimpia,33001,Nacional Asunción,,,notstarted,1791324900,2026-10-04
-15526323,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-10-06,17:30,Unknown,32,1959,Sport Recife,47504,São Bernardo,,,notstarted,1791325800,2026-10-04
-16654837,North & Central America,"CONCACAF Nations League, League C, Group B",14100,"CONCACAF Nations League, League C, Group B",,2026-10-06,18:00,Unknown,3,21805,Antigua and Barbuda,21806,Aruba,,,notstarted,1791327600,2026-10-04
 15526327,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-10-06,18:30,Unknown,32,1960,Goiás,342775,Athletic Club,,,notstarted,1791329400,2026-10-04
 16547921,USA,MLS,242,MLS,,2026-10-06,19:30,Unknown,,2505,Chicago Fire,22010,Vancouver Whitecaps,,,notstarted,1791333000,2026-10-04
 15526322,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-10-06,19:35,Unknown,32,1969,Ponte Preta,1980,Juventude,,,notstarted,1791333300,2026-10-04
