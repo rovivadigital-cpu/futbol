@@ -1,6 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15657951,China,Chinese League 1,782,Chinese League 1,,2026-10-06,06:00,Unknown,25,34694,Changchun Yatai,382025,Yanbian Longding,,,notstarted,1791284400,2026-10-03
-15657950,China,Chinese League 1,782,Chinese League 1,,2026-10-06,06:00,Unknown,25,382020,Wuxi Wugou,164044,Suzhou Dongwu,,,notstarted,1791284400,2026-10-03
 15657953,China,Chinese League 1,782,Chinese League 1,,2026-10-06,06:30,Unknown,25,196341,Jiangxi Dingnan United,215186,Meizhou Hakka,,,notstarted,1791286200,2026-10-03
 15657952,China,Chinese League 1,782,Chinese League 1,,2026-10-06,06:30,Unknown,25,251278,Nantong Zhiyun,221238,Ningbo FC,,,notstarted,1791286200,2026-10-03
 15657954,China,Chinese League 1,782,Chinese League 1,,2026-10-06,06:30,Unknown,25,382024,Shijiazhuang Gongfu,508178,Dalian Kuncheng City,,,notstarted,1791286200,2026-10-03
