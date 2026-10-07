@@ -1,21 +1,7 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-17118209,Spain,"Primera Federacion, Group 2",17073,"Primera Federacion, Group 2",,2026-10-07,13:30,Unknown,5,24329,FC Cartagena,4487,Real Murcia,,,notstarted,1791397800,2026-10-05
-16461220,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-10-07,15:30,Unknown,13,89366,Boca Juniors de Cali,89372,Atlético Cali,,,postponed,1791405000,2026-10-05
-17161975,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-10-07,16:00,Unknown,12,89362,Leones FC,89364,Barranquilla FC,,,notstarted,1791406800,2026-10-05
-17255665,Bolivia,División Profesional,16736,División Profesional,,2026-10-07,16:15,Unknown,22,268082,Club FC Universitario,396625,CD San Antonio,,,postponed,1791407700,2026-10-05
-17034012,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-10-07,17:00,Unknown,4,89366,Boca Juniors de Cali,89376,Unión Magdalena,,,notstarted,1791410400,2026-10-05
 16461226,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-10-07,17:00,Unknown,13,89376,Unión Magdalena,1166437,Independiente Valle del Cauca,,,postponed,1791410400,2026-10-05
 17135972,Argentina,"Liga Profesional, Clausura",155,"Liga Profesional, Clausura",,2026-10-07,17:30,Unknown,11,42338,Sarmiento,3211,River Plate,,,postponed,1791412200,2026-10-05
-15237996,Brazil,Campeonato Brasileiro Série A,325,Campeonato Brasileiro Série A,,2026-10-07,17:30,Unknown,29,1966,Internacional,1957,Corinthians,,,notstarted,1791412200,2026-10-05
-15237994,Brazil,Campeonato Brasileiro Série A,325,Campeonato Brasileiro Série A,,2026-10-07,17:30,Unknown,29,1999,Red Bull Bragantino,21982,Mirassol,,,notstarted,1791412200,2026-10-05
-15237999,Brazil,Campeonato Brasileiro Série A,325,Campeonato Brasileiro Série A,,2026-10-07,17:30,Unknown,29,2012,Remo,5926,Grêmio,,,notstarted,1791412200,2026-10-05
-15526328,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-10-07,17:30,Unknown,32,7315,Avaí,2022,Londrina,,,notstarted,1791412200,2026-10-05
-15526325,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-10-07,17:30,Unknown,32,39634,Operário-PR,1979,Botafogo-SP,,,notstarted,1791412200,2026-10-05
-15237998,Brazil,Campeonato Brasileiro Série A,325,Campeonato Brasileiro Série A,,2026-10-07,18:00,Unknown,29,1962,Vitória,21845,Chapecoense,,,notstarted,1791414000,2026-10-05
 15502900,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-10-07,18:00,Unknown,1,309888,Pacific FC,313716,Forge FC,,,postponed,1791414000,2026-10-05
-15285630,USA,"USL, League One",13362,"USL, League One",,2026-10-07,18:00,Unknown,,1044341,FC Naples,23841,Richmond Kickers,,,notstarted,1791414000,2026-10-05
-15285629,USA,"USL, League One",13362,"USL, League One",,2026-10-07,18:00,Unknown,,407748,One Knoxville SC,312631,Chattanooga Red Wolves SC,,,notstarted,1791414000,2026-10-05
-17258203,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-10-07,18:00,Unknown,1,313716,Forge FC,309888,Pacific FC,,,notstarted,1791414000,2026-10-05
 15237991,Brazil,Campeonato Brasileiro Série A,325,Campeonato Brasileiro Série A,,2026-10-07,18:30,Unknown,29,1958,Botafogo,1974,Vasco da Gama,,,notstarted,1791415800,2026-10-05
 15526324,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-10-07,18:30,Unknown,32,1973,América Mineiro,2020,Fortaleza,,,notstarted,1791415800,2026-10-05
 15526330,Brazil,Brasileirão Série B,390,Brasileirão Série B,,2026-10-07,18:30,Unknown,32,22032,CRB,7314,Atlético Goianiense,,,notstarted,1791415800,2026-10-05
