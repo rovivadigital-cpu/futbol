@@ -1,5 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15657955,China,Chinese League 1,782,Chinese League 1,,2026-10-07,06:00,Unknown,25,510603,Shenzhen Juniors FC,510606,Guangdong GZ-Power,,,notstarted,1791370800,2026-10-04
 15657956,China,Chinese League 1,782,Chinese League 1,,2026-10-07,06:30,Unknown,25,508366,Foshan Nanshi,510605,Guangxi Hengchen FC,,,notstarted,1791372600,2026-10-04
 15657957,China,Chinese League 1,782,Chinese League 1,,2026-10-07,06:30,Unknown,25,369494,Nanjing City,510602,Shaanxi Union FC,,,notstarted,1791372600,2026-10-04
 15502891,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-10-07,10:00,Unknown,1,309890,Inter Toronto,1165894,FC Supra Du Quebec,,,notstarted,1791385200,2026-10-05
@@ -121,7 +120,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 16310967,France,Ligue 1,34,Ligue 1,,2026-10-09,13:45,Unknown,6,1648,RC Lens,1649,Olympique Lyonnais,,,notstarted,1791571500,2026-10-07
 15238167,Ireland,Premier Division,192,Premier Division,,2026-10-09,13:45,Unknown,33,3170,Derry City,3169,St. Patrick's Athletic,,,postponed,1791571500,2026-10-07
 15238169,Ireland,Premier Division,192,Premier Division,,2026-10-09,13:45,Unknown,33,3174,Shelbourne,3190,Sligo Rovers,,,notstarted,1791571500,2026-10-07
-15238170,Ireland,Premier Division,192,Premier Division,,2026-10-09,13:45,Unknown,33,3194,Waterford FC,137382,Galway United,,,notstarted,1791571500,2026-10-07
+15238170,Ireland,Premier Division,192,Premier Division,,2026-10-09,13:45,Unknown,33,3194,Waterford FC,137382,Galway United,,,postponed,1791571500,2026-10-07
 16391318,England,Championship,18,Championship,,2026-10-09,14:00,Unknown,9,37,West Ham United,1,Queens Park Rangers,,,notstarted,1791572400,2026-10-07
 16421062,Spain,LaLiga,8,LaLiga,,2026-10-09,14:00,Unknown,8,2830,Málaga CF,2814,Espanyol,,,notstarted,1791572400,2026-10-07
 16599892,Spain,"Primera Federacion, Group 2",17073,"Primera Federacion, Group 2",,2026-10-09,14:00,Unknown,7,24368,UD Ibiza,5069,Real Madrid Castilla U21,,,notstarted,1791572400,2026-10-07
