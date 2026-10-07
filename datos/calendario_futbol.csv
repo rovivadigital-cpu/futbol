@@ -1,8 +1,4 @@
 event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_time,round,round_number,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,status,start_timestamp,scrape_date
-15657956,China,Chinese League 1,782,Chinese League 1,,2026-10-07,06:30,Unknown,25,508366,Foshan Nanshi,510605,Guangxi Hengchen FC,,,notstarted,1791372600,2026-10-04
-15657957,China,Chinese League 1,782,Chinese League 1,,2026-10-07,06:30,Unknown,25,369494,Nanjing City,510602,Shaanxi Union FC,,,notstarted,1791372600,2026-10-04
-15502891,Canada,Canadian Premier League,13470,Canadian Premier League,,2026-10-07,10:00,Unknown,1,309890,Inter Toronto,1165894,FC Supra Du Quebec,,,notstarted,1791385200,2026-10-05
-16985920,Finland,"Veikkausliiga, Championship Round",41,"Veikkausliiga, Championship Round",,2026-10-07,11:00,Unknown,,2271,IF Gnistan,2247,Inter Turku,,,notstarted,1791388800,2026-10-05
 17118209,Spain,"Primera Federacion, Group 2",17073,"Primera Federacion, Group 2",,2026-10-07,13:30,Unknown,5,24329,FC Cartagena,4487,Real Murcia,,,notstarted,1791397800,2026-10-05
 16461220,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-10-07,15:30,Unknown,13,89366,Boca Juniors de Cali,89372,Atlético Cali,,,postponed,1791405000,2026-10-05
 17161975,Colombia,"Torneo DIMAYOR, Clausura",1238,"Torneo DIMAYOR, Clausura",,2026-10-07,16:00,Unknown,12,89362,Leones FC,89364,Barranquilla FC,,,notstarted,1791406800,2026-10-05
@@ -79,6 +75,7 @@ event_id,pais,liga,tourney_id,tourney_name,tourney_season,tourney_date,match_tim
 15341350,Finland,Ykkosliiga,55,Ykkosliiga,,2026-10-09,11:00,Unknown,26,23422,JäPS,2263,Jippo Joensuu,,,notstarted,1791561600,2026-10-07
 15341349,Finland,Ykkosliiga,55,Ykkosliiga,,2026-10-09,11:00,Unknown,26,2273,KäPa,5115,MP,,,notstarted,1791561600,2026-10-07
 16317025,Poland,Ekstraklasa,202,Ekstraklasa,,2026-10-09,11:00,Unknown,10,334956,Wieczysta Kraków,3122,Wisła Płock,,,notstarted,1791561600,2026-10-07
+17029342,Bosnia & Herzegovina,WWIN Liga BiH,222,WWIN Liga BiH,,2026-10-09,11:00,Unknown,9,6151,FK Velež Mostar,5239,NK Široki Brijeg,,,notstarted,1791561600,2026-10-07
 16412055,Austria,2. Liga,135,2. Liga,,2026-10-09,11:30,Unknown,8,2067,Kapfenberger SV,2108,Young Violets Austria Wien,,,notstarted,1791563400,2026-10-07
 16412051,Austria,2. Liga,135,2. Liga,,2026-10-09,11:30,Unknown,8,6281,SKU Amstetten,2113,FC Blau Weiss Linz,,,notstarted,1791563400,2026-10-07
 15514363,Estonia,Esiliiga,678,Esiliiga,,2026-10-09,11:30,Unknown,31,42740,Tartu JK Welco,37534,FC Elva,,,notstarted,1791563400,2026-10-07
